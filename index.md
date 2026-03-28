@@ -7,4 +7,9 @@ title: Daily Digest
 This site collects daily updates and summaries.
 
 ## Latest
-- [Today’s update](./daily/latest.md)
+
+- [Today’s update](./daily/latest)
+
+## Archive
+
+- [Browse all](./daily/)
