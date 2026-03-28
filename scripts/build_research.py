@@ -19,12 +19,8 @@ def html_escape(text: str) -> str:
 def render_item(item):
     authors = ", ".join(item.get("authors", [])) or "N/A"
     institutions = ", ".join(item.get("institution", [])) or "N/A"
-    keywords_list = item.get("keywords", [])
-    keywords = ", ".join(keywords_list) if keywords_list else "Not available"
     venue = item.get("venue", "") or "N/A"
-    source = item.get("source", "") or "N/A"
-
-    summary_html = "".join(f"<li>{html_escape(s)}</li>" for s in item.get("summary", []))
+    abstract_text = item.get("abstract", "") or "Abstract not available."
 
     return f"""
     <article class="card">
@@ -33,12 +29,10 @@ def render_item(item):
       <p><strong>Institution:</strong> {html_escape(institutions)}</p>
       <p><strong>Published:</strong> {html_escape(item.get('published', 'N/A'))}</p>
       <p><strong>Venue:</strong> {html_escape(venue)}</p>
-      <p><strong>Source:</strong> {html_escape(source)}</p>
-      <p><strong>Keywords:</strong> {html_escape(keywords)}</p>
       <p><strong>Method:</strong> {html_escape(item.get('method', 'N/A'))}</p>
       <div>
-        <strong>Summary:</strong>
-        <ul>{summary_html}</ul>
+        <strong>Abstract:</strong>
+        <p>{html_escape(abstract_text)}</p>
       </div>
     </article>
     """
