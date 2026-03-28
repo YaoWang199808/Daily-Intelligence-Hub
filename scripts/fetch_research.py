@@ -115,26 +115,16 @@ def classify_topic(item, topics_map):
     return best_topic if best_score > 0 else None
 
 
-def infer_method(item):
-    text = (item["title"] + " " + item["summary_raw"]).lower()
+def classify_method(text):
+    text = text.lower()
 
-    method_rules = [
-        ("deep learning", "Deep learning"),
-        ("machine learning", "Machine learning"),
-        ("finite element", "Finite element modeling"),
-        ("simulation", "Numerical simulation"),
-        ("experimental", "Experimental study"),
-        ("fiber optic", "Fiber optic sensing"),
-        ("distributed acoustic sensing", "Distributed acoustic sensing"),
-        ("guided wave", "Guided wave method"),
-        ("acoustic emission", "Acoustic emission method"),
-        ("lamb wave", "Lamb wave method"),
-    ]
-
-    hits = [label for key, label in method_rules if key in text]
-    if hits:
-        return ", ".join(dict.fromkeys(hits))
-    return "See abstract"
+    if "deep learning" in text or "neural network" in text:
+        return "Machine Learning"
+    if "finite element" in text or "simulation" in text:
+        return "Numerical Simulation"
+    if "experiment" in text or "experimental" in text:
+        return "Experimental"
+    return "Other"
 
 
 def infer_keywords(item, topic_name):
