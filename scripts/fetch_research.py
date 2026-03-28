@@ -5,6 +5,8 @@ import urllib.request
 import json
 import os
 import time
+import re
+import html
 
 from utils import (
     ROOT,
@@ -32,18 +34,43 @@ MAX_PER_JOURNAL = 10
 
 CROSSREF_ROWS_PER_JOURNAL = 300
 
+# Exact journals we care about + aliases for matching
+JOURNAL_ALIASES = {
+    "Automation in Construction": [
+        "automation in construction"
+    ],
+    "Mechanical Systems and Signal Processing": [
+        "mechanical systems and signal processing"
+    ],
+    "Measurement": [
+        "measurement"
+    ],
+    "Engineering Structures": [
+        "engineering structures"
+    ],
+    "Ultrasonics": [
+        "ultrasonics"
+    ],
+    "Tunnelling and Underground Space Technology": [
+        "tunnelling and underground space technology",
+        "tunneling and underground space technology"
+    ],
+    "Rock Mechanics and Rock Engineering": [
+        "rock mechanics and rock engineering"
+    ],
+}
 
-def normalized_journal_name(name: str) -> str:
-    return clean_text(name).lower()
+
+def normalized_text(text: str) -> str:
+    return clean_text(text).lower()
 
 
 def html_strip(text: str) -> str:
     if not text:
         return ""
-    import re
     text = re.sub(r"<[^>]+>", " ", text)
     text = re.sub(r"\s+", " ", text)
-    return text.strip()
+    return html.unescape(text).strip()
 
 
 def safe_json_request(url: str, headers=None, timeout=30):
@@ -53,6 +80,20 @@ def safe_json_request(url: str, headers=None, timeout=30):
     )
     with urllib.request.urlopen(req, timeout=timeout) as response:
         return json.loads(response.read().decode("utf-8"))
+
+
+def fetch_html(url: str, timeout=30):
+    try:
+        req = urllib.request.Request(
+            url,
+            headers={"User-Agent": "Mozilla/5.0"}
+        )
+        with urllib.request.urlopen(req, timeout=timeout) as response:
+            final_url = response.geturl()
+            content = response.read().decode("utf-8", errors="ignore")
+            return final_url, content
+    except Exception:
+        return url, ""
 
 
 def parse_crossref_date(item: dict) -> str:
@@ -103,9 +144,9 @@ def titles_match(a: str, b: str) -> bool:
 
 
 def journal_match(found_journal: str, target_journal: str) -> bool:
-    a = normalized_journal_name(found_journal)
-    b = normalized_journal_name(target_journal)
-    return a == b or a in b or b in a
+    f = normalized_text(found_journal)
+    aliases = JOURNAL_ALIASES.get(target_journal, [normalized_text(target_journal)])
+    return any(a == f or a in f or f in a for a in aliases)
 
 
 def query_crossref_for_journal(journal_name: str, rows: int = CROSSREF_ROWS_PER_JOURNAL):
@@ -167,7 +208,7 @@ def parse_crossref_item(item: dict):
         "published": published,
         "url": url,
         "authors": authors,
-        "institutions": institutions[:6],
+        "institutions": institutions[:8],
         "journal": journal
     }
 
@@ -239,8 +280,7 @@ def extract_institutions_from_s2(paper_obj):
             aff_clean = clean_text(str(aff))
             if aff_clean and aff_clean not in institutions:
                 institutions.append(aff_clean)
-
-    return institutions[:6]
+    return institutions[:8]
 
 
 def enrich_with_semantic_scholar(item):
@@ -252,20 +292,240 @@ def enrich_with_semantic_scholar(item):
     if not s2:
         s2 = query_semantic_scholar_by_title(item.get("title", ""))
 
-    # gentle rate limit
-    time.sleep(0.4)
+    time.sleep(0.35)
 
     if not s2:
         return {
             "citation_count": 0,
             "institutions": [],
-            "venue": ""
+            "journal": ""
         }
 
     return {
         "citation_count": int(s2.get("citationCount", 0) or 0),
         "institutions": extract_institutions_from_s2(s2),
-        "venue": clean_text(str(s2.get("venue", "")))
+        "journal": clean_text(str(s2.get("venue", "")))
+    }
+
+
+def extract_meta_tags(html_text: str):
+    """
+    Return dict: meta_name -> [values]
+    Supports both name="" and property=""
+    """
+    meta = {}
+    pattern = re.compile(
+        r'<meta\s+[^>]*(?:name|property)=["\']([^"\']+)["\'][^>]*content=["\']([^"\']*)["\'][^>]*>',
+        re.IGNORECASE
+    )
+    for key, value in pattern.findall(html_text):
+        key = key.strip().lower()
+        value = html.unescape(value.strip())
+        if key not in meta:
+            meta[key] = []
+        if value:
+            meta[key].append(value)
+    return meta
+
+
+def extract_jsonld_blocks(html_text: str):
+    blocks = re.findall(
+        r'<script[^>]*type=["\']application/ld\+json["\'][^>]*>(.*?)</script>',
+        html_text,
+        flags=re.IGNORECASE | re.DOTALL
+    )
+    objs = []
+    for block in blocks:
+        block = block.strip()
+        if not block:
+            continue
+        try:
+            obj = json.loads(block)
+            objs.append(obj)
+        except Exception:
+            continue
+    return objs
+
+
+def flatten_jsonld_objects(obj):
+    if isinstance(obj, list):
+        for x in obj:
+            yield from flatten_jsonld_objects(x)
+    elif isinstance(obj, dict):
+        yield obj
+        for v in obj.values():
+            yield from flatten_jsonld_objects(v)
+
+
+def pick_first_nonempty(candidates):
+    for x in candidates:
+        if x and clean_text(str(x)):
+            return clean_text(str(x))
+    return ""
+
+
+def extract_authors_from_page(meta, jsonlds):
+    authors = []
+
+    for v in meta.get("citation_author", []):
+        val = clean_text(v)
+        if val and val not in authors:
+            authors.append(val)
+
+    if authors:
+        return authors[:10]
+
+    for obj in jsonlds:
+        for node in flatten_jsonld_objects(obj):
+            if node.get("@type") in ["ScholarlyArticle", "Article", "NewsArticle"]:
+                a = node.get("author")
+                if isinstance(a, list):
+                    for item in a:
+                        if isinstance(item, dict):
+                            name = clean_text(item.get("name", ""))
+                            if name and name not in authors:
+                                authors.append(name)
+                elif isinstance(a, dict):
+                    name = clean_text(a.get("name", ""))
+                    if name and name not in authors:
+                        authors.append(name)
+
+    return authors[:10]
+
+
+def extract_institutions_from_page(meta, jsonlds):
+    institutions = []
+
+    for v in meta.get("citation_author_institution", []):
+        val = clean_text(v)
+        if val and val not in institutions:
+            institutions.append(val)
+
+    if institutions:
+        return institutions[:8]
+
+    for obj in jsonlds:
+        for node in flatten_jsonld_objects(obj):
+            if node.get("@type") in ["ScholarlyArticle", "Article", "NewsArticle"]:
+                authors = node.get("author")
+                if isinstance(authors, list):
+                    for a in authors:
+                        if isinstance(a, dict):
+                            aff = a.get("affiliation")
+                            if isinstance(aff, list):
+                                for item in aff:
+                                    if isinstance(item, dict):
+                                        name = clean_text(item.get("name", ""))
+                                        if name and name not in institutions:
+                                            institutions.append(name)
+                                    else:
+                                        name = clean_text(str(item))
+                                        if name and name not in institutions:
+                                            institutions.append(name)
+                            elif isinstance(aff, dict):
+                                name = clean_text(aff.get("name", ""))
+                                if name and name not in institutions:
+                                    institutions.append(name)
+                            elif aff:
+                                name = clean_text(str(aff))
+                                if name and name not in institutions:
+                                    institutions.append(name)
+
+    return institutions[:8]
+
+
+def extract_abstract_from_page(meta, jsonlds):
+    candidates = []
+    for key in [
+        "citation_abstract",
+        "dc.description",
+        "description",
+        "og:description",
+        "twitter:description"
+    ]:
+        candidates.extend(meta.get(key, []))
+
+    abstract_text = pick_first_nonempty(candidates)
+    if abstract_text:
+        return html_strip(abstract_text)
+
+    for obj in jsonlds:
+        for node in flatten_jsonld_objects(obj):
+            if node.get("@type") in ["ScholarlyArticle", "Article", "NewsArticle"]:
+                desc = pick_first_nonempty([
+                    node.get("description", ""),
+                    node.get("abstract", "")
+                ])
+                if desc:
+                    return html_strip(desc)
+
+    return ""
+
+
+def extract_journal_from_page(meta, jsonlds):
+    candidates = []
+    for key in [
+        "citation_journal_title",
+        "prism.publicationname",
+        "dc.source"
+    ]:
+        candidates.extend(meta.get(key, []))
+
+    journal_text = pick_first_nonempty(candidates)
+    if journal_text:
+        return journal_text
+
+    for obj in jsonlds:
+        for node in flatten_jsonld_objects(obj):
+            part_of = node.get("isPartOf")
+            if isinstance(part_of, dict):
+                name = clean_text(part_of.get("name", ""))
+                if name:
+                    return name
+
+    return ""
+
+
+def extract_published_from_page(meta, jsonlds):
+    candidates = []
+    for key in [
+        "citation_publication_date",
+        "prism.publicationdate",
+        "dc.date",
+        "article:published_time"
+    ]:
+        candidates.extend(meta.get(key, []))
+
+    date_text = pick_first_nonempty(candidates)
+    if date_text:
+        date_text = date_text[:10]
+        if len(date_text) == 10:
+            return date_text
+
+    for obj in jsonlds:
+        for node in flatten_jsonld_objects(obj):
+            date_published = clean_text(node.get("datePublished", ""))
+            if date_published:
+                return date_published[:10]
+
+    return ""
+
+
+def extract_page_metadata(url: str):
+    final_url, html_text = fetch_html(url)
+    if not html_text:
+        return {}
+
+    meta = extract_meta_tags(html_text)
+    jsonlds = extract_jsonld_blocks(html_text)
+
+    return {
+        "final_url": final_url,
+        "authors": extract_authors_from_page(meta, jsonlds),
+        "institutions": extract_institutions_from_page(meta, jsonlds),
+        "abstract": extract_abstract_from_page(meta, jsonlds),
+        "journal": extract_journal_from_page(meta, jsonlds),
+        "published": extract_published_from_page(meta, jsonlds),
     }
 
 
@@ -316,30 +576,43 @@ def classify_method(text: str):
 
 
 def build_final_item(raw_item):
-    institutions = raw_item.get("institutions", []) or []
-    venue = raw_item.get("journal", "")
-    citation_count = 0
+    page_meta = extract_page_metadata(raw_item.get("url", ""))
 
+    authors = raw_item.get("authors", []) or []
+    institutions = raw_item.get("institutions", []) or []
+    journal = raw_item.get("journal", "")
+    published = raw_item.get("published", "")
+    abstract_text = clean_text(raw_item.get("abstract_raw", ""))
+
+    # Prefer page extraction
+    if page_meta.get("authors"):
+        authors = page_meta["authors"]
+    if page_meta.get("institutions"):
+        institutions = page_meta["institutions"]
+    if page_meta.get("journal"):
+        journal = page_meta["journal"]
+    if page_meta.get("published"):
+        published = page_meta["published"]
+    if page_meta.get("abstract"):
+        abstract_text = page_meta["abstract"]
+
+    # Semantic Scholar mainly for citations + fallback institution/journal
     enriched = enrich_with_semantic_scholar(raw_item)
     citation_count = enriched.get("citation_count", 0)
 
     if not institutions:
         institutions = enriched.get("institutions", []) or []
 
-    if enriched.get("venue"):
-        venue = enriched["venue"]
+    if not journal and enriched.get("journal"):
+        journal = enriched["journal"]
 
-    if not institutions:
-        institutions = ["Not available from source"]
-
-    abstract_text = clean_text(raw_item.get("abstract_raw", ""))
     if not abstract_text:
         abstract_text = "Abstract not available."
 
     combined_text = " ".join([
         raw_item.get("title", ""),
-        raw_item.get("abstract_raw", ""),
-        raw_item.get("journal", "")
+        abstract_text,
+        journal
     ]).lower()
 
     method = classify_method(combined_text)
@@ -347,19 +620,18 @@ def build_final_item(raw_item):
     return {
         "id": raw_item["id"],
         "title": raw_item["title"],
-        "authors": raw_item.get("authors", [])[:8],
-        "institution": institutions[:6],
-        "published": raw_item.get("published", ""),
+        "authors": authors[:10],
+        "institution": institutions[:8],
+        "published": published,
         "abstract": abstract_text,
         "url": raw_item.get("url", ""),
-        "venue": venue,
+        "journal": journal,
         "citation_count": citation_count,
         "method": method
     }
 
 
 def select_items_for_journal(enriched_items):
-    # 1) newest papers this year
     new_items = sorted(
         [x for x in enriched_items if year_of(x["published"]) == CURRENT_YEAR],
         key=lambda x: x["published"],
@@ -368,7 +640,6 @@ def select_items_for_journal(enriched_items):
 
     selected_ids = {x["id"] for x in new_items}
 
-    # 2) earlier highly cited
     cited_candidates = [
         x for x in enriched_items
         if year_of(x["published"]) < CURRENT_YEAR and x["id"] not in selected_ids
@@ -381,7 +652,6 @@ def select_items_for_journal(enriched_items):
 
     selected_ids.update(x["id"] for x in cited_items)
 
-    # 3) fill up to MAX_PER_JOURNAL if still not enough
     filler_candidates = [
         x for x in enriched_items if x["id"] not in selected_ids
     ]
@@ -444,10 +714,8 @@ def main():
             local_titles.add(norm_title)
             deduped.append(item)
 
-        # enrich
         enriched_items = [build_final_item(x) for x in deduped]
 
-        # select final flat list
         final_items = select_items_for_journal(enriched_items)
         results_by_journal[journal_name] = final_items
 
