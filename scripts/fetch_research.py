@@ -4,6 +4,7 @@ import urllib.parse
 import urllib.request
 import json
 import os
+import time
 
 from utils import (
     ROOT,
@@ -27,8 +28,9 @@ LOOKBACK_YEARS = 8
 
 NEW_PER_JOURNAL = 5
 CITED_PER_JOURNAL = 5
+MAX_PER_JOURNAL = 10
 
-CROSSREF_ROWS_PER_JOURNAL = 120
+CROSSREF_ROWS_PER_JOURNAL = 300
 
 
 def normalized_journal_name(name: str) -> str:
@@ -72,6 +74,40 @@ def parse_crossref_date(item: dict) -> str:
     return ""
 
 
+def year_of(date_str: str) -> int:
+    if not date_str:
+        return 0
+    try:
+        return int(date_str[:4])
+    except Exception:
+        return 0
+
+
+def citation_sort_key(item):
+    return (
+        item.get("citation_count", 0),
+        item.get("published", "")
+    )
+
+
+def normalize_spaces(s: str) -> str:
+    return " ".join(clean_text(s).lower().split())
+
+
+def titles_match(a: str, b: str) -> bool:
+    na = normalize_spaces(a)
+    nb = normalize_spaces(b)
+    if not na or not nb:
+        return False
+    return na == nb or na in nb or nb in na
+
+
+def journal_match(found_journal: str, target_journal: str) -> bool:
+    a = normalized_journal_name(found_journal)
+    b = normalized_journal_name(target_journal)
+    return a == b or a in b or b in a
+
+
 def query_crossref_for_journal(journal_name: str, rows: int = CROSSREF_ROWS_PER_JOURNAL):
     from_date = (
         datetime.now(timezone.utc) - timedelta(days=365 * LOOKBACK_YEARS)
@@ -81,7 +117,7 @@ def query_crossref_for_journal(journal_name: str, rows: int = CROSSREF_ROWS_PER_
 
     url = (
         "https://api.crossref.org/works?"
-        f"query.container-title={encoded_journal}"
+        f"query={encoded_journal}"
         f"&filter=from-pub-date:{from_date},type:journal-article"
         f"&rows={rows}"
         "&sort=published"
@@ -121,7 +157,6 @@ def parse_crossref_item(item: dict):
                 institutions.append(aff_name)
 
     published = parse_crossref_date(item)
-
     item_id = f"doi:{doi.lower()}" if doi else f"url:{url}"
 
     return {
@@ -135,34 +170,6 @@ def parse_crossref_item(item: dict):
         "institutions": institutions[:6],
         "journal": journal
     }
-
-
-def year_of(date_str: str) -> int:
-    if not date_str:
-        return 0
-    try:
-        return int(date_str[:4])
-    except Exception:
-        return 0
-
-
-def citation_sort_key(item):
-    return (
-        item.get("citation_count", 0),
-        item.get("published", "")
-    )
-
-
-def normalize_spaces(s: str) -> str:
-    return " ".join(clean_text(s).lower().split())
-
-
-def titles_match(a: str, b: str) -> bool:
-    na = normalize_spaces(a)
-    nb = normalize_spaces(b)
-    if not na or not nb:
-        return False
-    return na == nb or na in nb or nb in na
 
 
 def query_semantic_scholar_by_doi(doi: str):
@@ -232,6 +239,7 @@ def extract_institutions_from_s2(paper_obj):
             aff_clean = clean_text(str(aff))
             if aff_clean and aff_clean not in institutions:
                 institutions.append(aff_clean)
+
     return institutions[:6]
 
 
@@ -243,6 +251,9 @@ def enrich_with_semantic_scholar(item):
 
     if not s2:
         s2 = query_semantic_scholar_by_title(item.get("title", ""))
+
+    # gentle rate limit
+    time.sleep(0.4)
 
     if not s2:
         return {
@@ -256,6 +267,52 @@ def enrich_with_semantic_scholar(item):
         "institutions": extract_institutions_from_s2(s2),
         "venue": clean_text(str(s2.get("venue", "")))
     }
+
+
+def classify_method(text: str):
+    experimental_keys = [
+        "experiment", "experimental", "laboratory", "specimen", "measured",
+        "measurement", "field test", "field experiment", "sensor", "testbed"
+    ]
+    numerical_keys = [
+        "simulation", "numerical", "finite element", "finite-element",
+        "fem", "modeling", "modelling", "comsol", "abaqus"
+    ]
+    ml_keys = [
+        "machine learning", "deep learning", "neural network", "cnn", "rnn",
+        "transformer", "random forest", "svm", "support vector machine",
+        "xgboost", "artificial intelligence", "transfer learning"
+    ]
+    theory_keys = [
+        "analytical", "theoretical", "closed-form", "derivation", "formula",
+        "mathematical model", "theory"
+    ]
+    review_keys = [
+        "review", "survey", "overview", "bibliometric", "state of the art"
+    ]
+
+    exp_hit = any(k in text for k in experimental_keys)
+    num_hit = any(k in text for k in numerical_keys)
+    ml_hit = any(k in text for k in ml_keys)
+    theory_hit = any(k in text for k in theory_keys)
+    review_hit = any(k in text for k in review_keys)
+
+    if review_hit:
+        return "Review / Survey"
+
+    count = sum([exp_hit, num_hit, ml_hit, theory_hit])
+
+    if count >= 2:
+        return "Hybrid"
+    if ml_hit:
+        return "Machine Learning"
+    if num_hit:
+        return "Numerical Simulation"
+    if exp_hit:
+        return "Experimental"
+    if theory_hit:
+        return "Analytical / Theoretical"
+    return "Other"
 
 
 def build_final_item(raw_item):
@@ -301,50 +358,46 @@ def build_final_item(raw_item):
     }
 
 
-def classify_method(text: str):
-    experimental_keys = [
-        "experiment", "experimental", "laboratory", "specimen", "measured",
-        "measurement", "field test", "field experiment", "sensor", "testbed"
-    ]
-    numerical_keys = [
-        "simulation", "numerical", "finite element", "finite-element",
-        "fem", "modeling", "modelling", "comsol", "abaqus"
-    ]
-    ml_keys = [
-        "machine learning", "deep learning", "neural network", "cnn", "rnn",
-        "transformer", "random forest", "svm", "support vector machine",
-        "xgboost", "artificial intelligence"
-    ]
-    theory_keys = [
-        "analytical", "theoretical", "closed-form", "derivation", "formula",
-        "mathematical model", "theory"
-    ]
-    review_keys = [
-        "review", "survey", "overview", "bibliometric", "state of the art"
-    ]
+def select_items_for_journal(enriched_items):
+    # 1) newest papers this year
+    new_items = sorted(
+        [x for x in enriched_items if year_of(x["published"]) == CURRENT_YEAR],
+        key=lambda x: x["published"],
+        reverse=True
+    )[:NEW_PER_JOURNAL]
 
-    exp_hit = any(k in text for k in experimental_keys)
-    num_hit = any(k in text for k in numerical_keys)
-    ml_hit = any(k in text for k in ml_keys)
-    theory_hit = any(k in text for k in theory_keys)
-    review_hit = any(k in text for k in review_keys)
+    selected_ids = {x["id"] for x in new_items}
 
-    if review_hit:
-        return "Review / Survey"
+    # 2) earlier highly cited
+    cited_candidates = [
+        x for x in enriched_items
+        if year_of(x["published"]) < CURRENT_YEAR and x["id"] not in selected_ids
+    ]
+    cited_items = sorted(
+        cited_candidates,
+        key=citation_sort_key,
+        reverse=True
+    )[:CITED_PER_JOURNAL]
 
-    count = sum([exp_hit, num_hit, ml_hit, theory_hit])
+    selected_ids.update(x["id"] for x in cited_items)
 
-    if count >= 2:
-        return "Hybrid"
-    if ml_hit:
-        return "Machine Learning"
-    if num_hit:
-        return "Numerical Simulation"
-    if exp_hit:
-        return "Experimental"
-    if theory_hit:
-        return "Analytical / Theoretical"
-    return "Other"
+    # 3) fill up to MAX_PER_JOURNAL if still not enough
+    filler_candidates = [
+        x for x in enriched_items if x["id"] not in selected_ids
+    ]
+    filler_items = sorted(
+        filler_candidates,
+        key=lambda x: x.get("published", ""),
+        reverse=True
+    )
+
+    combined_items = new_items + cited_items
+    for item in filler_items:
+        if len(combined_items) >= MAX_PER_JOURNAL:
+            break
+        combined_items.append(item)
+
+    return combined_items[:MAX_PER_JOURNAL]
 
 
 def main():
@@ -353,7 +406,6 @@ def main():
     journals = load_json(JOURNALS_FILE, [])
     seen = load_json(SEEN_FILE, {"featured_ids": [], "featured_titles": []})
 
-    selected_journals = {normalized_journal_name(j) for j in journals}
     featured_ids = set(seen.get("featured_ids", []))
     featured_titles = set(seen.get("featured_titles", []))
 
@@ -362,16 +414,16 @@ def main():
     newly_featured_titles = []
 
     for journal_name in journals:
-        items = query_crossref_for_journal(journal_name, rows=CROSSREF_ROWS_PER_JOURNAL)
+        raw_items = query_crossref_for_journal(journal_name, rows=CROSSREF_ROWS_PER_JOURNAL)
 
         parsed_items = []
-        for raw in items:
+        for raw in raw_items:
             parsed = parse_crossref_item(raw)
 
             if not parsed["title"] or not parsed["url"] or not parsed["published"]:
                 continue
 
-            if normalized_journal_name(parsed["journal"]) not in selected_journals:
+            if not journal_match(parsed["journal"], journal_name):
                 continue
 
             norm_title = normalize_title(parsed["title"])
@@ -392,44 +444,19 @@ def main():
             local_titles.add(norm_title)
             deduped.append(item)
 
-        # enrich once
+        # enrich
         enriched_items = [build_final_item(x) for x in deduped]
 
-        new_items = sorted(
-            [x for x in enriched_items if year_of(x["published"]) == CURRENT_YEAR],
-            key=lambda x: x["published"],
-            reverse=True
-        )[:NEW_PER_JOURNAL]
-
-        selected_ids = {x["id"] for x in new_items}
-
-        cited_candidates = [
-            x for x in enriched_items
-            if year_of(x["published"]) < CURRENT_YEAR and x["id"] not in selected_ids
-        ]
-        cited_items = sorted(
-            cited_candidates,
-            key=citation_sort_key,
-            reverse=True
-        )[:CITED_PER_JOURNAL]
-
-        final_items = {
-            "new": new_items,
-            "cited": cited_items
-        }
+        # select final flat list
+        final_items = select_items_for_journal(enriched_items)
         results_by_journal[journal_name] = final_items
 
-        for bucket in ["new", "cited"]:
-            for item in final_items[bucket]:
-                norm_title = normalize_title(item["title"])
-                newly_featured_ids.append(item["id"])
-                newly_featured_titles.append(norm_title)
+        for item in final_items:
+            norm_title = normalize_title(item["title"])
+            newly_featured_ids.append(item["id"])
+            newly_featured_titles.append(norm_title)
 
-    all_empty = True
-    for payload in results_by_journal.values():
-        if payload.get("new") or payload.get("cited"):
-            all_empty = False
-            break
+    all_empty = all(len(items) == 0 for items in results_by_journal.values())
 
     if all_empty:
         print("No new journal items found. Falling back to the latest previous non-empty daily file.")
@@ -440,8 +467,8 @@ def main():
             prev = load_json(f, {})
             prev_journals = prev.get("journals", {})
             has_any = False
-            for payload in prev_journals.values():
-                if payload.get("new") or payload.get("cited"):
+            for items in prev_journals.values():
+                if len(items) > 0:
                     has_any = True
                     break
             if has_any:
