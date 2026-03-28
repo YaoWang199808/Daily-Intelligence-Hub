@@ -666,20 +666,18 @@ def main():
             raw_items.extend(
                 query_crossref_for_journal_issn(issn, rows=CROSSREF_ROWS_PER_JOURNAL)
             )
-
+    
         parsed_items = []
         for raw in raw_items:
             parsed = parse_crossref_item(raw)
-
+    
             if not parsed["title"] or not parsed["url"] or not parsed["published"]:
                 continue
-
-            # ISSN filter should already be exact; this is just a sanity check.
-            
+    
             norm_title = normalize_title(parsed["title"])
             if parsed["id"] in featured_ids or norm_title in featured_titles:
                 continue
-
+    
             parsed_items.append(parsed)
 
         # local dedup
