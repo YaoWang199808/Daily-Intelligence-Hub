@@ -659,10 +659,13 @@ def main():
 
     for journal_cfg in journals:
         target_name = journal_cfg["name"]
-        target_issn = journal_cfg["issn"]
-        target_aliases = journal_cfg.get("aliases", [target_name])
-
-        raw_items = query_crossref_for_journal_issn(target_issn, rows=CROSSREF_ROWS_PER_JOURNAL)
+        target_issns = journal_cfg["issns"]
+    
+        raw_items = []
+        for issn in target_issns:
+            raw_items.extend(
+                query_crossref_for_journal_issn(issn, rows=CROSSREF_ROWS_PER_JOURNAL)
+            )
 
         parsed_items = []
         for raw in raw_items:
