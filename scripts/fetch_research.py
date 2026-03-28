@@ -383,34 +383,34 @@ for entry in entries:
 
     topic_candidates.append(item)
 
-        unique_topic_items = []
-        local_ids = set()
-        local_titles = set()
+    unique_topic_items = []
+    local_ids = set()
+    local_titles = set()
 
-        for item in topic_candidates:
-            norm_title = normalize_title(item["title"])
-            if item["id"] in local_ids or norm_title in local_titles:
-                continue
-            local_ids.add(item["id"])
-            local_titles.add(norm_title)
-            unique_topic_items.append(item)
+    for item in topic_candidates:
+        norm_title = normalize_title(item["title"])
+        if item["id"] in local_ids or norm_title in local_titles:
+            continue
+        local_ids.add(item["id"])
+        local_titles.add(norm_title)
+        unique_topic_items.append(item)
 
-        unique_topic_items = sorted(
-            unique_topic_items,
-            key=lambda x: x["published"],
-            reverse=True
-        )[:MAX_PER_TOPIC]
+    unique_topic_items = sorted(
+        unique_topic_items,
+        key=lambda x: x["published"],
+        reverse=True
+    )[:MAX_PER_TOPIC]
 
-        results_by_topic[topic_name] = unique_topic_items
+    results_by_topic[topic_name] = unique_topic_items
 
-        for item in unique_topic_items:
-            norm_title = normalize_title(item["title"])
-            added_ids.append(item["id"])
-            added_titles.append(norm_title)
+    for item in unique_topic_items:
+        norm_title = normalize_title(item["title"])
+        added_ids.append(item["id"])
+        added_titles.append(norm_title)
 
-    seen["seen_ids"] = sorted(list(set(seen_ids.union(added_ids))))
-    seen["seen_titles"] = sorted(list(set(seen_titles.union(added_titles))))
-    save_json(SEEN_FILE, seen)
+seen["seen_ids"] = sorted(list(set(seen_ids.union(added_ids))))
+seen["seen_titles"] = sorted(list(set(seen_titles.union(added_titles))))
+save_json(SEEN_FILE, seen)
 
 # Fallback: if today is empty, reuse last available data
 all_empty = all(len(v) == 0 for v in results_by_topic.values())
