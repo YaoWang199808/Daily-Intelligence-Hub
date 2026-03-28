@@ -34,7 +34,7 @@ MAX_PER_JOURNAL = 10
 
 CROSSREF_ROWS_PER_JOURNAL = 300
 
-# Exact journals we care about + aliases for matching
+# 期刊别名，做“严格验证”
 JOURNAL_ALIASES = {
     "Automation in Construction": [
         "automation in construction"
@@ -82,7 +82,7 @@ def safe_json_request(url: str, headers=None, timeout=30):
         return json.loads(response.read().decode("utf-8"))
 
 
-def fetch_html(url: str, timeout=30):
+def fetch_html(url: str, timeout=25):
     try:
         req = urllib.request.Request(
             url,
@@ -144,9 +144,9 @@ def titles_match(a: str, b: str) -> bool:
 
 
 def journal_match(found_journal: str, target_journal: str) -> bool:
-    f = normalized_text(found_journal)
+    found = normalized_text(found_journal)
     aliases = JOURNAL_ALIASES.get(target_journal, [normalized_text(target_journal)])
-    return any(a == f or a in f or f in a for a in aliases)
+    return any(found == a for a in aliases)
 
 
 def query_crossref_for_journal(journal_name: str, rows: int = CROSSREF_ROWS_PER_JOURNAL):
@@ -280,6 +280,7 @@ def extract_institutions_from_s2(paper_obj):
             aff_clean = clean_text(str(aff))
             if aff_clean and aff_clean not in institutions:
                 institutions.append(aff_clean)
+
     return institutions[:8]
 
 
@@ -297,34 +298,48 @@ def enrich_with_semantic_scholar(item):
     if not s2:
         return {
             "citation_count": 0,
-            "institutions": [],
-            "journal": ""
+            "institutions": []
         }
 
     return {
         "citation_count": int(s2.get("citationCount", 0) or 0),
-        "institutions": extract_institutions_from_s2(s2),
-        "journal": clean_text(str(s2.get("venue", "")))
+        "institutions": extract_institutions_from_s2(s2)
     }
 
 
 def extract_meta_tags(html_text: str):
     """
-    Return dict: meta_name -> [values]
-    Supports both name="" and property=""
+    More robust meta parser:
+    supports name/content or property/content regardless of order.
     """
     meta = {}
-    pattern = re.compile(
-        r'<meta\s+[^>]*(?:name|property)=["\']([^"\']+)["\'][^>]*content=["\']([^"\']*)["\'][^>]*>',
-        re.IGNORECASE
-    )
-    for key, value in pattern.findall(html_text):
-        key = key.strip().lower()
-        value = html.unescape(value.strip())
-        if key not in meta:
-            meta[key] = []
-        if value:
-            meta[key].append(value)
+
+    patterns = [
+        re.compile(
+            r'<meta\s+[^>]*(?:name|property)=["\']([^"\']+)["\'][^>]*content=["\']([^"\']*)["\'][^>]*>',
+            re.IGNORECASE
+        ),
+        re.compile(
+            r'<meta\s+[^>]*content=["\']([^"\']*)["\'][^>]*(?:name|property)=["\']([^"\']+)["\'][^>]*>',
+            re.IGNORECASE
+        ),
+    ]
+
+    for pattern in patterns:
+        for m in pattern.findall(html_text):
+            if len(m) != 2:
+                continue
+            if pattern is patterns[0]:
+                key, value = m
+            else:
+                value, key = m
+            key = key.strip().lower()
+            value = html.unescape(value.strip())
+            if key not in meta:
+                meta[key] = []
+            if value:
+                meta[key].append(value)
+
     return meta
 
 
@@ -340,8 +355,7 @@ def extract_jsonld_blocks(html_text: str):
         if not block:
             continue
         try:
-            obj = json.loads(block)
-            objs.append(obj)
+            objs.append(json.loads(block))
         except Exception:
             continue
     return objs
@@ -498,9 +512,7 @@ def extract_published_from_page(meta, jsonlds):
 
     date_text = pick_first_nonempty(candidates)
     if date_text:
-        date_text = date_text[:10]
-        if len(date_text) == 10:
-            return date_text
+        return date_text[:10]
 
     for obj in jsonlds:
         for node in flatten_jsonld_objects(obj):
@@ -529,53 +541,8 @@ def extract_page_metadata(url: str):
     }
 
 
-def classify_method(text: str):
-    experimental_keys = [
-        "experiment", "experimental", "laboratory", "specimen", "measured",
-        "measurement", "field test", "field experiment", "sensor", "testbed"
-    ]
-    numerical_keys = [
-        "simulation", "numerical", "finite element", "finite-element",
-        "fem", "modeling", "modelling", "comsol", "abaqus"
-    ]
-    ml_keys = [
-        "machine learning", "deep learning", "neural network", "cnn", "rnn",
-        "transformer", "random forest", "svm", "support vector machine",
-        "xgboost", "artificial intelligence", "transfer learning"
-    ]
-    theory_keys = [
-        "analytical", "theoretical", "closed-form", "derivation", "formula",
-        "mathematical model", "theory"
-    ]
-    review_keys = [
-        "review", "survey", "overview", "bibliometric", "state of the art"
-    ]
-
-    exp_hit = any(k in text for k in experimental_keys)
-    num_hit = any(k in text for k in numerical_keys)
-    ml_hit = any(k in text for k in ml_keys)
-    theory_hit = any(k in text for k in theory_keys)
-    review_hit = any(k in text for k in review_keys)
-
-    if review_hit:
-        return "Review / Survey"
-
-    count = sum([exp_hit, num_hit, ml_hit, theory_hit])
-
-    if count >= 2:
-        return "Hybrid"
-    if ml_hit:
-        return "Machine Learning"
-    if num_hit:
-        return "Numerical Simulation"
-    if exp_hit:
-        return "Experimental"
-    if theory_hit:
-        return "Analytical / Theoretical"
-    return "Other"
-
-
 def build_final_item(raw_item):
+    # Page extraction first
     page_meta = extract_page_metadata(raw_item.get("url", ""))
 
     authors = raw_item.get("authors", []) or []
@@ -584,7 +551,6 @@ def build_final_item(raw_item):
     published = raw_item.get("published", "")
     abstract_text = clean_text(raw_item.get("abstract_raw", ""))
 
-    # Prefer page extraction
     if page_meta.get("authors"):
         authors = page_meta["authors"]
     if page_meta.get("institutions"):
@@ -596,15 +562,13 @@ def build_final_item(raw_item):
     if page_meta.get("abstract"):
         abstract_text = page_meta["abstract"]
 
-    # Semantic Scholar mainly for citations + fallback institution/journal
+    # Strict validation: page journal must match target later in main()
+    # Here only enrich citations / fallback institution
     enriched = enrich_with_semantic_scholar(raw_item)
     citation_count = enriched.get("citation_count", 0)
 
     if not institutions:
         institutions = enriched.get("institutions", []) or []
-
-    if not journal and enriched.get("journal"):
-        journal = enriched["journal"]
 
     if not abstract_text:
         abstract_text = "Abstract not available."
@@ -683,8 +647,8 @@ def main():
     newly_featured_ids = []
     newly_featured_titles = []
 
-    for journal_name in journals:
-        raw_items = query_crossref_for_journal(journal_name, rows=CROSSREF_ROWS_PER_JOURNAL)
+    for target_journal in journals:
+        raw_items = query_crossref_for_journal(target_journal, rows=CROSSREF_ROWS_PER_JOURNAL)
 
         parsed_items = []
         for raw in raw_items:
@@ -693,7 +657,8 @@ def main():
             if not parsed["title"] or not parsed["url"] or not parsed["published"]:
                 continue
 
-            if not journal_match(parsed["journal"], journal_name):
+            # first pass journal validation on Crossref metadata
+            if not journal_match(parsed["journal"], target_journal):
                 continue
 
             norm_title = normalize_title(parsed["title"])
@@ -714,10 +679,18 @@ def main():
             local_titles.add(norm_title)
             deduped.append(item)
 
-        enriched_items = [build_final_item(x) for x in deduped]
+        # build + second pass strict journal validation using page-extracted journal if available
+        enriched_items = []
+        for item in deduped:
+            built = build_final_item(item)
+            # If page extracted / final journal exists, require it to still match target journal
+            final_journal = built.get("journal", "") or item.get("journal", "")
+            if not journal_match(final_journal, target_journal):
+                continue
+            enriched_items.append(built)
 
         final_items = select_items_for_journal(enriched_items)
-        results_by_journal[journal_name] = final_items
+        results_by_journal[target_journal] = final_items
 
         for item in final_items:
             norm_title = normalize_title(item["title"])
