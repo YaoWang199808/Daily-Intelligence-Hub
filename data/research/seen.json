@@ -1,4 +1,28 @@
 {
-  "featured_ids": [],
-  "featured_titles": []
+  "featured_ids": [
+    "arxiv:2507.15376v1",
+    "arxiv:2511.17902v2",
+    "arxiv:2511.21249v1",
+    "arxiv:2512.05830v1",
+    "arxiv:2602.12591v1",
+    "doi:10.1016/j.ultras.2026.108006",
+    "doi:10.1016/j.ultras.2026.108007",
+    "doi:10.1016/j.ultras.2026.108008",
+    "doi:10.1016/j.ultras.2026.108038",
+    "doi:10.1016/j.ultras.2026.108048",
+    "doi:10.1016/j.ultras.2026.108057"
+  ],
+  "featured_titles": [
+    "a rapid multi defect imaging method for composite plates using air coupled ultrasonic guided waves based on multi scale interactive siamese network",
+    "acoustic emission characteristics of the brittle ductile transition for unsaturated rock during drilling process with confining pressures",
+    "counter directional mixing of longitudinal guided waves for fatigue damage detection in pipes",
+    "depth detection of guardrail posts based on guided waves and sparse bayesian learning",
+    "effect of initial shear stress on acoustoelastic guided waves in plates",
+    "micro discharge evolution in constant voltage bipolar peo process on zl101 al si alloy monitored by acoustic emission technique",
+    "monitoring and regulation of micro displacement deviation in few mode beam alignment through mode decomposition",
+    "nanosecond latency all optical fiber sensing with in sensor computing",
+    "phase otdr event detection using image based data transformation and deep learning",
+    "statistically guided dual domain meta learning with adaptive multi prototype aggregation for distributed fiber optic sensing",
+    "vehicle behaviour estimation for abnormal event detection using distributed fiber optic sensing"
+  ]
 }
