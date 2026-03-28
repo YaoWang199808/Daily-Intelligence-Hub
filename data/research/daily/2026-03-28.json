@@ -1,172 +1,960 @@
 {
   "date": "2026-03-28",
   "journals": {
-    "Automation in Construction": {
-      "new": [
-        {
-          "id": "doi:10.1016/j.autcon.2026.106924",
-          "title": "Tunnel scanner: Geometry-informed synthetic point cloud generation and transfer learning for tunnel segmentation",
-          "authors": [
-            "Wanru Yang",
-            "Wei Lin",
-            "Yixiong Jing",
-            "Thomas Hill",
-            "Olaf Wysocki",
-            "Brian Sheil"
-          ],
-          "institution": [
-            "Not available from source"
-          ],
-          "published": "2026-07-01",
-          "abstract": "Abstract not available.",
-          "url": "https://doi.org/10.1016/j.autcon.2026.106924",
-          "venue": "Automation in Construction",
-          "citation_count": 0,
-          "method": "Other"
-        }
-      ],
-      "cited": []
-    },
-    "Mechanical Systems and Signal Processing": {
-      "new": [],
-      "cited": []
-    },
-    "Nature": {
-      "new": [],
-      "cited": []
-    },
-    "Science": {
-      "new": [],
-      "cited": []
-    },
-    "NDT & E International": {
-      "new": [],
-      "cited": []
-    },
-    "Measurement": {
-      "new": [],
-      "cited": []
-    },
-    "Engineering Structures": {
-      "new": [],
-      "cited": []
-    },
-    "Ultrasonics": {
-      "new": [
-        {
-          "id": "doi:10.1016/j.ultras.2026.108051",
-          "title": "Design and experimental study of an ultrasonic assisted igniter for enclosed environments",
-          "authors": [
-            "Dongyu Si",
-            "Liming Di",
-            "Jiayi Tian",
-            "Zhengtian Ren",
-            "Zhiqi Yao",
-            "Jingwei Cao"
-          ],
-          "institution": [
-            "Not available from source"
-          ],
-          "published": "2026-09-01",
-          "abstract": "Abstract not available.",
-          "url": "https://doi.org/10.1016/j.ultras.2026.108051",
-          "venue": "Ultrasonics",
-          "citation_count": 0,
-          "method": "Experimental"
-        },
-        {
-          "id": "doi:10.1016/j.ultras.2026.108053",
-          "title": "Self-supervised learning-aided ultrasonic testing for overcoming long-tail problems in stress–strain curve prediction",
-          "authors": [
-            "Dahuin Jung",
-            "Seong-Hyun Park"
-          ],
-          "institution": [
-            "Not available from source"
-          ],
-          "published": "2026-09-01",
-          "abstract": "Abstract not available.",
-          "url": "https://doi.org/10.1016/j.ultras.2026.108053",
-          "venue": "Ultrasonics",
-          "citation_count": 0,
-          "method": "Other"
-        },
-        {
-          "id": "doi:10.1016/j.ultras.2026.108057",
-          "title": "Counter-directional mixing of longitudinal guided waves for fatigue damage detection in pipes",
-          "authors": [
-            "Wujun Zhu",
-            "Junyu Gu",
-            "Yanxun Xiang",
-            "Taotao Ding",
-            "Fu-Zhen Xuan"
-          ],
-          "institution": [
-            "Not available from source"
-          ],
-          "published": "2026-09-01",
-          "abstract": "Abstract not available.",
-          "url": "https://doi.org/10.1016/j.ultras.2026.108057",
-          "venue": "Ultrasonics",
-          "citation_count": 0,
-          "method": "Other"
-        },
-        {
-          "id": "doi:10.1016/j.ultras.2026.108075",
-          "title": "Restoration of autophagy-lysosomal function via transcranial focused ultrasound stimulation ameliorates <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" altimg=\"si9.svg\" display=\"inline\" id=\"d1e177\"> <mml:mi mathvariant=\"normal\">β</mml:mi> </mml:math> -amyloid pathology and cognitive deficits in an Alzheimer’s disease model",
-          "authors": [
-            "Mengke Wang",
-            "Baochen Zhang",
-            "Renhao Guo",
-            "Haiqin Wang",
-            "Di Wu",
-            "Xiaoqian Peng",
-            "Hongsong Guo",
-            "Jiawei Duan"
-          ],
-          "institution": [
-            "Not available from source"
-          ],
-          "published": "2026-09-01",
-          "abstract": "Abstract not available.",
-          "url": "https://doi.org/10.1016/j.ultras.2026.108075",
-          "venue": "Ultrasonics",
-          "citation_count": 0,
-          "method": "Other"
-        },
-        {
-          "id": "doi:10.1016/j.ultras.2026.108077",
-          "title": "A spatiotemporal structural-feature non-local means denoising approach for contrast-free ultrasound microvascular imaging",
-          "authors": [
-            "Xiao Su",
-            "Haotian Wang",
-            "Yichen Yan",
-            "Hanbing Chu",
-            "Yiran Chen",
-            "Yueyuan Wang",
-            "Yujin Zong",
-            "Mingxi Wan"
-          ],
-          "institution": [
-            "Not available from source"
-          ],
-          "published": "2026-09-01",
-          "abstract": "Abstract not available.",
-          "url": "https://doi.org/10.1016/j.ultras.2026.108077",
-          "venue": "Ultrasonics",
-          "citation_count": 0,
-          "method": "Other"
-        }
-      ],
-      "cited": []
-    },
-    "Rock Mechanics and Rock Engineering": {
-      "new": [],
-      "cited": []
-    },
-    "Tunnelling and Underground Space Technology": {
-      "new": [],
-      "cited": []
-    }
+    "Automation in Construction": [
+      {
+        "id": "doi:10.1016/j.autcon.2026.106924",
+        "title": "Tunnel scanner: Geometry-informed synthetic point cloud generation and transfer learning for tunnel segmentation",
+        "authors": [
+          "Wanru Yang",
+          "Wei Lin",
+          "Yixiong Jing",
+          "Thomas Hill",
+          "Olaf Wysocki",
+          "Brian Sheil"
+        ],
+        "institution": [
+          "Not available from source"
+        ],
+        "published": "2026-07-01",
+        "abstract": "Abstract not available.",
+        "url": "https://doi.org/10.1016/j.autcon.2026.106924",
+        "venue": "Automation in Construction",
+        "citation_count": 0,
+        "method": "Machine Learning"
+      },
+      {
+        "id": "doi:10.1016/j.autcon.2026.106909",
+        "title": "Sustainable road infrastructure operation via intelligent UAV inspection systems: Trends, challenges, and research opportunities",
+        "authors": [
+          "Wei Li",
+          "Muhammad Talha",
+          "Leilei Chen",
+          "Yitao Song",
+          "Ruipeng Chen",
+          "Zhendong Qian"
+        ],
+        "institution": [
+          "Not available from source"
+        ],
+        "published": "2026-07-01",
+        "abstract": "Abstract not available.",
+        "url": "https://doi.org/10.1016/j.autcon.2026.106909",
+        "venue": "Automation in Construction",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "doi:10.1016/j.autcon.2026.106896",
+        "title": "LLM-driven multi-agent framework for enhancing human-digital twin interaction in built infrastructure management",
+        "authors": [
+          "Linjun Lu",
+          "Peihang Luo",
+          "Brian Sheil",
+          "Ioannis Brilakis"
+        ],
+        "institution": [
+          "Not available from source"
+        ],
+        "published": "2026-07-01",
+        "abstract": "Abstract not available.",
+        "url": "https://doi.org/10.1016/j.autcon.2026.106896",
+        "venue": "Automation in Construction",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "doi:10.1016/j.autcon.2026.106878",
+        "title": "Integrating spatial and structural considerations in floor plan transformations of historic masonry buildings",
+        "authors": [
+          "Daniele M.S. Paulino",
+          "Corentin Fivet",
+          "Heather Ligler",
+          "Rebecca Napolitano"
+        ],
+        "institution": [
+          "Not available from source"
+        ],
+        "published": "2026-07-01",
+        "abstract": "Abstract not available.",
+        "url": "https://doi.org/10.1016/j.autcon.2026.106878",
+        "venue": "Automation in Construction",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "doi:10.1016/j.autcon.2026.106910",
+        "title": "Reliable LLM-driven BIM automation through capability-based multi-dimensional evaluation",
+        "authors": [
+          "Zaid Alwashah",
+          "Bo Xiao",
+          "Hexu Liu",
+          "Shane T. Mueller",
+          "Xiaoyun Shao"
+        ],
+        "institution": [
+          "Not available from source"
+        ],
+        "published": "2026-07-01",
+        "abstract": "Abstract not available.",
+        "url": "https://doi.org/10.1016/j.autcon.2026.106910",
+        "venue": "Automation in Construction",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "doi:10.1016/j.autcon.2026.106886",
+        "title": "Multi-agent integration of LLMs and graph-based method for automated MEP constructability checking",
+        "authors": [
+          "Ang Li",
+          "Boyu Wang",
+          "Xingbo Gong",
+          "Fangli Hou",
+          "Xingyu Tao",
+          "Jun Ma",
+          "Jack C.P. Cheng"
+        ],
+        "institution": [
+          "Not available from source"
+        ],
+        "published": "2026-07-01",
+        "abstract": "Abstract not available.",
+        "url": "https://doi.org/10.1016/j.autcon.2026.106886",
+        "venue": "Automation in Construction",
+        "citation_count": 0,
+        "method": "Other"
+      }
+    ],
+    "Mechanical Systems and Signal Processing": [
+      {
+        "id": "doi:10.1016/j.sigpro.2026.110601",
+        "title": "An underwater acoustic target recognition model based on heterogeneous spectral attention feature fusion",
+        "authors": [
+          "Wei Gao",
+          "Desheng Chen",
+          "Yining Liu",
+          "Xianda Zhang",
+          "Junhui Zhang"
+        ],
+        "institution": [
+          "Not available from source"
+        ],
+        "published": "2026-09-01",
+        "abstract": "Abstract not available.",
+        "url": "https://doi.org/10.1016/j.sigpro.2026.110601",
+        "venue": "Signal Processing",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "doi:10.1016/j.sigpro.2026.110608",
+        "title": "Target scattering extraction via non-coherent collaboration using radar sensor network",
+        "authors": [
+          "Ge Zhang",
+          "Jing Liang"
+        ],
+        "institution": [
+          "Not available from source"
+        ],
+        "published": "2026-09-01",
+        "abstract": "Abstract not available.",
+        "url": "https://doi.org/10.1016/j.sigpro.2026.110608",
+        "venue": "Signal Processing",
+        "citation_count": 0,
+        "method": "Experimental"
+      }
+    ],
+    "Nature": [
+      {
+        "id": "doi:10.1016/j.jnc.2026.127278",
+        "title": "Effective buffer zones to reduce the vulnerability of protected areas: case study of southeastern Brazil",
+        "authors": [
+          "Bartira Rodrigues Guerra",
+          "Patricia Catarina dos Reis Macedo Abrantes",
+          "Victor Eduardo Lima Ranieri"
+        ],
+        "institution": [
+          "Not available from source"
+        ],
+        "published": "2026-08-01",
+        "abstract": "Abstract not available.",
+        "url": "https://doi.org/10.1016/j.jnc.2026.127278",
+        "venue": "Journal for Nature Conservation",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "doi:10.1016/j.jnc.2026.127256",
+        "title": "Preserving the wild food heritage: Diversity, conservation and potential of Levantine edible plants",
+        "authors": [
+          "Benedetta Gori",
+          "Pablo Gómez Barreiro",
+          "David Coleshill",
+          "Khaled Abulaila",
+          "Hicham El Zein",
+          "Melanie-Jayne R. Howes",
+          "Nizar Hani",
+          "Gianluigi Bacchetta"
+        ],
+        "institution": [
+          "Not available from source"
+        ],
+        "published": "2026-08-01",
+        "abstract": "Abstract not available.",
+        "url": "https://doi.org/10.1016/j.jnc.2026.127256",
+        "venue": "Journal for Nature Conservation",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "doi:10.1016/j.jnc.2026.127280",
+        "title": "A review of sponge-mediated restoration: From population recovery to enhancing ecosystems",
+        "authors": [
+          "Antonella Schiavo",
+          "Joseba Aguilo Arce",
+          "Roberta Trani",
+          "Pere Ferriol",
+          "Caterina Longo"
+        ],
+        "institution": [
+          "Not available from source"
+        ],
+        "published": "2026-08-01",
+        "abstract": "Abstract not available.",
+        "url": "https://doi.org/10.1016/j.jnc.2026.127280",
+        "venue": "Journal for Nature Conservation",
+        "citation_count": 0,
+        "method": "Review / Survey"
+      },
+      {
+        "id": "doi:10.1016/j.jnc.2026.127275",
+        "title": "Seed traits and germination ecology of the rare steno-endemic Centaurea pangaea",
+        "authors": [
+          "Georgios Varsamis",
+          "Theodora Merou",
+          "Spyros Tsiftsis"
+        ],
+        "institution": [
+          "Not available from source"
+        ],
+        "published": "2026-08-01",
+        "abstract": "Abstract not available.",
+        "url": "https://doi.org/10.1016/j.jnc.2026.127275",
+        "venue": "Journal for Nature Conservation",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "doi:10.1016/j.jnc.2026.127279",
+        "title": "The human propensity to kill carnivores is associated with the distribution of spotted hyaenas",
+        "authors": [
+          "Miquel Torrents-Ticó",
+          "Álvaro Fernández-Llamazares",
+          "Mar Cabeza",
+          "Emmanuel Miliko",
+          "Thomas Titiay Komoi",
+          "Daniel Burgas"
+        ],
+        "institution": [
+          "Not available from source"
+        ],
+        "published": "2026-08-01",
+        "abstract": "Abstract not available.",
+        "url": "https://doi.org/10.1016/j.jnc.2026.127279",
+        "venue": "Journal for Nature Conservation",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "doi:10.1016/j.jnc.2026.127260",
+        "title": "Hormonally active contaminants in urban protected areas: lessons to learn from COVID-19 lockdown",
+        "authors": [
+          "Y.E. Tavalieri",
+          "J.C. Truter",
+          "G. Dioguardi",
+          "M. Fritz",
+          "O.E. Rivera",
+          "E.H. Luque",
+          "M. Muñoz-de-Toro",
+          "G.H. Galoppo"
+        ],
+        "institution": [
+          "Not available from source"
+        ],
+        "published": "2026-08-01",
+        "abstract": "Abstract not available.",
+        "url": "https://doi.org/10.1016/j.jnc.2026.127260",
+        "venue": "Journal for Nature Conservation",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "doi:10.1016/j.jnc.2026.127282",
+        "title": "Conservation and development: Ecological niche assessment and strategy of Camellia under climate change and mining-induced heavy metal pollution risk",
+        "authors": [
+          "Haiyi Mi",
+          "Qi Yan",
+          "Huihui Zhang",
+          "Jin Pei",
+          "Linfang Huang"
+        ],
+        "institution": [
+          "Not available from source"
+        ],
+        "published": "2026-08-01",
+        "abstract": "Abstract not available.",
+        "url": "https://doi.org/10.1016/j.jnc.2026.127282",
+        "venue": "Journal for Nature Conservation",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "doi:10.1016/j.jnc.2026.127281",
+        "title": "Mammalian persistence and conservation priorities in a fragmented tropical refuge of Bangladesh",
+        "authors": [
+          "Bipul Krishna Das",
+          "Mohammad Firoj Jaman",
+          "Mohammed Jashimuddin",
+          "Arnob Saha",
+          "Babla Mohajan",
+          "Pradip Kumar Sarker"
+        ],
+        "institution": [
+          "Not available from source"
+        ],
+        "published": "2026-08-01",
+        "abstract": "Abstract not available.",
+        "url": "https://doi.org/10.1016/j.jnc.2026.127281",
+        "venue": "Journal for Nature Conservation",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "doi:10.1016/j.jnc.2026.127254",
+        "title": "Under pressure: assessing the vulnerability of two wetland birds to climate change",
+        "authors": [
+          "Thuani Luísa Saldanha Wagener",
+          "Luis Eduardo Silva dos Santos",
+          "Marcelo de Moraes Weber"
+        ],
+        "institution": [
+          "Not available from source"
+        ],
+        "published": "2026-08-01",
+        "abstract": "Abstract not available.",
+        "url": "https://doi.org/10.1016/j.jnc.2026.127254",
+        "venue": "Journal for Nature Conservation",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "doi:10.1016/j.jnc.2026.127285",
+        "title": "Loss of forest bird richness and abundance at the south-western edge of the Palaearctic: Patterns and conservation prospects",
+        "authors": [
+          "Roberto Carbonell",
+          "Ricardo Enrique Hernández-Lambraño",
+          "José Luis Tellería"
+        ],
+        "institution": [
+          "Not available from source"
+        ],
+        "published": "2026-08-01",
+        "abstract": "Abstract not available.",
+        "url": "https://doi.org/10.1016/j.jnc.2026.127285",
+        "venue": "Journal for Nature Conservation",
+        "citation_count": 0,
+        "method": "Other"
+      }
+    ],
+    "Science": [
+      {
+        "id": "doi:10.61994/jsls.v3i3.1448",
+        "title": "Kekerasan dalam Mendisiplinkan Anak: Telaah Batasan dan Celah dalam Pertanggungjawaban Pidana di Indonesia",
+        "authors": [
+          "Febrina Hertika Rani",
+          "Samsul Samsul",
+          "Rd. Muhammad Ikhsan",
+          "Dea Justicia Ardha"
+        ],
+        "institution": [
+          "Not available from source"
+        ],
+        "published": "2026-12-31",
+        "abstract": "In Indonesian positive law, the prohibition of all forms of child abuse is not only present as a legal norm, but also as a moral commitment of the state to guarantee the dignity and safety of children. However, the reality on the ground shows that violence against children still often occurs in closed domestic spaces. Some of these acts are justified on the grounds of discipline, as if the use of physical violence were a legitimate tool in the parenting process. This study aims to identify and understand the precise limits of physical violence that is justified as child discipline under Indonesian positive law and to determine whether there are legal loopholes that allow parental violence in the context of discipline to go unpunished. This study uses normative legal research, an approach that centres legal texts and norms. Indonesian positive law, in principle, prohibits all forms of violence against children. However, the regulations do not provide a clear limit on which disciplinary actions remain justifiable. In other words, the legal boundaries exist normatively, but are not explicitly and operationally articulated so that they can be easily applied in practice. When these provisions are applied in practice, it is clear that there are still significant ambiguities and legal loopholes, namely, the absence of a definition or limitation of discipline in positive law. The existence of room for subjective interpretation by officials and judges. Socio-cultural constructs that still legitimise corporal punishment. The linking of violent offences to the element of injury, so that 'minor' violence often goes unpunished. The absence of explicit norms prohibiting physical violence as a form of child discipline. The lack of consistent law enforcement guidelines and jurisprudence. It is this law that opens up the possibility of impunity, namely, the suboptimal criminal accountability of perpetrators of violence who hide behind the excuse of discipline.",
+        "url": "https://doi.org/10.61994/jsls.v3i3.1448",
+        "venue": "Journal of Sharia and Legal Science",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "doi:10.59463/rjvs.2025.4.38",
+        "title": "The audit in white meat slaughtering units: ensuring compliance with food safety and animal welfare regulations in the context of technological advancements",
+        "authors": [
+          "Oana Raluca Rusu",
+          "Adriana-Valentina Trandaf",
+          "Gheorghiță Vlad",
+          "Aida Albu"
+        ],
+        "institution": [
+          "Not available from source"
+        ],
+        "published": "2026-12-30",
+        "abstract": "The audit of poultry slaughterhouses represents a fundamental component of modern food safety systems, and its role has become increasingly important in the context of strict regulatory requirements, rising consumer expectations and the need for transparent, well-documented production processes. This article examines the audit process within white meat slaughter units by placing it in the broader framework of hygiene management, hazard prevention and legislative compliance, with the purpose of demonstrating how systematic verification contributes to operational integrity and product safety. The study applies an analytical approach centered on the evaluation of technological stages, structural and functional control points, and critical hygiene operations, using document review, observational analysis and conformity assessment as the main methodological tools for understanding how audits identify deficiencies and verify the correct implementation of procedures. The results of the analysis indicate that audits serve not only as instruments for detecting non-compliances but also as mechanisms that improve process efficiency, strengthen biosecurity measures and reinforce the proper application of prerequisite programs such as sanitation, equipment maintenance, personnel hygiene and welfare standards for poultry during handling and slaughter. Furthermore, the findings highlight that well-conducted audits support the reliability of HACCP systems by ensuring that monitoring activities, corrective actions and record-keeping practices are consistently applied and fully aligned with legal expectations. The conclusions drawn from this work emphasize that continuous auditing enhances food safety performance, reduces contamination risks, supports regulatory conformity and promotes a culture of responsibility within slaughterhouses. When integrated into routine operations, audits contribute to the early detection of deviations, the optimization of workflows and the establishment of a preventive approach that ultimately ensures the delivery of safe, high-quality poultry meat to consumers.",
+        "url": "https://doi.org/10.59463/rjvs.2025.4.38",
+        "venue": "Romanian Journal of Veterinary Sciences",
+        "citation_count": 0,
+        "method": "Review / Survey"
+      },
+      {
+        "id": "doi:10.59463/rjvs.2025.4.37",
+        "title": "The role of essential oils in animal health: current uses and therapeutic potential in veterinary medicine",
+        "authors": [
+          "Oana Raluca Rusu",
+          "Robert Capotă",
+          "Mirela Cojocariu"
+        ],
+        "institution": [
+          "Not available from source"
+        ],
+        "published": "2026-12-30",
+        "abstract": "The increasing interest in essential oils (EOs) in veterinary medicine stems from their wide-ranging bioactive properties, including antimicrobial, anti-inflammatory, antioxidant, and antiparasitic effects. These natural compounds, extracted from various plant sources, present a promising alternative to synthetic drugs, particularly in the context of growing concerns regarding antimicrobial resistance. Essential oils exert their therapeutic effects primarily by disrupting microbial cell membranes, modulating inflammatory responses, and enhancing immune function. Their applications in veterinary medicine encompass a diverse array of conditions, such as bacterial and fungal infections, wound healing, parasitic infestations, and behavioral management. Despite their benefits, the use of essential oils in veterinary practice requires a cautious approach due to potential toxicity, species-specific responses, and the absence of standardized formulations. This review aims to provide a comprehensive analysis of current knowledge on the mechanisms of action, therapeutic applications, and challenges associated with the integration of essential oils into veterinary healthcare. Future perspectives emphasize the need for rigorous scientific evaluation, standardized protocols, and regulatory frameworks to ensure their safe and effective use. By addressing these challenges, essential oils may become a viable component of holistic veterinary care, offering a natural, sustainable, and effective approach to animal health and welfare.",
+        "url": "https://doi.org/10.59463/rjvs.2025.4.37",
+        "venue": "Romanian Journal of Veterinary Sciences",
+        "citation_count": 0,
+        "method": "Review / Survey"
+      },
+      {
+        "id": "doi:10.36899/japs.2026.2.0045",
+        "title": "GROWTH PERFORMANCE, TIBIAL BONE MORPHOMETRICS, COPPER AND ZINC STATUS IN ASEEL CHICKEN UNDER DIFFERENT SYSTEMS OF REARING – A FIELD STUDY",
+        "authors": [
+          "P Murali",
+          "P Vasanthakumar",
+          "A Natarajan",
+          "A Balasubramaniam",
+          "T Vasanthakumar"
+        ],
+        "institution": [
+          "Not available from source"
+        ],
+        "published": "2026-12-28",
+        "abstract": "The present study was conducted to evaluate the growth performance, bone morphometrics, copper and zinc profile of body tissues in Aseel chicken reared under different systems of rearing. A total of 72 Aseel birds were selected at marketing age from 18 farms, of which 24 birds each from intensive (3 months), semi-intensive (6 months) and backyard system (9 months) of rearing. Feed and water samples from each farm were collected to assess the copper and zinc levels. The selected birds were weighed and slaughtered to collect bone and liver samples for copper and zinc analysis. The data collected were analyzed following completely randomized design. copper and zinc levels in feed and water to birds in intensive system, semi-intensive system and backyard system of rearing were 27.39, 15.16, 7.41 and 147.33, 84.19, 28.98 ppm and 0.92, 0.48, 0.49 and 1.07, 0.97, 0.72 ppm, respectively. The body weight of birds (both male and female) was significantly (P&lt;0.01) higher in the intensive system as compared to semi-intensive and backyard system of rearing. Tibial bone length, bone weight and seedor index were significantly (P&lt;0.05) higher in birds reared under intensive and semi-intensive systems, whereas no significant difference was noticed in robursity index, circumference and relative bone weight among the birds reared under different systems. Both zinc and copper content of liver and bone were significantly (P&lt;0.01) higher in the birds grown under intensive system of rearing when compared to semi-intensive and backyard system of rearing. The present study revealed that the growth performance, bone morphometric indices, copper and zinc status in liver and tibial bone were significantly higher in Aseel birds grown under intensive system as compared to semi-intensive and backyard system which might be due to feeding with a concentrate feed containing higher (27.39 ppm copper and 147.33 ppm zinc) levels of these minerals.",
+        "url": "https://doi.org/10.36899/japs.2026.2.0045",
+        "venue": "The Journal of Animal and Plant Sciences",
+        "citation_count": 0,
+        "method": "Numerical Simulation"
+      },
+      {
+        "id": "doi:10.36899/japs.2026.2.0042",
+        "title": "PHYTOCHEMICAL PROFILING, GC/GC-MS ANALYSIS, AND ANTIBACTERIAL ACTIVITY OF DICHLOROMETHANE EXTRACT OF THE AERIAL PARTS OF TINOSPORA CRISPA",
+        "authors": [
+          "M Bilawal",
+          "S Bughio",
+          "R Buriro",
+          "MI Malik",
+          "S Faizi"
+        ],
+        "institution": [
+          "Not available from source"
+        ],
+        "published": "2026-12-28",
+        "abstract": "Tinospora crispa is a medicinal plant, traditionally used for a wide range of pharmacological activities. This study conducted phytochemical screening, both qualitative and quantitative, of the non-polar dichloromethane (DCM) extract from the aerial parts of T. crispa, using gas chromatography-mass spectrometry (GC-MS) and antibacterial activity against Escherichia coli and Salmonella typhimuriumthrough agar well diffusion method. The analysis confirmed the presence of steroids, terpenoids, fatty acids, tannins, saponins, coumarins, carbohydrates, resins, alkaloids, glycosides, cardiac glycosides, and proteins. However, anthocyanins, leucoanthocyanins, and emodins were absent. The extract comprised a complex mixture of compounds, including oxygenated monoterpenes (e.g., 2-cyclohexen-1-one, 4-(3-hydroxybutyl)-3,5,5-trimethyl), long-chain ketones (e.g., 2-pentadecanone, 6,10,14-trimethyl), fatty acids (n-hexadecanoic and octadecanoic acids), and a variety of sterols and triterpenoids such as ethyl iso-allocholate, stigmasterol, α-amyrin, and betulin. Notably, a high relative abundance (43.85% area sum) of 6a,14a-methanopicene, perhydro-1,2,4a,6b,9,9,12a-heptamethyl-10-hydroxy was observed, suggesting that triterpenoids may contribute significantly to the pharmacological effects of the extract. The antibacterial activity of the DCM extract was determined against Escherichia coli and Salmonella typhimurium. Statistical analysis indicated that extract concentration significantly influenced antibacterial activity (p&lt;0.005), with a concentration-dependent increase against both pathogenic bacteria. The extract produced inhibition zones of 15.6 ± 0.3 mm (6 µl) and 11.6 ± 0.3 mm (3µl) against S. typhimurium, whereas inhibited zones of 9.2 ± 0.0.1 mm (6 µl) and 3.9 ± 0.05 mm (3 µl) were observed against E. coli. These findings provide a comprehensive chemical characterization of T. crispa DCM extract and highlight its potential as a source of bioactive compounds with antibacterial activity, supporting its traditional medical application and source of novel therapeutic agents.",
+        "url": "https://doi.org/10.36899/japs.2026.2.0042",
+        "venue": "The Journal of Animal and Plant Sciences",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "doi:10.18535/ijetst/v3i08.10",
+        "title": "Contour Based Real Time Multiple Object Tracking",
+        "authors": [
+          "Mrs Malleshwari MS"
+        ],
+        "institution": [
+          "Not available from source"
+        ],
+        "published": "2106-08-09",
+        "abstract": "Abstract not available.",
+        "url": "https://doi.org/10.18535/ijetst/v3i08.10",
+        "venue": "International Conference on Image Analysis and Recognition",
+        "citation_count": 24,
+        "method": "Other"
+      },
+      {
+        "id": "doi:10.52403/ijshr.20250426",
+        "title": "Comparative Study of Efficacy and Safety of Ivabradine Versus Metoprolol in Stable Angina",
+        "authors": [
+          "Mukesh Kumar",
+          "Priyanka Kumari",
+          "Santosh Kumar",
+          "Kumar Gaurav",
+          "Arun Kumar",
+          "Asha Singh"
+        ],
+        "institution": [
+          "Department of Pharmacology, Nalanda Medical College, Patna, Bihar, India"
+        ],
+        "published": "2051-12-14",
+        "abstract": "Background: Stable angina pectoris, a manifestation of coronary artery disease (CAD), remains a major cause of morbidity worldwide, with India bearing a disproportionately high burden. Beta-blockers such as metoprolol are established first-line agents, but their use may be limited by adverse effects. Ivabradine, a selective If channel inhibitor, reduces heart rate without affecting contractility or blood pressure, offering a potential therapeutic alternative. Methods: This prospective, randomized, open-label clinical trial enrolled 100 patients aged 35–70 years with CCS class II–III stable angina and CAD. Participants were randomized to receive either ivabradine (5–7.5 mg twice daily) or metoprolol succinate (50–100 mg once daily) for six months, alongside standard background therapy. The primary endpoint was reduction in resting heart rate at four months. Secondary endpoints included frequency of angina attacks, nitroglycerin consumption, CCS classification, and incidence of adverse events. Results: Both groups were comparable at baseline. Ivabradine demonstrated a significantly greater reduction in angina attacks at 3 months (0.57 vs. 1.09 attacks/week, p&lt;0.0001) and a trend towards superiority at 6 months (0.23 vs. 0.31 attacks/week, p=0.0508). A higher proportion of ivabradine patients achieved CCS class I (74% vs. 58%). Fatigue was significantly more frequent with metoprolol (20% vs. 4%, p=0.0277). Both drugs reduced resting heart rate, with a greater decline observed in the ivabradine group. Conclusion: Ivabradine monotherapy was non-inferior and potentially superior to metoprolol in reducing angina burden and nitroglycerin use, with a favorable tolerability profile. Keywords: Stable angina; coronary artery disease; Ivabradine; Metoprolol; Heart rate reduction; Antianginal therapy",
+        "url": "https://doi.org/10.52403/ijshr.20250426",
+        "venue": "International journal of science and healthcare research",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "doi:10.18061/ojs.6487",
+        "title": "Title Pending 6487",
+        "authors": [],
+        "institution": [
+          "Not available from source"
+        ],
+        "published": "2036-03-17",
+        "abstract": "Abstract not available.",
+        "url": "https://doi.org/10.18061/ojs.6487",
+        "venue": "The Ohio journal of science",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "doi:10.16995/zygon.25050",
+        "title": "Title Pending 25050",
+        "authors": [],
+        "institution": [
+          "Not available from source"
+        ],
+        "published": "2035-08-27",
+        "abstract": "Abstract not available.",
+        "url": "https://doi.org/10.16995/zygon.25050",
+        "venue": "Zygon: Journal of Religion and Science",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "doi:10.16995/zygon.19008",
+        "title": "Title Pending 19008",
+        "authors": [],
+        "institution": [
+          "Not available from source"
+        ],
+        "published": "2035-06-19",
+        "abstract": "Abstract not available.",
+        "url": "https://doi.org/10.16995/zygon.19008",
+        "venue": "Zygon: Journal of Religion and Science",
+        "citation_count": 0,
+        "method": "Other"
+      }
+    ],
+    "NDT & E International": [],
+    "Measurement": [
+      {
+        "id": "doi:10.1016/j.ymecc.2026.100027",
+        "title": "Translation to German (Austrian) and qualitative linguistic validation of the Godin-Shephard Leisure‐Time Physical Activity Questionnaire",
+        "authors": [
+          "Antonia Lindner",
+          "Eva Maria Bamberger",
+          "Rik Crutzen",
+          "Stefan Tino Kulnik"
+        ],
+        "institution": [
+          "Not available from source"
+        ],
+        "published": "2026-12-01",
+        "abstract": "Abstract not available.",
+        "url": "https://doi.org/10.1016/j.ymecc.2026.100027",
+        "venue": "Measurement and Evaluations in Cancer Care",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "doi:10.1016/j.ymecc.2026.100028",
+        "title": "Chronological bias in survival comparisons before and after implementation of a new care delivery model",
+        "authors": [
+          "Esin Aysel Kandemir",
+          "Frank Griesinger"
+        ],
+        "institution": [
+          "Not available from source"
+        ],
+        "published": "2026-12-01",
+        "abstract": "Abstract not available.",
+        "url": "https://doi.org/10.1016/j.ymecc.2026.100028",
+        "venue": "Measurement and Evaluations in Cancer Care",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "doi:10.1016/j.ymecc.2026.100029",
+        "title": "Cross-cultural validation and measurement invariance of the EORTC QLQ-C30 in African oncology populations",
+        "authors": [
+          "Simon Ntumi",
+          "Gabriel Odame Amfo",
+          "Tapela Bulala"
+        ],
+        "institution": [
+          "Not available from source"
+        ],
+        "published": "2026-12-01",
+        "abstract": "Abstract not available.",
+        "url": "https://doi.org/10.1016/j.ymecc.2026.100029",
+        "venue": "Measurement and Evaluations in Cancer Care",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "doi:10.1016/j.flowmeasinst.2026.103310",
+        "title": "Design of turbine flowmeter for non-fully developed flow fields",
+        "authors": [
+          "Suna Guo",
+          "Tianyu Yan",
+          "Xinyue Zhao",
+          "Fan Wang"
+        ],
+        "institution": [
+          "Not available from source"
+        ],
+        "published": "2026-08-01",
+        "abstract": "Abstract not available.",
+        "url": "https://doi.org/10.1016/j.flowmeasinst.2026.103310",
+        "venue": "Flow Measurement and Instrumentation",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "doi:10.1016/j.flowmeasinst.2026.103333",
+        "title": "Developing a multi-turbine flow-pressure coupling model for evaluating Pelton turbine hydraulic efficiency in run-of-river hydropower plants",
+        "authors": [
+          "Anqi Tang",
+          "Zheming Tong"
+        ],
+        "institution": [
+          "Not available from source"
+        ],
+        "published": "2026-08-01",
+        "abstract": "Abstract not available.",
+        "url": "https://doi.org/10.1016/j.flowmeasinst.2026.103333",
+        "venue": "Flow Measurement and Instrumentation",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "doi:10.1016/j.flowmeasinst.2026.103336",
+        "title": "Combined BOS-PIV method for simultaneous measurement of temperature and velocity fields of aerosol-laden flows",
+        "authors": [
+          "Bifan Liu",
+          "Danling Zhuang",
+          "Qian Wang",
+          "Hongxia Du",
+          "Junlian Yin",
+          "Dezhong Wang"
+        ],
+        "institution": [
+          "Not available from source"
+        ],
+        "published": "2026-08-01",
+        "abstract": "Abstract not available.",
+        "url": "https://doi.org/10.1016/j.flowmeasinst.2026.103336",
+        "venue": "Flow Measurement and Instrumentation",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "doi:10.1016/j.flowmeasinst.2026.103325",
+        "title": "Design and validation of an inline conductometric measurement instrument for hydroponic nutrient solutions",
+        "authors": [
+          "Miroslav Strob",
+          "Jean de Dieu Marcel Ufitikirezi",
+          "Pavel Olšan",
+          "Tomáš Zoubek",
+          "Roman Bumbálek",
+          "Martin Filip",
+          "Radek Jech",
+          "Michal Liška"
+        ],
+        "institution": [
+          "Not available from source"
+        ],
+        "published": "2026-08-01",
+        "abstract": "Abstract not available.",
+        "url": "https://doi.org/10.1016/j.flowmeasinst.2026.103325",
+        "venue": "Flow Measurement and Instrumentation",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "doi:10.1016/j.flowmeasinst.2026.103296",
+        "title": "Detection and experimental analysis of sulfur deposition in pipelines based on ultrasonic pulse-echo method",
+        "authors": [
+          "Zhaoming Zhou",
+          "Fang Yao",
+          "Hao Peng",
+          "Qi Zhong",
+          "Yongliang Liu"
+        ],
+        "institution": [
+          "Not available from source"
+        ],
+        "published": "2026-08-01",
+        "abstract": "Abstract not available.",
+        "url": "https://doi.org/10.1016/j.flowmeasinst.2026.103296",
+        "venue": "Flow Measurement and Instrumentation",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "doi:10.1016/j.flowmeasinst.2026.103304",
+        "title": "Energy optimization and stepless regulation of high-efficiency rotary stereoscopic valves: A universal improvement for reciprocating compressors",
+        "authors": [
+          "Xiao Hong",
+          "Weilin Cui",
+          "Dajing Liu",
+          "Dexi Wang",
+          "Xinrui Fu",
+          "Xiwen Cao"
+        ],
+        "institution": [
+          "Not available from source"
+        ],
+        "published": "2026-08-01",
+        "abstract": "Abstract not available.",
+        "url": "https://doi.org/10.1016/j.flowmeasinst.2026.103304",
+        "venue": "Flow Measurement and Instrumentation",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "doi:10.1016/j.flowmeasinst.2026.103303",
+        "title": "Horizontal slug flow characterization from non-intrusive piezoelectric pressure measurements",
+        "authors": [
+          "Juliana Rangel Cenzi",
+          "Saon Crispim Vieira",
+          "Daniely Amorim das Neves",
+          "Adriano Todorovic Fabro",
+          "Marcelo Souza de Castro"
+        ],
+        "institution": [
+          "Not available from source"
+        ],
+        "published": "2026-08-01",
+        "abstract": "Abstract not available.",
+        "url": "https://doi.org/10.1016/j.flowmeasinst.2026.103303",
+        "venue": "Flow Measurement and Instrumentation",
+        "citation_count": 0,
+        "method": "Experimental"
+      }
+    ],
+    "Engineering Structures": [],
+    "Ultrasonics": [
+      {
+        "id": "doi:10.1016/j.ultras.2026.108051",
+        "title": "Design and experimental study of an ultrasonic assisted igniter for enclosed environments",
+        "authors": [
+          "Dongyu Si",
+          "Liming Di",
+          "Jiayi Tian",
+          "Zhengtian Ren",
+          "Zhiqi Yao",
+          "Jingwei Cao"
+        ],
+        "institution": [
+          "Not available from source"
+        ],
+        "published": "2026-09-01",
+        "abstract": "Abstract not available.",
+        "url": "https://doi.org/10.1016/j.ultras.2026.108051",
+        "venue": "Ultrasonics",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "doi:10.1016/j.ultras.2026.108053",
+        "title": "Self-supervised learning-aided ultrasonic testing for overcoming long-tail problems in stress–strain curve prediction",
+        "authors": [
+          "Dahuin Jung",
+          "Seong-Hyun Park"
+        ],
+        "institution": [
+          "Not available from source"
+        ],
+        "published": "2026-09-01",
+        "abstract": "Abstract not available.",
+        "url": "https://doi.org/10.1016/j.ultras.2026.108053",
+        "venue": "Ultrasonics",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "doi:10.1016/j.ultras.2026.108057",
+        "title": "Counter-directional mixing of longitudinal guided waves for fatigue damage detection in pipes",
+        "authors": [
+          "Wujun Zhu",
+          "Junyu Gu",
+          "Yanxun Xiang",
+          "Taotao Ding",
+          "Fu-Zhen Xuan"
+        ],
+        "institution": [
+          "Not available from source"
+        ],
+        "published": "2026-09-01",
+        "abstract": "Abstract not available.",
+        "url": "https://doi.org/10.1016/j.ultras.2026.108057",
+        "venue": "Ultrasonics",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "doi:10.1016/j.ultras.2026.108075",
+        "title": "Restoration of autophagy-lysosomal function via transcranial focused ultrasound stimulation ameliorates <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" altimg=\"si9.svg\" display=\"inline\" id=\"d1e177\"> <mml:mi mathvariant=\"normal\">β</mml:mi> </mml:math> -amyloid pathology and cognitive deficits in an Alzheimer’s disease model",
+        "authors": [
+          "Mengke Wang",
+          "Baochen Zhang",
+          "Renhao Guo",
+          "Haiqin Wang",
+          "Di Wu",
+          "Xiaoqian Peng",
+          "Hongsong Guo",
+          "Jiawei Duan"
+        ],
+        "institution": [
+          "Not available from source"
+        ],
+        "published": "2026-09-01",
+        "abstract": "Abstract not available.",
+        "url": "https://doi.org/10.1016/j.ultras.2026.108075",
+        "venue": "Ultrasonics",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "doi:10.1016/j.ultras.2026.108077",
+        "title": "A spatiotemporal structural-feature non-local means denoising approach for contrast-free ultrasound microvascular imaging",
+        "authors": [
+          "Xiao Su",
+          "Haotian Wang",
+          "Yichen Yan",
+          "Hanbing Chu",
+          "Yiran Chen",
+          "Yueyuan Wang",
+          "Yujin Zong",
+          "Mingxi Wan"
+        ],
+        "institution": [
+          "Not available from source"
+        ],
+        "published": "2026-09-01",
+        "abstract": "Abstract not available.",
+        "url": "https://doi.org/10.1016/j.ultras.2026.108077",
+        "venue": "Ultrasonics",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "doi:10.1016/j.ultras.2026.108046",
+        "title": "Ultrasonic wave velocity and bone mineral density in skull bones of ovariectomized and spontaneous-menopause mice",
+        "authors": [
+          "Taiga Wada",
+          "Shouta Kitajima",
+          "Yoshifumi Tsuchiya",
+          "Mami Matsukawa"
+        ],
+        "institution": [
+          "Not available from source"
+        ],
+        "published": "2026-09-01",
+        "abstract": "Abstract not available.",
+        "url": "https://doi.org/10.1016/j.ultras.2026.108046",
+        "venue": "Ultrasonics",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "doi:10.1016/j.ultras.2026.108074",
+        "title": "Nanobubbles, not microbubbles, enable ultrasound visualization of the perivascular space: A validation and focused ultrasound modulation study",
+        "authors": [
+          "Meng-Ting Lin",
+          "Chueh-Hung Wu",
+          "Wei-Hao Liao",
+          "Tsai-Yun Chan",
+          "Shao-Yu Chen",
+          "Ming-Yen Hsiao",
+          "Shu-Mei Yang",
+          "Tai-Horng Young"
+        ],
+        "institution": [
+          "Not available from source"
+        ],
+        "published": "2026-09-01",
+        "abstract": "Abstract not available.",
+        "url": "https://doi.org/10.1016/j.ultras.2026.108074",
+        "venue": "Ultrasonics",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "doi:10.1016/j.ultras.2026.108060",
+        "title": "Automatic extraction and design of SAW resonator COM parameters via PSO-P matrix joint optimization",
+        "authors": [
+          "Xinhui Gu",
+          "Lin Shi",
+          "Cheng Qian",
+          "Zihui Zhang",
+          "Yihao Guo",
+          "Shengyu Wen",
+          "Long Li",
+          "Zihan Cheng"
+        ],
+        "institution": [
+          "Not available from source"
+        ],
+        "published": "2026-09-01",
+        "abstract": "Abstract not available.",
+        "url": "https://doi.org/10.1016/j.ultras.2026.108060",
+        "venue": "Ultrasonics",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "doi:10.1016/j.ultras.2026.108072",
+        "title": "Evaluation of ultrasonic transducer response and structural integrity using coded photoacoustic imaging",
+        "authors": [
+          "Linas Svilainis",
+          "Andrius Chaziachmetovas",
+          "Luca De Marchi"
+        ],
+        "institution": [
+          "Not available from source"
+        ],
+        "published": "2026-09-01",
+        "abstract": "Abstract not available.",
+        "url": "https://doi.org/10.1016/j.ultras.2026.108072",
+        "venue": "Ultrasonics",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "doi:10.1016/j.ultras.2026.108045",
+        "title": "Selective occlusion of placental vessels using non-invasive focused ultrasound delivered by a toroidal transducer: Preclinical application in a pregnant monkey model for the treatment of twin-twin transfusion syndrome",
+        "authors": [
+          "Benoit De La Fournière",
+          "Sophie Cambronero",
+          "Cyril Huissoud",
+          "Laura Estienne",
+          "Adrien Rohfristch",
+          "Manon Basso",
+          "Fabienne Allias",
+          "Colette Dehay"
+        ],
+        "institution": [
+          "Not available from source"
+        ],
+        "published": "2026-08-01",
+        "abstract": "Abstract not available.",
+        "url": "https://doi.org/10.1016/j.ultras.2026.108045",
+        "venue": "Ultrasonics",
+        "citation_count": 0,
+        "method": "Other"
+      }
+    ],
+    "Rock Mechanics and Rock Engineering": [],
+    "Tunnelling and Underground Space Technology": []
   }
 }
