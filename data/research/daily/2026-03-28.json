@@ -1,450 +1,623 @@
 {
   "date": "2026-03-28",
   "topics": {
-    "DAS": {
-      "fresh": [],
-      "backlog": [
-        {
-          "id": "arxiv:2602.12591v1",
-          "topic": "DAS",
-          "title": "Vehicle behaviour estimation for abnormal event detection using distributed fiber optic sensing",
-          "authors": [
-            "Hemant Prasad",
-            "Daisuke Ikefuji",
-            "Shin Tominaga",
-            "Hitoshi Sakurai",
-            "Manabu Otani"
-          ],
-          "institution": [
-            "Not available from source"
-          ],
-          "published": "2026-02-13",
-          "keywords": [
-            "DAS",
-            "fiber optic sensing",
-            "monitoring"
-          ],
-          "method": "Other",
-          "summary": [
-            "The distributed fiber-optic sensing (DFOS) system is a cost-effective wide-area traffic monitoring technology that utilizes existing fiber infrastructure to effectively detect traffic congestions.",
-            "However, detecting single-lane abnormalities, that lead to congestions, is still a challenge.",
-            "These single-lane abnormalities can be detected by monitoring lane change behaviour of vehicles, performed to avoid congestion along the monitoring section of a road."
-          ],
-          "conclusions": [
-            "We detect vehicle lane change by monitoring any change in spectral centroid of vehicle vibrations by tracking a reference vehicle along a highway.",
-            "The evaluation of our proposed method with real traffic data showed 80% accuracy for lane change detection events that represent presence of abnormalities."
-          ],
-          "source": "arXiv",
-          "url": "http://arxiv.org/abs/2602.12591v1",
-          "categories": [
-            "cs.LG"
-          ],
-          "venue": "arXiv.org",
-          "fields_of_study": [
-            "Computer Science"
-          ]
-        },
-        {
-          "id": "arxiv:2512.05830v1",
-          "topic": "DAS",
-          "title": "Phase-OTDR Event Detection Using Image-Based Data Transformation and Deep Learning",
-          "authors": [
-            "Muhammet Cagri Yeke",
-            "Samil Sirin",
-            "Kivilcim Yuksel",
-            "Abdurrahman Gumus"
-          ],
-          "institution": [
-            "Not available from source"
-          ],
-          "published": "2025-12-05",
-          "keywords": [
-            "DAS",
-            "fiber optic sensing",
-            "monitoring",
-            "deep learning"
-          ],
-          "method": "Machine Learning",
-          "summary": [
-            "This study focuses on event detection in optical fibers, specifically classifying six events using the Phase-OTDR system.",
-            "A novel approach is introduced to enhance Phase-OTDR data analysis by transforming 1D data into grayscale images through techniques such as Gramian Angular Difference Field, Gramian Angular Summation Field, and Recurrence Plot.",
-            "These grayscale images are combined into a multi-channel RGB representation, enabling more robust and adaptable analysis using transfer learning models."
-          ],
-          "conclusions": [
-            "The results highlight the transformative potential of image-based analysis in interpreting complex fiber optic sensing data, offering significant advancements in the accuracy and reliability of fiber optic monitoring systems.",
-            "The codes and the corresponding image-based dataset are made publicly available on GitHub to support further research: https://github.com/miralab-ai/Phase-OTDR-event-detection."
-          ],
-          "source": "arXiv",
-          "url": "http://arxiv.org/abs/2512.05830v1",
-          "categories": [
-            "cs.CV",
-            "cs.AI"
-          ],
-          "venue": "arXiv.org",
-          "fields_of_study": [
-            "Computer Science"
-          ]
-        }
-      ],
-      "highlights": [
-        {
-          "id": "arxiv:2511.21249v1",
-          "topic": "DAS",
-          "title": "Monitoring and Regulation of Micro-Displacement Deviation in Few-Mode Beam Alignment through Mode Decomposition",
-          "authors": [
-            "Lin Xu",
-            "Li Pei",
-            "Jianshuai Wang",
-            "Zhouyi Hu",
-            "Tigang Ning"
-          ],
-          "institution": [
-            "Not available from source"
-          ],
-          "published": "2025-11-26",
-          "keywords": [
-            "DAS",
-            "fiber optic sensing",
-            "monitoring",
-            "machine learning"
-          ],
-          "method": "Hybrid",
-          "summary": [
-            "Beam alignment enables efficient, stable transmission and control of optical energy and information, which critically depend on precise monitoring and regulation of the three-dimensional (3D) relative positioning between fibers.",
-            "This study introduces an approach to achieve more accurate 3D measurement of the spatial displacement between two optical fibers in a few-mode configuration, by integrating mode decomposition with a straightforward machine learning algorithm.",
-            "This method leverages inherent information from the optical field, enabling precise beam alignment with a simple structure and minimal computational effort."
-          ],
-          "conclusions": [
-            "Furthermore, it facilitates single-step displacement regulation with a deviation tolerance within 0.15 μm and modal content regulation with an accuracy of 4.67%.",
-            "These results establish a theoretical framework for addressing key challenges in optical path alignment, crosstalk compensation, precision instrument manufacturing, and fiber optic sensing."
-          ],
-          "source": "arXiv",
-          "url": "http://arxiv.org/abs/2511.21249v1",
-          "categories": [
-            "physics.optics"
-          ],
-          "venue": "arXiv",
-          "fields_of_study": [
-            "Physics"
-          ]
-        },
-        {
-          "id": "arxiv:2511.17902v2",
-          "topic": "DAS",
-          "title": "Statistically-Guided Dual-Domain Meta-Learning with Adaptive Multi-Prototype Aggregation for Distributed Fiber Optic Sensing",
-          "authors": [
-            "Yifan He",
-            "Haodong Zhang",
-            "Qiuheng Song",
-            "Lin Lei",
-            "Zhenxuan Zeng",
-            "Haoyang He",
-            "Hongyan Wu"
-          ],
-          "institution": [
-            "Not available from source"
-          ],
-          "published": "2025-11-22",
-          "keywords": [
-            "DAS",
-            "fiber optic sensing",
-            "deep learning"
-          ],
-          "method": "Hybrid",
-          "summary": [
-            "Distributed Fiber Optic Sensing (DFOS) is promising for long-range perimeter security, yet practical deployment faces three key obstacles: severe cross-deployment domain shift, scarce or unavailable labels at new sites, and limited within-class coverage even in source deployments.",
-            "We propose DUPLE, a prototype-based meta-learning framework tailored for cross-deployment DFOS recognition.",
-            "The core idea is to jointly exploit complementary time- and frequency-domain cues and adapt class representations to sample-specific statistics: (i) a dual-domain learner constructs multi-prototype class representations to cover intra-class heterogeneity; (ii) a lightweight statistical guidance mechanism estimates the reliability of each domain from raw signal statistics; and (iii) a query-adaptive aggregation strategy selects and combines the most relevant prototypes for each query."
-          ],
-          "conclusions": [
-            "The core idea is to jointly exploit complementary time- and frequency-domain cues and adapt class representations to sample-specific statistics: (i) a dual-domain learner constructs multi-prototype class representations to cover intra-class heterogeneity; (ii) a lightweight statistical guidance mechanism estimates the reliability of each domain from raw signal statistics; and (iii) a query-adaptive aggregation strategy selects and combines the most relevant prototypes for each query.",
-            "Extensive experiments on two real-world cross-deployment benchmarks demonstrate consistent improvements over strong deep learning and meta-learning baselines, achieving more accurate and stable recognition under label-scarce target deployments."
-          ],
-          "source": "arXiv",
-          "url": "http://arxiv.org/abs/2511.17902v2",
-          "categories": [
-            "cs.LG",
-            "cs.AI",
-            "stat.ML"
-          ],
-          "venue": "arXiv.org",
-          "fields_of_study": [
-            "Computer Science",
-            "Mathematics"
-          ]
-        },
-        {
-          "id": "arxiv:2507.15376v1",
-          "topic": "DAS",
-          "title": "Nanosecond-latency all-optical fiber sensing with in-sensor computing",
-          "authors": [
-            "Yu Tao",
-            "Yangyang Wan",
-            "Ziwen Long",
-            "Wenjia Zhang",
-            "Jiangbing Du",
-            "Zuyuan He"
-          ],
-          "institution": [
-            "Not available from source"
-          ],
-          "published": "2025-07-21",
-          "keywords": [
-            "DAS",
-            "fiber optic sensing",
-            "optical fiber sensing",
-            "monitoring"
-          ],
-          "method": "Experimental",
-          "summary": [
-            "Optical fiber sensing plays a crucial role in modern measurement systems and holds significant promise for a wide range of applications.",
-            "This potential, though, has been fundamentally constrained by the intrinsic latency and power limitations associated with electronic signal processing.",
-            "Here, we propose an all-optical fiber sensing architecture with in-sensor computing (AOFS-IC) that achieves fully optical-domain sensing signal demodulation at the speed of light."
-          ],
-          "conclusions": [
-            "AOFS-IC eliminates computing hardware requirements while providing <3 ns demodulation delay, which is more than 2 orders of magnitude faster than conventional fiber optic sensing systems.",
-            "This work demonstrates the potential of next-generation optical sensing systems empowered by all-optical computing, and paves the way for expanded applications of fiber sensing through the integration of fully optical components, ultrafast measurement speed, and low power consumption."
-          ],
-          "source": "arXiv",
-          "url": "http://arxiv.org/abs/2507.15376v1",
-          "categories": [
-            "physics.optics"
-          ],
-          "venue": "arXiv",
-          "fields_of_study": [
-            "Physics"
-          ]
-        }
-      ]
-    },
-    "Guided Waves": {
-      "fresh": [
-        {
-          "id": "doi:10.1016/j.ultras.2026.108057",
-          "topic": "Guided Waves",
-          "title": "Counter-directional mixing of longitudinal guided waves for fatigue damage detection in pipes",
-          "authors": [
-            "Wujun Zhu",
-            "Junyu Gu",
-            "Yanxun Xiang",
-            "Taotao Ding",
-            "Fu-Zhen Xuan"
-          ],
-          "institution": [
-            "Not available from source"
-          ],
-          "published": "2026-09-01",
-          "keywords": [
-            "Guided Waves",
-            "guided wave",
-            "damage detection"
-          ],
-          "method": "Other",
-          "summary": [
-            "This paper is related to Counter-directional mixing of longitudinal guided waves for fatigue damage detection in pipes.",
-            "It appears in Ultrasonics.",
-            "The likely research mode is Other."
-          ],
-          "conclusions": [
-            "The paper appears to mainly rely on other methods.",
-            "The detailed conclusions should be verified from the original paper."
-          ],
-          "source": "Crossref",
-          "url": "https://doi.org/10.1016/j.ultras.2026.108057",
-          "categories": [],
-          "venue": "Ultrasonics",
-          "fields_of_study": []
-        },
-        {
-          "id": "doi:10.1016/j.ultras.2026.108048",
-          "topic": "Guided Waves",
-          "title": "A rapid multi-defect imaging method for composite plates using air-coupled ultrasonic guided waves based on multi-scale interactive Siamese network",
-          "authors": [
-            "Yuan Liu",
-            "Jielin Wang",
-            "Liuwei Huang",
-            "Chao Lu",
-            "Shuanglin Guo",
-            "Rong Wu",
-            "Wenze Shi"
-          ],
-          "institution": [
-            "Not available from source"
-          ],
-          "published": "2026-08-01",
-          "keywords": [
-            "Guided Waves",
-            "guided wave",
-            "ultrasonic"
-          ],
-          "method": "Other",
-          "summary": [
-            "This paper is related to A rapid multi-defect imaging method for composite plates using air-coupled ultrasonic guided waves based on multi-scale interactive Siamese network.",
-            "It appears in Ultrasonics.",
-            "The likely research mode is Other."
-          ],
-          "conclusions": [
-            "The paper appears to mainly rely on other methods.",
-            "The detailed conclusions should be verified from the original paper."
-          ],
-          "source": "Crossref",
-          "url": "https://doi.org/10.1016/j.ultras.2026.108048",
-          "categories": [],
-          "venue": "Ultrasonics",
-          "fields_of_study": []
-        },
-        {
-          "id": "doi:10.1016/j.ultras.2026.108006",
-          "topic": "Guided Waves",
-          "title": "Effect of initial shear stress on acoustoelastic guided waves in plates",
-          "authors": [
-            "Alan C. Kubrusly",
-            "Luis Paulo Brasil de Souza",
-            "Fotis Kopsaftopoulos"
-          ],
-          "institution": [
-            "Not available from source"
-          ],
-          "published": "2026-08-01",
-          "keywords": [
-            "Guided Waves",
-            "guided wave"
-          ],
-          "method": "Other",
-          "summary": [
-            "This paper is related to Effect of initial shear stress on acoustoelastic guided waves in plates.",
-            "It appears in Ultrasonics.",
-            "The likely research mode is Other."
-          ],
-          "conclusions": [
-            "The paper appears to mainly rely on other methods.",
-            "The detailed conclusions should be verified from the original paper."
-          ],
-          "source": "Crossref",
-          "url": "https://doi.org/10.1016/j.ultras.2026.108006",
-          "categories": [],
-          "venue": "Ultrasonics",
-          "fields_of_study": []
-        },
-        {
-          "id": "doi:10.1016/j.ultras.2026.108008",
-          "topic": "Guided Waves",
-          "title": "Depth detection of guardrail posts based on guided waves and sparse Bayesian learning",
-          "authors": [
-            "Jiewen Bai",
-            "Qiangqiang Han",
-            "Zijian Wang",
-            "Zhishen Wu"
-          ],
-          "institution": [
-            "Not available from source"
-          ],
-          "published": "2026-08-01",
-          "keywords": [
-            "Guided Waves",
-            "guided wave"
-          ],
-          "method": "Other",
-          "summary": [
-            "This paper is related to Depth detection of guardrail posts based on guided waves and sparse Bayesian learning.",
-            "It appears in Ultrasonics.",
-            "The likely research mode is Other."
-          ],
-          "conclusions": [
-            "The paper appears to mainly rely on other methods.",
-            "The detailed conclusions should be verified from the original paper."
-          ],
-          "source": "Crossref",
-          "url": "https://doi.org/10.1016/j.ultras.2026.108008",
-          "categories": [],
-          "venue": "Ultrasonics",
-          "fields_of_study": []
-        }
-      ],
-      "backlog": [],
-      "highlights": []
-    },
-    "Acoustic Emission": {
-      "fresh": [
-        {
-          "id": "doi:10.1016/j.ultras.2026.108007",
-          "topic": "Acoustic Emission",
-          "title": "Acoustic emission characteristics of the brittle–ductile transition for unsaturated rock during drilling process with confining pressures",
-          "authors": [
-            "Mingchen Ding",
-            "Mingming He",
-            "Yangping Yao",
-            "Bo Zhang",
-            "Xudong Ma"
-          ],
-          "institution": [
-            "Not available from source"
-          ],
-          "published": "2026-08-01",
-          "keywords": [
-            "Acoustic Emission",
-            "acoustic emission"
-          ],
-          "method": "Other",
-          "summary": [
-            "This paper is related to Acoustic emission characteristics of the brittle–ductile transition for unsaturated rock during drilling process with confining pressures.",
-            "It appears in Ultrasonics.",
-            "The likely research mode is Other."
-          ],
-          "conclusions": [
-            "The paper appears to mainly rely on other methods.",
-            "The detailed conclusions should be verified from the original paper."
-          ],
-          "source": "Crossref",
-          "url": "https://doi.org/10.1016/j.ultras.2026.108007",
-          "categories": [],
-          "venue": "Ultrasonics",
-          "fields_of_study": [
-            "Medicine"
-          ]
-        },
-        {
-          "id": "doi:10.1016/j.ultras.2026.108038",
-          "topic": "Acoustic Emission",
-          "title": "Micro-discharge evolution in constant voltage bipolar PEO process on ZL101 Al-Si alloy monitored by acoustic emission technique",
-          "authors": [
-            "Yizhao Liao",
-            "Shuixian Bai",
-            "Dazhi Chen",
-            "Jiayan An",
-            "Jiancheng Du",
-            "Wenbin Xue",
-            "Xingping Wang"
-          ],
-          "institution": [
-            "Not available from source"
-          ],
-          "published": "2026-08-01",
-          "keywords": [
-            "Acoustic Emission",
-            "acoustic emission"
-          ],
-          "method": "Other",
-          "summary": [
-            "This paper is related to Micro-discharge evolution in constant voltage bipolar PEO process on ZL101 Al-Si alloy monitored by acoustic emission technique.",
-            "It appears in Ultrasonics.",
-            "The likely research mode is Other."
-          ],
-          "conclusions": [
-            "The paper appears to mainly rely on other methods.",
-            "The detailed conclusions should be verified from the original paper."
-          ],
-          "source": "Crossref",
-          "url": "https://doi.org/10.1016/j.ultras.2026.108038",
-          "categories": [],
-          "venue": "Ultrasonics",
-          "fields_of_study": [
-            "Medicine"
-          ]
-        }
-      ],
-      "backlog": [],
-      "highlights": []
-    }
+    "DAS": [
+      {
+        "id": "arxiv:2603.24353v1",
+        "topic": "DAS",
+        "title": "Cemented fibers as a testbed for distributed acoustic sensing (DAS)",
+        "authors": [
+          "Thomas Forbriger",
+          "Felix Münch",
+          "Laura Hillmann",
+          "Verónica Rodríguez Tribaldos",
+          "Rudolf Widmer-Schnidrig",
+          "Han Xiao",
+          "Andreas Rietbrock",
+          "Angelo Strollo"
+        ],
+        "institution": [
+          "Not available from source"
+        ],
+        "published": "2026-03-25",
+        "keywords": [
+          "physics.geo-ph"
+        ],
+        "method": "Experimental",
+        "summary": [
+          "A rigid connection between the optical fiber and the rock makes amplitudes of 'fiber strain' measured with Distributed Acoustic Sensing (DAS) equal to 'rock strain'.",
+          "We demonstrate this by running four interrogator units (IU) on a DAS testbed with single-fiber patch cables being cemented into a groove in the concrete floor of Black Forest Observatory (BFO).",
+          "The recorded signals are compared with the recordings of a calibrated Invar wire strain meter array that has been continuously in operation for the last decades."
+        ],
+        "source": "arXiv",
+        "url": "http://arxiv.org/abs/2603.24353v1",
+        "venue": "arXiv"
+      },
+      {
+        "id": "arxiv:2603.15828v1",
+        "topic": "DAS",
+        "title": "High-Resolution Trans-Oceanic Distributed Acoustic Sensing Enabled by a Bi-Directional Sensor Implementation",
+        "authors": [
+          "Mikael Mazur",
+          "Nicolas K. Fontaine",
+          "Roland Ryf",
+          "Martin Karrenbach",
+          "Kristopher McBrian",
+          "Keith McLaughlin",
+          "Brian Sperry",
+          "Anuar Butler"
+        ],
+        "institution": [
+          "Not available from source"
+        ],
+        "published": "2026-03-16",
+        "keywords": [
+          "physics.geo-ph",
+          "eess.SP"
+        ],
+        "method": "Experimental",
+        "summary": [
+          "We demonstrate continuous distributed acoustic sensing over a 4400km long undersea cable.",
+          "Bi-directional operation improves the strain signal-to-noise rate by >20dB, enabling 88000 50-m-spaced measurement points at a nominal telecom launch power."
+        ],
+        "source": "arXiv",
+        "url": "http://arxiv.org/abs/2603.15828v1",
+        "venue": "arXiv"
+      },
+      {
+        "id": "arxiv:2603.14844v1",
+        "topic": "DAS",
+        "title": "A deep learning framework for marine acoustic and seismic monitoring with distributed acoustic sensing",
+        "authors": [
+          "Chun Zhang",
+          "Weiqiang Zhu",
+          "Barbara A. Romanowicz",
+          "Richard M Allen",
+          "Kenichi Soga",
+          "Yuxin Wu"
+        ],
+        "institution": [
+          "Not available from source"
+        ],
+        "published": "2026-03-16",
+        "keywords": [
+          "physics.geo-ph"
+        ],
+        "method": "Hybrid",
+        "summary": [
+          "Distributed Acoustic Sensing (DAS) enables high-resolution and long-duration monitoring of marine acoustic and seismic activity by turning existing fiber-optic cables into dense sensor arrays.",
+          "However, extracting diverse signals from continuous DAS data remains challenging due to the massive data volumes and signal complexity.",
+          "Here, we present DASNet, a deep learning framework for automated detection, classification, and arrival-time picking of diverse marine signals in DAS data."
+        ],
+        "source": "arXiv",
+        "url": "http://arxiv.org/abs/2603.14844v1",
+        "venue": "arXiv"
+      },
+      {
+        "id": "arxiv:2603.13903v1",
+        "topic": "DAS",
+        "title": "Distributed Acoustic Sensing for Urban Traffic Monitoring: Spatio-Temporal Attention in Recurrent Neural Networks",
+        "authors": [
+          "Izhan Fakhruzi",
+          "Manuel Titos",
+          "Carmen Benítez",
+          "Luz García"
+        ],
+        "institution": [
+          "Not available from source"
+        ],
+        "published": "2026-03-14",
+        "keywords": [
+          "cs.LG",
+          "cs.SD"
+        ],
+        "method": "Hybrid",
+        "summary": [
+          "Effective urban traffic monitoring is essential for improving mobility, enhancing safety, and supporting sustainable cities.",
+          "Distributed Acoustic Sensing (DAS) enables large-scale traffic observation by transforming existing fiber-optic infrastructure into dense arrays of vibration sensors.",
+          "However, modeling the high-resolution spatio-temporal structure of DAS data for reliable traffic event recognition remains challenging."
+        ],
+        "source": "arXiv",
+        "url": "http://arxiv.org/abs/2603.13903v1",
+        "venue": "arXiv"
+      },
+      {
+        "id": "arxiv:2602.20144v1",
+        "topic": "DAS",
+        "title": "Agentic AI for Scalable and Robust Optical Systems Control",
+        "authors": [
+          "Zehao Wang",
+          "Mingzhe Han",
+          "Wei Cheng",
+          "Yue-Kai Huang",
+          "Philip Ji",
+          "Denton Wu",
+          "Mahdi Safari",
+          "Flemming Holtorf"
+        ],
+        "institution": [
+          "Not available from source"
+        ],
+        "published": "2026-02-23",
+        "keywords": [
+          "eess.SY",
+          "cs.AI",
+          "cs.NI"
+        ],
+        "method": "Other",
+        "summary": [
+          "We present AgentOptics, an agentic AI framework for high-fidelity, autonomous optical system control built on the Model Context Protocol (MCP).",
+          "AgentOptics interprets natural language tasks and executes protocol-compliant actions on heterogeneous optical devices through a structured tool abstraction layer.",
+          "We implement 64 standardized MCP tools across 8 representative optical devices and construct a 410-task benchmark to evaluate request understanding, role-aware responses, multi-step coordination, robustness to linguistic variation, and error handling."
+        ],
+        "source": "arXiv",
+        "url": "http://arxiv.org/abs/2602.20144v1",
+        "venue": "arXiv"
+      },
+      {
+        "id": "arxiv:2601.10858v1",
+        "topic": "DAS",
+        "title": "High-resolution measurement of sea ice mechanical characteristics using Distributed Acoustic Sensing",
+        "authors": [
+          "Sébastien Kuchly",
+          "Ludovic Moreau",
+          "Vasco Zanchi",
+          "Nicolas Mokus",
+          "Véronique Dansereau",
+          "Madison M. Smith",
+          "Dany Dumont",
+          "Stéphane Perrard"
+        ],
+        "institution": [
+          "Not available from source"
+        ],
+        "published": "2026-01-15",
+        "keywords": [
+          "physics.geo-ph"
+        ],
+        "method": "Hybrid",
+        "summary": [
+          "Sea ice mechanical properties are involved in dynamical processes acting from the scale of meters to several hundred kilometers.",
+          "The current rapid changes in the state of polar sea ice require a better understanding and modeling of these processes and, therefore, accurate measurements of properties including sea ice thickness, density, Young's modulus and Poisson's ratio.",
+          "These properties can be measured by tracking the propagation of elastic waves within the ice."
+        ],
+        "source": "arXiv",
+        "url": "http://arxiv.org/abs/2601.10858v1",
+        "venue": "arXiv"
+      },
+      {
+        "id": "arxiv:2512.13554v1",
+        "topic": "DAS",
+        "title": "Silencing Newtonian noise using fusion sensor arrays",
+        "authors": [
+          "Paul Ophardt",
+          "Francesca Badaracco",
+          "Katharina-Sophie Isleif"
+        ],
+        "institution": [
+          "Not available from source"
+        ],
+        "published": "2025-12-15",
+        "keywords": [
+          "gr-qc"
+        ],
+        "method": "Experimental",
+        "summary": [
+          "Newtonian noise (NN) from seismic density fluctuations is expected to limit the low-frequency sensitivity of third-generation gravitational-wave detectors, in particular the Einstein Telescope (ET).",
+          "Current NN mitigation relies on seismometer arrays and Wiener filtering, while distributed acoustic sensing (DAS) offers a complementary, low-cost means of obtaining dense strain measurements.",
+          "We investigate fusion sensor arrays composed of both displacement-measuring seismometers and strain-measuring DAS-type sensors."
+        ],
+        "source": "arXiv",
+        "url": "http://arxiv.org/abs/2512.13554v1",
+        "venue": "arXiv"
+      },
+      {
+        "id": "arxiv:2512.11231v1",
+        "topic": "DAS",
+        "title": "Robust Detection of Underwater Target Against Non-Uniform Noise With Optical Fiber DAS Array",
+        "authors": [
+          "Siyuan Cang",
+          "Cong Liu",
+          "Xueli Sheng",
+          "Xiaoming Cui",
+          "Chao Li",
+          "Changxin Fa",
+          "Jiantong Chen",
+          "Chaoran Yang"
+        ],
+        "institution": [
+          "Not available from source"
+        ],
+        "published": "2025-12-12",
+        "keywords": [
+          "eess.SP",
+          "eess.AS"
+        ],
+        "method": "Hybrid",
+        "summary": [
+          "The detection of underwater targets is severely affected by the non-uniform spatial characteristics of marine environmental noise.",
+          "Additionally, the presence of both natural and anthropogenic acoustic sources, including shipping traffic, marine life, and geological activity, further complicates the underwater acoustic landscape.",
+          "Addressing these challenges requires advanced underwater sensors and robust signal processing techniques."
+        ],
+        "source": "arXiv",
+        "url": "http://arxiv.org/abs/2512.11231v1",
+        "venue": "arXiv"
+      },
+      {
+        "id": "arxiv:2512.08845v1",
+        "topic": "DAS",
+        "title": "Near real-time channel selection for Distributed Acoustic Sensing technology",
+        "authors": [
+          "Emanuele Bozzi",
+          "Giulio Pascucci",
+          "Giacomo Rapagnani",
+          "Gian Maria Bocchini",
+          "Rebecca Harrington",
+          "Arantza Ugalde",
+          "Gilberto Saccorotti",
+          "Francesco Grigoli"
+        ],
+        "institution": [
+          "Not available from source"
+        ],
+        "published": "2025-12-09",
+        "keywords": [
+          "physics.geo-ph"
+        ],
+        "method": "Other",
+        "summary": [
+          "Distributed Acoustic Sensing (DAS) technology is advancing seismic monitoring by providing dense observations near earthquake sources.",
+          "However, the resulting data volumes often limit real-time processing capability, with most seismological applications focusing on retrospective analysis of seismic sequences.",
+          "To address this challenge, we introduce ORION, a fast and versatile selector of high-quality DAS channels that efficiently reduces the amount of data to analyze."
+        ],
+        "source": "arXiv",
+        "url": "http://arxiv.org/abs/2512.08845v1",
+        "venue": "arXiv"
+      },
+      {
+        "id": "arxiv:2511.17141v1",
+        "topic": "DAS",
+        "title": "Distributed Acoustic Fiber Sensing for Research Campuses and Large Scientific Infrastructures -- The Hamburg WAVE proto-network",
+        "authors": [
+          "Oliver Bölt",
+          "Luigia Cristiano",
+          "Sandy Croatto",
+          "Dirk Gajewski",
+          "Erik Genthe",
+          "Oliver Gerberding",
+          "Céline Hadziioannou",
+          "Conny Hammer"
+        ],
+        "institution": [
+          "Not available from source"
+        ],
+        "published": "2025-11-21",
+        "keywords": [
+          "physics.ins-det",
+          "astro-ph.IM",
+          "physics.acc-ph",
+          "physics.geo-ph"
+        ],
+        "method": "Experimental",
+        "summary": [
+          "Here, we demonstrate and investigate how Distributed Acoustic Sensing (DAS) can be utilized on research campuses and in large scientific infrastructures to study environmental vibrations and reduce their impact on high-precision experiments.",
+          "We first discuss the potential of DAS in the context of particle accelerators, gravitational wave detection experiments and research campuses.",
+          "Next, we present the results of our seismic measurement campaign conducted with our proto-network, which involved the probing of over 12 km of fiber, in May 2021."
+        ],
+        "source": "arXiv",
+        "url": "http://arxiv.org/abs/2511.17141v1",
+        "venue": "arXiv"
+      }
+    ],
+    "Guided Waves": [
+      {
+        "id": "doi:10.1016/j.ultras.2026.108057",
+        "topic": "Guided Waves",
+        "title": "Counter-directional mixing of longitudinal guided waves for fatigue damage detection in pipes",
+        "authors": [
+          "Wujun Zhu",
+          "Junyu Gu",
+          "Yanxun Xiang",
+          "Taotao Ding",
+          "Fu-Zhen Xuan"
+        ],
+        "institution": [
+          "Not available from source"
+        ],
+        "published": "2026-09-01",
+        "keywords": [],
+        "method": "Other",
+        "summary": [
+          "This paper is related to Counter-directional mixing of longitudinal guided waves for fatigue damage detection in pipes.",
+          "It appears in Ultrasonics.",
+          "The likely research mode is Other."
+        ],
+        "source": "Crossref",
+        "url": "https://doi.org/10.1016/j.ultras.2026.108057",
+        "venue": "Ultrasonics"
+      },
+      {
+        "id": "doi:10.1016/j.ultras.2026.108048",
+        "topic": "Guided Waves",
+        "title": "A rapid multi-defect imaging method for composite plates using air-coupled ultrasonic guided waves based on multi-scale interactive Siamese network",
+        "authors": [
+          "Yuan Liu",
+          "Jielin Wang",
+          "Liuwei Huang",
+          "Chao Lu",
+          "Shuanglin Guo",
+          "Rong Wu",
+          "Wenze Shi"
+        ],
+        "institution": [
+          "Not available from source"
+        ],
+        "published": "2026-08-01",
+        "keywords": [
+          "Medicine"
+        ],
+        "method": "Other",
+        "summary": [
+          "This paper is related to A rapid multi-defect imaging method for composite plates using air-coupled ultrasonic guided waves based on multi-scale interactive Siamese network.",
+          "It appears in Ultrasonics.",
+          "The likely research mode is Other."
+        ],
+        "source": "Crossref",
+        "url": "https://doi.org/10.1016/j.ultras.2026.108048",
+        "venue": "Ultrasonics"
+      },
+      {
+        "id": "doi:10.1016/j.ultras.2026.108006",
+        "topic": "Guided Waves",
+        "title": "Effect of initial shear stress on acoustoelastic guided waves in plates",
+        "authors": [
+          "Alan C. Kubrusly",
+          "Luis Paulo Brasil de Souza",
+          "Fotis Kopsaftopoulos"
+        ],
+        "institution": [
+          "Not available from source"
+        ],
+        "published": "2026-08-01",
+        "keywords": [
+          "Medicine"
+        ],
+        "method": "Other",
+        "summary": [
+          "This paper is related to Effect of initial shear stress on acoustoelastic guided waves in plates.",
+          "It appears in Ultrasonics.",
+          "The likely research mode is Other."
+        ],
+        "source": "Crossref",
+        "url": "https://doi.org/10.1016/j.ultras.2026.108006",
+        "venue": "Ultrasonics"
+      },
+      {
+        "id": "doi:10.1016/j.ultras.2026.108008",
+        "topic": "Guided Waves",
+        "title": "Depth detection of guardrail posts based on guided waves and sparse Bayesian learning",
+        "authors": [
+          "Jiewen Bai",
+          "Qiangqiang Han",
+          "Zijian Wang",
+          "Zhishen Wu"
+        ],
+        "institution": [
+          "Not available from source"
+        ],
+        "published": "2026-08-01",
+        "keywords": [
+          "Medicine"
+        ],
+        "method": "Other",
+        "summary": [
+          "This paper is related to Depth detection of guardrail posts based on guided waves and sparse Bayesian learning.",
+          "It appears in Ultrasonics.",
+          "The likely research mode is Other."
+        ],
+        "source": "Crossref",
+        "url": "https://doi.org/10.1016/j.ultras.2026.108008",
+        "venue": "Ultrasonics"
+      },
+      {
+        "id": "doi:10.1016/j.ultras.2026.108031",
+        "topic": "Guided Waves",
+        "title": "Automated guided wave characterization of Marcelling: In-plane fiber waviness in thermoplastic composites",
+        "authors": [
+          "Sourav Banerjee",
+          "Ana Tudor",
+          "Corey Leydig",
+          "Thomas Ferguson",
+          "Tally Bovender",
+          "Darun Barazanchy",
+          "Josh Widosky",
+          "Paul Ziehl"
+        ],
+        "institution": [
+          "Not available from source"
+        ],
+        "published": "2026-08-01",
+        "keywords": [
+          "Medicine"
+        ],
+        "method": "Other",
+        "summary": [
+          "This paper is related to Automated guided wave characterization of Marcelling: In-plane fiber waviness in thermoplastic composites.",
+          "It appears in Ultrasonics.",
+          "The likely research mode is Other."
+        ],
+        "source": "Crossref",
+        "url": "https://doi.org/10.1016/j.ultras.2026.108031",
+        "venue": "Ultrasonics"
+      },
+      {
+        "id": "doi:10.1016/j.ultras.2026.107972",
+        "topic": "Guided Waves",
+        "title": "Adaptive sampling for efficient Lamb wavefield reconstruction in composite laminates with Spatial-Temporal Masked AutoEncoder",
+        "authors": [
+          "Dingcheng Ji",
+          "Wenhao Li",
+          "Fei Gao",
+          "Jiadong Hua",
+          "Jing Lin"
+        ],
+        "institution": [
+          "Not available from source"
+        ],
+        "published": "2026-06-01",
+        "keywords": [
+          "Medicine"
+        ],
+        "method": "Other",
+        "summary": [
+          "This paper is related to Adaptive sampling for efficient Lamb wavefield reconstruction in composite laminates with Spatial-Temporal Masked AutoEncoder.",
+          "It appears in Ultrasonics.",
+          "The likely research mode is Other."
+        ],
+        "source": "Crossref",
+        "url": "https://doi.org/10.1016/j.ultras.2026.107972",
+        "venue": "Ultrasonics"
+      }
+    ],
+    "Acoustic Emission": [
+      {
+        "id": "doi:10.1016/j.ultras.2026.108038",
+        "topic": "Acoustic Emission",
+        "title": "Micro-discharge evolution in constant voltage bipolar PEO process on ZL101 Al-Si alloy monitored by acoustic emission technique",
+        "authors": [
+          "Yizhao Liao",
+          "Shuixian Bai",
+          "Dazhi Chen",
+          "Jiayan An",
+          "Jiancheng Du",
+          "Wenbin Xue",
+          "Xingping Wang"
+        ],
+        "institution": [
+          "Not available from source"
+        ],
+        "published": "2026-08-01",
+        "keywords": [
+          "Medicine"
+        ],
+        "method": "Other",
+        "summary": [
+          "This paper is related to Micro-discharge evolution in constant voltage bipolar PEO process on ZL101 Al-Si alloy monitored by acoustic emission technique.",
+          "It appears in Ultrasonics.",
+          "The likely research mode is Other."
+        ],
+        "source": "Crossref",
+        "url": "https://doi.org/10.1016/j.ultras.2026.108038",
+        "venue": "Ultrasonics"
+      },
+      {
+        "id": "doi:10.1016/j.ultras.2026.108007",
+        "topic": "Acoustic Emission",
+        "title": "Acoustic emission characteristics of the brittle–ductile transition for unsaturated rock during drilling process with confining pressures",
+        "authors": [
+          "Mingchen Ding",
+          "Mingming He",
+          "Yangping Yao",
+          "Bo Zhang",
+          "Xudong Ma"
+        ],
+        "institution": [
+          "Not available from source"
+        ],
+        "published": "2026-08-01",
+        "keywords": [],
+        "method": "Other",
+        "summary": [
+          "This paper is related to Acoustic emission characteristics of the brittle–ductile transition for unsaturated rock during drilling process with confining pressures.",
+          "It appears in Ultrasonics.",
+          "The likely research mode is Other."
+        ],
+        "source": "Crossref",
+        "url": "https://doi.org/10.1016/j.ultras.2026.108007",
+        "venue": "Ultrasonics"
+      },
+      {
+        "id": "doi:10.1016/j.measurement.2026.121194",
+        "topic": "Acoustic Emission",
+        "title": "Multi-technique characterization and verification of circular tunnel failure: True-triaxial experiments integrating AE and miniature videography under varied minimum principal stresses",
+        "authors": [
+          "Kang Peng",
+          "Xu Liu",
+          "Tao Wu",
+          "Kun Luo",
+          "Song Luo"
+        ],
+        "institution": [
+          "Not available from source"
+        ],
+        "published": "2026-05-01",
+        "keywords": [],
+        "method": "Experimental",
+        "summary": [
+          "This paper is related to Multi-technique characterization and verification of circular tunnel failure: True-triaxial experiments integrating AE and miniature videography under varied minimum principal stresses.",
+          "It appears in Measurement.",
+          "The likely research mode is Experimental."
+        ],
+        "source": "Crossref",
+        "url": "https://doi.org/10.1016/j.measurement.2026.121194",
+        "venue": "Measurement"
+      },
+      {
+        "id": "doi:10.1007/s00603-026-05342-0",
+        "topic": "Acoustic Emission",
+        "title": "AE Characteristics and Dynamic Damage Evolution of Fissured Sandstone Under Multi-level Cyclic Loading Using Wave-Velocity Tomography",
+        "authors": [
+          "Cheng Lyu",
+          "Kai Liu",
+          "Wuqiang Cai",
+          "Zhiwei Yan",
+          "Xiongyu Hu",
+          "Jiadi Wen",
+          "Zecan Chen",
+          "Binbin Miao"
+        ],
+        "institution": [
+          "Not available from source"
+        ],
+        "published": "2026-02-19",
+        "keywords": [],
+        "method": "Other",
+        "summary": [
+          "This paper is related to AE Characteristics and Dynamic Damage Evolution of Fissured Sandstone Under Multi-level Cyclic Loading Using Wave-Velocity Tomography.",
+          "It appears in Rock Mechanics and Rock Engineering.",
+          "The likely research mode is Other."
+        ],
+        "source": "Crossref",
+        "url": "https://doi.org/10.1007/s00603-026-05342-0",
+        "venue": "Rock Mechanics and Rock Engineering"
+      },
+      {
+        "id": "doi:10.1007/s00603-026-05361-x",
+        "topic": "Acoustic Emission",
+        "title": "Real-Time AE − DIC Analysis and DEM Modeling of Structure-Controlled Rockburst Evolution in Hard Rock Tunnels",
+        "authors": [
+          "Guo-Qiang Zhu",
+          "Jialiang Zhou",
+          "Liangjie Gu",
+          "Shaojun Li",
+          "Abbas Taheri",
+          "Ben-Guo He"
+        ],
+        "institution": [
+          "Not available from source"
+        ],
+        "published": "2026-02-09",
+        "keywords": [],
+        "method": "Numerical Simulation",
+        "summary": [
+          "This paper is related to Real-Time AE − DIC Analysis and DEM Modeling of Structure-Controlled Rockburst Evolution in Hard Rock Tunnels.",
+          "It appears in Rock Mechanics and Rock Engineering.",
+          "The likely research mode is Numerical Simulation."
+        ],
+        "source": "Crossref",
+        "url": "https://doi.org/10.1007/s00603-026-05361-x",
+        "venue": "Rock Mechanics and Rock Engineering"
+      }
+    ]
   }
 }
