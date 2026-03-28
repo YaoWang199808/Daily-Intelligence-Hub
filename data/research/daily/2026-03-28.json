@@ -1,46 +1,7 @@
 {
   "date": "2026-03-28",
   "topics": {
-    "DAS": [
-      {
-        "id": "arxiv:2603.24353v1",
-        "topic": "DAS",
-        "title": "Cemented fibers as a testbed for distributed acoustic sensing (DAS)",
-        "authors": [
-          "Thomas Forbriger",
-          "Felix Münch",
-          "Laura Hillmann",
-          "Verónica Rodríguez Tribaldos",
-          "Rudolf Widmer-Schnidrig",
-          "Han Xiao",
-          "Andreas Rietbrock",
-          "Angelo Strollo"
-        ],
-        "institution": [
-          "Not available from source"
-        ],
-        "published": "2026-03-25",
-        "keywords": [
-          "DAS",
-          "distributed acoustic sensing"
-        ],
-        "method": "Distributed acoustic sensing",
-        "summary": [
-          "A rigid connection between the optical fiber and the rock makes amplitudes of 'fiber strain' measured with Distributed Acoustic Sensing (DAS) equal to 'rock strain'.",
-          "We demonstrate this by running four interrogator units (IU) on a DAS testbed with single-fiber patch cables being cemented into a groove in the concrete floor of Black Forest Observatory (BFO).",
-          "The recorded signals are compared with the recordings of a calibrated Invar wire strain meter array that has been continuously in operation for the last decades."
-        ],
-        "conclusions": [
-          "By subtracting the common mode laser noise, which is coherent along the fiber route, we lower the background signal level to an rms-amplitude of 100 pstrain at 0.1 Hz and 5 pstrain at 1 Hz in a bandwidth of 1/6 decade for the best cases.",
-          "This allows the detection of the marine microseisms during times of moderate amplitude level."
-        ],
-        "source": "arXiv",
-        "url": "http://arxiv.org/abs/2603.24353v1",
-        "categories": [
-          "physics.geo-ph"
-        ]
-      }
-    ],
+    "DAS": [],
     "Crack Monitoring": [],
     "Guided Waves": [],
     "Acoustic Emission": [],
