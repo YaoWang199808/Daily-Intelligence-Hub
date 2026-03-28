@@ -450,15 +450,30 @@ def build_final_item(raw_item, topic_name):
 
     method = classify_method(combined_text)
 
-    institutions = raw_item.get("institutions", []) or []
-    venue = raw_item.get("journal", "")
+    from institution_extractor import extract_institutions_from_url
 
-    # Try Semantic Scholar only when institution is missing
+    venue = raw_item.get("journal", "")
+    institutions = raw_item.get("institutions", []) or []
+    enriched = {}
+
+    # Step 1: Crossref already filled institutions if available
+
+    # Step 2: Semantic Scholar
     if len(institutions) == 0:
         enriched = enrich_with_semantic_scholar(raw_item)
-        institutions = enriched.get("institutions", []) or ["Not available from source"]
+        institutions = enriched.get("institutions", []) or []
         if enriched.get("venue"):
             venue = enriched["venue"]
+
+    # Step 3: publisher page extraction
+    if len(institutions) == 0:
+        url = raw_item.get("url", "")
+        if url:
+            institutions = extract_institutions_from_url(url)
+
+    # fallback
+    if not institutions:
+        institutions = ["Not available from source"]
 
     abstract_text = clean_text(raw_item.get("summary_raw", ""))
     if not abstract_text:
@@ -469,14 +484,13 @@ def build_final_item(raw_item, topic_name):
         "topic": topic_name,
         "title": raw_item["title"],
         "authors": raw_item.get("authors", [])[:8],
-        "institution": institutions[:6] if institutions else ["Not available from source"],
+        "institution": institutions[:6],
         "published": raw_item.get("published", ""),
         "method": method,
         "abstract": abstract_text,
         "url": raw_item.get("url", ""),
         "venue": venue
     }
-
 
 def select_daily_items(deduped_items, topic_name):
     """
