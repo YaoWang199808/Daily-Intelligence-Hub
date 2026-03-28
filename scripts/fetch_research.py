@@ -2,11 +2,8 @@ from pathlib import Path
 from datetime import datetime, timezone, timedelta
 import urllib.parse
 import urllib.request
-import xml.etree.ElementTree as ET
 import json
 import os
-import re
-import time
 
 from utils import (
     ROOT,
@@ -16,58 +13,22 @@ from utils import (
     normalize_title,
     clean_text,
     today_str,
-    extract_arxiv_id,
 )
 
 DATA_DIR = ROOT / "data" / "research"
-TOPICS_FILE = DATA_DIR / "topics.json"
 JOURNALS_FILE = DATA_DIR / "journals.json"
 SEEN_FILE = DATA_DIR / "seen.json"
 DAILY_DIR = DATA_DIR / "daily"
 
-ARXIV_NS = {"a": "http://www.w3.org/2005/Atom"}
-
 SEMANTIC_SCHOLAR_API_KEY = os.getenv("SEMANTIC_SCHOLAR_API_KEY", "").strip()
-SEMANTIC_SCHOLAR_ENABLED = True
 
-# ---------- Time windows ----------
-FRESH_DAYS = 30
-BACKLOG_DAYS = 180
-LOOKBACK_DAYS = 730
+CURRENT_YEAR = datetime.now(timezone.utc).year
+LOOKBACK_YEARS = 8
 
-# ---------- Final display count ----------
-MAX_PER_TOPIC = 10
+NEW_PER_JOURNAL = 5
+CITED_PER_JOURNAL = 5
 
-# ---------- Retrieval counts ----------
-CROSSREF_ROWS_PER_KEYWORD = 100
-ARXIV_ROWS_PER_KEYWORD = 40
-
-# ---------- Topic alias rules ----------
-TOPIC_ALIASES = {
-    "DAS": [
-        "distributed acoustic sensing",
-        "distributed fibre optic sensing",
-        "distributed fiber optic sensing",
-        "fiber optic sensing",
-        "fibre optic sensing",
-        "das"
-    ],
-    "Guided Waves": [
-        "guided wave",
-        "guided waves",
-        "lamb wave",
-        "lamb waves",
-        "ultrasonic guided wave",
-        "ultrasonic guided waves"
-    ],
-    "Acoustic Emission": [
-        "acoustic emission",
-        "acoustic-emission",
-        "ae monitoring",
-        "ae-based",
-        "ae "
-    ]
-}
+CROSSREF_ROWS_PER_JOURNAL = 120
 
 
 def normalized_journal_name(name: str) -> str:
@@ -77,9 +38,19 @@ def normalized_journal_name(name: str) -> str:
 def html_strip(text: str) -> str:
     if not text:
         return ""
+    import re
     text = re.sub(r"<[^>]+>", " ", text)
     text = re.sub(r"\s+", " ", text)
     return text.strip()
+
+
+def safe_json_request(url: str, headers=None, timeout=30):
+    req = urllib.request.Request(
+        url,
+        headers=headers or {"User-Agent": "Daily-Intelligence-Hub/1.0"}
+    )
+    with urllib.request.urlopen(req, timeout=timeout) as response:
+        return json.loads(response.read().decode("utf-8"))
 
 
 def parse_crossref_date(item: dict) -> str:
@@ -101,50 +72,17 @@ def parse_crossref_date(item: dict) -> str:
     return ""
 
 
-def days_since(date_str: str):
-    if not date_str:
-        return 10**9
-    try:
-        dt = datetime.strptime(date_str, "%Y-%m-%d").replace(tzinfo=timezone.utc)
-    except ValueError:
-        return 10**9
-    return (datetime.now(timezone.utc) - dt).days
+def query_crossref_for_journal(journal_name: str, rows: int = CROSSREF_ROWS_PER_JOURNAL):
+    from_date = (
+        datetime.now(timezone.utc) - timedelta(days=365 * LOOKBACK_YEARS)
+    ).strftime("%Y-%m-%d")
 
-
-def bucket_priority(published_date: str) -> int:
-    """
-    Lower is better.
-    0 = fresh
-    1 = backlog
-    2 = older highlight
-    """
-    age = days_since(published_date)
-    if age <= FRESH_DAYS:
-        return 0
-    if age <= BACKLOG_DAYS:
-        return 1
-    return 2
-
-
-def safe_json_request(url: str, headers=None, timeout=30):
-    req = urllib.request.Request(
-        url,
-        headers=headers or {
-            "User-Agent": "Daily-Intelligence-Hub/1.0"
-        }
-    )
-    with urllib.request.urlopen(req, timeout=timeout) as response:
-        return json.loads(response.read().decode("utf-8"))
-
-
-def query_crossref(keyword: str, rows: int = CROSSREF_ROWS_PER_KEYWORD):
-    from_date = (datetime.now(timezone.utc) - timedelta(days=LOOKBACK_DAYS)).strftime("%Y-%m-%d")
-    encoded_kw = urllib.parse.quote(keyword)
+    encoded_journal = urllib.parse.quote(journal_name)
 
     url = (
         "https://api.crossref.org/works?"
-        f"query.bibliographic={encoded_kw}"
-        f"&filter=from-pub-date:{from_date}"
+        f"query.container-title={encoded_journal}"
+        f"&filter=from-pub-date:{from_date},type:journal-article"
         f"&rows={rows}"
         "&sort=published"
         "&order=desc"
@@ -154,7 +92,7 @@ def query_crossref(keyword: str, rows: int = CROSSREF_ROWS_PER_KEYWORD):
         data = safe_json_request(url, timeout=30)
         return data.get("message", {}).get("items", [])
     except Exception as e:
-        print(f"Crossref query failed for '{keyword}': {e}")
+        print(f"Crossref query failed for journal '{journal_name}': {e}")
         return []
 
 
@@ -184,91 +122,189 @@ def parse_crossref_item(item: dict):
 
     published = parse_crossref_date(item)
 
-    # author / publisher supplied subject-like fields
-    subject = [clean_text(s) for s in (item.get("subject", []) or []) if clean_text(s)]
-
     item_id = f"doi:{doi.lower()}" if doi else f"url:{url}"
 
     return {
         "id": item_id,
+        "doi": doi,
         "title": title,
-        "summary_raw": abstract,
+        "abstract_raw": abstract,
         "published": published,
         "url": url,
         "authors": authors,
         "institutions": institutions[:6],
-        "journal": journal,
-        "keywords_source": subject,
-        "source": "Crossref"
+        "journal": journal
     }
 
 
-def query_arxiv(keyword: str, max_results: int = ARXIV_ROWS_PER_KEYWORD):
-    query = urllib.parse.quote(f'all:"{keyword}"')
-    url = (
-        "http://export.arxiv.org/api/query?"
-        f"search_query={query}&start=0&max_results={max_results}"
-        "&sortBy=submittedDate&sortOrder=descending"
-    )
+def year_of(date_str: str) -> int:
+    if not date_str:
+        return 0
     try:
-        with urllib.request.urlopen(url, timeout=30) as response:
-            return response.read()
-    except Exception as e:
-        print(f"arXiv query failed for '{keyword}': {e}")
-        return b""
+        return int(date_str[:4])
+    except Exception:
+        return 0
 
 
-def parse_entries(xml_bytes: bytes):
-    if not xml_bytes:
-        return []
-    root = ET.fromstring(xml_bytes)
-    return root.findall("a:entry", ARXIV_NS)
+def citation_sort_key(item):
+    return (
+        item.get("citation_count", 0),
+        item.get("published", "")
+    )
 
 
-def text_of(elem, path: str) -> str:
-    found = elem.find(path, ARXIV_NS)
-    return found.text.strip() if found is not None and found.text else ""
+def normalize_spaces(s: str) -> str:
+    return " ".join(clean_text(s).lower().split())
 
 
-def parse_arxiv_entry(entry):
-    title = clean_text(text_of(entry, "a:title"))
-    summary = clean_text(text_of(entry, "a:summary"))
-    published_full = text_of(entry, "a:published")
-    published = published_full[:10] if published_full else ""
-    link = text_of(entry, "a:id")
+def titles_match(a: str, b: str) -> bool:
+    na = normalize_spaces(a)
+    nb = normalize_spaces(b)
+    if not na or not nb:
+        return False
+    return na == nb or na in nb or nb in na
 
-    authors = []
-    for author in entry.findall("a:author", ARXIV_NS):
-        name = text_of(author, "a:name")
-        if name:
-            authors.append(name)
 
-    categories = []
-    for cat in entry.findall("a:category", ARXIV_NS):
-        term = cat.attrib.get("term", "").strip()
-        if term:
-            categories.append(term)
+def query_semantic_scholar_by_doi(doi: str):
+    if not doi:
+        return None
+
+    encoded_doi = urllib.parse.quote(f"DOI:{doi}")
+    fields = ",".join([
+        "title",
+        "citationCount",
+        "venue",
+        "authors",
+        "authors.affiliations"
+    ])
+    url = f"https://api.semanticscholar.org/graph/v1/paper/{encoded_doi}?fields={urllib.parse.quote(fields)}"
+
+    headers = {}
+    if SEMANTIC_SCHOLAR_API_KEY:
+        headers["x-api-key"] = SEMANTIC_SCHOLAR_API_KEY
+
+    try:
+        return safe_json_request(url, headers=headers, timeout=30)
+    except Exception:
+        return None
+
+
+def query_semantic_scholar_by_title(title: str):
+    encoded = urllib.parse.quote(title)
+    fields = ",".join([
+        "title",
+        "citationCount",
+        "venue",
+        "authors",
+        "authors.affiliations"
+    ])
+    url = (
+        "https://api.semanticscholar.org/graph/v1/paper/search?"
+        f"query={encoded}&limit=3&fields={urllib.parse.quote(fields)}"
+    )
+
+    headers = {}
+    if SEMANTIC_SCHOLAR_API_KEY:
+        headers["x-api-key"] = SEMANTIC_SCHOLAR_API_KEY
+
+    try:
+        data = safe_json_request(url, headers=headers, timeout=30)
+        papers = data.get("data", [])
+        if not papers:
+            return None
+
+        for p in papers:
+            if titles_match(title, p.get("title", "")):
+                return p
+
+        return papers[0]
+    except Exception:
+        return None
+
+
+def extract_institutions_from_s2(paper_obj):
+    institutions = []
+    if not paper_obj:
+        return institutions
+
+    for author in paper_obj.get("authors", []) or []:
+        for aff in author.get("affiliations", []) or []:
+            aff_clean = clean_text(str(aff))
+            if aff_clean and aff_clean not in institutions:
+                institutions.append(aff_clean)
+    return institutions[:6]
+
+
+def enrich_with_semantic_scholar(item):
+    s2 = None
+
+    if item.get("doi"):
+        s2 = query_semantic_scholar_by_doi(item["doi"])
+
+    if not s2:
+        s2 = query_semantic_scholar_by_title(item.get("title", ""))
+
+    if not s2:
+        return {
+            "citation_count": 0,
+            "institutions": [],
+            "venue": ""
+        }
 
     return {
-        "id": f"arxiv:{extract_arxiv_id(link)}",
-        "title": title,
-        "summary_raw": summary,
-        "published": published,
-        "url": link,
-        "authors": authors,
-        "institutions": [],
-        "journal": "arXiv",
-        "keywords_source": categories,
-        "source": "arXiv"
+        "citation_count": int(s2.get("citationCount", 0) or 0),
+        "institutions": extract_institutions_from_s2(s2),
+        "venue": clean_text(str(s2.get("venue", "")))
+    }
+
+
+def build_final_item(raw_item):
+    institutions = raw_item.get("institutions", []) or []
+    venue = raw_item.get("journal", "")
+    citation_count = 0
+
+    enriched = enrich_with_semantic_scholar(raw_item)
+    citation_count = enriched.get("citation_count", 0)
+
+    if not institutions:
+        institutions = enriched.get("institutions", []) or []
+
+    if enriched.get("venue"):
+        venue = enriched["venue"]
+
+    if not institutions:
+        institutions = ["Not available from source"]
+
+    abstract_text = clean_text(raw_item.get("abstract_raw", ""))
+    if not abstract_text:
+        abstract_text = "Abstract not available."
+
+    combined_text = " ".join([
+        raw_item.get("title", ""),
+        raw_item.get("abstract_raw", ""),
+        raw_item.get("journal", "")
+    ]).lower()
+
+    method = classify_method(combined_text)
+
+    return {
+        "id": raw_item["id"],
+        "title": raw_item["title"],
+        "authors": raw_item.get("authors", [])[:8],
+        "institution": institutions[:6],
+        "published": raw_item.get("published", ""),
+        "abstract": abstract_text,
+        "url": raw_item.get("url", ""),
+        "venue": venue,
+        "citation_count": citation_count,
+        "method": method
     }
 
 
 def classify_method(text: str):
-    t = text.lower()
-
     experimental_keys = [
         "experiment", "experimental", "laboratory", "specimen", "measured",
-        "measurement", "field test", "field experiment", "testbed", "sensor"
+        "measurement", "field test", "field experiment", "sensor", "testbed"
     ]
     numerical_keys = [
         "simulation", "numerical", "finite element", "finite-element",
@@ -287,16 +323,17 @@ def classify_method(text: str):
         "review", "survey", "overview", "bibliometric", "state of the art"
     ]
 
-    exp_hit = any(k in t for k in experimental_keys)
-    num_hit = any(k in t for k in numerical_keys)
-    ml_hit = any(k in t for k in ml_keys)
-    theory_hit = any(k in t for k in theory_keys)
-    review_hit = any(k in t for k in review_keys)
+    exp_hit = any(k in text for k in experimental_keys)
+    num_hit = any(k in text for k in numerical_keys)
+    ml_hit = any(k in text for k in ml_keys)
+    theory_hit = any(k in text for k in theory_keys)
+    review_hit = any(k in text for k in review_keys)
 
     if review_hit:
         return "Review / Survey"
 
     count = sum([exp_hit, num_hit, ml_hit, theory_hit])
+
     if count >= 2:
         return "Hybrid"
     if ml_hit:
@@ -310,253 +347,9 @@ def classify_method(text: str):
     return "Other"
 
 
-def build_summary_sentences(summary_raw: str, title: str, journal: str, method: str):
-    summary_raw = clean_text(summary_raw)
-
-    if summary_raw:
-        parts = [p.strip() for p in re.split(r'(?<=[.!?])\s+', summary_raw) if p.strip()]
-        return parts[:3] if parts else [summary_raw]
-
-    return [
-        f"This paper is related to {title}.",
-        f"It appears in {journal if journal else 'a selected source'}.",
-        f"The likely research mode is {method}."
-    ]
-
-
-def query_semantic_scholar_by_title(title: str):
-    if not SEMANTIC_SCHOLAR_ENABLED:
-        return None
-
-    encoded = urllib.parse.quote(title)
-    fields = ",".join([
-        "title",
-        "authors",
-        "authors.affiliations",
-        "year",
-        "publicationDate",
-        "venue",
-        "externalIds",
-        "fieldsOfStudy"
-    ])
-    url = (
-        "https://api.semanticscholar.org/graph/v1/paper/search?"
-        f"query={encoded}&limit=1&fields={urllib.parse.quote(fields)}"
-    )
-
-    headers = {}
-    if SEMANTIC_SCHOLAR_API_KEY:
-        headers["x-api-key"] = SEMANTIC_SCHOLAR_API_KEY
-
-    try:
-        data = safe_json_request(url, headers=headers, timeout=30)
-        time.sleep(0.6)
-        papers = data.get("data", [])
-        if not papers:
-            return None
-        return papers[0]
-    except Exception as e:
-        print(f"Semantic Scholar lookup failed for title '{title[:80]}': {e}")
-        return None
-
-
-def extract_institutions_from_semantic_scholar(paper_obj):
-    institutions = []
-    if not paper_obj:
-        return institutions
-
-    authors = paper_obj.get("authors", [])
-    for author in authors:
-        affs = author.get("affiliations", []) or []
-        for aff in affs:
-            aff_clean = clean_text(str(aff))
-            if aff_clean and aff_clean not in institutions:
-                institutions.append(aff_clean)
-
-    return institutions[:6]
-
-
-def enrich_with_semantic_scholar(raw_item):
-    result = {
-        "institutions": [],
-        "fields_of_study": [],
-        "venue": ""
-    }
-
-    paper_obj = query_semantic_scholar_by_title(raw_item["title"])
-    if not paper_obj:
-        return result
-
-    result["institutions"] = extract_institutions_from_semantic_scholar(paper_obj)
-    result["fields_of_study"] = [
-        clean_text(str(x)) for x in (paper_obj.get("fieldsOfStudy", []) or [])
-        if clean_text(str(x))
-    ][:6]
-    result["venue"] = clean_text(str(paper_obj.get("venue", "")))
-
-    return result
-
-
-def item_matches_topic(item, topic_name):
-    text = " ".join([
-        item.get("title", ""),
-        item.get("summary_raw", ""),
-        item.get("journal", ""),
-        " ".join(item.get("keywords_source", []))
-    ]).lower()
-
-    aliases = TOPIC_ALIASES.get(topic_name, [])
-    return any(alias.lower() in text for alias in aliases)
-
-
-def source_priority(item):
-    return 0 if item.get("source") == "Crossref" else 1
-
-
-def build_keywords(raw_item, fields_of_study):
-    # Priority: source keywords -> semantic scholar fields -> empty
-    kws = [clean_text(x) for x in raw_item.get("keywords_source", []) if clean_text(x)]
-    if kws:
-        dedup = []
-        seen = set()
-        for kw in kws:
-            k = kw.lower()
-            if k not in seen:
-                seen.add(k)
-                dedup.append(kw)
-        return dedup[:8]
-
-    kws = [clean_text(x) for x in fields_of_study if clean_text(x)]
-    if kws:
-        dedup = []
-        seen = set()
-        for kw in kws:
-            k = kw.lower()
-            if k not in seen:
-                seen.add(k)
-                dedup.append(kw)
-        return dedup[:8]
-
-    return []
-
-
-def build_final_item(raw_item, topic_name):
-    combined_text = " ".join([
-        raw_item.get("title", ""),
-        raw_item.get("summary_raw", ""),
-        raw_item.get("journal", ""),
-        " ".join(raw_item.get("keywords_source", []))
-    ])
-
-    method = classify_method(combined_text)
-
-    from institution_extractor import extract_institutions_from_url
-
-    venue = raw_item.get("journal", "")
-    institutions = raw_item.get("institutions", []) or []
-    enriched = {}
-
-    # Step 1: Crossref already filled institutions if available
-
-    # Step 2: Semantic Scholar
-    if len(institutions) == 0:
-        enriched = enrich_with_semantic_scholar(raw_item)
-        institutions = enriched.get("institutions", []) or []
-        if enriched.get("venue"):
-            venue = enriched["venue"]
-
-    # Step 3: publisher page extraction
-    if len(institutions) == 0:
-        url = raw_item.get("url", "")
-        if url:
-            institutions = extract_institutions_from_url(url)
-
-    # fallback
-    if not institutions:
-        institutions = ["Not available from source"]
-
-    abstract_text = clean_text(raw_item.get("summary_raw", ""))
-    if not abstract_text:
-        abstract_text = "Abstract not available."
-
-    return {
-        "id": raw_item["id"],
-        "topic": topic_name,
-        "title": raw_item["title"],
-        "authors": raw_item.get("authors", [])[:8],
-        "institution": institutions[:6],
-        "published": raw_item.get("published", ""),
-        "method": method,
-        "abstract": abstract_text,
-        "url": raw_item.get("url", ""),
-        "venue": venue
-    }
-
-def select_daily_items(deduped_items, topic_name):
-    """
-    Internal scheduling logic:
-    - prefer fresh
-    - then backlog
-    - then older unseen items
-    Final output is still a single flat list of max 10 items.
-    """
-    fresh_items = []
-    backlog_items = []
-    older_items = []
-
-    for raw_item in deduped_items:
-        priority = bucket_priority(raw_item["published"])
-        if priority == 0:
-            fresh_items.append(raw_item)
-        elif priority == 1:
-            backlog_items.append(raw_item)
-        else:
-            older_items.append(raw_item)
-
-    selected = []
-
-    # target rhythm, but do not show buckets on page
-    for pool, limit in [
-        (fresh_items, 4),
-        (backlog_items, 4),
-        (older_items, 2)
-    ]:
-        for raw_item in pool:
-            if len(selected) >= MAX_PER_TOPIC:
-                break
-            if sum(1 for x in selected if x["id"] == raw_item["id"]) == 0:
-                selected.append(raw_item)
-            if len(selected) >= limit and pool is fresh_items:
-                break
-
-    # If still not enough, fill from remaining pools by recency
-    if len(selected) < MAX_PER_TOPIC:
-        remainder = []
-        selected_ids = {x["id"] for x in selected}
-
-        for pool in [fresh_items, backlog_items, older_items]:
-            for raw_item in pool:
-                if raw_item["id"] not in selected_ids:
-                    remainder.append(raw_item)
-
-        remainder = sorted(
-            remainder,
-            key=lambda x: x.get("published", ""),
-            reverse=True
-        )
-
-        for raw_item in remainder:
-            if len(selected) >= MAX_PER_TOPIC:
-                break
-            selected.append(raw_item)
-
-    return [build_final_item(item, topic_name) for item in selected[:MAX_PER_TOPIC]]
-
-
 def main():
     ensure_dir(DAILY_DIR)
 
-    topics_map = load_json(TOPICS_FILE, {})
     journals = load_json(JOURNALS_FILE, [])
     seen = load_json(SEEN_FILE, {"featured_ids": [], "featured_titles": []})
 
@@ -564,71 +357,34 @@ def main():
     featured_ids = set(seen.get("featured_ids", []))
     featured_titles = set(seen.get("featured_titles", []))
 
-    results_by_topic = {topic: [] for topic in topics_map.keys()}
-
+    results_by_journal = {}
     newly_featured_ids = []
     newly_featured_titles = []
 
-    for topic_name, keywords in topics_map.items():
-        journal_candidates = []
-        arxiv_candidates = []
+    for journal_name in journals:
+        items = query_crossref_for_journal(journal_name, rows=CROSSREF_ROWS_PER_JOURNAL)
 
-        # ---- Crossref first ----
-        for kw in TOPIC_ALIASES.get(topic_name, keywords):
-            items = query_crossref(kw, rows=CROSSREF_ROWS_PER_KEYWORD)
+        parsed_items = []
+        for raw in items:
+            parsed = parse_crossref_item(raw)
 
-            for raw in items:
-                parsed = parse_crossref_item(raw)
+            if not parsed["title"] or not parsed["url"] or not parsed["published"]:
+                continue
 
-                if not parsed["title"] or not parsed["url"]:
-                    continue
-                if not parsed["journal"]:
-                    continue
-                if normalized_journal_name(parsed["journal"]) not in selected_journals:
-                    continue
-                if not parsed["published"]:
-                    continue
-                if days_since(parsed["published"]) > LOOKBACK_DAYS:
-                    continue
-                if not item_matches_topic(parsed, topic_name):
-                    continue
+            if normalized_journal_name(parsed["journal"]) not in selected_journals:
+                continue
 
-                norm_title = normalize_title(parsed["title"])
-                if parsed["id"] in featured_ids or norm_title in featured_titles:
-                    continue
+            norm_title = normalize_title(parsed["title"])
+            if parsed["id"] in featured_ids or norm_title in featured_titles:
+                continue
 
-                journal_candidates.append(parsed)
+            parsed_items.append(parsed)
 
-        # ---- arXiv supplement ----
-        for kw in TOPIC_ALIASES.get(topic_name, keywords):
-            xml_bytes = query_arxiv(kw, max_results=ARXIV_ROWS_PER_KEYWORD)
-            entries = parse_entries(xml_bytes)
-
-            for entry in entries:
-                parsed = parse_arxiv_entry(entry)
-
-                if not parsed["title"] or not parsed["url"]:
-                    continue
-                if not parsed["published"]:
-                    continue
-                if days_since(parsed["published"]) > LOOKBACK_DAYS:
-                    continue
-                if not item_matches_topic(parsed, topic_name):
-                    continue
-
-                norm_title = normalize_title(parsed["title"])
-                if parsed["id"] in featured_ids or norm_title in featured_titles:
-                    continue
-
-                arxiv_candidates.append(parsed)
-
-        candidate_items = sorted(journal_candidates, key=source_priority) + sorted(arxiv_candidates, key=source_priority)
-
+        # local dedup
         deduped = []
         local_ids = set()
         local_titles = set()
-
-        for item in candidate_items:
+        for item in parsed_items:
             norm_title = normalize_title(item["title"])
             if item["id"] in local_ids or norm_title in local_titles:
                 continue
@@ -636,26 +392,60 @@ def main():
             local_titles.add(norm_title)
             deduped.append(item)
 
-        selected_items = select_daily_items(deduped, topic_name)
-        results_by_topic[topic_name] = selected_items
+        # enrich once
+        enriched_items = [build_final_item(x) for x in deduped]
 
-        for item in selected_items:
-            norm_title = normalize_title(item["title"])
-            newly_featured_ids.append(item["id"])
-            newly_featured_titles.append(norm_title)
+        new_items = sorted(
+            [x for x in enriched_items if year_of(x["published"]) == CURRENT_YEAR],
+            key=lambda x: x["published"],
+            reverse=True
+        )[:NEW_PER_JOURNAL]
 
-    all_empty = all(len(items) == 0 for items in results_by_topic.values())
+        selected_ids = {x["id"] for x in new_items}
+
+        cited_candidates = [
+            x for x in enriched_items
+            if year_of(x["published"]) < CURRENT_YEAR and x["id"] not in selected_ids
+        ]
+        cited_items = sorted(
+            cited_candidates,
+            key=citation_sort_key,
+            reverse=True
+        )[:CITED_PER_JOURNAL]
+
+        final_items = {
+            "new": new_items,
+            "cited": cited_items
+        }
+        results_by_journal[journal_name] = final_items
+
+        for bucket in ["new", "cited"]:
+            for item in final_items[bucket]:
+                norm_title = normalize_title(item["title"])
+                newly_featured_ids.append(item["id"])
+                newly_featured_titles.append(norm_title)
+
+    all_empty = True
+    for payload in results_by_journal.values():
+        if payload.get("new") or payload.get("cited"):
+            all_empty = False
+            break
 
     if all_empty:
-        print("No new topic items found. Falling back to the latest previous non-empty daily file.")
+        print("No new journal items found. Falling back to the latest previous non-empty daily file.")
         existing_files = sorted(DAILY_DIR.glob("*.json"), reverse=True)
         for f in existing_files:
             if f.stem == today_str():
                 continue
             prev = load_json(f, {})
-            prev_topics = prev.get("topics", {})
-            if any(len(items) > 0 for items in prev_topics.values()):
-                results_by_topic = prev_topics
+            prev_journals = prev.get("journals", {})
+            has_any = False
+            for payload in prev_journals.values():
+                if payload.get("new") or payload.get("cited"):
+                    has_any = True
+                    break
+            if has_any:
+                results_by_journal = prev_journals
                 break
     else:
         seen["featured_ids"] = sorted(list(set(featured_ids.union(newly_featured_ids))))
@@ -664,7 +454,7 @@ def main():
 
     out = {
         "date": today_str(),
-        "topics": results_by_topic
+        "journals": results_by_journal
     }
 
     out_file = DAILY_DIR / f"{today_str()}.json"
