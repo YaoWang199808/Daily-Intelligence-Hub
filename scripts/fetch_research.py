@@ -3,7 +3,9 @@ from datetime import datetime, timezone, timedelta
 import xml.etree.ElementTree as ET
 import urllib.parse
 import urllib.request
-import json
+import time
+import os
+import re
 
 from utils import (
     ROOT,
@@ -25,6 +27,10 @@ ARXIV_NS = {"a": "http://www.w3.org/2005/Atom"}
 MAX_PER_TOPIC = 20
 QUERY_RESULTS = 30
 DAYS_BACK = 7
+
+# Optional Semantic Scholar API key
+SEMANTIC_SCHOLAR_API_KEY = os.getenv("SEMANTIC_SCHOLAR_API_KEY", "").strip()
+SEMANTIC_SCHOLAR_ENABLED = True
 
 
 def query_arxiv(keyword: str, max_results: int = QUERY_RESULTS):
@@ -115,15 +121,62 @@ def classify_topic(item, topics_map):
     return best_topic if best_score > 0 else None
 
 
-def classify_method(text):
-    text = text.lower()
+def classify_method(text: str):
+    """
+    Return one of:
+    - Experimental
+    - Numerical Simulation
+    - Machine Learning
+    - Hybrid
+    - Analytical / Theoretical
+    - Review / Survey
+    - Other
+    """
+    t = text.lower()
 
-    if "deep learning" in text or "neural network" in text:
+    experimental_keys = [
+        "experiment", "experimental", "tested", "testbed", "laboratory",
+        "lab-scale", "specimen", "measurement", "sensor measurement",
+        "field test", "field experiment", "validation experiment"
+    ]
+    numerical_keys = [
+        "simulation", "numerical", "finite element", "finite-element",
+        "fem", "modeling", "modelling", "comsol", "abaqus"
+    ]
+    ml_keys = [
+        "machine learning", "deep learning", "neural network", "cnn", "rnn",
+        "transformer", "classification model", "random forest", "svm",
+        "support vector machine", "xgboost", "artificial intelligence"
+    ]
+    theory_keys = [
+        "analytical", "theoretical", "closed-form", "theory", "derived",
+        "derivation", "formula", "mathematical model"
+    ]
+    review_keys = [
+        "review", "survey", "overview", "bibliometric", "state of the art"
+    ]
+
+    exp_hit = any(k in t for k in experimental_keys)
+    num_hit = any(k in t for k in numerical_keys)
+    ml_hit = any(k in t for k in ml_keys)
+    theory_hit = any(k in t for k in theory_keys)
+    review_hit = any(k in t for k in review_keys)
+
+    if review_hit:
+        return "Review / Survey"
+
+    positive_count = sum([exp_hit, num_hit, ml_hit, theory_hit])
+
+    if positive_count >= 2:
+        return "Hybrid"
+    if ml_hit:
         return "Machine Learning"
-    if "finite element" in text or "simulation" in text:
+    if num_hit:
         return "Numerical Simulation"
-    if "experiment" in text or "experimental" in text:
+    if exp_hit:
         return "Experimental"
+    if theory_hit:
+        return "Analytical / Theoretical"
     return "Other"
 
 
@@ -146,6 +199,9 @@ def infer_keywords(item, topic_name):
         "finite element",
         "numerical simulation",
         "damage detection",
+        "ultrasonic",
+        "fracture",
+        "localization"
     ]
 
     for kw in candidate_keywords:
@@ -162,8 +218,7 @@ def build_summary_sentences(summary_raw: str):
     summary_raw = clean_text(summary_raw)
     if not summary_raw:
         return ["No summary available."]
-    parts = [p.strip() for p in summary_raw.split(". ") if p.strip()]
-    parts = [p if p.endswith(".") else p + "." for p in parts]
+    parts = [p.strip() for p in re.split(r'(?<=[.!?])\s+', summary_raw) if p.strip()]
     return parts[:3] if parts else [summary_raw]
 
 
@@ -171,17 +226,101 @@ def build_conclusion_sentences(summary_raw: str):
     summary_raw = clean_text(summary_raw)
     if not summary_raw:
         return ["No conclusion summary available."]
-
-    parts = [p.strip() for p in summary_raw.split(". ") if p.strip()]
-    parts = [p if p.endswith(".") else p + "." for p in parts]
-
+    parts = [p.strip() for p in re.split(r'(?<=[.!?])\s+', summary_raw) if p.strip()]
     if len(parts) >= 2:
         return parts[-2:]
     return parts[:1]
 
 
-def infer_institutions(_item):
-    return ["Not available from source"]
+def safe_json_request(url: str, headers=None, timeout=30):
+    req = urllib.request.Request(url, headers=headers or {})
+    with urllib.request.urlopen(req, timeout=timeout) as response:
+        import json
+        return json.loads(response.read().decode("utf-8"))
+
+
+def query_semantic_scholar_by_title(title: str):
+    """
+    Query Semantic Scholar paper search endpoint by title.
+    Works without API key for low-volume usage.
+    """
+    if not SEMANTIC_SCHOLAR_ENABLED:
+        return None
+
+    encoded = urllib.parse.quote(title)
+    fields = ",".join([
+        "title",
+        "authors",
+        "year",
+        "publicationDate",
+        "venue",
+        "externalIds",
+        "fieldsOfStudy"
+    ])
+    url = (
+        "https://api.semanticscholar.org/graph/v1/paper/search?"
+        f"query={encoded}&limit=1&fields={urllib.parse.quote(fields)}"
+    )
+
+    headers = {}
+    if SEMANTIC_SCHOLAR_API_KEY:
+        headers["x-api-key"] = SEMANTIC_SCHOLAR_API_KEY
+
+    try:
+        data = safe_json_request(url, headers=headers, timeout=30)
+        time.sleep(0.7)  # gentle rate limiting
+        papers = data.get("data", [])
+        if not papers:
+            return None
+        return papers[0]
+    except Exception as e:
+        print(f"Semantic Scholar lookup failed for title '{title[:80]}': {e}")
+        return None
+
+
+def extract_institutions_from_semantic_scholar(paper_obj):
+    institutions = []
+    if not paper_obj:
+        return institutions
+
+    authors = paper_obj.get("authors", [])
+    for author in authors:
+        affs = author.get("affiliations", []) or []
+        for aff in affs:
+            aff_clean = clean_text(str(aff))
+            if aff_clean and aff_clean not in institutions:
+                institutions.append(aff_clean)
+
+    return institutions[:6]
+
+
+def enrich_with_semantic_scholar(raw_item):
+    """
+    Fallback-safe enrichment.
+    Returns dict with optional:
+    - institutions
+    - fields_of_study
+    - venue
+    """
+    result = {
+        "institutions": [],
+        "fields_of_study": [],
+        "venue": ""
+    }
+
+    paper_obj = query_semantic_scholar_by_title(raw_item["title"])
+    if not paper_obj:
+        return result
+
+    result["institutions"] = extract_institutions_from_semantic_scholar(paper_obj)
+
+    fos = paper_obj.get("fieldsOfStudy", []) or []
+    result["fields_of_study"] = [clean_text(str(x)) for x in fos if clean_text(str(x))][:6]
+
+    venue = clean_text(str(paper_obj.get("venue", "")))
+    result["venue"] = venue
+
+    return result
 
 
 def main():
@@ -222,20 +361,29 @@ def main():
                 if assigned_topic != topic_name:
                     continue
 
+                combined_text = raw_item["title"] + " " + raw_item["summary_raw"]
+                method = classify_method(combined_text)
+
+                # Optional enrichment
+                enriched = enrich_with_semantic_scholar(raw_item)
+                institutions = enriched.get("institutions", []) or ["Not available from source"]
+
                 item = {
                     "id": raw_item["id"],
                     "topic": topic_name,
                     "title": raw_item["title"],
                     "authors": raw_item["authors"][:8],
-                    "institution": infer_institutions(raw_item),
+                    "institution": institutions,
                     "published": raw_item["published"][:10],
                     "keywords": infer_keywords(raw_item, topic_name),
-                    "method": infer_method(raw_item),
+                    "method": method,
                     "summary": build_summary_sentences(raw_item["summary_raw"]),
                     "conclusions": build_conclusion_sentences(raw_item["summary_raw"]),
                     "source": "arXiv",
                     "url": raw_item["url"],
                     "categories": raw_item["categories"],
+                    "venue": enriched.get("venue", ""),
+                    "fields_of_study": enriched.get("fields_of_study", []),
                 }
 
                 topic_candidates.append(item)
@@ -243,6 +391,7 @@ def main():
         unique_topic_items = []
         local_ids = set()
         local_titles = set()
+
         for item in topic_candidates:
             norm_title = normalize_title(item["title"])
             if item["id"] in local_ids or norm_title in local_titles:
