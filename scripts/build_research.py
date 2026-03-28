@@ -8,7 +8,8 @@ ARCHIVE_DIR = RESEARCH_DIR / "archive"
 
 def html_escape(text: str) -> str:
     return (
-        text.replace("&", "&amp;")
+        str(text)
+        .replace("&", "&amp;")
         .replace("<", "&lt;")
         .replace(">", "&gt;")
         .replace('"', "&quot;")
@@ -19,19 +20,22 @@ def render_item(item):
     authors = ", ".join(item.get("authors", [])) or "N/A"
     institutions = ", ".join(item.get("institution", [])) or "N/A"
     keywords = ", ".join(item.get("keywords", [])) or "N/A"
+    venue = item.get("venue", "") or "N/A"
+    source = item.get("source", "") or "N/A"
 
     summary_html = "".join(f"<li>{html_escape(s)}</li>" for s in item.get("summary", []))
     conclusions_html = "".join(f"<li>{html_escape(s)}</li>" for s in item.get("conclusions", []))
 
     return f"""
     <article class="card">
-      <h3><a href="{item['url']}" target="_blank" rel="noopener noreferrer">{html_escape(item['title'])}</a></h3>
+      <h4><a href="{item['url']}" target="_blank" rel="noopener noreferrer">{html_escape(item['title'])}</a></h4>
       <p><strong>Authors:</strong> {html_escape(authors)}</p>
       <p><strong>Institution:</strong> {html_escape(institutions)}</p>
-      <p><strong>Published:</strong> {html_escape(item['published'])}</p>
+      <p><strong>Published:</strong> {html_escape(item.get('published', 'N/A'))}</p>
+      <p><strong>Venue:</strong> {html_escape(venue)}</p>
+      <p><strong>Source:</strong> {html_escape(source)}</p>
       <p><strong>Keywords:</strong> {html_escape(keywords)}</p>
-      <p><strong>Method:</strong> {html_escape(item['method'])}</p>
-      <p><strong>Source:</strong> {html_escape(item['source'])}</p>
+      <p><strong>Method:</strong> {html_escape(item.get('method', 'N/A'))}</p>
       <div>
         <strong>Summary:</strong>
         <ul>{summary_html}</ul>
@@ -44,17 +48,37 @@ def render_item(item):
     """
 
 
-def render_topic_section(topic_name, items):
+def render_bucket(title, items):
     if not items:
-        body = '<p class="empty">No new items found for today.</p>'
-    else:
-        body = "\n".join(render_item(item) for item in items)
+        return f"""
+        <div class="bucket">
+          <h3>{html_escape(title)}</h3>
+          <p class="empty">No items in this section.</p>
+        </div>
+        """
+
+    cards = "\n".join(render_item(item) for item in items)
+    return f"""
+    <div class="bucket">
+      <h3>{html_escape(title)}</h3>
+      {cards}
+    </div>
+    """
+
+
+def render_topic_section(topic_name, topic_payload):
+    fresh = topic_payload.get("fresh", [])
+    backlog = topic_payload.get("backlog", [])
+    highlights = topic_payload.get("highlights", [])
 
     anchor = topic_name.lower().replace(" ", "-")
+
     return f"""
     <section id="{anchor}" class="topic-section">
       <h2>{html_escape(topic_name)}</h2>
-      {body}
+      {render_bucket("New this cycle", fresh)}
+      {render_bucket("Recent backlog", backlog)}
+      {render_bucket("Earlier highlights", highlights)}
     </section>
     """
 
@@ -66,7 +90,7 @@ def render_page(title, page_heading, date_str, topics, archive_links):
     )
 
     topic_sections = "\n".join(
-        render_topic_section(topic, items) for topic, items in topics.items()
+        render_topic_section(topic, payload) for topic, payload in topics.items()
     )
 
     archive_html = "".join(
@@ -82,16 +106,14 @@ def render_page(title, page_heading, date_str, topics, archive_links):
   <style>
     body {{
       font-family: Arial, sans-serif;
-      max-width: 1100px;
+      max-width: 1120px;
       margin: 0 auto;
       padding: 24px;
       line-height: 1.6;
-    }}
-    h1 {{
-      margin-bottom: 8px;
+      color: #222;
     }}
     .topbar {{
-      margin-bottom: 24px;
+      margin-bottom: 20px;
     }}
     .tabs {{
       display: flex;
@@ -108,20 +130,30 @@ def render_page(title, page_heading, date_str, topics, archive_links):
       background: #f7f7f7;
     }}
     .topic-section {{
-      margin-bottom: 40px;
+      margin-bottom: 46px;
+    }}
+    .bucket {{
+      margin: 18px 0 30px;
+      padding: 12px 0 0;
+    }}
+    .bucket h3 {{
+      margin-bottom: 12px;
+      color: #444;
     }}
     .card {{
       border: 1px solid #ddd;
       border-radius: 10px;
       padding: 16px;
-      margin: 16px 0;
+      margin: 14px 0;
       background: #fff;
     }}
-    .card h3 {{
+    .card h4 {{
       margin-top: 0;
+      margin-bottom: 8px;
+      font-size: 1.05rem;
     }}
     .archive {{
-      margin-top: 40px;
+      margin-top: 50px;
       padding-top: 16px;
       border-top: 2px solid #eee;
     }}
@@ -137,7 +169,7 @@ def render_page(title, page_heading, date_str, topics, archive_links):
 <body>
   <div class="topbar">
     <h1>{html_escape(page_heading)}</h1>
-    <p><strong>Date:</strong> {date_str}</p>
+    <p><strong>Date:</strong> {html_escape(date_str)}</p>
     <p><a href="../index.html">Home</a></p>
   </div>
 
@@ -187,7 +219,7 @@ def main():
     today_json = DATA_DIR / f"{today}.json"
 
     if not today_json.exists():
-      raise FileNotFoundError(f"Missing daily research data: {today_json}")
+        raise FileNotFoundError(f"Missing daily research data: {today_json}")
 
     payload = load_json(today_json, {})
     topics = payload.get("topics", {})
@@ -220,9 +252,7 @@ def main():
         encoding="utf-8"
     )
 
-    print(f"Built research/index.html")
-    print(f"Built research/archive/{today}.html")
-    print(f"Built research/archive/index.html")
+    print("Built research pages.")
 
 
 if __name__ == "__main__":
