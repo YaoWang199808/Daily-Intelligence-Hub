@@ -25,8 +25,8 @@ DAILY_DIR = DATA_DIR / "daily"
 
 ARXIV_NS = {"a": "http://www.w3.org/2005/Atom"}
 MAX_PER_TOPIC = 20
-QUERY_RESULTS = 30
-DAYS_BACK = 7
+QUERY_RESULTS = 100
+DAYS_BACK = 14
 
 # Optional Semantic Scholar API key
 SEMANTIC_SCHOLAR_API_KEY = os.getenv("SEMANTIC_SCHOLAR_API_KEY", "").strip()
@@ -347,46 +347,41 @@ def main():
                 print(f"Failed query for {kw}: {e}")
                 continue
 
-            for entry in entries:
-                raw_item = parse_entry(entry)
+for entry in entries:
+    raw_item = parse_entry(entry)
 
-                if not is_recent(raw_item["published"]):
-                    continue
+    if not is_recent(raw_item["published"]):
+        continue
 
-                norm_title = normalize_title(raw_item["title"])
-                if raw_item["id"] in seen_ids or norm_title in seen_titles:
-                    continue
+    norm_title = normalize_title(raw_item["title"])
+    if raw_item["id"] in seen_ids or norm_title in seen_titles:
+        continue
 
-                assigned_topic = classify_topic(raw_item, topics_map)
-                if assigned_topic != topic_name:
-                    continue
+    combined_text = raw_item["title"] + " " + raw_item["summary_raw"]
+    method = classify_method(combined_text)
 
-                combined_text = raw_item["title"] + " " + raw_item["summary_raw"]
-                method = classify_method(combined_text)
+    enriched = enrich_with_semantic_scholar(raw_item)
+    institutions = enriched.get("institutions", []) or ["Not available from source"]
 
-                # Optional enrichment
-                enriched = enrich_with_semantic_scholar(raw_item)
-                institutions = enriched.get("institutions", []) or ["Not available from source"]
+    item = {
+        "id": raw_item["id"],
+        "topic": topic_name,
+        "title": raw_item["title"],
+        "authors": raw_item["authors"][:8],
+        "institution": institutions,
+        "published": raw_item["published"][:10],
+        "keywords": infer_keywords(raw_item, topic_name),
+        "method": method,
+        "summary": build_summary_sentences(raw_item["summary_raw"]),
+        "conclusions": build_conclusion_sentences(raw_item["summary_raw"]),
+        "source": "arXiv",
+        "url": raw_item["url"],
+        "categories": raw_item["categories"],
+        "venue": enriched.get("venue", ""),
+        "fields_of_study": enriched.get("fields_of_study", []),
+    }
 
-                item = {
-                    "id": raw_item["id"],
-                    "topic": topic_name,
-                    "title": raw_item["title"],
-                    "authors": raw_item["authors"][:8],
-                    "institution": institutions,
-                    "published": raw_item["published"][:10],
-                    "keywords": infer_keywords(raw_item, topic_name),
-                    "method": method,
-                    "summary": build_summary_sentences(raw_item["summary_raw"]),
-                    "conclusions": build_conclusion_sentences(raw_item["summary_raw"]),
-                    "source": "arXiv",
-                    "url": raw_item["url"],
-                    "categories": raw_item["categories"],
-                    "venue": enriched.get("venue", ""),
-                    "fields_of_study": enriched.get("fields_of_study", []),
-                }
-
-                topic_candidates.append(item)
+    topic_candidates.append(item)
 
         unique_topic_items = []
         local_ids = set()
@@ -417,6 +412,23 @@ def main():
     seen["seen_titles"] = sorted(list(set(seen_titles.union(added_titles))))
     save_json(SEEN_FILE, seen)
 
+# Fallback: if today is empty, reuse last available data
+all_empty = all(len(v) == 0 for v in results_by_topic.values())
+
+if all_empty:
+    print("No new items found today. Falling back to the most recent previous non-empty data.")
+    existing_files = sorted(DAILY_DIR.glob("*.json"), reverse=True)
+
+    for f in existing_files:
+        if f.stem == today_str():
+            continue
+
+        prev_data = load_json(f, {})
+        prev_topics = prev_data.get("topics", {})
+
+        if any(len(items) > 0 for items in prev_topics.values()):
+            results_by_topic = prev_topics
+            break
     out = {
         "date": today_str(),
         "topics": results_by_topic
