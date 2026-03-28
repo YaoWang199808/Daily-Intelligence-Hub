@@ -32,7 +32,7 @@ NEW_PER_JOURNAL = 5
 CITED_PER_JOURNAL = 5
 MAX_PER_JOURNAL = 10
 
-CROSSREF_ROWS_PER_JOURNAL = 300
+CROSSREF_ROWS_PER_JOURNAL = 2000
 
 
 def normalized_text(text: str) -> str:
@@ -674,9 +674,7 @@ def main():
                 continue
 
             # ISSN filter should already be exact; this is just a sanity check.
-            if parsed["journal"] and not journal_match(parsed["journal"], target_aliases):
-                continue
-
+            
             norm_title = normalize_title(parsed["title"])
             if parsed["id"] in featured_ids or norm_title in featured_titles:
                 continue
@@ -700,9 +698,6 @@ def main():
             built = build_final_item(item)
 
             # strict final journal validation if page extracted a journal
-            final_journal = built.get("journal", "") or item.get("journal", "")
-            if final_journal and not journal_match(final_journal, target_aliases):
-                continue
 
             enriched_items.append(built)
 
