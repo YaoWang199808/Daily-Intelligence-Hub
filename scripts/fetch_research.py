@@ -34,32 +34,6 @@ MAX_PER_JOURNAL = 10
 
 CROSSREF_ROWS_PER_JOURNAL = 300
 
-# 期刊别名，做“严格验证”
-JOURNAL_ALIASES = {
-    "Automation in Construction": [
-        "automation in construction"
-    ],
-    "Mechanical Systems and Signal Processing": [
-        "mechanical systems and signal processing"
-    ],
-    "Measurement": [
-        "measurement"
-    ],
-    "Engineering Structures": [
-        "engineering structures"
-    ],
-    "Ultrasonics": [
-        "ultrasonics"
-    ],
-    "Tunnelling and Underground Space Technology": [
-        "tunnelling and underground space technology",
-        "tunneling and underground space technology"
-    ],
-    "Rock Mechanics and Rock Engineering": [
-        "rock mechanics and rock engineering"
-    ],
-}
-
 
 def normalized_text(text: str) -> str:
     return clean_text(text).lower()
@@ -143,23 +117,22 @@ def titles_match(a: str, b: str) -> bool:
     return na == nb or na in nb or nb in na
 
 
-def journal_match(found_journal: str, target_journal: str) -> bool:
+def journal_match(found_journal: str, aliases) -> bool:
     found = normalized_text(found_journal)
-    aliases = JOURNAL_ALIASES.get(target_journal, [normalized_text(target_journal)])
-    return any(found == a for a in aliases)
+    alias_norms = [normalized_text(a) for a in aliases]
+    return any(found == a for a in alias_norms)
 
 
-def query_crossref_for_journal(journal_name: str, rows: int = CROSSREF_ROWS_PER_JOURNAL):
+def query_crossref_for_journal_issn(issn: str, rows: int = CROSSREF_ROWS_PER_JOURNAL):
     from_date = (
         datetime.now(timezone.utc) - timedelta(days=365 * LOOKBACK_YEARS)
     ).strftime("%Y-%m-%d")
 
-    encoded_journal = urllib.parse.quote(journal_name)
+    encoded_issn = urllib.parse.quote(issn)
 
     url = (
         "https://api.crossref.org/works?"
-        f"query={encoded_journal}"
-        f"&filter=from-pub-date:{from_date},type:journal-article"
+        f"&filter=issn:{encoded_issn},from-pub-date:{from_date},type:journal-article"
         f"&rows={rows}"
         "&sort=published"
         "&order=desc"
@@ -169,7 +142,7 @@ def query_crossref_for_journal(journal_name: str, rows: int = CROSSREF_ROWS_PER_
         data = safe_json_request(url, timeout=30)
         return data.get("message", {}).get("items", [])
     except Exception as e:
-        print(f"Crossref query failed for journal '{journal_name}': {e}")
+        print(f"Crossref query failed for ISSN '{issn}': {e}")
         return []
 
 
@@ -221,7 +194,6 @@ def query_semantic_scholar_by_doi(doi: str):
     fields = ",".join([
         "title",
         "citationCount",
-        "venue",
         "authors",
         "authors.affiliations"
     ])
@@ -242,7 +214,6 @@ def query_semantic_scholar_by_title(title: str):
     fields = ",".join([
         "title",
         "citationCount",
-        "venue",
         "authors",
         "authors.affiliations"
     ])
@@ -308,10 +279,6 @@ def enrich_with_semantic_scholar(item):
 
 
 def extract_meta_tags(html_text: str):
-    """
-    More robust meta parser:
-    supports name/content or property/content regardless of order.
-    """
     meta = {}
 
     patterns = [
@@ -540,6 +507,7 @@ def extract_page_metadata(url: str):
         "published": extract_published_from_page(meta, jsonlds),
     }
 
+
 def classify_method(text: str):
     text = (text or "").lower()
 
@@ -587,8 +555,8 @@ def classify_method(text: str):
         return "Analytical / Theoretical"
     return "Other"
 
+
 def build_final_item(raw_item):
-    # Page extraction first
     page_meta = extract_page_metadata(raw_item.get("url", ""))
 
     authors = raw_item.get("authors", []) or []
@@ -608,8 +576,6 @@ def build_final_item(raw_item):
     if page_meta.get("abstract"):
         abstract_text = page_meta["abstract"]
 
-    # Strict validation: page journal must match target later in main()
-    # Here only enrich citations / fallback institution
     enriched = enrich_with_semantic_scholar(raw_item)
     citation_count = enriched.get("citation_count", 0)
 
@@ -693,8 +659,12 @@ def main():
     newly_featured_ids = []
     newly_featured_titles = []
 
-    for target_journal in journals:
-        raw_items = query_crossref_for_journal(target_journal, rows=CROSSREF_ROWS_PER_JOURNAL)
+    for journal_cfg in journals:
+        target_name = journal_cfg["name"]
+        target_issn = journal_cfg["issn"]
+        target_aliases = journal_cfg.get("aliases", [target_name])
+
+        raw_items = query_crossref_for_journal_issn(target_issn, rows=CROSSREF_ROWS_PER_JOURNAL)
 
         parsed_items = []
         for raw in raw_items:
@@ -703,8 +673,8 @@ def main():
             if not parsed["title"] or not parsed["url"] or not parsed["published"]:
                 continue
 
-            # first pass journal validation on Crossref metadata
-            if not journal_match(parsed["journal"], target_journal):
+            # ISSN filter should already be exact; this is just a sanity check.
+            if parsed["journal"] and not journal_match(parsed["journal"], target_aliases):
                 continue
 
             norm_title = normalize_title(parsed["title"])
@@ -725,18 +695,19 @@ def main():
             local_titles.add(norm_title)
             deduped.append(item)
 
-        # build + second pass strict journal validation using page-extracted journal if available
         enriched_items = []
         for item in deduped:
             built = build_final_item(item)
-            # If page extracted / final journal exists, require it to still match target journal
+
+            # strict final journal validation if page extracted a journal
             final_journal = built.get("journal", "") or item.get("journal", "")
-            if not journal_match(final_journal, target_journal):
+            if final_journal and not journal_match(final_journal, target_aliases):
                 continue
+
             enriched_items.append(built)
 
         final_items = select_items_for_journal(enriched_items)
-        results_by_journal[target_journal] = final_items
+        results_by_journal[target_name] = final_items
 
         for item in final_items:
             norm_title = normalize_title(item["title"])
