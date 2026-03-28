@@ -21,6 +21,7 @@ def render_item(item):
     institutions = ", ".join(item.get("institution", [])) or "N/A"
     venue = item.get("venue", "") or "N/A"
     abstract_text = item.get("abstract", "") or "Abstract not available."
+    citations = item.get("citation_count", 0)
 
     return f"""
     <article class="card">
@@ -30,6 +31,7 @@ def render_item(item):
       <p><strong>Published:</strong> {html_escape(item.get('published', 'N/A'))}</p>
       <p><strong>Venue:</strong> {html_escape(venue)}</p>
       <p><strong>Method:</strong> {html_escape(item.get('method', 'N/A'))}</p>
+      <p><strong>Citations:</strong> {html_escape(citations)}</p>
       <div>
         <strong>Abstract:</strong>
         <p>{html_escape(abstract_text)}</p>
@@ -38,30 +40,44 @@ def render_item(item):
     """
 
 
-def render_topic_section(topic_name, items):
-    anchor = topic_name.lower().replace(" ", "-")
-
+def render_bucket(title, items):
     if not items:
-        body = '<p class="empty">No items found for this topic today.</p>'
-    else:
-        body = "\n".join(render_item(item) for item in items)
+        return f"""
+        <div class="bucket">
+          <h3>{html_escape(title)}</h3>
+          <p class="empty">No items in this section.</p>
+        </div>
+        """
+
+    cards = "\n".join(render_item(item) for item in items)
+    return f"""
+    <div class="bucket">
+      <h3>{html_escape(title)}</h3>
+      {cards}
+    </div>
+    """
+
+
+def render_journal_section(journal_name, payload):
+    anchor = journal_name.lower().replace(" ", "-").replace("&", "and")
 
     return f"""
-    <section id="{anchor}" class="topic-section">
-      <h2>{html_escape(topic_name)}</h2>
-      {body}
+    <section id="{anchor}" class="journal-section">
+      <h2>{html_escape(journal_name)}</h2>
+      {render_bucket("5 new papers this year", payload.get("new", []))}
+      {render_bucket("5 earlier highly cited papers", payload.get("cited", []))}
     </section>
     """
 
 
-def render_page(title, page_heading, date_str, topics, archive_links):
+def render_page(title, page_heading, date_str, journals, archive_links):
     nav_links = "".join(
-        f'<a class="tab" href="#{topic.lower().replace(" ", "-")}">{html_escape(topic)}</a>'
-        for topic in topics.keys()
+        f'<a class="tab" href="#{journal.lower().replace(" ", "-").replace("&", "and")}">{html_escape(journal)}</a>'
+        for journal in journals.keys()
     )
 
-    topic_sections = "\n".join(
-        render_topic_section(topic, items) for topic, items in topics.items()
+    journal_sections = "\n".join(
+        render_journal_section(journal, payload) for journal, payload in journals.items()
     )
 
     archive_html = "".join(
@@ -100,8 +116,16 @@ def render_page(title, page_heading, date_str, topics, archive_links):
       color: #222;
       background: #f7f7f7;
     }}
-    .topic-section {{
+    .journal-section {{
       margin-bottom: 46px;
+    }}
+    .bucket {{
+      margin: 18px 0 30px;
+      padding: 12px 0 0;
+    }}
+    .bucket h3 {{
+      margin-bottom: 12px;
+      color: #444;
     }}
     .card {{
       border: 1px solid #ddd;
@@ -140,7 +164,7 @@ def render_page(title, page_heading, date_str, topics, archive_links):
     {nav_links}
   </div>
 
-  {topic_sections}
+  {journal_sections}
 
   <div class="archive">
     <h2>Previous Updates</h2>
@@ -185,7 +209,7 @@ def main():
         raise FileNotFoundError(f"Missing daily research data: {today_json}")
 
     payload = load_json(today_json, {})
-    topics = payload.get("topics", {})
+    journals = payload.get("journals", {})
 
     archive_dates = sorted(
         [p.stem for p in DATA_DIR.glob("*.json") if p.stem != today],
@@ -196,7 +220,7 @@ def main():
         title=f"Research Digest {today}",
         page_heading="Research Digest",
         date_str=today,
-        topics=topics,
+        journals=journals,
         archive_links=archive_dates[:30]
     )
 
@@ -204,7 +228,7 @@ def main():
         title=f"Research Archive {today}",
         page_heading="Research Digest Archive",
         date_str=today,
-        topics=topics,
+        journals=journals,
         archive_links=archive_dates[:30]
     )
 
