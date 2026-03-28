@@ -122,7 +122,6 @@ def journal_match(found_journal: str, aliases) -> bool:
     alias_norms = [normalized_text(a) for a in aliases]
     return any(found == a for a in alias_norms)
 
-
 def query_crossref_for_journal_issn(issn: str, rows: int = CROSSREF_ROWS_PER_JOURNAL):
     from_date = (
         datetime.now(timezone.utc) - timedelta(days=365 * LOOKBACK_YEARS)
@@ -131,8 +130,8 @@ def query_crossref_for_journal_issn(issn: str, rows: int = CROSSREF_ROWS_PER_JOU
     encoded_issn = urllib.parse.quote(issn)
 
     url = (
-        "https://api.crossref.org/works?"
-        f"&filter=issn:{encoded_issn},from-pub-date:{from_date},type:journal-article"
+        f"https://api.crossref.org/journals/{encoded_issn}/works"
+        f"?filter=from-pub-date:{from_date},type:journal-article"
         f"&rows={rows}"
         "&sort=published"
         "&order=desc"
@@ -144,8 +143,7 @@ def query_crossref_for_journal_issn(issn: str, rows: int = CROSSREF_ROWS_PER_JOU
     except Exception as e:
         print(f"Crossref query failed for ISSN '{issn}': {e}")
         return []
-
-
+        
 def parse_crossref_item(item: dict):
     title_list = item.get("title", []) or []
     title = clean_text(title_list[0]) if title_list else ""
