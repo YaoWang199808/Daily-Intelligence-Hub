@@ -1,9 +1,40 @@
 [
-  "Automation in Construction",
-  "Mechanical Systems and Signal Processing",
-  "Measurement",
-  "Engineering Structures",
-  "Ultrasonics",
-  "Rock Mechanics and Rock Engineering",
-  "Tunnelling and Underground Space Technology"
+  {
+    "name": "Automation in Construction",
+    "issn": "0926-5805",
+    "aliases": ["Automation in Construction"]
+  },
+  {
+    "name": "Mechanical Systems and Signal Processing",
+    "issn": "0888-3270",
+    "aliases": ["Mechanical Systems and Signal Processing", "MSSP"]
+  },
+  {
+    "name": "Measurement",
+    "issn": "0263-2241",
+    "aliases": ["Measurement"]
+  },
+  {
+    "name": "Engineering Structures",
+    "issn": "0141-0296",
+    "aliases": ["Engineering Structures"]
+  },
+  {
+    "name": "Ultrasonics",
+    "issn": "0041-624X",
+    "aliases": ["Ultrasonics"]
+  },
+  {
+    "name": "Tunnelling and Underground Space Technology",
+    "issn": "0886-7798",
+    "aliases": [
+      "Tunnelling and Underground Space Technology",
+      "Tunneling and Underground Space Technology"
+    ]
+  },
+  {
+    "name": "Rock Mechanics and Rock Engineering",
+    "issn": "0723-2632",
+    "aliases": ["Rock Mechanics and Rock Engineering"]
+  }
 ]
