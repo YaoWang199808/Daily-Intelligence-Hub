@@ -540,6 +540,52 @@ def extract_page_metadata(url: str):
         "published": extract_published_from_page(meta, jsonlds),
     }
 
+def classify_method(text: str):
+    text = (text or "").lower()
+
+    experimental_keys = [
+        "experiment", "experimental", "laboratory", "specimen", "measured",
+        "measurement", "field test", "field experiment", "sensor", "testbed"
+    ]
+    numerical_keys = [
+        "simulation", "numerical", "finite element", "finite-element",
+        "fem", "modeling", "modelling", "comsol", "abaqus"
+    ]
+    ml_keys = [
+        "machine learning", "deep learning", "neural network", "cnn", "rnn",
+        "transformer", "random forest", "svm", "support vector machine",
+        "xgboost", "artificial intelligence", "transfer learning"
+    ]
+    theory_keys = [
+        "analytical", "theoretical", "closed-form", "derivation", "formula",
+        "mathematical model", "theory"
+    ]
+    review_keys = [
+        "review", "survey", "overview", "bibliometric", "state of the art"
+    ]
+
+    exp_hit = any(k in text for k in experimental_keys)
+    num_hit = any(k in text for k in numerical_keys)
+    ml_hit = any(k in text for k in ml_keys)
+    theory_hit = any(k in text for k in theory_keys)
+    review_hit = any(k in text for k in review_keys)
+
+    if review_hit:
+        return "Review / Survey"
+
+    count = sum([exp_hit, num_hit, ml_hit, theory_hit])
+
+    if count >= 2:
+        return "Hybrid"
+    if ml_hit:
+        return "Machine Learning"
+    if num_hit:
+        return "Numerical Simulation"
+    if exp_hit:
+        return "Experimental"
+    if theory_hit:
+        return "Analytical / Theoretical"
+    return "Other"
 
 def build_final_item(raw_item):
     # Page extraction first
