@@ -19,12 +19,12 @@ def html_escape(text: str) -> str:
 def render_item(item):
     authors = ", ".join(item.get("authors", [])) or "N/A"
     institutions = ", ".join(item.get("institution", [])) or "N/A"
-    keywords = ", ".join(item.get("keywords", [])) or "N/A"
+    keywords_list = item.get("keywords", [])
+    keywords = ", ".join(keywords_list) if keywords_list else "Not available"
     venue = item.get("venue", "") or "N/A"
     source = item.get("source", "") or "N/A"
 
     summary_html = "".join(f"<li>{html_escape(s)}</li>" for s in item.get("summary", []))
-    conclusions_html = "".join(f"<li>{html_escape(s)}</li>" for s in item.get("conclusions", []))
 
     return f"""
     <article class="card">
@@ -40,45 +40,22 @@ def render_item(item):
         <strong>Summary:</strong>
         <ul>{summary_html}</ul>
       </div>
-      <div>
-        <strong>Key conclusions:</strong>
-        <ul>{conclusions_html}</ul>
-      </div>
     </article>
     """
 
 
-def render_bucket(title, items):
-    if not items:
-        return f"""
-        <div class="bucket">
-          <h3>{html_escape(title)}</h3>
-          <p class="empty">No items in this section.</p>
-        </div>
-        """
-
-    cards = "\n".join(render_item(item) for item in items)
-    return f"""
-    <div class="bucket">
-      <h3>{html_escape(title)}</h3>
-      {cards}
-    </div>
-    """
-
-
-def render_topic_section(topic_name, topic_payload):
-    fresh = topic_payload.get("fresh", [])
-    backlog = topic_payload.get("backlog", [])
-    highlights = topic_payload.get("highlights", [])
-
+def render_topic_section(topic_name, items):
     anchor = topic_name.lower().replace(" ", "-")
+
+    if not items:
+        body = '<p class="empty">No items found for this topic today.</p>'
+    else:
+        body = "\n".join(render_item(item) for item in items)
 
     return f"""
     <section id="{anchor}" class="topic-section">
       <h2>{html_escape(topic_name)}</h2>
-      {render_bucket("New this cycle", fresh)}
-      {render_bucket("Recent backlog", backlog)}
-      {render_bucket("Earlier highlights", highlights)}
+      {body}
     </section>
     """
 
@@ -90,7 +67,7 @@ def render_page(title, page_heading, date_str, topics, archive_links):
     )
 
     topic_sections = "\n".join(
-        render_topic_section(topic, payload) for topic, payload in topics.items()
+        render_topic_section(topic, items) for topic, items in topics.items()
     )
 
     archive_html = "".join(
@@ -131,14 +108,6 @@ def render_page(title, page_heading, date_str, topics, archive_links):
     }}
     .topic-section {{
       margin-bottom: 46px;
-    }}
-    .bucket {{
-      margin: 18px 0 30px;
-      padding: 12px 0 0;
-    }}
-    .bucket h3 {{
-      margin-bottom: 12px;
-      color: #444;
     }}
     .card {{
       border: 1px solid #ddd;
