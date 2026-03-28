@@ -40,44 +40,35 @@ def render_item(item):
     """
 
 
-def render_bucket(title, items):
+def render_journal_section(journal_name, items):
+    anchor = (
+        journal_name.lower()
+        .replace(" ", "-")
+        .replace("&", "and")
+        .replace(",", "")
+    )
+
     if not items:
-        return f"""
-        <div class="bucket">
-          <h3>{html_escape(title)}</h3>
-          <p class="empty">No items in this section.</p>
-        </div>
-        """
-
-    cards = "\n".join(render_item(item) for item in items)
-    return f"""
-    <div class="bucket">
-      <h3>{html_escape(title)}</h3>
-      {cards}
-    </div>
-    """
-
-
-def render_journal_section(journal_name, payload):
-    anchor = journal_name.lower().replace(" ", "-").replace("&", "and")
+        body = '<p class="empty">No items in this section.</p>'
+    else:
+        body = "\n".join(render_item(item) for item in items)
 
     return f"""
     <section id="{anchor}" class="journal-section">
       <h2>{html_escape(journal_name)}</h2>
-      {render_bucket("5 new papers this year", payload.get("new", []))}
-      {render_bucket("5 earlier highly cited papers", payload.get("cited", []))}
+      {body}
     </section>
     """
 
 
 def render_page(title, page_heading, date_str, journals, archive_links):
     nav_links = "".join(
-        f'<a class="tab" href="#{journal.lower().replace(" ", "-").replace("&", "and")}">{html_escape(journal)}</a>'
+        f'<a class="tab" href="#{journal.lower().replace(" ", "-").replace("&", "and").replace(",", "")}">{html_escape(journal)}</a>'
         for journal in journals.keys()
     )
 
     journal_sections = "\n".join(
-        render_journal_section(journal, payload) for journal, payload in journals.items()
+        render_journal_section(journal, items) for journal, items in journals.items()
     )
 
     archive_html = "".join(
@@ -118,14 +109,6 @@ def render_page(title, page_heading, date_str, journals, archive_links):
     }}
     .journal-section {{
       margin-bottom: 46px;
-    }}
-    .bucket {{
-      margin: 18px 0 30px;
-      padding: 12px 0 0;
-    }}
-    .bucket h3 {{
-      margin-bottom: 12px;
-      color: #444;
     }}
     .card {{
       border: 1px solid #ddd;
