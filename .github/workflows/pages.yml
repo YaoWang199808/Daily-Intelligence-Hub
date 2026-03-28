@@ -37,6 +37,8 @@ jobs:
           mkdir -p data/research/daily
 
       - name: Fetch research data
+        env:
+          SEMANTIC_SCHOLAR_API_KEY: ${{ secrets.SEMANTIC_SCHOLAR_API_KEY }}
         run: python scripts/fetch_research.py
 
       - name: Build research pages
