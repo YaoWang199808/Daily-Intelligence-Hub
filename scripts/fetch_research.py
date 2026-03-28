@@ -452,7 +452,6 @@ def build_final_item(raw_item, topic_name):
 
     institutions = raw_item.get("institutions", []) or []
     venue = raw_item.get("journal", "")
-    fields_of_study = []
 
     # Try Semantic Scholar only when institution is missing
     if len(institutions) == 0:
@@ -460,12 +459,10 @@ def build_final_item(raw_item, topic_name):
         institutions = enriched.get("institutions", []) or ["Not available from source"]
         if enriched.get("venue"):
             venue = enriched["venue"]
-        fields_of_study = enriched.get("fields_of_study", [])
-    else:
-        if not venue:
-            venue = raw_item.get("journal", "")
 
-    keywords = build_keywords(raw_item, fields_of_study)
+    abstract_text = clean_text(raw_item.get("summary_raw", ""))
+    if not abstract_text:
+        abstract_text = "Abstract not available."
 
     return {
         "id": raw_item["id"],
@@ -474,15 +471,8 @@ def build_final_item(raw_item, topic_name):
         "authors": raw_item.get("authors", [])[:8],
         "institution": institutions[:6] if institutions else ["Not available from source"],
         "published": raw_item.get("published", ""),
-        "keywords": keywords,
         "method": method,
-        "summary": build_summary_sentences(
-            raw_item.get("summary_raw", ""),
-            raw_item.get("title", ""),
-            venue,
-            method
-        ),
-        "source": raw_item.get("source", ""),
+        "abstract": abstract_text,
         "url": raw_item.get("url", ""),
         "venue": venue
     }
