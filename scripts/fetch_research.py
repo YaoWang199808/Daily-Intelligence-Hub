@@ -30,19 +30,44 @@ ARXIV_NS = {"a": "http://www.w3.org/2005/Atom"}
 SEMANTIC_SCHOLAR_API_KEY = os.getenv("SEMANTIC_SCHOLAR_API_KEY", "").strip()
 SEMANTIC_SCHOLAR_ENABLED = True
 
-# ---------- Display design ----------
-FRESH_DAYS = 14
-BACKLOG_DAYS = 120
-LOOKBACK_DAYS = 365
+# ---------- Time windows ----------
+FRESH_DAYS = 30
+BACKLOG_DAYS = 180
+LOOKBACK_DAYS = 730
 
-TARGET_COUNTS = {
-    "fresh": 6,
-    "backlog": 8,
-    "highlights": 6
-}
+# ---------- Final display count ----------
+MAX_PER_TOPIC = 10
 
-CROSSREF_ROWS_PER_KEYWORD = 80
+# ---------- Retrieval counts ----------
+CROSSREF_ROWS_PER_KEYWORD = 100
 ARXIV_ROWS_PER_KEYWORD = 40
+
+# ---------- Topic alias rules ----------
+TOPIC_ALIASES = {
+    "DAS": [
+        "distributed acoustic sensing",
+        "distributed fibre optic sensing",
+        "distributed fiber optic sensing",
+        "fiber optic sensing",
+        "fibre optic sensing",
+        "das"
+    ],
+    "Guided Waves": [
+        "guided wave",
+        "guided waves",
+        "lamb wave",
+        "lamb waves",
+        "ultrasonic guided wave",
+        "ultrasonic guided waves"
+    ],
+    "Acoustic Emission": [
+        "acoustic emission",
+        "acoustic-emission",
+        "ae monitoring",
+        "ae-based",
+        "ae "
+    ]
+}
 
 
 def normalized_journal_name(name: str) -> str:
@@ -86,13 +111,19 @@ def days_since(date_str: str):
     return (datetime.now(timezone.utc) - dt).days
 
 
-def classify_bucket(published_date: str) -> str:
+def bucket_priority(published_date: str) -> int:
+    """
+    Lower is better.
+    0 = fresh
+    1 = backlog
+    2 = older highlight
+    """
     age = days_since(published_date)
     if age <= FRESH_DAYS:
-        return "fresh"
+        return 0
     if age <= BACKLOG_DAYS:
-        return "backlog"
-    return "highlights"
+        return 1
+    return 2
 
 
 def safe_json_request(url: str, headers=None, timeout=30):
@@ -152,6 +183,8 @@ def parse_crossref_item(item: dict):
                 institutions.append(aff_name)
 
     published = parse_crossref_date(item)
+
+    # author / publisher supplied subject-like fields
     subject = [clean_text(s) for s in (item.get("subject", []) or []) if clean_text(s)]
 
     item_id = f"doi:{doi.lower()}" if doi else f"url:{url}"
@@ -165,7 +198,7 @@ def parse_crossref_item(item: dict):
         "authors": authors,
         "institutions": institutions[:6],
         "journal": journal,
-        "categories": subject,
+        "keywords_source": subject,
         "source": "Crossref"
     }
 
@@ -225,7 +258,7 @@ def parse_arxiv_entry(entry):
         "authors": authors,
         "institutions": [],
         "journal": "arXiv",
-        "categories": categories,
+        "keywords_source": categories,
         "source": "arXiv"
     }
 
@@ -277,33 +310,6 @@ def classify_method(text: str):
     return "Other"
 
 
-def infer_keywords(item, topic_name):
-    text = (item["title"] + " " + item["summary_raw"] + " " + " ".join(item.get("categories", []))).lower()
-
-    candidate_keywords = [
-        "distributed acoustic sensing",
-        "fiber optic sensing",
-        "optical fiber sensing",
-        "guided wave",
-        "lamb wave",
-        "ultrasonic",
-        "acoustic emission",
-        "structural health monitoring",
-        "damage detection",
-        "localization",
-        "monitoring",
-        "deep learning",
-        "machine learning",
-        "finite element",
-        "numerical simulation"
-    ]
-
-    kws = [kw for kw in candidate_keywords if kw in text]
-    if topic_name not in kws:
-        kws.insert(0, topic_name)
-    return kws[:6]
-
-
 def build_summary_sentences(summary_raw: str, title: str, journal: str, method: str):
     summary_raw = clean_text(summary_raw)
 
@@ -311,26 +317,10 @@ def build_summary_sentences(summary_raw: str, title: str, journal: str, method: 
         parts = [p.strip() for p in re.split(r'(?<=[.!?])\s+', summary_raw) if p.strip()]
         return parts[:3] if parts else [summary_raw]
 
-    fallback = [
+    return [
         f"This paper is related to {title}.",
         f"It appears in {journal if journal else 'a selected source'}.",
         f"The likely research mode is {method}."
-    ]
-    return fallback
-
-
-def build_conclusion_sentences(summary_raw: str, method: str):
-    summary_raw = clean_text(summary_raw)
-
-    if summary_raw:
-        parts = [p.strip() for p in re.split(r'(?<=[.!?])\s+', summary_raw) if p.strip()]
-        if len(parts) >= 2:
-            return parts[-2:]
-        return parts[:1]
-
-    return [
-        f"The paper appears to mainly rely on {method.lower()} methods.",
-        "The detailed conclusions should be verified from the original paper."
     ]
 
 
@@ -342,6 +332,7 @@ def query_semantic_scholar_by_title(title: str):
     fields = ",".join([
         "title",
         "authors",
+        "authors.affiliations",
         "year",
         "publicationDate",
         "venue",
@@ -397,26 +388,56 @@ def enrich_with_semantic_scholar(raw_item):
         return result
 
     result["institutions"] = extract_institutions_from_semantic_scholar(paper_obj)
-    result["fields_of_study"] = [clean_text(str(x)) for x in (paper_obj.get("fieldsOfStudy", []) or []) if clean_text(str(x))][:6]
+    result["fields_of_study"] = [
+        clean_text(str(x)) for x in (paper_obj.get("fieldsOfStudy", []) or [])
+        if clean_text(str(x))
+    ][:6]
     result["venue"] = clean_text(str(paper_obj.get("venue", "")))
 
     return result
 
 
-def item_matches_topic(item, topic_name, topic_keywords):
+def item_matches_topic(item, topic_name):
     text = " ".join([
         item.get("title", ""),
         item.get("summary_raw", ""),
         item.get("journal", ""),
-        " ".join(item.get("categories", []))
+        " ".join(item.get("keywords_source", []))
     ]).lower()
 
-    return any(kw.lower() in text for kw in topic_keywords)
+    aliases = TOPIC_ALIASES.get(topic_name, [])
+    return any(alias.lower() in text for alias in aliases)
 
 
 def source_priority(item):
-    # Journal papers first, arXiv second
     return 0 if item.get("source") == "Crossref" else 1
+
+
+def build_keywords(raw_item, fields_of_study):
+    # Priority: source keywords -> semantic scholar fields -> empty
+    kws = [clean_text(x) for x in raw_item.get("keywords_source", []) if clean_text(x)]
+    if kws:
+        dedup = []
+        seen = set()
+        for kw in kws:
+            k = kw.lower()
+            if k not in seen:
+                seen.add(k)
+                dedup.append(kw)
+        return dedup[:8]
+
+    kws = [clean_text(x) for x in fields_of_study if clean_text(x)]
+    if kws:
+        dedup = []
+        seen = set()
+        for kw in kws:
+            k = kw.lower()
+            if k not in seen:
+                seen.add(k)
+                dedup.append(kw)
+        return dedup[:8]
+
+    return []
 
 
 def build_final_item(raw_item, topic_name):
@@ -424,7 +445,7 @@ def build_final_item(raw_item, topic_name):
         raw_item.get("title", ""),
         raw_item.get("summary_raw", ""),
         raw_item.get("journal", ""),
-        " ".join(raw_item.get("categories", []))
+        " ".join(raw_item.get("keywords_source", []))
     ])
 
     method = classify_method(combined_text)
@@ -433,6 +454,7 @@ def build_final_item(raw_item, topic_name):
     venue = raw_item.get("journal", "")
     fields_of_study = []
 
+    # Try Semantic Scholar only when institution is missing
     if len(institutions) == 0:
         enriched = enrich_with_semantic_scholar(raw_item)
         institutions = enriched.get("institutions", []) or ["Not available from source"]
@@ -443,6 +465,8 @@ def build_final_item(raw_item, topic_name):
         if not venue:
             venue = raw_item.get("journal", "")
 
+    keywords = build_keywords(raw_item, fields_of_study)
+
     return {
         "id": raw_item["id"],
         "topic": topic_name,
@@ -450,7 +474,7 @@ def build_final_item(raw_item, topic_name):
         "authors": raw_item.get("authors", [])[:8],
         "institution": institutions[:6] if institutions else ["Not available from source"],
         "published": raw_item.get("published", ""),
-        "keywords": infer_keywords(raw_item, topic_name),
+        "keywords": keywords,
         "method": method,
         "summary": build_summary_sentences(
             raw_item.get("summary_raw", ""),
@@ -458,16 +482,71 @@ def build_final_item(raw_item, topic_name):
             venue,
             method
         ),
-        "conclusions": build_conclusion_sentences(
-            raw_item.get("summary_raw", ""),
-            method
-        ),
         "source": raw_item.get("source", ""),
         "url": raw_item.get("url", ""),
-        "categories": raw_item.get("categories", []),
-        "venue": venue,
-        "fields_of_study": fields_of_study
+        "venue": venue
     }
+
+
+def select_daily_items(deduped_items, topic_name):
+    """
+    Internal scheduling logic:
+    - prefer fresh
+    - then backlog
+    - then older unseen items
+    Final output is still a single flat list of max 10 items.
+    """
+    fresh_items = []
+    backlog_items = []
+    older_items = []
+
+    for raw_item in deduped_items:
+        priority = bucket_priority(raw_item["published"])
+        if priority == 0:
+            fresh_items.append(raw_item)
+        elif priority == 1:
+            backlog_items.append(raw_item)
+        else:
+            older_items.append(raw_item)
+
+    selected = []
+
+    # target rhythm, but do not show buckets on page
+    for pool, limit in [
+        (fresh_items, 4),
+        (backlog_items, 4),
+        (older_items, 2)
+    ]:
+        for raw_item in pool:
+            if len(selected) >= MAX_PER_TOPIC:
+                break
+            if sum(1 for x in selected if x["id"] == raw_item["id"]) == 0:
+                selected.append(raw_item)
+            if len(selected) >= limit and pool is fresh_items:
+                break
+
+    # If still not enough, fill from remaining pools by recency
+    if len(selected) < MAX_PER_TOPIC:
+        remainder = []
+        selected_ids = {x["id"] for x in selected}
+
+        for pool in [fresh_items, backlog_items, older_items]:
+            for raw_item in pool:
+                if raw_item["id"] not in selected_ids:
+                    remainder.append(raw_item)
+
+        remainder = sorted(
+            remainder,
+            key=lambda x: x.get("published", ""),
+            reverse=True
+        )
+
+        for raw_item in remainder:
+            if len(selected) >= MAX_PER_TOPIC:
+                break
+            selected.append(raw_item)
+
+    return [build_final_item(item, topic_name) for item in selected[:MAX_PER_TOPIC]]
 
 
 def main():
@@ -481,19 +560,17 @@ def main():
     featured_ids = set(seen.get("featured_ids", []))
     featured_titles = set(seen.get("featured_titles", []))
 
-    results_by_topic = {
-        topic: {"fresh": [], "backlog": [], "highlights": []}
-        for topic in topics_map.keys()
-    }
+    results_by_topic = {topic: [] for topic in topics_map.keys()}
 
     newly_featured_ids = []
     newly_featured_titles = []
 
     for topic_name, keywords in topics_map.items():
-        candidate_items = []
+        journal_candidates = []
+        arxiv_candidates = []
 
-        # ---- Crossref journal-focused retrieval ----
-        for kw in keywords:
+        # ---- Crossref first ----
+        for kw in TOPIC_ALIASES.get(topic_name, keywords):
             items = query_crossref(kw, rows=CROSSREF_ROWS_PER_KEYWORD)
 
             for raw in items:
@@ -501,30 +578,25 @@ def main():
 
                 if not parsed["title"] or not parsed["url"]:
                     continue
-
                 if not parsed["journal"]:
                     continue
-
                 if normalized_journal_name(parsed["journal"]) not in selected_journals:
                     continue
-
                 if not parsed["published"]:
                     continue
-
                 if days_since(parsed["published"]) > LOOKBACK_DAYS:
                     continue
-
-                if not item_matches_topic(parsed, topic_name, keywords):
+                if not item_matches_topic(parsed, topic_name):
                     continue
 
                 norm_title = normalize_title(parsed["title"])
                 if parsed["id"] in featured_ids or norm_title in featured_titles:
                     continue
 
-                candidate_items.append(parsed)
+                journal_candidates.append(parsed)
 
         # ---- arXiv supplement ----
-        for kw in keywords:
+        for kw in TOPIC_ALIASES.get(topic_name, keywords):
             xml_bytes = query_arxiv(kw, max_results=ARXIV_ROWS_PER_KEYWORD)
             entries = parse_entries(xml_bytes)
 
@@ -533,28 +605,26 @@ def main():
 
                 if not parsed["title"] or not parsed["url"]:
                     continue
-
                 if not parsed["published"]:
                     continue
-
                 if days_since(parsed["published"]) > LOOKBACK_DAYS:
                     continue
-
-                if not item_matches_topic(parsed, topic_name, keywords):
+                if not item_matches_topic(parsed, topic_name):
                     continue
 
                 norm_title = normalize_title(parsed["title"])
                 if parsed["id"] in featured_ids or norm_title in featured_titles:
                     continue
 
-                candidate_items.append(parsed)
+                arxiv_candidates.append(parsed)
 
-        # ---- local dedup ----
+        candidate_items = sorted(journal_candidates, key=source_priority) + sorted(arxiv_candidates, key=source_priority)
+
         deduped = []
         local_ids = set()
         local_titles = set()
 
-        for item in sorted(candidate_items, key=source_priority):
+        for item in candidate_items:
             norm_title = normalize_title(item["title"])
             if item["id"] in local_ids or norm_title in local_titles:
                 continue
@@ -562,30 +632,15 @@ def main():
             local_titles.add(norm_title)
             deduped.append(item)
 
-        # ---- bucket fill ----
-        bucketed = {"fresh": [], "backlog": [], "highlights": []}
+        selected_items = select_daily_items(deduped, topic_name)
+        results_by_topic[topic_name] = selected_items
 
-        for raw_item in deduped:
-            bucket = classify_bucket(raw_item["published"])
-            final_item = build_final_item(raw_item, topic_name)
+        for item in selected_items:
+            norm_title = normalize_title(item["title"])
+            newly_featured_ids.append(item["id"])
+            newly_featured_titles.append(norm_title)
 
-            if len(bucketed[bucket]) < TARGET_COUNTS[bucket]:
-                bucketed[bucket].append(final_item)
-
-        results_by_topic[topic_name] = bucketed
-
-        for bucket_name in ["fresh", "backlog", "highlights"]:
-            for item in bucketed[bucket_name]:
-                norm_title = normalize_title(item["title"])
-                newly_featured_ids.append(item["id"])
-                newly_featured_titles.append(norm_title)
-
-    # fallback if absolutely empty
-    all_empty = True
-    for topic_payload in results_by_topic.values():
-        if any(len(topic_payload[b]) > 0 for b in ["fresh", "backlog", "highlights"]):
-            all_empty = False
-            break
+    all_empty = all(len(items) == 0 for items in results_by_topic.values())
 
     if all_empty:
         print("No new topic items found. Falling back to the latest previous non-empty daily file.")
@@ -595,12 +650,7 @@ def main():
                 continue
             prev = load_json(f, {})
             prev_topics = prev.get("topics", {})
-            has_any = False
-            for topic_payload in prev_topics.values():
-                if any(len(topic_payload.get(b, [])) > 0 for b in ["fresh", "backlog", "highlights"]):
-                    has_any = True
-                    break
-            if has_any:
+            if any(len(items) > 0 for items in prev_topics.values()):
                 results_by_topic = prev_topics
                 break
     else:
