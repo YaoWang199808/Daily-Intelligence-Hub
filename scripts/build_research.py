@@ -1,629 +1,320 @@
-
 from __future__ import annotations
 
 import argparse
+import html
 import json
-import re
 import sys
-import time
-from dataclasses import dataclass, asdict
+from collections import OrderedDict
+from datetime import date
 from pathlib import Path
-from typing import Any, Dict, Iterable, List, Optional, Sequence, Tuple
-from urllib.parse import urljoin, urlparse
-
-import pandas as pd
-from bs4 import BeautifulSoup
-from dateutil import parser as dateparser
-from playwright.sync_api import TimeoutError as PlaywrightTimeoutError
-from playwright.sync_api import sync_playwright
+from typing import Any, Dict, List, Tuple
 
 
-USER_AGENT = (
-    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
-    "AppleWebKit/537.36 (KHTML, like Gecko) "
-    "Chrome/146.0.0.0 Safari/537.36"
-)
-
-DEFAULT_TIMEOUT_MS = 60000
-DEFAULT_WAIT_MS = 2500
-
-
-def try_import_project_utils():
+def try_import_project_utils() -> Tuple[Path | None, Any, Any, Any]:
     try:
-        from utils import ROOT, ensure_dir, today_str  # type: ignore
-        return ROOT, ensure_dir, today_str
+        from utils import ROOT, ensure_dir, load_json, today_str  # type: ignore
+        return ROOT, ensure_dir, load_json, today_str
     except Exception:
-        return None, None, None
+        return None, None, None, None
 
 
-PROJECT_ROOT, PROJECT_ENSURE_DIR, PROJECT_TODAY_STR = try_import_project_utils()
+ROOT, ensure_dir, load_json, today_str = try_import_project_utils()
+
+if ROOT is not None:
+    DATA_DIR = ROOT / "data" / "research" / "daily"
+    RESEARCH_DIR = ROOT / "research"
+    ARCHIVE_DIR = RESEARCH_DIR / "archive"
+else:
+    DATA_DIR = Path("output/daily")
+    RESEARCH_DIR = Path("output/research")
+    ARCHIVE_DIR = RESEARCH_DIR / "archive"
 
 
-@dataclass(frozen=True)
-class JournalConfig:
-    code: str
-    journal: str
-    publisher: str
-    listing_urls: List[str]
-    start_urls: List[str]
-    aliases: List[str]
-
-
-JOURNALS: List[JournalConfig] = [
-    JournalConfig(
-        code="MSSP",
-        journal="Mechanical Systems and Signal Processing",
-        publisher="elsevier",
-        listing_urls=[
-            "https://www.sciencedirect.com/journal/mechanical-systems-and-signal-processing/articles-in-press",
-            "https://www.sciencedirect.com/journal/mechanical-systems-and-signal-processing",
-            "https://www.sciencedirect.com/journal/mechanical-systems-and-signal-processing/issues",
-        ],
-        start_urls=[
-            "https://www.sciencedirect.com/journal/mechanical-systems-and-signal-processing/articles-in-press",
-        ],
-        aliases=["mechanical systems and signal processing", "mssp"],
-    ),
-    JournalConfig(
-        code="TUST",
-        journal="Tunnelling and Underground Space Technology",
-        publisher="elsevier",
-        listing_urls=[
-            "https://www.sciencedirect.com/journal/tunnelling-and-underground-space-technology/articles-in-press",
-            "https://www.sciencedirect.com/journal/tunnelling-and-underground-space-technology",
-            "https://www.sciencedirect.com/journal/tunnelling-and-underground-space-technology/issues",
-        ],
-        start_urls=[
-            "https://www.sciencedirect.com/journal/tunnelling-and-underground-space-technology/articles-in-press",
-        ],
-        aliases=[
-            "tunnelling and underground space technology",
-            "tunneling and underground space technology",
-            "tust",
-        ],
-    ),
-    JournalConfig(
-        code="ES",
-        journal="Engineering Structures",
-        publisher="elsevier",
-        listing_urls=[
-            "https://www.sciencedirect.com/journal/engineering-structures/articles-in-press",
-            "https://www.sciencedirect.com/journal/engineering-structures",
-            "https://www.sciencedirect.com/journal/engineering-structures/issues",
-        ],
-        start_urls=[
-            "https://www.sciencedirect.com/journal/engineering-structures/articles-in-press",
-        ],
-        aliases=["engineering structures", "es"],
-    ),
-    JournalConfig(
-        code="MEAS",
-        journal="Measurement",
-        publisher="elsevier",
-        listing_urls=[
-            "https://www.sciencedirect.com/journal/measurement/articles-in-press",
-            "https://www.sciencedirect.com/journal/measurement",
-            "https://www.sciencedirect.com/journal/measurement/issues",
-        ],
-        start_urls=[
-            "https://www.sciencedirect.com/journal/measurement/articles-in-press",
-        ],
-        aliases=["measurement", "meas"],
-    ),
-    JournalConfig(
-        code="NDTE",
-        journal="NDT & E International",
-        publisher="elsevier",
-        listing_urls=[
-            "https://www.sciencedirect.com/journal/ndt-and-e-international/articles-in-press",
-            "https://www.sciencedirect.com/journal/ndt-and-e-international",
-            "https://www.sciencedirect.com/journal/ndt-and-e-international/issues",
-        ],
-        start_urls=[
-            "https://www.sciencedirect.com/journal/ndt-and-e-international/articles-in-press",
-        ],
-        aliases=["ndt & e international", "ndt and e international", "ndte"],
-    ),
-    JournalConfig(
-        code="ESWA",
-        journal="Expert Systems with Applications",
-        publisher="elsevier",
-        listing_urls=[
-            "https://www.sciencedirect.com/journal/expert-systems-with-applications/articles-in-press",
-            "https://www.sciencedirect.com/journal/expert-systems-with-applications",
-            "https://www.sciencedirect.com/journal/expert-systems-with-applications/issues",
-        ],
-        start_urls=[
-            "https://www.sciencedirect.com/journal/expert-systems-with-applications/articles-in-press",
-        ],
-        aliases=["expert systems with applications", "eswa"],
-    ),
-    JournalConfig(
-        code="RMRE",
-        journal="Rock Mechanics and Rock Engineering",
-        publisher="springer",
-        listing_urls=[
-            "https://link.springer.com/journal/603/articles",
-            "https://link.springer.com/journal/603/online-first-articles",
-            "https://link.springer.com/journal/603/volumes-and-issues",
-        ],
-        start_urls=[
-            "https://link.springer.com/journal/603/articles",
-        ],
-        aliases=["rock mechanics and rock engineering", "rmre", "rock mech rock eng"],
-    ),
+DEFAULT_JOURNAL_ORDER = [
+    "Mechanical Systems and Signal Processing",
+    "Tunnelling and Underground Space Technology",
+    "Engineering Structures",
+    "Measurement",
+    "NDT & E International",
+    "Expert Systems with Applications",
+    "Rock Mechanics and Rock Engineering",
 ]
 
 
-@dataclass
-class PaperRecord:
-    Journal: str
-    Title: str
-    DOI: str
-    URL: str
-    Publisher: str
-    Date: str
-    Year: Optional[int]
-    Authors: str
-    Institutions: str
-    Abstract: str
-    SourcePage: str
-    FetchTimestampUTC: str
+def html_escape(text: Any) -> str:
+    return html.escape(str(text or ""), quote=True)
 
 
-def utc_now_iso() -> str:
-    return pd.Timestamp.utcnow().isoformat()
+
+def normalize_record(raw: Dict[str, Any]) -> Dict[str, Any]:
+    def split_people(value: Any) -> List[str]:
+        if isinstance(value, list):
+            return [str(x).strip() for x in value if str(x).strip()]
+        if not value:
+            return []
+        text = str(value)
+        if ";" in text:
+            parts = text.split(";")
+        else:
+            parts = text.split(",")
+        return [p.strip() for p in parts if p.strip()]
+
+    journal = raw.get("Journal") or raw.get("journal") or raw.get("venue") or "Unknown"
+    return {
+        "title": raw.get("Title") or raw.get("title") or "Untitled",
+        "url": raw.get("URL") or raw.get("url") or "#",
+        "authors": split_people(raw.get("Authors") or raw.get("authors")),
+        "institution": split_people(raw.get("Institutions") or raw.get("institution")),
+        "published": raw.get("Date") or raw.get("published") or raw.get("date") or "N/A",
+        "journal": journal,
+        "abstract": raw.get("Abstract") or raw.get("abstract") or "",
+        "doi": raw.get("DOI") or raw.get("doi") or "",
+        "publisher": raw.get("Publisher") or raw.get("publisher") or "",
+        "source_page": raw.get("SourcePage") or raw.get("source_page") or "",
+        "citation_count": raw.get("citation_count", 0),
+        "method": raw.get("method") or "N/A",
+    }
 
 
-def normalize_space(text: str) -> str:
-    return re.sub(r"\s+", " ", (text or "")).strip()
 
-
-def normalize_journal_name(text: str) -> str:
-    t = normalize_space(text).lower()
-    t = t.replace("&", "and")
-    t = re.sub(r"[^a-z0-9]+", " ", t)
-    return normalize_space(t)
-
-
-def parse_date_safe(text: str) -> Tuple[str, Optional[int]]:
-    raw = normalize_space(text)
-    if not raw:
-        return "", None
-    try:
-        dt = dateparser.parse(raw, fuzzy=True)
-        return dt.date().isoformat(), dt.year
-    except Exception:
-        return raw, None
-
-
-def unique_keep_order(items: Iterable[str]) -> List[str]:
-    seen = set()
-    out: List[str] = []
-    for item in items:
-        x = normalize_space(item)
-        if not x:
-            continue
-        k = x.casefold()
-        if k in seen:
-            continue
-        seen.add(k)
-        out.append(x)
-    return out
-
-
-def text_or_empty(node) -> str:
-    return normalize_space(node.get_text(" ", strip=True)) if node else ""
-
-
-def meta_all(soup: BeautifulSoup, names: Sequence[str]) -> List[str]:
-    values: List[str] = []
-    for tag in soup.find_all("meta"):
-        key = (tag.get("name") or tag.get("property") or tag.get("itemprop") or "").strip().lower()
-        if key in {n.lower() for n in names}:
-            content = normalize_space(tag.get("content", ""))
-            if content:
-                values.append(content)
-    return unique_keep_order(values)
-
-
-def meta_first(soup: BeautifulSoup, names: Sequence[str]) -> str:
-    vals = meta_all(soup, names)
-    return vals[0] if vals else ""
-
-
-def select_journals(codes: Optional[List[str]]) -> List[JournalConfig]:
-    if not codes:
-        return JOURNALS
-    wanted = {c.strip().upper() for c in codes}
-    out = [j for j in JOURNALS if j.code.upper() in wanted]
-    if not out:
-        raise SystemExit(f"No journals matched --journals {codes}")
-    return out
-
-
-def strict_journal_match(found: str, cfg: JournalConfig) -> bool:
-    nf = normalize_journal_name(found)
-    allowed = {normalize_journal_name(cfg.journal), *[normalize_journal_name(a) for a in cfg.aliases]}
-    return nf in allowed
-
-
-def is_article_url(url: str, publisher: str) -> bool:
-    if not url:
-        return False
-    parsed = urlparse(url)
-    host = parsed.netloc.lower()
-    path = parsed.path
-    if publisher == "elsevier":
-        return "sciencedirect.com" in host and "/science/article/pii/" in path
-    if publisher == "springer":
-        return "link.springer.com" in host and "/article/" in path
-    return False
-
-
-def canonicalize_url(url: str) -> str:
-    if not url:
-        return ""
-    parsed = urlparse(url)
-    return f"{parsed.scheme}://{parsed.netloc}{parsed.path}"
-
-
-def collect_article_urls_from_listing(page, listing_url: str, publisher: str) -> List[str]:
-    page.goto(listing_url, wait_until="domcontentloaded", timeout=DEFAULT_TIMEOUT_MS)
-    page.wait_for_timeout(DEFAULT_WAIT_MS)
-    try:
-        page.locator("button:has-text('Accept all')").click(timeout=3000)
-    except Exception:
-        pass
-    try:
-        page.locator("button:has-text('Accept')").click(timeout=2000)
-    except Exception:
-        pass
-    page.wait_for_timeout(1000)
-    html = page.content()
-    soup = BeautifulSoup(html, "lxml")
-
-    urls: List[str] = []
-    for a in soup.find_all("a", href=True):
-        href = a.get("href", "")
-        abs_url = urljoin(listing_url, href)
-        abs_url = canonicalize_url(abs_url)
-        if is_article_url(abs_url, publisher):
-            urls.append(abs_url)
-    return unique_keep_order(urls)
-
-
-def parse_json_ld_candidates(soup: BeautifulSoup) -> List[Dict[str, Any]]:
-    out: List[Dict[str, Any]] = []
-    for tag in soup.find_all("script", attrs={"type": re.compile("application/ld\\+json", re.I)}):
-        raw = tag.string or tag.get_text("\n", strip=True)
-        raw = raw.strip()
-        if not raw:
-            continue
-        try:
-            parsed = json.loads(raw)
-            if isinstance(parsed, list):
-                out.extend([x for x in parsed if isinstance(x, dict)])
-            elif isinstance(parsed, dict):
-                out.append(parsed)
-        except Exception:
-            continue
-    return out
-
-
-def extract_from_json_ld(soup: BeautifulSoup) -> Dict[str, Any]:
-    data: Dict[str, Any] = {}
-    for item in parse_json_ld_candidates(soup):
-        t = str(item.get("@type", "")).lower()
-        if "scholarlyarticle" in t or "article" in t:
-            data.setdefault("title", item.get("headline") or item.get("name") or "")
-            journal = ""
-            part = item.get("isPartOf")
-            if isinstance(part, dict):
-                journal = part.get("name") or ""
-            data.setdefault("journal", journal)
-            data.setdefault("abstract", item.get("description") or item.get("abstract") or "")
-            data.setdefault("date", item.get("datePublished") or "")
-            data.setdefault("doi", item.get("identifier") or "")
-            authors: List[str] = []
-            author_obj = item.get("author", [])
-            if isinstance(author_obj, dict):
-                author_obj = [author_obj]
-            if isinstance(author_obj, list):
-                for a in author_obj:
-                    if isinstance(a, dict):
-                        name = a.get("name") or ""
-                        if name:
-                            authors.append(name)
-            if authors:
-                data.setdefault("authors", authors)
-    return data
-
-
-def extract_abstract_generic(soup: BeautifulSoup) -> str:
-    selectors = [
-        "section.Abstract",
-        "div.abstract.author",
-        "div.Abstracts",
-        "#Abs1-content",
-        "div.c-article-section__content",
-        "section#Abs1",
-        "div[class*='abstract']",
-    ]
-    for sel in selectors:
-        node = soup.select_one(sel)
-        txt = text_or_empty(node)
-        if txt and len(txt) > 80:
-            txt = re.sub(r"^Abstract\s*", "", txt, flags=re.I)
-            return txt
-    # heading-based fallback
-    for heading in soup.find_all(re.compile("^h[1-6]$")):
-        if normalize_journal_name(heading.get_text()) == "abstract":
-            bits: List[str] = []
-            for sib in heading.find_next_siblings():
-                txt = text_or_empty(sib)
-                if not txt:
-                    continue
-                if sib.name and re.fullmatch(r"h[1-6]", sib.name, flags=re.I):
-                    break
-                bits.append(txt)
-                if sum(len(x) for x in bits) > 1500:
-                    break
-            joined = normalize_space(" ".join(bits))
-            if len(joined) > 80:
-                return joined
-    meta_desc = meta_first(soup, ["citation_abstract", "description", "dc.description", "og:description"])
-    return meta_desc
-
-
-def extract_institutions_generic(soup: BeautifulSoup) -> List[str]:
-    institutions = meta_all(soup, ["citation_author_institution", "dc.contributor.affiliation"])
-    if institutions:
-        return institutions
-
-    text = soup.get_text("\n", strip=True)
-    lines = [normalize_space(x) for x in text.splitlines()]
-    keywords = (
-        "university",
-        "institute",
-        "school of",
-        "college of",
-        "department of",
-        "laboratory",
-        "centre",
-        "center",
-        "academy",
-        "hospital",
-        "faculty of",
-    )
-    guessed: List[str] = []
-    for line in lines:
-        low = line.lower()
-        if any(k in low for k in keywords) and 8 <= len(line) <= 250:
-            guessed.append(line)
-    return unique_keep_order(guessed)[:10]
-
-
-def scrape_article(page, url: str, cfg: JournalConfig) -> Optional[PaperRecord]:
-    try:
-        page.goto(url, wait_until="domcontentloaded", timeout=DEFAULT_TIMEOUT_MS)
-        page.wait_for_timeout(DEFAULT_WAIT_MS)
-    except PlaywrightTimeoutError:
-        print(f"[WARN] Timeout while opening article: {url}", file=sys.stderr)
-        return None
-    except Exception as exc:
-        print(f"[WARN] Failed article load: {url} :: {exc}", file=sys.stderr)
-        return None
-
-    html = page.content()
-    soup = BeautifulSoup(html, "lxml")
-    jld = extract_from_json_ld(soup)
-
-    title = (
-        meta_first(soup, ["citation_title", "dc.title", "og:title"]) or
-        jld.get("title", "") or
-        text_or_empty(soup.select_one("h1"))
-    )
-
-    journal = (
-        meta_first(soup, ["citation_journal_title", "prism.publicationname", "dc.source", "citation_journal_abbrev"]) or
-        jld.get("journal", "")
-    )
-
-    if not journal:
-        page_text = normalize_space(soup.get_text(" ", strip=True))
-        if cfg.journal in page_text:
-            journal = cfg.journal
-
-    if not strict_journal_match(journal, cfg):
-        print(
-            f"[SKIP] Journal mismatch for {url} :: found='{journal}' expected='{cfg.journal}'",
-            file=sys.stderr,
-        )
-        return None
-
-    doi = meta_first(soup, ["citation_doi", "dc.identifier", "prism.doi"]) or str(jld.get("doi", ""))
-    doi = doi.replace("https://doi.org/", "").strip()
-
-    date_raw = (
-        meta_first(
-            soup,
-            [
-                "citation_online_date",
-                "citation_publication_date",
-                "prism.publicationdate",
-                "dc.date",
-                "article:published_time",
-            ],
-        )
-        or str(jld.get("date", ""))
-    )
-    date_iso, year = parse_date_safe(date_raw)
-
-    authors = meta_all(soup, ["citation_author", "dc.creator"])
-    if not authors:
-        authors = jld.get("authors", []) if isinstance(jld.get("authors"), list) else []
-    if not authors:
-        author_nodes = soup.select("[class*='author'] a, [class*='authors'] a")
-        authors = unique_keep_order(text_or_empty(n) for n in author_nodes)
-
-    abstract = extract_abstract_generic(soup)
-    institutions = extract_institutions_generic(soup)
-
-    return PaperRecord(
-        Journal=cfg.journal,
-        Title=title,
-        DOI=doi,
-        URL=url,
-        Publisher=cfg.publisher,
-        Date=date_iso,
-        Year=year,
-        Authors="; ".join(unique_keep_order(authors)),
-        Institutions="; ".join(institutions),
-        Abstract=abstract,
-        SourcePage="",
-        FetchTimestampUTC=utc_now_iso(),
+def sort_records(items: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
+    return sorted(
+        items,
+        key=lambda x: (
+            x.get("published", ""),
+            x.get("title", "").lower(),
+        ),
+        reverse=True,
     )
 
 
-def dedupe_records(records: List[PaperRecord]) -> List[PaperRecord]:
-    seen = set()
-    out: List[PaperRecord] = []
+
+def group_by_journal(records: List[Dict[str, Any]]) -> OrderedDict[str, List[Dict[str, Any]]]:
+    grouped: Dict[str, List[Dict[str, Any]]] = {}
     for rec in records:
-        key = (rec.DOI or rec.URL or rec.Title).strip().lower()
-        if not key or key in seen:
-            continue
-        seen.add(key)
-        out.append(rec)
-    return out
+        grouped.setdefault(rec["journal"], []).append(rec)
+
+    ordered: OrderedDict[str, List[Dict[str, Any]]] = OrderedDict()
+    for name in DEFAULT_JOURNAL_ORDER:
+        if name in grouped:
+            ordered[name] = sort_records(grouped.pop(name))
+    for name in sorted(grouped):
+        ordered[name] = sort_records(grouped[name])
+    return ordered
 
 
-def scrape_journal(browser, cfg: JournalConfig, max_per_journal: int) -> List[PaperRecord]:
-    context = browser.new_context(user_agent=USER_AGENT, locale="en-US")
-    page = context.new_page()
-    page.set_default_timeout(DEFAULT_TIMEOUT_MS)
 
-    discovered: List[Tuple[str, str]] = []
-    for listing_url in cfg.listing_urls:
-        try:
-            urls = collect_article_urls_from_listing(page, listing_url, cfg.publisher)
-            for u in urls:
-                discovered.append((u, listing_url))
-            print(f"[INFO] {cfg.code}: discovered {len(urls)} links from {listing_url}")
-        except Exception as exc:
-            print(f"[WARN] Failed listing page {listing_url} :: {exc}", file=sys.stderr)
-
-    unique_urls: List[Tuple[str, str]] = []
-    seen = set()
-    for u, src in discovered:
-        k = canonicalize_url(u)
-        if k in seen:
-            continue
-        seen.add(k)
-        unique_urls.append((u, src))
-
-    records: List[PaperRecord] = []
-    for url, src in unique_urls:
-        if len(records) >= max_per_journal:
-            break
-        rec = scrape_article(page, url, cfg)
-        if rec is None:
-            continue
-        rec.SourcePage = src
-        if not rec.Title:
-            continue
-        records.append(rec)
-        print(f"[OK] {cfg.code}: {rec.Title[:100]}")
-
-    context.close()
-    return dedupe_records(records)
+def load_records_from_json(path: Path) -> List[Dict[str, Any]]:
+    data = json.loads(path.read_text(encoding="utf-8"))
+    if isinstance(data, list):
+        return [normalize_record(x) for x in data if isinstance(x, dict)]
+    if isinstance(data, dict) and isinstance(data.get("journals"), dict):
+        rows: List[Dict[str, Any]] = []
+        for journal_name, items in data["journals"].items():
+            if not isinstance(items, list):
+                continue
+            for item in items:
+                if isinstance(item, dict):
+                    row = normalize_record(item)
+                    row["journal"] = journal_name or row["journal"]
+                    rows.append(row)
+        return rows
+    raise ValueError(f"Unsupported JSON structure in {path}")
 
 
-def save_outputs(records: List[PaperRecord], outdir: Path) -> None:
-    outdir.mkdir(parents=True, exist_ok=True)
 
-    rows = [asdict(r) for r in records]
-    df = pd.DataFrame(rows)
-    if not df.empty:
-        df = df.sort_values(by=["Journal", "Date", "Title"], ascending=[True, False, True], na_position="last")
+def render_item(item: Dict[str, Any]) -> str:
+    authors = ", ".join(item.get("authors", [])) or "N/A"
+    institutions = ", ".join(item.get("institution", [])) or "N/A"
+    journal = item.get("journal", "") or "N/A"
+    abstract_text = item.get("abstract", "") or "Abstract not available."
+    doi = item.get("doi", "")
+    publisher = item.get("publisher", "")
 
-    json_path = outdir / "research_articles.json"
-    csv_path = outdir / "research_articles.csv"
-    md_path = outdir / "research_articles.md"
+    doi_html = f'<p><strong>DOI:</strong> {html_escape(doi)}</p>' if doi else ""
+    publisher_html = f'<p><strong>Publisher:</strong> {html_escape(publisher)}</p>' if publisher else ""
 
-    json_path.write_text(json.dumps(rows, ensure_ascii=False, indent=2), encoding="utf-8")
-    df.to_csv(csv_path, index=False, encoding="utf-8-sig")
-
-    lines = ["# Research Articles", ""]
-    grouped = {}
-    for rec in rows:
-        grouped.setdefault(rec["Journal"], []).append(rec)
-
-    for journal in sorted(grouped):
-        lines.append(f"## {journal}")
-        lines.append("")
-        for r in grouped[journal]:
-            lines.append(f"### {r['Title']}")
-            lines.append("")
-            lines.append(f"- **Journal:** {r['Journal']}")
-            lines.append(f"- **Date:** {r['Date']}")
-            lines.append(f"- **DOI:** {r['DOI']}")
-            lines.append(f"- **URL:** {r['URL']}")
-            lines.append(f"- **Authors:** {r['Authors']}")
-            lines.append(f"- **Institutions:** {r['Institutions']}")
-            lines.append("")
-            lines.append(r["Abstract"] or "")
-            lines.append("")
-        lines.append("")
-    md_path.write_text("\n".join(lines), encoding="utf-8")
-
-    print(f"[DONE] Wrote {json_path}")
-    print(f"[DONE] Wrote {csv_path}")
-    print(f"[DONE] Wrote {md_path}")
+    return f"""
+    <article class=\"card\">
+      <h4><a href=\"{html_escape(item['url'])}\" target=\"_blank\" rel=\"noopener noreferrer\">{html_escape(item['title'])}</a></h4>
+      <p><strong>Authors:</strong> {html_escape(authors)}</p>
+      <p><strong>Institution:</strong> {html_escape(institutions)}</p>
+      <p><strong>Published:</strong> {html_escape(item.get('published', 'N/A'))}</p>
+      <p><strong>Journal:</strong> {html_escape(journal)}</p>
+      {publisher_html}
+      {doi_html}
+      <div>
+        <strong>Abstract:</strong>
+        <p>{html_escape(abstract_text)}</p>
+      </div>
+    </article>
+    """
 
 
-def build_arg_parser() -> argparse.ArgumentParser:
-    p = argparse.ArgumentParser(description="Fetch recent papers from official journal websites only.")
-    p.add_argument("--outdir", type=Path, default=Path("output"), help="Output directory")
-    p.add_argument("--max-per-journal", type=int, default=25, help="Max saved papers per journal")
-    p.add_argument(
-        "--journals",
-        nargs="*",
-        default=None,
-        help="Journal codes, e.g. MSSP ES TUST RMRE ESWA MEAS NDTE",
+
+def render_journal_section(journal_name: str, items: List[Dict[str, Any]]) -> str:
+    anchor = journal_name.lower().replace(" ", "-").replace("&", "and").replace(",", "")
+    body = '<p class="empty">No items in this section.</p>' if not items else "\n".join(render_item(item) for item in items)
+    return f"""
+    <section id=\"{anchor}\" class=\"journal-section\">
+      <h2>{html_escape(journal_name)} <span class=\"count\">({len(items)})</span></h2>
+      {body}
+    </section>
+    """
+
+
+
+def render_page(title: str, page_heading: str, date_str: str, journals: OrderedDict[str, List[Dict[str, Any]]], archive_links: List[str], home_href: str) -> str:
+    nav_links = "".join(
+        f'<a class="tab" href="#{journal.lower().replace(" ", "-").replace("&", "and").replace(",", "")}">{html_escape(journal)}</a>'
+        for journal in journals.keys()
     )
-    p.add_argument(
-        "--show-journals",
-        action="store_true",
-        help="Print supported journal codes and exit",
-    )
-    return p
+    journal_sections = "\n".join(render_journal_section(journal, items) for journal, items in journals.items())
+    archive_html = "".join(f'<li><a href="./archive/{d}.html">{d}</a></li>' for d in archive_links) or "<li>No archive yet.</li>"
+
+    total_papers = sum(len(v) for v in journals.values())
+
+    return f"""<!doctype html>
+<html lang=\"en\">
+<head>
+  <meta charset=\"UTF-8\">
+  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">
+  <title>{html_escape(title)}</title>
+  <style>
+    body {{ font-family: Arial, sans-serif; max-width: 1120px; margin: 0 auto; padding: 24px; line-height: 1.6; color: #222; background: #fafafa; }}
+    .topbar {{ margin-bottom: 20px; }}
+    .tabs {{ display: flex; flex-wrap: wrap; gap: 10px; margin: 16px 0 28px; }}
+    .tab {{ padding: 8px 12px; border: 1px solid #ccc; border-radius: 999px; text-decoration: none; color: #222; background: #f7f7f7; }}
+    .tab:hover {{ background: #ececec; }}
+    .journal-section {{ margin-bottom: 46px; }}
+    .card {{ border: 1px solid #ddd; border-radius: 10px; padding: 16px; margin: 14px 0; background: #fff; box-shadow: 0 3px 10px rgba(0,0,0,.04); }}
+    .card h4 {{ margin-top: 0; margin-bottom: 8px; font-size: 1.05rem; }}
+    .archive {{ margin-top: 50px; padding-top: 16px; border-top: 2px solid #eee; }}
+    .empty {{ color: #666; font-style: italic; }}
+    .count {{ color: #666; font-size: .95rem; font-weight: normal; }}
+    a {{ color: #0a58ca; }}
+    .summary {{ color: #555; margin-bottom: 8px; }}
+  </style>
+</head>
+<body>
+  <div class=\"topbar\">
+    <h1>{html_escape(page_heading)}</h1>
+    <p><strong>Date:</strong> {html_escape(date_str)}</p>
+    <p class=\"summary\"><strong>Total papers:</strong> {total_papers}</p>
+    <p><a href=\"{html_escape(home_href)}\">Home</a></p>
+  </div>
+
+  <div class=\"tabs\">
+    {nav_links}
+  </div>
+
+  {journal_sections}
+
+  <div class=\"archive\">
+    <h2>Previous Updates</h2>
+    <ul>
+      {archive_html}
+    </ul>
+  </div>
+</body>
+</html>
+"""
+
+
+
+def render_archive_index(archive_dates: List[str]) -> str:
+    items = "".join(f'<li><a href="./{d}.html">{d}</a></li>' for d in archive_dates) or "<li>No archive yet.</li>"
+    return f"""<!doctype html>
+<html lang=\"en\">
+<head>
+  <meta charset=\"UTF-8\">
+  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">
+  <title>Research Archive</title>
+</head>
+<body>
+  <h1>Research Archive</h1>
+  <p><a href=\"../index.html\">Back to Research</a></p>
+  <ul>{items}</ul>
+</body>
+</html>
+"""
+
+
+
+def save_daily_payload(records: List[Dict[str, Any]], out_json: Path, date_str: str) -> OrderedDict[str, List[Dict[str, Any]]]:
+    journals = group_by_journal(records)
+    payload = {"date": date_str, "journals": journals}
+    out_json.parent.mkdir(parents=True, exist_ok=True)
+    out_json.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
+    return journals
+
 
 
 def main() -> None:
-    args = build_arg_parser().parse_args()
+    parser = argparse.ArgumentParser(description="Build research pages from fetched JSON.")
+    parser.add_argument("--input", type=Path, default=Path("output/research_articles.json"), help="Input JSON path")
+    parser.add_argument("--output", type=Path, default=None, help="Standalone output HTML path")
+    parser.add_argument("--daily-json", type=Path, default=None, help="Optional daily grouped JSON output path")
+    parser.add_argument("--date", default=None, help="Date string for page title and daily JSON")
+    parser.add_argument("--title", default="Research Digest", help="Page title")
+    args = parser.parse_args()
 
-    if args.show_journals:
-        for j in JOURNALS:
-            print(f"{j.code:5s}  {j.journal}")
+    records = load_records_from_json(args.input)
+    date_str = args.date or (today_str() if today_str else date.today().isoformat())
+
+    if args.output is not None:
+        journals = group_by_journal(records)
+        args.output.parent.mkdir(parents=True, exist_ok=True)
+        args.output.write_text(
+            render_page(
+                title=args.title,
+                page_heading=args.title,
+                date_str=date_str,
+                journals=journals,
+                archive_links=[],
+                home_href="#",
+            ),
+            encoding="utf-8",
+        )
+        print(f"[DONE] Wrote {args.output}")
         return
 
-    selected = select_journals(args.journals)
-    all_records: List[PaperRecord] = []
+    if ensure_dir is None:
+        raise SystemExit("Project utils not found. Use --output for standalone mode, or run this inside your project.")
 
-    with sync_playwright() as pw:
-        browser = pw.chromium.launch(headless=True)
-        try:
-            for cfg in selected:
-                print(f"\n=== Fetching {cfg.code}: {cfg.journal} ===")
-                recs = scrape_journal(browser, cfg, args.max_per_journal)
-                all_records.extend(recs)
-                time.sleep(1)
-        finally:
-            browser.close()
+    ensure_dir(RESEARCH_DIR)
+    ensure_dir(ARCHIVE_DIR)
+    ensure_dir(DATA_DIR)
 
-    all_records = dedupe_records(all_records)
-    save_outputs(all_records, args.outdir, write_daily_json=True)
+    today_json = args.daily_json or (DATA_DIR / f"{date_str}.json")
+    journals = save_daily_payload(records, today_json, date_str)
+
+    archive_dates = sorted([p.stem for p in DATA_DIR.glob("*.json") if p.stem != date_str], reverse=True)
+
+    research_index = render_page(
+        title=f"Research Digest {date_str}",
+        page_heading="Research Digest",
+        date_str=date_str,
+        journals=journals,
+        archive_links=archive_dates[:30],
+        home_href="../index.html",
+    )
+    archive_page = render_page(
+        title=f"Research Archive {date_str}",
+        page_heading="Research Digest Archive",
+        date_str=date_str,
+        journals=journals,
+        archive_links=archive_dates[:30],
+        home_href="../index.html",
+    )
+
+    (RESEARCH_DIR / "index.html").write_text(research_index, encoding="utf-8")
+    (ARCHIVE_DIR / f"{date_str}.html").write_text(archive_page, encoding="utf-8")
+    (ARCHIVE_DIR / "index.html").write_text(render_archive_index([date_str] + archive_dates[:59]), encoding="utf-8")
+
+    print(f"[DONE] Wrote {today_json}")
+    print(f"[DONE] Wrote {RESEARCH_DIR / 'index.html'}")
+    print(f"[DONE] Wrote {ARCHIVE_DIR / f'{date_str}.html'}")
 
 
 if __name__ == "__main__":
