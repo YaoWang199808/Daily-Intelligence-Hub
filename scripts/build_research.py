@@ -18,14 +18,13 @@ def html_escape(text: str) -> str:
 
 def render_item(item):
     authors = ", ".join(item.get("authors", [])) or "N/A"
-    institutions_list = item.get("institutions", []) or item.get("institution", []) or []
-    institutions = ", ".join(institutions_list)
+    institutions = ", ".join(item.get("institutions", [])) or "N/A"
     journal = item.get("journal", "") or "N/A"
     abstract_text = item.get("abstract", "") or "Abstract not available."
     citations = item.get("citation_count", 0)
 
     institution_html = ""
-    if institutions:
+    if item.get("institutions"):
         institution_html = f"<p><strong>Institution:</strong> {html_escape(institutions)}</p>"
 
     return f"""
