@@ -18,7 +18,7 @@ def html_escape(text: str) -> str:
 
 def render_item(item):
     authors = ", ".join(item.get("authors", [])) or "N/A"
-    institutions_list = item.get("institution", []) or []
+    institutions_list = item.get("institutions", []) or item.get("institution", []) or []
     institutions = ", ".join(institutions_list)
     journal = item.get("journal", "") or "N/A"
     abstract_text = item.get("abstract", "") or "Abstract not available."
