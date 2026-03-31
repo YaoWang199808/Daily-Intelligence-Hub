@@ -98,18 +98,14 @@ def citation_sort_key(item):
 
 
 def query_openalex_source_by_issn(issn: str):
-    params = {
-        "api_key": OPENALEX_API_KEY
-    } if OPENALEX_API_KEY else {}
-
+    params = {"api_key": OPENALEX_API_KEY} if OPENALEX_API_KEY else {}
     query = urllib.parse.urlencode(params)
     url = f"https://api.openalex.org/sources/issn:{urllib.parse.quote(issn)}"
     if query:
         url += f"?{query}"
 
     try:
-        data = safe_json_request(url, timeout=30)
-        return data
+        return safe_json_request(url, timeout=30)
     except Exception:
         return None
 
@@ -231,13 +227,11 @@ def parse_openalex_work(work, target_journal_name):
     published = clean_text(work.get("publication_date", "") or "")
     journal = target_journal_name
 
-    # Landing page URL
     url = ""
     primary_location = work.get("primary_location") or {}
     if primary_location:
         url = clean_text(primary_location.get("landing_page_url", "") or primary_location.get("pdf_url", ""))
 
-    # Authors + institutions from OpenAlex
     authors = []
     institutions = []
     for auth in work.get("authorships", []) or []:
@@ -251,7 +245,6 @@ def parse_openalex_work(work, target_journal_name):
             if inst_name and inst_name not in institutions:
                 institutions.append(inst_name)
 
-    # Abstract from OpenAlex
     abstract_text = reconstruct_abstract(work.get("abstract_inverted_index"))
 
     return {
@@ -317,20 +310,18 @@ def classify_method(text: str):
 
 
 def enrich_missing_fields(item):
-    # Crossref fallback for abstract
     if item.get("doi") and not item.get("abstract"):
         cr = query_crossref_by_doi(item["doi"])
         abstract_text = extract_crossref_abstract(cr)
         if abstract_text:
             item["abstract"] = abstract_text
 
-    # Semantic Scholar fallback for institution or citations
     if item.get("doi"):
         s2 = query_semantic_scholar_by_doi(item["doi"])
     else:
         s2 = query_semantic_scholar_by_title(item.get("title", ""))
 
-    time.sleep(0.3)
+    time.sleep(0.25)
 
     if s2:
         if not item.get("institutions"):
@@ -338,7 +329,6 @@ def enrich_missing_fields(item):
         if not item.get("citation_count"):
             item["citation_count"] = int(s2.get("citationCount", 0) or 0)
 
-    # Final normalize
     if not item.get("abstract"):
         item["abstract"] = "Abstract not available."
 
@@ -445,7 +435,6 @@ def main():
 
             parsed_items.append(parsed)
 
-        # local dedup
         deduped = []
         local_ids = set()
         local_titles = set()
