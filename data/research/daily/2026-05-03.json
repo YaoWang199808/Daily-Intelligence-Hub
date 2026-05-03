@@ -1,0 +1,733 @@
+{
+  "date": "2026-05-03",
+  "journals": {
+    "Automation in Construction": [
+      {
+        "id": "https://openalex.org/W7117993310",
+        "doi": "10.1016/j.autcon.2025.106751",
+        "title": "Self-supervised learning for multi-label sewer defect classification",
+        "published": "2026-01-02",
+        "url": "https://doi.org/10.1016/j.autcon.2025.106751",
+        "authors": [
+          "Tugba Yildizli",
+          "Tianlong Jia",
+          "Jeroen Langeveld",
+          "Riccardo Taormina"
+        ],
+        "institutions": [],
+        "journal": "Automation in Construction",
+        "abstract": "Abstract not available.",
+        "citation_count": 1,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7117963610",
+        "doi": "10.1016/j.autcon.2025.106747",
+        "title": "Digital twin–driven temperature field optimization in tunnel freezing restoration using particle swarm optimization",
+        "published": "2026-01-02",
+        "url": "https://doi.org/10.1016/j.autcon.2025.106747",
+        "authors": [
+          "Jie Zhou",
+          "Chao Ban",
+          "Chengjun Liu",
+          "Zeyao Li",
+          "Huade Zhou",
+          "Hsinming Shang"
+        ],
+        "institutions": [
+          "Tongji University",
+          "United Nations Economic and Social Commission for Asia and the Pacific"
+        ],
+        "journal": "Automation in Construction",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      }
+    ],
+    "Mechanical Systems and Signal Processing": [],
+    "Measurement": [
+      {
+        "id": "https://openalex.org/W7142736107",
+        "doi": "10.1016/j.measurement.2026.121273",
+        "title": "Design, development of qPlus cantilever scanning tunneling-atomic force microscopy; imaging, spectroscopy, noise spectroscopy in air, UHV",
+        "published": "2026-03-29",
+        "url": "https://doi.org/10.1016/j.measurement.2026.121273",
+        "authors": [
+          "Sadhu Kolekar",
+          "CV Dharmadhikari"
+        ],
+        "institutions": [
+          "Tatyasaheb Kore Dental College and Research Centre",
+          "Savitribai Phule Pune University"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7141597059",
+        "doi": "10.1016/j.measurement.2026.121288",
+        "title": "Analysis of correction errors and application strategy for inner surface temperature measurement method of cavity-like objects",
+        "published": "2026-03-28",
+        "url": "https://doi.org/10.1016/j.measurement.2026.121288",
+        "authors": [
+          "Guohui Mei",
+          "Ao Zhang",
+          "Shumao Zhao",
+          "Wu Lv",
+          "Ying Ci"
+        ],
+        "institutions": [
+          "Northeastern University"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7142183176",
+        "doi": "10.1016/j.measurement.2026.121311",
+        "title": "Enhanced heart sound source localization using hybrid computed axial phono-cardiac tomography with deep learning reconstruction and attenuated M-matrix calculations",
+        "published": "2026-03-28",
+        "url": "https://doi.org/10.1016/j.measurement.2026.121311",
+        "authors": [
+          "Ali Mohammad Alqudah",
+          "Isam Abu Qasmieh",
+          "Mohammad A. Al-Jarrah"
+        ],
+        "institutions": [
+          "Yarmouk University"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      }
+    ],
+    "Engineering Structures": [
+      {
+        "id": "https://openalex.org/W7159805951",
+        "doi": "10.1016/j.engstruct.2026.122816",
+        "title": "Mechanical performance of connections between cross-laminated timber (CLT) shear walls and nail-laminated timber (NLT) floors",
+        "published": "2026-04-29",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.122816",
+        "authors": [
+          "Xiaowei Qu",
+          "Zheng Li",
+          "Xijun Wang",
+          "Minjuan He"
+        ],
+        "institutions": [],
+        "journal": "Engineering Structures",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7159802789",
+        "doi": "10.1016/j.engstruct.2026.122826",
+        "title": "An experimental and modeling study of the lateral performance of double-shear sheathing-to-framing connections in wood midply shear walls",
+        "published": "2026-04-29",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.122826",
+        "authors": [
+          "Zhichao Zheng",
+          "Xiaoyue Zhang",
+          "Zengxin Peng",
+          "Xuhong Zhou"
+        ],
+        "institutions": [],
+        "journal": "Engineering Structures",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      },
+      {
+        "id": "https://openalex.org/W7159851158",
+        "doi": "10.1016/j.engstruct.2026.122785",
+        "title": "Seismic performance and failure mechanisms of scaled reinforced concrete containment vessels under shake table testing",
+        "published": "2026-04-29",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.122785",
+        "authors": [
+          "Chang‐Ching Chang",
+          "Jiaji Wang",
+          "Chiun‐Lin Wu",
+          "Thomas T. C. Hsu",
+          "Kalyana B. Nakshatrala",
+          "Yi-Lung Mo"
+        ],
+        "institutions": [],
+        "journal": "Engineering Structures",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7159807515",
+        "doi": "10.1016/j.engstruct.2026.122836",
+        "title": "Structural performance of rectangular CFST slender columns under axial partial compression",
+        "published": "2026-04-29",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.122836",
+        "authors": [
+          "Yang You-fu",
+          "Feng Fu"
+        ],
+        "institutions": [],
+        "journal": "Engineering Structures",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7159777197",
+        "doi": "10.1016/j.engstruct.2026.122814",
+        "title": "Unexpected nonlinear bending behaviors of functionally graded porous graphene-platelet/Al composite beams",
+        "published": "2026-04-29",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.122814",
+        "authors": [
+          "J.W. Yan",
+          "S.C. Jiang",
+          "W. P. Chen",
+          "Q.B. Jiang",
+          "C.W. Lim"
+        ],
+        "institutions": [],
+        "journal": "Engineering Structures",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7159832095",
+        "doi": "10.1016/j.engstruct.2026.122849",
+        "title": "Linking structural safety and embodied carbon during service for low-carbon design of concrete structures under climate change",
+        "published": "2026-04-29",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.122849",
+        "authors": [
+          "Bing Xia",
+          "Jianzhuang Xiao",
+          "Michael Beer",
+          "Xiangshuo Guan"
+        ],
+        "institutions": [],
+        "journal": "Engineering Structures",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7159852719",
+        "doi": "10.1016/j.engstruct.2026.122815",
+        "title": "Analytical models for progressive collapse resistance of novel fully assembled concrete beam-column connections",
+        "published": "2026-04-29",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.122815",
+        "authors": [
+          "Jingang Xiong",
+          "Kai Wang",
+          "Moqiang Xiong",
+          "Qianghui Xiong",
+          "Chenxin Yao"
+        ],
+        "institutions": [],
+        "journal": "Engineering Structures",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Analytical / Theoretical"
+      },
+      {
+        "id": "https://openalex.org/W7159837345",
+        "doi": "10.1016/j.engstruct.2026.122842",
+        "title": "Deformation-based unified theory closed-form solutions for three-dimensional thermo-mechanical coupling in plates",
+        "published": "2026-04-29",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.122842",
+        "authors": [
+          "Chen Liang",
+          "Zoe Yaw",
+          "Guifeng Wang",
+          "Cong Wang",
+          "Zhenyu Chen",
+          "C.W. Lim"
+        ],
+        "institutions": [],
+        "journal": "Engineering Structures",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Analytical / Theoretical"
+      },
+      {
+        "id": "https://openalex.org/W7159849444",
+        "doi": "10.1016/j.engstruct.2026.122846",
+        "title": "Seismic behavior and restoring force model of prefabricated T-shaped thin concrete-encased steel column with closed stirrups",
+        "published": "2026-04-29",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.122846",
+        "authors": [
+          "Xiao-Wu Liu",
+          "Xue-Chun Liu",
+          "Xuesen Chen",
+          "Bing-Ze Li",
+          "Yu-Fei Yang"
+        ],
+        "institutions": [],
+        "journal": "Engineering Structures",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      }
+    ],
+    "Ultrasonics": [],
+    "Tunnelling and Underground Space Technology": [
+      {
+        "id": "https://openalex.org/W7118424296",
+        "doi": "10.1016/j.tust.2025.107402",
+        "title": "A “Proactive-Prevention and Post-Resistant” support method for alleviating rockburst in deep-buried large-section tunnels",
+        "published": "2026-01-06",
+        "url": "https://doi.org/10.1016/j.tust.2025.107402",
+        "authors": [
+          "Fengqiang Gong",
+          "Zhixuan Zhang",
+          "Bo Wang",
+          "Jinhao Dai",
+          "Pengyu Ma"
+        ],
+        "institutions": [
+          "Chang'an University",
+          "Southeast University",
+          "Southwest Jiaotong University",
+          "East China Jiaotong University"
+        ],
+        "journal": "Tunnelling and Underground Space Technology",
+        "abstract": "Abstract not available.",
+        "citation_count": 4,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7118349428",
+        "doi": "10.1016/j.tust.2025.107421",
+        "title": "A damage constitutive model of gas-bearing coal under pre-static loading and cyclic impact",
+        "published": "2026-01-06",
+        "url": "https://doi.org/10.1016/j.tust.2025.107421",
+        "authors": [
+          "Wei Wang",
+          "Hanpeng Wang",
+          "Xinyuan Xie",
+          "Zicheng Wang",
+          "Weibing Cai",
+          "Yunhao Wu",
+          "Yuguo Zhou"
+        ],
+        "institutions": [
+          "Shandong Transportation Research Institute",
+          "Shandong University",
+          "Johns Hopkins University",
+          "Johns Hopkins Medicine"
+        ],
+        "journal": "Tunnelling and Underground Space Technology",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7118775506",
+        "doi": "10.1016/j.tust.2025.107407",
+        "title": "Cooling energy demand for maintaining frozen wall thickness in artificial ground freezing",
+        "published": "2026-01-06",
+        "url": "https://doi.org/10.1016/j.tust.2025.107407",
+        "authors": [
+          "Xu Li",
+          "Xu Li",
+          "Rui-ming Li",
+          "Xiaokang Li",
+          "Xiaokang Li",
+          "Shuang Liu",
+          "Zheng Yang"
+        ],
+        "institutions": [
+          "Beijing Jiaotong University",
+          "South China University of Technology",
+          "China Communications Construction Company (China)",
+          "Harbin University of Science and Technology"
+        ],
+        "journal": "Tunnelling and Underground Space Technology",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7118182940",
+        "doi": "10.1016/j.tust.2025.107311",
+        "title": "Dynamic prediction of surrounding rock grades in TBM tunnels based on physics–data dual-driven model",
+        "published": "2026-01-05",
+        "url": "https://doi.org/10.1016/j.tust.2025.107311",
+        "authors": [
+          "Kang Fu",
+          "Yiguo Xue",
+          "Daohong Qiu",
+          "Fanmeng Kong",
+          "Jianning Wang"
+        ],
+        "institutions": [
+          "Shandong University",
+          "Fuzhou University",
+          "China University of Geosciences (Beijing)"
+        ],
+        "journal": "Tunnelling and Underground Space Technology",
+        "abstract": "Abstract not available.",
+        "citation_count": 3,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7118118566",
+        "doi": "10.1016/j.tust.2025.107362",
+        "title": "A numerical study of damage evolution and crack propagation in backfill bodies of high-temperature thermal energy storage cavities in mines",
+        "published": "2026-01-04",
+        "url": "https://doi.org/10.1016/j.tust.2025.107362",
+        "authors": [
+          "Rui Zhan",
+          "B. Zhang",
+          "Lang Liu",
+          "Chao Huan",
+          "Huisheng Qu",
+          "Huicong Xu",
+          "J. Zhang",
+          "Hongjun Xi"
+        ],
+        "institutions": [
+          "Xi'an University of Science and Technology"
+        ],
+        "journal": "Tunnelling and Underground Space Technology",
+        "abstract": "Abstract not available.",
+        "citation_count": 7,
+        "method": "Numerical Simulation"
+      },
+      {
+        "id": "https://openalex.org/W7118082958",
+        "doi": "10.1016/j.tust.2025.107425",
+        "title": "Dynamic response of an underwater single-tube double-track tunnel under high-speed train loads: experimental and numerical investigation",
+        "published": "2026-01-03",
+        "url": "https://doi.org/10.1016/j.tust.2025.107425",
+        "authors": [
+          "Zhi Ding",
+          "Chaofeng Chen",
+          "Yang Chen",
+          "Honglei Sun",
+          "Hai Bing Xia",
+          "Zhenhua Chen",
+          "Xiao Zhang"
+        ],
+        "institutions": [
+          "Hangzhou City University",
+          "City University of Macau",
+          "Zhe Jiang Institute of Geology and Mineral Resource",
+          "Zhejiang University of Technology",
+          "Zhejiang University"
+        ],
+        "journal": "Tunnelling and Underground Space Technology",
+        "abstract": "Abstract not available.",
+        "citation_count": 1,
+        "method": "Hybrid"
+      },
+      {
+        "id": "https://openalex.org/W7118078083",
+        "doi": "10.1016/j.tust.2025.107427",
+        "title": "Mechanical performance and damage characteristics of segmental joints in semi-rigid element immersed tunnel under bending deformation: A combined experimental and numerical study",
+        "published": "2026-01-03",
+        "url": "https://doi.org/10.1016/j.tust.2025.107427",
+        "authors": [
+          "Zhinan Hu",
+          "Yuejian Wang",
+          "Shaobo Qin",
+          "Shunde Yin",
+          "Haiyang Pan",
+          "Kaimeng Ma"
+        ],
+        "institutions": [
+          "Shijiazhuang Tiedao University",
+          "HBIS (China)",
+          "Hebei Science and Technology Department",
+          "University of Waterloo"
+        ],
+        "journal": "Tunnelling and Underground Space Technology",
+        "abstract": "• The bending resistance of semi-rigid element segment joints is primarily provided by the prestressed cables on the open side. • As the rotation angle increases, the shear force of the shear keys first decreases and then increases. Shear keys mainly function in shear rather than bending. • Tensile and compressive damage concentration zones oriented at 45° form near the shear keys in both the middle-wall and side-walls of the segments. Tensile damage at the side-wall shear keys occurs earlier. • High ductility concrete (HDC) vertical shear keys effectively delay the occurrence of plastic damage and improve the bending performance of segmental joints. The mechanical performance of segmental joints in semi-rigid element immersed tunnels is influenced significantly by differential settlement. The mechanical behaviors and failure mechanisms of segmental joints under longitudinal differential settlement were investigated in this study. The validity of the numerical simulation methods was verified through 1:10 scale physical model tests. Subsequently, a full-scale segmental joint model of the Hong Kong-Zhuhai-Macao Bridge (HZMB) immersed tunnel was established. Systematic analyses of the mechanical responses, damage evolution, and sensitive damage zones were conducted. Based on the observations, an optimized design scheme was proposed. It provides theoretical and technical support for structural health monitoring and optimization. The results indicate that the bending resistance of semi-rigid element segment joints is provided primarily by the prestressed cables on the open side. As the rotation angle increases, the rotation center moves upward, and the contact stress concentrates on the top plate. The shear force of the shear keys first decreases and then increases. This is related to their mechanical performance. Shear keys function mainly in shear rather than bending. Tensile and compressive damage concentration zones oriented at 45° form near the shear keys in both middle-wall and side-walls of the segments. The tensile damage at the side-wall shear keys occurs earlier. At 0.004 rad, tensile damage is observed at the middle-wall shear keys (also oriented at 45°). Based on the damage characteristics of the segmental joint, an optimized design scheme using high ductility concrete (HDC) for vertical shear keys was proposed. After optimization, the toughness of the shear keys was enhanced significantly, and the plastic damage was delayed effectively.",
+        "citation_count": 1,
+        "method": "Hybrid"
+      },
+      {
+        "id": "https://openalex.org/W7118123419",
+        "doi": "10.1016/j.tust.2025.107411",
+        "title": "TTM: A concise yet effective surface reconstruction approach for tunnel point cloud from mobile mapping system",
+        "published": "2026-01-03",
+        "url": "https://doi.org/10.1016/j.tust.2025.107411",
+        "authors": [
+          "Hao Cui",
+          "Jian Li",
+          "QingWu HU",
+          "Long He",
+          "Yiwen Tao",
+          "Lei Xu",
+          "Qingzhou Mao"
+        ],
+        "institutions": [
+          "Zhengzhou University",
+          "Wuhan University",
+          "Shaanxi University of Science and Technology",
+          "China Railway Fifth Survey and Design Institute Group",
+          "China Railway Design Corporation (China)"
+        ],
+        "journal": "Tunnelling and Underground Space Technology",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7117963327",
+        "doi": "10.1016/j.tust.2025.107416",
+        "title": "Experimental and numerical study on dynamic behavior of shield tunnels with internal structures under internal explosions",
+        "published": "2026-01-02",
+        "url": "https://doi.org/10.1016/j.tust.2025.107416",
+        "authors": [
+          "Mengtao Xia",
+          "Hao Lu",
+          "Long Zhou",
+          "Yuxuan Wang",
+          "Ziming Xiong",
+          "Zhouhong Zong"
+        ],
+        "institutions": [
+          "Southeast University",
+          "PLA Army Engineering University",
+          "Nanjing University of Science and Technology"
+        ],
+        "journal": "Tunnelling and Underground Space Technology",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      },
+      {
+        "id": "https://openalex.org/W7117969378",
+        "doi": "10.1016/j.tust.2025.107420",
+        "title": "Enhanced Swin-Transformer model for real-time assessment of overall shield machine cutterhead wear",
+        "published": "2026-01-02",
+        "url": "https://doi.org/10.1016/j.tust.2025.107420",
+        "authors": [
+          "Haoyu Li",
+          "Shifan Qiao",
+          "Daolong Chen",
+          "Junkun Tan",
+          "Baoquan Cheng"
+        ],
+        "institutions": [
+          "Central South University"
+        ],
+        "journal": "Tunnelling and Underground Space Technology",
+        "abstract": "Abstract not available.",
+        "citation_count": 1,
+        "method": "Machine Learning"
+      }
+    ],
+    "Rock Mechanics and Rock Engineering": [
+      {
+        "id": "https://openalex.org/W7159585096",
+        "doi": "10.1007/s00603-026-05532-w",
+        "title": "Experimental Investigation on the Fatigue Mechanical Behavior of Sandstone Under Various Cyclic Stress Amplitude Conditions",
+        "published": "2026-04-29",
+        "url": "https://doi.org/10.1007/s00603-026-05532-w",
+        "authors": [
+          "Sheng-Qi Yang",
+          "Ke-Sheng Li",
+          "Yi-Ling Hua",
+          "Guang-Yao Si"
+        ],
+        "institutions": [],
+        "journal": "Rock Mechanics and Rock Engineering",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7159624858",
+        "doi": "10.1007/s00603-026-05537-5",
+        "title": "Experimental Study of Shear Deformation and Failure in Grout–Rock Assembly Incorporating Graphene-Modified Cementitious Materials",
+        "published": "2026-04-29",
+        "url": "https://doi.org/10.1007/s00603-026-05537-5",
+        "authors": [
+          "Gangwei Fan",
+          "Mingwei Chen",
+          "Shuyin Jiang",
+          "Zihan Kong",
+          "Tao Luo",
+          "Dongsheng Zhang",
+          "Shizhong Zhang",
+          "Zhanglei Fan",
+          "Shouyang Gao"
+        ],
+        "institutions": [],
+        "journal": "Rock Mechanics and Rock Engineering",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7159615922",
+        "doi": "10.1007/s00603-026-05498-9",
+        "title": "A Novel Blasting-Based Explicit Fault Interface Inversion Method: Application to the Ruihai Gold Mine",
+        "published": "2026-04-29",
+        "url": "https://doi.org/10.1007/s00603-026-05498-9",
+        "authors": [
+          "Houlin Xie",
+          "BingRui Chen",
+          "Lu Liu (171341)",
+          "Ke Li",
+          "Yaxun Xiao",
+          "Xinhao Zhu",
+          "Qian Liu (135614)",
+          "Liu Liu"
+        ],
+        "institutions": [],
+        "journal": "Rock Mechanics and Rock Engineering",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7159574184",
+        "doi": "10.1007/s00603-026-05514-y",
+        "title": "Stress State Evolution of a Cemented Granular Material Subjected to Bond Dissolution by Discrete Element Modeling",
+        "published": "2026-04-29",
+        "url": "https://doi.org/10.1007/s00603-026-05514-y",
+        "authors": [
+          "Alexandre Sac-Morane",
+          "Manolis Veveakis",
+          "Hadrien Rattez"
+        ],
+        "institutions": [],
+        "journal": "Rock Mechanics and Rock Engineering",
+        "abstract": "Abstract Rock weathering is a common phenomenon to consider in various engineering applications that involve underground operations, such as underground storage or geothermal energy extraction. This weathering is induced by the circulation of a reacting fluid in the pores of the rock and can induce changes in materials properties and stress state. This work presents discrete elements simulations of the dissolution of sedimentary rocks to study their stress state evolution. The rock is modeled as a cohesive granular material subjected to debonding. Oedometric conditions are considered during the weathering and the evolution of the coefficient of lateral earth pressure $$k_0$$ <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\"> <mml:msub> <mml:mi>k</mml:mi> <mml:mn>0</mml:mn> </mml:msub> </mml:math> , a proxy of the stress state, is tracked. In particular, the influence of the degree of cementation, the confining pressure, the initial value of $$k_0$$ <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\"> <mml:msub> <mml:mi>k</mml:mi> <mml:mn>0</mml:mn> </mml:msub> </mml:math> and the history of loading are investigated. It has been observed that cemented granular materials tend to reach an attractor configuration for the stress state with the increase of the degree of dissolution. $$k_0$$ <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\"> <mml:msub> <mml:mi>k</mml:mi> <mml:mn>0</mml:mn> </mml:msub> </mml:math> aims to reach the attractor value $$k_0^{attr}$$ <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\"> <mml:msubsup> <mml:mi>k</mml:mi> <mml:mn>0</mml:mn> <mml:mrow> <mml:mi>attr</mml:mi> </mml:mrow> </mml:msubsup> </mml:math> , between 0.3 and 0.4, when all the bounds are dissolved, independently of the initial state. Two main mechanisms have been observed to explain this evolution of the interparticles force configurations and thus of the stress state: the collapse of the unstable chain forces (stable only due to the cementation) and the softening of the grains.",
+        "citation_count": 0,
+        "method": "Numerical Simulation"
+      },
+      {
+        "id": "https://openalex.org/W7159682459",
+        "doi": "10.1007/s00603-026-05544-6",
+        "title": "A Novel Elastoplastic Dynamic Damage Constitutive Model and Numerical Implementation of Rock Under True Triaxial Multistage Disturbance",
+        "published": "2026-04-29",
+        "url": "https://doi.org/10.1007/s00603-026-05544-6",
+        "authors": [
+          "Zhi Zheng",
+          "Yihuai Zhang",
+          "Guoxiong Mei",
+          "Haibo Jiang",
+          "Wei Wang (17594)",
+          "Rui Pan",
+          "ShaoJun LI"
+        ],
+        "institutions": [],
+        "journal": "Rock Mechanics and Rock Engineering",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Numerical Simulation"
+      },
+      {
+        "id": "https://openalex.org/W7159642989",
+        "doi": "10.1007/s00603-026-05507-x",
+        "title": "Geomechanical Modeling and Critically Stressed Fracture Analysis for Geothermal Resource Management – A Study from the Menderes Metamorphic Basement, Gediz Graben, Türkiye",
+        "published": "2026-04-29",
+        "url": "https://doi.org/10.1007/s00603-026-05507-x",
+        "authors": [
+          "Souvik Sen",
+          "Sayantan Ghosh",
+          "Hakkı Aydın",
+          "N. Bozkurt Ciftci",
+          "Şükrü Merey"
+        ],
+        "institutions": [],
+        "journal": "Rock Mechanics and Rock Engineering",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Numerical Simulation"
+      },
+      {
+        "id": "https://openalex.org/W7159569797",
+        "doi": "10.1007/s00603-026-05525-9",
+        "title": "Experimental Study of the Effect of Shale Fracture Shear-Slip Behavior Under Hydraulic Pulses",
+        "published": "2026-04-29",
+        "url": "https://doi.org/10.1007/s00603-026-05525-9",
+        "authors": [
+          "Liwei Du",
+          "Zhaohui Lu",
+          "Yiyu Lu",
+          "Michael Hood",
+          "Lei Zhou (19808)",
+          "Yunzhong Jia"
+        ],
+        "institutions": [],
+        "journal": "Rock Mechanics and Rock Engineering",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7159647475",
+        "doi": "10.1007/s00603-026-05441-y",
+        "title": "Triaxial Compressive Properties and Deformation Behavior of Cemented Tailings Backfill-Rock: Effect of Interface Angle, Interface Geometry and Cement Content",
+        "published": "2026-04-29",
+        "url": "https://doi.org/10.1007/s00603-026-05441-y",
+        "authors": [
+          "Wenbin Xu",
+          "Weilv Wu",
+          "Shuwen Jiang"
+        ],
+        "institutions": [],
+        "journal": "Rock Mechanics and Rock Engineering",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7122590194",
+        "doi": "10.1007/s00603-025-05260-7",
+        "title": "Mechanical Evolution and Strength Enhancement of Sandstone Under Cyclic Loading",
+        "published": "2026-01-12",
+        "url": "https://doi.org/10.1007/s00603-025-05260-7",
+        "authors": [
+          "Fan Zhang",
+          "L. Shao",
+          "Xiaoxia Guo",
+          "Pingxin Xia"
+        ],
+        "institutions": [
+          "Dalian University of Technology",
+          "Changzhou University"
+        ],
+        "journal": "Rock Mechanics and Rock Engineering",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7122512487",
+        "doi": "10.1007/s00603-025-05272-3",
+        "title": "Study on the Mechanical Behavior and Failure Mechanism of Composite Rocks with Rough Structural Planes Under Triaxial Compression and Brazilian Splitting Tests",
+        "published": "2026-01-12",
+        "url": "https://doi.org/10.1007/s00603-025-05272-3",
+        "authors": [
+          "Renliang Shan",
+          "Nianzeng Liu",
+          "Ziyue Zhao",
+          "Peng Sun",
+          "Mingyue Nie",
+          "Jianlin Shen",
+          "Haoyu Dou",
+          "Yao Bai"
+        ],
+        "institutions": [
+          "China University of Mining and Technology"
+        ],
+        "journal": "Rock Mechanics and Rock Engineering",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      }
+    ]
+  }
+}
