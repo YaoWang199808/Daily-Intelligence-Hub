@@ -1,0 +1,334 @@
+{
+  "date": "2026-05-04",
+  "journals": {
+    "Automation in Construction": [],
+    "Mechanical Systems and Signal Processing": [],
+    "Measurement": [],
+    "Engineering Structures": [],
+    "Ultrasonics": [],
+    "Tunnelling and Underground Space Technology": [
+      {
+        "id": "https://openalex.org/W7118079554",
+        "doi": "10.1016/j.tust.2025.107417",
+        "title": "Experimental investigation on the fire performance of novel multi-scale fiber reinforced UHPC segments",
+        "published": "2026-01-02",
+        "url": "https://doi.org/10.1016/j.tust.2025.107417",
+        "authors": [
+          "Yao Zhang",
+          "Ruanxiang Xiong",
+          "Panpan Cheng",
+          "Yibo Chen",
+          "Weigang Zhao",
+          "Kaihang Han",
+          "Xi Jiang",
+          "Hehua Zhu",
+          "Zhiguo Yan"
+        ],
+        "institutions": [
+          "Tongji University",
+          "Shijiazhuang Tiedao University",
+          "Beijing Jiaotong University",
+          "Shenzhen University"
+        ],
+        "journal": "Tunnelling and Underground Space Technology",
+        "abstract": "Abstract not available.",
+        "citation_count": 4,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7117982424",
+        "doi": "10.1016/j.tust.2025.107410",
+        "title": "Failure mechanism and stability control of fault induced by underground cavern excavation: insights from theoretical analysis and numerical modeling",
+        "published": "2026-01-02",
+        "url": "https://doi.org/10.1016/j.tust.2025.107410",
+        "authors": [
+          "Guangzhe Tao",
+          "Zongqing Zhou",
+          "Bing Shao",
+          "Ning Liu",
+          "Chenglu Gao",
+          "Daosheng Zhang"
+        ],
+        "institutions": [
+          "Shandong University",
+          "Shandong Transportation Research Institute",
+          "Powerchina Huadong Engineering Corporation (China)"
+        ],
+        "journal": "Tunnelling and Underground Space Technology",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      },
+      {
+        "id": "https://openalex.org/W7118083822",
+        "doi": "10.1016/j.tust.2025.107439",
+        "title": "Full-scale experimental study of flame behavior and thermal distribution in utility tunnel fires",
+        "published": "2026-01-02",
+        "url": "https://doi.org/10.1016/j.tust.2025.107439",
+        "authors": [
+          "Xiaojiang Liu",
+          "Zhao-Dong Xu",
+          "Jun Dai",
+          "Jiayu Che",
+          "Zhong-Wei Hu",
+          "Defu Che"
+        ],
+        "institutions": [
+          "Northeastern University",
+          "Southeast University"
+        ],
+        "journal": "Tunnelling and Underground Space Technology",
+        "abstract": "Abstract not available.",
+        "citation_count": 4,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7117973728",
+        "doi": "10.1016/j.tust.2025.107406",
+        "title": "A thin-shell model for densely packed pre-reinforcement shell structures in weak rock tunnels",
+        "published": "2026-01-02",
+        "url": "https://doi.org/10.1016/j.tust.2025.107406",
+        "authors": [
+          "Zhongzhi Xie",
+          "Guangze Dan",
+          "Guohua Zhang",
+          "Shishu Zhang",
+          "Zhaoming Ma",
+          "Feng Xiong",
+          "Dongjie Hua"
+        ],
+        "institutions": [
+          "China University of Geosciences",
+          "University College London",
+          "China Energy Engineering Corporation (China)",
+          "General Administration of Quality Supervision, Inspection and Quarantine"
+        ],
+        "journal": "Tunnelling and Underground Space Technology",
+        "abstract": "Abstract not available.",
+        "citation_count": 2,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7117985173",
+        "doi": "10.1016/j.tust.2025.107424",
+        "title": "Uncertainty-aware geological prediction in TBM tunneling: A probabilistic bayesian framework with exploratory multi-source label construction",
+        "published": "2026-01-02",
+        "url": "https://doi.org/10.1016/j.tust.2025.107424",
+        "authors": [
+          "Jinghuan Pan",
+          "Hang Lin",
+          "J. Wu"
+        ],
+        "institutions": [
+          "Central South University"
+        ],
+        "journal": "Tunnelling and Underground Space Technology",
+        "abstract": "Abstract not available.",
+        "citation_count": 1,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7117880991",
+        "doi": "10.1016/j.tust.2025.107422",
+        "title": "A novel reinforced concrete lining with an induced crack for high-pressure tunnels: Numerical simulation",
+        "published": "2026-01-01",
+        "url": "https://doi.org/10.1016/j.tust.2025.107422",
+        "authors": [
+          "Qiang Zhang",
+          "Chaojun Jia",
+          "Weijiang Wu",
+          "Xiaogang Wang",
+          "Lipeng Liu",
+          "Zhengyun Qin",
+          "Liang Wang"
+        ],
+        "institutions": [
+          "Central South University",
+          "China Institute of Water Resources and Hydropower Research"
+        ],
+        "journal": "Tunnelling and Underground Space Technology",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Numerical Simulation"
+      }
+    ],
+    "Rock Mechanics and Rock Engineering": [
+      {
+        "id": "https://openalex.org/W7119495315",
+        "doi": "10.1007/s00603-025-05218-9",
+        "title": "Experimental Study on the Weakening Effect and Mechanism of Strainburst by Boreholes with Directional Crack",
+        "published": "2026-01-09",
+        "url": "https://doi.org/10.1007/s00603-025-05218-9",
+        "authors": [
+          "Haojie Xue",
+          "Bei Jiang",
+          "Manchao He",
+          "Wenrui Wu",
+          "Qiantong Feng",
+          "Yanbo Zhang"
+        ],
+        "institutions": [
+          "Shandong University",
+          "China University of Mining and Technology",
+          "North China University of Science and Technology"
+        ],
+        "journal": "Rock Mechanics and Rock Engineering",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7118495261",
+        "doi": "10.1007/s00603-025-05258-1",
+        "title": "Construction and Numerical Validation of 3D Digital Conglomerate Core Models for Dunhuang Grottoes",
+        "published": "2026-01-07",
+        "url": "https://doi.org/10.1007/s00603-025-05258-1",
+        "authors": [
+          "Danchen Zhao",
+          "Huihui Zhang",
+          "Qinglin Guo",
+          "Yanwu Wang",
+          "Zhenyu Yin",
+          "Yingjie Xia",
+          "Chun’an Tang"
+        ],
+        "institutions": [
+          "Hong Kong Polytechnic University",
+          "Dalian University of Technology",
+          "Dunhuang Research Academy",
+          "Palace Museum",
+          "Institute of Rock and Soil Mechanics"
+        ],
+        "journal": "Rock Mechanics and Rock Engineering",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Numerical Simulation"
+      },
+      {
+        "id": "https://openalex.org/W7119122263",
+        "doi": "10.1007/s00603-025-05143-x",
+        "title": "Accurate Measurement of Creep-Induced Degradation in High-Steep Rock Slopes Using Multi-source Monitoring Data: A Case Study of the Lianghekou Pumped Storage Power Station",
+        "published": "2026-01-07",
+        "url": "https://doi.org/10.1007/s00603-025-05143-x",
+        "authors": [
+          "Jing Jin",
+          "Rubin Yu-Wen Wang",
+          "Guike Zhang",
+          "Weiya Xu",
+          "Y. Wang",
+          "H.M. Wang",
+          "Changhao Lyu"
+        ],
+        "institutions": [
+          "Hohai University",
+          "Yalong Hydro (China)"
+        ],
+        "journal": "Rock Mechanics and Rock Engineering",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7119203198",
+        "doi": "10.1007/s00603-025-05261-6",
+        "title": "Coupled Imaging and THM-Damage Modeling of Supercritical CO2 Fracturing in Coal",
+        "published": "2026-01-07",
+        "url": "https://doi.org/10.1007/s00603-025-05261-6",
+        "authors": [
+          "Liyuan Liu",
+          "Yaohui Li",
+          "Derek Elsworth",
+          "Tao Wang",
+          "Hongguang Ji",
+          "Xiaodong Sun",
+          "Tao Yang",
+          "Kaikai Zhao",
+          "Jiong Wang"
+        ],
+        "institutions": [
+          "China University of Mining and Technology",
+          "Beijing University of Technology",
+          "Pennsylvania State University",
+          "China Coal Technology and Engineering Group Corp (China)",
+          "China Coal Research Institute (China)",
+          "North China Institute of Science and Technology",
+          "North China Institute of Aerospace Engineering",
+          "Green Technology"
+        ],
+        "journal": "Rock Mechanics and Rock Engineering",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Numerical Simulation"
+      },
+      {
+        "id": "https://openalex.org/W7118930895",
+        "doi": "10.1007/s00603-025-05237-6",
+        "title": "Development of a Novel Experimental System for Simulating the Whole Grouting Process of Diffusion–Filling–Splitting in Deep Rock Engineering",
+        "published": "2026-01-07",
+        "url": "https://doi.org/10.1007/s00603-025-05237-6",
+        "authors": [
+          "Xia-Ting Feng",
+          "Xifan Li",
+          "Yangyi Zhou",
+          "Cheng-Xiang Yang",
+          "Tian-Xiang Song"
+        ],
+        "institutions": [
+          "Northeastern University"
+        ],
+        "journal": "Rock Mechanics and Rock Engineering",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7118992367",
+        "doi": "10.1007/s00603-025-05264-3",
+        "title": "Tunnelling Performance by TBM Penetration Tests Under Different Joint Conditions",
+        "published": "2026-01-07",
+        "url": "https://doi.org/10.1007/s00603-025-05264-3",
+        "authors": [
+          "Fan Wu",
+          "Zhiwei Jiang",
+          "Hongyi Xu",
+          "Liu Huang",
+          "Xingfei Xie",
+          "Qiuming Gong"
+        ],
+        "institutions": [
+          "Beijing Urban Construction Design & Development Group (China)",
+          "East China Jiaotong University",
+          "Beijing University of Technology"
+        ],
+        "journal": "Rock Mechanics and Rock Engineering",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7118619175",
+        "doi": "10.1007/s00603-025-05273-2",
+        "title": "Investigation of Silty Mudstone Properties and Inverted Arch Uplift Mechanism: A Case Study of Xicheng Railway Tunnel",
+        "published": "2026-01-07",
+        "url": "https://doi.org/10.1007/s00603-025-05273-2",
+        "authors": [
+          "Linfeng Li",
+          "Zhenliang Zhou",
+          "Songtao Li",
+          "Zhanzhi Tan",
+          "Yapeng Fu"
+        ],
+        "institutions": [
+          "Beijing Jiaotong University",
+          "China Institute of Water Resources and Hydropower Research",
+          "Shaanxi Railway Institute",
+          "Xi'an Railway Survey and Design Institute"
+        ],
+        "journal": "Rock Mechanics and Rock Engineering",
+        "abstract": "Abstract not available.",
+        "citation_count": 1,
+        "method": "Other"
+      }
+    ]
+  }
+}
