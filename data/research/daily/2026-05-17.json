@@ -1,0 +1,808 @@
+{
+  "date": "2026-05-17",
+  "journals": {
+    "Automation in Construction": [
+      {
+        "id": "https://openalex.org/W7161405084",
+        "doi": "10.1016/j.autcon.2026.107026",
+        "title": "Semantic Digital Thread framework for explainable lifecycle carbon management: An ontology-driven and auditable automation backbone",
+        "published": "2026-05-16",
+        "url": "https://doi.org/10.1016/j.autcon.2026.107026",
+        "authors": [
+          "Chien-Pu Huang",
+          "Shang‐Hsien Hsieh"
+        ],
+        "institutions": [],
+        "journal": "Automation in Construction",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7161309892",
+        "doi": "10.1016/j.autcon.2026.106997",
+        "title": "Multimodal large language model (MLLM) benchmark for intelligent construction in underground engineering",
+        "published": "2026-05-15",
+        "url": "https://doi.org/10.1016/j.autcon.2026.106997",
+        "authors": [
+          "Tianhao Li",
+          "Xuri Ge",
+          "Zhaoyang Wang",
+          "Pengjie Ren",
+          "Zhenhao Xu"
+        ],
+        "institutions": [
+          "Shandong Transportation Research Institute",
+          "Shandong University",
+          "Shandong University of Art and Design",
+          "Qingdao Academy of Intelligent Industries",
+          "China United Network Communications Group (China)",
+          "Shandong University of Science and Technology"
+        ],
+        "journal": "Automation in Construction",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7161288111",
+        "doi": "10.1016/j.autcon.2026.107031",
+        "title": "Feature-informed reliability-based merging of crowdsourced labels for digital construction object detection",
+        "published": "2026-05-15",
+        "url": "https://doi.org/10.1016/j.autcon.2026.107031",
+        "authors": [
+          "SeyedeZahra Golazad",
+          "Sushil Rijal",
+          "Sadegh Asgari",
+          "Juan C. Medina",
+          "Abbas Rashidi"
+        ],
+        "institutions": [
+          "University of Utah",
+          "Merrimack College"
+        ],
+        "journal": "Automation in Construction",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7161248931",
+        "doi": "10.1016/j.autcon.2026.107022",
+        "title": "Balancing semantic and geometric lightweighting for building shell extraction using BIM and voxelization",
+        "published": "2026-05-15",
+        "url": "https://doi.org/10.1016/j.autcon.2026.107022",
+        "authors": [
+          "Qian Zhao",
+          "Liangchen Zhou",
+          "Bensheng Wang",
+          "Liuzhong Yang",
+          "Guonian Lv"
+        ],
+        "institutions": [
+          "Nanjing Normal University",
+          "Jiangsu Center for Collaborative Innovation in Geographical Information Resource Development and Application",
+          "China Academy of Urban Planning and Design"
+        ],
+        "journal": "Automation in Construction",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      }
+    ],
+    "Mechanical Systems and Signal Processing": [
+      {
+        "id": "https://openalex.org/W7161276457",
+        "doi": "10.1016/j.ymssp.2026.114371",
+        "title": "UNFIT monitoring of roller bearing degradation: A new event-based concept for early defect detection",
+        "published": "2026-05-16",
+        "url": "https://doi.org/10.1016/j.ymssp.2026.114371",
+        "authors": [
+          "Neil Watson",
+          "J.C. Ji",
+          "XiaoJun Chang"
+        ],
+        "institutions": [
+          "University of Technology Sydney"
+        ],
+        "journal": "Mechanical Systems and Signal Processing",
+        "abstract": "Rolling element bearings (REBs) perform a fundamental role in rotating machinery, with accurate and robust knowledge of their health state, as well as prognostics for remaining useful life (RUL) being critical to optimising maintenance strategies. A key challenge to such health indication lies in reducing defect detection latency (DDL): the time between the onset of an incipient defect and its identification. Existing trend-based signal processing approaches employ various forms of temporal and spectral analysis to identify characteristic defect frequencies of the REBs but are often limited by their reliance on monotonic trend evolution, retrospectively recognising defect onset once the trend has developed sufficiently. This study introduces a novel event-based approach; the UNFIT (contracted from Unstable Negentropy Fluctuations with Indication Trace) methodology for early defect monitoring and detection, which extends prior research on informational entropic change as a means of detecting impulsive signals and proposes an alternative to traditional trend-based techniques. The proposed method applies a spectral-temporal assessment that both emphasises and characterises impulsive events shown to ultimately lead to failure, and does so at the point of defect emergence rather than retrospectively, thereby theoretically minimising the DDL. The methodology is validated using the industry-recognised IMS dataset published by NASA, providing fault detection results across all three (3) accelerated run-to-failure tests and benchmarking them against fault detections reported in existing signal-processing literature for trend-based methodologies. Supplementary datasets from XJTU-SY and Ferrara are presented for further comparison, with further investigation required to confirm robustness under noisy operating conditions. Results from a subset of test cases demonstrate that the UNFIT methodology can reduce DDL and enhance defect identification, particularly in cases where conventional trend-based indicators are less effective, thereby improving maintenance optimisation and supporting Prognostics and Health Management (PHM) workflows by providing earlier, actionable diagnostic information, amenable to integration within Digital twin and Industry 4.0 predictive maintenance frameworks.",
+        "citation_count": 0,
+        "method": "Analytical / Theoretical"
+      },
+      {
+        "id": "https://openalex.org/W7161263844",
+        "doi": "10.1016/j.ymssp.2026.114397",
+        "title": "A Grating-Angle-Positioning method for dynamic clearance measurement of rotating blades",
+        "published": "2026-05-16",
+        "url": "https://doi.org/10.1016/j.ymssp.2026.114397",
+        "authors": [
+          "Mingchen Sun",
+          "Yuanzheng Pei",
+          "Tong Ding",
+          "Qinghua Wang",
+          "Gang Tang",
+          "Xiaojun Yan"
+        ],
+        "institutions": [
+          "Beihang University",
+          "Beijing University of Chemical Technology",
+          "China Academy of Launch Vehicle Technology"
+        ],
+        "journal": "Mechanical Systems and Signal Processing",
+        "abstract": "To address the common problem of repeatable pose recognition and dynamic clearance measurement in multi-body relative motion of complex rotating machinery, this study proposes a grating-angle-positioning method for dynamic clearance measurement. This method collaboratively attaches gratings on the relative motion components and innovatively uses the grating direction angle as a spatiotemporal positioning signal to lock the repeatable meshing position from a continuous image sequence and calculate the dynamic clearance variation. Its core contribution lies in achieving precise identification of repetitive measurement positions and stable extraction of relative gap changes in complex periodic motions. To validate the effectiveness and robustness of the proposed method, it was applied to the dynamic gap measurement of a challenging dual-rotor vertical kneader, where repeatable meshing positions were accurately located with an angular error of less than 0.05°, and clearance variation sequences at the blade meshing point over 11 operating cycles were obtained. An independent verification experiment further confirmed that this method still has high measurement accuracy under non-ideal oblique imaging conditions, with an error of less than 0.02 mm. The results show that the proposed method can achieve sub-angle repetitive pose recognition and sub-millimeter dynamic gap monitoring, providing a non-contact, full-field measurement method for the state monitoring of complex rotating machinery such as vertical kneaders.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7161385445",
+        "doi": "10.1016/j.ymssp.2026.114419",
+        "title": "An interpretable adaptive denoising convolutional network for intelligent fault diagnosis of rotating machinery",
+        "published": "2026-05-16",
+        "url": "https://doi.org/10.1016/j.ymssp.2026.114419",
+        "authors": [
+          "Tianhong Gao",
+          "Haiping Zhu",
+          "Jun Wu",
+          "Zirui Li"
+        ],
+        "institutions": [],
+        "journal": "Mechanical Systems and Signal Processing",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7161407292",
+        "doi": "10.1016/j.ymssp.2026.114408",
+        "title": "Development and experimental verification of the aviation High-Speed gear traveling wave resonance measurement monitoring system and calibration system",
+        "published": "2026-05-16",
+        "url": "https://doi.org/10.1016/j.ymssp.2026.114408",
+        "authors": [
+          "Xiaochi Luan",
+          "Jianting Liu",
+          "Yundong SHA",
+          "Fongtong ZHAO",
+          "Hui MA"
+        ],
+        "institutions": [],
+        "journal": "Mechanical Systems and Signal Processing",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7161334259",
+        "doi": "10.1016/j.ymssp.2026.114344",
+        "title": "Model-data integration and visual transfer for small sample intelligent fault diagnosis of spindle thrust bearing",
+        "published": "2026-05-16",
+        "url": "https://doi.org/10.1016/j.ymssp.2026.114344",
+        "authors": [
+          "Yixin Jiang",
+          "Tao Liu",
+          "Jun Zhou",
+          "Xing Wu",
+          "Rongliang Yang"
+        ],
+        "institutions": [
+          "Kunming University of Science and Technology",
+          "Yunnan Vocational College of Mechanical and Electrical Technology"
+        ],
+        "journal": "Mechanical Systems and Signal Processing",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7161335849",
+        "doi": "10.1016/j.ymssp.2026.114396",
+        "title": "Online identification of unbalance load in rotor-bearing systems by integrating Vold-Kalman and augmented Kalman filters",
+        "published": "2026-05-15",
+        "url": "https://doi.org/10.1016/j.ymssp.2026.114396",
+        "authors": [
+          "Fangrui Lv",
+          "Xuan Chen",
+          "Donglin Zou",
+          "Gengyuan Gao",
+          "Zhushi Rao"
+        ],
+        "institutions": [],
+        "journal": "Mechanical Systems and Signal Processing",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7161285661",
+        "doi": "10.1016/j.ymssp.2026.114415",
+        "title": "Federated RUL prediction for bearings under multiple failure modes using connectivity evolution of spectral connected graphs",
+        "published": "2026-05-15",
+        "url": "https://doi.org/10.1016/j.ymssp.2026.114415",
+        "authors": [
+          "Jiechen Sun",
+          "Funa Zhou",
+          "Hamido Fujita",
+          "Chaoge Wang",
+          "Xiong Hu",
+          "Tianzhen Wang",
+          "Kai Wang"
+        ],
+        "institutions": [
+          "Shanghai Maritime University",
+          "University of Technology Malaysia",
+          "Iwate Prefectural University",
+          "University of Hradec Králové"
+        ],
+        "journal": "Mechanical Systems and Signal Processing",
+        "abstract": "Reliable degradation trajectories and failure thresholds are essential for accurate bearing remaining useful life (RUL) prediction. However, variations in installation and fault types induce multiple failure modes that severely limit prediction accuracy. This study focuses on developing mode-specific bearing degradation trajectories and failure thresholds using a spectral-feature degradation connected graph. The method aims to automatically determine the degradation starting point, degradation trajectory, and failure threshold without predefined thresholds, enabling reliable RUL prediction under varying failure modes. The degradation features of different failure modes are characterized using envelope-spectrum connected graphs, and a nonlinear hyperplane is adaptively learned from spectral-distribution differences to identify the degradation starting point. On this basis, a degradation connectivity graph is established to describe real-time degradation evolution across multiple failure modes, with the connectivity induced by graph-topology evolution serving as the degradation-trajectory indicator. The failure threshold is then automatically determined when the connected graph splits into disconnected components and its connectivity approaches zero. During federated training, monotonic connectivity decrease and spectral-feature energy increase are imposed as physical-consistency constraints, and a federated degradation scale library is established to provide online bearings with more reliable and flexible RUL estimate values under multiple failure modes. Benchmark dataset validation shows that the proposed method improves RUL prediction accuracy by 26.04% across multiple failure modes, compared with state-of-the-art methods. The NIO real-world dataset further demonstrates an advanced RUL prediction interval ranging from 4.4 to 7.3 days.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7161230674",
+        "doi": "10.1016/j.ymssp.2026.114400",
+        "title": "Interlaminar shear stress continuity and transient stress constrained topology optimization of piezoelectric structures under active vibration control",
+        "published": "2026-05-15",
+        "url": "https://doi.org/10.1016/j.ymssp.2026.114400",
+        "authors": [
+          "Jichang Yang",
+          "Guikai Guo",
+          "刘创举",
+          "Tianning Yang",
+          "Shi Yin",
+          "Huanhuan Gao"
+        ],
+        "institutions": [
+          "Jilin University",
+          "Renmin University of China"
+        ],
+        "journal": "Mechanical Systems and Signal Processing",
+        "abstract": "Piezoelectric materials are widely used in active vibration control due to their high sensitivity and self-sensing capability. However, despite these advantages, piezoelectric materials remain at risk of failure in practical engineering applications because of their brittle nature, whether under combined mechanical–electrical loads or either type of load alone. To address this issue, this paper proposes a topology optimization method for active vibration control of piezoelectric structures with stress constraints. Self-sensing piezoelectric materials are employed to avoid numerical problems caused by the asymmetry of the equivalent damping matrix in active control. Meanwhile, considering that the conventional equivalent single-layer approach leads to interlayer shear stress discontinuity, a finite element model that inherently satisfies stress continuity is adopted in this work. Moreover, a stress relaxation parameter is introduced and adjusted to ensure stress continuity throughout the optimization process. In the optimization problem, the nested p-norm method is employed to approximate the maximum stress, while the sum of squared displacements at discrete target points over each time interval serves as the objective function. An adjoint-variable sensitivity analysis scheme is developed to compute sensitivity analysis of both the objective function and the constraints. Finally, numerical examples are presented to investigate the influence of various parameters on the optimization results. The results demonstrate that stress constraints are crucial for the design of piezoelectric composite structures, and this approach effectively reduces the risk of excessive stress and fracture. • The layered linear displacement assumption was incorporated into the topology optimization framework. • Interlaminar stress continuity was accounted during the optimization and computation process. • The transient stresses of self-sensing piezoelectric materials were aggregated using the nested p-norm method. • A discrete adjoint variable method is employed for sensitivity analysis of the objective and constraint functions.",
+        "citation_count": 0,
+        "method": "Numerical Simulation"
+      },
+      {
+        "id": "https://openalex.org/W7161254353",
+        "doi": "10.1016/j.ymssp.2026.114416",
+        "title": "In-plane perpendicular oscillation-driven friction modulation for backward motion suppression in stick–slip piezoelectric actuators",
+        "published": "2026-05-15",
+        "url": "https://doi.org/10.1016/j.ymssp.2026.114416",
+        "authors": [
+          "Yangkun Zhang",
+          "Chenggong Zhang",
+          "Yang Yang"
+        ],
+        "institutions": [
+          "Harbin Institute of Technology"
+        ],
+        "journal": "Mechanical Systems and Signal Processing",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      }
+    ],
+    "Measurement": [
+      {
+        "id": "https://openalex.org/W7161270999",
+        "doi": "10.1016/j.measurement.2026.121837",
+        "title": "Enhanced pipeline radial threat monitoring system with distributed acoustic sensing and multi-view information fusion",
+        "published": "2026-05-15",
+        "url": "https://doi.org/10.1016/j.measurement.2026.121837",
+        "authors": [
+          "Chengyuan Zhu",
+          "Yanyun Pu",
+          "Yiyuan Yang",
+          "Yan Ji",
+          "Ke Li",
+          "Xuguo Jiao"
+        ],
+        "institutions": [
+          "Zhejiang University",
+          "University of Oxford",
+          "Zhejiang Energy Research Institute",
+          "Zhejiang University of Science and Technology",
+          "Qingdao University of Technology"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7161117516",
+        "doi": "10.1016/j.measurement.2026.121882",
+        "title": "A novel FBG-based tension sensor with high resolution for clamping force evaluation in flexible endoscopic surgery",
+        "published": "2026-05-14",
+        "url": "https://doi.org/10.1016/j.measurement.2026.121882",
+        "authors": [
+          "Jinxiu Guo",
+          "Qiwen Yao",
+          "Kaitao Wang",
+          "Yuesheng Qu",
+          "Chengyu Zhang",
+          "Siyang Zuo"
+        ],
+        "institutions": [
+          "Ministry of Education"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7161132541",
+        "doi": "10.1016/j.measurement.2026.121891",
+        "title": "Physics-informed in situ predictive turbulence estimation using atmosphere–aircraft coupling features",
+        "published": "2026-05-14",
+        "url": "https://doi.org/10.1016/j.measurement.2026.121891",
+        "authors": [
+          "Zibo Zhuang",
+          "Yu Wang",
+          "Pak-wai Chan",
+          "Zhenyu Yu"
+        ],
+        "institutions": [
+          "Civil Aviation Administration of China",
+          "Civil Aviation University of China",
+          "Hong Kong Observatory"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7161123910",
+        "doi": "10.1016/j.measurement.2026.121888",
+        "title": "Turbulence excitation oriented impulse response generation method based on hybrid transformer generative model",
+        "published": "2026-05-14",
+        "url": "https://doi.org/10.1016/j.measurement.2026.121888",
+        "authors": [
+          "Zhengjie Li",
+          "Zhengjie Li",
+          "Xiping Kou",
+          "Zhiyuan Li",
+          "Zhiyuan Li",
+          "Kaichun Zeng",
+          "Hongtao Guo"
+        ],
+        "institutions": [
+          "Craft Group (China)"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      },
+      {
+        "id": "https://openalex.org/W7161152138",
+        "doi": "10.1016/j.measurement.2026.121857",
+        "title": "A high-sensitivity SPR sensor based on exposed-core grapefruit PCF for simultaneous RI and temperature measurement",
+        "published": "2026-05-14",
+        "url": "https://doi.org/10.1016/j.measurement.2026.121857",
+        "authors": [
+          "Yu Ying",
+          "Huabin Shen",
+          "Zhijun Gao"
+        ],
+        "institutions": [],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7161116023",
+        "doi": "10.1016/j.measurement.2026.121886",
+        "title": "Enhanced YOLOv8 enabled multi-event identification based on DAS and underwater optical cable",
+        "published": "2026-05-14",
+        "url": "https://doi.org/10.1016/j.measurement.2026.121886",
+        "authors": [
+          "Junjie Zhu",
+          "Bo Yu",
+          "Pengbai Xu",
+          "Hua Zheng",
+          "Kunhua Wen",
+          "Xinyong Dong",
+          "Jun Yang",
+          "Yuwen Qin"
+        ],
+        "institutions": [],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7161140729",
+        "doi": "10.1016/j.measurement.2026.121885",
+        "title": "High sensitivity all-fiber Mach-Zehnder interferometer respiratory sensing system for health detection in high-altitude areas",
+        "published": "2026-05-14",
+        "url": "https://doi.org/10.1016/j.measurement.2026.121885",
+        "authors": [
+          "Zhongwei Cao",
+          "Haojie Zhang",
+          "Wei Chundong",
+          "Weiqing Cheng",
+          "Zhiguo Zhang"
+        ],
+        "institutions": [],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7160932700",
+        "doi": "10.1016/j.measurement.2026.121859",
+        "title": "An interpretable and efficient framework for bearing fault diagnosis integrating heterogeneous ensemble and decision attribution",
+        "published": "2026-05-12",
+        "url": "https://doi.org/10.1016/j.measurement.2026.121859",
+        "authors": [
+          "Tianxin Qiu",
+          "Qingshan You",
+          "Huyan Jin",
+          "Zi Xu",
+          "Xinhao Wang"
+        ],
+        "institutions": [
+          "Civil Aviation Flight University of China"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7160957363",
+        "doi": "10.1016/j.measurement.2026.121804",
+        "title": "Monostatic RCS measurement from sparse near-field sampling based on reciprocity theorem",
+        "published": "2026-05-12",
+        "url": "https://doi.org/10.1016/j.measurement.2026.121804",
+        "authors": [
+          "Changyu Lou",
+          "Jingcheng Zhao",
+          "Zongkai Yang",
+          "Yang Yang",
+          "Jungang Miao",
+          "Tao Hong"
+        ],
+        "institutions": [],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7160942059",
+        "doi": "10.1016/j.measurement.2026.121873",
+        "title": "Systematic evaluation of spectral preprocessing and machine learning for near-infrared prediction of mechanical stability in complex colloidal systems",
+        "published": "2026-05-12",
+        "url": "https://doi.org/10.1016/j.measurement.2026.121873",
+        "authors": [
+          "Pisit Suttho",
+          "Kittisak Phetpan",
+          "Dimas Firmanda Al Riza",
+          "Chin Hong Lim",
+          "Pramote Kuson"
+        ],
+        "institutions": [],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      }
+    ],
+    "Engineering Structures": [
+      {
+        "id": "https://openalex.org/W7161292142",
+        "doi": "10.1016/j.engstruct.2026.122990",
+        "title": "Behavior of novel steel-encased beam-end (SEBE) joints for prefabricated prestressed RC braces under cyclic tension",
+        "published": "2026-05-16",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.122990",
+        "authors": [
+          "Xuanding Wang",
+          "Shuai Zhang",
+          "Kwok-fai Chung",
+          "Xiaohu Chen",
+          "Xuhong Zhou"
+        ],
+        "institutions": [
+          "Chongqing University",
+          "Hong Kong Polytechnic University",
+          "China Aluminum International Engineering Corporation Limited (China)"
+        ],
+        "journal": "Engineering Structures",
+        "abstract": "This study proposes a novel steel-encased beam-end (SEBE) K-shaped joint for connecting prefabricated prestressed reinforced concrete (PPRC) braces to concrete-filled steel tube (CFST) columns in a latticed double-column pier system. Focusing on the critical tensile behavior of this joint, an experimental program involving ten half-joint specimens was conducted. The tests investigated the effects of key parameters, including loading protocol, reinforcement ratio, joint configuration, the number of post-tensioned (PT) strands, prestressing level, grouting material, and connection type between the cover plate and the flange plate. Two distinct failure modes were identified: pull-out failure (PF) at the SEBE joint and tensile failure (TF) of the PPRC brace. Experimental results demonstrate that specimens achieving TF exhibited excellent hysteretic performance, stable energy dissipation, and minimal residual displacements throughout the tests. In contrast, PF led to severe strength and stiffness degradation in the later loading stage. The use of steel fiber-reinforced grout (SFRG) and enhanced confinement through plug welding between cover plates and flange plates were found to be effective in preventing PF. The force transfer mechanism within the joint was analyzed and discussed in detail, and a theoretical model for predicting the tensile capacities of the specimens was established, showing good agreement with experimental results. The findings confirm the feasibility and effectiveness of the proposed SEBE joint system for CFST double column-PPRC brace hybrid structures. • A steel-encased beam-end (SEBE) joint is proposed for rigid connection of prefabricated prestressed braces to CFST columns. • Ten cyclic tension tests identify two failure modes and verify the reliability of the SEBE joint. • Steel fiber-reinforced grout and plug-welded cover plates effectively prevent pull-out failure. • A theoretical model is established to predict tensile capacity, showing good agreement with tests.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      },
+      {
+        "id": "https://openalex.org/W7161394212",
+        "doi": "10.1016/j.engstruct.2026.123001",
+        "title": "Experimental research on out-of-plane ultimate strength of high-strength steel arches subjected to half-span vertical loading",
+        "published": "2026-05-16",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.123001",
+        "authors": [
+          "Zhenyu Pan",
+          "Airong Liu",
+          "Jialin Wang",
+          "Jie Yang"
+        ],
+        "institutions": [],
+        "journal": "Engineering Structures",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7161417020",
+        "doi": "10.1016/j.engstruct.2026.122996",
+        "title": "Reassessing eurocode’s lateral vibration criteria for railway bridges",
+        "published": "2026-05-16",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.122996",
+        "authors": [
+          "M.A. Peixer",
+          "G. Ferreira",
+          "A.T. Martins",
+          "J. Goicolea",
+          "D. Varga",
+          "D. Villalmanzo",
+          "P.A. Montenegro"
+        ],
+        "institutions": [],
+        "journal": "Engineering Structures",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7161398859",
+        "doi": "10.1016/j.engstruct.2026.122979",
+        "title": "Moment hinge model for composite beam-column connections under sagging and hogging conditions for progressive collapse analysis",
+        "published": "2026-05-16",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.122979",
+        "authors": [
+          "Haokun Liu",
+          "Shan Li",
+          "J.Y. Richard Liew"
+        ],
+        "institutions": [
+          "National University of Singapore"
+        ],
+        "journal": "Engineering Structures",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7161423412",
+        "doi": "10.1016/j.engstruct.2026.122992",
+        "title": "Flexural behavior of coarse aggregate-UHPC bridge slabs: A combined phase analysis and layered strength model approach",
+        "published": "2026-05-16",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.122992",
+        "authors": [
+          "Qizhi Xu",
+          "Shimin Ding",
+          "Yan Tang",
+          "Jingquan Wang",
+          "Hui Rong",
+          "Yiming Yao"
+        ],
+        "institutions": [],
+        "journal": "Engineering Structures",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7161276261",
+        "doi": "10.1016/j.engstruct.2026.122943",
+        "title": "Mechanistic-data-driven prediction of axial compression behavior of circular concrete-filled steel tube at different ages after freeze-thaw cycles",
+        "published": "2026-05-15",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.122943",
+        "authors": [
+          "Shan Gao",
+          "Qingkai Zeng",
+          "Sumei Zhang",
+          "Jie Yang",
+          "Guoyong Cui"
+        ],
+        "institutions": [],
+        "journal": "Engineering Structures",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7161240527",
+        "doi": "10.1016/j.engstruct.2026.122995",
+        "title": "Dynamic fatigue life prediction of ballastless track under high-frequency train vibrational loads",
+        "published": "2026-05-15",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.122995",
+        "authors": [
+          "Zui Chen",
+          "Xueyi Liu",
+          "X L Wang",
+          "Rongshan Yang",
+          "Jieling Xiao",
+          "Huaibao Chu"
+        ],
+        "institutions": [
+          "Henan Polytechnic University",
+          "Taizhou University",
+          "Southwest Jiaotong University",
+          "Tongji University"
+        ],
+        "journal": "Engineering Structures",
+        "abstract": "The fatigue life of ballastless track is a critical measure of its long-term structural durability under repeated train loading. However, existing quasi-static fatigue evaluation methods fail to adequately capture the influence of complex, multi-frequency vibrations induced by high-speed train operations, especially the random vibration components generated by track irregularities, on fatigue damage. This paper proposes a dynamic fatigue damage evaluation method that integrates the characteristic vibration loading modes of high-speed railway tracks with the nonlinear evolution of concrete fatigue damage. Specifically, the proposed method modifies both the fatigue damage accumulation criterion and the traditional fatigue life equation by incorporating the frequency-dependent behavior of concrete, with model parameters calibrated through acoustic-emission-based fatigue tests. To demonstrate the applicability of the proposed approach, a case study on the CRTS II slab track is conducted, in which the dynamic stress responses under train moving excitation and track irregularity excitation are analyzed through equivalent treatment of dynamic stress amplitudes and frequencies using the power spectral density method. The results reveal that train-induced moving excitation has a negligible influence on fatigue damage, as its acting frequency nearly coincides with the wheel-passing frequency. In contrast, track irregularity excitation significantly accelerates the damage evolution, reducing the fatigue life of the track slab from 174 years to 119 years at the critical fatigue damage state when the train speed is 350 km/h, corresponding to an equivalent fatigue load approximately 3.6 times the static wheel load. • A dynamic fatigue framework is developed for ballastless tracks. • A spectral-density method yields representative amplitude and frequency features. • Frequency-dependent and nonlinear damage are modified to capture concrete fatigue. • Track irregularity reduces fatigue life by 40% and raises load to 3.6 times.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7161266840",
+        "doi": "10.1016/j.engstruct.2026.122874",
+        "title": "Shear behavior and strength prediction model of prestressed slag-based geopolymer concrete beams",
+        "published": "2026-05-15",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.122874",
+        "authors": [
+          "Guoxu Zhao",
+          "Gao Ma",
+          "Hyeon-Jong Hwang",
+          "Caijun Shi",
+          "Yunxing Du"
+        ],
+        "institutions": [],
+        "journal": "Engineering Structures",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7161287304",
+        "doi": "10.1016/j.engstruct.2026.122985",
+        "title": "Cyclic loading performance of a novel self-centering brace with enhanced deformation capacity based on sliding prestressing-tendon anchorage",
+        "published": "2026-05-15",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.122985",
+        "authors": [
+          "Qiyang Tan",
+          "Yuan Li",
+          "Zhen Tian",
+          "Guoxi Fan",
+          "Xiaozhe Su",
+          "Jinping Li"
+        ],
+        "institutions": [],
+        "journal": "Engineering Structures",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7161325429",
+        "doi": "10.1016/j.engstruct.2026.122994",
+        "title": "A spatiotemporal displacement prediction model for concrete arch dams based on interpretable dynamic graph networks",
+        "published": "2026-05-15",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.122994",
+        "authors": [
+          "Xinhang Liu",
+          "Dongjian Zheng",
+          "Shi Zhang",
+          "Yijun Chen"
+        ],
+        "institutions": [
+          "Hohai University",
+          "Columbia University"
+        ],
+        "journal": "Engineering Structures",
+        "abstract": "Deformation represents the most direct indicator of an arch dam's operational state. However, existing multi-point deformation prediction models struggle to accurately characterize the time-varying interdependencies among monitoring points and remain limited in both spatio-temporal feature extraction and model interpretability. To address these gaps, this study develops a refined dynamic relational framework from two complementary perspectives: the heterogeneous environmental-load–driven responses of individual monitoring points, and the nonlinear coupling among their deformation behaviors. Building on this foundation, we formulate a Joint Spatio-Temporal Diffusion Block (JST-Block) to synchronously capture multi-scale spatio-temporal correlations. Furthermore, an integrated interpretability module is introduced to provide quantitative attributions from three hierarchical levels: input features, edge-level dependencies, and global dynamic graph structures, thereby elucidating the intrinsic mechanisms linking environmental loads, structural responses, and deformation prediction. • A physical-informed dynamic graph framework integrates causal responses and dynamic coupling. • A Joint Spatiotemporal Diffusion Block (JST-Block) captures multi-order spatial diffusion and temporal evolution within a unified layer. • Multi-level interpretability quantifies feature contributions, edge sensitivity, and graph-topology evolution. • The model outperforms traditional ML, DL, and GNN baselines in multi-point displacement prediction. • A distressed high arch dam case shows strong generalization and physically consistent interpretations.",
+        "citation_count": 0,
+        "method": "Analytical / Theoretical"
+      }
+    ],
+    "Ultrasonics": [
+      {
+        "id": "https://openalex.org/W7161271937",
+        "doi": "10.1016/j.ultras.2026.108148",
+        "title": "Wavefield-Aware quality control and shear wave speed estimation in ocular Vibro-Elastography",
+        "published": "2026-05-15",
+        "url": "https://doi.org/10.1016/j.ultras.2026.108148",
+        "authors": [
+          "Ngọc Thắng Bùi",
+          "Lauren A. Dalvin",
+          "Xiaoming Zhang"
+        ],
+        "institutions": [
+          "Mayo Clinic in Arizona"
+        ],
+        "journal": "Ultrasonics",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7161402659",
+        "doi": "10.1016/j.ultras.2026.108145",
+        "title": "Integrated ultrasonic and acoustic emission techniques for spatiotemporal damage analysis in concrete",
+        "published": "2026-05-01",
+        "url": "https://doi.org/10.1016/j.ultras.2026.108145",
+        "authors": [
+          "Anna Maria Skłodowska",
+          "Ernst Niederleithinger",
+          "Parisa Shokouhi"
+        ],
+        "institutions": [],
+        "journal": "Ultrasonics",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7161307343",
+        "doi": "10.1016/j.ultras.2026.108147",
+        "title": "Stress and strain determination during piezoelectric resonance using digital image correlation",
+        "published": "2026-05-01",
+        "url": "https://doi.org/10.1016/j.ultras.2026.108147",
+        "authors": [
+          "Lovro Fulanović",
+          "Hendrik Pulju",
+          "Jurij Koruza"
+        ],
+        "institutions": [],
+        "journal": "Ultrasonics",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7161286324",
+        "doi": "10.1016/j.ultras.2026.108151",
+        "title": "Real-time prediction of viscoelastic properties in composite curing using guided waves and multi-task deep learning",
+        "published": "2026-05-01",
+        "url": "https://doi.org/10.1016/j.ultras.2026.108151",
+        "authors": [
+          "Yinghong Yu",
+          "Tianyu Li",
+          "Chuang Xu",
+          "Zhiwang Zhang",
+          "Lihuang Li"
+        ],
+        "institutions": [
+          "Fuzhou University",
+          "Tan Kah Kee Innovation Laboratory"
+        ],
+        "journal": "Ultrasonics",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Machine Learning"
+      },
+      {
+        "id": "https://openalex.org/W7161299900",
+        "doi": "10.1016/j.ultras.2026.108150",
+        "title": "Acoustics-catalyzed e-tongues for high-performance detection and identification of sweat metabolites",
+        "published": "2026-05-01",
+        "url": "https://doi.org/10.1016/j.ultras.2026.108150",
+        "authors": [
+          "Huiyu Huang",
+          "Jia Yin",
+          "Quanquan Yang",
+          "Shuo Zhang",
+          "Zhong Chen",
+          "Yuyang Lin",
+          "Qiang Tang",
+          "Xiaomin Qi",
+          "Songfei Su",
+          "Jinyan Chen"
+        ],
+        "institutions": [],
+        "journal": "Ultrasonics",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      }
+    ],
+    "Tunnelling and Underground Space Technology": [],
+    "Rock Mechanics and Rock Engineering": []
+  }
+}
