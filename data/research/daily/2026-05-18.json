@@ -1,0 +1,408 @@
+{
+  "date": "2026-05-18",
+  "journals": {
+    "Automation in Construction": [
+      {
+        "id": "https://openalex.org/W7161477463",
+        "doi": "10.1016/j.autcon.2026.107025",
+        "title": "Active gravity-aligned reference Axis for high-precision verticality assessment in construction",
+        "published": "2026-05-17",
+        "url": "https://doi.org/10.1016/j.autcon.2026.107025",
+        "authors": [
+          "Jonghoon Kim",
+          "HyoJae Kang",
+          "Ingyu Choi",
+          "SunWoo Ahn",
+          "GeonYeong Go",
+          "Min-Sung Kang",
+          "Sanghyo Lee"
+        ],
+        "institutions": [
+          "Hanyang University",
+          "Anyang University"
+        ],
+        "journal": "Automation in Construction",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7161483067",
+        "doi": "10.1016/j.autcon.2026.107032",
+        "title": "Artificial intelligence in masonry engineering: Comprehensive review of design, analysis, and maintenance applications",
+        "published": "2026-05-17",
+        "url": "https://doi.org/10.1016/j.autcon.2026.107032",
+        "authors": [
+          "Jordan McAlister",
+          "Tatheer Zahra"
+        ],
+        "institutions": [
+          "Queensland University of Technology"
+        ],
+        "journal": "Automation in Construction",
+        "abstract": "Masonry is one of the most widely used construction systems worldwide, but its heterogeneity, anisotropy, and nonlinear behaviour continue to challenge conventional design, assessment, and maintenance approaches. Recent advances in artificial intelligence (AI) and machine learning (ML) offer powerful data-driven tools to address these challenges. This paper presents a critical review of AI and ML applications in masonry engineering, synthesising research across material, element, and structural scales, with emphasis on studies published between 2023 and 2025. The literature is organised into four domains: prediction of masonry behaviour, AI-assisted structural assessment, AI-enabled structural health monitoring, and AI for design and optimisation. Findings show that supervised and ensemble models achieve high accuracy in predicting mechanical properties and capturing nonlinear interactions beyond empirical formulations. Hybrid AI–physics frameworks support seismic vulnerability assessment, digital twins, and rapid evaluation of existing and heritage masonry structures. Advances in computer vision enable scalable, non-destructive monitoring, while optimisation and generative AI improve performance, cost, and sustainability trade-offs. Persistent challenges include data quality, model generalisability, validation, and standardisation. The review concludes that AI should augment, not replace, engineering judgement and provides a roadmap for responsible adoption. • Comprehensive review of AI/ML applications in masonry engineering. • Four key domains are identified: strength prediction, structural modelling, SHM, design optimisation. • AI models outperform empirical and FE methods in masonry behaviour prediction. • Deep learning and computer vision for automated crack, spalling, condition assessment. • Hybrid AI–traditional workflow, future needs in standardisation and validation.",
+        "citation_count": 0,
+        "method": "Review / Survey"
+      }
+    ],
+    "Mechanical Systems and Signal Processing": [
+      {
+        "id": "https://openalex.org/W7161475208",
+        "doi": "10.1016/j.ymssp.2026.114421",
+        "title": "A novel frictional contact correction transfer matrix method for bolted vibration systems: modeling, simulation, and experimental validation",
+        "published": "2026-05-18",
+        "url": "https://doi.org/10.1016/j.ymssp.2026.114421",
+        "authors": [
+          "XIn Wang",
+          "liang wang",
+          "Haoren Feng",
+          "Junzhe Gao"
+        ],
+        "institutions": [],
+        "journal": "Mechanical Systems and Signal Processing",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      },
+      {
+        "id": "https://openalex.org/W7161500322",
+        "doi": "10.1016/j.ymssp.2026.114407",
+        "title": "Measuring full-field vibration and dynamic deformation using single time-gated camera stereo-digital image correlation",
+        "published": "2026-05-17",
+        "url": "https://doi.org/10.1016/j.ymssp.2026.114407",
+        "authors": [
+          "Letian Zhao",
+          "Liping Yu",
+          "Bing Pan"
+        ],
+        "institutions": [],
+        "journal": "Mechanical Systems and Signal Processing",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7161495197",
+        "doi": "10.1016/j.ymssp.2026.114430",
+        "title": "A hybrid active–passive control strategy of zero-stiffness vibration isolation integrated with energy harvesting",
+        "published": "2026-05-17",
+        "url": "https://doi.org/10.1016/j.ymssp.2026.114430",
+        "authors": [
+          "Gang Li",
+          "Chen Wang",
+          "Hong-Fei Chai",
+          "Hua-Feng Zhang",
+          "Hai-Xu Wang",
+          "Siu-Kai Lai"
+        ],
+        "institutions": [],
+        "journal": "Mechanical Systems and Signal Processing",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7161495688",
+        "doi": "10.1016/j.ymssp.2026.114449",
+        "title": "Towards trustworthy milling chatter detection via physics-assisted feature extraction and stacking-based decision-level fusion",
+        "published": "2026-05-17",
+        "url": "https://doi.org/10.1016/j.ymssp.2026.114449",
+        "authors": [
+          "Liangshi Sun",
+          "Xianzhen Huang",
+          "Yongchao Zhang",
+          "Liye Tang",
+          "XU WANG",
+          "Chengying Zhao"
+        ],
+        "institutions": [],
+        "journal": "Mechanical Systems and Signal Processing",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      }
+    ],
+    "Measurement": [
+      {
+        "id": "https://openalex.org/W7161265910",
+        "doi": "10.1016/j.measurement.2026.121892",
+        "title": "Digital twin-based multi-parameter cooperative assembly for thermal protection systems",
+        "published": "2026-05-16",
+        "url": "https://doi.org/10.1016/j.measurement.2026.121892",
+        "authors": [
+          "Tailong Caoa",
+          "Xiang Huang",
+          "Shuanggao Li",
+          "Guoyi Hou",
+          "Jiaming Shi"
+        ],
+        "institutions": [
+          "Nanjing University of Aeronautics and Astronautics"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7161413829",
+        "doi": "10.1016/j.measurement.2026.121928",
+        "title": "Evaluating the selection process for optical sensor system configurations used in surface metrology applications",
+        "published": "2026-05-16",
+        "url": "https://doi.org/10.1016/j.measurement.2026.121928",
+        "authors": [
+          "Alexandr M. Sokolov",
+          "Travis Simpson",
+          "Ifaz Ahmed"
+        ],
+        "institutions": [],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7161417252",
+        "doi": "10.1016/j.measurement.2026.121927",
+        "title": "Robust quantum thermometry in liquid environments using contactless fiber-coupled nitrogen-vacancy centers in diamond",
+        "published": "2026-05-16",
+        "url": "https://doi.org/10.1016/j.measurement.2026.121927",
+        "authors": [
+          "Yan Wang",
+          "Xu Wang",
+          "Qi-Long Wu",
+          "Kai Xu",
+          "Yu-Hao Hu",
+          "Jin-Lei Wu",
+          "Haiyan Wang",
+          "Yuan Zhang",
+          "Liying Jiang"
+        ],
+        "institutions": [],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7161350599",
+        "doi": "10.1016/j.measurement.2026.121912",
+        "title": "Fiber optic interferometric micro displacement sensor with balanced sensitivity and detection range",
+        "published": "2026-05-15",
+        "url": "https://doi.org/10.1016/j.measurement.2026.121912",
+        "authors": [
+          "Yong Wei",
+          "Jing Yang",
+          "Chunlan Liu",
+          "Songquan Li",
+          "Qian Yang",
+          "Zhihai Liu"
+        ],
+        "institutions": [
+          "Chongqing Three Gorges University",
+          "Harbin Engineering University"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7161282759",
+        "doi": "10.1016/j.measurement.2026.121914",
+        "title": "TAR-Diff: mask-conditioned diffusion with topology-weighted refinement for chip defect augmentation",
+        "published": "2026-05-15",
+        "url": "https://doi.org/10.1016/j.measurement.2026.121914",
+        "authors": [
+          "Ziqi Lv",
+          "Jinan Gu",
+          "Tao Xiong",
+          "Qiuyue Yang",
+          "J. Huang",
+          "Jing Li",
+          "Tian Pan"
+        ],
+        "institutions": [],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7161173332",
+        "doi": "10.1016/j.measurement.2026.121570",
+        "title": "Automated detection and evaluation of internal stress in large sapphire crystals via conoscopic interference imaging and DynaDet-Net",
+        "published": "2026-05-14",
+        "url": "https://doi.org/10.1016/j.measurement.2026.121570",
+        "authors": [
+          "Jixiang Zhao",
+          "Sen Kang",
+          "Tianhu Shi",
+          "Weitong Xu",
+          "Xin Liu",
+          "Xiaoyu Chen",
+          "Dong Pan",
+          "Jianqiao Meng",
+          "Yuxia Duan"
+        ],
+        "institutions": [],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7160897682",
+        "doi": "10.1016/j.measurement.2026.121870",
+        "title": "Dynamic identification method of in-situ non-contact excitation force based on reaction force measurement",
+        "published": "2026-05-12",
+        "url": "https://doi.org/10.1016/j.measurement.2026.121870",
+        "authors": [
+          "Lingbo Zhou",
+          "Yudong Sun",
+          "Yong Duan"
+        ],
+        "institutions": [
+          "Wuhan Ship Development & Design Institute",
+          "Wuxi Taihu Hospital"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7160844543",
+        "doi": "10.1016/j.measurement.2026.121849",
+        "title": "Airborne fixed-point aeromagnetic compensation for fluxgate based full magnetic tensor detection system at low-altitude",
+        "published": "2026-05-12",
+        "url": "https://doi.org/10.1016/j.measurement.2026.121849",
+        "authors": [
+          "Yu Shi",
+          "Leixiang Bian",
+          "Lishuang Yao",
+          "Wenyu Li",
+          "Kai Hu",
+          "Zijun Huang",
+          "Jie Huang",
+          "Haotian Shi",
+          "Zhihong Zhuang"
+        ],
+        "institutions": [
+          "Nanjing University of Science and Technology"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7160963209",
+        "doi": "10.1016/j.measurement.2026.121875",
+        "title": "A comprehensive evaluation of an inertial sensor for High-Intensity shocks and vibration analysis in a real tennis context",
+        "published": "2026-05-12",
+        "url": "https://doi.org/10.1016/j.measurement.2026.121875",
+        "authors": [
+          "Lucio Caprioli",
+          "Arthur Paté",
+          "Elvira Padua",
+          "Giuseppe Annino",
+          "Vincenzo Bonaiuto",
+          "Delphine Chadefaux"
+        ],
+        "institutions": [],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7160843960",
+        "doi": "10.1016/j.measurement.2026.121850",
+        "title": "Rapid identification of pathogenic bacteria based on Raman spectroscopy and chemometrics",
+        "published": "2026-05-12",
+        "url": "https://doi.org/10.1016/j.measurement.2026.121850",
+        "authors": [
+          "Pan Mao",
+          "Liu Zhang",
+          "Xin Yu Li"
+        ],
+        "institutions": [
+          "Hunan Provincial People's Hospital",
+          "China Agricultural University"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      }
+    ],
+    "Engineering Structures": [
+      {
+        "id": "https://openalex.org/W7161481085",
+        "doi": "10.1016/j.engstruct.2026.122926",
+        "title": "Study on the cyclic performance of WAAM austenitic stainless steel shear panels",
+        "published": "2026-05-17",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.122926",
+        "authors": [
+          "Baofeng Zheng",
+          "Siyuan Su",
+          "Sibo Zhang",
+          "Zhanpeng Chen",
+          "Dianhan Wu",
+          "Ganping Shu"
+        ],
+        "institutions": [],
+        "journal": "Engineering Structures",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7161487929",
+        "doi": "10.1016/j.engstruct.2026.122997",
+        "title": "Analytical evaluation of cable corrosion effects on the residual prestressing coactive state in post-tensioned concrete elements",
+        "published": "2026-05-17",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.122997",
+        "authors": [
+          "Emma Ghini",
+          "Matteo Marra",
+          "Giada Gasparini",
+          "Stefano Silvestri"
+        ],
+        "institutions": [
+          "University of Bologna"
+        ],
+        "journal": "Engineering Structures",
+        "abstract": "The paper provides an original analytical evaluation of the effects of cable corrosion on the prestressing coactive state in post-tensioned concrete elements (namely, beams and stays in prestressed bridges), in which steel cables are made adherent through subsequent cast-in-situ grouting. The corrosion is assumed to be homogeneously distributed over a finite portion of the sheathing duct characterized by lack of mortar injection, and modeled as a uniform cross-section loss. The study analytically demonstrates that the reduction of the cross-sectional area of the prestressing steel cables due to corrosion generates both (I) a loss of the prestressing force and (II) a stress redistribution within the residual cross-sectional area of the cables, which are limited to the zone lacking grouting. Ready-to-use closed-form mathematical expressions for these two effects are derived allowing direct quantification of the corrosion-induced variation of the prestressing state, for the two cases of concentric and eccentric tendons, and validated against experimental results available in the scientific literature. A numerical application to three typical existing bridge elements is also provided. The fundamental result is that the loss of the prestressing force is approximately equal to the cross-section loss, while the stress redistribution is comparatively small, providing a cable stress increase below 5% for bridge decks and below 25% for stays, even for highly corroded cables. • Original analytical model assesses corrosion effects in post-tensioned elements. • Corrosion is modeled as uniform steel loss in ungrouted duct sections. • Closed-form solutions quantify prestressing force loss and stress redistribution. • Models developed for both concentric and eccentric tendon configurations. • Prestress loss roughly equal to cross-section loss; dominates over stress increase.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      },
+      {
+        "id": "https://openalex.org/W7161300952",
+        "doi": "10.1016/j.engstruct.2026.122869",
+        "title": "Stiffness matrix sensitivity approach for efficient computations of slender structure large deformations",
+        "published": "2026-05-15",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.122869",
+        "authors": [
+          "L. Martins",
+          "A. Cavallini",
+          "V. Steffen",
+          "M. Kapitaniak",
+          "M. Wiercigroch"
+        ],
+        "institutions": [
+          "Universidade Federal de Uberlândia",
+          "University of Aberdeen"
+        ],
+        "journal": "Engineering Structures",
+        "abstract": "Slender structures are widely encountered in engineering applications and often exhibit strongly nonlinear responses when subjected to large deformations involving bending, torsion, axial stretching and shear effects. Accurate numerical modelling of such behaviour typically requires fully nonlinear finite element formulations, which may lead to high computational cost when applied to complex structural systems. This paper proposes a simple stiffness matrix sensitivity approach to identify the most influential nonlinear contributions within the beam element formulation. By analysing the sensitivity of individual nonlinear stiffness matrix terms, the method enables the systematic identification of dominant nonlinear components and the construction of reduced yet physically consistent beam models tailored to specific loading scenarios. The proposed framework is applied to several representative problems involving large deformations of slender structures, demonstrating that only a subset of nonlinear stiffness contributions may be required to accurately capture the dominant structural response. This provides a systematic strategy for selecting relevant nonlinear terms for different classes of slender-structure problems while maintaining modelling accuracy. • A nonlinear beam methodology was using a custom FE formulation to capture nonlinear couplings. • We explain how nonlinear stiffness terms are developed using a sensitivity methodology. • Our FE model was validated against ABAQUS results, especially through torsional buckling comparisons. • Key nonlinear terms were identified for various loading scenarios for computationally efficient models. • The methodology offers significant computational time savings for slender structures.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      }
+    ],
+    "Ultrasonics": [],
+    "Tunnelling and Underground Space Technology": [],
+    "Rock Mechanics and Rock Engineering": []
+  }
+}
