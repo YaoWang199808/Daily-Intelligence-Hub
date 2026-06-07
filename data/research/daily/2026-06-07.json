@@ -1,0 +1,562 @@
+{
+  "date": "2026-06-07",
+  "journals": {
+    "Automation in Construction": [],
+    "Mechanical Systems and Signal Processing": [
+      {
+        "id": "https://openalex.org/W7163747061",
+        "doi": "10.1016/j.ymssp.2026.114484",
+        "title": "Chatter suppression in robotic milling of thin-walled workpieces using horseshoe lattice-based acoustic metamaterials",
+        "published": "2026-06-06",
+        "url": "https://doi.org/10.1016/j.ymssp.2026.114484",
+        "authors": [
+          "Bin Yang",
+          "Kai Guo",
+          "Weirui Gao",
+          "Jie Sun",
+          "Youming Zhang",
+          "Zhaoping Tang"
+        ],
+        "institutions": [],
+        "journal": "Mechanical Systems and Signal Processing",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7163745932",
+        "doi": "10.1016/j.ymssp.2026.114517",
+        "title": "Resonator-based mass density identification in nanoplates",
+        "published": "2026-06-06",
+        "url": "https://doi.org/10.1016/j.ymssp.2026.114517",
+        "authors": [
+          "Michele Dilena",
+          "Alexandre Kawano",
+          "Antonino Morassi"
+        ],
+        "institutions": [],
+        "journal": "Mechanical Systems and Signal Processing",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7163757410",
+        "doi": "10.1016/j.ymssp.2026.114527",
+        "title": "A physics-guided evolutionary digital twin for progressive fault diagnosis in T0 neutron choppers",
+        "published": "2026-06-06",
+        "url": "https://doi.org/10.1016/j.ymssp.2026.114527",
+        "authors": [
+          "Jiapeng Wu",
+          "Shixi Cai",
+          "Yunwei Huang",
+          "Weiliang Cai",
+          "Fernando Sancho",
+          "Chuan Li",
+          "Jianyu Long"
+        ],
+        "institutions": [
+          "Dongguan University of Technology",
+          "Chinese Academy of Sciences",
+          "China Spallation Neutron Source",
+          "Institute of High Energy Physics",
+          "Universidad de Sevilla"
+        ],
+        "journal": "Mechanical Systems and Signal Processing",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7163742963",
+        "doi": "10.1016/j.ymssp.2026.114480",
+        "title": "Development and testing of a novel multi-dimensional force sensing intelligent toolholder for milling process monitoring",
+        "published": "2026-06-06",
+        "url": "https://doi.org/10.1016/j.ymssp.2026.114480",
+        "authors": [
+          "Mingjian Sun",
+          "Kai Guo",
+          "Bin Yang",
+          "Congfeng Tian",
+          "Xiaoming Huang",
+          "Jie Sun"
+        ],
+        "institutions": [
+          "Shandong University",
+          "Jiujiang University",
+          "Shantui (China)",
+          "Binzhou University"
+        ],
+        "journal": "Mechanical Systems and Signal Processing",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W4417253784",
+        "doi": "10.1016/j.ymssp.2026.114514",
+        "title": "Sensor fusion for track geometry monitoring: integrating on-board condition monitoring and degradation models via Kalman filtering",
+        "published": "2026-06-05",
+        "url": "https://doi.org/10.1016/j.ymssp.2026.114514",
+        "authors": [
+          "Huy Truong‐Ba",
+          "Zhan Yie Chin",
+          "Michael E. Cholette",
+          "Pietro Borghesani"
+        ],
+        "institutions": [
+          "Queensland University of Technology",
+          "UNSW Sydney"
+        ],
+        "journal": "Mechanical Systems and Signal Processing",
+        "abstract": "Track geometry monitoring is essential for maintaining the safety and efficiency of railway operations. While Track Recording Cars (TRCs) provide accurate measurements of track geometry indicators, their limited availability and high operational costs restrict frequent monitoring across large rail networks. Recent advancements in on-board sensor systems installed on in-service trains offer a cost-effective alternative by enabling high-frequency, albeit less accurate, data collection. This study proposes a method to enhance the reliability of track geometry predictions by integrating low-accuracy sensor vibration signals with degradation models through a Kalman filter framework. An experimental campaign using a low-cost sensor system mounted on a TRC evaluates the proposed approach. The results demonstrate that incorporating frequent sensor data significantly reduces prediction uncertainty, even when the data is noisy. The study also investigates how the frequency of data recording influences the size of the credible prediction interval, providing guidance on the optimal deployment of on-board sensors for effective track monitoring and maintenance planning.",
+        "citation_count": 0,
+        "method": "Experimental"
+      }
+    ],
+    "Measurement": [
+      {
+        "id": "https://openalex.org/W7163683522",
+        "doi": "10.1016/j.measurement.2026.122096",
+        "title": "IRIS: Automated mobile microscope instrument for white blood cell classification",
+        "published": "2026-06-05",
+        "url": "https://doi.org/10.1016/j.measurement.2026.122096",
+        "authors": [
+          "Rajesh Kumar",
+          "Abhay Bagla",
+          "Aditya Dixit",
+          "Adit Srivastava",
+          "Puneet Gupta",
+          "Vivek Gupta",
+          "Jatin Kharbanda"
+        ],
+        "institutions": [
+          "Indian Institute of Technology Indore",
+          "Thapar Institute of Engineering & Technology",
+          "Punjabi University"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7163772190",
+        "doi": "10.1016/j.measurement.2026.122080",
+        "title": "All-optical low-field magnetometry of superconductors using NV nanodiamonds",
+        "published": "2026-06-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.122080",
+        "authors": [
+          "Omkar Dhungel",
+          "Saravanan Sengottuvel",
+          "Mariusz Mrózek",
+          "T. Lenz",
+          "Nir Bar‐Gill",
+          "Adam M. Wojciechowski",
+          "Arne Wickenbrock",
+          "Dmitry Budker"
+        ],
+        "institutions": [],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7163736100",
+        "doi": "10.1016/j.measurement.2026.122173",
+        "title": "Calibration method of receiver-transmitter time delay of LEO navigation satellite for precise positioning augmentation",
+        "published": "2026-06-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.122173",
+        "authors": [
+          "Zhuo Lei",
+          "Min Li",
+          "Qiangwen Yang",
+          "Weiwei Li",
+          "Qile Zhao",
+          "Chuntao Chang",
+          "Baozong Ning"
+        ],
+        "institutions": [
+          "Wuhan University",
+          "Beijing Satellite Navigation Center"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7163748274",
+        "doi": "10.1016/j.measurement.2026.122111",
+        "title": "Robotic multi-view metrology for high-precision 3D Reconstruction of complex workpieces",
+        "published": "2026-06-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.122111",
+        "authors": [
+          "Qingxin Li",
+          "Peng Zeng",
+          "Zhining Wang",
+          "Zijing Zhang"
+        ],
+        "institutions": [
+          "Shenyang Institute of Automation",
+          "University of Chinese Academy of Sciences",
+          "University of Science and Technology of China"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7163736480",
+        "doi": "10.1016/j.measurement.2026.122182",
+        "title": "The multi-line structured light three-dimensional measurement system based on dual diffraction gratings",
+        "published": "2026-06-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.122182",
+        "authors": [
+          "Yao Wang",
+          "Menghan Ji",
+          "Yuchen Han",
+          "Bin Lin",
+          "Zhebo Chen"
+        ],
+        "institutions": [],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7163751123",
+        "doi": "10.1016/j.measurement.2026.122027",
+        "title": "Corrigendum to “Multi-level spatial-temporal disaggregation-based multi-modal fusion for corrosion-induced localized degradation assessment of magnesium alloy” [Measurement 278 (2026) 121323]",
+        "published": "2026-06-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.122027",
+        "authors": [
+          "Xuxue Sun",
+          "Hao Zeng",
+          "Wujun Si",
+          "Wenjun Cai",
+          "Ying Li (38224)",
+          "Mingyang Li (516280)"
+        ],
+        "institutions": [],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7163744955",
+        "doi": "10.1016/j.measurement.2026.122178",
+        "title": "Development of novel methodology for electrochemical migration evaluation: high humidity condensation test",
+        "published": "2026-06-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.122178",
+        "authors": [
+          "Markéta Klimtová",
+          "Petr Veselý",
+          "Denis Froš",
+          "Iva Králová",
+          "Karel Dušek"
+        ],
+        "institutions": [
+          "Czech Technical University in Prague"
+        ],
+        "journal": "Measurement",
+        "abstract": "Electrochemical migration (ECM) represents an eminent reliability issue in electronic devices. However, standard evaluation methods are either time-consuming and require costly equipment or neglect essential phases, such as moisture condensation. Therefore, this paper introduces a novel testing method, the high-humidity condensation test (HHCT), as an advanced, reproducible measurement methodology for ECM evaluation. As with standard methods, the physical quantity measured is time-to-failure (TTF). The failure metric is a sudden surge in in-situ monitored electrical current between the DC-biased electrodes on the printed circuit board (PCB). The HHCT is realised in a sealed container with heated distilled water. This creates a moisture-saturated environment, accelerating condensation and ECM onset. The prototype used in this work was also equipped with a specialised holder, enabling ECM testing on inclined surfaces to better reflect real conditions. The results reveal that the HHCT demonstrates high consistency with the established water drop test (WDT) regarding the dependency of TTF on voltage and contamination. The mean TTFs were longer than those recorded in the WDT; nevertheless, the HHCT yielded results within several minutes to two hours. Furthermore, the HHCT established a clear correlation between TTF and the PCB inclination. Methodological robustness, repeatability, and measurement certainty are ensured by utilising strict run-to-run environmental controls, identical sample sizes, and standardised electrical failure criteria, supported by in-situ optical monitoring of dendrite growth. By transitioning from open bulk water to a stable condensation environment, the proposed configuration advances ECM evaluation from an empirical WDT to a quantifiable measurement methodology.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7163741611",
+        "doi": "10.1016/j.measurement.2026.122137",
+        "title": "Blind all-digital calibration of the second-order timing skew in TIADCs",
+        "published": "2026-06-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.122137",
+        "authors": [
+          "Yuqing Liu",
+          "Yu Peng",
+          "Hao Sun",
+          "Liansheng Liu"
+        ],
+        "institutions": [],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7163037612",
+        "doi": "10.1016/j.measurement.2026.122039",
+        "title": "AC-driven temperature measurement of vapor cell in a compact atomic magnetometer with suppressed thermometry-induced magnetic interference",
+        "published": "2026-06-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.122039",
+        "authors": [
+          "Zhendong Wu",
+          "Di Wu",
+          "Tengyue Long",
+          "Le Jia",
+          "Wenhao Guan",
+          "Jing Zhang",
+          "Zi Wang",
+          "Xusheng Lei",
+          "Xinda Song"
+        ],
+        "institutions": [
+          "Beihang University",
+          "Hefei University"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7163509054",
+        "doi": "10.1016/j.measurement.2026.122097",
+        "title": "High-speed and high-precision flatness detection of steel sheets and strips using an iterative Bézier-based compensation model",
+        "published": "2026-06-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.122097",
+        "authors": [
+          "Yibing Fan",
+          "Dong Xu",
+          "Xiaochen Wang",
+          "Hainan He",
+          "Quan Yang"
+        ],
+        "institutions": [
+          "University of Science and Technology Beijing"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      }
+    ],
+    "Engineering Structures": [
+      {
+        "id": "https://openalex.org/W7163738711",
+        "doi": "10.1016/j.engstruct.2026.123098",
+        "title": "Flexural bandgap of a metaplate carrying zigzag beam-mass systems",
+        "published": "2026-06-06",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.123098",
+        "authors": [
+          "Jung-San Chen",
+          "Jie-Sheng Zheng",
+          "Yi-Chen Wu",
+          "Song-Rong Lin",
+          "Wei-Chang Li",
+          "Bhisham Sharma",
+          "Chin-Han Yang",
+          "Yukai Lin"
+        ],
+        "institutions": [],
+        "journal": "Engineering Structures",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7163741078",
+        "doi": "10.1016/j.engstruct.2026.123116",
+        "title": "Behavior and modeling of FRP-UHPC-steel double-skin tubular columns under combined axial compression and cyclic lateral loading",
+        "published": "2026-06-06",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.123116",
+        "authors": [
+          "J.J. Wang",
+          "M.Z. Sun",
+          "D.D. Zhang",
+          "S. L. Zhang"
+        ],
+        "institutions": [],
+        "journal": "Engineering Structures",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Numerical Simulation"
+      },
+      {
+        "id": "https://openalex.org/W7163738954",
+        "doi": "10.1016/j.engstruct.2026.123141",
+        "title": "Probabilistic system failure assessment of transmission tower lines in a changing climate",
+        "published": "2026-06-06",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.123141",
+        "authors": [
+          "Yuan Feng",
+          "Mark G. Stewart"
+        ],
+        "institutions": [],
+        "journal": "Engineering Structures",
+        "abstract": "This paper presents a probabilistic framework for modelling cascading structural failures in electric power transmission tower lines subjected to wind hazard events in a changing climate. Recognizing the limitations of treating towers as isolated components, the study incorporates interdependencies among towers due to mechanical connectivity through conductors. The proposed model captures both the randomness of initial tower failures caused by wind and the subsequent correlation and clustering of tower failures resulting from structural imbalances. System-level fragility functions are derived from finite element simulations and fitted using probabilistic distributions. The transmission line system is modelled as a sequence of regular towers, with initial failures occurring independently. The failure patterns segment the system into intervals, where cascading is modelled as a stochastic process influenced by proximity to failed towers and load redistribution. An advanced virtual modelling technique combined with analytical expressions are proposed to analyse the probability distributions and generating functions of clustering of tower failures. Such that for different transmission tower line systems, the total potential failed towers and probabilities can be predicted directly under strong wind hazards. Outcomes are used for assessment on climate change risks and impacts for a large-scale transmission tower line network, which provides the foundation of decision support for climate change adaptation planning.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      },
+      {
+        "id": "https://openalex.org/W7163735729",
+        "doi": "10.1016/j.engstruct.2026.123095",
+        "title": "Three-dimensional finite element modelling for failure analysis of an H-rotor vertical axis wind turbine blade",
+        "published": "2026-06-06",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.123095",
+        "authors": [
+          "Mohsen Feyzi",
+          "Amir Zanj"
+        ],
+        "institutions": [],
+        "journal": "Engineering Structures",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Numerical Simulation"
+      },
+      {
+        "id": "https://openalex.org/W7163756112",
+        "doi": "10.1016/j.engstruct.2026.123094",
+        "title": "PeTIGN: A physics-encoded graph network for dynamic response computation of large-scale structures",
+        "published": "2026-06-06",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.123094",
+        "authors": [
+          "Zhenlong Liang",
+          "Jinzhao Li",
+          "Lu Deng",
+          "Xuan Kong"
+        ],
+        "institutions": [],
+        "journal": "Engineering Structures",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      }
+    ],
+    "Ultrasonics": [
+      {
+        "id": "https://openalex.org/W7163753825",
+        "doi": "10.1016/j.ultras.2026.108177",
+        "title": "Dual-parameter photoacoustic spectral analysis and machine learning for noninvasive monitoring of osteosarcoma treatment response",
+        "published": "2026-06-01",
+        "url": "https://doi.org/10.1016/j.ultras.2026.108177",
+        "authors": [
+          "Ying Fan",
+          "Abdula Aji",
+          "Ting Feng",
+          "Libo Jiang",
+          "Dean Ta"
+        ],
+        "institutions": [],
+        "journal": "Ultrasonics",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Machine Learning"
+      },
+      {
+        "id": "https://openalex.org/W7163760510",
+        "doi": "10.1016/j.ultras.2026.108186",
+        "title": "Morphology engineering of vertically aligned carbon nanotubes for enhanced photoacoustic emission",
+        "published": "2026-06-01",
+        "url": "https://doi.org/10.1016/j.ultras.2026.108186",
+        "authors": [
+          "Er-Tao Hu",
+          "Weiye He",
+          "Yongpeng Li",
+          "Hongzhi Zhao",
+          "Peng Lv",
+          "Qing-Yuan Cai",
+          "Yiyu Feng",
+          "Kehan Yu"
+        ],
+        "institutions": [],
+        "journal": "Ultrasonics",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7163761356",
+        "doi": "10.1016/j.ultras.2026.108180",
+        "title": "Phase linear encoding in multi-line transmit imaging: Towards crosstalk artifact removal",
+        "published": "2026-06-01",
+        "url": "https://doi.org/10.1016/j.ultras.2026.108180",
+        "authors": [
+          "Nazli Javadi Eshkalak",
+          "Courtney Cassidy",
+          "Pei-Ni Jone",
+          "Nick Bottenus"
+        ],
+        "institutions": [],
+        "journal": "Ultrasonics",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7163734622",
+        "doi": "10.1016/j.ultras.2026.108187",
+        "title": "Boundary echo control of S0-mode lamb waves using gradient phononic crystals",
+        "published": "2026-06-01",
+        "url": "https://doi.org/10.1016/j.ultras.2026.108187",
+        "authors": [
+          "Haoming Hu",
+          "Hongyu Cui",
+          "Xiaokai Yin",
+          "Huanqiu Xu",
+          "Tiange Yang"
+        ],
+        "institutions": [
+          "Dalian Ocean University",
+          "Dalian University of Technology"
+        ],
+        "journal": "Ultrasonics",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      }
+    ],
+    "Tunnelling and Underground Space Technology": [
+      {
+        "id": "https://openalex.org/W7163736166",
+        "doi": "10.1016/j.tust.2026.107832",
+        "title": "Seismic resilience assessment of underground subway stations",
+        "published": "2026-06-06",
+        "url": "https://doi.org/10.1016/j.tust.2026.107832",
+        "authors": [
+          "Jia Yang",
+          "Peng Deng",
+          "Hanlin Wei",
+          "Zhicheng Liu",
+          "Hui Wang",
+          "Xingzhong Nong",
+          "Chao Zhang",
+          "Qihang Huang",
+          "Renpeng Chen"
+        ],
+        "institutions": [
+          "Hunan University",
+          "Guangzhou Metro Group (China)",
+          "Guangzhou Metro Design & Research Institute"
+        ],
+        "journal": "Tunnelling and Underground Space Technology",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7163759809",
+        "doi": "10.1016/j.tust.2026.107844",
+        "title": "Physics-Data Bi-directional neural operator for fast forward and inverse analysis of tunnel lining towards practical digital twins",
+        "published": "2026-06-06",
+        "url": "https://doi.org/10.1016/j.tust.2026.107844",
+        "authors": [
+          "Jun Lu",
+          "Xi Wang",
+          "Wei Wu",
+          "Zhiguo Yan",
+          "Hehua Zhu"
+        ],
+        "institutions": [],
+        "journal": "Tunnelling and Underground Space Technology",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      }
+    ],
+    "Rock Mechanics and Rock Engineering": []
+  }
+}
