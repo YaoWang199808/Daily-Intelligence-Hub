@@ -1,0 +1,220 @@
+{
+  "date": "2026-06-09",
+  "journals": {
+    "Automation in Construction": [],
+    "Mechanical Systems and Signal Processing": [],
+    "Measurement": [
+      {
+        "id": "https://openalex.org/W7163013028",
+        "doi": "10.1016/j.measurement.2026.122106",
+        "title": "Side-tapered U-shaped polymer optical fiber sensor for high-sensitivity fluoride measurement in water",
+        "published": "2026-06-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.122106",
+        "authors": [
+          "Mohd. Ashraf",
+          "Xiong Zheng",
+          "Ashif Perwez",
+          "Abdullatif A. Gari"
+        ],
+        "institutions": [],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7163746439",
+        "doi": "10.1016/j.measurement.2026.122180",
+        "title": "A vision-language based image measurement framework for quantitative assessment of railway surface defects",
+        "published": "2026-06-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.122180",
+        "authors": [
+          "Saeed Mohammadkhah",
+          "Joaquim Tinoco",
+          "Jesús Balado",
+          "Jose Campos e Matos"
+        ],
+        "institutions": [
+          "University of Minho",
+          "Universidade de Vigo"
+        ],
+        "journal": "Measurement",
+        "abstract": "Accurate quantification of railway surface defects is essential for infrastructure condition assessment, maintenance prioritisation, and traceable engineering decision-making. This study presents an image-based measurement framework in which binary segmentation serves as one component of a broader defect-extent measurement chain. The primary measurand is the Defect Extent Index (DEI), defined from defect-pixel counts at the inference resolution, with calibration-dependent pathways for approximate physical-area estimation. The segmentation component, FMSegNet, integrates a domain-adapted FLAVA encoder with synthetic multi-scale aggregation and a lightweight decoder for binary defect delineation. On the ProRail validation split (100 images), FMSegNet achieved IoU = 76.42% and Dice = 84.79%, the highest single-run performance among the evaluated trainable baselines; a repeated-seed comparison with SETR indicated competitive performance without statistically consistent superiority. Measurement-oriented evaluation demonstrated strong agreement between predicted and annotation-derived DEI values: Bland–Altman bias = +0.00581, Pearson r = 0.9909, and expanded uncertainty U(DEI) = 0.0543 (k = 2). Repeated inference under identical digital input conditions yielded CV = 0.000%, indicating deterministic inference repeatability; full measurement-chain repeatability, requiring repeated physical acquisition under varying imaging conditions, was outside the scope of this study. Pipeline-level transfer without fine-tuning on RSDD Type-I (n = 16) yielded IoU = 0.517 ± 0.040 and Dice = 0.681 ± 0.035, demonstrating framework portability under domain shift rather than stable cross-domain generalisation.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7163015561",
+        "doi": "10.1016/j.measurement.2026.122067",
+        "title": "A method for direct refinement of satellite images’ RPCs aimed preventing the overfitting problems",
+        "published": "2026-06-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.122067",
+        "authors": [
+          "Fateme Ghafourifar",
+          "Alireza Safdarinezhad"
+        ],
+        "institutions": [],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7163006352",
+        "doi": "10.1016/j.measurement.2026.122048",
+        "title": "Structural parameters calibration of an on-machine dry-coupled ultrasonic probe",
+        "published": "2026-06-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.122048",
+        "authors": [
+          "Liu S",
+          "Kaichuan Xiao",
+          "H Z Chen",
+          "Y Zhang",
+          "Ye Shen",
+          "Limin Zhu"
+        ],
+        "institutions": [
+          "Shanghai Jiao Tong University",
+          "Zhejiang University",
+          "Shanghai University"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7162936618",
+        "doi": "10.1016/j.measurement.2026.122088",
+        "title": "Latent-stage and real-time detection of maize rust: a portable device integrating snapshot spectral imaging and optimized deep learning",
+        "published": "2026-05-31",
+        "url": "https://doi.org/10.1016/j.measurement.2026.122088",
+        "authors": [
+          "Huiting Wang",
+          "Fan Wu",
+          "Nina Sun",
+          "Yanlong Miao",
+          "Hui Li",
+          "Man Zhang",
+          "Ruicheng Qiu"
+        ],
+        "institutions": [
+          "China Agricultural University",
+          "Yantai Academy of Agricultural Sciences",
+          "Beijing Forestry University",
+          "State Forestry and Grassland Administration",
+          "Ministry of Agriculture and Rural Affairs"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      },
+      {
+        "id": "https://openalex.org/W7162869218",
+        "doi": "10.1016/j.measurement.2026.122092",
+        "title": "Novel acoustic-vibration fusion-driven method for evaluating and predicting the sound quality of EV reducers using a wavelet kernel convolutional neural network",
+        "published": "2026-05-30",
+        "url": "https://doi.org/10.1016/j.measurement.2026.122092",
+        "authors": [
+          "Yu Xin",
+          "Ma Songlin",
+          "Honglin Li",
+          "Guo Dong",
+          "Gong Xiaorong",
+          "Song Lijun"
+        ],
+        "institutions": [
+          "Chongqing University of Technology"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      },
+      {
+        "id": "https://openalex.org/W7162860851",
+        "doi": "10.1016/j.measurement.2026.122084",
+        "title": "Damage shape prediction in plate structures using ultrasonic guided waves with a boundary context aware UNet network",
+        "published": "2026-05-30",
+        "url": "https://doi.org/10.1016/j.measurement.2026.122084",
+        "authors": [
+          "Lin Wu",
+          "Ying Liu",
+          "Kai Zhou"
+        ],
+        "institutions": [
+          "Yangtze University"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7162880690",
+        "doi": "10.1016/j.measurement.2026.122087",
+        "title": "GUM-compliant automatic fish morphometry via transformer-enhanced keypoint detection",
+        "published": "2026-05-30",
+        "url": "https://doi.org/10.1016/j.measurement.2026.122087",
+        "authors": [
+          "Gu Xiaowei",
+          "Shengmao Zhang",
+          "Xinyu Ai",
+          "Shenglong Yang",
+          "Wu Zuli"
+        ],
+        "institutions": [
+          "Shanghai Ocean University",
+          "Ministry of Agriculture and Rural Affairs",
+          "Chinese Academy of Fishery Sciences"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      },
+      {
+        "id": "https://openalex.org/W7162848147",
+        "doi": "10.1016/j.measurement.2026.122089",
+        "title": "Measurement of influencing factors and synergistic management mechanism of intelligent construction in railways industry",
+        "published": "2026-05-30",
+        "url": "https://doi.org/10.1016/j.measurement.2026.122089",
+        "authors": [
+          "Xizhen Xu",
+          "Yuming Liu",
+          "Guoliang Ou"
+        ],
+        "institutions": [],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7162848488",
+        "doi": "10.1016/j.measurement.2026.122079",
+        "title": "Development and field validation of a distributed fibre optic strain sensing inclinometer for high-resolution subsurface landslide monitoring",
+        "published": "2026-05-30",
+        "url": "https://doi.org/10.1016/j.measurement.2026.122079",
+        "authors": [
+          "Muhammad Farid Ghazali",
+          "H Mohamad",
+          "Muhammad Yusoff Mohd Nasir",
+          "Muhammad Noor Adam Bin Kamaruzaman"
+        ],
+        "institutions": [
+          "Universiti Teknologi Petronas"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      }
+    ],
+    "Engineering Structures": [],
+    "Ultrasonics": [],
+    "Tunnelling and Underground Space Technology": [],
+    "Rock Mechanics and Rock Engineering": []
+  }
+}
