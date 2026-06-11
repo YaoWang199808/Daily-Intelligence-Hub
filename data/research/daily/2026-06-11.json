@@ -1,0 +1,359 @@
+{
+  "date": "2026-06-11",
+  "journals": {
+    "Automation in Construction": [],
+    "Mechanical Systems and Signal Processing": [],
+    "Measurement": [
+      {
+        "id": "https://openalex.org/W7163865669",
+        "doi": "10.1016/j.measurement.2026.122156",
+        "title": "On high-accuracy global corrosion parameter determination in metallic plates using multi-random-field inverse surrogates",
+        "published": "2026-06-08",
+        "url": "https://doi.org/10.1016/j.measurement.2026.122156",
+        "authors": [
+          "Sławomir Kozieł",
+          "Anna Pietrenko‐Dabrowska",
+          "Beata Zima"
+        ],
+        "institutions": [
+          "Reykjavík University",
+          "Gdańsk University of Technology"
+        ],
+        "journal": "Measurement",
+        "abstract": "The accurate assessment of global corrosion characteristics in metal plates, particularly thickness loss and surface roughness, is critical for industries such as oil, marine, and energy. Recent advances using guided ultrasonic waves have enabled non-destructive evaluation of corroded structures; however, this task remains challenging due to complex interactions between wave propagation and spatially varying thickness profiles. The difficulty is further compounded by the inherently heterogeneous nature of real corrosion patterns, which introduces significant uncertainty in signal interpretation and limits the effectiveness of traditional physics-based identification methods. In this study, global corrosion parameters, including mean thickness reduction and thickness standard deviation, are reliably estimated using data-driven inverse surrogate models. Corrosion morphology is modeled as a stochastic field, while guided wave responses are generated via numerical simulations. The inverse framework maps features extracted from wave responses to corresponding corrosion parameters. A key challenge lies in the pronounced non-uniqueness of the problem, as infinitely many stochastic field realizations can yield identical statistical descriptors. To address this issue, a multi-random-field strategy is introduced, in which guided wave responses from multiple independent realizations are averaged and jointly analyzed. Extensive comparative studies show a clear improvement in prediction accuracy with as few as three random field realizations, with further significant gains observed for ten random field configurations. For the considered test cases, the relative mean absolute error was reduced to approximately 1.4% for thickness reduction estimation and 7.0% for standard deviation estimation. Across all cases, the proposed inverse modeling approach outperforms conventional time-of-flight-based identification methods derived from dispersion curve analysis. Although this research focuses on computational modeling, in practical applications, the proposed methodology can be readily implemented by repositioning the sensor network or excitation source, either laterally or rotationally.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      },
+      {
+        "id": "https://openalex.org/W7163883626",
+        "doi": "10.1016/j.measurement.2026.122102",
+        "title": "Analytical evaluation of measurement performance for iron core magnetic spectrometers with integrated calorimeter",
+        "published": "2026-06-08",
+        "url": "https://doi.org/10.1016/j.measurement.2026.122102",
+        "authors": [
+          "Valentino Scalera",
+          "D. Centanni",
+          "M. de Magistris"
+        ],
+        "institutions": [
+          "Parthenope University of Naples",
+          "Istituto Nazionale di Fisica Nucleare, Sezione di Napoli"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      },
+      {
+        "id": "https://openalex.org/W7164050952",
+        "doi": "10.1016/j.measurement.2026.122197",
+        "title": "A high-sensitivity mems current sensor based on quasi-zero-stiffness amplification and vibration compensation for picoampere-level detection",
+        "published": "2026-06-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.122197",
+        "authors": [
+          "Le Gao",
+          "Wenjie Wu",
+          "Fangzheng Li",
+          "Bingyang Cai",
+          "涂良成"
+        ],
+        "institutions": [],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7163890287",
+        "doi": "10.1016/j.measurement.2026.122195",
+        "title": "Laser scanning-based weld seam parameter extraction for slotted V-groove welds in shipbuilding",
+        "published": "2026-06-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.122195",
+        "authors": [
+          "Sheng Zhang",
+          "Yi Shen",
+          "Yu Lu",
+          "Tao Ma",
+          "Yan Shen",
+          "Yan Shen",
+          "Yan Shen"
+        ],
+        "institutions": [
+          "Jiangsu University of Science and Technology",
+          "Shazhou Professional Institute Of Technology",
+          "Hunan University",
+          "NARI Group (China)"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7164041599",
+        "doi": "10.1016/j.measurement.2026.122209",
+        "title": "A modular physics-guided knowledge embedding framework for acoustic measurement and condition monitoring of complex mechanical systems: A case study of wind turbines",
+        "published": "2026-06-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.122209",
+        "authors": [
+          "Bingchuan Sun",
+          "Kim Tiow Ooi",
+          "Mingxu Su"
+        ],
+        "institutions": [],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7163888255",
+        "doi": "10.1016/j.measurement.2026.122202",
+        "title": "Lightweight attention diffusion model for denoising and reconstruction of impedance cardiography signals",
+        "published": "2026-06-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.122202",
+        "authors": [
+          "Shuai MA",
+          "Wu Yang",
+          "Zhengxu Yan",
+          "Zeyue Xu",
+          "Zhe Zhao",
+          "Huiquan Wang"
+        ],
+        "institutions": [
+          "Tiangong University",
+          "Intelligent Health (United Kingdom)"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7163886526",
+        "doi": "10.1016/j.measurement.2026.121964",
+        "title": "Dual Quaternion-Based Unscented Kalman Filter with Visual Inertial Odometry for navigation in GPS-denied environments",
+        "published": "2026-06-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.121964",
+        "authors": [
+          "Mohamed Khalifa",
+          "Hashim A. Hashim"
+        ],
+        "institutions": [],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7163881143",
+        "doi": "10.1016/j.measurement.2026.122141",
+        "title": "FC-KNet: A physical–data hybrid strategy for flying-car state estimation via adaptive Kalman gain reconstruction",
+        "published": "2026-06-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.122141",
+        "authors": [
+          "Xudong Chen",
+          "Bingbing Li",
+          "Jiatong Zhang",
+          "Chengxuan Li",
+          "Tianxiang Zhang",
+          "Guodong Yin"
+        ],
+        "institutions": [],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7163891870",
+        "doi": "10.1016/j.measurement.2026.122191",
+        "title": "Fabry-perot interferometric refractive index sensor based on heterogeneously fused sapphire fiber with dual-wavelength demodulation for broad-range applications",
+        "published": "2026-06-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.122191",
+        "authors": [
+          "Jie Xiong",
+          "Wen Zhang",
+          "Guanghui Chen",
+          "Jinlong Li",
+          "Lianqing Zhu"
+        ],
+        "institutions": [],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7163919129",
+        "doi": "10.1016/j.measurement.2026.122190",
+        "title": "A smartphone-assisted olfactory visualization system for peanut seed discrimination using colorimetric sensor array and chemometric analysis of volatile organic compounds",
+        "published": "2026-06-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.122190",
+        "authors": [
+          "Muhammad Bilal",
+          "Jingcheng Huang",
+          "Faryal Shaukat",
+          "Muhammad Arslan",
+          "Mohammad Rezaul Islam Shishir",
+          "Samee Ullah",
+          "Zhihua Li",
+          "Yemin Guo",
+          "Xia Sun",
+          "Zou Xiaobo"
+        ],
+        "institutions": [
+          "Shandong University of Technology",
+          "Jiangsu University"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      }
+    ],
+    "Engineering Structures": [
+      {
+        "id": "https://openalex.org/W7163910221",
+        "doi": "10.1016/j.engstruct.2026.123101",
+        "title": "Seismic fragility evaluation framework of suspended piping system based on cascade analysis",
+        "published": "2026-06-08",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.123101",
+        "authors": [
+          "Qingxue Shang",
+          "Huan Ma",
+          "Tao Wang"
+        ],
+        "institutions": [
+          "China Earthquake Administration",
+          "Institute of Disaster Prevention"
+        ],
+        "journal": "Engineering Structures",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7163904090",
+        "doi": "10.1016/j.engstruct.2026.123108",
+        "title": "Bond deterioration of reinforcement-concrete interface under combined actions of low-temperature salt-freeze and steel corrosion: A beam-end test study",
+        "published": "2026-06-08",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.123108",
+        "authors": [
+          "Jieqiong Wu",
+          "Zijian Zhang",
+          "Liu Jin",
+          "Xiuli Du"
+        ],
+        "institutions": [
+          "Beijing University of Technology",
+          "Beijing University of Civil Engineering and Architecture"
+        ],
+        "journal": "Engineering Structures",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7163907448",
+        "doi": "10.1016/j.engstruct.2026.123070",
+        "title": "Shear strengthening of RC beams with externally bonded U- and fully-wrapped FRCM composites",
+        "published": "2026-06-08",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.123070",
+        "authors": [
+          "Veronica Bertolli",
+          "Tommaso D’Antino"
+        ],
+        "institutions": [],
+        "journal": "Engineering Structures",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7163892555",
+        "doi": "10.1016/j.engstruct.2026.123164",
+        "title": "FRP-concrete-steel double-skin tubular columns under pure torsion: Behaviour, mechanism, and bearing capacity",
+        "published": "2026-06-08",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.123164",
+        "authors": [
+          "Yaokang Zhao",
+          "Yanlei Wang",
+          "Shuchen Guo",
+          "Jiarui Wang"
+        ],
+        "institutions": [
+          "Dalian University of Technology"
+        ],
+        "journal": "Engineering Structures",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7163877037",
+        "doi": "10.1016/j.engstruct.2026.123129",
+        "title": "A physics-guided inverse design framework for two-stage quasi-zero stiffness metastructures",
+        "published": "2026-06-08",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.123129",
+        "authors": [
+          "Guohui Yin",
+          "Yingli Li",
+          "Yunbin Liang",
+          "Yong Peng",
+          "Song Yao",
+          "Jie Zhou"
+        ],
+        "institutions": [
+          "Central South University",
+          "Ministry of Transport",
+          "Hunan University"
+        ],
+        "journal": "Engineering Structures",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7163872212",
+        "doi": "10.1016/j.engstruct.2026.123152",
+        "title": "Bond behavior between rebar and concrete under coupled effects of rebar corrosion or diameters with cyclic loading",
+        "published": "2026-06-08",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.123152",
+        "authors": [
+          "Xiaojun Wang",
+          "Shan Li",
+          "Yuhong Yan",
+          "Yiyan Lu"
+        ],
+        "institutions": [],
+        "journal": "Engineering Structures",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7163886192",
+        "doi": "10.1016/j.engstruct.2026.123142",
+        "title": "Building damage-matched ground motion generation method using physics-guided generative adversarial networks",
+        "published": "2026-06-08",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.123142",
+        "authors": [
+          "Qingle Cheng",
+          "Haotian Ren",
+          "Hongyu Zhao",
+          "Aiqun Li",
+          "Linlin Xie"
+        ],
+        "institutions": [],
+        "journal": "Engineering Structures",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      }
+    ],
+    "Ultrasonics": [],
+    "Tunnelling and Underground Space Technology": [],
+    "Rock Mechanics and Rock Engineering": []
+  }
+}
