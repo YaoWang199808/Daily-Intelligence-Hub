@@ -1,0 +1,225 @@
+{
+  "date": "2026-06-15",
+  "journals": {
+    "Automation in Construction": [],
+    "Mechanical Systems and Signal Processing": [],
+    "Measurement": [
+      {
+        "id": "https://openalex.org/W7164491220",
+        "doi": "10.1016/j.measurement.2026.122248",
+        "title": "Lithology identification method for rescue drilling with truck-mounted drill rigs based on CNN-GRU optimization model",
+        "published": "2026-06-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.122248",
+        "authors": [
+          "Yunfei Wang",
+          "Haohao Dong",
+          "Qisheng Diao",
+          "Feixiang Xu"
+        ],
+        "institutions": [
+          "Jilin University",
+          "China University of Mining and Technology",
+          "Shanghai Jiao Tong University"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      },
+      {
+        "id": "https://openalex.org/W7164297628",
+        "doi": "10.1016/j.measurement.2026.122234",
+        "title": "Two-stage autoencoder-based feature extraction with weighted fusion for partial discharge classification",
+        "published": "2026-06-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.122234",
+        "authors": [
+          "Abderrezak Mansouri",
+          "Khadra Kessairi",
+          "I. Iannarelli",
+          "Mounia Hendel",
+          "A. Cavallini"
+        ],
+        "institutions": [
+          "Université Oran 1 Ahmed Ben Bella",
+          "University of Bologna"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7164587020",
+        "doi": "10.1016/j.measurement.2026.122218",
+        "title": "Optimised tracking control for PTP-based synchronisation in marine deep-towed electromagnetic receivers",
+        "published": "2026-06-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.122218",
+        "authors": [
+          "Yu Long",
+          "Xiaochen Li",
+          "Diye Wu",
+          "Kai Chen"
+        ],
+        "institutions": [
+          "China University of Geosciences (Beijing)",
+          "Chinese Academy of Sciences",
+          "Institute of Deep-Sea Science and Engineering"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7164039379",
+        "doi": "10.1016/j.measurement.2026.122198",
+        "title": "Non-invasive blood pressure prediction using ICG-ECG multimodal feature fusion based on the Windkessel model",
+        "published": "2026-06-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.122198",
+        "authors": [
+          "Shuai Ma",
+          "Cheng Peng (118834)",
+          "Zhengxu Yan",
+          "Yang Wu",
+          "Zhe Zhao",
+          "Huiquan Wang"
+        ],
+        "institutions": [],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7164560316",
+        "doi": "10.1016/j.measurement.2026.122159",
+        "title": "Particle image velocimetry using deep learning augmented optical flow models",
+        "published": "2026-06-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.122159",
+        "authors": [
+          "Eda Nur Saruhan",
+          "Kağan Uçak",
+          "Melis Serdar",
+          "Reza Rasooli",
+          "A. Murat Tekalp",
+          "Kerem Pekkan"
+        ],
+        "institutions": [],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      },
+      {
+        "id": "https://openalex.org/W7164573781",
+        "doi": "10.1016/j.measurement.2026.122240",
+        "title": "Led-based multibeam photoacoustics combined with electrical circuit-based modeling for the analysis of multispecies mass transport through thin membranes",
+        "published": "2026-06-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.122240",
+        "authors": [
+          "Paweł Rochowski"
+        ],
+        "institutions": [
+          "University of Gdańsk"
+        ],
+        "journal": "Measurement",
+        "abstract": "This work develops photoacoustic-based experimental methods for comprehensive characterization of multispecies mass transport from donor compartments to thin-membrane acceptor systems in perfect contact, supported by dedicated mass transfer modeling framework. Multibeam configurations are implemented in photoacoustic setups operating in front-side detection and diffuse-reflection geometries. The setups are calibrated and adjusted prior to measurements by means of transmission-mode photoacoustic experiments conducted under steady-state conditions. Finally, the methodologies were applied to a model system undergoing photoinduced decay, enabling characterization of bulk transport kinetics as well as interfacial equilibration monitored through time-dependent changes in interfacial reflectivity. For the analysis of bulk transport data, a lumped electrical-circuit (EC) model is introduced. The model is formulated in tableau form, linking species population dynamics to an interaction matrix representing mass-transport couplings consistent with the underlying diffusion–reaction framework. A simplified approximation of the model is further proposed and validated against experimental results. The combined experimental–modeling framework provides an effective approach for quantitative analysis of coupled diffusion, reaction, and interfacial processes in thin-membrane systems.",
+        "citation_count": 1,
+        "method": "Hybrid"
+      },
+      {
+        "id": "https://openalex.org/W7164136282",
+        "doi": "10.1016/j.measurement.2026.122223",
+        "title": "WOA-optimized VMD for harmonic removal in operational modal analysis of thin-walled workpiece milling",
+        "published": "2026-06-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.122223",
+        "authors": [
+          "Zehui Zheng",
+          "Xiubing Jing",
+          "Shuxian Zheng",
+          "Xiaofei Song",
+          "Bowen Song",
+          "Huaizhong Li"
+        ],
+        "institutions": [
+          "Tianjin University",
+          "Griffith University"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7164537836",
+        "doi": "10.1016/j.measurement.2026.122239",
+        "title": "Interpretable soft-sensing of reaction-zone temperature in zinc rotary kilns via temporal-embedding-enhanced time-aware xLSTM",
+        "published": "2026-06-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.122239",
+        "authors": [
+          "Yanhua Yin",
+          "Yong Yang",
+          "Fubiao Yang",
+          "Yiqi Liu"
+        ],
+        "institutions": [
+          "South China University of Technology"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7164496354",
+        "doi": "10.1016/j.measurement.2026.122193",
+        "title": "VMF3-XGB: an improved tropospheric mapping function based on VMF3 and machine learning",
+        "published": "2026-06-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.122193",
+        "authors": [
+          "Yichen Liu",
+          "Shijie Fan",
+          "Qingyuan Liu",
+          "Zhilu Wu",
+          "Miaomiao Wang"
+        ],
+        "institutions": [
+          "Tongji University",
+          "China University of Petroleum, East China",
+          "Changzhou Institute of Technology"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      },
+      {
+        "id": "https://openalex.org/W7164403882",
+        "doi": "10.1016/j.measurement.2026.122242",
+        "title": "Simultaneous measurement method for blade tip vibration and clearance based on voltage peak extraction",
+        "published": "2026-06-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.122242",
+        "authors": [
+          "Yuang Li",
+          "Zengkun Wang",
+          "Hao Zuo",
+          "Min Ye",
+          "Baijie Qiao",
+          "Zhibo Yang"
+        ],
+        "institutions": [
+          "Chang'an University",
+          "Xi'an Jiaotong University"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      }
+    ],
+    "Engineering Structures": [],
+    "Ultrasonics": [],
+    "Tunnelling and Underground Space Technology": [],
+    "Rock Mechanics and Rock Engineering": []
+  }
+}
