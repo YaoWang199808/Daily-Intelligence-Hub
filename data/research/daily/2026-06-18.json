@@ -1,0 +1,524 @@
+{
+  "date": "2026-06-18",
+  "journals": {
+    "Automation in Construction": [
+      {
+        "id": "https://openalex.org/W7164995358",
+        "doi": "10.1016/j.autcon.2026.107112",
+        "title": "Explainable artificial intelligence in construction engineering and management: Review of applications, trends, and opportunities",
+        "published": "2026-06-17",
+        "url": "https://doi.org/10.1016/j.autcon.2026.107112",
+        "authors": [
+          "Mohsen Naghdi",
+          "Negin Mahmoudi",
+          "Abdolmajid Erfani",
+          "Mohammad Ilbeigi"
+        ],
+        "institutions": [
+          "Michigan Technological University",
+          "Stevens Institute of Technology"
+        ],
+        "journal": "Automation in Construction",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Review / Survey"
+      }
+    ],
+    "Mechanical Systems and Signal Processing": [
+      {
+        "id": "https://openalex.org/W7165006220",
+        "doi": "10.1016/j.ymssp.2026.114548",
+        "title": "High-precision identification of robot dynamics model and collision detection considering multi-source uncertainties",
+        "published": "2026-06-17",
+        "url": "https://doi.org/10.1016/j.ymssp.2026.114548",
+        "authors": [
+          "Shuo Xu",
+          "Xiaopeng Wei",
+          "D Cen",
+          "孟祥昶",
+          "Xiaohui Jia",
+          "Tiejun Li",
+          "Jinyue Liu"
+        ],
+        "institutions": [
+          "Hebei University of Technology",
+          "Hebei University of Science and Technology"
+        ],
+        "journal": "Mechanical Systems and Signal Processing",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7165016393",
+        "doi": "10.1016/j.ymssp.2026.114577",
+        "title": "Application of machine-vision-driven physics-informed neural networks in pantograph–catenary system state detection",
+        "published": "2026-06-17",
+        "url": "https://doi.org/10.1016/j.ymssp.2026.114577",
+        "authors": [
+          "Jingke Yan",
+          "Ning Zhou",
+          "Yao Cheng",
+          "Fan Zhang",
+          "Hongrui Wang",
+          "Miaohui Wang",
+          "Bo Jin",
+          "Mudi Li",
+          "Qiuyi Lu",
+          "Wah Hospital"
+        ],
+        "institutions": [
+          "Southwest Jiaotong University",
+          "Shenzhen University",
+          "Portuguese Army",
+          "Institute for Systems Engineering and Computers",
+          "National Laboratory for Civil Engineering",
+          "University of Coimbra",
+          "Space Engineering University"
+        ],
+        "journal": "Mechanical Systems and Signal Processing",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Machine Learning"
+      },
+      {
+        "id": "https://openalex.org/W7165032496",
+        "doi": "10.1016/j.ymssp.2026.114588",
+        "title": "Biologically inspired novel design strategy for integrated regenerative shock absorbers: a review",
+        "published": "2026-06-17",
+        "url": "https://doi.org/10.1016/j.ymssp.2026.114588",
+        "authors": [
+          "Juhuang Song",
+          "Kai Zhang",
+          "Zhiwei Chen",
+          "Yubao Li",
+          "Can Hu",
+          "Xiao Zhao",
+          "Tao An",
+          "Lingfei Qi",
+          "Zutao Zhang"
+        ],
+        "institutions": [],
+        "journal": "Mechanical Systems and Signal Processing",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Review / Survey"
+      }
+    ],
+    "Measurement": [
+      {
+        "id": "https://openalex.org/W7164842939",
+        "doi": "10.1016/j.measurement.2026.122275",
+        "title": "A comparative assessment of open-hardware and commercial energy meters for non-intrusive load monitoring",
+        "published": "2026-06-15",
+        "url": "https://doi.org/10.1016/j.measurement.2026.122275",
+        "authors": [
+          "Carlos Rodríguez-Navarro",
+          "Francisco Portillo",
+          "Manuel Soler‐Ortiz",
+          "Alfredo Alcayde"
+        ],
+        "institutions": [
+          "University of Almería"
+        ],
+        "journal": "Measurement",
+        "abstract": "The accuracy, resolution, and spectral content of electrical measurement systems play a critical role in the reliability of energy analysis applications. This paper presents a comparative application-level assessment of open-hardware and commercial energy meters, examining how their metrological characteristics relate to performance in non-intrusive load monitoring (NILM) tasks within a common evaluation framework. Two open-hardware instruments, OpenZmeter (oZm) and Open Multi Power Meter (OMPM), are assessed against reference datasets acquired with commercial meters using identical energy disaggregation workflows implemented in NILMTK and widely adopted performance metrics. In addition to conventional electrical quantities, the effect of high-resolution harmonic measurements, available up to the 50th order in oZm, is explicitly analyzed. The results show that OMPM achieves very low Energy Assignment Error (0.006) and low Root Mean Square Error (14.782). At the same time, oZm provides application-level performance that is competitive with that of professional power-quality analyzers under the evaluated conditions. The inclusion of harmonic information increases the F1-score by 10–15% and reduces error metrics by more than 40% for loads with distinctive spectral signatures. A normalized GlobalScore, used here as an exploratory aggregate indicator, was computed for the subset of datasets with complete metric availability and revealed consistent comparative trends between measurement quality and NILM performance. Although cross-dataset differences in load composition, operating conditions, and acquisition settings limit strict one-to-one equivalence, the results support the use of open-hardware energy meters as reliable, reproducible, and cost-effective instrumentation for NILM-oriented energy monitoring and research",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7164868053",
+        "doi": "10.1016/j.measurement.2026.122246",
+        "title": "Robust indoor localization via spatiotemporal graph modeling and adaptive error state Kalman filtering using ultra-wideband and inertial measurement unit",
+        "published": "2026-06-15",
+        "url": "https://doi.org/10.1016/j.measurement.2026.122246",
+        "authors": [
+          "Xiang Li",
+          "Fangyu Liu",
+          "H J Wang",
+          "Fangmin Sun",
+          "Han Zhang",
+          "Ye Li"
+        ],
+        "institutions": [
+          "Chinese Academy of Sciences",
+          "Shenzhen Institutes of Advanced Technology",
+          "South China Normal University"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      },
+      {
+        "id": "https://openalex.org/W7164865134",
+        "doi": "10.1016/j.measurement.2026.122266",
+        "title": "A novel sensing and signal processing system for ship wake magnetic field detection and analysis",
+        "published": "2026-06-15",
+        "url": "https://doi.org/10.1016/j.measurement.2026.122266",
+        "authors": [
+          "Zeyu Peng",
+          "Yi Zhang",
+          "Chao Zuo",
+          "Yao Tang",
+          "Yijie Qin",
+          "Xiaofei Yang",
+          "Jun Ouyang"
+        ],
+        "institutions": [
+          "Huazhong University of Science and Technology",
+          "Wuhan Ship Development & Design Institute",
+          "Wuhan University of Technology"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7164830880",
+        "doi": "10.1016/j.measurement.2026.122222",
+        "title": "Universal LiDAR-camera extrinsic calibration with relaxed orthogonality and laser spot model using 3D checkerboard",
+        "published": "2026-06-15",
+        "url": "https://doi.org/10.1016/j.measurement.2026.122222",
+        "authors": [
+          "Longqing Zhao",
+          "Youyang Feng",
+          "Yang Sun",
+          "Jie Yang",
+          "Rongxuan Tan",
+          "Chao Yan",
+          "Yinsheng Gong",
+          "Qing Wang"
+        ],
+        "institutions": [
+          "Southeast University",
+          "China Automotive Engineering Research Institute",
+          "Suzhou University of Technology"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7164734540",
+        "doi": "10.1016/j.measurement.2026.122228",
+        "title": "An abnormal bulge detection framework for extruded industrial part contours from point clouds",
+        "published": "2026-06-14",
+        "url": "https://doi.org/10.1016/j.measurement.2026.122228",
+        "authors": [
+          "Zhiqiang Qin",
+          "He Xie",
+          "Zhaoya Fang",
+          "Guohong Dai",
+          "Qin Tan",
+          "Yue Wang"
+        ],
+        "institutions": [
+          "Centre for Artificial Intelligence and Robotics",
+          "ITRI International",
+          "Commercial Aircraft Corporation of China (China)",
+          "China Mobile (China)"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7164752333",
+        "doi": "10.1016/j.measurement.2026.122256",
+        "title": "Phase-based spectral method for accurate impulse acoustic event localization",
+        "published": "2026-06-14",
+        "url": "https://doi.org/10.1016/j.measurement.2026.122256",
+        "authors": [
+          "Jakub Svatoš",
+          "Martin Maxa",
+          "Jan Holub"
+        ],
+        "institutions": [
+          "Czech Technical University in Prague"
+        ],
+        "journal": "Measurement",
+        "abstract": "This paper introduces a novel method for acoustic event localization, specifically targeting shooter position estimation. The approach employs a dual-microphone sensor unit and processes recorded signals in the frequency domain, using a phase-based delay estimation algorithm with custom asymmetrical windowing and amplitude-weighted delay aggregation to determine the Time Difference of Arrival and Angle of Arrival. The method was validated through experiments conducted in both an anechoic chamber and real-world shooting range conditions. The results demonstrate that the proposed approach outperforms conventional correlation-based techniques, such as Generalized Cross-Correlation and Generalized Cross-Correlation with Phase Transform, particularly in noisy environments. Even in the presence of intense ambient noise, the TDoA estimation achieves a mean error of less than 1 ms. Based on the achieved angular uncertainty of 0.9°, system-level simulations indicate a spatial localization error within ±3 m at a distance of 100 m. These results demonstrate the robustness and practical applicability of the method for impulsive acoustic events and accurate shooter localization. The algorithm is well-suited for real-time deployment in defense, law enforcement, and security applications, particularly on low-power embedded systems with strict computational and energy constraints.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      },
+      {
+        "id": "https://openalex.org/W7165031389",
+        "doi": "10.1016/j.measurement.2026.122297",
+        "title": "Planar microwave sensor with machine learning analysis for non-destructive quantification of methanol contaminants in distilled spirits",
+        "published": "2026-06-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.122297",
+        "authors": [
+          "Maria Elizabeth Teixeira Santana Praxedes",
+          "Bruno Matias de Sousa",
+          "Valdemir Praxedes da Silva Neto",
+          "Adaildo G. D'Assunção"
+        ],
+        "institutions": [
+          "Universidade Federal do Rio Grande do Norte"
+        ],
+        "journal": "Measurement",
+        "abstract": "This paper presents a dual-port planar microwave sensor designed for the non-destructive detection and quantification of methanol contamination in distilled alcoholic beverages. The proposed sensing structure is based on a compact U-shaped microstrip line integrated with a Defected Ground Structure (DGS) that combines a Complementary Split-Ring Resonator (CSRR) and a Complementary Interdigital Capacitor (CIDC). This hybrid DGS configuration enhances the local electric field distribution and strengthens the electromagnetic coupling between the resonant elements, thereby improving the overall sensitivity of the sensor. Consequently, the device exhibits a stable and reliable response over a wide range of liquid dielectric permittivities, from 1 to 100, with an average percentage sensitivity of 1.39% and consistent, traceable resonance behavior across the entire range. Additionally, the proposed approach achieves low error in methanol concentration estimation (below 5%), confirming its accuracy and reliability. The performed measurements conducted at ambient conditions, combined with a geometrically robust design and enhanced electromagnetic field confinement, mitigate the effects of environmental fluctuations and fabrication tolerances, ensuring stable and reliable methanol detection. Machine learning methods were employed to correlate the sensor resonance frequency with the methanol concentration, using 240 real samples obtained from three types of distilled beverages at eight concentration levels. The proposed approach achieved coefficients of determination (R 2 ) exceeding 0.95, demonstrating the potential of the developed sensor and data-driven methodology for accurate and non-destructive quality assessment of distilled spirits.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      },
+      {
+        "id": "https://openalex.org/W7164733610",
+        "doi": "10.1016/j.measurement.2026.122260",
+        "title": "Fiber Bragg grating-based deformation reconstruction of deployable space structures via inverse finite element method",
+        "published": "2026-06-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.122260",
+        "authors": [
+          "Zilong Ye",
+          "Changhao Chen",
+          "Buliang Xie",
+          "Lianglei Xiong",
+          "Minqiang Shao",
+          "Xing Shen"
+        ],
+        "institutions": [
+          "China Aerospace Science and Technology Corporation",
+          "Nanjing University of Aeronautics and Astronautics"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      },
+      {
+        "id": "https://openalex.org/W7164894319",
+        "doi": "10.1016/j.measurement.2026.122285",
+        "title": "Correcting time offsets and enclosure-induced measurement distortions in LiDAR–camera systems",
+        "published": "2026-06-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.122285",
+        "authors": [
+          "Pasindu Ranasinghe",
+          "Dibyayan Patra",
+          "Amantha Mawathage",
+          "Bikram Pratap Banerjee",
+          "Chenxi Ye",
+          "Bingfei Nan",
+          "Simit Raval"
+        ],
+        "institutions": [
+          "UNSW Sydney",
+          "University of Moratuwa",
+          "University of Southern Queensland",
+          "Intelligent Health (United Kingdom)"
+        ],
+        "journal": "Measurement",
+        "abstract": "Using protective enclosures for multi-sensor perception systems in hazardous environments, such as underground mines, introduces critical measurement errors that are often overlooked in sensor fusion pipelines. This paper addresses two key sources of these errors: temporal misalignment between sensor data streams and refractive distortion at the optical interface. To address temporal misalignment, an observation-based temporal calibration method is introduced, where a rotating flywheel observed by both sensors provides a direct estimate of the inter-sensor time delay, reducing the timing error from approximately 32 ms to below 3 ms without external triggering or synchronisation hardware. To account for enclosure-induced distortion, LiDAR beam refraction through a 6 mm polycarbonate dome is modelled using analytical ray tracing, validated by physics-based simulation, compared with adapted refractive baselines, and corrected in real time using a lookup-table approach with negligible computational overhead. Enclosure-aware camera intrinsic and LiDAR–camera extrinsic calibrations are then performed with the enclosure in place, treating the sensors and enclosure as a single optical system. Experimental results show that LiDAR refraction correction improves dimensional accuracy by 43% at 5 m, enclosure-aware intrinsic calibration reduces the mean reprojection error by approximately 58%, and extrinsic calibration reduces projection error from approximately 10 pixels to 2 pixels. Ablation and repeatability analyses further confirm that accurate fusion requires the combined use of LiDAR refraction correction, enclosure-aware camera calibration, and enclosure-aware extrinsic calibration.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      },
+      {
+        "id": "https://openalex.org/W7165027217",
+        "doi": "10.1016/j.measurement.2026.122257",
+        "title": "Dynamic adaptive spatial network for multi-scale pavement defect detection",
+        "published": "2026-06-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.122257",
+        "authors": [
+          "Shuo Zhang",
+          "Hongyu Guo",
+          "Yu Tian",
+          "Hongbo Zhang",
+          "Hui Li",
+          "Jianzhu Wang",
+          "Jianqing Wu",
+          "Xiuguang Song"
+        ],
+        "institutions": [],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      }
+    ],
+    "Engineering Structures": [
+      {
+        "id": "https://openalex.org/W7165036028",
+        "doi": "10.1016/j.engstruct.2026.123231",
+        "title": "Comparative study on seismic performance of precast and reinforced concrete wide beam-column connections",
+        "published": "2026-06-17",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.123231",
+        "authors": [
+          "Wei Zhang",
+          "Seonhoon Kim",
+          "Deuck Hang Lee",
+          "Hyunjin Ju",
+          "Jianwei Chen"
+        ],
+        "institutions": [],
+        "journal": "Engineering Structures",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7165037329",
+        "doi": "10.1016/j.engstruct.2026.123218",
+        "title": "Experimental and numerical study on impact resistance of RC slab strengthened with CFRP sheets",
+        "published": "2026-06-17",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.123218",
+        "authors": [
+          "Chen De",
+          "Wenbin Chen",
+          "Hao Wu"
+        ],
+        "institutions": [
+          "Ningbo University",
+          "Shanghai University",
+          "Tongji University"
+        ],
+        "journal": "Engineering Structures",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      },
+      {
+        "id": "https://openalex.org/W7165041254",
+        "doi": "10.1016/j.engstruct.2026.123226",
+        "title": "Active learning with single-loop expected improvement for multimodal reliability-based design optimization",
+        "published": "2026-06-17",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.123226",
+        "authors": [
+          "Yong Pang",
+          "Xiping Li",
+          "Wenzhong Liu",
+          "Shengning Wang",
+          "Jianfeng Li",
+          "M H Wang",
+          "Xueguan Song"
+        ],
+        "institutions": [
+          "Dalian University of Technology",
+          "State Key Laboratory of Vehicle NVH and Safety Technology",
+          "Inner Mongolia Electric Power (China)"
+        ],
+        "journal": "Engineering Structures",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7165028996",
+        "doi": "10.1016/j.engstruct.2026.123193",
+        "title": "A new proposal to determine inspection intervals for concrete bridges",
+        "published": "2026-06-17",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.123193",
+        "authors": [
+          "Cláudia Rafaela Saraiva de Melo Simões Nascimento",
+          "Naiara Meireles de Souza",
+          "Rachel Perez Palha"
+        ],
+        "institutions": [
+          "Universidade Federal de Pernambuco",
+          "Universidade Federal de Rondônia"
+        ],
+        "journal": "Engineering Structures",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7165032722",
+        "doi": "10.1016/j.engstruct.2026.123205",
+        "title": "Experimental investigation of a novel SMA-friction self-centering brace with adjustable mechanical characteristics",
+        "published": "2026-06-17",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.123205",
+        "authors": [
+          "Almas Erbolat",
+          "Fei Shi",
+          "Yun Zhou",
+          "Osman Özbulut",
+          "Özgür Avşar",
+          "Ali Bozer"
+        ],
+        "institutions": [
+          "Guangzhou University",
+          "University of Virginia",
+          "Eskisehir Technical University"
+        ],
+        "journal": "Engineering Structures",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      }
+    ],
+    "Ultrasonics": [],
+    "Tunnelling and Underground Space Technology": [
+      {
+        "id": "https://openalex.org/W7165043861",
+        "doi": "10.1016/j.tust.2026.107712",
+        "title": "Analytical stress calculation method of rock caverns for compressed air energy storage with non-hydrostatic ground stress under full bonding contact and Coulomb frictional contact conditions",
+        "published": "2026-06-17",
+        "url": "https://doi.org/10.1016/j.tust.2026.107712",
+        "authors": [
+          "Zhitao Lv",
+          "Zhicheng Luo",
+          "Ling Wan",
+          "Caichu Xia"
+        ],
+        "institutions": [
+          "Nanchang University",
+          "Nanchang Hangkong University",
+          "Ningbo University"
+        ],
+        "journal": "Tunnelling and Underground Space Technology",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Analytical / Theoretical"
+      },
+      {
+        "id": "https://openalex.org/W7164993943",
+        "doi": "10.1016/j.tust.2026.107881",
+        "title": "True triaxial physical simulation and characteristic analysis of rockburst in deep tunnels triggered by fatigue disturbance",
+        "published": "2026-06-17",
+        "url": "https://doi.org/10.1016/j.tust.2026.107881",
+        "authors": [
+          "Yunfeng Wu",
+          "Minzhen Zhang",
+          "C Li",
+          "Yu Wang",
+          "Dan Ma",
+          "Zhu Mingde",
+          "Changkun Sun",
+          "Peng Li"
+        ],
+        "institutions": [
+          "China University of Mining and Technology",
+          "Beijing Institute of Geology for Mineral Resources",
+          "University of Science and Technology Beijing"
+        ],
+        "journal": "Tunnelling and Underground Space Technology",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Numerical Simulation"
+      }
+    ],
+    "Rock Mechanics and Rock Engineering": [
+      {
+        "id": "https://openalex.org/W7165041382",
+        "doi": "10.1007/s00603-026-05698-3",
+        "title": "Numerical Study of Dynamic Mechanical Behaviour of Rocks with a Flaw Under Different Infilling Conditions Using a Strain Rate Enhanced Continuum Damage Model",
+        "published": "2026-06-17",
+        "url": "https://doi.org/10.1007/s00603-026-05698-3",
+        "authors": [
+          "Sachin Kumar",
+          "Arghya Das",
+          "Gaurav Tiwari"
+        ],
+        "institutions": [
+          "Indian Institute of Technology Kanpur"
+        ],
+        "journal": "Rock Mechanics and Rock Engineering",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Numerical Simulation"
+      }
+    ]
+  }
+}
