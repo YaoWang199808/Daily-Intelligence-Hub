@@ -1,0 +1,235 @@
+{
+  "date": "2026-06-19",
+  "journals": {
+    "Automation in Construction": [],
+    "Mechanical Systems and Signal Processing": [],
+    "Measurement": [
+      {
+        "id": "https://openalex.org/W7165043836",
+        "doi": "10.1016/j.measurement.2026.122301",
+        "title": "Online decoupled estimation of nitrogen oxide concentration in internal combustion engine SCR denitration process",
+        "published": "2026-06-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.122301",
+        "authors": [
+          "Zhaohui Mao",
+          "Hong Chen",
+          "Guangjun Wang",
+          "Tao Zhang",
+          "Baodeng Yue"
+        ],
+        "institutions": [],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7164879458",
+        "doi": "10.1016/j.measurement.2026.122291",
+        "title": "Signal enhancement mechanism of adjustable asymmetric tristable stochastic resonance and its application to weak feature detection of aerospace engines",
+        "published": "2026-06-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.122291",
+        "authors": [
+          "Jin Chen",
+          "Zhenyi Chen",
+          "Yanyang Zi",
+          "Yaguo Lei",
+          "H Z Chen",
+          "Tianyi Feng",
+          "Zi Wang"
+        ],
+        "institutions": [
+          "Xi'an Jiaotong University",
+          "Civil Aviation Administration of China",
+          "Pioneer (United States)",
+          "Space Engineering University"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7164846559",
+        "doi": "10.1016/j.measurement.2026.122280",
+        "title": "Omni-directional sensing and minimum distance calculation using a novel ultrasonic sensor ring system for safe human-robot collaboration",
+        "published": "2026-06-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.122280",
+        "authors": [
+          "Lijie Zhou",
+          "Jiahao Liang",
+          "Zhan Duan",
+          "Borui Li",
+          "H J Wang",
+          "Jia Zhang"
+        ],
+        "institutions": [],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7164838064",
+        "doi": "10.1016/j.measurement.2026.122271",
+        "title": "Metrological framework for digital twin-based measurement systems in cultural heritage: Uncertainty quantification and geometric quality assessment",
+        "published": "2026-06-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.122271",
+        "authors": [
+          "Juan Moyano",
+          "Elena Cabrera-Revuelta",
+          "David Marín",
+          "M.P. Revuelta"
+        ],
+        "institutions": [
+          "Universidad de Sevilla",
+          "Universidad de Cádiz"
+        ],
+        "journal": "Measurement",
+        "abstract": "Accurate geometric documentation of cultural heritage artifacts demands metrologically robust frameworks capable of quantifying measurement uncertainty across heterogeneous acquisition systems. This study proposes an integrated Digital Twin methodology for archaeological documentation, grounded in the Guide to the expression of Uncertainty in Measurement (GUM) and compliant with ISO 25178–600:2019 and EN 15757:2010 standards. The measurement framework integrates three complementary acquisition technologies: Structured Light 3D Scanners (SLS), Close-range Photogrammetry (SfM), and Smartphone-based LiDAR systems processed using SLAM algorithms (they process real-time depth measurements from smartphone LiDAR sensors), achieving sub-millimeter inter-system agreement ( σ = 0.57 - 0.80 m m ) validated through Cloud-to-Cloud comparison. The Combined expanded uncertainty 3 = ±2.62 (k = 2, 95% CI), is acceptable for heritage documentation. Metrological contributions include: (i) Uncertainty quantification for axial symmetry detection via Monte Carlo simulation ( n = 10 , 000 ), yielding positional uncertainties of ± 3.2 m m ; (ii) Geometric quality assessment protocols achieving reconstruction precision ( ± 2 - 4 m m ) below manufacturing tolerances of medieval ceramics ( ± 6 - 8 m m ); and (iii) Environmental monitoring with calibrated sensors meeting EN 15757 requirements ( T : ± 0 . 2 ° C , R H : ± 2 % ) . Structural validation via finite element analysis confirmed mechanical stability with a high safety margin, while spectroscopic measurements exhibited reproducibility suitable for reliable material classification. Overall, the proposed Digital Twin framework enables the transformation of archaeological artifacts into traceable cyber-physical representations with quantified confidence intervals, advancing the role of measurement science in cultural heritage documentation and conservation.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      },
+      {
+        "id": "https://openalex.org/W7164750320",
+        "doi": "10.1016/j.measurement.2026.122261",
+        "title": "Cost-effective and dynamic 3D measurement of discontinuous specular surfaces via optical transfer function-guided deflectometry",
+        "published": "2026-06-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.122261",
+        "authors": [
+          "Bo Wang",
+          "Lingbao Kong",
+          "Xiao Tang",
+          "Huixin Song"
+        ],
+        "institutions": [
+          "Shanghai University"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7164801244",
+        "doi": "10.1016/j.measurement.2026.122268",
+        "title": "Gas pipeline weak leakage detection and localization based on a hybrid signal processing and machine learning framework",
+        "published": "2026-06-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.122268",
+        "authors": [
+          "Xiaojuan Han",
+          "Ruiqi Fan",
+          "Xiwang Cui",
+          "Zhaoli Yan",
+          "Yuehua Chen"
+        ],
+        "institutions": [
+          "North China Electric Power University",
+          "Beijing Information Science & Technology University",
+          "Beijing University of Chemical Technology"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      },
+      {
+        "id": "https://openalex.org/W7164910905",
+        "doi": "10.1016/j.measurement.2026.122238",
+        "title": "Influence surfaces for reconstructing individual point loads and positions from multi-contact measurements on a single force plate",
+        "published": "2026-06-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.122238",
+        "authors": [
+          "Max Johannes Alois Fritzsche",
+          "Hagen Berthold",
+          "Steven Robert Lorenzen",
+          "Clemens Hübler"
+        ],
+        "institutions": [
+          "Technische Universität Darmstadt",
+          "Goethe University Frankfurt",
+          "Frankfurt University of Applied Sciences"
+        ],
+        "journal": "Measurement",
+        "abstract": "Force plates are the gold standard for measuring ground reaction forces, but their reliance on equilibrium equations limits them to single-contact measurements. When multiple point loads act simultaneously, conventional force plates yield only the combined force and center of pressure. The individual load contributions cannot be separated. This paper applies influence surface theory to extend force plate analysis beyond equilibrium-based methods. Instead of evaluating global force and moment balances, influence surfaces characterize how loads at different positions contribute to structural responses at individual supports. This enables load identification for multiple simultaneous contacts, with the number of separable loads determined by the available sensor count. The influence surfaces are trained from measurement data using Gaussian Process Regression, capturing the real plate behaviour without requiring finite element modelling. To reduce complexity, the inverse problem is addressed sequentially. First, load positions are estimated. Second, the horizontal force components are determined. The method is validated on a 2.5 m × 1.0 m force plate using static tests with known load positions. The approach successfully reconstructs individual load positions and three-dimensional forces for two simultaneous contacts. Walking trials are included as a demonstration of the methodology under realistic conditions.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      },
+      {
+        "id": "https://openalex.org/W7164944156",
+        "doi": "10.1016/j.measurement.2026.122289",
+        "title": "Intelligent on-machine measuring robot and assessment methods for internal contour parameters of deep-hole components",
+        "published": "2026-06-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.122289",
+        "authors": [
+          "Jintao Liang",
+          "Xiaotian Song",
+          "Yazhou Feng",
+          "Xiaolan Han"
+        ],
+        "institutions": [
+          "Xidian University",
+          "Xi'an Shiyou University",
+          "China Shenhua Energy (China)"
+        ],
+        "journal": "Measurement",
+        "abstract": "The diameter, roundness, and straightness of internal contours significantly dictate the mechanical performance, operational stability, and service life of deep-hole components. Consequently, accurate on-machine measurement during multi-stage manufacturing is essential for optimizing efficiency and ensuring production quality. This paper presents a wheel-driven intelligent robot designed to implement in-situ metrology for deep-hole components with diameters exceeding 60 mm and unrestricted axial lengths. The system features an integrated embedded control architecture and custom that utilizes the Least Squares Method (LSM) for the comprehensive assessment of diameter, roundness and straightness errors. Calibration with an 80 mm ring gauge yielded a diameter Type-A standard uncertainty of u d ≈ 0.003 mm, and combined standard uncertainty of u dc ≈ 0.0052 mm. The ring gauge roundness Type-A standard uncertainty is u fr ≈ 0.0011 mm, and combined standard uncertainty of u frc ≈ 0.0075 mm. For a 2 000 mm deep hole of 80 mm diameter, the mean straightness error is f s ≈ 0.501 mm, with expanded uncertainty of 0.035 mm at 95 % confidence. The results indicate that the proposed measuring robot provides a versatile and precise solution for the on-machine measurement of diverse deep-hole specifications, effectively eliminating the constraints imposed by extreme hole lengths.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7164822570",
+        "doi": "10.1016/j.measurement.2026.122134",
+        "title": "Cross-domain gear crack severity identification via multi-scale wavelet fusion and semi-supervised adversarial learning",
+        "published": "2026-06-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.122134",
+        "authors": [
+          "Caizi Fan",
+          "Hui Ma",
+          "Yongchao Zhang",
+          "Chao Zhao",
+          "Tianyi Yang"
+        ],
+        "institutions": [
+          "Northeastern University",
+          "Foshan University"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7164838475",
+        "doi": "10.1016/j.measurement.2026.122270",
+        "title": "Low-frequency electric-field sensing for non-contact measurement of segregation in slurry pipelines",
+        "published": "2026-06-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.122270",
+        "authors": [
+          "Z F Zhang",
+          "Guorui Feng",
+          "Dongchen Xie",
+          "Tingye Qi",
+          "Zi Wang",
+          "Yue Wang"
+        ],
+        "institutions": [
+          "Shanghai Jiao Tong University",
+          "Shanxi Coal Transportation and Sales Group (China)",
+          "Ningxia Center for Diseases Prevention and Control",
+          "Shanxi Science and Technology Department",
+          "Taiyuan University of Technology",
+          "University of Management and Technology"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      }
+    ],
+    "Engineering Structures": [],
+    "Ultrasonics": [],
+    "Tunnelling and Underground Space Technology": [],
+    "Rock Mechanics and Rock Engineering": []
+  }
+}
