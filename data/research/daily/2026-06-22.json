@@ -1,0 +1,473 @@
+{
+  "date": "2026-06-22",
+  "journals": {
+    "Automation in Construction": [],
+    "Mechanical Systems and Signal Processing": [
+      {
+        "id": "https://openalex.org/W7165475166",
+        "doi": "10.1016/j.ymssp.2026.114483",
+        "title": "Creating a smooth and wide attenuation band in the transmissibility of beam vibration using a neutraliser",
+        "published": "2026-06-22",
+        "url": "https://doi.org/10.1016/j.ymssp.2026.114483",
+        "authors": [
+          "Vinícius Germanos Cleante",
+          "T. R. Waters",
+          "M.J. Brennan",
+          "Paulo José Paupitz Gonçalves",
+          "Jean Paulo Carneiro",
+          "Domingos A. Rade"
+        ],
+        "institutions": [],
+        "journal": "Mechanical Systems and Signal Processing",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      }
+    ],
+    "Measurement": [
+      {
+        "id": "https://openalex.org/W7165385941",
+        "doi": "10.1016/j.measurement.2026.122309",
+        "title": "MFACNet: Multi-feature self-attention convolutional network for surface defect detection on automotive wheel hubs",
+        "published": "2026-06-19",
+        "url": "https://doi.org/10.1016/j.measurement.2026.122309",
+        "authors": [
+          "Lv Zhongliang",
+          "Pan Xu",
+          "Lei Yin",
+          "Yu Feng",
+          "Xuanlin Chen",
+          "Jianhang Cai",
+          "Lie Zhang",
+          "Jiaqiong Liu"
+        ],
+        "institutions": [
+          "Chongqing University of Science and Technology"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7164755516",
+        "doi": "10.1016/j.measurement.2026.121989",
+        "title": "A tightly coupled cross-modal perception and manifold-aware control framework for autonomous wind turbine inspection",
+        "published": "2026-06-14",
+        "url": "https://doi.org/10.1016/j.measurement.2026.121989",
+        "authors": [
+          "Ce Liang",
+          "Hang Sheng",
+          "Hui Feng",
+          "Bo Hu"
+        ],
+        "institutions": [
+          "Fudan University"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7165366448",
+        "doi": "10.1016/j.measurement.2026.122279",
+        "title": "Point-Hyena: A lightweight edge-deployable model for cattle body size measurement",
+        "published": "2026-06-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.122279",
+        "authors": [
+          "Zhi Weng",
+          "Zhao Boyang",
+          "Z-Y Zheng",
+          "Caili Gong",
+          "Tiangang Liang"
+        ],
+        "institutions": [
+          "Inner Mongolia University",
+          "Ministry of Agriculture and Rural Affairs",
+          "Institute of Grassland Research"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7165395291",
+        "doi": "10.1016/j.measurement.2026.122324",
+        "title": "A hybrid hilbert–huang and integrated kurtosis framework for automated leak detection and characterisation in pipeline systems",
+        "published": "2026-06-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.122324",
+        "authors": [
+          "Mohd Fairusham Ghazali",
+          "Muhammad Hanafi Yusop",
+          "Erdiwansyah Erdiwansyah",
+          "Semin",
+          "Hadi Suyono"
+        ],
+        "institutions": [
+          "Universiti Malaysia Pahang Al-Sultan Abdullah",
+          "Universitas Serambi Mekkah",
+          "Sepuluh Nopember Institute of Technology",
+          "University of Brawijaya"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7165159065",
+        "doi": "10.1016/j.measurement.2026.122307",
+        "title": "A Huber-based adaptive unscented Kalman filter for robust multi-AUV cooperative localization",
+        "published": "2026-06-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.122307",
+        "authors": [
+          "Youwei Zhai",
+          "Xu B",
+          "Jing Bai"
+        ],
+        "institutions": [
+          "Harbin Engineering University"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7165374084",
+        "doi": "10.1016/j.measurement.2026.122251",
+        "title": "Reconstruction of plate excitation forces via measurement of radiated acoustic fields",
+        "published": "2026-06-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.122251",
+        "authors": [
+          "Ronghua Li",
+          "Jingjun Lou",
+          "Liang Yu",
+          "Jiawen Chu",
+          "Jinfang Lu",
+          "Gaoquan Gu"
+        ],
+        "institutions": [
+          "Naval University of Engineering",
+          "Northwestern Polytechnical University",
+          "Structural Integrity Associates (United States)",
+          "System Simulation (United Kingdom)"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7165370302",
+        "doi": "10.1016/j.measurement.2026.122300",
+        "title": "A novel transformer winding fault diagnosis method based on OWA-FMD analysis and HO-CatBoost algorithm",
+        "published": "2026-06-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.122300",
+        "authors": [
+          "L D Zhang",
+          "Dongyang Wang",
+          "Xuanting He",
+          "Jun Deng",
+          "Anzhi Fu",
+          "Guochao Qian",
+          "W. Liu",
+          "Xi Zhang",
+          "Lijun Zhou"
+        ],
+        "institutions": [
+          "Southwest Jiaotong University",
+          "China Southern Power Grid (China)"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      },
+      {
+        "id": "https://openalex.org/W7165157634",
+        "doi": "10.1016/j.measurement.2026.122305",
+        "title": "An interpretable framework integrating multiphysics modeling and symbolic regression for battery state-of-health estimation",
+        "published": "2026-06-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.122305",
+        "authors": [
+          "Yincheng Wei",
+          "Ke Liu",
+          "Jing Rui",
+          "Shen Zhao",
+          "Qing Zhao"
+        ],
+        "institutions": [],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      },
+      {
+        "id": "https://openalex.org/W7165411390",
+        "doi": "10.1016/j.measurement.2026.122320",
+        "title": "Optical fiber curvature sensor based on MMF-SCF for real-time finger bending detection",
+        "published": "2026-06-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.122320",
+        "authors": [
+          "Min Shao",
+          "X. Zhang",
+          "Yuan Yubo",
+          "Zi Wang",
+          "Yinggang Liu",
+          "Xueguang Qiao"
+        ],
+        "institutions": [
+          "Xi'an Shiyou University",
+          "Northwest University"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7165476139",
+        "doi": "10.1016/j.measurement.2026.122329",
+        "title": "New procedure for selection and validation of “reference” TOC analyzers for ultrapure water based on experimental performance",
+        "published": "2026-06-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.122329",
+        "authors": [
+          "Nathalie Guigues",
+          "Pierre Caruso",
+          "Merina Corpinot",
+          "Stéphane Bruder",
+          "Joachim Magnier",
+          "Guylene Thermea-Givlin",
+          "Béatrice Lalère"
+        ],
+        "institutions": [
+          "Laboratoire National de Métrologie et d'Essais",
+          "Institut Jacques Monod",
+          "Merck Serono S.A.S. (France)"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      }
+    ],
+    "Engineering Structures": [
+      {
+        "id": "https://openalex.org/W7165412278",
+        "doi": "10.1016/j.engstruct.2026.123235",
+        "title": "Experimental investigation of ultimate lateral resistance of superstructure–steel pipe pile foundation–soil systems considering local buckling–induced strength deterioration of pile members",
+        "published": "2026-06-20",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.123235",
+        "authors": [
+          "Mutsuki Sato",
+          "Yoshihiro Kimura"
+        ],
+        "institutions": [
+          "Tohoku University"
+        ],
+        "journal": "Engineering Structures",
+        "abstract": "Steel pipe piles supporting buildings may lose lateral resistance during strong earthquakes because local buckling at pile heads degrades member strength under high axial force. Although the lateral resistance of single piles and pile groups has been widely studied, a rational framework for evaluating the ultimate lateral resistance of superstructure–pile foundation–soil systems while accounting for local buckling–induced strength deterioration is still lacking. This study proposes such a framework by integrating experimentally identified collapse mechanisms, finite element evaluation of degraded pile bending resistance, and virtual-work-based system analysis. Centrifuge lateral loading tests on two-pile foundations embedded in sand revealed that the ultimate state is governed by a two-hinge mechanism in each pile and that system collapse is triggered by hinge formation in the embedded portion of the back pile after progressive axial force redistribution and pile-head local buckling. Based on these observations, finite element analyses were used to quantify the degraded bending moment after local buckling through a plasticity-ratio-based procedure, and the system ultimate lateral resistance was then evaluated by accounting for the internal work of both piles and soil, including group pile effects. The study demonstrates that local buckling–induced deterioration is a decisive factor in the maximum lateral resistance of steel pipe pile foundation systems and provides a mechanics-based basis for performance-based design of building pile foundations.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      },
+      {
+        "id": "https://openalex.org/W7165400528",
+        "doi": "10.1016/j.engstruct.2026.123093",
+        "title": "Research on the constitutive bond-slip model and design methods of steel plate-rebar lap splices",
+        "published": "2026-06-19",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.123093",
+        "authors": [
+          "X.H. Zhou",
+          "Xin Nie",
+          "Ran Ding"
+        ],
+        "institutions": [
+          "Powerchina Huadong Engineering Corporation (China)",
+          "Zhejiang Medicine (China)",
+          "Tsinghua University"
+        ],
+        "journal": "Engineering Structures",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7165165219",
+        "doi": "10.1016/j.engstruct.2026.123239",
+        "title": "Constraint-based regulation of dynamic characteristics for aerospace pipes with complex shapes",
+        "published": "2026-06-19",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.123239",
+        "authors": [
+          "Yuchen Guo",
+          "Zhengbo Luo",
+          "Tian-Chang Deng",
+          "Hu Ding"
+        ],
+        "institutions": [
+          "University of Science and Technology of China",
+          "Wuhu Institute of Technology",
+          "Shanghai University"
+        ],
+        "journal": "Engineering Structures",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7165179362",
+        "doi": "10.1016/j.engstruct.2026.123225",
+        "title": "Full mechanical response prediction for staged prestressed composite beams driven by a hybrid GRU-VAE and BiLSTM framework",
+        "published": "2026-06-19",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.123225",
+        "authors": [
+          "Zexuan Sun",
+          "Tianxia Cui",
+          "Man Xu",
+          "Bin Zeng",
+          "Chun‐Lin Wang"
+        ],
+        "institutions": [
+          "Southeast University",
+          "China Design Group (China)",
+          "Beijing Building Construction Research Institute (China)"
+        ],
+        "journal": "Engineering Structures",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7165149467",
+        "doi": "10.1016/j.engstruct.2026.123220",
+        "title": "Innovative V-shaped buckle-based in-situ joint reinforcement technology for the transmission tower: Mechanistic synergy and quantitative tensile capacity enhancement",
+        "published": "2026-06-19",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.123220",
+        "authors": [
+          "Chongkai Fan",
+          "Yixin Xie",
+          "Lixiang Ye",
+          "Wenjun Tang",
+          "Dachang Zhang"
+        ],
+        "institutions": [],
+        "journal": "Engineering Structures",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7165117587",
+        "doi": "10.1016/j.engstruct.2026.123200",
+        "title": "Deformation mechanisms and quasi-static energy absorption of three-directional elliptical re-entrant lattice structures",
+        "published": "2026-06-19",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.123200",
+        "authors": [
+          "Tang Yuxin",
+          "Zhong Yifeng",
+          "Liu Rong",
+          "Leong Hien Poh"
+        ],
+        "institutions": [
+          "Chongqing University",
+          "National University of Singapore"
+        ],
+        "journal": "Engineering Structures",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7165113018",
+        "doi": "10.1016/j.engstruct.2026.123237",
+        "title": "Explainable stacked machine learning models for predicting fiber-reinforced polymer (FRP) bars–concrete interfacial bond strength retention in marine environments",
+        "published": "2026-06-19",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.123237",
+        "authors": [
+          "Metin Katlav",
+          "Kâzım Türk"
+        ],
+        "institutions": [],
+        "journal": "Engineering Structures",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Machine Learning"
+      },
+      {
+        "id": "https://openalex.org/W7165200131",
+        "doi": "10.1016/j.engstruct.2026.123202",
+        "title": "Experimental and numerical investigation on local buckling behaviour of perforated high-strength aluminium alloy H-section stub columns under axial compression",
+        "published": "2026-06-19",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.123202",
+        "authors": [
+          "Yecheng Dai",
+          "Yue Wang",
+          "Bo Li",
+          "Huan Lu",
+          "Mingze Wu",
+          "Shuai Mo"
+        ],
+        "institutions": [
+          "Tsinghua University",
+          "Hefei University of Technology",
+          "Guangxi University"
+        ],
+        "journal": "Engineering Structures",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      },
+      {
+        "id": "https://openalex.org/W7165117886",
+        "doi": "10.1016/j.engstruct.2026.123048",
+        "title": "Comparison between homogeneous beech and hybrid beech-silver fir glulam beams made with short supply chain timber",
+        "published": "2026-06-19",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.123048",
+        "authors": [
+          "Martina Sciomenta",
+          "Alfredo Peditto",
+          "Michela Nocetti",
+          "Michele Brunetti",
+          "Manuela Romagnoli",
+          "Massimo Fragiacomo",
+          "Giuseppe Scarascia Mugnozza"
+        ],
+        "institutions": [
+          "University of L'Aquila",
+          "Institute of Biosciences and Bioresources",
+          "Università degli Studi della Tuscia"
+        ],
+        "journal": "Engineering Structures",
+        "abstract": "The growing request of timber for high performance constructions coupled with the depletion of conifer resources due to the ecosystem modification caused by global warming, makes it necessary to explore alternative supply sources. Additionally, the increased emphasis on sustainability within the supply chain has strongly influenced the worldwide relaunch of small local businesses, aiming to provide regionally sourced materials while reducing environmental impact and fostering economic resilience. This study investigates the mechanical properties and bonding quality of homogeneous beech and hybrid beech-silver fir glulam beams produced using short supply chain timber from Southern Italy. This research aims at demonstrating the feasibility of a local production using underused hardwood species as beech. Mechanical characterization included bending and shear tests, as well as evaluations of finger joint and glue line performance. The achieved evidence demonstrated the goodness of both configurations that meet or exceed the standards for structural timber. In particular, the hybrid configuration proved to have comparable mechanical properties for homogeneous and hybrid beams while being lighter and more material-efficient. Bonding quality assessments revealed that finger joints performed satisfactorily for both species, with values exceeding the characteristic strength of the respective timber grades. Glue line strength was comparable to other literature results, though homogeneous beech beams faced challenges in delamination resistance, highlighting the need for further adhesive optimization. Conversely, hybrid beams exhibited superior bonding durability, effectively addressing hardwood gluing challenges. This research proved the potential of hardwood use for the realization of engineered products for structural applications; it also highlights the potential of hybrid configurations in optimizing material performance to realize high-performance structural components while supporting local timber supply chain. Future research should refine bonding techniques for hardwood glulam and explore alternative adhesives to further improve durability and performance.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7165116027",
+        "doi": "10.1016/j.engstruct.2026.123233",
+        "title": "Hierarchical physical-embedded enhancement network BPDA-Net for underwater structural defect",
+        "published": "2026-06-18",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.123233",
+        "authors": [
+          "Y W Zhang",
+          "Airong Liu",
+          "Shuai Teng",
+          "Zhihua Wu",
+          "Xudong Ren",
+          "Jiaquan Xu",
+          "Jie Yang"
+        ],
+        "institutions": [],
+        "journal": "Engineering Structures",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      }
+    ],
+    "Ultrasonics": [],
+    "Tunnelling and Underground Space Technology": [],
+    "Rock Mechanics and Rock Engineering": []
+  }
+}
