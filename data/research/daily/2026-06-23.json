@@ -1,0 +1,426 @@
+{
+  "date": "2026-06-23",
+  "journals": {
+    "Automation in Construction": [],
+    "Mechanical Systems and Signal Processing": [],
+    "Measurement": [
+      {
+        "id": "https://openalex.org/W7165404616",
+        "doi": "10.1016/j.measurement.2026.122288",
+        "title": "GRAM: Graph-Guided Robust Registration with multi-scale compatibility for point clouds",
+        "published": "2026-06-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.122288",
+        "authors": [
+          "Hao Tan",
+          "Zetao Lian",
+          "Jie Yang",
+          "Yue Wang"
+        ],
+        "institutions": [
+          "Anhui University of Science and Technology",
+          "Nanjing Surveying and Mapping Research Institute (China)",
+          "Wuhu Institute of Technology"
+        ],
+        "journal": "Measurement",
+        "abstract": "Point cloud registration remains difficult in spatial metrology and large-scale 3D sensing because cross-source data fusion suffers from extreme outlier ratios ( > 99 % ), heavy sensor noise, and unknown scale drift. Algorithms using a single, fixed distance threshold generally fail to separate true inliers from structured noise. To solve this, we propose GRAM: a Graph-Guided Robust Registration framework with Multi-Scale Compatibility. In its front-end, GRAM builds a multi-scale Second-Order Spatial Compatibility ( SC 2 ) pyramid to isolate true inliers from pseudo-structured outliers, using graph-derived confidence scores to form higher-order spatial hypotheses. To manage cross-source scale drift, the back-end uses a lightweight scale-consistency discriminator that automatically switches between two states: a hard truncation mode for rigid SE ( 3 ) precision, and a progressive annealing mode for Sim ( 3 ) scale compensation. We tested GRAM across standard datasets, including long-term mobile mapping (KITTI) and large-scale topographic measurement (WHU-TLS). The results show it provides a reliable, fast, and practical registration solution for field environments with extreme outliers.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7165392221",
+        "doi": "10.1016/j.measurement.2026.122255",
+        "title": "Smartphone-based photogrammetry for synthetic surface crack detection in reinforced concrete bridge structures",
+        "published": "2026-06-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.122255",
+        "authors": [
+          "Sharon Fajemiyo",
+          "Ekin Özer"
+        ],
+        "institutions": [
+          "University College Dublin"
+        ],
+        "journal": "Measurement",
+        "abstract": "Surface cracking in reinforced concrete bridges is a critical indicator of structural deterioration. Recent studies merge computer vision and point cloud data for crack detection but require scientific-grade instrumentation and aerial data. This study investigates a citizen science approach: smartphone-based photogrammetry as a low-cost solution for capturing and interpreting such damage under real lighting conditions. Smartphone photogrammetric models were created and analysed through visual inspection, RGB colour variance, point cloud alignment via Iterative Closest Point (ICP), and lightweight image-based detection algorithms, including thresholding, subtraction, structural similarity index measure (SSIM), and edge detection. Results show that, with optimised image capture and prioritising lighting, angle diversity, and overlap, synthetic surface cracks simulating shear and flexural failures are detectable. While RGB variance shows diagnostic limitations due to environmental sensitivity, ICP-enabled spatial coherence proved crucial for comparative analysis. While direct thresholding yielded more interpretable features in a qualitative setting, it is observed that quantitative algorithmic performance remains mixed depending on the evaluation metric. Notable examples include direct thresholding with better precision findings, whereas SSIM and edge detection indicate better recall rates. With a structured workflow, consumer-grade devices offer a scalable alternative to traditional reconnaissance methods.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7165477409",
+        "doi": "10.1016/j.measurement.2026.122327",
+        "title": "TEHD lubrication reliability analysis of wind turbine gearbox journal bearings under epistemic uncertainty via sequential iterative response surface",
+        "published": "2026-06-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.122327",
+        "authors": [
+          "Wengui Mao",
+          "Zhikai Deng",
+          "Kai Li",
+          "H. Li",
+          "Jianhua Li",
+          "Zhao Xiao"
+        ],
+        "institutions": [
+          "Hunan Institute of Engineering",
+          "Hunan University of Science and Technology"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7165163641",
+        "doi": "10.1016/j.measurement.2026.122317",
+        "title": "Dynamic spindle thermal error prediction: a multi-view spatio-temporal graph neural network approach",
+        "published": "2026-06-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.122317",
+        "authors": [
+          "Shenqi Li",
+          "Guangyuan Tang",
+          "Yongrong Liu",
+          "Sitong Xiang"
+        ],
+        "institutions": [
+          "Ningbo University",
+          "Motion Control (United States)",
+          "Zhejiang Medicine (China)",
+          "Genertec Shenyang Machine Tool Co., Ltd. (China)",
+          "CNC Technology (Czechia)"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      },
+      {
+        "id": "https://openalex.org/W7165361843",
+        "doi": "10.1016/j.measurement.2026.122316",
+        "title": "Campbell diagram analysis method of a bladed disk considering mistuning effect",
+        "published": "2026-06-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.122316",
+        "authors": [
+          "C Wang",
+          "Mingyang Yuan",
+          "Yuhang Zhang",
+          "Hongkun Li"
+        ],
+        "institutions": [
+          "Dalian University of Technology"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7165136923",
+        "doi": "10.1016/j.measurement.2026.122281",
+        "title": "Multiphase measurements and virtual flow metering in the petroleum industry: a review",
+        "published": "2026-06-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.122281",
+        "authors": [
+          "Anton Gryzlov",
+          "Muhammad Arsalan"
+        ],
+        "institutions": [
+          "Saudi Aramco (Saudi Arabia)"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Review / Survey"
+      },
+      {
+        "id": "https://openalex.org/W7165386649",
+        "doi": "10.1016/j.measurement.2026.122282",
+        "title": "Characterization of anisotropy and stress in pipes by ultrasonic method",
+        "published": "2026-06-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.122282",
+        "authors": [
+          "Y K.M. Peng",
+          "Li jian Yang",
+          "Weilin Shao"
+        ],
+        "institutions": [
+          "Shenyang University of Technology",
+          "China Special Equipment Inspection and Research Institute"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7165359186",
+        "doi": "10.1016/j.measurement.2026.122325",
+        "title": "ECViT: A novel domain incremental fault diagnosis framework for axial piston pump",
+        "published": "2026-06-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.122325",
+        "authors": [
+          "Z F Zhang",
+          "Xu Yang",
+          "Dong Han",
+          "Rulin Zhou",
+          "Lijie Jiang"
+        ],
+        "institutions": [
+          "Shandong University of Science and Technology",
+          "Zhejiang University",
+          "Tianma Microelectronics (China)",
+          "China Railway Group (China)"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7165446487",
+        "doi": "10.1016/j.measurement.2026.122292",
+        "title": "Rapid non-contact detection of ballastless track void using laser Doppler vibrometry and vibration-based method",
+        "published": "2026-06-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.122292",
+        "authors": [
+          "Shichuan Liang",
+          "Qingquan Li",
+          "Zhipeng Chen",
+          "Dejin Zhang"
+        ],
+        "institutions": [
+          "Shenzhen University",
+          "Shenzhen Bay Laboratory"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7165487674",
+        "doi": "10.1016/j.measurement.2026.122304",
+        "title": "A quantitative characterization method of pore water volume in cement hydration process based on low field nuclear magnetic resonance",
+        "published": "2026-06-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.122304",
+        "authors": [
+          "Fukai Ye",
+          "Suping Cui",
+          "Dajiang Zhang",
+          "Qiong Feng",
+          "Yong Fu",
+          "Jie Zhang",
+          "Hongxia Qiao"
+        ],
+        "institutions": [],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      }
+    ],
+    "Engineering Structures": [
+      {
+        "id": "https://openalex.org/W7165187070",
+        "doi": "10.1016/j.engstruct.2026.123198",
+        "title": "Experimental dynamic out-of-plane response of masonry buildings: mechanism activation, progression, and collapse",
+        "published": "2026-06-18",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.123198",
+        "authors": [
+          "Dario Vecchio",
+          "Babar Ilyas",
+          "Nuno Mendes",
+          "Paulo B. Lourenço"
+        ],
+        "institutions": [
+          "University of Minho"
+        ],
+        "journal": "Engineering Structures",
+        "abstract": "Many uncertainties are related to the seismic out-of-plane (OOP) response of unreinforced masonry (URM) structures. Challenges include the prediction of the triggering acceleration, velocity, and their role on the final collapse mechanism. To date, shake-table tests have investigated limited boundary condition scenarios, and the common unrestrained wall-to-wall and wall-to-diaphragm connections lack investigation. These conditions lead to hybrid two-way bending, a response featuring simultaneous rocking and horizontal bending, so far observed only in a static environment. This paper discusses an extensive shake-table campaign comprising 211 tests to observe the OOP response of URM specimens with no top horizontal connection subjected to structural and input variations. A novel methodology combining dynamic testing and Digital Image Correlation (DIC) techniques is proposed. Mechanism interaction is addressed in three instances, namely activation, progression, and near-collapse. Results demonstrate the existence of hybrid two-way bending, characterised by sustained horizontal one-way bending cycles, and short, sudden rocking events. Five distinct collapse mechanisms are observed, thereby strengthening the literature on the issue. The campaign has generated a robust experimental dataset, which supports validation of analytical and numerical models, as well as further probabilistic analyses (i.e., fragility analysis).",
+        "citation_count": 0,
+        "method": "Hybrid"
+      },
+      {
+        "id": "https://openalex.org/W7165139503",
+        "doi": "10.1016/j.engstruct.2026.123228",
+        "title": "Human-induced vibration assessment of a three-limbed pedestrian bridge based on field measurements",
+        "published": "2026-06-18",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.123228",
+        "authors": [
+          "Huaquan Cai",
+          "Youqin Huang",
+          "Shuai Teng",
+          "Airong Liu",
+          "Weiqiang Cai",
+          "Yonghui Huang",
+          "Jie Yang"
+        ],
+        "institutions": [],
+        "journal": "Engineering Structures",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7165130260",
+        "doi": "10.1016/j.engstruct.2026.123217",
+        "title": "Climate change-oriented corrosion analysis for service bridges in China based on probabilistic carbonation models",
+        "published": "2026-06-18",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.123217",
+        "authors": [
+          "Yuntao Zhu",
+          "De‐Cheng Feng",
+          "Mark G. Stewart",
+          "Y Li"
+        ],
+        "institutions": [
+          "Southeast University",
+          "University of Technology Sydney",
+          "Case Western Reserve University"
+        ],
+        "journal": "Engineering Structures",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7165129864",
+        "doi": "10.1016/j.engstruct.2026.123211",
+        "title": "Fast Bayesian time domain approach based on correlation function for modal identification using ambient vibration data",
+        "published": "2026-06-18",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.123211",
+        "authors": [
+          "Y U Yang",
+          "Yichen Zhu",
+          "C.S. Cai"
+        ],
+        "institutions": [],
+        "journal": "Engineering Structures",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7165156644",
+        "doi": "10.1016/j.engstruct.2026.123207",
+        "title": "Seismic performance of shear walls with variable phases of deformation: Parametric sensitivity analysis and equivalent damping modeling",
+        "published": "2026-06-18",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.123207",
+        "authors": [
+          "Ronghua Li",
+          "Gang Li",
+          "Jialong Li",
+          "Dinghao Yu",
+          "Zhi‐Qian Dong"
+        ],
+        "institutions": [],
+        "journal": "Engineering Structures",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Numerical Simulation"
+      },
+      {
+        "id": "https://openalex.org/W7165199415",
+        "doi": "10.1016/j.engstruct.2026.123229",
+        "title": "Coupled size-dependent damping mechanisms in viscoelastic functionally graded nanoplates on generalized foundations",
+        "published": "2026-06-18",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.123229",
+        "authors": [
+          "Pham Van Vinh"
+        ],
+        "institutions": [
+          "Le Quy Don Technical University",
+          "Peter the Great St. Petersburg Polytechnic University",
+          "Institute of Problems of Mechanical Engineering"
+        ],
+        "journal": "Engineering Structures",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7165154156",
+        "doi": "10.1016/j.engstruct.2026.123174",
+        "title": "Cyclic drift capacity and modeling of slab-column connections with and without shear reinforcement",
+        "published": "2026-06-18",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.123174",
+        "authors": [
+          "Kanit Akanit",
+          "Eknara Junda",
+          "Sutat Leelataviwat",
+          "Ketsarin Chawgien",
+          "Sumet Kiatmetha"
+        ],
+        "institutions": [
+          "King Mongkut's University of Technology Thonburi",
+          "Nakhon Pathom Rajabhat University",
+          "Toray (Thailand)"
+        ],
+        "journal": "Engineering Structures",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Numerical Simulation"
+      },
+      {
+        "id": "https://openalex.org/W7165131040",
+        "doi": "10.1016/j.engstruct.2026.123194",
+        "title": "Joint estimation of railway ballasted track irregularities and stiffness using dual Kalman filter strategy and dynamic vehicle-track model",
+        "published": "2026-06-18",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.123194",
+        "authors": [
+          "Xiaodong Han",
+          "Shaoguang Li",
+          "Liangliang Cheng"
+        ],
+        "institutions": [],
+        "journal": "Engineering Structures",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7165117355",
+        "doi": "10.1016/j.engstruct.2026.123232",
+        "title": "Separating mass and boundary-condition effects on traffic-induced modal frequency changes in a girder bridge using controlled loading and finite-element modeling",
+        "published": "2026-06-18",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.123232",
+        "authors": [
+          "Wen‐Hwa Wu",
+          "Chien‐Chou Chen",
+          "Yuehua Chen"
+        ],
+        "institutions": [
+          "National Yunlin University of Science and Technology"
+        ],
+        "journal": "Engineering Structures",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Numerical Simulation"
+      },
+      {
+        "id": "https://openalex.org/W7165127751",
+        "doi": "10.1016/j.engstruct.2026.123210",
+        "title": "Inverse identification of wind turbine horizontal thrust on steel-concrete hybrid tower using intelligent algorithm",
+        "published": "2026-06-18",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.123210",
+        "authors": [
+          "Shou-Zhen Li",
+          "Yu-Hang Wang",
+          "Jinjin Wang",
+          "Ran Deng",
+          "Chao Hu",
+          "Liming Jiang"
+        ],
+        "institutions": [
+          "Hong Kong Polytechnic University",
+          "Chongqing University",
+          "Shenzhen Polytechnic University"
+        ],
+        "journal": "Engineering Structures",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      }
+    ],
+    "Ultrasonics": [],
+    "Tunnelling and Underground Space Technology": [],
+    "Rock Mechanics and Rock Engineering": []
+  }
+}
