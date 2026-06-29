@@ -1,0 +1,284 @@
+{
+  "date": "2026-06-29",
+  "journals": {
+    "Automation in Construction": [
+      {
+        "id": "https://openalex.org/W7166435645",
+        "doi": "10.1016/j.autcon.2026.107119",
+        "title": "Make it till you fake it II: Synthetic deep active learning for construction domain adaptation",
+        "published": "2026-06-28",
+        "url": "https://doi.org/10.1016/j.autcon.2026.107119",
+        "authors": [
+          "Ali Tohidifar",
+          "D H Kim"
+        ],
+        "institutions": [
+          "University of Toronto"
+        ],
+        "journal": "Automation in Construction",
+        "abstract": "The scarcity of task-aligned training data remains a primary bottleneck in advancing vision-based construction automation. This paper introduces Synthetic Deep Active Learning (SDAL), a fully automated, end-to-end framework that integrates controllable image synthesis, automatic labeling, and active learning in an iterative loop. SDAL employs an Oracle module to automatically identify high-loss cases, generates and labels look-alike synthetic images for these scenarios via a BlendCon module, and retrains the model with increasingly targeted samples. This automated loop eliminates manual labeling, reduces computational burden, and continually improves domain alignment. In construction worker detection, SDAL achieves a + 13.14% AP (0.5:0.95) improvement over benchmark models and outperforms state-of-the-art baselines under equal computational budgets. By enabling models to be rapidly adapted and redeployed across diverse projects with minimal supervision, SDAL introduces another pathway for synthetic data–driven learning in construction, bridging the persistent gap between research innovations and real-world deployment.",
+        "citation_count": 0,
+        "method": "Other"
+      }
+    ],
+    "Mechanical Systems and Signal Processing": [
+      {
+        "id": "https://openalex.org/W7166436486",
+        "doi": "10.1016/j.ymssp.2026.114616",
+        "title": "Waveform command shaper design based on the designed fixed-output response method for residual vibration mitigation in an underactuated double-pendulum crane system with hoisting and lowering",
+        "published": "2026-06-28",
+        "url": "https://doi.org/10.1016/j.ymssp.2026.114616",
+        "authors": [
+          "Mohammed Alfares",
+          "Jasem Baroon",
+          "Khaled A. Alhazza"
+        ],
+        "institutions": [
+          "Kuwait University"
+        ],
+        "journal": "Mechanical Systems and Signal Processing",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7166448006",
+        "doi": "10.1016/j.ymssp.2026.114607",
+        "title": "A modal high-order moments-based spectral framework for fast full-field non-Gaussian random vibration fatigue analysis",
+        "published": "2026-06-28",
+        "url": "https://doi.org/10.1016/j.ymssp.2026.114607",
+        "authors": [
+          "Wuyang Lei",
+          "Yu Jiang",
+          "Yawen Tian",
+          "Xiao Xiao",
+          "X J Zhou",
+          "Jinhao Zhang"
+        ],
+        "institutions": [
+          "National University of Defense Technology"
+        ],
+        "journal": "Mechanical Systems and Signal Processing",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      }
+    ],
+    "Measurement": [
+      {
+        "id": "https://openalex.org/W7166020790",
+        "doi": "10.1016/j.measurement.2026.122372",
+        "title": "An in-situ air-coupled nonlinear ultrasonic approach integrated with bidirectional LSTM for determination of multiple crack parameters during asphalt mixture self-healing",
+        "published": "2026-06-26",
+        "url": "https://doi.org/10.1016/j.measurement.2026.122372",
+        "authors": [
+          "Long Li",
+          "Jun Chen",
+          "H Z Chen"
+        ],
+        "institutions": [
+          "Beihang University",
+          "University of Science and Technology Beijing"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7166134808",
+        "doi": "10.1016/j.measurement.2026.122376",
+        "title": "A semi-analytical method for efficient directivity simulation of receiving transducers in uniform background flow",
+        "published": "2026-06-26",
+        "url": "https://doi.org/10.1016/j.measurement.2026.122376",
+        "authors": [
+          "Jilong Ma",
+          "Hua Yang"
+        ],
+        "institutions": [
+          "Ocean University of China"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      },
+      {
+        "id": "https://openalex.org/W7166175563",
+        "doi": "10.1016/j.measurement.2026.122375",
+        "title": "Discrete and continuous subsurface property retrieval from sparse radar observations using physics-informed neural networks",
+        "published": "2026-06-26",
+        "url": "https://doi.org/10.1016/j.measurement.2026.122375",
+        "authors": [
+          "I. Ab Aziz",
+          "Mohamad Alipour"
+        ],
+        "institutions": [
+          "University of Illinois Urbana-Champaign"
+        ],
+        "journal": "Measurement",
+        "abstract": "In various applications, ranging from environmental surveys of soils to non-destructive evaluation of infrastructure, radar sensing can be used to estimate dielectric properties (e.g., permittivity) of subsurface materials, such as soil, biomass, concrete, and asphalt. Subsurface material property can be discrete, layered, or continuously (gradually) varying. We present a physics-informed neural network (PINN)-based framework that can estimate both discrete and continuous permittivity of materials from sparse radar measurements. Unlike traditional deep learning methods, PINN satisfies both measurement data and radar physics (i.e., Maxwell’s equations) and can be trained on a very few measured waveforms. We validated the framework with both simulations and custom-built radar experiments on multi-layered natural materials. The permittivity predicted by the proposed method agrees well with the permittivity measured with an external in-situ sensor for both discrete ( R 2 ≈ 0.93) and continuous cases. The proposed PINN model can accurately predict a smoothly varying permittivity profile and even capture subtle variations in permittivity ( Δ ε r ≈ 2). Parametric analysis reveals that accurate profiles can be recovered with as few as three strategically placed sensors in two-layer systems. This approach is applicable to scenarios with both known and unknown material layering and boundaries. It outperforms the existing model-updating approach in cases involving unknown material boundaries and limited observed data, enabling advanced electromagnetic characterization using low-cost radar systems.",
+        "citation_count": 0,
+        "method": "Review / Survey"
+      },
+      {
+        "id": "https://openalex.org/W7165929687",
+        "doi": "10.1016/j.measurement.2026.122360",
+        "title": "Fabrication, IoT-enabled performance monitoring and FESEM-EDS analysis of cadmium-coated micro-textured cutting inserts during dry turning of Al6061-T6",
+        "published": "2026-06-25",
+        "url": "https://doi.org/10.1016/j.measurement.2026.122360",
+        "authors": [
+          "Padmaja Anipey",
+          "M. Rajasekhar"
+        ],
+        "institutions": [
+          "GITAM University"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7165488930",
+        "doi": "10.1016/j.measurement.2026.122308",
+        "title": "Corrosion mitigation in reinforced concrete: A study on 1-butoxy propan-2-ol in chloride-rich environments",
+        "published": "2026-06-21",
+        "url": "https://doi.org/10.1016/j.measurement.2026.122308",
+        "authors": [
+          "Smrithy Subash",
+          "Sumedha Moharana"
+        ],
+        "institutions": [
+          "Shiv Nadar University"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7166295020",
+        "doi": "10.1016/j.measurement.2026.122384",
+        "title": "Assessing bone degradation-induced prosthesis loosening using harmonic vibration analysis",
+        "published": "2026-06-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.122384",
+        "authors": [
+          "Qingsong Zhou",
+          "L.R. Francis Rose",
+          "Peter R. Ebeling",
+          "M. Russ",
+          "M. Fitzgerald",
+          "Wing Kong Chiu"
+        ],
+        "institutions": [
+          "Monash University",
+          "The Alfred Hospital",
+          "National Trauma Research Institute"
+        ],
+        "journal": "Measurement",
+        "abstract": "Detecting interfacial slippage from weak nonlinear vibration signatures presents a fundamental challenge in contact interface measurement. Under conventional vibration excitation alone, interfaces with partial contact degradation exhibit near-linear dynamic behaviour, and higher-order harmonic components cannot be reliably identified. This study presents a preload-assisted harmonic measurement methodology in which axial compressive load is applied as a measurement conditioning variable during torsional harmonic excitation, driving the interface toward its slippage threshold and amplifying the nonlinear harmonic response. The methodology was validated using press-fit bone-implant models with varied cortical thickness, providing a controlled range of interfacial contact conditions representative of progressive contact degradation. Push-in tests confirmed that cortical thinning reduces contact pressure and load-bearing capacity, lowering the threshold for interfacial slippage. Vibration measurements at the first torsional resonance demonstrated that axial preload significantly amplifies higher-order harmonic components, with harmonic amplitude serving as a direct indicator of interfacial slip events. The proposed measurement protocol provides a novel approach to contact interface assessment, applicable beyond the biomedical context to any system in which interfacial degradation must be identified from weak nonlinear signatures under conventional excitation conditions.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7166477212",
+        "doi": "10.1016/j.measurement.2026.122387",
+        "title": "Spatially distributed sensing in PVDF-based smart tires for real-time road anomaly detection",
+        "published": "2026-06-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.122387",
+        "authors": [
+          "Yuyi Chen",
+          "R T. Wang",
+          "Zhuoyang Li",
+          "Jiachen Shang",
+          "Zexiang Tong",
+          "Jianyi Xu",
+          "Yaoguang Cao",
+          "Shichun Yang"
+        ],
+        "institutions": [
+          "Zhejiang International Studies University",
+          "Beihang University",
+          "Ministry of Industry and Information Technology"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7166300645",
+        "doi": "10.1016/j.measurement.2026.122377",
+        "title": "Simulation-Driven digital twin framework for fast virtual measurement and optimization of a 71-Level hybrid cascaded H-bridge inverter",
+        "published": "2026-06-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.122377",
+        "authors": [
+          "Zain Ul Abideen Chudary",
+          "Muhammad Ijlal Abbas Haider",
+          "Hasnain Lakhair",
+          "Mostafa Jabari",
+          "Serdar Ekinci",
+          "Davut İzci"
+        ],
+        "institutions": [],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      },
+      {
+        "id": "https://openalex.org/W7166362072",
+        "doi": "10.1016/j.measurement.2026.122382",
+        "title": "A laser-induced transient thermal grating method for localized stress evaluation with tunable wavelength",
+        "published": "2026-06-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.122382",
+        "authors": [
+          "Gaorui Chen",
+          "Liyue Xu",
+          "Feiyang Sun",
+          "Haochen Liu",
+          "Chengyi Zhang",
+          "Haining Qian",
+          "Fan Li",
+          "Xiang Xiangjun",
+          "Shi Fan",
+          "X X Xu"
+        ],
+        "institutions": [
+          "Institute of Acoustics",
+          "Nanjing University",
+          "Sichuan Mianyang 404 Hospital",
+          "Hong Kong University of Science and Technology"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7166352164",
+        "doi": "10.1016/j.measurement.2026.122385",
+        "title": "Conformance limits for geometric deviations in press-bent seamless steel tubes",
+        "published": "2026-06-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.122385",
+        "authors": [
+          "Syafiq Ade Priyatama",
+          "I Komang Surya Adi Putra",
+          "Bentang Arief Budiman"
+        ],
+        "institutions": [
+          "Bandung Institute of Technology"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      }
+    ],
+    "Engineering Structures": [],
+    "Ultrasonics": [],
+    "Tunnelling and Underground Space Technology": [],
+    "Rock Mechanics and Rock Engineering": []
+  }
+}
