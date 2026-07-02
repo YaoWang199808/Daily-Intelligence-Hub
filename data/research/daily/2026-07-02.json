@@ -1,0 +1,354 @@
+{
+  "date": "2026-07-02",
+  "journals": {
+    "Automation in Construction": [],
+    "Mechanical Systems and Signal Processing": [
+      {
+        "id": "https://openalex.org/W7166559449",
+        "doi": "10.1016/j.ymssp.2026.114604",
+        "title": "Robust dynamic contrastive learning framework for wear fault diagnosis of hydrodynamic mechanical seals with imbalanced samples",
+        "published": "2026-06-29",
+        "url": "https://doi.org/10.1016/j.ymssp.2026.114604",
+        "authors": [
+          "Zheng Shi",
+          "Luofeng Xie",
+          "Weimin Liu",
+          "Ming Yin",
+          "Guofu Yin"
+        ],
+        "institutions": [],
+        "journal": "Mechanical Systems and Signal Processing",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7166559514",
+        "doi": "10.1016/j.ymssp.2026.114600",
+        "title": "Measurement of high-frequency vibration modes using event cameras and low-rank tensor completion",
+        "published": "2026-06-29",
+        "url": "https://doi.org/10.1016/j.ymssp.2026.114600",
+        "authors": [
+          "Yuki Kato",
+          "Takumi Miyamoto"
+        ],
+        "institutions": [
+          "Kochi University of Technology"
+        ],
+        "journal": "Mechanical Systems and Signal Processing",
+        "abstract": "Various optical methods have been developed to visualize and measure dynamic structural behaviors, such as vibration modes and frequency spectra, for detecting fastener loosening and crack propagation. However, capturing high-frequency vibration modes typically requires high-speed cameras, which involve substantial power consumption, data volume, and cost. This study addresses these challenges by introducing a vibration measurement method based on an event camera, which records only logarithmic changes in luminance, combined with rectangular tracking and low-rank tensor completion for displacement reconstruction. The proposed method was experimentally validated through vibration measurements of a 630-mm-long polyvinyl chloride pipe and a coil spring. The results demonstrated that the method can quantitatively measure displacement waveforms under single-frequency, multi-frequency, and band-limited noise excitation conditions. For the pipe vibration tests, the normalized mean squared error (MSE) of the measured displacement waveform was less than 3% at relatively large displacement amplitudes of approximately 0.5 pixels, corresponding to 0.25 mm. Even at smaller amplitudes of approximately 0.1 pixels, corresponding to 0.05 mm, the MSE remained below 25%, demonstrating that the proposed method can quantitatively measure subpixel vibrations. The vibration modes exhibited a modal assurance criterion ≥ 0.9 under all test conditions, demonstrating excellent agreement with finite-element method results. Additionally, the proposed approach successfully detected changes in vibration modes caused by loosened bolted joints. The upper frequency measurement limit was assessed using an ultrasonic transducer experiment, achieving quantitative displacement spectrum measurements at a vibration frequency of 19.75 kHz and amplitudes of 30.1–37.6 μm. The mean MSE was below 10% for frequencies above 1 kHz. However, since ultrasonic vibrations are extremely subtle, it is necessary to zoom in significantly to capture them, and we have not yet been able to measure the vibration modes; this will be a topic for future research.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      },
+      {
+        "id": "https://openalex.org/W7166549148",
+        "doi": "10.1016/j.ymssp.2026.114622",
+        "title": "An improved dynamic model for defective Inter-Shaft bearing incorporating rolling element dimensions and Multi-Impact vibration behavior analysis",
+        "published": "2026-06-29",
+        "url": "https://doi.org/10.1016/j.ymssp.2026.114622",
+        "authors": [
+          "Tian Gao",
+          "Kang-ning Song",
+          "Simin Yuan",
+          "Ying Liu",
+          "Lei Hou"
+        ],
+        "institutions": [
+          "Shijiazhuang Tiedao University",
+          "Harbin Institute of Technology"
+        ],
+        "journal": "Mechanical Systems and Signal Processing",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      }
+    ],
+    "Measurement": [
+      {
+        "id": "https://openalex.org/W7166720837",
+        "doi": "10.1016/j.measurement.2026.122357",
+        "title": "Noncontact identification of rotational frequencies in aerospace ball bearings based on time-frequency analysis of weak magnetic signals",
+        "published": "2026-06-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.122357",
+        "authors": [
+          "Xiaofeng Bai",
+          "Aftab Alam Khan",
+          "Chaohui Li",
+          "Chengwei Li"
+        ],
+        "institutions": [],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7166657647",
+        "doi": "10.1016/j.measurement.2026.122419",
+        "title": "Design and simulation of 3D-solid state capacitive interdigitated electrodes (IDEs) for potential sensing applications",
+        "published": "2026-06-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.122419",
+        "authors": [
+          "Asmita Mojumdar",
+          "Ayush Tiwari",
+          "Manoj Kumar Baghel",
+          "Rangadhar Pradhan",
+          "N. Ramakrishnan",
+          "P. Gopinath"
+        ],
+        "institutions": [],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      },
+      {
+        "id": "https://openalex.org/W7166694665",
+        "doi": "10.1016/j.measurement.2026.122408",
+        "title": "Incremental electricity theft detection model based on cloud-edge collaborative multimodal data fusion measurement",
+        "published": "2026-06-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.122408",
+        "authors": [
+          "Yan Zhao",
+          "Shanshan Yin",
+          "Jun Wang",
+          "Shitong Yue",
+          "Xi Zhang",
+          "Jun Zhao",
+          "Jingtao Huang"
+        ],
+        "institutions": [],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7166533413",
+        "doi": "10.1016/j.measurement.2026.122400",
+        "title": "A DOA matrix method for two-dimensional angle estimation using cylindrical hydrophone array",
+        "published": "2026-06-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.122400",
+        "authors": [
+          "Xinjing Huang",
+          "H Z Chen",
+          "Chenwu Jia",
+          "Zan Li",
+          "Jinyu Ma"
+        ],
+        "institutions": [
+          "Tianjin University",
+          "Guilin University of Electronic Technology"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7166564810",
+        "doi": "10.1016/j.measurement.2026.122398",
+        "title": "LF-NMR measurement of pore-fracture evolution and permeability response in different-rank coals under unloading stress paths",
+        "published": "2026-06-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.122398",
+        "authors": [
+          "Yang Zhao",
+          "Weilong Ding",
+          "Mengqin Ye",
+          "Liu T",
+          "Yong Sun",
+          "Fangkai Quan"
+        ],
+        "institutions": [
+          "Anhui University of Science and Technology",
+          "China University of Mining and Technology"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7166503945",
+        "doi": "10.1016/j.measurement.2026.122396",
+        "title": "An auto-encoding elastic sparse banded attention transformer for quality indicator prediction using near-infrared spectroscopy",
+        "published": "2026-06-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.122396",
+        "authors": [
+          "Shengjun Piao",
+          "Qi Li",
+          "Wei Ba"
+        ],
+        "institutions": [],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      },
+      {
+        "id": "https://openalex.org/W7166660661",
+        "doi": "10.1016/j.measurement.2026.122349",
+        "title": "Quantifying manual tunnel wet-spraying based on local wall-state units and behavior-primitive representation",
+        "published": "2026-06-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.122349",
+        "authors": [
+          "Degang Xu",
+          "Yonghao Huang",
+          "Jiawei Tang",
+          "Shiyu Fang"
+        ],
+        "institutions": [],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7166537590",
+        "doi": "10.1016/j.measurement.2026.122391",
+        "title": "Sound pressure correction for coupled heat conduction and pressure leakage in infrasonic laser pistonphones",
+        "published": "2026-06-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.122391",
+        "authors": [
+          "Xiujuan Feng",
+          "Guanwen Sun",
+          "Liuting He",
+          "Ping Yang",
+          "Feng Niu",
+          "X Li",
+          "Xi Zhang",
+          "Hanyin Cui"
+        ],
+        "institutions": [
+          "National Institute of Metrology",
+          "Institute of Acoustics"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7166527775",
+        "doi": "10.1016/j.measurement.2026.122392",
+        "title": "An adaptive non-contact river surface velocity measurement using residual-refined recurrent all-pairs field transforms",
+        "published": "2026-06-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.122392",
+        "authors": [
+          "Zhiwei Zhang",
+          "Zhao‐Dong Xu",
+          "Jun Dai",
+          "Ying-Qing Guo",
+          "Ao-Li Li",
+          "Xing-Shuo Yang",
+          "Hao-Long Tang",
+          "Meng-Shu Li",
+          "Zheng-Han Chen"
+        ],
+        "institutions": [],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7166568566",
+        "doi": "10.1016/j.measurement.2026.122115",
+        "title": "PM2.5 removal efficiency prediction for wet dust scrubbers via image-transformed 1D pressure signals and deep learning",
+        "published": "2026-06-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.122115",
+        "authors": [
+          "Zhaoxing Li",
+          "Linling Zhu",
+          "Ruhua Zhu",
+          "Chi-Min Shu",
+          "Simeng Fan",
+          "Dongyang Dou",
+          "Xiaochuan Li",
+          "Wei Tao"
+        ],
+        "institutions": [
+          "China Academy of Safety Sciences and Technology",
+          "China University of Mining and Technology",
+          "National Yunlin University of Science and Technology"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      }
+    ],
+    "Engineering Structures": [
+      {
+        "id": "https://openalex.org/W7166518215",
+        "doi": "10.1016/j.engstruct.2026.123212",
+        "title": "Experimental investigations on corrosion-fatigue coupling behavior of rib-to-deck welded joints in orthotropic steel decks",
+        "published": "2026-06-29",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.123212",
+        "authors": [
+          "Tian Lu",
+          "Yan Ma",
+          "Xurui Fang",
+          "Renjie Wu",
+          "Yong Xia"
+        ],
+        "institutions": [
+          "Hong Kong Polytechnic University"
+        ],
+        "journal": "Engineering Structures",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7166583599",
+        "doi": "10.1016/j.engstruct.2026.123267",
+        "title": "Experimental investigation and design approach on reinforced alkali-activated slag-based concrete columns under eccentric loading",
+        "published": "2026-06-29",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.123267",
+        "authors": [
+          "Jie Su",
+          "Qiwu Wang",
+          "Guangqin Feng",
+          "牛超慧",
+          "Caijun Shi"
+        ],
+        "institutions": [],
+        "journal": "Engineering Structures",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      }
+    ],
+    "Ultrasonics": [],
+    "Tunnelling and Underground Space Technology": [
+      {
+        "id": "https://openalex.org/W7166528848",
+        "doi": "10.1016/j.tust.2026.107888",
+        "title": "Experimental study of airflow velocity and ceiling temperature rise under a moving fire source in a subway tunnel",
+        "published": "2026-06-29",
+        "url": "https://doi.org/10.1016/j.tust.2026.107888",
+        "authors": [
+          "Meng Yao",
+          "Chongguang Yue",
+          "Weihao Kong",
+          "Shizhe Liu",
+          "Jingyun Xue",
+          "Daqing Guang",
+          "Meng Wang",
+          "Weiguang An"
+        ],
+        "institutions": [
+          "Xuzhou University of Technology",
+          "China University of Mining and Technology",
+          "Haute École de Bruxelles"
+        ],
+        "journal": "Tunnelling and Underground Space Technology",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      }
+    ],
+    "Rock Mechanics and Rock Engineering": []
+  }
+}
