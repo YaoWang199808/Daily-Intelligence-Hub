@@ -1,0 +1,446 @@
+{
+  "date": "2026-07-07",
+  "journals": {
+    "Automation in Construction": [],
+    "Mechanical Systems and Signal Processing": [],
+    "Measurement": [
+      {
+        "id": "https://openalex.org/W7167239119",
+        "doi": "10.1016/j.measurement.2026.122456",
+        "title": "An incremental learning framework with dynamic replay and graph attention for unknown fault detection in aviation bearings",
+        "published": "2026-07-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.122456",
+        "authors": [
+          "Chenjian Jia",
+          "Jing Tang",
+          "Junxian Shen"
+        ],
+        "institutions": [
+          "Beijing Institute of Petrochemical Technology",
+          "Southeast University"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7167031574",
+        "doi": "10.1016/j.measurement.2026.122332",
+        "title": "Research on single-antenna carrier phase differential method for pose estimation",
+        "published": "2026-07-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.122332",
+        "authors": [
+          "Xin Zhou",
+          "Guangwu Chen",
+          "Fuxia Wang",
+          "Wanyong Xu",
+          "Di Wang"
+        ],
+        "institutions": [
+          "Lanzhou Jiaotong University",
+          "Hohai University"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7167222187",
+        "doi": "10.1016/j.measurement.2026.122425",
+        "title": "A stereo vision–based framework for accurate 3D coverage mapping using autonomous underwater vehicles",
+        "published": "2026-07-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.122425",
+        "authors": [
+          "Shuangshuang Fan",
+          "Xinling Wang",
+          "Danyu Liao",
+          "Ji Yao",
+          "Jiayi Liu",
+          "Chao Dong"
+        ],
+        "institutions": [
+          "Sun Yat-sen University",
+          "Southern Marine Science and Engineering Guangdong Laboratory (Guangzhou)",
+          "Guangzhou Marine Geological Survey"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7166878163",
+        "doi": "10.1016/j.measurement.2026.122099",
+        "title": "Robust TDOA estimation in noisy environments using weighted least squares–enhanced array rearranged synchrosqueezing transform",
+        "published": "2026-07-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.122099",
+        "authors": [
+          "Peng Zhang",
+          "Hongyuan Wen",
+          "Zhao Zhao",
+          "Zhiyong Xu"
+        ],
+        "institutions": [],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7167374890",
+        "doi": "10.1016/j.measurement.2026.122466",
+        "title": "Inverse thickness estimation of non-opaque specimens using continuous-wave laser transmittance with the transfer matrix method and genetic algorithm",
+        "published": "2026-07-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.122466",
+        "authors": [
+          "Seo Jun Lee",
+          "Hyun Jun Kim",
+          "Seung Jae Moon"
+        ],
+        "institutions": [
+          "Hanyang University"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7167028305",
+        "doi": "10.1016/j.measurement.2026.122451",
+        "title": "Adaptive kernel-weighted support vector regression for nonlinear error compensation in chromatic confocal displacement measurement",
+        "published": "2026-07-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.122451",
+        "authors": [
+          "Fengshuang Liang",
+          "Mingyang Wu",
+          "Hua Du",
+          "Jiafu Li"
+        ],
+        "institutions": [
+          "Harbin University of Science and Technology",
+          "National Institute of Metrology"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7167421505",
+        "doi": "10.1016/j.measurement.2026.122478",
+        "title": "Efficient and accurate subaperture stitching method for measurement of microlens arrays on curved substrates",
+        "published": "2026-07-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.122478",
+        "authors": [
+          "Jun Guo",
+          "Ye Shen",
+          "Xi Wang",
+          "Zhikai Yang",
+          "Yi Shu",
+          "Yuxuan Hu",
+          "Runzhou Hou",
+          "Mingjun Ren"
+        ],
+        "institutions": [],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7167265919",
+        "doi": "10.1016/j.measurement.2026.122455",
+        "title": "Fast quantification of mixed gas based on sensor dynamic response with small datasets",
+        "published": "2026-07-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.122455",
+        "authors": [
+          "Hui Li",
+          "Guangzhong Xie",
+          "Xi Zhang",
+          "Tiancheng Huang",
+          "H F Zhang",
+          "Zaihua Duan",
+          "Yuanming Wu",
+          "Zhen Yuan",
+          "Yadong Jiang",
+          "Huiling Tai"
+        ],
+        "institutions": [
+          "University of Electronic Science and Technology of China"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7167271429",
+        "doi": "10.1016/j.measurement.2026.122454",
+        "title": "Contrastive self-supervised mamba network with physics-guided AI-score fusion for dissolved gas prediction in power transformers",
+        "published": "2026-07-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.122454",
+        "authors": [
+          "Vigneshwaran Basharan",
+          "Karthigaiselvi Gurusamy",
+          "M. Mohamed Iqbal"
+        ],
+        "institutions": [
+          "National College",
+          "PSG INSTITUTE OF TECHNOLOGY AND APPLIED RESEARCH"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      },
+      {
+        "id": "https://openalex.org/W7167354557",
+        "doi": "10.1016/j.measurement.2026.122472",
+        "title": "A representativeness–variability framework for optimizing FIB-SEM porosity measurements in cap rocks",
+        "published": "2026-07-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.122472",
+        "authors": [
+          "Erveton P. Pinto",
+          "Carlos A. Senna",
+          "Thalita Dias Pinheiro Caldas",
+          "Gabriel B. Pinheiro",
+          "R. Prioli",
+          "Frédéric Mertens",
+          "Dorval C. Dias-Filho",
+          "Marcos K. de Souza",
+          "Yaro M. Parizeck"
+        ],
+        "institutions": [
+          "Universidade de Brasília",
+          "Pontifícia Universidade Católica do Rio de Janeiro",
+          "Universidade Federal do Amapá",
+          "Petrobras (Brazil)"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      }
+    ],
+    "Engineering Structures": [
+      {
+        "id": "https://openalex.org/W7167074260",
+        "doi": "10.1016/j.engstruct.2026.123321",
+        "title": "Influence of textile layout on the flexural behavior of TRECC-strengthened reinforced concrete beam by hybrid anchoring technique",
+        "published": "2026-07-02",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.123321",
+        "authors": [
+          "Yue Wang",
+          "Kai Deng",
+          "Zheqi Peng",
+          "Chaoyang Zhou",
+          "Tamon Ueda",
+          "Kohei Nagai"
+        ],
+        "institutions": [
+          "Central South University",
+          "Chulalongkorn University",
+          "Shenzhen University",
+          "Hokkaido University"
+        ],
+        "journal": "Engineering Structures",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7167054276",
+        "doi": "10.1016/j.engstruct.2026.123314",
+        "title": "Freeze-thaw behavior and frost susceptibility of variable-cross-section high-speed railway subgrades in cold regions",
+        "published": "2026-07-02",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.123314",
+        "authors": [
+          "Bowen Tai",
+          "J Liu",
+          "Zurun Yue",
+          "X J Li"
+        ],
+        "institutions": [
+          "Chinese Academy of Sciences",
+          "Northwest Institute of Eco-Environment and Resources",
+          "University of Chinese Academy of Sciences",
+          "Sun Yat-sen University",
+          "Shijiazhuang Tiedao University",
+          "Beijing Jiaotong University"
+        ],
+        "journal": "Engineering Structures",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7167062090",
+        "doi": "10.1016/j.engstruct.2026.123299",
+        "title": "Multi-directional quasi-static testing of unbonded post-tensioned precast segmental bridge piers: Effects of loading-path geometry, variable axial load, and direction-dependent boundary conditions",
+        "published": "2026-07-02",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.123299",
+        "authors": [
+          "Mohammed Al-Haaj",
+          "Qahtan Al-Shami",
+          "Ning Li",
+          "Ahmed Al-Olofi"
+        ],
+        "institutions": [],
+        "journal": "Engineering Structures",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7167047760",
+        "doi": "10.1016/j.engstruct.2026.123287",
+        "title": "Nonlinear buckling responses of a confined liner reinforced by functionally graded graphene with atom vacancy defects under thermal-mechanical loading",
+        "published": "2026-07-02",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.123287",
+        "authors": [
+          "Qian Zhang",
+          "Xicheng Zhang",
+          "Meiling Shen",
+          "Zhaochao Li"
+        ],
+        "institutions": [],
+        "journal": "Engineering Structures",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7167012036",
+        "doi": "10.1016/j.engstruct.2026.123301",
+        "title": "SS2SF-GAN: A cGAN-based model for reconstructing stress field from sparse strain measurements in perforated grillage structures",
+        "published": "2026-07-02",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.123301",
+        "authors": [
+          "Chao Sun",
+          "Z H Chen"
+        ],
+        "institutions": [],
+        "journal": "Engineering Structures",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7167039952",
+        "doi": "10.1016/j.engstruct.2026.123266",
+        "title": "In-plane buckling behaviour and mechanical properties of low-pressure inflatable arches: Experimental investigation and numerical simulations",
+        "published": "2026-07-02",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.123266",
+        "authors": [
+          "Jin Zhao",
+          "Yue Wu",
+          "Muli Yu",
+          "Dong Wang",
+          "H. Sai",
+          "Yangtian He"
+        ],
+        "institutions": [
+          "Harbin Institute of Technology",
+          "Ministry of Industry and Information Technology",
+          "China Communications Construction Company (China)",
+          "Zhejiang Energy Research Institute",
+          "Zhejiang Energy Group (China)"
+        ],
+        "journal": "Engineering Structures",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      },
+      {
+        "id": "https://openalex.org/W7167098087",
+        "doi": "10.1016/j.engstruct.2026.123192",
+        "title": "Probabilistic serviceability assessment of footbridges subjected to crowd-induced lateral vibrations",
+        "published": "2026-07-02",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.123192",
+        "authors": [
+          "Alexis Contreras",
+          "Gastón A. Fermandois",
+          "Pablo Heresi"
+        ],
+        "institutions": [
+          "Federico Santa María Technical University",
+          "University of Chile"
+        ],
+        "journal": "Engineering Structures",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7167022475",
+        "doi": "10.1016/j.engstruct.2026.123294",
+        "title": "A displacement-control finite element framework for thermal buckling and post-buckling analysis of continuous welded rail",
+        "published": "2026-07-02",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.123294",
+        "authors": [
+          "T. Liu",
+          "V. Musu",
+          "D.H. Allen",
+          "S. Wilk"
+        ],
+        "institutions": [
+          "Texas A&M University",
+          "Colorado State University Pueblo"
+        ],
+        "journal": "Engineering Structures",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Numerical Simulation"
+      },
+      {
+        "id": "https://openalex.org/W7167027307",
+        "doi": "10.1016/j.engstruct.2026.123074",
+        "title": "A review of structural simulation of reinforced ultra-high performance concrete and high-performance fiber-reinforced cement-based composite members",
+        "published": "2026-07-02",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.123074",
+        "authors": [
+          "Ronit Sthapit",
+          "Yi Shao",
+          "Matthew J. Bandelt"
+        ],
+        "institutions": [
+          "New Jersey Institute of Technology",
+          "McGill University"
+        ],
+        "journal": "Engineering Structures",
+        "abstract": "Ultra-high performance concrete (UHPC) and high-performance fiber-reinforced cementitious composites (HPFRCC) are a class of material that are gaining popularity due to their enhanced performance and damage tolerance which make them promising for seismic applications where energy dissipation is crucial. Extensive experimental and numerical studies have been carried out to understand the performance of UHPC and HPFRCC structural components as well as to recognize the influence from different parameters such as matrix tensile strengths, reinforcement ratios, and loading conditions. This review paper intends to provide a comprehensive summary of numerical simulation works performed to simulate structural response for seismic applications and other structural engineering uses. The simulation works are categorized based on their computational complexity. The paper concludes with key points such as the use of computationally efficient concentrated plasticity models to capture global component responses such as peak loads, initial stiffness, energy dissipation, pinching, and opting for detailed modeling approaches such as continuum models when local responses such as reinforcement strains or failure mechanism are required to perform parametric analysis. Suggestions for future work includes the integration of shear–flexure interaction in fiber-based models, developing steel models that account for necking, and incorporation of initial flaws in continuum models.",
+        "citation_count": 0,
+        "method": "Review / Survey"
+      },
+      {
+        "id": "https://openalex.org/W7167086469",
+        "doi": "10.1016/j.engstruct.2026.123317",
+        "title": "Experimental study on seismic behavior of pre-stressed disc spring self-centering beam-column joint with rotational friction energy-dissipating device",
+        "published": "2026-07-02",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.123317",
+        "authors": [
+          "Quanxi Ye",
+          "Z H Zhang",
+          "Huidong Nie",
+          "Zi Wang",
+          "Boshan Chen"
+        ],
+        "institutions": [
+          "Yanshan University",
+          "Huazhong University of Science and Technology",
+          "Hainan University"
+        ],
+        "journal": "Engineering Structures",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      }
+    ],
+    "Ultrasonics": [],
+    "Tunnelling and Underground Space Technology": [],
+    "Rock Mechanics and Rock Engineering": []
+  }
+}
