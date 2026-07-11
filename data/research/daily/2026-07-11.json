@@ -1,0 +1,215 @@
+{
+  "date": "2026-07-11",
+  "journals": {
+    "Automation in Construction": [],
+    "Mechanical Systems and Signal Processing": [],
+    "Measurement": [
+      {
+        "id": "https://openalex.org/W7167836231",
+        "doi": "10.1016/j.measurement.2026.122494",
+        "title": "Experimental study on the coupling performance between long-gauge ultra-weak FBG array strain sensing cable and soil",
+        "published": "2026-07-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.122494",
+        "authors": [
+          "Wei Hou",
+          "Jianjun Pan",
+          "Zhe Tan",
+          "Chang Liu",
+          "Yong Yang",
+          "Qizhong Yan"
+        ],
+        "institutions": [],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7167843108",
+        "doi": "10.1016/j.measurement.2026.122461",
+        "title": "A Cross-Domain Deep Adaptive Measurement approach for industrial equipment fault monitoring",
+        "published": "2026-07-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.122461",
+        "authors": [
+          "Yongjian Wang",
+          "Cheng Qian",
+          "Shihua Li",
+          "Lang Yang",
+          "ZG Liu"
+        ],
+        "institutions": [],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7167744265",
+        "doi": "10.1016/j.measurement.2026.122370",
+        "title": "Diffusion denoiser-aided gyrocompassing",
+        "published": "2026-07-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.122370",
+        "authors": [
+          "Gershon Ben-Arie",
+          "Daniel Engelsman",
+          "Rotem Dror",
+          "Itzik Klein"
+        ],
+        "institutions": [],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7167840350",
+        "doi": "10.1016/j.measurement.2026.122519",
+        "title": "Enhanced phase current measurement accuracy of PMSM based on improved adaptive linear neural network",
+        "published": "2026-07-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.122519",
+        "authors": [
+          "Qiaofen Zhang",
+          "Jiaxu Cao",
+          "Xiaoling Liang",
+          "Jingxuan Gao",
+          "Zhaoqi He",
+          "Kaikai Yang",
+          "Haohao Guo"
+        ],
+        "institutions": [],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      },
+      {
+        "id": "https://openalex.org/W7167800518",
+        "doi": "10.1016/j.measurement.2026.122526",
+        "title": "A lightweight framework for EL image defect detection in photovoltaic modules for edge deployment",
+        "published": "2026-07-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.122526",
+        "authors": [
+          "Taixin Chen",
+          "Xiaoke Liu",
+          "Xiang Chen",
+          "Junxi Xu",
+          "Bowen Shi",
+          "Yan Zhang"
+        ],
+        "institutions": [],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7167807903",
+        "doi": "10.1016/j.measurement.2026.122445",
+        "title": "A novel FSS–based structural health monitoring system for measurement of relative humidity level on hollow concrete blocks",
+        "published": "2026-07-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.122445",
+        "authors": [
+          "Lincoln Alexandre Paz Silva",
+          "Antônio Luiz P. S. Campos",
+          "Humberto Dionísio de Andrade"
+        ],
+        "institutions": [],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7167830064",
+        "doi": "10.1016/j.measurement.2026.122468",
+        "title": "BM-YOLO: A novel framework for real-time defect detection in breathable membrane",
+        "published": "2026-07-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.122468",
+        "authors": [
+          "X X Xu",
+          "Jiangluqi Song",
+          "Huixin Zhou",
+          "Xun Yan"
+        ],
+        "institutions": [],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7167640191",
+        "doi": "10.1016/j.measurement.2026.122441",
+        "title": "Robustness evaluation of phase-based displacement measurement under illumination variation conditions",
+        "published": "2026-07-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.122441",
+        "authors": [
+          "Sida Ai",
+          "Zhenkun Li"
+        ],
+        "institutions": [
+          "University of Alberta",
+          "Aalto University"
+        ],
+        "journal": "Measurement",
+        "abstract": "Vision-based structural displacement measurement has attracted increasing attention in structural health monitoring because of its non-contact nature, low cost, and high spatial resolution. However, the performance of many conventional intensity-based methods is highly sensitive to illumination conditions, which limits their long-term application in real engineering environments. Although phase-based methods have been suggested to be more robust to illumination variations, this view has largely been based on theoretical inference in previous studies, and systematic experimental validation under representative lighting conditions remains limited. Therefore, in this study, controlled laboratory experiments were conducted under different illumination intensities, time-varying illumination, and fog-induced dynamic spatial interference to investigate the performance of the phase-based method for vision-based structural displacement measurement. A laser displacement sensor was used as the reference measurement. For comparison, two additional optical flow methods, namely intensity-based optical flow and deep learning-based optical flow, were also implemented. The results show that, under the tested low-light and time-varying illumination conditions in laboratory settings, the phase-based method provides more robust displacement measurement, with better accuracy and signal stability, than the other two methods.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      },
+      {
+        "id": "https://openalex.org/W7167639573",
+        "doi": "10.1016/j.measurement.2026.122501",
+        "title": "Optical fiber sensors enhanced by artificial intelligence: advances, challenges, and future research directions",
+        "published": "2026-07-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.122501",
+        "authors": [
+          "Mohammed Majeed Alkhabet",
+          "Saad H. Girei",
+          "Omar Altalebi",
+          "Marwah N.Alhachami",
+          "Mohammed A. Al-Shibly",
+          "Husam Khalaf Salih Juboori",
+          "Mohd H. Yaacob"
+        ],
+        "institutions": [
+          "University Of Fallujah",
+          "The Federal Polytechnic, Ado-Ekiti",
+          "University of Wasit",
+          "University of Baghdad",
+          "Alrafidain University College",
+          "Al Mansour University College",
+          "Universiti Putra Malaysia"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      },
+      {
+        "id": "https://openalex.org/W7167842662",
+        "doi": "10.1016/j.measurement.2026.122467",
+        "title": "Contactless abnormal respiration monitoring: A time-space-frequency CSI ratio map approach for breathing pattern recognition",
+        "published": "2026-07-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.122467",
+        "authors": [
+          "Yufan Guo",
+          "Junhuai Li",
+          "Rong Fei",
+          "Huaijun Wang",
+          "Xuyao Shen",
+          "Xiang Ren",
+          "Ting Wu"
+        ],
+        "institutions": [],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      }
+    ],
+    "Engineering Structures": [],
+    "Ultrasonics": [],
+    "Tunnelling and Underground Space Technology": [],
+    "Rock Mechanics and Rock Engineering": []
+  }
+}
