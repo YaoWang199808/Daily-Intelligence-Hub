@@ -1,0 +1,530 @@
+{
+  "date": "2026-07-13",
+  "journals": {
+    "Automation in Construction": [],
+    "Mechanical Systems and Signal Processing": [
+      {
+        "id": "https://openalex.org/W4417421043",
+        "doi": "10.1016/j.ymssp.2026.114537",
+        "title": "Operational modal analysis of a rotating blade using continuously scanning laser Doppler vibrometer measurements",
+        "published": "2026-06-08",
+        "url": "https://doi.org/10.1016/j.ymssp.2026.114537",
+        "authors": [
+          "Li Dong",
+          "Daniel J. Rixen"
+        ],
+        "institutions": [
+          "Technical University of Munich"
+        ],
+        "journal": "Mechanical Systems and Signal Processing",
+        "abstract": "Operational modal analysis (OMA) is a powerful technique for identifying the dynamic characteristics of rotating blades under operating conditions. One limitation of standard OMA approaches, however, is that linear time invariance is assumed, which is not the case for wind turbines with rotating blades. Traditional vibration measurement techniques face limitations due to the challenges of capturing high-resolution modal data on rotating blades and possibly not detecting problems in all parts of the blade. This paper presents an extended harmonic power spectrum method for OMA using a continuously tracking and scanning laser Doppler vibrometer (CTSLDV) system, which enables measuring with a wind turbine in operation. A test rig with a small wind turbine is used in this work to evaluate the proposed measurement and analysis methods. The CTSLDV system continuously scans on the central axis of the blade under operational conditions and the mode shapes are successfully estimated using different scan frequencies. The results highlight the advantages of using a continuous scanning and extended harmonic power spectrum method for full-field vibration analysis of the linear time-periodic systems, which can enhance structural health monitoring and predictive maintenance of rotating machinery under operational conditions.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W4416742932",
+        "doi": "10.1016/j.ymssp.2026.114354",
+        "title": "Engineering perspectives on spin-induced wave steering in elastic media",
+        "published": "2026-05-22",
+        "url": "https://doi.org/10.1016/j.ymssp.2026.114354",
+        "authors": [
+          "Luiz Henrique Marra da Silva Ribeiro",
+          "José Roberto de França Arruda",
+          "Carlos De Marqui"
+        ],
+        "institutions": [
+          "Universidade de São Paulo",
+          "Universidade Estadual de Campinas (UNICAMP)",
+          "Hospital Universitário da Universidade de São Paulo"
+        ],
+        "journal": "Mechanical Systems and Signal Processing",
+        "abstract": "Spin phenomena are well known in quantum mechanics, but recent works have shown that spin can also be found in continuum mechanics. Spin angular momentum (SAM) can be a mechanism for steering elastic waves through phase-shifted external excitations. While spin-related phenomena have been mainly addressed in physics-oriented studies, an engineering perspective supported by analytical tools remains lacking. It has been demonstrated in previous studies that combined shear and bending excitation with suitable magnitude and phase can induce one-sided propagation. In this work, we interpret the wave steering phenomenon in beams from an engineering perspective using a frequency-domain wave propagation solution. Furthermore, we derive analytical expressions for the magnitude and phase relation of the shear force and bending moment that cause SAM in Euler-Bernoulli beams. These analytical expressions are dependent on the excitation frequency and wavenumber. It is shown that the required phase angle for optimal unidirectional propagation is 90 degrees. Spectral and time-domain numerical simulations and experiments confirm that switching the sign of the SAM changes the propagation direction, and that the ratio between the magnitudes of shear and bending moment for optimal wave steering varies with frequency. These results establish a consistent engineering perspective on spin-driven wave control and pave the way for practical applications.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      },
+      {
+        "id": "https://openalex.org/W4413884501",
+        "doi": "10.1016/j.ymssp.2026.114351",
+        "title": "A low-speed camera DIC approach for measuring synchronous vibrations in rotating disks",
+        "published": "2026-05-04",
+        "url": "https://doi.org/10.1016/j.ymssp.2026.114351",
+        "authors": [
+          "Serena Occhipinti",
+          "Alessandra Cesaretti",
+          "Christian Maria Firrone",
+          "Paolo Neri",
+          "Daniele Botto"
+        ],
+        "institutions": [
+          "Politecnico di Torino"
+        ],
+        "journal": "Mechanical Systems and Signal Processing",
+        "abstract": "During operation, turbomachinery blades are subjected to dynamic excitations, which are the primary drivers of high-cycle fatigue, the leading cause of failure in bladed disks. Therefore, accurate measurement of their dynamic response under resonance is critical for reliable design. Traditional contact-based measurement techniques suffer from drawbacks such as added mass, limited lifespan, and complex data transmission, prompting interest in non-contact alternatives. This paper explores the application of digital image correlation (DIC) for analyzing synchronous vibrations in bladed disks. The proposed approach employs low-speed, high-resolution cameras combined with downsampling strategies to enable cost-effective, full-field, high-resolution measurements. A signal processing technique, the circumferential harmonic fit (CHF), is proposed and applied to extract system parameters from downsampled displacement data. The methodology is applied on a simplified bladed disk mounted on a spinning rig, demonstrating successful identification of operational deflection shapes at resonance. • Dynamics of rotating disks recorded at a sampling rate below the Nyquist limit. • Circumferential harmonic adaptation fit was used to avoid aliasing errors. • Excitation of the dummy disk using permanent magnets.",
+        "citation_count": 0,
+        "method": "Experimental"
+      }
+    ],
+    "Measurement": [
+      {
+        "id": "https://openalex.org/W7167930132",
+        "doi": "10.1016/j.measurement.2026.122529",
+        "title": "Adaptive measurement methodology for polyethylene pipe localization using single-sensor vibro-acoustics and magnitude-domain processing",
+        "published": "2026-07-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.122529",
+        "authors": [
+          "S.E. Habibi",
+          "Ahmad Keshavarz",
+          "M.Heidary Kaydan",
+          "Y. Amini"
+        ],
+        "institutions": [
+          "Persian Gulf University",
+          "Knowledge Based Systems (United States)"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7167892127",
+        "doi": "10.1016/j.measurement.2026.122531",
+        "title": "Arbitrary-circle pitch deviation measurement and three-dimensional evaluation for spur gears using line-structured light",
+        "published": "2026-07-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.122531",
+        "authors": [
+          "Tao Wang",
+          "Weiwei Li",
+          "Yue Zhang",
+          "Jingang Liu",
+          "Hua Qiao",
+          "Yue Zhang"
+        ],
+        "institutions": [
+          "Nuance Communications (Austria)",
+          "Xiangtan University"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7167887206",
+        "doi": "10.1016/j.measurement.2026.122539",
+        "title": "Influence of principal component coefficient number on the performance of through-focus scanning image-based principal component regression for nanostructure metrology",
+        "published": "2026-07-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.122539",
+        "authors": [
+          "Renju Peng",
+          "J Liu",
+          "Yihao Huang",
+          "Wanli Peng",
+          "Haohong Xian"
+        ],
+        "institutions": [
+          "Chengdu University",
+          "Chengdu University of Information Technology"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7168046482",
+        "doi": "10.1016/j.measurement.2026.122465",
+        "title": "Temperature prediction of cable overheating: Semiconductor gas sensor with attention-based fusion model",
+        "published": "2026-07-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.122465",
+        "authors": [
+          "Haichen Luo",
+          "Zhewei Fan",
+          "Yuanzhe Huang",
+          "Mingxuan Li",
+          "Jifeng Chu",
+          "Aijun Yang",
+          "Xiaohua Wang"
+        ],
+        "institutions": [
+          "Xi'an Jiaotong University"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7168023083",
+        "doi": "10.1016/j.measurement.2026.122544",
+        "title": "Temporal-spatial-angular synchronization of LiDAR-camera fusion perception for low-altitude UAVs",
+        "published": "2026-07-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.122544",
+        "authors": [
+          "Rongqing Lin",
+          "Jie Wang",
+          "Jian Zu",
+          "Keren Dai"
+        ],
+        "institutions": [
+          "Nanjing University of Science and Technology"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7168039574",
+        "doi": "10.1016/j.measurement.2026.122535",
+        "title": "Spiral fiber optic SPR sensor for detection of strain and torsion",
+        "published": "2026-07-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.122535",
+        "authors": [
+          "Chunlan Liu",
+          "Xichen Jiang",
+          "Chen Shi",
+          "Zhen Pan",
+          "Yong Wei",
+          "Songquan Li",
+          "Qian Yang",
+          "Z Liu"
+        ],
+        "institutions": [
+          "Harbin Engineering University",
+          "Chongqing Three Gorges University"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7167891299",
+        "doi": "10.1016/j.measurement.2026.122534",
+        "title": "Suspended sediment concentration measurements: Field study to compare laboratory-derived calibration factors",
+        "published": "2026-07-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.122534",
+        "authors": [
+          "Carolin Friz",
+          "David Felix",
+          "Volker Weitbrecht",
+          "R M Boes"
+        ],
+        "institutions": [],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7168024648",
+        "doi": "10.1016/j.measurement.2026.122545",
+        "title": "Electrochemical measurement of fleroxacin using a NiMoO4 micro-rods/carboxylated multi-walled carbon nanotube composite sensor",
+        "published": "2026-07-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.122545",
+        "authors": [
+          "Yuan Jin",
+          "Junyuan Song",
+          "Nanke Ma",
+          "Guangli Li"
+        ],
+        "institutions": [
+          "Hunan University of Technology"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7167889488",
+        "doi": "10.1016/j.measurement.2026.122527",
+        "title": "CFM-Net: a cross-feature modulation network for chronic respiratory disease diagnosis using electrical impedance tomography and a flow-volume loop representation",
+        "published": "2026-07-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.122527",
+        "authors": [
+          "Yao Yu",
+          "Jiajuan Ren",
+          "Zhiwei Li",
+          "Z Huang",
+          "Yang Wu",
+          "Kai Liu",
+          "Tong Zhou",
+          "Bai Chen",
+          "Jiafeng Yao",
+          "He Tian"
+        ],
+        "institutions": [
+          "Nanjing University of Aeronautics and Astronautics",
+          "Soochow University",
+          "Second Affiliated Hospital of Soochow University",
+          "Nanjing Forestry University",
+          "Jinan University",
+          "First Affiliated Hospital of Jinan University"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7168041116",
+        "doi": "10.1016/j.measurement.2026.122493",
+        "title": "Data-driven sensor placement for greenhouse microclimate measurement: A POD-Greedy reduced-basis approach",
+        "published": "2026-07-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.122493",
+        "authors": [
+          "Wenping Xue",
+          "Zixiang Chen",
+          "Zi Wang",
+          "Chenglei Hu",
+          "Xingqiao Liu",
+          "Kangji Li"
+        ],
+        "institutions": [
+          "Jiangsu University",
+          "Henan Forestry Vocational College",
+          "Wuxi Taihu Hospital"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      }
+    ],
+    "Engineering Structures": [],
+    "Ultrasonics": [],
+    "Tunnelling and Underground Space Technology": [],
+    "Rock Mechanics and Rock Engineering": [
+      {
+        "id": "https://openalex.org/W7167900629",
+        "doi": "10.1007/s00603-026-05759-7",
+        "title": "Numerical Investigation of Meso-Scale Damage Mechanisms and Mechanical Degradation in Granite Under Freeze–Thaw Cycling Using a 3D Grain-Based Model",
+        "published": "2026-07-10",
+        "url": "https://doi.org/10.1007/s00603-026-05759-7",
+        "authors": [
+          "Jinpeng Cao",
+          "Shengyuan Song",
+          "Jun Hu",
+          "Xinrong Wang"
+        ],
+        "institutions": [
+          "Jilin University",
+          "University of Science and Technology Liaoning"
+        ],
+        "journal": "Rock Mechanics and Rock Engineering",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Numerical Simulation"
+      },
+      {
+        "id": "https://openalex.org/W7167971475",
+        "doi": "10.1007/s00603-026-05743-1",
+        "title": "Mineral Strengthening and Crack Weakening Jointly Control the Physical–mechanical Properties of Shocked Planetary Rocks",
+        "published": "2026-07-10",
+        "url": "https://doi.org/10.1007/s00603-026-05743-1",
+        "authors": [
+          "Yiheng Zhang",
+          "Jiangmei Qiao",
+          "Hongyun Zhao",
+          "Pengzhi Pan",
+          "Xuhai Tang"
+        ],
+        "institutions": [
+          "Wuhan University",
+          "Chinese Academy of Sciences",
+          "Technology and Engineering Center for Space Utilization",
+          "Institute of Rock and Soil Mechanics"
+        ],
+        "journal": "Rock Mechanics and Rock Engineering",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7167928546",
+        "doi": "10.1007/s00603-026-05564-2",
+        "title": "Computational Fracture Mechanics Modeling and Multivariate Analysis of Mixed-Mode I-II Crack Propagation in Unstable Rock Masses",
+        "published": "2026-07-10",
+        "url": "https://doi.org/10.1007/s00603-026-05564-2",
+        "authors": [
+          "Shikuo Chen",
+          "Rui Wang",
+          "Yifan Hou",
+          "Zhiming Wang",
+          "Xin Pan",
+          "Yang Zhang",
+          "Xiaoyan Zhao",
+          "Chen M",
+          "Hang Zhou",
+          "Zhewei Wang"
+        ],
+        "institutions": [
+          "Health and Family Planning Commission of Sichuan Province",
+          "Southwest Jiaotong University",
+          "China Railway Group (China)"
+        ],
+        "journal": "Rock Mechanics and Rock Engineering",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Numerical Simulation"
+      },
+      {
+        "id": "https://openalex.org/W7167964947",
+        "doi": "10.1007/s00603-026-05746-y",
+        "title": "Explainable Gradient-Boosting Framework for Robust Prediction and Geomechanical Interpretation of Drilling Rate Index (DRI) in Granitic Rocks",
+        "published": "2026-07-10",
+        "url": "https://doi.org/10.1007/s00603-026-05746-y",
+        "authors": [
+          "Ebrahim Sharifi Teshnizi",
+          "Suhaib Rasool Wani",
+          "Harish Panghal",
+          "Mohammad Ghafoori",
+          "Gholam Reza Lashkaripour"
+        ],
+        "institutions": [
+          "Ferdowsi University of Mashhad",
+          "Chandigarh University",
+          "Pontificia Universidad Católica de Chile"
+        ],
+        "journal": "Rock Mechanics and Rock Engineering",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7167894081",
+        "doi": "10.1007/s00603-026-05712-8",
+        "title": "Static and Dynamic Stability Analysis of the Erkenek Tunnels Damaged During the February 6, 2023, Türkiye Earthquake",
+        "published": "2026-07-10",
+        "url": "https://doi.org/10.1007/s00603-026-05712-8",
+        "authors": [
+          "Neamatullah Malistani",
+          "Ö. Aydan",
+          "R. Ulusay",
+          "H. Kumsar"
+        ],
+        "institutions": [
+          "University of the Ryukyus",
+          "Hacettepe University",
+          "Pamukkale University"
+        ],
+        "journal": "Rock Mechanics and Rock Engineering",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7167912424",
+        "doi": "10.1007/s00603-026-05769-5",
+        "title": "Failure Behavior of Deep Tunnels Subjected to TBM-Induced Dynamic Disturbance",
+        "published": "2026-07-10",
+        "url": "https://doi.org/10.1007/s00603-026-05769-5",
+        "authors": [
+          "Hongyuan Fu",
+          "Ben‐Guo He",
+          "Si-Yuan Dou"
+        ],
+        "institutions": [
+          "Northeastern University"
+        ],
+        "journal": "Rock Mechanics and Rock Engineering",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7167884038",
+        "doi": "10.1007/s00603-026-05680-z",
+        "title": "Simulation of Rock Damage and Energy Evolution Mechanisms in Abrasive Water Jet Cutting Under in-Situ Stress",
+        "published": "2026-07-10",
+        "url": "https://doi.org/10.1007/s00603-026-05680-z",
+        "authors": [
+          "Lei Liu",
+          "Zhaolong Ge",
+          "Zhe Zhou",
+          "Qinlin Deng",
+          "Zhongtan Li"
+        ],
+        "institutions": [
+          "Chongqing University"
+        ],
+        "journal": "Rock Mechanics and Rock Engineering",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Numerical Simulation"
+      },
+      {
+        "id": "https://openalex.org/W7167930480",
+        "doi": "10.1007/s00603-026-05752-0",
+        "title": "Development and Application of Thermo-Fluid–Solid Coupling Seepage Experimental System of Coal Rock Cracked by Controlled Electric Pulse",
+        "published": "2026-07-10",
+        "url": "https://doi.org/10.1007/s00603-026-05752-0",
+        "authors": [
+          "Fazhi Yan",
+          "Changjiong Gao",
+          "Wei Yang",
+          "J L Xu",
+          "Shoujian Peng",
+          "Tao Zeng",
+          "Yue Wang",
+          "Ziwen Li"
+        ],
+        "institutions": [
+          "Taiyuan University of Technology",
+          "China University of Mining and Technology",
+          "Chongqing University"
+        ],
+        "journal": "Rock Mechanics and Rock Engineering",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7167923045",
+        "doi": "10.1007/s00603-026-05621-w",
+        "title": "Chemical and Hydraulic Evolution in Fracture-bearing Cement-Shale Composites Exposed to CO2-Saturated Brine: Implications for CO2 Wellbore Leakage",
+        "published": "2026-07-10",
+        "url": "https://doi.org/10.1007/s00603-026-05621-w",
+        "authors": [
+          "Yuna Cai",
+          "Diansen Yang",
+          "Kaiyuan Mei",
+          "Hongwu Lei",
+          "Liwei Zhang",
+          "Xinhao Yu"
+        ],
+        "institutions": [
+          "Wuhan University",
+          "Southwest Petroleum University",
+          "Institute of Rock and Soil Mechanics"
+        ],
+        "journal": "Rock Mechanics and Rock Engineering",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7167928297",
+        "doi": "10.1007/s00603-026-05661-2",
+        "title": "Multi-site Characterization of Rockfall Seasonality in Western Colorado Using 3D Point Cloud Monitoring",
+        "published": "2026-07-10",
+        "url": "https://doi.org/10.1007/s00603-026-05661-2",
+        "authors": [
+          "Sushma Kadel",
+          "Gabriel Walton",
+          "Luke Weidner",
+          "Adrienne Marshall"
+        ],
+        "institutions": [
+          "Colorado School of Mines"
+        ],
+        "journal": "Rock Mechanics and Rock Engineering",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      }
+    ]
+  }
+}
