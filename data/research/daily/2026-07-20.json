@@ -1,0 +1,321 @@
+{
+  "date": "2026-07-20",
+  "journals": {
+    "Automation in Construction": [],
+    "Mechanical Systems and Signal Processing": [
+      {
+        "id": "https://openalex.org/W4413851223",
+        "doi": "10.1016/j.ymssp.2026.114634",
+        "title": "A domain knowledge informed approach for anomaly detection of electric vehicle interior sounds",
+        "published": "2026-07-18",
+        "url": "https://doi.org/10.1016/j.ymssp.2026.114634",
+        "authors": [
+          "Deepti Kunte",
+          "Bram Cornelis",
+          "Claudio Colangeli",
+          "Karl Janssens",
+          "Brecht Van Baelen",
+          "Konstantinos Gryllias"
+        ],
+        "institutions": [
+          "Siemens (Belgium)",
+          "KU Leuven",
+          "Flanders Make (Belgium)"
+        ],
+        "journal": "Mechanical Systems and Signal Processing",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W4412172661",
+        "doi": "10.1016/j.ymssp.2026.114391",
+        "title": "Unified dynamic compensation method for heterogeneous sensors under few-shot conditions",
+        "published": "2026-05-14",
+        "url": "https://doi.org/10.1016/j.ymssp.2026.114391",
+        "authors": [
+          "Bo Xu",
+          "Dan Xu",
+          "L. Li",
+          "Hao Tang",
+          "Xiao Wang",
+          "Guo Rong"
+        ],
+        "institutions": [
+          "Hainan University"
+        ],
+        "journal": "Mechanical Systems and Signal Processing",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W4415440550",
+        "doi": "10.1016/j.ymssp.2026.114404",
+        "title": "Study on multi-directional response control of floating offshore wind turbine using three-dimensional pounding tuned rotary mass damper",
+        "published": "2026-05-14",
+        "url": "https://doi.org/10.1016/j.ymssp.2026.114404",
+        "authors": [
+          "Yuan Zhao",
+          "Shujin Li",
+          "Ruibo Wang",
+          "Yunting Sun",
+          "Mingmiao Chen"
+        ],
+        "institutions": [
+          "Wuhan University of Technology"
+        ],
+        "journal": "Mechanical Systems and Signal Processing",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W4415181543",
+        "doi": "10.1016/j.ymssp.2026.114387",
+        "title": "Spectrum- and Physics-Informed Neural Networks (SaPINNs) for input–state–parameter estimation in dynamic systems subjected to natural hazards-induced excitation",
+        "published": "2026-05-13",
+        "url": "https://doi.org/10.1016/j.ymssp.2026.114387",
+        "authors": [
+          "Antonina M. Kosikova",
+          "Apostolos F. Psaros",
+          "Andrew W. Smyth"
+        ],
+        "institutions": [
+          "Columbia University"
+        ],
+        "journal": "Mechanical Systems and Signal Processing",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Machine Learning"
+      }
+    ],
+    "Measurement": [
+      {
+        "id": "https://openalex.org/W7169659359",
+        "doi": "10.1016/j.measurement.2026.122579",
+        "title": "BATS: World-anchored dynamic stereo measurement for sea-recovery-oriented moving-platform scenarios with time-varying stereo geometry",
+        "published": "2026-07-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.122579",
+        "authors": [
+          "Yuqi Zhang (286958)",
+          "Xianglei Liu",
+          "Runjie Wang",
+          "Haibo Shi",
+          "Yunning Wang",
+          "Zihao Feng",
+          "Shuaiguang Zhu"
+        ],
+        "institutions": [
+          "Beijing University of Civil Engineering and Architecture"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7168408173",
+        "doi": "10.1016/j.measurement.2026.122530",
+        "title": "Internal electrochemical variables-attention long short-term memory based on meta-learning and augmentation for battery state of health estimation",
+        "published": "2026-07-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.122530",
+        "authors": [
+          "Arezoo Vafamand",
+          "Vishnu Pandi Chellapandi",
+          "Hoseinali Borhan",
+          "Mahdi Shahbakhti"
+        ],
+        "institutions": [
+          "University of Alberta",
+          "Cummins (United States)"
+        ],
+        "journal": "Measurement",
+        "abstract": "Accurate State of Health (SoH) estimation is critical for battery management in industrial applications. This paper proposes the Internal Electrochemical Variable-Attention Long Short-Term Memory (IEV-ALSTM), a physics-informed machine learning (PIML) method for SoH estimation. A Single Particle Model (SPM) incorporating Solid Electrolyte Interphase (SEI) growth, lithium plating, Loss of Active Material (LAM), and thermal effects is developed using PyBaMM and validated against a public Nickel-Manganese-Cobalt (NMC) battery aging dataset. The model serves two roles: generating simulation data for conditions not represented in experimental training sets, and extracting internal electrochemical variables that encode aging-relevant degradation information. A three-step Meta-Learning feature selection process identifies the two most informative internal electrochemical variables from a large candidate pool. These are combined with statistical features extracted from voltage, current, and temperature signals as inputs to the Attention-LSTM (ALSTM) model. The proposed IEV-ALSTM achieves MSE improvements of 90% and 79%, over Liu 2025, and a purely data-driven ALSTM, respectively.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      },
+      {
+        "id": "https://openalex.org/W7169527891",
+        "doi": "10.1016/j.measurement.2026.122552",
+        "title": "A novel pouch-based tension sensor array for soft Cable-Driven Parallel Surgical Robot",
+        "published": "2026-07-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.122552",
+        "authors": [
+          "Zhengyuan Li",
+          "Zhangxi Zhou",
+          "Hanqi Lou",
+          "Jianhao Su",
+          "Mark Runciman",
+          "Jianlin Yang",
+          "George Mylonas"
+        ],
+        "institutions": [],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7169649303",
+        "doi": "10.1016/j.measurement.2026.122596",
+        "title": "Estimation of longitudinal speed and road slope in multi-axle distributed drive electric vehicles based on hierarchical fusion",
+        "published": "2026-07-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.122596",
+        "authors": [
+          "Hongjie Cheng",
+          "Jiashuo Zhang",
+          "Zhihao Liu",
+          "Jianhua Li",
+          "Zhenwei Hou",
+          "Yuan Zhao"
+        ],
+        "institutions": [
+          "PLA Rocket Force University of Engineering"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7169170396",
+        "doi": "10.1016/j.measurement.2026.122577",
+        "title": "A signal-driven adaptive slope fitting method for pulsed eddy current thickness measurement",
+        "published": "2026-07-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.122577",
+        "authors": [
+          "Qi Guo",
+          "Chao Wang",
+          "Boda He",
+          "Haixu Yu",
+          "X Wang",
+          "Weifei Niu"
+        ],
+        "institutions": [
+          "Tianjin Special Equipment Supervision and Inspection Technology Research Institute",
+          "Tianjin University"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7169534513",
+        "doi": "10.1016/j.measurement.2026.122597",
+        "title": "Reconstruction of internal temperature field in concrete structures using distributed optical fiber sensing",
+        "published": "2026-07-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.122597",
+        "authors": [
+          "S. Zhang",
+          "Gongyu Hou",
+          "Ruchen Ma",
+          "Y W Sun",
+          "Haoxiang Lin"
+        ],
+        "institutions": [
+          "China University of Mining and Technology"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7168592019",
+        "doi": "10.1016/j.measurement.2026.122547",
+        "title": "Domain adaptation network based on hierarchical shared multi-kernel for cross-condition fault diagnosis of rotating machinery",
+        "published": "2026-07-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.122547",
+        "authors": [
+          "Yixiang Lu",
+          "Yangyang Ruan",
+          "Dayu Tan",
+          "Xin Peng",
+          "Weimin Zhong"
+        ],
+        "institutions": [
+          "Anhui University",
+          "Hefei Institutes of Physical Science",
+          "East China University of Science and Technology"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7168423220",
+        "doi": "10.1016/j.measurement.2026.122590",
+        "title": "Angularly stable and tunable dual-band nested-star graphene-integrated terahertz sensor for bio-alcohol detection",
+        "published": "2026-07-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.122590",
+        "authors": [
+          "Sijie Wang",
+          "Youssef Trabelsi",
+          "Vigneswaran Dhasarathan",
+          "R. Avudaiammal",
+          "Taha Sheheryar"
+        ],
+        "institutions": [
+          "Beijing Institute of Technology",
+          "Harbin Engineering University",
+          "King Khalid University",
+          "KPR Institute of Engineering and Technology",
+          "Saint Joseph's College",
+          "St. Joseph's Institute of Technology"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7168386569",
+        "doi": "10.1016/j.measurement.2026.122532",
+        "title": "Multi-module fusion framework for intelligent detection of rural pavement distresses and pavement condition evaluation",
+        "published": "2026-07-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.122532",
+        "authors": [
+          "Jing Shang",
+          "Liangpu Zhang",
+          "Anzheng He",
+          "Zishuo Dong",
+          "Hang Zhang",
+          "Allen A. Zhang",
+          "Jiakang Zhang"
+        ],
+        "institutions": [
+          "Southwest Jiaotong University"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7168668734",
+        "doi": "10.1016/j.measurement.2026.122522",
+        "title": "Automated visual inspection of linear and areal surface defects: A metrological survey",
+        "published": "2026-07-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.122522",
+        "authors": [
+          "Henri Vennikas",
+          "Olev Märtens",
+          "Tavo Kangru",
+          "Yannick Le Moullec"
+        ],
+        "institutions": [],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Review / Survey"
+      }
+    ],
+    "Engineering Structures": [],
+    "Ultrasonics": [],
+    "Tunnelling and Underground Space Technology": [],
+    "Rock Mechanics and Rock Engineering": []
+  }
+}
