@@ -1,0 +1,236 @@
+{
+  "date": "2026-07-22",
+  "journals": {
+    "Automation in Construction": [],
+    "Mechanical Systems and Signal Processing": [],
+    "Measurement": [
+      {
+        "id": "https://openalex.org/W7169781363",
+        "doi": "10.1016/j.measurement.2026.122612",
+        "title": "A physics-informed compensation framework for 3D indoor pedestrian navigation with foot-mounted IMU and a barometer",
+        "published": "2026-07-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.122612",
+        "authors": [
+          "Qiao Zhou",
+          "Jun Zhou",
+          "Jianpeng Li",
+          "Linjun Cai",
+          "Dongnan He",
+          "Hui PENG",
+          "Yu Liu",
+          "Mengqiang Zou",
+          "Yanping Chen"
+        ],
+        "institutions": [
+          "Chongqing University of Posts and Telecommunications",
+          "China Academy of Space Technology"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7169683661",
+        "doi": "10.1016/j.measurement.2026.122546",
+        "title": "Deep learning-assisted diagnosis of canine melanoma via inelastic scattering imaging",
+        "published": "2026-07-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.122546",
+        "authors": [
+          "Juan Vélez-Álvarez",
+          "Kheythor Arboleda",
+          "Stella Arnold",
+          "Sebastián Daza",
+          "Alejandro Arango Correa"
+        ],
+        "institutions": [],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      },
+      {
+        "id": "https://openalex.org/W7169783944",
+        "doi": "10.1016/j.measurement.2026.122568",
+        "title": "Unrolling the Plug-and-Play Primal-Dual Hybrid Gradient algorithm for magnetic compensation",
+        "published": "2026-07-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.122568",
+        "authors": [
+          "Han Wu",
+          "Yinan Zhao",
+          "X Xiuzhen Feng",
+          "Yu Fan",
+          "Yuying Zhu",
+          "Zhaoting Liu"
+        ],
+        "institutions": [
+          "Hangzhou Dianzi University",
+          "Harbin Institute of Technology"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7169665345",
+        "doi": "10.1016/j.measurement.2026.122555",
+        "title": "Soft sensing of crusher feed particle size distribution based on electrical signals and multi-feature data-driven models",
+        "published": "2026-07-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.122555",
+        "authors": [
+          "Piotr Bortnowski",
+          "Maksymilian Ozdoba",
+          "Robert Król"
+        ],
+        "institutions": [
+          "Wrocław University of Science and Technology",
+          "AGH University of Krakow"
+        ],
+        "journal": "Measurement",
+        "abstract": "Reliable on-line information on the particle size distribution (PSD) of crusher feed remains a key challenge in mineral processing, as existing solutions are dominated by vision-based systems or high-frequency vibro-acoustic measurements that are difficult to deploy in industrial environments. This study investigates whether low-frequency electrical signals recorded from a crusher drive system contain sufficient information to indirectly reconstruct the PSD of crushed material. The PSD is represented parametrically using the Rosin–Rammler distribution, and its shape and scale parameters are estimated from time-domain features extracted from current and power signals measured at sampling rates comparable to standard industrial data loggers. Laboratory experiments were conducted on a jaw crusher processing granite with controlled feed size distributions under a fixed closed-side setting. A gradient-boosting regression model with leakage-safe feature selection and leave-one-series-out validation was developed to assess generalization to unseen feed batches. The proposed model achieved high prediction accuracy for the shape parameter k ( R 2 = 0.91 ), while the scale parameter λ was predicted with lower accuracy ( R 2 = 0.82 ), reflecting its sensitivity to local material heterogeneity. Nevertheless, characteristic particle sizes derived from the predicted parameters were reconstructed with high accuracy ( R 2 = 0.99 for D 50 and R 2 = 0.94 for D 80 ).",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7168740529",
+        "doi": "10.1016/j.measurement.2026.122591",
+        "title": "A condition-guided non-invasive framework for health state assessment and anomaly warning of marine main engines using multi-cylinder exhaust gas temperature",
+        "published": "2026-07-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.122591",
+        "authors": [
+          "Rui Wang",
+          "Guichen Zhang",
+          "Y Li",
+          "Wenjie Guo"
+        ],
+        "institutions": [
+          "Shanghai Maritime University",
+          "Shanghai Jiao Tong University"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7169766957",
+        "doi": "10.1016/j.measurement.2026.122619",
+        "title": "A distributed fiber optic temperature sensing reservoir identification method based on lightweight multi-scale spatiotemporal contrastive learning",
+        "published": "2026-07-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.122619",
+        "authors": [
+          "Yuan Liu",
+          "Chunlei Jiang",
+          "Yueming Li",
+          "Wanchun Zhao",
+          "Zhicheng Cong",
+          "Keyong Shao",
+          "Zhen Huang"
+        ],
+        "institutions": [],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7168266422",
+        "doi": "10.1016/j.measurement.2026.122576",
+        "title": "Local Autocorrelation Function Entropy algorithm for visual detection of wood sanding surface roughness",
+        "published": "2026-07-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.122576",
+        "authors": [
+          "Zixuan Yang",
+          "Ya Zhu",
+          "Xizhi Wu",
+          "Guiliang Gong",
+          "Lin He",
+          "Yanli Ma"
+        ],
+        "institutions": [
+          "Central South University of Forestry and Technology",
+          "Central South University",
+          "Hunan Agricultural Products (China)"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7169667084",
+        "doi": "10.1016/j.measurement.2026.122605",
+        "title": "How physical information empowers data-driven tool condition monitoring",
+        "published": "2026-07-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.122605",
+        "authors": [
+          "Xuebing Li",
+          "Jing Ni",
+          "Meng Zhen",
+          "Hao Wu",
+          "Xiangfu Fu",
+          "Ning Zhang"
+        ],
+        "institutions": [
+          "Hangzhou Dianzi University",
+          "Harbin University of Science and Technology",
+          "Yanshan University"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7169519139",
+        "doi": "10.1016/j.measurement.2026.122599",
+        "title": "Optimizing the geometric accuracy of data acquired through harnessing a handheld laser scanner in measurements of medieval city walls",
+        "published": "2026-07-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.122599",
+        "authors": [
+          "Piotr Kędziorski",
+          "Marcin Jagoda",
+          "Jacek Katzer",
+          "Machi Zawidzki"
+        ],
+        "institutions": [
+          "Koszalin University of Technology",
+          "University of Warmia and Mazury in Olsztyn",
+          "Institute of Fundamental Technological Research",
+          "Łukasiewicz Research Network - Industrial Research Institute for Automation and Measurements",
+          "Polish Academy of Sciences"
+        ],
+        "journal": "Measurement",
+        "abstract": "This study develops and thoroughly evaluates a novel post-processing drift-correction method based on Shepard-type inverse-distance weighted (IDW) interpolation of displacement vectors. The algorithm maps local displacements of the entire handheld laser scanner (HLS) IR_RAW point cloud using sparse control points whose coordinates are determined with high-accuracy reference techniques (HLS in blue-light marker mode, terrestrial laser scanning (TLS), and electronic total station). The influence of control-point density (spacing 0.25–2.10 m), number of neighbors ( K = 2–10), and weighting power ( P = 1–3) was systematically analyzed on both a test brick wall and a real 14th-century city walls fragment in Koszalin, Poland. Cloud-to-cloud distance comparisons with independent TLS reference datasets demonstrated a dramatic improvement in geometric fidelity. In the test measurements, the share of points with errors below 3 mm rose from 35.5% (raw data) to 83–88% under optimal configurations (dense control grid, K = 4–8, P = 1–2). On the heritage wall, the best variants achieved over 92% of points within 3 mm. Local discontinuities were effectively suppressed, and the corrected clouds enabled reliable, millimeter-scale identification and quantification of material losses fully consistent with TLS results. The correction based on Shepard-type IDW interpolation significantly expands the applicability of affordable HLS technology for precise documentation and long-term monitoring of elongated cultural heritage structures at the scale investigated in this study, providing clear practical recommendations for control-point network design and algorithm parameter selection",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7169788253",
+        "doi": "10.1016/j.measurement.2026.122623",
+        "title": "Mining-induced subsidence monitoring via horizontally deployed fiber optic sensing nerves: integrated laboratory and field investigations",
+        "published": "2026-07-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.122623",
+        "authors": [
+          "Yuxin Gao",
+          "Hong‐Hu Zhu",
+          "Hu Ji",
+          "Wei Zhang",
+          "Xu-Yan Ren",
+          "Zhong-Wei Chen",
+          "Saiied M. Aminossadati"
+        ],
+        "institutions": [],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      }
+    ],
+    "Engineering Structures": [],
+    "Ultrasonics": [],
+    "Tunnelling and Underground Space Technology": [],
+    "Rock Mechanics and Rock Engineering": []
+  }
+}
