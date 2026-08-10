@@ -1,0 +1,319 @@
+{
+  "date": "2026-08-10",
+  "journals": {
+    "Automation in Construction": [],
+    "Mechanical Systems and Signal Processing": [
+      {
+        "id": "https://openalex.org/W7202041496",
+        "doi": "10.1016/j.ymssp.2026.114826",
+        "title": "Directional coupling analysis and vibration control for transport vehicles with air suspensions based on a matrix decomposition framework",
+        "published": "2026-08-10",
+        "url": "https://doi.org/10.1016/j.ymssp.2026.114826",
+        "authors": [
+          "Yiqian Zheng",
+          "Zhiwei Wang",
+          "Wen-bin Shangguan"
+        ],
+        "institutions": [],
+        "journal": "Mechanical Systems and Signal Processing",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7202037942",
+        "doi": "10.1016/j.ymssp.2026.114813",
+        "title": "Cross-radius independent dictionary sparse method for blade vibration reconstruction",
+        "published": "2026-08-09",
+        "url": "https://doi.org/10.1016/j.ymssp.2026.114813",
+        "authors": [
+          "Hualin Li",
+          "Zhibo Yang",
+          "Yajie Guan",
+          "Yaxuan Yang",
+          "Shuming Wu",
+          "Baijie Qiao"
+        ],
+        "institutions": [],
+        "journal": "Mechanical Systems and Signal Processing",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      }
+    ],
+    "Measurement": [
+      {
+        "id": "https://openalex.org/W7202044954",
+        "doi": "10.1016/j.measurement.2026.122806",
+        "title": "Cork-core CFRP sandwich cages for multirotor UAVs: An experimental comparison of modal response and impact protection",
+        "published": "2026-08-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.122806",
+        "authors": [
+          "Mohammad Rauf Sheikhi",
+          "Selim Gürgen",
+          "Önder Altuntaş",
+          "Fábio A. O. Fernandes",
+          "Mehmet Alper Sofuoğlu"
+        ],
+        "institutions": [],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7202053899",
+        "doi": "10.1016/j.measurement.2026.122828",
+        "title": "Two-color luminescence imaging thermometry for measuring temperature fields of high-temperature, high-speed rotating targets",
+        "published": "2026-08-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.122828",
+        "authors": [
+          "Yuhang Zhang",
+          "Yusong Wu",
+          "Tairan Fu"
+        ],
+        "institutions": [],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7202045892",
+        "doi": "10.1016/j.measurement.2026.122837",
+        "title": "Reliability-Oriented evaluation of UAV-Based vehicle detection under complex visual measurement conditions",
+        "published": "2026-08-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.122837",
+        "authors": [
+          "Jianhua Ma",
+          "Yongzhang Zhou",
+          "Luhao HE",
+          "ZHAO Yichao",
+          "G. Liu",
+          "Caiping Jiang"
+        ],
+        "institutions": [
+          "Sun Yat-sen University",
+          "University College London",
+          "China University of Geosciences",
+          "Guangdong University of Technology"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7202029209",
+        "doi": "10.1016/j.measurement.2026.122840",
+        "title": "Measurement system analysis of nucleation kinetics in L-glutamic acid Crystallization: Quantifying uncertainty and reproducibility",
+        "published": "2026-08-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.122840",
+        "authors": [
+          "Khadijeh Firoozirad",
+          "Botond Szilágyi",
+          "Éva Pusztai"
+        ],
+        "institutions": [],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7201995364",
+        "doi": "10.1016/j.measurement.2026.122771",
+        "title": "Hybrid tree-based machine learning for calorimetric energy calibration using the Lorenzetti Showers framework",
+        "published": "2026-08-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.122771",
+        "authors": [
+          "Paulo R. A. Da Silva",
+          "E. Furtado De Simas Filho",
+          "Paulo César Machado de Abreu Farias",
+          "Edmar E. P. Souza",
+          "J. Lieber Marin",
+          "J. M. Seixas"
+        ],
+        "institutions": [
+          "Universidade Federal da Bahia",
+          "Instituto Federal da Bahia",
+          "Universidade Federal do Rio de Janeiro"
+        ],
+        "journal": "Measurement",
+        "abstract": "Accurate and low-latency energy calibration is essential in high-energy physics calorimetry, especially in trigger-oriented environments with stringent timing constraints. Fast calorimetric measurements are affected by pile-up, electronic noise, detector nonlinearities, and shower fluctuations, degrading transverse-energy reconstruction and broadening threshold-based event selection. This work investigates hybrid tree-based machine-learning strategies for event-level calibration within a controlled Lorenzetti simulation benchmark. Datasets were generated with the Lorenzetti Showers framework configured as an ATLAS-inspired electromagnetic calorimeter, and ring-based shower observables were used as compact topological inputs. The proposed approach combines full-ring and dimensionality-reduced representations with Random Forest, Gradient Boosted Decision Tree, residual-learning, and stacked-ensemble regressors to estimate multiplicative calibration factors applied to the standard energy measurement. The best performance was achieved by a hybrid Random Forest model with Gradient Boosted Decision Tree residual correction using the full 100-ring representation. Under the considered benchmark conditions, this configuration reduced RMSE by 60.61%, IQR by 43.39%, relative energy resolution by 44.96%, and the threshold offset required to reach 90% event acceptance by 66.15%. The best compact configuration, a Gradient Boosted Decision Tree using five independent components, achieved reductions of 51.25% in RMSE, 25.45% in IQR, 31.98% in relative energy resolution, and 55.90% in the 90% acceptance threshold offset. The top-ranked configurations also showed low CPU-based trained-model prediction times. Overall, the results support ring-based hybrid tree calibration as a promising benchmark-level strategy for improving simulated fast calorimetric energy estimates, while validation with higher-fidelity simulations, experimental data, and target trigger hardware is required before deployment conclusions.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      },
+      {
+        "id": "https://openalex.org/W7202046045",
+        "doi": "10.1016/j.measurement.2026.122841",
+        "title": "Combined vortex flowmeter with capacitive void sensor for online wet gas flow metering",
+        "published": "2026-08-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.122841",
+        "authors": [
+          "Hongjun Sun",
+          "Kun Qin",
+          "Jinxia Li"
+        ],
+        "institutions": [],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7202035623",
+        "doi": "10.1016/j.measurement.2026.122816",
+        "title": "Enhanced thermal stability of bismuth titanate-based ceramic sensing elements via excess-Bi2O3 compensation for high-temperature accelerometers",
+        "published": "2026-08-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.122816",
+        "authors": [
+          "Limin Hou",
+          "Guohua Wang",
+          "Cheng Ma",
+          "Jing Nie"
+        ],
+        "institutions": [
+          "Beihang University"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7201974439",
+        "doi": "10.1016/j.measurement.2026.122833",
+        "title": "Deep learning method for completion and extraction of rock mass discontinuities based on point clouds",
+        "published": "2026-08-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.122833",
+        "authors": [
+          "Xinyi Zhang",
+          "Hui Chen",
+          "Mostafa Sharifzadeh",
+          "Shuaixing Yan",
+          "Dongpo Wang"
+        ],
+        "institutions": [
+          "Chengdu University of Technology",
+          "Curtin University"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      },
+      {
+        "id": "https://openalex.org/W7202050363",
+        "doi": "10.1016/j.measurement.2026.122842",
+        "title": "MicroPPE-Guard: an efficient model for accurate personal protective equipment",
+        "published": "2026-08-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.122842",
+        "authors": [
+          "Xuan Le",
+          "Phu Pham",
+          "Kien-T. Le",
+          "Luan Bui",
+          "Bao Huynh"
+        ],
+        "institutions": [],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7202051280",
+        "doi": "10.1016/j.measurement.2026.122835",
+        "title": "Iterative viscous-heating correction for shear-viscosity measurement in slit rheometry",
+        "published": "2026-08-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.122835",
+        "authors": [
+          "Jian‐Yu Chen",
+          "Chih-Yen Yang"
+        ],
+        "institutions": [],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      }
+    ],
+    "Engineering Structures": [
+      {
+        "id": "https://openalex.org/W7196968585",
+        "doi": "10.1016/j.engstruct.2026.123518",
+        "title": "Statistical condition assessment of railway bridges based on influence lines from repeated train passages",
+        "published": "2026-08-06",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.123518",
+        "authors": [
+          "Zhihang Wang",
+          "Jiawang Zhan",
+          "Zhen Ni",
+          "Lizhong Wu",
+          "Jianlei Liu",
+          "Zhipeng Lu"
+        ],
+        "institutions": [
+          "Beijing Jiaotong University",
+          "China Academy of Railway Sciences"
+        ],
+        "journal": "Engineering Structures",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7197048228",
+        "doi": "10.1016/j.engstruct.2026.123464",
+        "title": "Cyclic response of severely damaged subway station central columns repaired with ECC jackets under highly variable axial loads",
+        "published": "2026-08-06",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.123464",
+        "authors": [
+          "Jia Yang",
+          "Peng Deng",
+          "Chao Zhang",
+          "Renpeng Chen",
+          "Shiling Pei"
+        ],
+        "institutions": [
+          "Hunan University",
+          "Colorado School of Mines"
+        ],
+        "journal": "Engineering Structures",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7196965923",
+        "doi": "10.1016/j.engstruct.2026.123514",
+        "title": "Marker-free mobile inspection system for bridge apparent cracks: Fusing vision and low-cost triple-laser module for high-precision localization and quantification",
+        "published": "2026-08-06",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.123514",
+        "authors": [
+          "Danhui Dan",
+          "Jinnan Hu",
+          "Qiang Dan",
+          "Liangfu Ge",
+          "Yi Bao",
+          "Ayan Sadhu"
+        ],
+        "institutions": [
+          "Tongji University",
+          "Ministry of Education",
+          "Hong Kong Polytechnic University",
+          "Stevens Institute of Technology",
+          "Western University"
+        ],
+        "journal": "Engineering Structures",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      }
+    ],
+    "Ultrasonics": [],
+    "Tunnelling and Underground Space Technology": [],
+    "Rock Mechanics and Rock Engineering": []
+  }
+}
