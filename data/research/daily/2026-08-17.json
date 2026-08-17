@@ -1,0 +1,250 @@
+{
+  "date": "2026-08-17",
+  "journals": {
+    "Automation in Construction": [],
+    "Mechanical Systems and Signal Processing": [],
+    "Measurement": [
+      {
+        "id": "https://openalex.org/W7202178560",
+        "doi": "10.1016/j.measurement.2026.122820",
+        "title": "A measurement protocol and multimodal UAV telemetry dataset for fault observability under real-flight and safety-constrained test conditions",
+        "published": "2026-08-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.122820",
+        "authors": [
+          "Hyojung Ahn",
+          "J. Yu",
+          "Chaewon Lee"
+        ],
+        "institutions": [],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7162846291",
+        "doi": "10.1016/j.measurement.2026.122867",
+        "title": "Full-scale measurement of wind-induced displacements and modal identification of a super high-rise building using ground-based interferometric radar",
+        "published": "2026-08-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.122867",
+        "authors": [
+          "Shangyu Hu",
+          "Yicheng Li",
+          "Weihao Chen"
+        ],
+        "institutions": [
+          "Shantou University"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7171813043",
+        "doi": "10.1016/j.measurement.2026.122606",
+        "title": "A real-time method for inverting the UCS of roadway surrounding rock based on limit equilibrium",
+        "published": "2026-07-30",
+        "url": "https://doi.org/10.1016/j.measurement.2026.122606",
+        "authors": [
+          "Xingyuan Zhou",
+          "Zhongwen Yue",
+          "Wenbiao Ma",
+          "Sichen Long",
+          "Wei Liu",
+          "Xiaolei Yue",
+          "Shaodong Xu",
+          "Meng Ren"
+        ],
+        "institutions": [
+          "China University of Mining and Technology",
+          "Liaoning Technical University",
+          "Huainan Mining Industry Group (China)",
+          "Liaocheng University"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7171716698",
+        "doi": "10.1016/j.measurement.2026.122703",
+        "title": "Food chemical metrology: a critical review of measurement uncertainty, metrological traceability, and analytical applications",
+        "published": "2026-07-29",
+        "url": "https://doi.org/10.1016/j.measurement.2026.122703",
+        "authors": [
+          "Juarez Vicente",
+          "Volmir Kist",
+          "Caciane Peinhopf Mega",
+          "Otávio Bagiotto Rossato",
+          "Vanessa Cristina Zamban",
+          "Gilmar de Oliveira Veloso",
+          "Daniele Martini",
+          "Anderson Aquino Leiria",
+          "Heitor Scalco Neto",
+          "Alisson Borges Zanetti"
+        ],
+        "institutions": [
+          "Instituto Federal Catarinense",
+          "Universidade Federal Rural do Rio de Janeiro"
+        ],
+        "journal": "Measurement",
+        "abstract": "Food metrology is essential to ensure the reliability, comparability, and regulatory compliance of analytical results in food systems. This review addresses the principles of measurement uncertainty and metrological traceability, based on key frameworks such as the ISO Guide to the Expression of Uncertainty in Measurement (GUM), EURACHEM guidelines, and recommendations from INMETRO. Measurement uncertainty, defined as a parameter associated with the dispersion of values attributed to a measurand, is critical for the interpretation of analytical data and decision-making in food quality, safety, and authenticity. The ISO-GUM provides a structured approach for identifying and combining uncertainty sources, while EURACHEM offers practical strategies tailored to chemical and food analysis. These approaches are particularly important for complex food matrices, where sampling, matrix effects, and instrumental variability significantly influence results. Metrological traceability ensures that measurements are linked to recognized reference standards through an unbroken calibration chain, supporting data comparability across laboratories. Analytical platforms such as HPLC, LC-MS/MS, ICP-MS, NMR, and vibrational spectroscopy (FTIR and NIR) are discussed as representative examples of how measurement uncertainty and metrological traceability are implemented in food chemical analysis. In food analysis, the integration of uncertainty estimation and metrological traceability underpins compliance with regulatory limits, risk assessment, labeling accuracy, and fraud detection. Emerging trends combining metrology with advanced analytical techniques and chemometrics further strengthen data reliability and transparency in the global food chain.",
+        "citation_count": 0,
+        "method": "Review / Survey"
+      },
+      {
+        "id": "https://openalex.org/W7171621786",
+        "doi": "10.1016/j.measurement.2026.122667",
+        "title": "A deep learning framework for electrical impedance imaging with integrated prior rules",
+        "published": "2026-07-29",
+        "url": "https://doi.org/10.1016/j.measurement.2026.122667",
+        "authors": [
+          "Xiaoyin Wu",
+          "Zhongliang Zhang",
+          "Junjie Pan",
+          "Qiwei Xiong",
+          "Jianxiu Jin",
+          "Jane You",
+          "Qing Chen",
+          "Xiangmin Xu",
+          "Xiaoming Tao",
+          "Lin Shu"
+        ],
+        "institutions": [
+          "South China University of Technology",
+          "Hong Kong Polytechnic University",
+          "Shanghai International Studies University",
+          "Donghua University",
+          "Guangzhou Experimental Station",
+          "Zhongshan Hospital"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      },
+      {
+        "id": "https://openalex.org/W7171637307",
+        "doi": "10.1016/j.measurement.2026.122715",
+        "title": "Physics-informed GAN framework for dual-energy X-ray copper ore data augmentation",
+        "published": "2026-07-29",
+        "url": "https://doi.org/10.1016/j.measurement.2026.122715",
+        "authors": [
+          "Wen Wang",
+          "Jianfeng He",
+          "Zizheng Yu",
+          "Yanghui Zou",
+          "Weidong Li",
+          "Fei Xia",
+          "Fengjun Nie",
+          "Xueyuan Wang",
+          "Guoyun Zhong",
+          "Zhixiang Ye"
+        ],
+        "institutions": [
+          "Jiangxi University of Technology",
+          "East China University of Technology"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7171496029",
+        "doi": "10.1016/j.measurement.2026.122699",
+        "title": "Design and application of a low-frequency acoustic pressure-gradient MEMS vector hydrophone",
+        "published": "2026-07-28",
+        "url": "https://doi.org/10.1016/j.measurement.2026.122699",
+        "authors": [
+          "Ying Zhang",
+          "Xiao Chen",
+          "Hua Yang",
+          "Haijie Bi",
+          "Fei Sun"
+        ],
+        "institutions": [
+          "Ocean University of China",
+          "Dalian Maritime University"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7171532354",
+        "doi": "10.1016/j.measurement.2026.122635",
+        "title": "Multi-node wearable motion measurement using Action-Primitive representation and cross-modal attention",
+        "published": "2026-07-28",
+        "url": "https://doi.org/10.1016/j.measurement.2026.122635",
+        "authors": [
+          "Tianang Sun",
+          "Chun Zhang",
+          "Dehua Meng",
+          "Xiaoyong Lv",
+          "Yuliang Zhao"
+        ],
+        "institutions": [
+          "Micron (United States)",
+          "Northeastern University"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7171435253",
+        "doi": "10.1016/j.measurement.2026.122674",
+        "title": "Hybrid graph neural networks for fault classification and predictive maintenance in large-scale PV farms author information",
+        "published": "2026-07-27",
+        "url": "https://doi.org/10.1016/j.measurement.2026.122674",
+        "authors": [
+          "N. Vijayasarathi",
+          "Vijay Ravindran"
+        ],
+        "institutions": [
+          "Mahendra Institute of Management and Technical Studies"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      },
+      {
+        "id": "https://openalex.org/W7171348052",
+        "doi": "10.1016/j.measurement.2026.122653",
+        "title": "Robust vehicle trajectory measurement from UAV video sensing under varying illumination conditions",
+        "published": "2026-07-27",
+        "url": "https://doi.org/10.1016/j.measurement.2026.122653",
+        "authors": [
+          "Qingyun Li",
+          "Kequan Chen",
+          "Pan Liu",
+          "Xiaoliang Ma",
+          "Yanyong Guo",
+          "Yuxuan Wang",
+          "Shuang Song"
+        ],
+        "institutions": [
+          "Southeast University",
+          "Nanyang Technological University",
+          "KTH Royal Institute of Technology",
+          "Nanjing University of Aeronautics and Astronautics",
+          "Minjiang University"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      }
+    ],
+    "Engineering Structures": [],
+    "Ultrasonics": [],
+    "Tunnelling and Underground Space Technology": [],
+    "Rock Mechanics and Rock Engineering": []
+  }
+}
