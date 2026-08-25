@@ -1,0 +1,342 @@
+{
+  "date": "2026-08-25",
+  "journals": {
+    "Automation in Construction": [],
+    "Mechanical Systems and Signal Processing": [
+      {
+        "id": "https://openalex.org/W7204090688",
+        "doi": "10.1016/j.ymssp.2026.114866",
+        "title": "Q-shift dual-tree complex wavelet phase-based vibration displacement measurement for wind turbine towers",
+        "published": "2026-08-24",
+        "url": "https://doi.org/10.1016/j.ymssp.2026.114866",
+        "authors": [
+          "Yang Yang",
+          "Yuanqing Fan",
+          "Zhewei Wang",
+          "Jie Luo",
+          "Giuseppe Lacidogna",
+          "Shuai Tao"
+        ],
+        "institutions": [
+          "Chongqing University",
+          "China State Construction Engineering (China)",
+          "Politecnico di Torino"
+        ],
+        "journal": "Mechanical Systems and Signal Processing",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      }
+    ],
+    "Measurement": [
+      {
+        "id": "https://openalex.org/W7204005949",
+        "doi": "10.1016/j.measurement.2026.122968",
+        "title": "A physics-informed wavelet-based multi-scale graph neural network for aero-engine remaining useful life prediction",
+        "published": "2026-08-22",
+        "url": "https://doi.org/10.1016/j.measurement.2026.122968",
+        "authors": [
+          "Peng Peng",
+          "Xueqiang Fan",
+          "Xixun Sun",
+          "Zhongyi Guo"
+        ],
+        "institutions": [
+          "Hefei University of Technology"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      },
+      {
+        "id": "https://openalex.org/W7160717841",
+        "doi": "10.1016/j.measurement.2026.122912",
+        "title": "Washer-shaped piezoresistive nanocomposite sensor for detecting tightness loss in bolted joints",
+        "published": "2026-08-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.122912",
+        "authors": [
+          "Eduardo Preto",
+          "Jose Malmonge",
+          "Gaël Chevallier",
+          "Samuel da Silva"
+        ],
+        "institutions": [],
+        "journal": "Measurement",
+        "abstract": "A novel method for detecting bolt tightness loss is introduced, utilizing real-time measurements from piezoresistive nanocomposite sensors. Piezoresistive sensors alter their electrical resistance in response to applied mechanical force. The sensor consists of natural rubber embedded with carbon nanowires and carbon black, which together facilitate electrical conductivity within the rubber matrix. When subjected to compressive or tensile loading, the composite exhibits a piezoresistive response, as the distribution of conductive nanomaterials shifts. Electrical characterization, including current and voltage measurements, was conducted to confirm and quantify this behavior. A washer-shaped sensor was fabricated and implemented to monitor bolted joints under two configurations: bolts arranged in a single direction and in two directions. Compressive deformation at the bolt interface resulted in measurable changes in the sensor’s electrical response as the applied torque varied. In both configurations, the sensor consistently detected torque variations, including in bolts that were not directly loosened, indicating its ability to monitor entire joints without instrumenting every bolt. Dynamic testing, involving variable loads and vibrations, demonstrated that the sensor did not significantly influence the structure’s dynamic properties, except when bolts were extremely loose. This approach reduces the cost and complexity of sensing, data acquisition, processing, and diagnosis, while offering greater sensitivity to torque variations than conventional techniques.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7204113083",
+        "doi": "10.1016/j.measurement.2026.122974",
+        "title": "An integrated stacking ensemble decoupling and wavelet–U-Net self-learning denoising framework for pick force measurement in shearer drums",
+        "published": "2026-08-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.122974",
+        "authors": [
+          "Hongyue Chen",
+          "Youpeng Diao",
+          "Ziang Guo",
+          "Xin Wang",
+          "Qi Chen",
+          "Yangxi Bai",
+          "Lixin Yue"
+        ],
+        "institutions": [],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7204108073",
+        "doi": "10.1016/j.measurement.2026.122956",
+        "title": "Spectral broadband characterization method for laser-produced plasma EUV source",
+        "published": "2026-08-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.122956",
+        "authors": [
+          "Zhenlin Hu",
+          "Zhu Huang",
+          "Yixian Liu",
+          "Tianze Wang",
+          "Nan Lin"
+        ],
+        "institutions": [],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7204117637",
+        "doi": "10.1016/j.measurement.2026.122925",
+        "title": "MC-CoDA: Mask-guided Cascade attention learning for robust single-snapshot DOA estimation under sensor failures",
+        "published": "2026-08-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.122925",
+        "authors": [
+          "Yan Dong",
+          "Tingkai Hu"
+        ],
+        "institutions": [],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7203856317",
+        "doi": "10.1016/j.measurement.2026.122953",
+        "title": "Global-Local Mamba YOLO with anisotropic kernel for wind turbine blade defect detection",
+        "published": "2026-08-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.122953",
+        "authors": [
+          "Yefeng Li",
+          "Yihui Liu",
+          "Hong Jiang",
+          "Xiangfeng Zhang",
+          "Dong Han",
+          "Haokun Wang"
+        ],
+        "institutions": [],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7204032507",
+        "doi": "10.1016/j.measurement.2026.122970",
+        "title": "Automatic fracture recognition and parameter extraction for complex rock images based on a pragmatic deep-learning model",
+        "published": "2026-08-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.122970",
+        "authors": [
+          "Zhicheng Huang",
+          "Juan Shen",
+          "Chen Zuo",
+          "Man Yang",
+          "Ruigang Zhang",
+          "Lei Ma"
+        ],
+        "institutions": [
+          "Hefei University of Technology",
+          "Anhui Xinhua University"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7203831364",
+        "doi": "10.1016/j.measurement.2026.122947",
+        "title": "Time-frequency analysis aided channel parameters characterization in low-frequency shallow water acoustic environments",
+        "published": "2026-08-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.122947",
+        "authors": [
+          "Shuang Xiao",
+          "Yaqi Zhang",
+          "Bin Liu",
+          "Hanbo Wang"
+        ],
+        "institutions": [
+          "Harbin Engineering University"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7203795363",
+        "doi": "10.1016/j.measurement.2026.122906",
+        "title": "Structure-aware adaptive fusion of UAV and SLAM point clouds for accurate 3D mapping of mountain bridges",
+        "published": "2026-08-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.122906",
+        "authors": [
+          "Lianheng Cai",
+          "You Lin Xu",
+          "Kai-Wen Zhang",
+          "Di Wu"
+        ],
+        "institutions": [
+          "Southwest Jiaotong University",
+          "Sichuan Highway Design and Research Institute"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7203732221",
+        "doi": "10.1016/j.measurement.2026.122924",
+        "title": "Robust TDOA localization in mixed LOS and NLOS environments via two-stage residual matrix analysis",
+        "published": "2026-08-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.122924",
+        "authors": [
+          "Junyi Yang",
+          "Dongfang Zhou",
+          "Qing Liu",
+          "Zedong Wang",
+          "Hailin Deng",
+          "Qikun Liu"
+        ],
+        "institutions": [
+          "PLA Information Engineering University"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      }
+    ],
+    "Engineering Structures": [
+      {
+        "id": "https://openalex.org/W7204139977",
+        "doi": "10.1016/j.engstruct.2026.123605",
+        "title": "Energy absorption and structural optimization of plum multi-cell tubes with origami",
+        "published": "2026-08-24",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.123605",
+        "authors": [
+          "Yue Zhou",
+          "紀敏思",
+          "Shuo Han",
+          "Zhuangzhuang Li",
+          "Zonglai Mo",
+          "Jun Li"
+        ],
+        "institutions": [],
+        "journal": "Engineering Structures",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7203747261",
+        "doi": "10.1016/j.engstruct.2026.123589",
+        "title": "Field blast testing of reinforced concrete column prototype based on the existing overpass design",
+        "published": "2026-08-19",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.123589",
+        "authors": [
+          "Hrvoje Draganić",
+          "Goran Gazić",
+          "Sanja Tokić",
+          "Ivan Radić",
+          "Mario Jeleč"
+        ],
+        "institutions": [
+          "University of Osijek",
+          "Croatian Personal Data Protection Agency"
+        ],
+        "journal": "Engineering Structures",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7203739859",
+        "doi": "10.1016/j.engstruct.2026.123609",
+        "title": "Experimental behaviour of steel-timber composite (STC) stub columns with cruciform steel core under axial compression",
+        "published": "2026-08-19",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.123609",
+        "authors": [
+          "Jiahao Peng",
+          "Xinxiang Liang",
+          "Chao Hou",
+          "Huu‐Tai Thai"
+        ],
+        "institutions": [],
+        "journal": "Engineering Structures",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7172340060",
+        "doi": "10.1016/j.engstruct.2026.123558",
+        "title": "Seismic modeling of GFRP-reinforced concrete members including strain penetration effects",
+        "published": "2026-08-19",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.123558",
+        "authors": [
+          "Seyed Mohammad Hosseini",
+          "Romina Chalabi",
+          "Yazhou Xie",
+          "Yi Shao"
+        ],
+        "institutions": [
+          "McGill University"
+        ],
+        "journal": "Engineering Structures",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Numerical Simulation"
+      },
+      {
+        "id": "https://openalex.org/W7151415110",
+        "doi": "10.1016/j.engstruct.2026.123571",
+        "title": "Flexural performance and calculations of concrete-encased square concrete-filled steel tubular (CFST) hybrid structures",
+        "published": "2026-08-19",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.123571",
+        "authors": [
+          "Dan-Yang Ma",
+          "Jie Gong",
+          "Lin‐Hai Han",
+          "Long-Hui Du"
+        ],
+        "institutions": [
+          "Guangxi University",
+          "Beihang University",
+          "Tsinghua University",
+          "Beijing Urban Construction Design & Development Group (China)"
+        ],
+        "journal": "Engineering Structures",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      }
+    ],
+    "Ultrasonics": [],
+    "Tunnelling and Underground Space Technology": [],
+    "Rock Mechanics and Rock Engineering": []
+  }
+}
