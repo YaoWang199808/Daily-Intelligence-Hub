@@ -1,0 +1,255 @@
+{
+  "date": "2026-09-06",
+  "journals": {
+    "Automation in Construction": [],
+    "Mechanical Systems and Signal Processing": [],
+    "Measurement": [
+      {
+        "id": "https://openalex.org/W7208762738",
+        "doi": "10.1016/j.measurement.2026.123040",
+        "title": "Fast-converging time-domain adaptive reconstruction for sinusoidal signal under short-time sampling and spectral leakage",
+        "published": "2026-09-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123040",
+        "authors": [
+          "Shuoyan Zhang",
+          "Xiaolong Chen",
+          "Haoyu Yu",
+          "Yangbo Feng",
+          "Zanyu Shang"
+        ],
+        "institutions": [],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7208773797",
+        "doi": "10.1016/j.measurement.2026.123008",
+        "title": "Distributed hierarchical sequential fusion estimation for nonlinear multi-rate multi-sensor systems",
+        "published": "2026-09-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123008",
+        "authors": [
+          "Rusheng Wang",
+          "Wangzhuo Yang",
+          "Zhongyao Hu",
+          "Jianzheng Wang"
+        ],
+        "institutions": [
+          "Zhejiang Lab",
+          "Zhejiang University of Technology"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7208787191",
+        "doi": "10.1016/j.measurement.2026.123090",
+        "title": "Improving the shielding effectiveness of large magnetically shielded rooms via calibrated finite-element modeling and compensation current optimization",
+        "published": "2026-09-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123090",
+        "authors": [
+          "Jinji Sun",
+          "Haoxi Sun",
+          "Jing Ye",
+          "Jianyi Ren",
+          "Hanmou Wang",
+          "Qian Jiang",
+          "Daiyong Chen"
+        ],
+        "institutions": [
+          "Beihang University",
+          "Extreme Light Infrastructure - Nuclear Physics",
+          "Chinese Academy of Sciences",
+          "Aerospace Information Research Institute"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      },
+      {
+        "id": "https://openalex.org/W7208791188",
+        "doi": "10.1016/j.measurement.2026.123068",
+        "title": "A multi-scale fusion method based on Bayesian dual-tree wavelet transform for MEMS/MHD phase compensation",
+        "published": "2026-09-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123068",
+        "authors": [
+          "Cui Guo",
+          "Yue Ji",
+          "Jiale Qiu",
+          "Hai-Tao Zheng",
+          "Limei Song",
+          "Jianyu Lu",
+          "Xingfei Li",
+          "Huiliang Cao"
+        ],
+        "institutions": [],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      }
+    ],
+    "Engineering Structures": [
+      {
+        "id": "https://openalex.org/W7207745788",
+        "doi": "10.1016/j.engstruct.2026.123678",
+        "title": "Time-dependent interfacial stiffness of steel-recycled aggregate concrete composite beams: Experimental study and theoretical prediction model",
+        "published": "2026-09-03",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.123678",
+        "authors": [
+          "Jiongzhuo Bai",
+          "Huan Zhang",
+          "Paolo M. Calvi",
+          "Yu-Yin Wang",
+          "Yue Geng"
+        ],
+        "institutions": [
+          "Harbin Institute of Technology",
+          "Heilongjiang Institute of Technology",
+          "Ministry of Industry and Information Technology",
+          "University of Washington",
+          "Key Laboratory of Guangdong Province"
+        ],
+        "journal": "Engineering Structures",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      },
+      {
+        "id": "https://openalex.org/W7207752093",
+        "doi": "10.1016/j.engstruct.2026.123696",
+        "title": "Influence of circumferential gap on the axial compressive behaviour of circular CFDST stub columns: Tests, numerical analysis and design method",
+        "published": "2026-09-03",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.123696",
+        "authors": [
+          "Pei-Jia Dai",
+          "Rui Wang",
+          "Hui Zhao",
+          "Wen-Da Wang",
+          "Man-Tai Chen"
+        ],
+        "institutions": [
+          "Taiyuan University of Technology",
+          "Lanzhou University of Technology",
+          "Shanghai Jiao Tong University"
+        ],
+        "journal": "Engineering Structures",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Numerical Simulation"
+      },
+      {
+        "id": "https://openalex.org/W7207759930",
+        "doi": "10.1016/j.engstruct.2026.123667",
+        "title": "Nonparametric seismic fragility of gravity dams subjected to stochastic pulse-like ground motions",
+        "published": "2026-09-03",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.123667",
+        "authors": [
+          "Xiangxing Zeng",
+          "Qiang Xu",
+          "Jianyun Chen"
+        ],
+        "institutions": [
+          "Dalian University of Technology"
+        ],
+        "journal": "Engineering Structures",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7207777696",
+        "doi": "10.1016/j.engstruct.2026.123715",
+        "title": "SHM-driven nonstationary characteristics analysis and downburst early warning for long-span bridges based on CNN-LSTM and t-SNE-KNN",
+        "published": "2026-09-03",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.123715",
+        "authors": [
+          "Zhongxiang Liu",
+          "Haojun Cai",
+          "Tong Guo",
+          "Xingwang Liu",
+          "Minte Zhang",
+          "Gao Liu"
+        ],
+        "institutions": [
+          "Southeast University",
+          "Nanjing University"
+        ],
+        "journal": "Engineering Structures",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Machine Learning"
+      },
+      {
+        "id": "https://openalex.org/W7207802960",
+        "doi": "10.1016/j.engstruct.2026.123666",
+        "title": "Behaviour of welded lean duplex stainless steel T-stub components under varying loading rates",
+        "published": "2026-09-03",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.123666",
+        "authors": [
+          "W. Li",
+          "M. Cabrera",
+          "M. Theofanous",
+          "S. Afshan"
+        ],
+        "institutions": [],
+        "journal": "Engineering Structures",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7207834867",
+        "doi": "10.1016/j.engstruct.2026.123703",
+        "title": "Weakly supervised multimodal consistency inference for data quality control and anomaly typing in long-term bridge temperature monitoring",
+        "published": "2026-09-03",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.123703",
+        "authors": [
+          "Congcong Fan",
+          "Youliang Ding",
+          "Kang Yang"
+        ],
+        "institutions": [
+          "Southeast University",
+          "Shanghai Institute of Technology"
+        ],
+        "journal": "Engineering Structures",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7207877809",
+        "doi": "10.1016/j.engstruct.2026.123679",
+        "title": "A review of structural additive manufacturing of concrete: Integrating design, reinforcement, and assembly",
+        "published": "2026-09-03",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.123679",
+        "authors": [
+          "Chao Liu",
+          "Zihao Wang",
+          "Huawei Liu",
+          "Wen Zhou",
+          "Chao Zhu",
+          "Ruiyang Ma",
+          "Guoliang Bai"
+        ],
+        "institutions": [
+          "Xi'an University of Architecture and Technology",
+          "National University of Singapore",
+          "Nanyang Technological University"
+        ],
+        "journal": "Engineering Structures",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Review / Survey"
+      }
+    ],
+    "Ultrasonics": [],
+    "Tunnelling and Underground Space Technology": [],
+    "Rock Mechanics and Rock Engineering": []
+  }
+}
