@@ -1,0 +1,609 @@
+{
+  "date": "2026-09-08",
+  "journals": {
+    "Automation in Construction": [
+      {
+        "id": "https://openalex.org/W7131397622",
+        "doi": "10.1016/j.autcon.2026.107243",
+        "title": "Structure-oriented deep learning for semantic segmentation of bridge point clouds",
+        "published": "2026-09-07",
+        "url": "https://doi.org/10.1016/j.autcon.2026.107243",
+        "authors": [
+          "Yu Chen",
+          "Chao Lin",
+          "Tatsuro Yamane",
+          "Shiori Kubo",
+          "Pang-jo Chun"
+        ],
+        "institutions": [
+          "Hirosaki University",
+          "The University of Tokyo",
+          "National Institute of Technology, Tokuyama College",
+          "Kagawa University"
+        ],
+        "journal": "Automation in Construction",
+        "abstract": "Bridges built during the post-war construction boom are reaching the end of their design life, and their inspection still relies mainly on manual visual assessment. The specific question addressed is whether bridge components can be segmented accurately and efficiently from raw point clouds, without the manual denoising that existing methods require. This paper presents BridgeSeg, which combines a 12-dimensional structural feature embedding, a structure-aware encoder–decoder, and a loss constrained by the vertical hierarchy of bridge components, evaluated on three datasets covering 32 bridges. BridgeSeg reaches 96.6% mean intersection over union and 98.4% overall accuracy on unfiltered data, and reduces inference time by 89% compared with superpoint-based methods. This is significant for bridge owners and inspection engineers, since component-level segmentation becomes available on mainstream hardware and without preprocessing. The structure-oriented strategy can be extended to other infrastructure whose components follow known spatial rules.",
+        "citation_count": 0,
+        "method": "Machine Learning"
+      },
+      {
+        "id": "https://openalex.org/W7211895665",
+        "doi": "10.1016/j.autcon.2026.107255",
+        "title": "Hybrid semantic segmentation framework for reinforced concrete bridge point clouds",
+        "published": "2026-09-07",
+        "url": "https://doi.org/10.1016/j.autcon.2026.107255",
+        "authors": [
+          "Tao Yang",
+          "Yang Zou",
+          "Enrique del Rey Castillo",
+          "Ruidong Chang",
+          "Jian Zhong"
+        ],
+        "institutions": [],
+        "journal": "Automation in Construction",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7211896335",
+        "doi": "10.1016/j.autcon.2026.107230",
+        "title": "Levels of automation in construction planning and control",
+        "published": "2026-09-07",
+        "url": "https://doi.org/10.1016/j.autcon.2026.107230",
+        "authors": [
+          "Timson Yeung",
+          "Sivan Grodsky",
+          "Jiyuan Li",
+          "Davide Schaumann",
+          "Rafael Sacks"
+        ],
+        "institutions": [],
+        "journal": "Automation in Construction",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7211898487",
+        "doi": "10.1016/j.autcon.2026.107228",
+        "title": "Robotic modular assembly in harsh environments: Framework-driven conceptual review",
+        "published": "2026-09-07",
+        "url": "https://doi.org/10.1016/j.autcon.2026.107228",
+        "authors": [
+          "Rudai Shan",
+          "Hongtian Fei",
+          "Yaoming Zhuang",
+          "Chengdong Wu",
+          "Jiuhong Zhang"
+        ],
+        "institutions": [
+          "Northeastern University"
+        ],
+        "journal": "Automation in Construction",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Review / Survey"
+      },
+      {
+        "id": "https://openalex.org/W7211900597",
+        "doi": "10.1016/j.autcon.2026.107252",
+        "title": "Discovery and prediction of tidal reach bridge scour morphology via 3D underwater sonar point cloud",
+        "published": "2026-09-07",
+        "url": "https://doi.org/10.1016/j.autcon.2026.107252",
+        "authors": [
+          "Zelin Huang",
+          "Qilin Yang",
+          "Yanjie Zhu",
+          "Wen Xiong",
+          "Yazhou Xie"
+        ],
+        "institutions": [
+          "Southeast University",
+          "McGill University"
+        ],
+        "journal": "Automation in Construction",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      }
+    ],
+    "Mechanical Systems and Signal Processing": [
+      {
+        "id": "https://openalex.org/W7211873172",
+        "doi": "10.1016/j.ymssp.2026.114928",
+        "title": "CNSAO: a complex number space anomaly observer with multi-task masked LLM autoencoder for bearing health monitoring under time-varying speeds",
+        "published": "2026-09-07",
+        "url": "https://doi.org/10.1016/j.ymssp.2026.114928",
+        "authors": [
+          "Zhuang Ye",
+          "Yupeng Li",
+          "Yanli Huang",
+          "Qiang Zhang",
+          "Junmeng Li"
+        ],
+        "institutions": [],
+        "journal": "Mechanical Systems and Signal Processing",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7211873969",
+        "doi": "10.1016/j.ymssp.2026.114923",
+        "title": "Prediction method for dynamic stiffness of fixture-workpiece system considering clamping constraints and material removal",
+        "published": "2026-09-07",
+        "url": "https://doi.org/10.1016/j.ymssp.2026.114923",
+        "authors": [
+          "Rui Fang",
+          "Tianran Liu",
+          "Yuhang Cui",
+          "Xingliang Chai",
+          "Liping Zhang",
+          "Haibo Liu",
+          "Yongqing Wang"
+        ],
+        "institutions": [],
+        "journal": "Mechanical Systems and Signal Processing",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7211894561",
+        "doi": "10.1016/j.ymssp.2026.114937",
+        "title": "Study on dynamic behavior of high-speed lubricated bearings in control moment gyroscope electromechanical system under different controller parameters",
+        "published": "2026-09-07",
+        "url": "https://doi.org/10.1016/j.ymssp.2026.114937",
+        "authors": [
+          "Yuehang Liu",
+          "Jianghai Miao",
+          "Wei Pu"
+        ],
+        "institutions": [],
+        "journal": "Mechanical Systems and Signal Processing",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      }
+    ],
+    "Measurement": [
+      {
+        "id": "https://openalex.org/W7108604173",
+        "doi": "10.1016/j.measurement.2026.123004",
+        "title": "Classification prediction of green gemstones in uniform color space based on MLP neural network",
+        "published": "2026-09-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123004",
+        "authors": [
+          "Boyue Chen",
+          "Xu Huang",
+          "Nai Wang"
+        ],
+        "institutions": [
+          "Shenzhen Polytechnic University",
+          "The Polytechnic University of Japan"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      },
+      {
+        "id": "https://openalex.org/W7129200742",
+        "doi": "10.1016/j.measurement.2026.123127",
+        "title": "Multi-Object detection and tracking using hybrid deep learning with Fire Hawk crayfish optimization algorithm",
+        "published": "2026-09-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123127",
+        "authors": [
+          "R. Mallikka",
+          "S. Karthick",
+          "Selvarama Lakshmi"
+        ],
+        "institutions": [
+          "International University of Africa",
+          "International University of East Africa"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      },
+      {
+        "id": "https://openalex.org/W7210268842",
+        "doi": "10.1016/j.measurement.2026.123077",
+        "title": "Refractive index estimation of transparent microspheres via single-shot defocused diffraction imaging",
+        "published": "2026-09-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123077",
+        "authors": [
+          "Asim Asrar",
+          "M. H. Tyeb",
+          "Pranab Kumar Dutta",
+          "A. K. Majumder"
+        ],
+        "institutions": [
+          "Indian Institute of Technology Kharagpur"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7210269247",
+        "doi": "10.1016/j.measurement.2026.123110",
+        "title": "A Gaussian mixture automatic belief rule base for fault diagnosis in complex systems",
+        "published": "2026-09-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123110",
+        "authors": [
+          "Ning Li",
+          "Xingchi Yan",
+          "Zida Xia",
+          "Yingmei Li",
+          "Lin Lin"
+        ],
+        "institutions": [
+          "Harbin Normal University",
+          "UNSW Sydney"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7210271712",
+        "doi": "10.1016/j.measurement.2026.123120",
+        "title": "Nonlinear analysis of deep excavations using coupled nonlinear earth pressure functions and Pasternak foundation models",
+        "published": "2026-09-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123120",
+        "authors": [
+          "Jie Huang",
+          "Yang Wu",
+          "Zeping Yang",
+          "Mingdong Li",
+          "Jim Shiau",
+          "Yifei Ru",
+          "Jiawei Deng"
+        ],
+        "institutions": [
+          "Guangzhou University",
+          "East China University of Technology",
+          "University of Southern Queensland"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7210272020",
+        "doi": "10.1016/j.measurement.2026.123078",
+        "title": "Electrochemical impedance strategy for silicic acid detection in marine environments",
+        "published": "2026-09-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123078",
+        "authors": [
+          "Mahmoud Fatehy Altahan",
+          "Amr M. Beltagi",
+          "Magdi Abdel-Azzem",
+          "Mona A. El-Attar"
+        ],
+        "institutions": [
+          "National Water Research Center",
+          "Kafrelsheikh University",
+          "Menoufia University",
+          "Higher Institute of Engineering"
+        ],
+        "journal": "Measurement",
+        "abstract": "Silicic acid (H 4 SiO 4 ) is an essential macronutrient for silicifying phytoplankton, which contribute substantially to global primary production plays a key role in the oceanic carbon cycle. Reliable. The high-resolution monitoring of silicic acid is therefore important for understanding marine ecosystem dynamics and biogeochemical processes. Here we report a reagent-efficient impedimetric sensor for the selective determination of silicic acid based on electrochemical impedance spectroscopy (EIS). The sensing strategy is based on the formation of a silicomolybdate complex at the surface of a carbon paste electrode modified with ammonium molybdate and pre-treated under alkaline conditions to generate electroactive molybdate species. Measurements were performed under acidic conditions (pH 2.0), where the sensor exhibit linear response over a silicic acid concentration range of 0.5–300 µM, with a sensitivity of 46.07 Ω µM −1 (R 2 = 0.97) and a limit of detection of 0.42 µM. Repeatability was confirmed at low and high concentrations, with relative standard deviations below 8.1%. Selectivity was demonstrated in the presence of orthophosphate, where stable impedance responses were maintained and orthophosphate contributions were effectively excluded. Surface characterization by scanning electron microscopy and energy-dispersive X-ray spectroscopy supported the formation of molybdate − derived surface species and the selective capture of silicon at the electrode interface. The results demonstrate the potential of this impedimetric platform for sensitive and selective silicic acid detection while minimizing reagent consumption, making it suitable for autonomous, real-time monitoring in marine environment.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7210272060",
+        "doi": "10.1016/j.measurement.2026.123116",
+        "title": "Coupling-induced markers for non-destructive spatial calibration of shielded cables in FDR",
+        "published": "2026-09-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123116",
+        "authors": [
+          "Chentong Ye",
+          "Daning Zhang",
+          "Yifan He",
+          "Jianyi Xue",
+          "穆海宝",
+          "Guanjun Zhang"
+        ],
+        "institutions": [
+          "Xi'an Jiaotong University",
+          "Electric Power Research Institute",
+          "Shanghai Electric (China)",
+          "China Huadian Corporation (China)",
+          "Hefei University of Technology"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7210273805",
+        "doi": "10.1016/j.measurement.2026.123118",
+        "title": "A coded excitation framework for Acoustoelectric brain imaging with high SNR and sensitivity",
+        "published": "2026-09-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123118",
+        "authors": [
+          "Ran Jia",
+          "Xizi Song",
+          "Gangnan Han",
+          "Xiuyun Liu",
+          "Meijun Pang",
+          "Ming Dong"
+        ],
+        "institutions": [
+          "Tianjin University",
+          "Tianjin Medical University"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7210285841",
+        "doi": "10.1016/j.measurement.2026.123119",
+        "title": "Objective detection of boundary noise in low-light-level image intensifiers based on frequency-domain bandpass filtering and multi-scale spectral feature consistency analysis",
+        "published": "2026-09-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123119",
+        "authors": [
+          "Luzi Wang",
+          "Ting Cao"
+        ],
+        "institutions": [
+          "Nanyang Institute of Technology"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7210289416",
+        "doi": "10.1016/j.measurement.2026.123114",
+        "title": "MobileMamba: dynamic feature learning for open-set sheep face identification across growth cycles",
+        "published": "2026-09-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123114",
+        "authors": [
+          "Liu Suhui",
+          "Guangpu Wang",
+          "Chuanzhong Xuan",
+          "Zhaohui Tang",
+          "Tao Zhang",
+          "Yikun Liu"
+        ],
+        "institutions": [
+          "Tsinghua University",
+          "Inner Mongolia Agricultural University"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      }
+    ],
+    "Engineering Structures": [
+      {
+        "id": "https://openalex.org/W7161584592",
+        "doi": "10.1016/j.engstruct.2026.123724",
+        "title": "Elastic buckling analysis of platings with torsionally and warping restrained supports by truncated series expansion applied to a hierarchical trigonometric function set",
+        "published": "2026-09-07",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.123724",
+        "authors": [
+          "Vincenzo Piscopo",
+          "A. Scamardella"
+        ],
+        "institutions": [
+          "Parthenope University of Naples"
+        ],
+        "journal": "Engineering Structures",
+        "abstract": "The paper provides a new framework for the elastic buckling analysis of platings under linearly varying uniaxial loads, with torsionally and warping restrained longitudinal supports. The new method, based on the employment of a hierarchical trigonometric function set, allows analysing any type of boundary conditions at the plate long edges, ranging from the simple support to the clamped ones. In order to make the calculations viable for practical design purposes, an analytical formulation, based on the 3rd order truncated series expansion of the vertical displacement field, is developed. The effectiveness of the new analytical solution is investigated, focusing on several values of the torsional stiffness of longitudinal supporting members, in order to cover various types of boundary conditions at the plate long edges. Particularly, the new analytical formulation is checked by a comparative analysis against the asymptotic values, the relevant results obtained by the eigenvalue buckling analysis, carried out by Ansys Mechanical APDL, as well as current Rule formulas. Based on current results, the new method not only provides a more rational approach for the elastic buckling analysis of ship platings, but it also allows improving the accuracy in determining the buckling capacity in the entire design range typical of ship platings.",
+        "citation_count": 0,
+        "method": "Analytical / Theoretical"
+      },
+      {
+        "id": "https://openalex.org/W7211876418",
+        "doi": "10.1016/j.engstruct.2026.123680",
+        "title": "Flexural wave beam steering with grafted circular phase-gradient metasurface",
+        "published": "2026-09-07",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.123680",
+        "authors": [
+          "Zeyang Bi",
+          "Zhiqiang Li",
+          "Jun Yang",
+          "Liuxian Zhao",
+          "Chuan‐Xing Bi"
+        ],
+        "institutions": [
+          "Hefei University of Technology",
+          "Institute of Acoustics",
+          "University of Chinese Academy of Sciences"
+        ],
+        "journal": "Engineering Structures",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7211882712",
+        "doi": "10.1016/j.engstruct.2026.123698",
+        "title": "Dynamic-to-static two-stage topology optimization for stress RMS reduction under random excitation",
+        "published": "2026-09-07",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.123698",
+        "authors": [
+          "Shi-An Zhou",
+          "Song Yao"
+        ],
+        "institutions": [],
+        "journal": "Engineering Structures",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7211900498",
+        "doi": "10.1016/j.engstruct.2026.123681",
+        "title": "Axial compressive behavior of CG-CFST stub columns rehabilitated with pressure grouting",
+        "published": "2026-09-07",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.123681",
+        "authors": [
+          "Ping Jin",
+          "Yong Ye",
+          "Zelin Ren",
+          "Hang Jiang"
+        ],
+        "institutions": [
+          "Huaqiao University"
+        ],
+        "journal": "Engineering Structures",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7211910909",
+        "doi": "10.1016/j.engstruct.2026.123709",
+        "title": "Mechanical properties and end anchorage performance of RC beams strengthened with FRP/SMA composite system",
+        "published": "2026-09-07",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.123709",
+        "authors": [
+          "Yan-Jie Xue",
+          "Wenwei Wang",
+          "Wei Liu",
+          "Jun Tian",
+          "Dan Lv",
+          "Ting Zhang"
+        ],
+        "institutions": [
+          "Jilin University",
+          "Southeast University",
+          "Jilin Jianzhu University",
+          "Dongguan University of Technology"
+        ],
+        "journal": "Engineering Structures",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      }
+    ],
+    "Ultrasonics": [
+      {
+        "id": "https://openalex.org/W7211884569",
+        "doi": "10.1016/j.ultras.2026.108290",
+        "title": "Non-invasive liquid-level gauging using guided waves with reference-paths based temperature compensation",
+        "published": "2026-09-01",
+        "url": "https://doi.org/10.1016/j.ultras.2026.108290",
+        "authors": [
+          "Quentin Baudis",
+          "Raphaël Carpine",
+          "Bastien Chapuis"
+        ],
+        "institutions": [],
+        "journal": "Ultrasonics",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      }
+    ],
+    "Tunnelling and Underground Space Technology": [
+      {
+        "id": "https://openalex.org/W7125649605",
+        "doi": "10.1016/j.tust.2026.108096",
+        "title": "Numerical investigation of repurposing oil storage caverns for hydrogen storage using lined rock cavern (LRC) technology",
+        "published": "2026-09-07",
+        "url": "https://doi.org/10.1016/j.tust.2026.108096",
+        "authors": [
+          "Wenjun Luo",
+          "Ping Zhang",
+          "Charlie Chunlin Li",
+          "Yang Zou"
+        ],
+        "institutions": [
+          "Luleå University of Technology",
+          "Norwegian University of Science and Technology"
+        ],
+        "journal": "Tunnelling and Underground Space Technology",
+        "abstract": "The growing demand for large-scale geological hydrogen storage has driven the exploration of resource-efficient methods for repurposing existing underground infrastructure. This study assesses the technical feasibility of converting underground oil storage caverns into lined rock caverns (LRCs) for hydrogen storage and evaluates the material costs associated with two proposed design schemes. Two retrofit schemes were analyzed numerically using parameters derived from an existing LRC demonstration project. The ultimate and maximum operating gas pressures were determined using the uplift failure model, considering cavern burial depth and the mechanical properties of the surrounding rock mass. Structural responses under pressurization were evaluated, followed by a comparative assessment of concrete and steel liner costs. The results indicate that dividing the original cavern into multiple lined sub-caverns separated by concrete pillars improves structural performance and reduces the maximum tensile stress in the steel liner, although tensile-stress concentrations may develop in the concrete pillars. Meanwhile, the proposed Single-cavern scheme offers significantly higher hydrogen storage capacity with lower concrete requirements but a larger steel liner area. A supplementary short-term cyclic thermo-mechanical analysis revealed response-dependent differences from the corresponding static analysis. The static analysis overestimated the maximum tensile stress in the steel liner and the plastic-zone volume in the concrete liner, while underestimating the plastic-zone volumes in the rock-mass and total system. These findings highlight the importance of cyclic thermo-mechanical effects on LRC response while supporting the applicability of static analysis as a preliminary assessment approach, provided that an adequate safety margin is adopted when determining the maximum operating gas pressure. Additionally, in both schemes, the tensile-stress level in the steel liner remains low, suggesting significant potential for liner optimization in material selection and liner thickness. Overall, the results indicate that repurposing oil storage caverns as LRCs is a technically feasible retrofit option, while overall economic feasibility should be further evaluated through life-cycle cost analysis.",
+        "citation_count": 0,
+        "method": "Numerical Simulation"
+      },
+      {
+        "id": "https://openalex.org/W7211897842",
+        "doi": "10.1016/j.tust.2026.108085",
+        "title": "Nonlinear evolution of earth pressure on tunnel linings based on mobilized shear strength of unsaturated soils",
+        "published": "2026-09-07",
+        "url": "https://doi.org/10.1016/j.tust.2026.108085",
+        "authors": [
+          "Hui Chen",
+          "Dongming Zhang",
+          "Hao Bai",
+          "Zhen-wei Ye",
+          "Hong-wei Huang",
+          "Yadong Xue"
+        ],
+        "institutions": [],
+        "journal": "Tunnelling and Underground Space Technology",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      }
+    ],
+    "Rock Mechanics and Rock Engineering": [
+      {
+        "id": "https://openalex.org/W7211888995",
+        "doi": "10.1007/s00603-026-05910-4",
+        "title": "Study on the Thermal Aging Damage Mechanism of Calcitic Marble Based on Coupled Analysis of Multi-Scale Indicators",
+        "published": "2026-09-07",
+        "url": "https://doi.org/10.1007/s00603-026-05910-4",
+        "authors": [
+          "Tingying Wu",
+          "Yang Zhao",
+          "Haoze Wu",
+          "Shuqiang Xu"
+        ],
+        "institutions": [
+          "Shandong University"
+        ],
+        "journal": "Rock Mechanics and Rock Engineering",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7211901818",
+        "doi": "10.1007/s00603-026-05835-y",
+        "title": "Role of Loading Rate in Energy Evolution and Fatigue Damage of Salt Rock under Cyclic Loading",
+        "published": "2026-09-07",
+        "url": "https://doi.org/10.1007/s00603-026-05835-y",
+        "authors": [
+          "Huan Li",
+          "Jun Zhou",
+          "Liangliang Ye",
+          "Hongling Ma",
+          "Xilin Shi",
+          "Jinming Shi",
+          "Xiangsheng Chen",
+          "Hao Wang",
+          "Chunhe Yang"
+        ],
+        "institutions": [
+          "Jiangxi Academy of Sciences",
+          "Chengdu University of Technology",
+          "Institute of Rock and Soil Mechanics",
+          "East China Jiaotong University"
+        ],
+        "journal": "Rock Mechanics and Rock Engineering",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      }
+    ]
+  }
+}
