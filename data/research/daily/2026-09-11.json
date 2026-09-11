@@ -1,0 +1,430 @@
+{
+  "date": "2026-09-11",
+  "journals": {
+    "Automation in Construction": [],
+    "Mechanical Systems and Signal Processing": [
+      {
+        "id": "https://openalex.org/W7212114905",
+        "doi": "10.1016/j.ymssp.2026.114884",
+        "title": "Full-field experimental modal analysis with low-speed cameras: Bandwidth merging and signal reconstruction for high-frequency dynamics",
+        "published": "2026-09-10",
+        "url": "https://doi.org/10.1016/j.ymssp.2026.114884",
+        "authors": [
+          "Andrea Sabatini",
+          "Davide Mastrodicasa",
+          "Emilio Di Lorenzo",
+          "Milena Martarelli",
+          "Paolo Castellini"
+        ],
+        "institutions": [],
+        "journal": "Mechanical Systems and Signal Processing",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7212161159",
+        "doi": "10.1016/j.ymssp.2026.114961",
+        "title": "Vibro-acoustic coupling modeling and active control analysis of distributed piezoelectric laminated rectangular plates",
+        "published": "2026-09-10",
+        "url": "https://doi.org/10.1016/j.ymssp.2026.114961",
+        "authors": [
+          "Tiangui Ye",
+          "Yuhang Yang",
+          "Xinxin Wang",
+          "Yukun Chen",
+          "Guoyong Jin",
+          "Qian Sun"
+        ],
+        "institutions": [],
+        "journal": "Mechanical Systems and Signal Processing",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Numerical Simulation"
+      }
+    ],
+    "Measurement": [
+      {
+        "id": "https://openalex.org/W7212060158",
+        "doi": "10.1016/j.measurement.2026.123041",
+        "title": "Design, modeling, and optimization of a Frustrated Total Internal Reflection (FTIR)-based tactile force sensor",
+        "published": "2026-09-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123041",
+        "authors": [
+          "Ahmad Abbasi",
+          "Andrea Zanoni"
+        ],
+        "institutions": [
+          "Politecnico di Milano"
+        ],
+        "journal": "Measurement",
+        "abstract": "The design, modeling, and experimental evaluation of a tactile force sensor utilizing the principle of Frustrated Total Internal Reflection (FTIR) is presented. The sensor device consists of a waveguide, a silicone probe, a light detector, and an LED source. The study begins with a comprehensive material selection process aimed at identifying optimal optical and mechanical properties to ensure efficient light transmission under applied pressure. Hertzian contact theory and a linear-isotropic finite element model are employed to simulate the mechanical interaction between the probe and the waveguide. Finite element method (FEM) simulations are then conducted to compare the numerical and analytical results and to analyze the sensor’s static and dynamic responses under various conditions. An optimized configuration featuring three detectors and multiple probe geometries is proposed to achieve a consistent correlation between applied force and optical output. The FEM results are compared with experimental measurements. Additional experimental investigations, including static calibration, hysteresis, repeatability, drift, and dynamic tests, are performed to assess the sensor’s stability and reliability under cyclic loading. The findings confirm that the developed FTIR-based tactile sensor exhibits adequate sensitivity, strong repeatability, and stable performance, demonstrating its potential for practical tactile sensing applications.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      },
+      {
+        "id": "https://openalex.org/W7212062106",
+        "doi": "10.1016/j.measurement.2026.123141",
+        "title": "Subsurface utility mapping using ground-penetrating radar in a dense urban environment of historic Lucknow city: implications for infrastructure safety and sustainable city planning",
+        "published": "2026-09-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123141",
+        "authors": [
+          "Krishna Kumar Yadav",
+          "Ashvini Kumar Yadav",
+          "Satish Sinha"
+        ],
+        "institutions": [
+          "Rajiv Gandhi Institute of Petroleum Technology"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7212071773",
+        "doi": "10.1016/j.measurement.2026.123088",
+        "title": "Review on soft sensing of complex industrial processes: Advances, opportunities, and challenges",
+        "published": "2026-09-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123088",
+        "authors": [
+          "Zhenjie Lu",
+          "Jinjiang Wang"
+        ],
+        "institutions": [
+          "China University of Petroleum, Beijing",
+          "General Administration of Quality Supervision, Inspection and Quarantine"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Review / Survey"
+      },
+      {
+        "id": "https://openalex.org/W7212084315",
+        "doi": "10.1016/j.measurement.2026.123138",
+        "title": "A novel traceable calibration method for thrust stand based on rotating an eccentric mass rod",
+        "published": "2026-09-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123138",
+        "authors": [
+          "Zhan Hu",
+          "Bin Wang",
+          "Chunyuan Zhu",
+          "Sixue Xu",
+          "Linghua Feng",
+          "Hongbin Zhu",
+          "Yelong Zheng",
+          "Ning Guo",
+          "Detian Li"
+        ],
+        "institutions": [
+          "Shanghai Micro Satellite Engineering Center",
+          "University of Chinese Academy of Sciences",
+          "Tianjin University",
+          "Lanzhou University of Technology"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7212124944",
+        "doi": "10.1016/j.measurement.2026.123089",
+        "title": "In-shield pre-operational calibration and error decoupling of gradient compensation coils in atomic comagnetometers via tensor eigen-decomposition",
+        "published": "2026-09-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123089",
+        "authors": [
+          "Senhua Lei",
+          "Xusheng Lei",
+          "Hao Xia",
+          "Haoying Pang"
+        ],
+        "institutions": [
+          "Beihang University"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7212130591",
+        "doi": "10.1016/j.measurement.2026.123143",
+        "title": "Adaptive acquisition method for vehicle-mounted electro-optical systems under radar cueing",
+        "published": "2026-09-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123143",
+        "authors": [
+          "Kai Zhang",
+          "刘洋 Liu Yang",
+          "Yunjie Teng",
+          "Zezheng Li"
+        ],
+        "institutions": [
+          "Changchun University of Science and Technology"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7212192669",
+        "doi": "10.1016/j.measurement.2026.123147",
+        "title": "Cross-channel calibration for double-prism multi-beam coherent LiDAR achieving fidelity-enhanced three-dimensional reconstruction",
+        "published": "2026-09-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123147",
+        "authors": [
+          "Xingsheng Liu",
+          "Anhu Li",
+          "Jianfeng Sun",
+          "Guangyao Liu"
+        ],
+        "institutions": [],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      }
+    ],
+    "Engineering Structures": [
+      {
+        "id": "https://openalex.org/W7212168340",
+        "doi": "10.1016/j.engstruct.2026.123726",
+        "title": "Shear capacity of unstabilised earth masonry walls: Experimental investigation of failure modes and comparison with analytical models",
+        "published": "2026-09-11",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.123726",
+        "authors": [
+          "Annika Schneider",
+          "Danièle Waldmann"
+        ],
+        "institutions": [],
+        "journal": "Engineering Structures",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      },
+      {
+        "id": "https://openalex.org/W7212178712",
+        "doi": "10.1016/j.engstruct.2026.123735",
+        "title": "Seismic performance of superposed slab-shear wall UHPC joints with low slab span-to-thickness ratios in nuclear power plants",
+        "published": "2026-09-11",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.123735",
+        "authors": [
+          "Kun Wang",
+          "Wenfu He",
+          "Tao Wang",
+          "Jiawei Ji",
+          "Sen Yang"
+        ],
+        "institutions": [],
+        "journal": "Engineering Structures",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7212192668",
+        "doi": "10.1016/j.engstruct.2026.123756",
+        "title": "Flexural behavior of concrete beams hybrid-reinforced with steel and textured epoxy-coated Fe-SMA rebars",
+        "published": "2026-09-11",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.123756",
+        "authors": [
+          "Zhian Zhao",
+          "Zhiqiang Dong",
+          "Jie Wang",
+          "Hong Zhu",
+          "Tao Wang",
+          "Yijie Pan"
+        ],
+        "institutions": [],
+        "journal": "Engineering Structures",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7212118521",
+        "doi": "10.1016/j.engstruct.2026.123714",
+        "title": "Design-oriented reinforcement regularization framework for local strains prediction and uncertainties in CB-failure RC slender walls",
+        "published": "2026-09-10",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.123714",
+        "authors": [
+          "Masayuki Horikawa"
+        ],
+        "institutions": [
+          "Nihon Fukushi University"
+        ],
+        "journal": "Engineering Structures",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7212120463",
+        "doi": "10.1016/j.engstruct.2026.123749",
+        "title": "Study on uncertainty quantification and information gain strategy for non-destructive testing with incomplete measurement points",
+        "published": "2026-09-10",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.123749",
+        "authors": [
+          "Chengwen Zhang",
+          "Qing Chun",
+          "Jinpeng Luo",
+          "Yijie Lin"
+        ],
+        "institutions": [
+          "Southeast University"
+        ],
+        "journal": "Engineering Structures",
+        "abstract": "Non-destructive testing (NDT) of wood is an important technique for structural performance assessment. However, most wood NDTs face serious uncertainty problems when the measurement points are incomplete. Based on this, the motivation of this paper is to establish an uncertainty quantification method and its information gain strategy for wood NDT with incomplete measurement points under the Bayesian framework. Firstly, a Bayesian uncertainty model based on hyper-robust estimation is established, and two information gain strategies—the chord-mean method and the diameter-mean method, are proposed. Secondly, NDT based on impedance meter and stress wave is conducted on laboratory material samples, laboratory component samples, a thousand-year-old building and a centuries-old building, respectively, to establish the dataset. The quantification results are subsequently verified by the test set. Finally, the influences of different angles and the number of new measurement points on the information gain of the two methods are discussed. Moreover, the proposed method was applied to an engineering case combined with the stochastic finite element calculations based on Latin Hypercube sampling. The influence of the damage distribution results is verified through the on-site vibration test. The results show that the agreement rate between the proposed method and measurements is 86.86%. In addition, under the same number of measurement points, the information gain capability of the diameter-mean method is better than that of the chord-mean method, and the adding measurement paths at 45° and 135° can improve the results. Using the calibrated damage distribution, the maximum error of the modal parameters between the measured and calculated results is 4.12%. The research can significantly improve the field detection efficiency of large-scale or complex wood structures, and estimate the uncertainty, facilitating high-fidelity calculation models.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      },
+      {
+        "id": "https://openalex.org/W7212123383",
+        "doi": "10.1016/j.engstruct.2026.123761",
+        "title": "A two-stage GNN surrogate model for rapid prediction of damage and displacement fields of RC buildings under sequential penetration–blast loading",
+        "published": "2026-09-10",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.123761",
+        "authors": [
+          "Zhi-Qiao Wang",
+          "Xiao-Wei Shen",
+          "Jiang-Zhou Peng",
+          "Yong He",
+          "Mingyang Wang",
+          "Jie Hu",
+          "Ziming Xiong",
+          "Liu-Juan Pan",
+          "Wei‐Tao Wu"
+        ],
+        "institutions": [],
+        "journal": "Engineering Structures",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7212189167",
+        "doi": "10.1016/j.engstruct.2026.123740",
+        "title": "Triangular mesh generation and structural stability optimization of free-form grid shells based on parametric domain coordinates",
+        "published": "2026-09-10",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.123740",
+        "authors": [
+          "Zhijie Zhang",
+          "Zhenghao Hou",
+          "Xiaoyong Zhang",
+          "Yang Wei",
+          "Mingmin Ding"
+        ],
+        "institutions": [],
+        "journal": "Engineering Structures",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7212194693",
+        "doi": "10.1016/j.engstruct.2026.123706",
+        "title": "Experimental and analytical evaluation of corroded steel beams repaired with fiber-reinforced polymers",
+        "published": "2026-09-10",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.123706",
+        "authors": [
+          "Mohamed Eltahawy",
+          "Emad M. Hassan",
+          "Guillermo A. Riveros",
+          "Hussam Mahmoud"
+        ],
+        "institutions": [
+          "Missouri University of Science and Technology",
+          "United States Army Corps of Engineers",
+          "Vanderbilt University"
+        ],
+        "journal": "Engineering Structures",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      }
+    ],
+    "Ultrasonics": [
+      {
+        "id": "https://openalex.org/W7212182290",
+        "doi": "10.1016/j.ultras.2026.108297",
+        "title": "Grain refinement mechanism of ultrasonic application stage in wire arc additive manufacturing of alloy steel",
+        "published": "2026-09-01",
+        "url": "https://doi.org/10.1016/j.ultras.2026.108297",
+        "authors": [
+          "Feilong Ji",
+          "Xiaohong Wang",
+          "Bowen Dong",
+          "Huan Yuan",
+          "Zeqi Hu",
+          "Xunpeng Qin",
+          "Lin Hua"
+        ],
+        "institutions": [],
+        "journal": "Ultrasonics",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7212195324",
+        "doi": "10.1016/j.ultras.2026.108302",
+        "title": "High-power handling and temperature-stable SH-SAW filters using a 42° YX-LT/SiO2/α-Si/Si multilayer structure",
+        "published": "2026-09-01",
+        "url": "https://doi.org/10.1016/j.ultras.2026.108302",
+        "authors": [
+          "Yang Chang",
+          "Qiaozhen Zhang",
+          "Xucheng Li",
+          "Feihong Bao",
+          "Ying Cheng",
+          "Xiaojun Liu"
+        ],
+        "institutions": [],
+        "journal": "Ultrasonics",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      }
+    ],
+    "Tunnelling and Underground Space Technology": [
+      {
+        "id": "https://openalex.org/W7212122369",
+        "doi": "10.1016/j.tust.2026.108115",
+        "title": "Rapid non-destructive characterization of shallow concrete microdamage based on photoluminescence sensing technology",
+        "published": "2026-09-11",
+        "url": "https://doi.org/10.1016/j.tust.2026.108115",
+        "authors": [
+          "Yawen Sun",
+          "Haitao Yu",
+          "Luc Taerwe",
+          "Wei Jiang"
+        ],
+        "institutions": [],
+        "journal": "Tunnelling and Underground Space Technology",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7212138792",
+        "doi": "10.1016/j.tust.2026.108116",
+        "title": "Numerical simulations of the release of liquid hydrogen from a freight train and explosion in a long railway tunnel: Consequences for passenger train safety",
+        "published": "2026-09-11",
+        "url": "https://doi.org/10.1016/j.tust.2026.108116",
+        "authors": [
+          "Ciro Caliendo",
+          "Gianluca Genovese",
+          "Isidoro Russo"
+        ],
+        "institutions": [],
+        "journal": "Tunnelling and Underground Space Technology",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Numerical Simulation"
+      }
+    ],
+    "Rock Mechanics and Rock Engineering": []
+  }
+}
