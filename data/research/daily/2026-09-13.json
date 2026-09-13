@@ -1,0 +1,917 @@
+{
+  "date": "2026-09-13",
+  "journals": {
+    "Automation in Construction": [
+      {
+        "id": "https://openalex.org/W7212236816",
+        "doi": "10.1016/j.autcon.2026.107258",
+        "title": "LLM-enabled bidirectional material semantic alignment for automated BIM-to-building performance assessment",
+        "published": "2026-09-11",
+        "url": "https://doi.org/10.1016/j.autcon.2026.107258",
+        "authors": [
+          "Amirhosein Moshari",
+          "Kavan Javanroodi",
+          "Vahid M. Nik"
+        ],
+        "institutions": [],
+        "journal": "Automation in Construction",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7212254835",
+        "doi": "10.1016/j.autcon.2026.107260",
+        "title": "Agentic search for BIM information extraction: Systematic evaluation",
+        "published": "2026-09-11",
+        "url": "https://doi.org/10.1016/j.autcon.2026.107260",
+        "authors": [
+          "S. Hellin",
+          "Suhyung Jang",
+          "Stefan Fuchs",
+          "Stavros Nousias",
+          "André Borrmann"
+        ],
+        "institutions": [
+          "Nemetschek (Germany)"
+        ],
+        "journal": "Automation in Construction",
+        "abstract": "Although Building Information Models (BIM) help structure building data, retrieving specific information from them remains difficult for most project stakeholders. Natural-language (NL) interfaces can help mitigate this issue. Conventional approaches translate NL queries into structured queries that assume a fixed data organization, which BIM heterogeneity routinely invalidates. This paper addresses this limitation through agentic search, an LLM-based agent that iteratively retrieves information from BIM models while discovering their structure at runtime rather than relying on predefined assumptions. The approach is evaluated using ifc-bench v2, an open-source benchmark released with this work, comprising 1027 question–answer pairs across 37 IFC models. A 3 × 2 × 2 factorial experiment reveals that agentic search outperforms the static baseline in every configuration tested (+29.5 to +48.5pp). A detailed analysis uncovers the approach’s inner workings and remaining pitfalls, while a regression analysis ranks the factors driving accuracy: the search paradigm, followed by BIM-model quality and backbone capability.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7212279221",
+        "doi": "10.1016/j.autcon.2026.107257",
+        "title": "In-situ 3D Concrete Printing of a Vaulted Ceiling Using a Mobile Robot",
+        "published": "2026-09-11",
+        "url": "https://doi.org/10.1016/j.autcon.2026.107257",
+        "authors": [
+          "David Richter",
+          "Benedikt Grimm",
+          "Frederic Chovghi",
+          "Johannes Diller",
+          "Pierluigi D’Acunto",
+          "Thomas Kränkel",
+          "Kathrin Dörfler"
+        ],
+        "institutions": [
+          "Technical University of Munich"
+        ],
+        "journal": "Automation in Construction",
+        "abstract": "The geometric efficiency of vaulted ceilings makes them relevant to material-conscious construction, yet their automated in-situ fabrication remains challenging. This paper asks whether a mobile robot equipped for extrusion-based 3D concrete printing can accurately fabricate self-supporting vaults from below in spatially constrained environments through collision-free motions. The method combines layer-wise form-finding, onboard material supply, lightweight near-nozzle activation, redundancy-aware motion planning, and a print–drive–print workflow implemented with a mobile manipulator. Experiments establish feasibility: 14 full-scale vault segments up to 960 mm long were fabricated in approximately 15 min each, with laser scanning revealing standard layer-height deviations of around 0.5 mm. These findings provide architects, fabricators, and construction-robotics researchers with a basis for material-efficient ceiling fabrication in constrained construction and renovation contexts. They motivate research into continuous print-while-driving control, automated localization, cold-joint performance, structural testing, process robustness, and life-cycle impacts toward scalable in-situ construction under realistic site conditions.",
+        "citation_count": 0,
+        "method": "Experimental"
+      }
+    ],
+    "Mechanical Systems and Signal Processing": [
+      {
+        "id": "https://openalex.org/W7212313541",
+        "doi": "10.1016/j.ymssp.2026.114913",
+        "title": "A multi-scale frequency domain information-driven method for ultrasonic welding quality prediction",
+        "published": "2026-09-12",
+        "url": "https://doi.org/10.1016/j.ymssp.2026.114913",
+        "authors": [
+          "Jinzhe Li",
+          "Cheng Luo",
+          "Yansong Zhang"
+        ],
+        "institutions": [
+          "Shanghai Jiao Tong University"
+        ],
+        "journal": "Mechanical Systems and Signal Processing",
+        "abstract": "Ultrasonic welding is extensively used in industries such as automotive and electronics, where the tensile strength of the welding joints serves as a critical indicator of manufacturing quality, yet is subject to fluctuations caused by multiple uncertain factors during production. Moreover, the complex physical interactions of the process produce time series features rich in high-frequency ultrasonic information, which is critical for achieving accurate predictions of quality performance. This work develops a deep learning framework that accurately predicts joint tensile strength by fusing multi-source signals. Specifically, a high-fidelity acquisition system was established to synchronously capture high-frequency vibration, pressure, and displacement signals during welding. The proposed Gated Multi-scale Fast Fourier Transform Network (GMS-FFTNet) operates directly in the frequency domain, integrating a global Fast Fourier Transform (FFT) to capture long-range dependencies and a local Short-Time Fourier Transform (STFT) to resolve transient details. It is enhanced by an adaptive spectral filtering mechanism that dynamically emphasizes critical frequency bands, overcoming the limitations of conventional time-domain models that often struggle with spectral information loss. To synergize the insights from different sensors, a dedicated gating network effectively fuses the multi-source signal features. The model accurately predicts tensile strength, achieving a coefficient of determination of 82.17%. Furthermore, the visualization of attention weights serves to correlate the model’s inference with the manufacturing process of the ultrasonic welding. This method not only presents a robust solution for reliable quality monitoring of ultrasonic welding but also offers a generalizable framework for other dynamic manufacturing processes with high-frequency information.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      },
+      {
+        "id": "https://openalex.org/W7212356690",
+        "doi": "10.1016/j.ymssp.2026.114959",
+        "title": "Prior superpixel-driven multi-modal query hypergraph convolutional network for weld quality assessment",
+        "published": "2026-09-12",
+        "url": "https://doi.org/10.1016/j.ymssp.2026.114959",
+        "authors": [
+          "Wenlong Xu",
+          "Rundong Lu",
+          "Bo Yang",
+          "ChengQing ZHANG",
+          "Boxuan Men",
+          "YunFan Zhou",
+          "Yu-Jun Xia",
+          "YongBing Li"
+        ],
+        "institutions": [],
+        "journal": "Mechanical Systems and Signal Processing",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7212367486",
+        "doi": "10.1016/j.ymssp.2026.114929",
+        "title": "Modelling and characterization of the unzipping dynamics of dielectric fluid actuators",
+        "published": "2026-09-12",
+        "url": "https://doi.org/10.1016/j.ymssp.2026.114929",
+        "authors": [
+          "Marco Riva",
+          "Rajat Chaudhary",
+          "Sandra Dirè",
+          "Luca Fambri",
+          "Marco Fontana",
+          "Giacomo Moretti"
+        ],
+        "institutions": [
+          "University of Trento",
+          "Scuola Superiore Sant'Anna"
+        ],
+        "journal": "Mechanical Systems and Signal Processing",
+        "abstract": "Dielectric Fluid Actuators (DFAs) are variable capacitors that contract as a result of electrostatic forces acting on a compliant multilayer structure composed of a polymer film and an insulating liquid. Differences in the dielectric time constants of the liquid and polymeric layers lead to charge retention at their interface, causing a decay in Maxwell stress that ultimately leads to a relaxation of the actuator stroke in the presence of a constant applied voltage. In this work, we introduce a new physics-based continuum framework that extends electrostatic force modelling from fixed parallel-plate capacitors to actuator-level modelling, by coupling continuum electrical dynamics with a lumped mechanical model of the DFA. The DFA is represented as a continuum of infinitesimal variable capacitors, each modelled using simple RC elements. The framework is experimentally validated on a simple multi-layer open-pouch DFA, and on an established layout of hydraulically amplified self-healing electrostatic actuator. Even with a simplified description of the material electrical response (e.g., constant resistivities) and lumped deformation mechanics, the framework captures the relevant trends in unzipping dynamics with respect to geometry and operating conditions (applied voltage and external forces). The proposed framework lays the foundations for electro-mechanical dynamic continuum modelling of DFAs.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      },
+      {
+        "id": "https://openalex.org/W7212248190",
+        "doi": "10.1016/j.ymssp.2026.114943",
+        "title": "Multi-regenerative dynamic modeling and chatter analysis in through-feed centerless grinding for high aspect ratio ceramic tubes",
+        "published": "2026-09-11",
+        "url": "https://doi.org/10.1016/j.ymssp.2026.114943",
+        "authors": [
+          "Jingguo Zhou",
+          "Bin Lin",
+          "Pengcheng Zhao",
+          "Cong Chen",
+          "Tianyi Sui",
+          "Sijiang Liu",
+          "Mingqiang Tang"
+        ],
+        "institutions": [
+          "Tianjin University",
+          "Chinese Academy of Sciences"
+        ],
+        "journal": "Mechanical Systems and Signal Processing",
+        "abstract": "Grinding chatter is the critical factor limiting high-efficiency and high-quality machining in the centerless grinding of ceramic tubes with high aspect ratio. To suppress chatter in through-feed centerless grinding, a multi-modal dynamic model of the centerless grinding system is established, incorporating multiple regenerative mechanisms, such as workpiece regeneration, grinding wheel regeneration, and geometric layout effect. The stability boundaries of the grinding system are predicted. Multi-sensor experiments integrating vibration, acoustic emission, and grinding power were conducted to investigate the dynamic stability characteristics of the complex grinding system. The results demonstrate that the proposed model effectively predicts grinding stability. Stability lobe diagrams indicate that 60–80 μm represents the critical stability threshold. A dynamic parameter identification method for the workpiece-support system based on follow-up support was proposed in this study. Increasing the feed distances of the regulating wheel reduces the amplitude of the frequency response function, achieving an average suppression rate exceeding 60 %. Considering the stiffness improvement, the optimal range for feed distances of the regulating wheel is 0.4 mm∼0.8 mm. Batch machining of silicon carbide ceramic tubes with a high aspect ratio (L/D≈50) and a wall thickness of 0.395 mm was achieved by the grinding strategy based on stability analysis. Compared with the conventional process, grinding efficiency increased by 62.5 %, while outer diameter fluctuation decreased by approximately 97 %. This study provides theoretical and technical support for the precision centerless grinding of ceramic tubes with high aspect ratio.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      },
+      {
+        "id": "https://openalex.org/W7212288232",
+        "doi": "10.1016/j.ymssp.2026.114940",
+        "title": "End-to-end virtual sensing with head tracking using a temporal convolutional network for active road noise control",
+        "published": "2026-09-11",
+        "url": "https://doi.org/10.1016/j.ymssp.2026.114940",
+        "authors": [
+          "Jun Young Oh",
+          "Ju Young Kim",
+          "Chi Sung Oh",
+          "Kyoung Hoon Lee",
+          "Yeon June Kang"
+        ],
+        "institutions": [],
+        "journal": "Mechanical Systems and Signal Processing",
+        "abstract": "Head-tracking active road noise control requires accurate virtual sensing of sound pressure at the occupants’ ears. Conventional approaches based on the remote microphone method (RMM) remain limited because the use of one observation filter per head position does not account for dynamic driving conditions and provides insufficient information for robust model training. This study proposed an end-to-end virtual sensing framework with head tracking that uses a temporal convolutional network (TCN) conditioned on the head-position information via feature-wise linear modulation (FiLM). The proposed model predicts time-domain virtual microphone signals from eight-channel physical microphone measurements and real-time head positions. This formulation enables the segmentation of long recordings into numerous overlapping input–output pairs, thereby providing richer supervision and allowing the model to learn temporal variations in road noise within the tested speed range. Experimental results indicated that the proposed method significantly outperformed the existing learning-based approach that directly updates the observation filters, reducing the virtual sensing error from − 14.79 to − 19.05 dB in terms of NMSE and from − 7.35 to − 12.34 dBA in terms of A-weighted spectral error. Moreover, the training-data duration per head-pose configuration could be reduced without a considerable loss in accuracy when sufficient temporal variability was preserved. Furthermore, the encoder–decoder structure effectively reduced the computational cost while maintaining comparable frequency-domain performance. Active noise control (ANC) simulations demonstrated that the improved virtual sensing accuracy resulted in enhanced control performance, and the proposed method achieved ANC results close to those obtained using actual measured signals without virtual sensing.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      },
+      {
+        "id": "https://openalex.org/W7212299487",
+        "doi": "10.1016/j.ymssp.2026.114964",
+        "title": "A single-loop reweighted numerical integration method for failure probability function estimation under parametric probability boxes",
+        "published": "2026-09-11",
+        "url": "https://doi.org/10.1016/j.ymssp.2026.114964",
+        "authors": [
+          "Jiaran Liu",
+          "Dixiong Yang",
+          "Chao Dang",
+          "Marcos A. Valdebenito",
+          "Matthias G.R. Faes"
+        ],
+        "institutions": [],
+        "journal": "Mechanical Systems and Signal Processing",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Numerical Simulation"
+      },
+      {
+        "id": "https://openalex.org/W7212305718",
+        "doi": "10.1016/j.ymssp.2026.114956",
+        "title": "Research on the bearing dynamic modeling considering the combined friction-damping effect at the cage-guide ring interface and the motion-force coupling mechanism of the cage",
+        "published": "2026-09-11",
+        "url": "https://doi.org/10.1016/j.ymssp.2026.114956",
+        "authors": [
+          "Ming Liu",
+          "Cheng Xu",
+          "Zhaoting Wu",
+          "Huisheng Chen",
+          "Kunpeng Xu",
+          "Bo Wang",
+          "Qingkai Han",
+          "Yulai Zhao",
+          "Xiaoguo Gao"
+        ],
+        "institutions": [
+          "Foshan University",
+          "Northeastern University",
+          "Aero Engine Corporation of China (China)"
+        ],
+        "journal": "Mechanical Systems and Signal Processing",
+        "abstract": "To investigate the motion-force coupling mechanism of cylindrical roller bearing cages under different whirl modes, a dynamic model-based on the dynamic Reynolds equation and the short bearing assumption-for simulating the cage motion trajectory was established on the basis of existing modeling work. The combined friction-damping effect at the cage-guide ring interface is further considered. The capability of the proposed model to predict the motion states and principal motion characteristics of the cage was validated by comparing the simulation results with existing literature and experimental data. The average and the maximum relative error between simulated and experimental dominant frequency components were 8.91% and 19.26%, respectively, and the predicted cage whirl direction and guide clearance phase relationships were generally consistent with the experimental results. On this basis, the motion-force coupling mechanism of cages under three typical whirl modes was further investigated, and the results indicate that: In the stable whirl mode, the oil film force F co serves as the primary force sustaining the cage whirl, the frictional force F ct determines the whirl direction and the resultant collision force F cc induces interference. In the random whirl mode, the irregular whirl of the cage is predominantly induced by the resultant collision force F cc . In the local periodic whirl mode, the oil film force F co primarily contributes to the eccentric motion of the cage, whereas the resultant collision force F cc induces the tangential reciprocating motion of the cage.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      }
+    ],
+    "Measurement": [
+      {
+        "id": "https://openalex.org/W7212232747",
+        "doi": "10.1016/j.measurement.2026.123150",
+        "title": "A robust lightweight contrastive prototypical meta-learning framework for few-shot fault diagnosis under variable working conditions",
+        "published": "2026-09-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123150",
+        "authors": [
+          "Qiqi Bai",
+          "Zhigang Chen",
+          "Zhihong Yu",
+          "Longqiao Chen",
+          "Yanxue Wang"
+        ],
+        "institutions": [
+          "Beijing Urban Construction Design & Development Group (China)",
+          "Beijing Building Construction Research Institute (China)",
+          "Beijing University of Civil Engineering and Architecture",
+          "China University of Labor Relations"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7212238162",
+        "doi": "10.1016/j.measurement.2026.123151",
+        "title": "Enhanced in-situ supraharmonic EMC testing: a new emission estimation method based on live impedance measurement for the 2 kHz–150 kHz range",
+        "published": "2026-09-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123151",
+        "authors": [
+          "Serdar Büyük",
+          "Engin Özdemir"
+        ],
+        "institutions": [
+          "Tübitak National Metrology Institute",
+          "Kocaeli Üniversitesi"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7212248869",
+        "doi": "10.1016/j.measurement.2026.123157",
+        "title": "Non-destructive measurement for ultra-thin subsurface damage layer of single-crystal diamond substrates in ultra-precision machining based on ellipsometry assisted by white light interferometry",
+        "published": "2026-09-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123157",
+        "authors": [
+          "Ziqing Li",
+          "Subiao Bian",
+          "Han Tong",
+          "Jing Lu",
+          "Xipeng Xu",
+          "Changcai Cui",
+          "Hui Huang"
+        ],
+        "institutions": [],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7212261334",
+        "doi": "10.1016/j.measurement.2026.123148",
+        "title": "Characterization and modeling of image drift in vision-based structural monitoring through sensitivity analysis and experiments",
+        "published": "2026-09-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123148",
+        "authors": [
+          "H.F. Zhou",
+          "Yuhao Lou",
+          "傅恒星",
+          "Jiantao Li",
+          "Zhongming Wu"
+        ],
+        "institutions": [
+          "Zhejiang University of Technology",
+          "Zhejiang Medicine (China)"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      },
+      {
+        "id": "https://openalex.org/W7212262133",
+        "doi": "10.1016/j.measurement.2026.123152",
+        "title": "GNSS 3D attitude determination based on SD ambiguity resolution and triple antenna receiver with common clock",
+        "published": "2026-09-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123152",
+        "authors": [
+          "Chenglong Zhang",
+          "Wen Chen",
+          "Junping Chen",
+          "Yu Jin",
+          "Yize Zhang",
+          "Bin Wang"
+        ],
+        "institutions": [
+          "Shanghai Astronomical Observatory",
+          "University of Chinese Academy of Sciences",
+          "East China Normal University"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7212276595",
+        "doi": "10.1016/j.measurement.2026.123153",
+        "title": "An event preserving adaptive aggregation protocol for WSNs using memetic optimization",
+        "published": "2026-09-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123153",
+        "authors": [
+          "Annie Paul",
+          "SEmalda Roslin"
+        ],
+        "institutions": [
+          "Sathyabama Institute of Science and Technology"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7212277167",
+        "doi": "10.1016/j.measurement.2026.123149",
+        "title": "OpenCorr GUI: A free software for accurate and robust deformation measurement of digital image correlation and digital volume correlation",
+        "published": "2026-09-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123149",
+        "authors": [
+          "Rui Li",
+          "Kai He",
+          "Haoqiang Ren",
+          "Hongli Wang",
+          "Yajing Zhang",
+          "Chang Peng",
+          "Yifei Zhou",
+          "Taolin Sun",
+          "Liqun Tang",
+          "Zhenyu Jiang"
+        ],
+        "institutions": [],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7212280272",
+        "doi": "10.1016/j.measurement.2026.123154",
+        "title": "Physics-informed and hybrid machine learning in friction stir welding: toward autonomous and certifiable control",
+        "published": "2026-09-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123154",
+        "authors": [
+          "Sipokazi Mabuwa",
+          "Katleho Moloi"
+        ],
+        "institutions": [
+          "University of Johannesburg"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      },
+      {
+        "id": "https://openalex.org/W7212359045",
+        "doi": "10.1016/j.measurement.2026.123072",
+        "title": "Capacitance-dependent ESR sign reversal in aluminum electrolytic capacitors under DC Bias: A broadband impedance characterization framework",
+        "published": "2026-09-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123072",
+        "authors": [
+          "Akeem Bayo Kareem",
+          "Ji Heum Baek",
+          "Jangwook Hur"
+        ],
+        "institutions": [],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7212360721",
+        "doi": "10.1016/j.measurement.2026.123134",
+        "title": "Monitoring and analyzing potato movement dynamics in a chain digger using smart sensing techniques",
+        "published": "2026-09-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123134",
+        "authors": [
+          "Mustafa Ahmed Jalal Al-Sammarraie",
+          "Haider Ali Hasan",
+          "Faiz F. Mageed",
+          "Zeki Gökalp",
+          "Łukasz Gierz"
+        ],
+        "institutions": [],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      }
+    ],
+    "Engineering Structures": [
+      {
+        "id": "https://openalex.org/W7212290470",
+        "doi": "10.1016/j.engstruct.2026.123743",
+        "title": "Higher-order finite element analysis of FG-TPMS sandwich thin-walled box beams using Al-Salam-Chihara Ritz polynomials",
+        "published": "2026-09-12",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.123743",
+        "authors": [
+          "Thien-Nhan Nguyen",
+          "Trung-Kien Nguyen",
+          "Ngoc-Duong Nguyen",
+          "Trung-Kien Nguyen",
+          "Ngoc-Duong Nguyen",
+          "Thuc P. Vo"
+        ],
+        "institutions": [
+          "Ho Chi Minh City University of Technology and Engineering",
+          "La Trobe University"
+        ],
+        "journal": "Engineering Structures",
+        "abstract": "The growing demand for lightweight structures with tailorable mechanical properties has driven the development of advanced cellular materials. Motivated by this demand, a higher-order finite element formulation is developed within the Ritz method for the static and free vibration analyses of thin-walled box beams made of functionally graded triply periodic minimal surface (FG-TPMS) materials, in which the material properties vary continuously through the wall thickness according to the TPMS density distribution. Three TPMS sheet-based architectures, namely Primitive (P), Gyroid (G), and I-graph–wrapped package graph (IWP), are considered, along with laminated composite face sheets. A higher-order thin-walled beam theory describes the kinematics of the beam, and the governing equations are derived using the variational principle in conjunction with the Ritz approximation. Al-Salam-Chihara polynomials are employed as admissible functions, and their performance is systematically evaluated in terms of numerical stability, convergence rate, and computational efficiency. The parameter q = 0.5 is identified as optimal, yielding lower condition numbers and faster computation than the classical Chebyshev polynomials. A fixed thin-walled beam formulation is also introduced to ensure accuracy in thick beam configurations; neglecting this correction results in errors of up to 13.5% in clamped–clamped beams. A unified hp -refinement framework incorporating h-, p-, and hp- strategies is presented, with p -refinement demonstrating significantly faster convergence than h -refinement for smooth domains. Numerical results reveal that the P-type TPMS architecture provides the highest torsional resistance, while shear deformation contributions reach up to 78.5% for the IWP architecture under clamped–clamped boundary conditions. The effects of core thickness ratio and TPMS pattern type on natural frequencies and displacements are also discussed in detail. These findings provide practical guidance for selecting suitable TPMS architectures and material gradation patterns to improve shear resistance and structural efficiency in lightweight sandwich thin-walled structures.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      },
+      {
+        "id": "https://openalex.org/W7212363582",
+        "doi": "10.1016/j.engstruct.2026.123762",
+        "title": "Flexural behavior and debonding mechanism of RC beams strengthened with FRP mini-bars embedded in geopolymer matrix",
+        "published": "2026-09-12",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.123762",
+        "authors": [
+          "Wang Hui-xiang",
+          "Kangyi Peng",
+          "Yu-Lei Bai"
+        ],
+        "institutions": [
+          "Beijing University of Technology",
+          "Hong Kong Polytechnic University"
+        ],
+        "journal": "Engineering Structures",
+        "abstract": "Carbon fiber-reinforced polymer (CFRP) offers an efficient strengthening solution, however, pursuing higher load capacities via high reinforcement ratios triggers premature interfacial debonding. Basalt FRP (BFRP) serves as a cost-effective alternative, inherently alleviating interfacial stress concentrations through its lower elastic modulus without sacrificing mechanical performance. This study investigates the flexural behavior and debonding mechanisms of FRP mini-bar-geopolymer systems enhanced RC beams using four-point bending tests and digital image correlation, and 3D finite element analysis. The investigation evaluates the influence of FRP reinforcement stiffness, FRP type, and matrix material. Results indicate that CFRP strengthening utilizing three 4 mm bars (3Φ4) increases the ultimate capacity by 36.6%. Although increasing the reinforcement (6Φ4 or 9Φ4) effectively improves post-yield stiffness, it triggers premature interfacial debonding, yielding no additional ultimate capacity and causing a maximum ductility index loss of 57.7%. Direct BFRP substitution (3Φ4) achieved 82.8% of the CFRP capacity and 64.6% of its post-yield stiffness. The equal-stiffness 4Φ6 design restored comparable performance at 51.1% of the CFRP material cost, but intensified interfacial stress and promoted premature debonding, which was mitigated by the high-toughness matrix. Finally, based on extended parametric simulations, a failure mode map and an empirical boundary equation are established, providing a bidirectional quantitative tool to predict failure modes and reverse-design the allowable strengthening stiffness limit to prevent debonding.",
+        "citation_count": 0,
+        "method": "Numerical Simulation"
+      },
+      {
+        "id": "https://openalex.org/W7212374792",
+        "doi": "10.1016/j.engstruct.2026.123673",
+        "title": "Multi-directional shake table real-time hybrid simulation of rolling pendulum isolation systems using nonlinear kinematic transformations",
+        "published": "2026-09-12",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.123673",
+        "authors": [
+          "Esteban Villalobos Vega",
+          "Philip Harvey",
+          "James M. Ricles",
+          "Liang Cao",
+          "Thomas Marullo"
+        ],
+        "institutions": [],
+        "journal": "Engineering Structures",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Numerical Simulation"
+      },
+      {
+        "id": "https://openalex.org/W7212221055",
+        "doi": "10.1016/j.engstruct.2026.123713",
+        "title": "Inverse design and experimental verification of a lateral variable-stiffness metamaterial for multilevel bridge seismic fortification",
+        "published": "2026-09-11",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.123713",
+        "authors": [
+          "Tong Liu",
+          "Dong Ouyang",
+          "Junjun Fu",
+          "Bin Chen",
+          "Qiaojiao Li",
+          "Zhigao Zhao",
+          "Tao Wu",
+          "Mangong Zhang",
+          "Aiguo Zhao"
+        ],
+        "institutions": [
+          "Nanjing Tech University",
+          "Wuhan Ship Development & Design Institute"
+        ],
+        "journal": "Engineering Structures",
+        "abstract": "Bridge bearings connect the superstructure and substructure, carrying vertical loads and mitigating seismic forces. However, conventional unbonded laminated rubber bearings (ULRBs) provide limited energy dissipation and may undergo excessive displacement under strong ground motions. Although controlled sliding can dissipate energy, unrestrained sliding may cause girder dislodgment or collapse. To address this issue, a machine learning enabled inverse design framework is proposed for mechanical metamaterial energy dissipation components. Unlike most data driven studies that focus on uniaxial vertical loading, the proposed method directly generates topologies from prescribed lateral shear force displacement curves. The framework integrates a Denoising Diffusion Probabilistic Model (DDPM) and a Residual Neural Network (ResNet) to generate and efficiently screen metamaterial unit cells with tailored lateral shear responses. The selected designs not only reproduce the target response but also establish rational load transfer paths during plastic dissipation, promoting more uniform plastic strain distribution and favorable fracture modes. Parametric numerical analyses show that the hardening factor depends on geometric dimensions and can reach 19.75. Based on the inversely designed metamaterial components, a lateral variable stiffness metamaterial energy dissipation device (MEDD) is further developed using a function separated concept, in which conventional rubber bearings carry vertical loads and metamaterial units provide tunable lateral resistance. Quasi-static cyclic tests were conducted on 12 specimens under two interface conditions, namely with and without washers. The results indicate that the washer-free configuration exhibits a clearer staged energy-dissipation response, characterized by a 11.98% reduction in equivalent viscous damping ratio and a 106.26% increase in hardening factor. These results suggest that a moderate reduction in equivalent damping can significantly enhance hardening, peak load, and cumulative plastic dissipation within a variable-stiffness design framework. These results indicate that a moderate reduction in equivalent damping can significantly enhance hardening, peak load, and cumulative plastic dissipation in a variable stiffness design framework, thereby improving staged energy dissipation and displacement restraint. The proposed MEDD therefore shows strong potential for bridge seismic protection.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      },
+      {
+        "id": "https://openalex.org/W7212231606",
+        "doi": "10.1016/j.engstruct.2026.123674",
+        "title": "Numerical analysis and experimental verification of a locally resonant interlocking brick assembly",
+        "published": "2026-09-11",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.123674",
+        "authors": [
+          "Nicolás Contreras",
+          "Xihong Zhang",
+          "Hong Hao",
+          "Francisco Hernández"
+        ],
+        "institutions": [],
+        "journal": "Engineering Structures",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      },
+      {
+        "id": "https://openalex.org/W7212241705",
+        "doi": "10.1016/j.engstruct.2026.123738",
+        "title": "Cross-sectional compressive capacity of S1200 ultra-high-strength steel welded I-section stub columns: Testing, modeling and design",
+        "published": "2026-09-11",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.123738",
+        "authors": [
+          "Ganghao Han",
+          "Yao Sun"
+        ],
+        "institutions": [
+          "Hunan University"
+        ],
+        "journal": "Engineering Structures",
+        "abstract": "This paper reports experimental and numerical studies on the compressive behavior and load-carrying capacity of S1200 ultra-high-strength steel (UHSS) welded I-section stub columns. A testing program was first conducted, involving material coupon tests, residual stress measurements and 14 stub column tests. Following the testing program, a numerical modeling program was conducted, where finite-element models on S1200 UHSS I-section stub columns were developed and validated. The validated models were then used to perform parametric studies to obtain supplementary numerical data. The obtained test and numerical results were adopted to perform a comprehensive design analysis, where the existing steel design standards used in Europe, America and Australia were examined for their applicability to the design of S1200 UHSS I-section stub columns. The design analysis results generally indicate that, among the three considered design standards, the American specification provides the highest overall prediction accuracy for both non-slender and slender I-sections. The Eurocode 3 also shows good agreement for non-slender I-sections; however, its predictions become slightly conservative for slender I-sections. In comparison, the Australian standard yields the lowest prediction accuracy, particularly for slender I-sections, where pronounced conservatism and larger discrepancies relative to the obtained test and numerical results are observed. Overall, the findings demonstrate that the American specification is the most suitable for the design of S1200 UHSS welded I-sections.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      },
+      {
+        "id": "https://openalex.org/W7212252931",
+        "doi": "10.1016/j.engstruct.2026.123763",
+        "title": "Experimental and simulation study on the effects of corrosion and axial compression ratio on the seismic performance of railway pier columns under low-temperature freeze-thaw",
+        "published": "2026-09-11",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.123763",
+        "authors": [
+          "Xiang Chen",
+          "Jieqiong Wu",
+          "Liu Jin",
+          "Xiuli Du"
+        ],
+        "institutions": [
+          "Beijing University of Civil Engineering and Architecture"
+        ],
+        "journal": "Engineering Structures",
+        "abstract": "In the saline soil areas of the Qinghai-Tibet Plateau, railway bridge piers suffer low-temperature freeze-thaw cycles (LFC, −40℃ to 20℃) and reinforcement corrosion. This study experimentally and numerically investigates seismic performance deterioration of reinforced concrete (RC) railway bridge piers under the combined action of LFC and reinforcement corrosion. Round-ended column specimens were exposed to 100 LFC and accelerated corrosion tests (corrosion ratio of 0–20.04%) in sequence to simulate the environmental actions, followed by quasi-static test with a low axial compression ratio of 5% to reflect the actual service conditions of railway bridge piers. Meanwhile, a finite element model was developed incorporating layered freeze-thaw damage in concrete and corrosion-induced material degradation, which was validated against the experimental results, and then the effects of axial compression ratio up to 15% were analyzed. The experimental results show that the increase in corrosion ratio leads to fewer cracks, obvious stiffness degradation, and severely pinched hysteresis loops. At a corrosion ratio of 20.04%, the peak bearing capacity dropped by 46.5%, and the ultimate displacement decreased by approximately 61.1%, with the total energy dissipation capacity reaching only 8.5% of that for the uncorroded one. The numerical analyses further indicate that an increase in the axial compression ratio is found to amplify the adverse effects of corrosion on the yield drift ratio, the ultimate drift ratio, and the post-peak softening rate. Based on the nonlinear effect decomposition model, a significant interaction between axial compression ratio and corrosion ratio is identified for the peak bearing capacity, with a negative interaction coefficient of 0.013, indicating a deterioration trend when high corrosion ratio (>10%) is combined with high axial compression ratios (>10%).",
+        "citation_count": 0,
+        "method": "Hybrid"
+      },
+      {
+        "id": "https://openalex.org/W7212254618",
+        "doi": "10.1016/j.engstruct.2026.123727",
+        "title": "Numerical and experimental investigation into the influence of flat jack size and gage length on the stress evaluation of concrete elements",
+        "published": "2026-09-11",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.123727",
+        "authors": [
+          "Carlo Pettorruso",
+          "Dalila Rossi",
+          "Virginio Quaglini"
+        ],
+        "institutions": [],
+        "journal": "Engineering Structures",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      },
+      {
+        "id": "https://openalex.org/W7212267932",
+        "doi": "10.1016/j.engstruct.2026.123752",
+        "title": "Assessment approach to blast damage and residual capacity of one-way reinforced concrete slabs subjected to multiple explosions",
+        "published": "2026-09-11",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.123752",
+        "authors": [
+          "Mingming Yu",
+          "Zhiyang Xie",
+          "Jianmin Zhong",
+          "Jingyu Wang",
+          "Weifeng Jiao",
+          "Chuntao Zhang"
+        ],
+        "institutions": [
+          "Tongji University",
+          "Southwest University of Science and Technology",
+          "Shanghai Construction Group (China)"
+        ],
+        "journal": "Engineering Structures",
+        "abstract": "Given the limited research of blast-induced damage on the reinforced concrete (RC) slabs under multiple blasts, this paper presents experimental and numerical studies of the damage evolutionary patterns of RC slab subjected to double consecutive blasts, aiming to establish an effective analytical method to estimate the blast damage after multiple blasts. The static vertical loading tests were performed to investigate the force-displacement evolution and ultimate failure modes, including one intact and three pre-damaged RC slabs with various blast damage. The testing results confirm that the residual resistance is degraded as the blast damage intensified. The finite element models (FEM) in LS-DYNA were established and validated in terms of the force-displacement curves and ultimate failure modes. Based on the validated FEM, the simplified overpressure model was proposed consisting of the spatial distribution and time-history models, and the influence of pre-damage under multiple blasts was incorporated. The analytical approach for residual resistance of RC slab was established, considering the strength reduction of concrete layer and effective cross-section caused by blast action. Finally, combining the established calculation methods for residual bearing capacity and overpressure distribution, an iterative algorithm for calculating Pressure-Impulse (P-I) curves under multiple blast damages was put forward through numerical and analytical models. The proposed analytical method for P-I curves shows good agreement with those from FEM, as indicated by percentage differences lower than 18.33%. Further analyses revealed that given same final damage states, the lower overpressure and impulse in double blast results in same damage as that in single blast.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      },
+      {
+        "id": "https://openalex.org/W7212307498",
+        "doi": "10.1016/j.engstruct.2026.123736",
+        "title": "Repair timing criteria for rib-to-deck weld-root cracks considering local stress redistribution and field-observed cracking characteristics",
+        "published": "2026-09-11",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.123736",
+        "authors": [
+          "Yuqiang Gao",
+          "Zhongqiu Fu",
+          "Bohai Ji",
+          "Bangchong Ji"
+        ],
+        "institutions": [
+          "Hohai University"
+        ],
+        "journal": "Engineering Structures",
+        "abstract": "Rib-to-deck weld-root cracks in orthotropic steel decks are challenging to repair, and selecting appropriate repair timing criteria is particularly crucial. Existing repair timing criteria are established based on either crack propagation behavior or local stress redistribution. However, crack propagation and stress redistribution are not independent processes, and considering only one of these factors may lead to misjudgment of the optimal repair timing criteria. In this study, numerical simulations were conducted to investigate the redistribution of local stresses following weld-root cracking in rib-to-deck welded joints. The effects of crack length and depth on local stress states were analyzed, and, combined with the cracking characteristics observed in a kilometer-scale cable-stayed bridge in China, the repair timing criteria for rib-to-deck weld-root cracks were proposed. The results indicate that once the crack depth reaches 70% of the deck thickness, propagation in the depth direction becomes inhibited and subsequent crack growth is dominated by the length direction. At this stage, the load-carrying capacity of the deck within the cracked region enters a phase of rapid degradation, and stresses are redistributed to the uncracked deck and the U-rib web within the cracked region. In particular, after the crack penetrates the deck and its length exceeds 200 mm, the stress amplification in the uncracked deck on the weld-toe side enters a stage of rapid increase, while the stress amplification in the U-rib web exceeds 60%, leading to the formation of potential fatigue-prone locations. Therefore, a crack depth greater than 70% of the deck thickness or a crack length exceeding 200 mm can be adopted as repair timing criteria for rib-to-deck weld-root cracks.",
+        "citation_count": 0,
+        "method": "Numerical Simulation"
+      }
+    ],
+    "Ultrasonics": [
+      {
+        "id": "https://openalex.org/W7212277257",
+        "doi": "10.1016/j.ultras.2026.108295",
+        "title": "Microbeamformer-aware layout optimization of a 2D intracardiac echocardiography array for grating-lobe suppression",
+        "published": "2026-09-01",
+        "url": "https://doi.org/10.1016/j.ultras.2026.108295",
+        "authors": [
+          "Teng Guo",
+          "Jiarong Xu",
+          "Jiale Wang",
+          "Juan Tu",
+          "Xiasheng Guo",
+          "Chuhao Yin",
+          "Dong Zhang"
+        ],
+        "institutions": [
+          "Collaborative Innovation Center of Advanced Microstructures",
+          "Nanjing University of Information Science and Technology",
+          "Nanjing Drum Tower Hospital"
+        ],
+        "journal": "Ultrasonics",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7212366551",
+        "doi": "10.1016/j.ultras.2026.108292",
+        "title": "Application of ultrasonic technology in sheet joining: review article",
+        "published": "2026-09-01",
+        "url": "https://doi.org/10.1016/j.ultras.2026.108292",
+        "authors": [
+          "Liang Ye",
+          "Zhe Wei",
+          "Ye Shi",
+          "Ming Yan",
+          "Lei Lei"
+        ],
+        "institutions": [],
+        "journal": "Ultrasonics",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Review / Survey"
+      },
+      {
+        "id": "https://openalex.org/W7212381002",
+        "doi": "10.1016/j.ultras.2026.108289",
+        "title": "The Generalized Beamformer in the UltraSound ToolBox",
+        "published": "2026-09-01",
+        "url": "https://doi.org/10.1016/j.ultras.2026.108289",
+        "authors": [
+          "Ole Marius Hoel Rindal",
+          "Anders Emil Vrålstad",
+          "Jørgen Avdal",
+          "Stefano Fiorentini",
+          "Andreas Austeng",
+          "Alfonso Rodríguez-Molares"
+        ],
+        "institutions": [],
+        "journal": "Ultrasonics",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      }
+    ],
+    "Tunnelling and Underground Space Technology": [
+      {
+        "id": "https://openalex.org/W7212383059",
+        "doi": "10.1016/j.tust.2026.108118",
+        "title": "Tunnel-scale design of a floor-mounted electrostatic precipitation system: Piston-wind-assisted ultrafine particle control in subway tunnels",
+        "published": "2026-09-12",
+        "url": "https://doi.org/10.1016/j.tust.2026.108118",
+        "authors": [
+          "Shuai Liu",
+          "Bo Zhao",
+          "Zhibo Chen",
+          "Yanling Na",
+          "Mohamed O. Arnous",
+          "Tamer M. Mansour",
+          "Zhuangbo Feng"
+        ],
+        "institutions": [],
+        "journal": "Tunnelling and Underground Space Technology",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7212226337",
+        "doi": "10.1016/j.tust.2026.108112",
+        "title": "A hybrid CNN–Mamba network with interpretable mixture-of-experts routing for tunnel lining surface defects segmentation",
+        "published": "2026-09-11",
+        "url": "https://doi.org/10.1016/j.tust.2026.108112",
+        "authors": [
+          "Yong Liu",
+          "Yaqiong Wang",
+          "Zhi-Feng Wang",
+          "Yu-Xuan Wang",
+          "Yuxuan Wang",
+          "Yuxuan Wang",
+          "Zhen-hao Fan"
+        ],
+        "institutions": [
+          "Chang'an University"
+        ],
+        "journal": "Tunnelling and Underground Space Technology",
+        "abstract": "Accurate segmentation of tunnel lining surface defects is fundamental to service condition assessment, yet existing networks suffer from limited modeling efficiency, weak cross-defect generalization, and poor interpretability. This paper develops a hybrid CNN–Mamba architecture that unifies convolutional inductive bias with the long-range dependency modeling capability of Mamba modules. An interpretable geometric-structure, region large-kernel, and photometric-frequency mixture of experts (GRPMoE) with spatial routing is further introduced, forming the proposed GRPMoE-CNN-Mamba network. Focusing on cracks, spalling, and water leakage as typical defects, three datasets, namely SCO-D, LWLO-D, and MTLD-D, are established to support systematic analysis. Model performance and routing behavior are analyzed using segmentation metrics, pixel-wise statistics, entropy, KL divergence, and feature-space visualization. Experimental results show that GRPMoE-CNN-Mamba improves mAP@0.5, F1-score, recall and mIoU by 5.48 %, 4.76 %, 7.25 % and 2.41 %, respectively. Routing analyses further reveal stable, distinct, and complementary expert contributions across defect scenarios, providing evidence of routing-level interpretability.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      }
+    ],
+    "Rock Mechanics and Rock Engineering": [
+      {
+        "id": "https://openalex.org/W7212360961",
+        "doi": "10.1007/s00603-026-05939-5",
+        "title": "A Data Assimilation Approach for Real‑Time Estimation of Stimulated Reservoir Volume",
+        "published": "2026-09-12",
+        "url": "https://doi.org/10.1007/s00603-026-05939-5",
+        "authors": [
+          "Zhengxin Zhang",
+          "Lei Hou",
+          "Jianhua Ren",
+          "Guanyi Lu",
+          "Wendong Wang",
+          "Fengshou Zhang",
+          "Xiaobing Bian",
+          "Lei Zhang",
+          "Jiaxing Zhou"
+        ],
+        "institutions": [
+          "Shanghai Jiao Tong University",
+          "Sinopec (China)",
+          "University of Pittsburgh",
+          "China University of Petroleum, East China",
+          "Tongji University",
+          "State Key Laboratory of Oil and Gas Reservoir Geology and Exploitation"
+        ],
+        "journal": "Rock Mechanics and Rock Engineering",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7212366273",
+        "doi": "10.1007/s00603-026-05944-8",
+        "title": "Experimental Study on Mechanical Characteristics and Energy Evolution of Sandstone Under True Triaxial Cyclic Loading and Unloading Conditions",
+        "published": "2026-09-12",
+        "url": "https://doi.org/10.1007/s00603-026-05944-8",
+        "authors": [
+          "Yapeng Li",
+          "Qiang Zhang",
+          "Meng Wang",
+          "Ningkang Meng",
+          "Chao Zhang",
+          "Donghuang Shang"
+        ],
+        "institutions": [
+          "State Administration of Work Safety",
+          "Henan Polytechnic University",
+          "China University of Mining and Technology"
+        ],
+        "journal": "Rock Mechanics and Rock Engineering",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7212366296",
+        "doi": "10.1007/s00603-026-05745-z",
+        "title": "The PDC Cutting Force Model of Ductile–Brittle Transition Failure in Rock Cutting",
+        "published": "2026-09-12",
+        "url": "https://doi.org/10.1007/s00603-026-05745-z",
+        "authors": [
+          "Yunxu Luo",
+          "Weiji Liu",
+          "Xiaohua Zhu",
+          "Yinglin Yang",
+          "Daixin Deng",
+          "Kaichuang Deng",
+          "Feilong Yang"
+        ],
+        "institutions": [
+          "Yibin University",
+          "Southwest Petroleum University"
+        ],
+        "journal": "Rock Mechanics and Rock Engineering",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7212371814",
+        "doi": "10.1007/s00603-026-05912-2",
+        "title": "Rockfall Impact Response and Graded Design of CPRC Structures using Physics-constrained Machine Learning",
+        "published": "2026-09-12",
+        "url": "https://doi.org/10.1007/s00603-026-05912-2",
+        "authors": [
+          "Peilin Zhu",
+          "Weigang Shen",
+          "Feng Dai",
+          "Zelin Yan",
+          "Lin Liang"
+        ],
+        "institutions": [
+          "Sichuan University",
+          "Southwest Jiaotong University",
+          "State Key Laboratory of Hydraulics and Mountain River Engineering"
+        ],
+        "journal": "Rock Mechanics and Rock Engineering",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Machine Learning"
+      },
+      {
+        "id": "https://openalex.org/W7212381426",
+        "doi": "10.1007/s00603-026-05914-0",
+        "title": "Failure Criterion of Rock–Shotcrete Composites Under Hydro-Mechanical Coupling: Incorporating Interface Inclination and Seepage Pressure",
+        "published": "2026-09-12",
+        "url": "https://doi.org/10.1007/s00603-026-05914-0",
+        "authors": [
+          "Lu Feng",
+          "Linjian Ma",
+          "Mingyang Wang",
+          "Tuan Zhang",
+          "Xudong Chen"
+        ],
+        "institutions": [
+          "PLA Army Engineering University",
+          "Chengdu University",
+          "Hohai University"
+        ],
+        "journal": "Rock Mechanics and Rock Engineering",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7212401255",
+        "doi": "10.1007/s00603-026-05930-0",
+        "title": "Accurate and Stable Rate of Penetration Prediction in Complex Formations Using Error-Weighted Hybrid Modeling",
+        "published": "2026-09-12",
+        "url": "https://doi.org/10.1007/s00603-026-05930-0",
+        "authors": [
+          "Yanwei Sun",
+          "Liangjie Mao",
+          "Xueyin Han",
+          "Shiji Song",
+          "Jian Zhou"
+        ],
+        "institutions": [
+          "Southwest Petroleum University",
+          "State Key Laboratory of Oil and Gas Reservoir Geology and Exploitation",
+          "China National Petroleum Corporation (China)",
+          "Tsinghua University",
+          "Sinopec (China)"
+        ],
+        "journal": "Rock Mechanics and Rock Engineering",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Numerical Simulation"
+      },
+      {
+        "id": "https://openalex.org/W7212404693",
+        "doi": "10.1007/s00603-026-05832-1",
+        "title": "A Unified Path-Dependent Risk Index for CO$$_2$$ Leakage via Fault Slip and Caprock Fracture",
+        "published": "2026-09-12",
+        "url": "https://doi.org/10.1007/s00603-026-05832-1",
+        "authors": [
+          "Abdullah Alqadran",
+          "Birendra Jha"
+        ],
+        "institutions": [],
+        "journal": "Rock Mechanics and Rock Engineering",
+        "abstract": "Abstract Safe long-term geological storage of CO $$_2$$ 2 requires managing two coupled geomechanical hazards: caprock fracturing and fault reactivation. These processes are commonly evaluated independently using static failure thresholds, despite field evidence that they interact dynamically during injection. Here, we show that both fault slip tendency and caprock fracture response are governed by a shared poroelastic coupling mechanism that organizes leakage behavior across diverse rock properties. Using an ensemble of 175 fully coupled flow–geomechanics simulations, we demonstrate that variations in caprock and fault stiffness, together with a dimensionless ratio of mechanical coupling strengths, control how injection-induced stresses partition between shear deformation on faults and volumetric deformation in the surrounding matrix. This interaction generates a structured joint slip–fracture state space: stronger coupling stabilizes faults while simultaneously driving the caprock closer to tensile failure. Based on this structure, we introduce a physics-based Leakage Risk Index (LRI) that integrates slip- and fracture-related hazards into a single dimensionless metric. Within the calibrated parameter space, the LRI enables rapid screening and ranking of CO $$_2$$ 2 storage configurations using measurable poroelastic parameters. By projecting time-dependent simulation trajectories onto the LRI surface, we show that leakage risk evolves along sequence-dependent paths. Validation against observations from the In Salah (Algeria) and Castor (Spain) projects supports the framework. The initial mechanical response—slip or fracture—reshapes the stress field and governs subsequent behavior, demonstrating that leakage risk is inherently path-dependent rather than a simple threshold exceedance problem.",
+        "citation_count": 0,
+        "method": "Numerical Simulation"
+      }
+    ]
+  }
+}
