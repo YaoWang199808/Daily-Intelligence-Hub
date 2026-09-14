@@ -1,0 +1,159 @@
+{
+  "date": "2026-09-14",
+  "journals": {
+    "Automation in Construction": [
+      {
+        "id": "https://openalex.org/W7212457183",
+        "doi": "10.1016/j.autcon.2026.107268",
+        "title": "RGB-D multimodal fusion perception-to-action system for automated detection and robotic sorting of construction and demolition waste",
+        "published": "2026-09-13",
+        "url": "https://doi.org/10.1016/j.autcon.2026.107268",
+        "authors": [
+          "Quanxue Deng",
+          "Zuohua Li",
+          "Qin Huang",
+          "Qitao Yang",
+          "Jing Bai"
+        ],
+        "institutions": [
+          "Harbin Institute of Technology",
+          "Ministry of Housing and Urban-Rural Development",
+          "Shenzhen Technology University"
+        ],
+        "journal": "Automation in Construction",
+        "abstract": "The integration of computer vision, grasp planning, and robotic execution enables automated sorting of construction and demolition (C&D) waste in cluttered environments. However, dust interference, depth noise, and spatial-temporal misalignment in dynamic scenes degrade sensing reliability, causing sample imbalance, unstable grasp prediction, spatial localization deviation, and redundant grasp execution. This paper proposes an RGB-D multimodal fusion perception-to-action system for detection, spatial localization, and robotic execution. A depth-aware preprocessing pipeline and adaptive denoising strategy improve feature quality, while focal loss addresses sample imbalance. A detection information selection mechanism refines outputs and suppresses redundant grasp commands, enhancing decision reliability. Inference efficiency is improved via decorator-based optimization. The system achieves real-time performance at 33.0 FPS, with a mean grasp angle error of 2.64° and an overall accuracy of 95.24%, outperforming the baseline by 33.34%. Robotic experiments show over 97% recognition accuracy and a weighted sorting effectiveness index of 95%, validating reliable perception-to-action integration.",
+        "citation_count": 0,
+        "method": "Experimental"
+      }
+    ],
+    "Mechanical Systems and Signal Processing": [
+      {
+        "id": "https://openalex.org/W7212424796",
+        "doi": "10.1016/j.ymssp.2026.114972",
+        "title": "Hysteresis decomposition and nonlinear coupled modeling of RC hollow piers: Experimental characterization of flexural-shear-bond interaction for seismic response prediction",
+        "published": "2026-09-13",
+        "url": "https://doi.org/10.1016/j.ymssp.2026.114972",
+        "authors": [
+          "Haomeng Cui",
+          "Haomeng Cui"
+        ],
+        "institutions": [],
+        "journal": "Mechanical Systems and Signal Processing",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      }
+    ],
+    "Measurement": [
+      {
+        "id": "https://openalex.org/W7212366642",
+        "doi": "10.1016/j.measurement.2026.123128",
+        "title": "Heterogeneity-aware spectral evidence fusion for reliable Vis/NIR measurement of counterfeit root-based food medicine homologous products",
+        "published": "2026-09-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123128",
+        "authors": [
+          "Mingkun Zhang",
+          "Chao Ma",
+          "Sudan Chen",
+          "Jiayu Huang",
+          "Yuxiang Li",
+          "Mingtong Du",
+          "Huawei Niu",
+          "Jianwei Ma"
+        ],
+        "institutions": [
+          "Henan University of Science and Technology",
+          "South China University of Technology",
+          "Nanyang Technological University"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7212383717",
+        "doi": "10.1016/j.measurement.2026.123121",
+        "title": "A dual-channel IMM with an adaptive robust cubature Kalman filter for nonlinear measurements in complex environments",
+        "published": "2026-09-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123121",
+        "authors": [
+          "Jinjie Huang",
+          "Junlan Guo",
+          "Hao Wu"
+        ],
+        "institutions": [],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7212389328",
+        "doi": "10.1016/j.measurement.2026.123172",
+        "title": "Evaluation of surface quality in abrasive waterjet cutting using convolutional neural network",
+        "published": "2026-09-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123172",
+        "authors": [
+          "Wei Zhao",
+          "Jiahao Cheng",
+          "Weidong Gao",
+          "Kexin Ma"
+        ],
+        "institutions": [
+          "North University of China",
+          "Shanxi University",
+          "Xiangtan Electric Manufacturing Group (China)"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      },
+      {
+        "id": "https://openalex.org/W7212401202",
+        "doi": "10.1016/j.measurement.2026.123166",
+        "title": "Kinematics- and directional-state-informed position prediction and compensation for a flexible 5R1P spherical parallel manipulator",
+        "published": "2026-09-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123166",
+        "authors": [
+          "Anh-Son Tran",
+          "Yau‐Zen Chang",
+          "Chieh‐Tsai Wu"
+        ],
+        "institutions": [],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      }
+    ],
+    "Engineering Structures": [],
+    "Ultrasonics": [],
+    "Tunnelling and Underground Space Technology": [
+      {
+        "id": "https://openalex.org/W7212422413",
+        "doi": "10.1016/j.tust.2026.108090",
+        "title": "Numerical study on the optimal timing of bonded steel plate strengthening for shield tunnel",
+        "published": "2026-09-13",
+        "url": "https://doi.org/10.1016/j.tust.2026.108090",
+        "authors": [
+          "Jibin Sun",
+          "Mingyu Kang",
+          "Xuesong Cheng",
+          "Yongchao Liu",
+          "Yang Zhang",
+          "Linzhuan Ren",
+          "Tao Cui",
+          "Gang Zheng"
+        ],
+        "institutions": [],
+        "journal": "Tunnelling and Underground Space Technology",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Numerical Simulation"
+      }
+    ],
+    "Rock Mechanics and Rock Engineering": []
+  }
+}
