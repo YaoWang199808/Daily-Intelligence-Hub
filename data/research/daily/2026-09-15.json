@@ -1,0 +1,475 @@
+{
+  "date": "2026-09-15",
+  "journals": {
+    "Automation in Construction": [],
+    "Mechanical Systems and Signal Processing": [
+      {
+        "id": "https://openalex.org/W7212542125",
+        "doi": "10.1016/j.ymssp.2026.114938",
+        "title": "A novel star-shaped honeycomb with broken diagonal symmetry for enhanced tunability of equivalent elastic properties and bandgap characteristics",
+        "published": "2026-09-14",
+        "url": "https://doi.org/10.1016/j.ymssp.2026.114938",
+        "authors": [
+          "Hengtai Ni",
+          "Ming Liu",
+          "Jing Liu",
+          "Chiye Yang"
+        ],
+        "institutions": [
+          "Northwestern Polytechnical University"
+        ],
+        "journal": "Mechanical Systems and Signal Processing",
+        "abstract": "The design of multifunctional honeycomb structures faces critical challenges due to the inherent trade-off between load-bearing capacity and vibration isolation performance. In this paper, a novel geometrically asymmetric design approach for star-shaped honeycombs is proposed through the differential configuration of bidirectional re-entrant angles. The in-plane equivalent elastic properties of the developed diagonal symmetry-broken star-shaped honeycomb (DSB-SSH) under uniaxial loading are calculated using the theoretical model derived from Castigliano’s second theorem. Moreover, a dynamic dispersion model is developed by combining the finite element (FE) method with Timoshenko beam theory to characterize the wave propagation behaviors. The modulation mechanism of geometrically asymmetric design on the equivalent elastic properties and wave propagation behaviors of the DSB-SSH is investigated via parametric analysis and experimental measurements. The results indicate that the tunability of the equivalent elastic modulus and Poisson’s ratio is significantly enhanced due to the transition of the compressive deformation mode driven by differential configuration angles. Additional bandgaps of the DSB-SSH are opened by splitting the crossing dispersion branches induced by modal degeneracy, leading to a broadened vibration isolation bandwidth. Both the enhanced static load-bearing stiffness and the low-frequency broadband vibration isolation performance of the DSB-SSH are experimentally validated through uniaxial quasi-static compression and vibration transmission tests. Therefore, the proposed geometrically asymmetric design strategy based on differentiated re-entrant angle configurations provides a straightforward approach to tailoring the multifunctional mechanical properties of honeycomb structures without introducing additional functional components, thereby significantly broadening their practical application scenarios.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      },
+      {
+        "id": "https://openalex.org/W7212626910",
+        "doi": "10.1016/j.ymssp.2026.114969",
+        "title": "Nonlinear stiffness triboelectric vibration sensor for UAV blade damage monitoring through hybrid deep learning",
+        "published": "2026-09-14",
+        "url": "https://doi.org/10.1016/j.ymssp.2026.114969",
+        "authors": [
+          "X.W. Ye",
+          "Kuankuan Wang",
+          "Yixin Liu",
+          "Zhenghai Qi",
+          "Yaolin Xu",
+          "Kun Qian",
+          "Yongming Yao",
+          "Tianyu Li"
+        ],
+        "institutions": [],
+        "journal": "Mechanical Systems and Signal Processing",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      },
+      {
+        "id": "https://openalex.org/W7212824238",
+        "doi": "10.1016/j.ymssp.2026.114934",
+        "title": "A joint optimization network for force identification on nonlinear structures",
+        "published": "2026-09-14",
+        "url": "https://doi.org/10.1016/j.ymssp.2026.114934",
+        "authors": [
+          "Rui Zhou",
+          "Baijie Qiao",
+          "Liangliang Jiang",
+          "Wei Cheng",
+          "Boyi Wang",
+          "Yanan Wang",
+          "Xuefeng Chen"
+        ],
+        "institutions": [
+          "Xi'an Jiaotong University",
+          "China Academy of Launch Vehicle Technology"
+        ],
+        "journal": "Mechanical Systems and Signal Processing",
+        "abstract": "Accurate force identification is fundamental to the structural health monitoring and integrity assessment of complex engineering systems. However, nonlinear structural dynamics invalidate the superposition principle and render the inverse problem ill-posed, making dynamic force identification highly challenging. Existing model-driven and algorithm unrolling (AU) methods rely on explicit analytical forward models to compute Jacobian matrices, which are often unavailable for practical nonlinear structures. To overcome this limitation, this paper proposes a joint optimization network (JO-Net) for nonlinear structural force identification. JO-Net replaces the analytical Jacobian with an automatically differentiable surrogate model embedded in a deep unrolling framework. The surrogate network learns nonlinear forward dynamics and provides sensitivity information via automatic differentiation, while the proximal gradient descent algorithm is unrolled into a layer-wise network with a convolutional encoder–decoder serving as a learnable proximal operator. A key feature of JO-Net is the simultaneous optimization of the surrogate model and the inverse AU network, enabling adaptive refinement of structural mappings and mitigation of modeling errors. Numerical and experimental validations on nonlinear structures demonstrate that JO-Net significantly outperforms purely data-driven and model-based Kalman filter methods. By combining the surrogate model gradient with a data-driven gradient mapping matrix, the proposed method achieves a better balance between robustness and accuracy. Furthermore, JO-Net demonstrates superior robustness against measurement uncertainties and maintains reliable identification performance for unseen force–amplitude ranges within the tested nonlinear structures.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      },
+      {
+        "id": "https://openalex.org/W7213025971",
+        "doi": "10.1016/j.ymssp.2026.114973",
+        "title": "An efficient fractional Sobol-Quasi-Monte Carlo simulation based reliability estimation with enhanced explainability of machine tool’s thermal error prediction model under sensor degradation",
+        "published": "2026-09-14",
+        "url": "https://doi.org/10.1016/j.ymssp.2026.114973",
+        "authors": [
+          "Shashi Bhushan Gunjan",
+          "D.S. Srinivasu"
+        ],
+        "institutions": [],
+        "journal": "Mechanical Systems and Signal Processing",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      },
+      {
+        "id": "https://openalex.org/W7213052536",
+        "doi": "10.1016/j.ymssp.2026.114944",
+        "title": "Block-diagonal normalization for robust multichannel underwater narrowband active noise control using parametric-array secondary sources",
+        "published": "2026-09-14",
+        "url": "https://doi.org/10.1016/j.ymssp.2026.114944",
+        "authors": [
+          "Bo Fan",
+          "Jie Shi",
+          "Haokang Shi",
+          "Song Li",
+          "Haoyang Zhang"
+        ],
+        "institutions": [
+          "Harbin Engineering University",
+          "Ministry of Industry and Information Technology"
+        ],
+        "journal": "Mechanical Systems and Signal Processing",
+        "abstract": "Localized underwater narrowband active noise control (ANC) requires secondary sources that balance compact size, directivity, and multichannel control stability. Underwater parametric arrays, which generate highly directional difference-frequency sound, provide a promising secondary-source solution for underwater noise control. However, in such multichannel control systems, secondary-path coupling and filtered-reference energy imbalance may degrade the multichannel normalized filtered-x least-mean-square (MNFxLMS) algorithm. Its global normalization factor can be dominated by high-energy filtered-reference components, reducing the effective step size of weak-energy branches and causing slow convergence or insufficient attenuation at certain target tones. Motivated by the near-block-diagonal secondary-path structure enabled by directional parametric-array secondary sources, this paper develops a branch-wise block-diagonal normalized MNFxLMS formulation. The proposed method replaces global normalization with branch-wise normalization for individual subfilters, thereby reducing the suppression of weak-energy updates. Compared with multichannel filtered-x affine projection algorithms (MFxAPA), it avoids projection matrix inversion while achieving comparable performance at lower computational complexity. A mean-square performance model is further developed to predict the transient behavior of the proposed and reference algorithms. Simulations show good agreement between theoretical predictions and Monte Carlo learning curves, and BD-MNFxLMS is less sensitive to filtered-reference imbalance. Experiments show that, under imbalanced conditions, BD-MNFxLMS outperforms MNFxLMS in 11 out of 12 electrical-domain target-tone comparisons, with particularly pronounced advantages for the weak-energy target branch. For BD-MNFxLMS, acoustic-domain measurements yield positive attenuation at all tested target spectral lines, ranging from approximately 8.16 to 20.63 dB, confirming the practical effectiveness of the proposed system. • A branch-wise normalized multichannel FxLMS formulation is developed. • Parametric-array secondary sources can produce approximately block-diagonal paths. • Global normalization is shown to suppress weak-energy branch updates. • Mean-square analysis accurately predicts Monte Carlo learning curves. • Water-tank tests confirm effective controller-side and acoustic-domain attenuation.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      },
+      {
+        "id": "https://openalex.org/W7213108142",
+        "doi": "10.1016/j.ymssp.2026.114933",
+        "title": "Internal combination resonance in a Micro Electro-Mechanical three-axis gyroscope: Experimental results and reduced-order modelling via invariant manifolds",
+        "published": "2026-09-14",
+        "url": "https://doi.org/10.1016/j.ymssp.2026.114933",
+        "authors": [
+          "A. Colombo",
+          "Marco Villa",
+          "Federico Morelli",
+          "Patrick Fedeli",
+          "Cyril Touzé",
+          "Attilio Frangi"
+        ],
+        "institutions": [
+          "Politecnico di Milano",
+          "STMicroelectronics (Italy)",
+          "Centre National de la Recherche Scientifique",
+          "École Nationale Supérieure de Techniques Avancées",
+          "Commissariat à l'Énergie Atomique et aux Énergies Alternatives"
+        ],
+        "journal": "Mechanical Systems and Signal Processing",
+        "abstract": "This work investigates internal combination resonance in a Micro-Electro-Mechanical System (MEMS) three-axis gyroscope, where energy couples among three vibrational modes via the relationship ω 1 + ω 2 ≈ ω 3 . The phenomenon is first characterised experimentally through frequency response measurements and spectrograms, revealing paired resonance peaks that emerge only under dual-frequency excitation. A theoretical framework grounded in complex normal form theory is then developed, deriving analytical expressions for the frequency-response curves which are shown to replicate the experimental findings. A reduced-order model of the fully coupled electromechanical problem is constructed via Direct Parametrisation of Invariant Manifolds applied to the full finite element mesh (1.3 million degrees of freedom), demonstrating quantitative agreement with experiments and validating the predicted mechanisms. By combining invariant manifold parametrisation with complex normal form theory, the methodology bridges the gap between analytical understanding and practical finite element reduction, yielding explicit solutions for nonlinear phenomena whilst maintaining computational efficiency for large-scale systems. The results validate invariant manifold methods as a robust tool for MEMS design and control applications.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      },
+      {
+        "id": "https://openalex.org/W7213124431",
+        "doi": "10.1016/j.ymssp.2026.114978",
+        "title": "Phase-locked masking-based vibration cyclostationarity analysis for wear characterization of cylinder liner-piston ring in simulated ammonia engine environment",
+        "published": "2026-09-14",
+        "url": "https://doi.org/10.1016/j.ymssp.2026.114978",
+        "authors": [
+          "Zhiwenhao Zheng",
+          "Chenxing Sheng",
+          "Xiang Rao",
+          "Yicong Xu",
+          "Zhiwei Guo",
+          "Chengqing Yuan"
+        ],
+        "institutions": [],
+        "journal": "Mechanical Systems and Signal Processing",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      }
+    ],
+    "Measurement": [
+      {
+        "id": "https://openalex.org/W7213108201",
+        "doi": "10.1016/j.measurement.2026.123135",
+        "title": "Dual-space metric fusion network for interpretable few-shot fault diagnosis of industrial processes",
+        "published": "2026-09-14",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123135",
+        "authors": [
+          "Guangtao Zhang",
+          "Liang Qiao",
+          "Kaixiang Peng",
+          "Liang Ma"
+        ],
+        "institutions": [],
+        "journal": "Measurement",
+        "abstract": "While few-shot learning (FSL) addresses sample scarcity in fault diagnosis of industrial processes, existing methods typically rely on temporal features extracted by deep neural networks (DNN), leading to a lack of physical interpretability and making models prone to overfitting. To address this issue, a novel interpretable few-shot fault diagnosis framework, named dual-space metric fusion network (DSMFN), is proposed. First, a pre-trained denoising autoencoder (DAE) is used to learn the multivariate nonlinear correlations under normal operating conditions and extract the fault contribution vectors of physical sensor variables. Second, at the decision layer, a soft fusion between temporal feature distance and physical variable similarity is performed to introduce the explicit physical constraints while retaining the generalization of DNN, effectively alleviating overfitting. Furthermore, a calibrated global variable contribution tracking module is designed to statistically assess the recurrent fault-associated variable deviations without predefined fault semantics. Experiments on the Tennessee Eastman Process (TEP) benchmark dataset demonstrate that DSMFN outperforms existing few-shot baseline models in terms of classification accuracy and robustness. A mechanism-based sanity check further shows that the highly ranked variables are consistent with the affected process variables and closed-loop control responses, demonstrating that the proposed tracking module can provide statistically supported variable-level evidence for subsequent process analysis.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      },
+      {
+        "id": "https://openalex.org/W7212493619",
+        "doi": "10.1016/j.measurement.2026.123185",
+        "title": "Vision–LiDAR fusion for 3D crack localization and width measurement",
+        "published": "2026-09-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123185",
+        "authors": [
+          "Hongmei Zhang",
+          "Jun Luo",
+          "Jixing Cao",
+          "Naeem Ullah"
+        ],
+        "institutions": [
+          "Zhejiang University"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7212599318",
+        "doi": "10.1016/j.measurement.2026.123165",
+        "title": "Physics-aware temporal super-resolution reconstruction of unsteady particle velocity fields via a residual-guided self-attention network",
+        "published": "2026-09-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123165",
+        "authors": [
+          "Xiyong Li",
+          "Hang Yun",
+          "Dan Zhang",
+          "Yan Zheng"
+        ],
+        "institutions": [
+          "Jiangsu University of Technology"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7212728648",
+        "doi": "10.1016/j.measurement.2026.123136",
+        "title": "EMKAN: Multiscale attention Kolmogorov–Arnold Networks with evolved input features for industrial soft sensing",
+        "published": "2026-09-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123136",
+        "authors": [
+          "Yuyan Zhang",
+          "Yuchen Zhao",
+          "Chunjie Yang"
+        ],
+        "institutions": [
+          "State Key Laboratory of Industrial Control Technology"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7212737353",
+        "doi": "10.1016/j.measurement.2026.123195",
+        "title": "Distinguishing fuel and soot contamination in marine lubricating oil by frequency-domain separation using electrochemical impedance spectroscopy",
+        "published": "2026-09-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123195",
+        "authors": [
+          "Wenxuan Guo",
+          "Xinran Wang",
+          "Hongpeng Zhang",
+          "Peng Zhang",
+          "Honghua Rao",
+          "Shushan Wang"
+        ],
+        "institutions": [],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7212786779",
+        "doi": "10.1016/j.measurement.2026.123176",
+        "title": "A comparative study of robust fault diagnosis in hydraulic systems under sensor disturbances",
+        "published": "2026-09-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123176",
+        "authors": [
+          "Deepak Saxena",
+          "Santosh Kr. Mishra",
+          "S Silva Sajin Jose",
+          "Purushottam Kumar Singh",
+          "Ram Krishna Upadhyay"
+        ],
+        "institutions": [
+          "National Institute of Technology Tiruchirappalli",
+          "National Institute Of Technology Silchar",
+          "Gati Shakti Vishwavidyalaya"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7212879787",
+        "doi": "10.1016/j.measurement.2026.123182",
+        "title": "Porous matrix mitigates cracking despite higher steel corrosion: Insights from deep learning-assisted XCT analysis",
+        "published": "2026-09-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123182",
+        "authors": [
+          "Bin Jia",
+          "Shupeng Ju",
+          "Bingcheng Chen",
+          "Ligang Peng"
+        ],
+        "institutions": [],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      },
+      {
+        "id": "https://openalex.org/W7212896096",
+        "doi": "10.1016/j.measurement.2026.123188",
+        "title": "Real-time quantitative chemicals profiling in petrochemical processes using high-frequency electromagnetic sensing",
+        "published": "2026-09-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123188",
+        "authors": [
+          "Suramate Chalermwisutkul",
+          "Yaowaret Maiket",
+          "Thapanwat Khumkrong",
+          "Chanwit Chansatirapanich",
+          "Nalinee Tanthikul",
+          "Rungsima Yeetsorn"
+        ],
+        "institutions": [],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7212920840",
+        "doi": "10.1016/j.measurement.2026.123180",
+        "title": "Electromagnetic cantilever plate resonators using torsional modes for linearity-based direct viscosity measurement in different flowing liquids",
+        "published": "2026-09-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123180",
+        "authors": [
+          "Linya Huang",
+          "Xiangguang Han",
+          "Wei Li",
+          "Yuxin Zhao",
+          "Yong Xia",
+          "Gang Niu",
+          "Ping Yang",
+          "Dejiang Lu",
+          "Guoxi Luo",
+          "Libo Zhao"
+        ],
+        "institutions": [],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7212927191",
+        "doi": "10.1016/j.measurement.2026.123190",
+        "title": "Electron number density diagnostics of laser-ablated brass plasma in vacuum using laser absorption",
+        "published": "2026-09-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123190",
+        "authors": [
+          "Kyunho Kim",
+          "Kiyoung Seong",
+          "Moon Soo Bak"
+        ],
+        "institutions": [
+          "Sungkyunkwan University"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      }
+    ],
+    "Engineering Structures": [
+      {
+        "id": "https://openalex.org/W7212577129",
+        "doi": "10.1016/j.engstruct.2026.123754",
+        "title": "4D printing modular twisting metamaterials with reprogrammable functionality and reconfigurable deformation",
+        "published": "2026-09-14",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.123754",
+        "authors": [
+          "Xiaodi Feng",
+          "Siqi Ma",
+          "Shuai Fu",
+          "Yifan Lu",
+          "Honghao Yue",
+          "Paolo Colombo"
+        ],
+        "institutions": [
+          "Harbin Institute of Technology",
+          "Center for Advancing Electronics Dresden",
+          "Technische Universität Dresden",
+          "Pennsylvania State University",
+          "University of Padua"
+        ],
+        "journal": "Engineering Structures",
+        "abstract": "Developing torsional mechanical metamaterials capable of delivering reconfigurable and adaptive responses through compression-torsion coupling remains a significant challenge. Here, we present a bioinspired multifunctional twisting mechanical metamaterial (MTMM) featuring a modular chiral architecture composed exclusively of plates and chiral rods, enabling plug-and-play assembly and repeatedly reprogrammable switching among three discrete chiral states. The programmable chiral heterogeneity enables MTMM arrays to exhibit cooperative deformation, thereby supporting diverse programmable functionalities, including a tailorable Poisson’s ratio, controlled shape morphing, and mechanical signal encoding and transmission. Moreover, replacing the chiral rods with counterparts containing different inner-aperture sizes enables systematic reconfiguration of the global load–displacement response, including its stiffness level, deformation sequence. This provides a versatile strategy for tailoring the mechanical response to different energy-absorption and vibration-isolation requirements. An MTMM system connected in series further demonstrates high reliability, ease of maintenance, and reusability, highlighting its potential for impact-protection applications such as lander buffering. Overall, the MTMM establishes a scalable design paradigm for multifunctional twisting metamaterials and significantly expands the design space for programmable mechanical properties and functional integration.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7212922308",
+        "doi": "10.1016/j.engstruct.2026.123748",
+        "title": "Kinematic singularity elimination and deployment dynamics of a gear-synchronized truss-type deployable structure",
+        "published": "2026-09-14",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.123748",
+        "authors": [
+          "Qiuyue Zhong",
+          "Qian Zhang",
+          "Man Xu",
+          "Zeyu Lin",
+          "Bin Zeng",
+          "Jianguo Cai"
+        ],
+        "institutions": [
+          "Southeast University",
+          "Beijing Building Construction Research Institute (China)"
+        ],
+        "journal": "Engineering Structures",
+        "abstract": "Large deployable structures are promising for offshore buoy systems that require compact transportation and reliable in-service deployment. From a structural mechanics perspective, however, practical deployment is complicated by thickness-induced geometric offsets, synchronization constraints, and gravity-coupled dynamic effects. This study proposes a gear-synchronized truss-type deployable structure and investigates its kinematic and dynamic behavior. A closed-loop kinematic model is first established to characterize the effect of panel thickness on the deployment path. The results show that the original mechanism may encounter a Type II singularity near the fully deployed state, causing motion bifurcation and loss of deterministic motion. To resolve this issue, a drive-topology reconfiguration strategy is proposed. A rigid-flexible coupled dynamic model is then developed to examine the deployment response under different deployment durations, gravity orientations, and passive torsion-spring inputs. The deployment-duration analysis shows that slower deployment reduces transient stress, while the stress-reduction benefit becomes less pronounced in the longer-duration range. The horizontal attitude is identified as the most unfavorable gravity condition for the present configuration. For passive deployment, the analysis reveals a dynamic bottleneck effect and shows that the rate-determining joint may shift when the torsion-spring preload distribution is changed. A scaled prototype is used to qualitatively verify the feasibility of the proposed design and the consistency of the deployment sequence, while stress, torque, and time-history responses are evaluated numerically. The study offers useful insight into the design and analysis of thick-panel deployable truss structures with synchronized constraints.",
+        "citation_count": 0,
+        "method": "Numerical Simulation"
+      },
+      {
+        "id": "https://openalex.org/W7212940106",
+        "doi": "10.1016/j.engstruct.2026.123691",
+        "title": "Residual shear performance and surrogate-assisted model updating of in-service prestressed concrete hollow slab beams",
+        "published": "2026-09-14",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.123691",
+        "authors": [
+          "Fawas. O. Matanmi",
+          "Qingtian Su",
+          "Yangqing Liu",
+          "Lefei Huang",
+          "Runchuan Xu",
+          "Rui Zhao"
+        ],
+        "institutions": [],
+        "journal": "Engineering Structures",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7212976471",
+        "doi": "10.1016/j.engstruct.2026.123759",
+        "title": "Multiple distribution-to-distribution regression and missing data imputation via improved Wasserstein regression and optimized D-vine copula",
+        "published": "2026-09-14",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.123759",
+        "authors": [
+          "Siyu Liang",
+          "Xiurui Guo",
+          "Nan Gong",
+          "Shiyu Wang",
+          "Ying Lei"
+        ],
+        "institutions": [
+          "Xiamen University"
+        ],
+        "journal": "Engineering Structures",
+        "abstract": "Continuous missing of recorded monitoring data together with losing of the corresponding data probability distributions significantly affect structural health monitoring system assessments. Therefore, imputing missing data and restoring their probability distributions is crucial. Although many deep learning-based missing data imputation methods have been developed, limitations remain as no guarantees can be made for the imputed data following the probability distribution of original missing data. Moreover, the recent Wasserstein regression approach is only applicable to one-to-one probability distribution regression and thus fails to leverage multiple intact sensor data probability distributions, resulting in underutilization of available information. With the missing probability distribution restored, copula-based methods can be used for missing data imputation but struggle with imputing correlated multi-sensor data. In this paper, two methods are proposed to solve the above existing problems, respectively. The first method improves the recent Wasserstein regression to multiple probability distribution-to-distribution regression by systematically embedding a functional partial least squares-based multiple function-to-function regression into the tangent space. The second method enhances the optimized D -vine copula by incorporating non-parametric estimation, enabling efficient modeling of joint conditional distributions and accurate imputation of continuous missing data. The effectiveness of the two proposed methods is validated using field-measured acceleration data from the Dowling Hall Footbridge and wind-speed data from a wind observation array.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      },
+      {
+        "id": "https://openalex.org/W7213123401",
+        "doi": "10.1016/j.engstruct.2026.123750",
+        "title": "Hybrid semi-self-supervised learning for bridge safety early warning under data-scarce flood conditions",
+        "published": "2026-09-14",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.123750",
+        "authors": [
+          "Qian Liu",
+          "Caizheng Zhao",
+          "Kainan Xu",
+          "Yong Wen",
+          "Jianzhong Pei"
+        ],
+        "institutions": [],
+        "journal": "Engineering Structures",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      }
+    ],
+    "Ultrasonics": [],
+    "Tunnelling and Underground Space Technology": [],
+    "Rock Mechanics and Rock Engineering": []
+  }
+}
