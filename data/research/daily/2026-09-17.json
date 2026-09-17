@@ -1,0 +1,564 @@
+{
+  "date": "2026-09-17",
+  "journals": {
+    "Automation in Construction": [
+      {
+        "id": "https://openalex.org/W7213412826",
+        "doi": "10.1016/j.autcon.2026.107270",
+        "title": "Automatic measurement of rebar spacing on end faces of railway sleepers based on axial core-layer isolation and dual-prior constrained cylinder fitting",
+        "published": "2026-09-16",
+        "url": "https://doi.org/10.1016/j.autcon.2026.107270",
+        "authors": [
+          "Peng Shi",
+          "Lu Deng",
+          "Jingjing Guo",
+          "Liu Mi",
+          "Shuo Wang"
+        ],
+        "institutions": [],
+        "journal": "Automation in Construction",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7213359269",
+        "doi": "10.1016/j.autcon.2026.107246",
+        "title": "Comprehensive graph-based digital twin for correlation analysis of heterogeneous road infrastructure data",
+        "published": "2026-09-15",
+        "url": "https://doi.org/10.1016/j.autcon.2026.107246",
+        "authors": [
+          "Ina Heise",
+          "Sebastian Esser",
+          "André Borrmann"
+        ],
+        "institutions": [],
+        "journal": "Automation in Construction",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      }
+    ],
+    "Mechanical Systems and Signal Processing": [
+      {
+        "id": "https://openalex.org/W7213236644",
+        "doi": "10.1016/j.ymssp.2026.114979",
+        "title": "Closed-form optimal design of passive switching dampers for stay cables",
+        "published": "2026-09-16",
+        "url": "https://doi.org/10.1016/j.ymssp.2026.114979",
+        "authors": [
+          "Sheng Chen",
+          "Wenxi Wang",
+          "Gao Ma",
+          "Shixing Zhao",
+          "Qirui Luo",
+          "Chao Chen",
+          "Xugang Hua"
+        ],
+        "institutions": [
+          "Hunan University",
+          "Sichuan Provincial Architectural Design and Research Institute (China)"
+        ],
+        "journal": "Mechanical Systems and Signal Processing",
+        "abstract": "Near-anchor linear viscous dampers for stay cables are constrained by the small local motion available for energy dissipation. This study proposes a passive switching damper that mechanically alternates between high- and low-damping states according to motion direction, without sensors, controllers, or external power. A first-harmonic reduction separates the non-smooth switching force into equivalent viscous and displacement-related components. Combined with complex-eigenvalue analysis, this representation yields the first-harmonic equivalent added modal damping ratio and a closed-form optimum for the high-state damping coefficient at a prescribed near-anchor location, while recovering the classical linear viscous damper (LVD) limit when the two damping states coincide. A detailed A10 stay-cable model is used to assess the analytical design against the fixed classical target-mode LVD under free decay, primary resonance, multi-frequency excitation, and stochastic aerodynamic loading. Without parameter retuning, the proposed damper reduces the maximum full-cable peak-displacement envelope by 26.67% under the prescribed three-frequency excitation. Across ten stochastic realizations, it reduces the mean mid-span RMS response by 31.40% relative to the LVD. Component tests at five excitation frequencies demonstrate passive two-state switching. A globally calibrated two-state force model achieves a mean normalized root-mean-square error (NRMSE) of 5.5%, compared with 14.6% for the linear viscous baseline. These component tests characterize local switching and force behavior rather than full-scale cable performance.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      },
+      {
+        "id": "https://openalex.org/W7213260849",
+        "doi": "10.1016/j.ymssp.2026.114955",
+        "title": "Sensing limit in blade tip timing measurement and underlying theory",
+        "published": "2026-09-16",
+        "url": "https://doi.org/10.1016/j.ymssp.2026.114955",
+        "authors": [
+          "Jiahui Cao",
+          "Shuming Wu",
+          "Zhibo Yang",
+          "Minyue Lu",
+          "Liqin Lu",
+          "Ruqiang Yan",
+          "Xuefeng Chen"
+        ],
+        "institutions": [
+          "Xi'an Jiaotong University",
+          "Systems Engineering Society of China"
+        ],
+        "journal": "Mechanical Systems and Signal Processing",
+        "abstract": "Blade Tip Timing (BTT) is a promising non-contact technique for measuring blade vibrations in rotating machinery due to its minimal hardware intrusion and long service life. However, the inherent mismatch between the high vibration frequencies of the blades and the relatively low sampling rates achievable in practice leads to severe undersampling, thereby hindering accurate parameter identification—an essential task for blade health monitoring. Although numerous advanced parameter identification methods have been proposed, their performance strongly depends on the probe layout, and a unified, intuitive theory for evaluating and optimizing layouts remains lacking. In this paper, we develop a sensing limit theory based on the Delay Sampling Theorem (DST), providing fundamental insights into the capabilities and limitations of BTT measurement. Furthermore, recognizing that sampling jitter arising from tip vibration and rotational speed fluctuations is inevitable in practice, we extend the theory to account for such uncertainties and introduce the concept of a robust sensing limit. For practical applications, we derive a straightforward formula to compute the robust sensing limit for any given layout and present guidelines for layout evaluation and optimization. The strong agreement between theoretical predictions and experimental results validates the correctness and applicability of the proposed theory. Overall, the robust sensing limit theory offers a foundational framework for advancing BTT-based vibration measurement.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      },
+      {
+        "id": "https://openalex.org/W7213362011",
+        "doi": "10.1016/j.ymssp.2026.114974",
+        "title": "Dynamic modeling of high-speed helical gear transmission system with multiple geometric deviations and non-uniform contact",
+        "published": "2026-09-16",
+        "url": "https://doi.org/10.1016/j.ymssp.2026.114974",
+        "authors": [
+          "Zhao Zhang",
+          "Miaomiao Li",
+          "Zhanwei Li",
+          "De Ni",
+          "Haiyang Ding",
+          "Hu Yu",
+          "Rupeng Zhu"
+        ],
+        "institutions": [
+          "Nanjing University of Aeronautics and Astronautics",
+          "Aero Engine Corporation of China (China)"
+        ],
+        "journal": "Mechanical Systems and Signal Processing",
+        "abstract": "Existing helical gear dynamic models remain limited in providing a unified state-dependent description of the combined effects of multiple geometric deviations on non-uniform contact. To address this problem, this study develops a dynamic model in which pitch, profile, and helix deviations are mapped as normal perturbations into a common time-varying backlash field and coupled with the dynamic transmission error to determine the instantaneous contact state and load-bearing configuration. The improved mesh element is directly coupled with the shafting, bearings, and casing, establishing a consistent pathway from geometric deviations to system vibration response. The results show that pitch deviation changes the tooth-pair load-bearing sequence and mainly enhances rotational-frequency sideband components around the gear mesh frequency (GMF). Helix deviation enhances sideband modulation through contact position migration along the face width direction, whereas profile deviation primarily increases the GMF main-peak energy by changing the local stiffness of the main load-bearing region. As gear accuracy grade deteriorates, sideband related indices show higher sensitivity to accuracy degradation than the GMF main peak alone. Experimental validation shows good agreement between simulation and experiment in terms of time-domain amplitude, GMF main peak energy, and rotational-frequency sideband components. These results provide a practical basis for linking operational vibration features with geometric deviation related manufacturing accuracy assessment, assembly quality control, and sideband-based condition monitoring.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      },
+      {
+        "id": "https://openalex.org/W7213422895",
+        "doi": "10.1016/j.ymssp.2026.114970",
+        "title": "Remaining useful life prediction under noisy conditions via adaptive degradation modeling incorporating memory effects",
+        "published": "2026-09-16",
+        "url": "https://doi.org/10.1016/j.ymssp.2026.114970",
+        "authors": [
+          "Xiangyu Wang",
+          "Xiaosheng Si",
+          "Xiaopeng Xi",
+          "Donghua Zhou"
+        ],
+        "institutions": [],
+        "journal": "Mechanical Systems and Signal Processing",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Numerical Simulation"
+      },
+      {
+        "id": "https://openalex.org/W7213423946",
+        "doi": "10.1016/j.ymssp.2026.114980",
+        "title": "Experimental investigation, mechanism analysis and mitigation solutions for tire hop during snap start of vehicles",
+        "published": "2026-09-16",
+        "url": "https://doi.org/10.1016/j.ymssp.2026.114980",
+        "authors": [
+          "Li-jian Shangguan",
+          "Sheng-Xiang Wang",
+          "Subhash Rakheja",
+          "Zilong Tian",
+          "Hui Lü"
+        ],
+        "institutions": [],
+        "journal": "Mechanical Systems and Signal Processing",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7213253516",
+        "doi": "10.1016/j.ymssp.2026.114941",
+        "title": "Structural modal identification based on motion magnification and improved subpixel edge detection algorithm",
+        "published": "2026-09-15",
+        "url": "https://doi.org/10.1016/j.ymssp.2026.114941",
+        "authors": [
+          "Kui Luo",
+          "Xuan Kong",
+          "Shitang Ke",
+          "Jiexuan Hu",
+          "Lu Deng"
+        ],
+        "institutions": [
+          "Hunan University",
+          "Nanjing University of Aeronautics and Astronautics"
+        ],
+        "journal": "Mechanical Systems and Signal Processing",
+        "abstract": "Modal identification is essential to structural health monitoring (SHM). The use of computer vision (CV) for modal identification offers several advantages compared to conventional approaches. However, most existing CV technologies require the installation of artificial targets and are limited to scenarios with significant vibration amplitudes. Therefore, this paper proposes a target-free modal identification approach integrating the broad-band phase-based video motion magnification (BPVMM) technique with an improved subpixel edge detection technique. The BPVMM technique is employed to amplify the low-amplitude vibrations and the improved subpixel edge detection algorithm based on partial area effect (PAE) is applied to extract displacement from the amplified video. The data-driven stochastic subspace identification (Data-SSI) method is then used to identify the frequencies and mode shapes of the structure. Finally, the performance of the developed technique is evaluated through laboratory and field tests to verify its accuracy. The results show that the mode shapes identified by the proposed technique are in good agreement with the reference mode shapes, and the MAC value is above 0.9843. This study provides a convenient, no-target, and low-cost method for structural modal identification.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7213300272",
+        "doi": "10.1016/j.ymssp.2026.114968",
+        "title": "Toward compressive sensing of track irregularities",
+        "published": "2026-09-15",
+        "url": "https://doi.org/10.1016/j.ymssp.2026.114968",
+        "authors": [
+          "Lifeng Xin",
+          "Zechao Qu",
+          "Zhiqiang Wan",
+          "Lei Xu",
+          "Jianfeng Mao",
+          "Zhiwu Yu"
+        ],
+        "institutions": [
+          "Northwestern Polytechnical University",
+          "Central South University"
+        ],
+        "journal": "Mechanical Systems and Signal Processing",
+        "abstract": "The management of massive track irregularity data from extensive railway networks poses significant challenges in storage, transmission, and processing. Compressive sensing (CS), which enables sub-Nyquist sampling by leveraging signal sparsity, presents a potential solution. However, its application to track irregularities, which are characterized by broad bandwidth, stochasticity, and stringent requirements for high-fidelity reconstruction in both spatial and frequency domains, faces unique obstacles, and thus remains underexplored. This study systematically analyzes the applicability of most compatible sparse representation bases, including Discrete Cosine Transform (DCT), Discrete Wavelet Transform (DWT), and Discrete Fourier Transform (DFT), to track irregularity signals. Through sparsity analysis and multi-dimensional performance evaluation (e.g., NRMSE, R 2 , PAE, SPD), it is demonstrated that the DFT provides the most effective sparse representation. The DFT-based CS framework enables compression ratios of track irregularity data up to 50% while maintaining high fidelity. Nevertheless, DFT-based reconstruction involves higher computational cost than its DCT counterpart. Accordingly, DCT is a practical choice for efficiency-oriented applications, as validated by train-track dynamic simulations. This work establishes a practical and efficient CS-based solution for large-scale track irregularity data management.",
+        "citation_count": 0,
+        "method": "Numerical Simulation"
+      },
+      {
+        "id": "https://openalex.org/W7213307050",
+        "doi": "10.1016/j.ymssp.2026.114963",
+        "title": "Parameter-identification-based time-varying aeroelastic modeling framework and wind-tunnel tests for a folding-wing model",
+        "published": "2026-09-15",
+        "url": "https://doi.org/10.1016/j.ymssp.2026.114963",
+        "authors": [
+          "Xin'ao Wang",
+          "Rui Huang",
+          "Xinghua Zhou",
+          "Haiyan Hu"
+        ],
+        "institutions": [
+          "Nanjing University of Aeronautics and Astronautics"
+        ],
+        "journal": "Mechanical Systems and Signal Processing",
+        "abstract": "This paper presents a time-varying aeroelastic modeling framework for folding wings undergoing large, continuous morphing, with an emphasis on parameter identification. In the framework, the time-varying stiffness of the actuation system is identified from time-domain responses by extracting instantaneous frequencies and minimizing the discrepancy between identified and simulated frequencies at each time step. The identified stiffness is then incorporated into a time-varying structural dynamics model formulated using the floating frame of reference. The structural model is coupled with an unsteady vortex lattice method to simulate the transient aeroelastic responses under arbitrary flow conditions. A simulation example verifies the accuracy of the stiffness identification strategy. The wind-tunnel experiments validate and characterize the nonstationary vibration characteristics during the morphing process. The comparison between simulations and experiments demonstrates that the proposed framework accurately captures the time-varying aeroelastic behavior of the folding wing. The results reveal that the folding and unfolding processes exhibit opposite aeroelastic responses. In addition, the morphing rate plays a critical role in determining dynamic stability. The primary contribution of this work lies in integrating frequency-based system identification with a parametric, time-varying aeroelastic modeling framework, providing a practical, experimentally grounded approach to analyzing and predicting the stability of morphing wing systems.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      }
+    ],
+    "Measurement": [
+      {
+        "id": "https://openalex.org/W7213230488",
+        "doi": "10.1016/j.measurement.2026.123207",
+        "title": "High-frequency estimation of tri-axial tire forces for intelligent tires using fused time and frequency domain data",
+        "published": "2026-09-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123207",
+        "authors": [
+          "Yujie Zhao",
+          "Dejian Meng",
+          "Lijun Zhang",
+          "Haoxiang Yang",
+          "Xin Bi"
+        ],
+        "institutions": [
+          "Tongji University"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7213237297",
+        "doi": "10.1016/j.measurement.2026.123194",
+        "title": "Experimental study on leakage velocity in cemented soil cracks using high-frequency capacitive sensing technology",
+        "published": "2026-09-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123194",
+        "authors": [
+          "Si-yi Huang",
+          "Siyi Huang",
+          "Xiao Yu",
+          "Tao Qiu",
+          "Yi-kun Chen"
+        ],
+        "institutions": [],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7213277629",
+        "doi": "10.1016/j.measurement.2026.123197",
+        "title": "Spatially adaptive uncertainty evaluation framework for on-machine measurement systems in GD&T capability assessment",
+        "published": "2026-09-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123197",
+        "authors": [
+          "Zhaolong Zeng",
+          "Neng Wan",
+          "Dao Wang",
+          "Zujie Zheng",
+          "Renzheng Jiang"
+        ],
+        "institutions": [
+          "Northwestern Polytechnical University",
+          "Shanghai Academy of Spaceflight Technology"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7213308210",
+        "doi": "10.1016/j.measurement.2026.123202",
+        "title": "Rational experimental-computational correlation analysis of cross-sectioning methods for residual stress evaluation",
+        "published": "2026-09-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123202",
+        "authors": [
+          "I. A. Zorin",
+          "Konstantin Korobov",
+          "A. A. Frantsuzov",
+          "Andrey I. Shtypel",
+          "Iuliia A. Sadykova",
+          "Eugene S. Statnik",
+          "Alexey I. Salimon",
+          "Alexander M. Korsunsky"
+        ],
+        "institutions": [],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7213323334",
+        "doi": "10.1016/j.measurement.2026.122982",
+        "title": "FAR-GMapping: Fuzzy adaptive resampling thresholds in GMapping",
+        "published": "2026-09-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.122982",
+        "authors": [
+          "Hao Yang",
+          "Chenjian Wan",
+          "Hanqi Wang",
+          "Xiaokun Zheng",
+          "Hua Zhong",
+          "Yuten Zhang",
+          "Yalin Hu"
+        ],
+        "institutions": [
+          "Hefei Institutes of Physical Science",
+          "Hefei University",
+          "Hefei Institute of Technology Innovation",
+          "Vanguard University",
+          "Hefei University of Technology",
+          "Guangzhou Mechanical Engineering Research Institute (China)"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7213331711",
+        "doi": "10.1016/j.measurement.2026.123193",
+        "title": "Physics-constrained offline–online reconstruction of transient electromagnetic fields for measurement-oriented diagnostics",
+        "published": "2026-09-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123193",
+        "authors": [
+          "Zhiwei Gao",
+          "Cheng-An Sun",
+          "Qingmin Wang",
+          "Zibin Ma",
+          "Zhijie Liu",
+          "Li Zhao"
+        ],
+        "institutions": [],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7213337644",
+        "doi": "10.1016/j.measurement.2026.123083",
+        "title": "Long-term trend characterization of spillway dams using multi-section displacement fusion and interpretable ensemble learning",
+        "published": "2026-09-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123083",
+        "authors": [
+          "Zhiwen Xie",
+          "Limeng Gu",
+          "Liang Chen",
+          "Hanxuan Luo",
+          "Ruiyang Liu",
+          "Ding Sang"
+        ],
+        "institutions": [],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7213341746",
+        "doi": "10.1016/j.measurement.2026.123146",
+        "title": "Non-contact stay-cable tension estimation from gravitational geometry: comparative field evaluation of total-station and mobile LiDAR measurements",
+        "published": "2026-09-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123146",
+        "authors": [
+          "Wen‐Hwa Wu",
+          "Yu-Ping Chen",
+          "Chien-Chou Chen",
+          "Chih-Ming Liao",
+          "Chihping Kuo"
+        ],
+        "institutions": [],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7213342670",
+        "doi": "10.1016/j.measurement.2026.123191",
+        "title": "A DIC-CT combined method for internal strain field measurement in asphalt mixtures",
+        "published": "2026-09-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123191",
+        "authors": [
+          "Hengzhen Li",
+          "Huining Xu",
+          "Jie Li",
+          "Weidong Ji",
+          "Yiqiu Tan",
+          "Bin Yang",
+          "Hongliang Qian"
+        ],
+        "institutions": [],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7213343233",
+        "doi": "10.1016/j.measurement.2026.123199",
+        "title": "Mini-BLC-assisted RF energy harvesting for battery-free wayside rail monitoring",
+        "published": "2026-09-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123199",
+        "authors": [
+          "Yuanyi Wang",
+          "Pengyu Li",
+          "Zhihe Long",
+          "Qiqi Pan",
+          "Zixuan Li",
+          "Weiqun Liu",
+          "Junjun Ding",
+          "Jianjun Wu",
+          "Y Gao",
+          "Zhengbao Yang"
+        ],
+        "institutions": [],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      }
+    ],
+    "Engineering Structures": [
+      {
+        "id": "https://openalex.org/W7213392248",
+        "doi": "10.1016/j.engstruct.2026.123760",
+        "title": "Drive-by batch estimation method for girder deflections of bridge section based on the difference between loaded and unloaded track geometries",
+        "published": "2026-09-16",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.123760",
+        "authors": [
+          "Koji Hattori",
+          "Kodai Matsuoka",
+          "Hirofumi Tanaka",
+          "Tomonori Nagayama",
+          "Di Su"
+        ],
+        "institutions": [],
+        "journal": "Engineering Structures",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7213415851",
+        "doi": "10.1016/j.engstruct.2026.123739",
+        "title": "Customized topology optimization of tensegrity modules for modular assembly",
+        "published": "2026-09-16",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.123739",
+        "authors": [
+          "Yongcan Dong",
+          "Weijia Zhang",
+          "Xingfei Yuan",
+          "Xudong Zhi",
+          "Feng Fan"
+        ],
+        "institutions": [],
+        "journal": "Engineering Structures",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7213427165",
+        "doi": "10.1016/j.engstruct.2026.123717",
+        "title": "Shear behavior of 3D-printed concrete beams with CFRP reinforcement: An experimental parametric analysis",
+        "published": "2026-09-16",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.123717",
+        "authors": [
+          "Eduarda Dilkin",
+          "Martin Claßen"
+        ],
+        "institutions": [],
+        "journal": "Engineering Structures",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7213364094",
+        "doi": "10.1016/j.engstruct.2026.123765",
+        "title": "A novel spatial–temporal synergistic transformer for structural vibration response reconstruction",
+        "published": "2026-09-15",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.123765",
+        "authors": [
+          "T. M. Dao",
+          "Fan Yang",
+          "Ming Zhang",
+          "Hailong Yao",
+          "Chuancheng Zhao"
+        ],
+        "institutions": [
+          "City University",
+          "Lanzhou City University",
+          "Lanzhou University",
+          "Chang'an University"
+        ],
+        "journal": "Engineering Structures",
+        "abstract": "Structural vibration response reconstruction is of significant importance because data incompleteness critically undermines the accuracy of structural health monitoring. Existing deep learning-based reconstruction methods neglect the multi-semantic information of structural vibration responses that reflects the inherent vibration characteristics of structures, leading to reconstruction results that fail to represent the true structural behavior, thereby reducing their reconstruction accuracy. To address this problem, we propose a novel spatial–temporal synergistic transformer (STSFormer) network that effectively extracts the multi-semantic information through spatial–temporal synergistic representation. Specifically, we design a spatial and channel synergistic attention consisting of shared multi-semantic spatial attention and progressive channel self-attention, which enhances the ability to extract multi-semantic information and mitigates their discrepancies by three core designs including dimensional decoupling, lightweight multi-semantic guidance and semantic discrepancy mitigation. Furthermore, STSFormer adopts a symmetrical encoder–decoder architecture with skip connections, which strengthens the effective fusion of deep and shallow semantic features. On the real acceleration dataset of the Canton Tower, the average relative error (RE) of our method is reduced by approximately 11.5%, 16.1%, 8.9% and 2.6% compared with the average RE of MSDF, PMTC, SegGAN and SAGAN, respectively. On the real acceleration dataset of the Hardanger Bridge, the average RE of our method is decreased by 6.3% and 11.3% relative to MSDF and PMTC. Experimental results on multiple measured scenarios demonstrate that the reconstruction accuracy of the proposed method outperforms representative state-of-the-art models. Meanwhile, the proposed method maintains lightweight design and possesses favorable robustness and generalization performance. The source code of the model has been publicly released at: https://github.com/FanyangCHD/STSFormer-for-SHM .",
+        "citation_count": 0,
+        "method": "Hybrid"
+      }
+    ],
+    "Ultrasonics": [
+      {
+        "id": "https://openalex.org/W7213250200",
+        "doi": "10.1016/j.ultras.2026.108301",
+        "title": "Effect of internal layer thickness on ultrasonic transmission through multilayer porous media",
+        "published": "2026-09-01",
+        "url": "https://doi.org/10.1016/j.ultras.2026.108301",
+        "authors": [
+          "Mehdi Mohammed",
+          "Hervé Franklin",
+          "Abdellah Alem",
+          "Pierre Maréchal",
+          "Huaqing Wang"
+        ],
+        "institutions": [],
+        "journal": "Ultrasonics",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      }
+    ],
+    "Tunnelling and Underground Space Technology": [
+      {
+        "id": "https://openalex.org/W7213315190",
+        "doi": "10.1016/j.tust.2026.108117",
+        "title": "Failure mechanism and support strategy of weak carbonaceous slate in a large-span underground powerhouse cavern: A case study",
+        "published": "2026-09-16",
+        "url": "https://doi.org/10.1016/j.tust.2026.108117",
+        "authors": [
+          "Guangzhe Tao",
+          "Ning Liu",
+          "Zongqing Zhou",
+          "Bing Shao",
+          "Yan Ma",
+          "Xingtian Yan",
+          "Gaohan Jin",
+          "Cunbin Fan",
+          "Daosheng Zhang"
+        ],
+        "institutions": [],
+        "journal": "Tunnelling and Underground Space Technology",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      }
+    ],
+    "Rock Mechanics and Rock Engineering": []
+  }
+}
