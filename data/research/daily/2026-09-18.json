@@ -1,0 +1,674 @@
+{
+  "date": "2026-09-18",
+  "journals": {
+    "Automation in Construction": [
+      {
+        "id": "https://openalex.org/W7213440652",
+        "doi": "10.1016/j.autcon.2026.107231",
+        "title": "Synthetic data-driven framework for estimating worker activity intensity using pose-based graph neural networks",
+        "published": "2026-09-17",
+        "url": "https://doi.org/10.1016/j.autcon.2026.107231",
+        "authors": [
+          "Junhong Kim",
+          "Kieun Lee",
+          "Youngseo Hwang",
+          "Sungkon Moon"
+        ],
+        "institutions": [
+          "Ajou University",
+          "Yonsei University"
+        ],
+        "journal": "Automation in Construction",
+        "abstract": "This paper proposes a metabolic equivalent of task (MET) class prediction framework that combines Stable Diffusion-generated synthetic images with B-ResSkelGCN, which learns from skeleton graphs, for non-contact evaluation of construction workers' workload levels. Using domain-informed prompts, synthetic images were generated, followed by worker region of interest (ROI) alignment and skeleton transformation to construct graph convolutional network (GCN) inputs. The trained B-ResSkelGCN achieved high MET class prediction performance on frames in a test environment. However, predictions from single frames in real videos fluctuated during action transitions or momentary stillness, such as walking. To address this issue, mode-based window integration aggregated predictions within each window. A 5-frame window improved classification performance and MET error metrics compared with single-frame prediction, whereas excessively long windows diluted action-transition information and increased confusion, highlighting the need for operational strategies that adjust integration intervals according to action-transition characteristics and management objectives.",
+        "citation_count": 0,
+        "method": "Machine Learning"
+      },
+      {
+        "id": "https://openalex.org/W7213511993",
+        "doi": "10.1016/j.autcon.2026.107274",
+        "title": "Toward autonomous infrastructure management: Agentic AI for structural health monitoring, robotics, and digital twins",
+        "published": "2026-09-17",
+        "url": "https://doi.org/10.1016/j.autcon.2026.107274",
+        "authors": [
+          "Mohsin Ali Khan",
+          "Hong Pan",
+          "Zhibin Lin"
+        ],
+        "institutions": [],
+        "journal": "Automation in Construction",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      }
+    ],
+    "Mechanical Systems and Signal Processing": [
+      {
+        "id": "https://openalex.org/W7213459579",
+        "doi": "10.1016/j.ymssp.2026.114981",
+        "title": "A novel bridge damage indicator based on vehicle-induced instantaneous frequency characteristic function",
+        "published": "2026-09-17",
+        "url": "https://doi.org/10.1016/j.ymssp.2026.114981",
+        "authors": [
+          "Danhui Dan",
+          "Xia Liao",
+          "Zhixiang Cai",
+          "Liangfu Ge"
+        ],
+        "institutions": [],
+        "journal": "Mechanical Systems and Signal Processing",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7213518527",
+        "doi": "10.1016/j.ymssp.2026.114989",
+        "title": "Self-recovered phase reference and structured phase evidence aggregation for bearing degradation transition detection under nonstationary conditions",
+        "published": "2026-09-17",
+        "url": "https://doi.org/10.1016/j.ymssp.2026.114989",
+        "authors": [
+          "Xiaopeng Liu",
+          "Dubang Mao",
+          "Duanyi Zhu",
+          "Meng Wang",
+          "Langlang Yan",
+          "Tianwei Liang",
+          "Wei Li",
+          "Jiru Wang",
+          "Hongwei Zhao"
+        ],
+        "institutions": [],
+        "journal": "Mechanical Systems and Signal Processing",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      }
+    ],
+    "Measurement": [
+      {
+        "id": "https://openalex.org/W7213391463",
+        "doi": "10.1016/j.measurement.2026.123142",
+        "title": "Smart noise monitoring at live concerts: Combining deep learning and acoustic sensor networks",
+        "published": "2026-09-16",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123142",
+        "authors": [
+          "Ester Vidaña-Vila",
+          "Alejandro Moñux-Bernal",
+          "Marc Freixes",
+          "Aleix Ventayol",
+          "Jeroen Paymans",
+          "Rosa Ma Alsina‐Pagès"
+        ],
+        "institutions": [
+          "Universitat Ramon Llull",
+          "Hydroacoustics (United States)"
+        ],
+        "journal": "Measurement",
+        "abstract": "Exposure to high sound levels at leisure setting such as live music events is a recognized public health concern and is subject to increasingly strict regulatory limits. Ensuring compliance with these limits requires continuous noise monitoring, often performed using networks of connected acoustic sensors that provide real-time measurements during events. A challenge in this context is that sound level exceedances may be caused not only by the concert itself but also by unrelated external noise sources, making manual verification by technicians necessary and limiting the scalability of current monitoring practices. This paper investigates the use of automated acoustic event classification to distinguish noise generated by live music performances from external and non-event-related sounds in complex, real-world acoustic environments. We present the collection and human annotation of acoustic data recorded during three large-scale music festivals and evaluate the use of Pre-trained Audio Neural Networks (PANNs) for this task. Several model configurations and backbones are explored, including the use of PANNs as feature extractors and as fine-tuned classifiers, with additional data augmentation to improve robustness against diverse background noises. Experimental results demonstrate that fine-tuned PANN-based models can reliably discriminate concert-related sounds from external noise, achieving F1-score and AUC values above 80% across different festival scenarios. These findings highlight the feasibility of integrating acoustic event detection into real-time noise monitoring workflows, reducing the need for manual validation and supporting more scalable and reliable regulatory noise assessment leisure settings.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      },
+      {
+        "id": "https://openalex.org/W7213393802",
+        "doi": "10.1016/j.measurement.2026.123145",
+        "title": "Blade natural frequency identification under time-varying speed using blade tip timing measurements",
+        "published": "2026-09-16",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123145",
+        "authors": [
+          "Zengkun Wang",
+          "Zhibo Yang",
+          "Qiwen Cheng",
+          "Baijie Qiao",
+          "Jiahui Cao",
+          "Shuming Wu",
+          "Hao Zuo"
+        ],
+        "institutions": [
+          "Chang'an University",
+          "Xi'an University of Technology",
+          "Xi'an Jiaotong University"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7213363810",
+        "doi": "10.1016/j.measurement.2026.123200",
+        "title": "A Pix2pix variant based on transformer-fused U-Net for mapping Eddy current signals to crack morphology",
+        "published": "2026-09-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123200",
+        "authors": [
+          "Jing He",
+          "Guolong Chen",
+          "Lipeng Zhao",
+          "Wenhao Zhang",
+          "Yao Wang",
+          "Jiale Zhu",
+          "Pengcheng Zhang"
+        ],
+        "institutions": [],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      },
+      {
+        "id": "https://openalex.org/W7213393564",
+        "doi": "10.1016/j.measurement.2026.123219",
+        "title": "Tire slip ratio estimation using optimized in-tire PVDF sensor arrays and vehicle onboard sensors",
+        "published": "2026-09-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123219",
+        "authors": [
+          "Zhenqiang Quan",
+          "Xiaoqiang Sun",
+          "Tianli Gu",
+          "Yingfeng Cai",
+          "Bo Li",
+          "Long Chen"
+        ],
+        "institutions": [
+          "Jiangsu University",
+          "Jiangsu University of Technology"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7213396228",
+        "doi": "10.1016/j.measurement.2026.123215",
+        "title": "Shape prior-constrained improved Chan-Vese model for inner diameter measurement of guide rods",
+        "published": "2026-09-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123215",
+        "authors": [
+          "Yong Da Yan",
+          "Jingyu Zhang",
+          "Li Guo",
+          "Shuaiyi Wu"
+        ],
+        "institutions": [
+          "North University of China",
+          "Quality and Reliability (Greece)"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7213396238",
+        "doi": "10.1016/j.measurement.2026.123214",
+        "title": "Admittance-spectrum-based dual-resonance feature prediction and target-oriented design of annular piezoelectric ceramics for conducted EMI suppression",
+        "published": "2026-09-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123214",
+        "authors": [
+          "Jiahao Wen",
+          "Mengxia Zhou",
+          "Wei Yan",
+          "Hanqing Duan",
+          "Xinyi Liu",
+          "Shuo Dong",
+          "Yu Wang"
+        ],
+        "institutions": [
+          "Nanjing Normal University",
+          "Jiangsu Institute of Metrology"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7213396727",
+        "doi": "10.1016/j.measurement.2026.123205",
+        "title": "A method for steel crack detection based on multi-spectral image fusion",
+        "published": "2026-09-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123205",
+        "authors": [
+          "Renjie Duan",
+          "Zhihong Yan",
+          "Pengfei Huang",
+          "Mingkai Shi",
+          "Songhao Li",
+          "Qingsong Hu"
+        ],
+        "institutions": [],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7213398163",
+        "doi": "10.1016/j.measurement.2026.123203",
+        "title": "Embedded distributed fiber optic strain sensing for multi-scale monitoring and 3D assessment of cementitious materials deterioration",
+        "published": "2026-09-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123203",
+        "authors": [
+          "Nataline Simon",
+          "Pierre Dick",
+          "Julie Pouya",
+          "Nicolas Aubert",
+          "Aghiad Khadour",
+          "Alexandre Dauzères"
+        ],
+        "institutions": [
+          "Institut de Radioprotection et de Sûreté Nucléaire",
+          "Université Gustave Eiffel"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7213398800",
+        "doi": "10.1016/j.measurement.2026.123220",
+        "title": "Adaptive bi-modality enhancer: reliability-aware dual-modal fusion with spatial alignment for autonomous driving perception",
+        "published": "2026-09-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123220",
+        "authors": [
+          "Haoran Wang",
+          "Caihong Mu",
+          "Yi Liu",
+          "Aamir Naveed Abbasi"
+        ],
+        "institutions": [
+          "Xidian University"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7213399821",
+        "doi": "10.1016/j.measurement.2026.123158",
+        "title": "Real-time particle size distribution estimation in open-boundary granular flows via physics-constrained maximum a posteriori",
+        "published": "2026-09-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123158",
+        "authors": [
+          "Junhang Sun",
+          "Yalin Wang",
+          "Cao Song",
+          "Chenliang Liu",
+          "Yuqing Pan",
+          "Junqi Yuan",
+          "Zhiyan Li"
+        ],
+        "institutions": [],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      }
+    ],
+    "Engineering Structures": [
+      {
+        "id": "https://openalex.org/W7213508171",
+        "doi": "10.1016/j.engstruct.2026.123772",
+        "title": "Robustness-based progressive collapse and fragility of transmission tower-line systems under ice shedding",
+        "published": "2026-09-18",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.123772",
+        "authors": [
+          "Zhi-Xuan Tan",
+          "Xing Fu",
+          "Hong-Nan Li"
+        ],
+        "institutions": [],
+        "journal": "Engineering Structures",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7213527525",
+        "doi": "10.1016/j.engstruct.2026.123767",
+        "title": "4D printed shape memory alloy metamaterial with tunable energy absorption and vibration isolation",
+        "published": "2026-09-18",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.123767",
+        "authors": [
+          "Xin-chun Zhang",
+          "Gang-kai Liu",
+          "Ran Tao",
+          "Hao Gao",
+          "Yu-hao Chu",
+          "Weiduan Li",
+          "Sheng Zhou",
+          "Junrui Luo",
+          "Kai Wang"
+        ],
+        "institutions": [],
+        "journal": "Engineering Structures",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7213459510",
+        "doi": "10.1016/j.engstruct.2026.123768",
+        "title": "Numerical parametric investigation on the compression and shear-compression response of masonry panels strengthened by CRM",
+        "published": "2026-09-17",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.123768",
+        "authors": [
+          "Carlo Vienni",
+          "Luca Salvatori",
+          "Maurizio Orlando"
+        ],
+        "institutions": [
+          "University of Florence"
+        ],
+        "journal": "Engineering Structures",
+        "abstract": "In recent years, strengthening techniques based on externally bonded composite materials have been increasingly adopted to improve the structural performance of masonry structures. Among these, Composite Reinforced Mortar (CRM) systems have proven effective for both compression and shear-compression retrofitting. Despite their growing use in engineering practice, research on CRM-strengthened masonry remains limited, particularly about in-plane flexural capacity, drift performance, and the contribution of CRM layers to out-of-plane stability. Moreover, comprehensive analytical models capable of explicitly quantifying the mechanical contribution of CRM reinforcement are still lacking, with current design guidelines mainly relying on simplified amplification factors applied to masonry mechanical properties. This study presents the development of a finite-element model capable of reproducing both the shear-compression response and the out-of-plane buckling behavior of masonry walls under compression strengthened with CRM systems. A parametric numerical investigation is carried out to analyze the in-plane shear response and out-of-plane buckling behavior of CRM-retrofitted panels. The numerical models are calibrated using experimental results from previous tests conducted by the authors and validated against additional data available in the literature. The results identify the key parameters governing the CRM–masonry interaction and enable the proposal of an analytical approach for estimating the effective mechanical properties of retrofitted masonry panels.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      }
+    ],
+    "Ultrasonics": [
+      {
+        "id": "https://openalex.org/W7213456088",
+        "doi": "10.1016/j.ultras.2026.108313",
+        "title": "Miniaturized piezoelectric tube actuated catheter (μPTAC) enabling distal actuation for intravascular optical coherence tomography",
+        "published": "2026-09-01",
+        "url": "https://doi.org/10.1016/j.ultras.2026.108313",
+        "authors": [
+          "Hang Yu",
+          "Boquan Wang",
+          "Xiaoxiao Liu",
+          "Bo Wang",
+          "Jianbin Zhou",
+          "Zhe Zhang",
+          "Dawei Wu",
+          "Kuiyuan Tao"
+        ],
+        "institutions": [
+          "Nanjing University of Aeronautics and Astronautics",
+          "Guangzhou Panyu Polytechnic",
+          "Applied Photonics (United Kingdom)"
+        ],
+        "journal": "Ultrasonics",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      }
+    ],
+    "Tunnelling and Underground Space Technology": [
+      {
+        "id": "https://openalex.org/W7213446486",
+        "doi": "10.1016/j.tust.2026.108123",
+        "title": "Tunnel face extraction method for drill-and-blast tunnels considering occlusion and blur degradation",
+        "published": "2026-09-17",
+        "url": "https://doi.org/10.1016/j.tust.2026.108123",
+        "authors": [
+          "Renjie Song",
+          "Yimin Wu",
+          "Changming Wan",
+          "Helin Fu",
+          "Jingqiu Wu",
+          "Wang Jiqing",
+          "Jinhui Jing"
+        ],
+        "institutions": [
+          "Central South University",
+          "Hong Kong Polytechnic University",
+          "Jiangxi Transportation Research Institute",
+          "China Communications Construction Company (China)"
+        ],
+        "journal": "Tunnelling and Underground Space Technology",
+        "abstract": "Reliable extraction of tunnel-face regions is essential for image-based rock-mass interpretation and intelligent construction control in drill-and-blast tunnels. However, field images are often degraded by machinery and worker occlusions, invalid backgrounds, uneven illumination, dust, and blur, which reduce usable rock-surface information and weaken subsequent visual analysis. This study proposes a tunnel-face extraction framework considering occlusion and blur degradation. A multi-class segmentation dataset was constructed to distinguish tunnel-face, occlusion, and invalid regions, and a theoretical tunnel-face mask was introduced to quantify internal occlusion. Blur degradation and internal occlusion were quantified using a relative blur score and an occlusion ratio, respectively. Under a unified training and evaluation protocol, U-Net, DeepLabV3+, FPN, and SegFormer were compared, with a composite loss function designed to preserve tunnel-face regions and suppress occlusion misclassification. The results show that FPN with a ConvNeXtV2-Tiny backbone achieved the best performance, with Dice coefficient, intersection over union, precision, recall, mean intersection over union, and pixel accuracy values of 0.974, 0.949, 0.970, 0.978, 0.877, and 0.951, respectively. Degradation analysis indicates a stronger performance response to occlusion than to blur, with additional deterioration observed when high blur and occlusion co-occur. Field application in the Yangmeishan Tunnel verifies the practical applicability of the proposed framework for extracting usable tunnel-face regions under complex construction conditions.",
+        "citation_count": 0,
+        "method": "Analytical / Theoretical"
+      },
+      {
+        "id": "https://openalex.org/W7213450840",
+        "doi": "10.1016/j.tust.2026.108114",
+        "title": "Tunnel collapses and adaptive support at rock-soil interfaces under low-to-medium overburden in tectonically disturbed rock masses",
+        "published": "2026-09-17",
+        "url": "https://doi.org/10.1016/j.tust.2026.108114",
+        "authors": [
+          "Supawit Prarom",
+          "Pornkasem Jongpradist",
+          "Thanet Thongdetsri",
+          "Daniel Dias",
+          "Noppadol Phien-wej",
+          "Sirisin Janrungautai",
+          "Damrong Amorndechaphon",
+          "Anat Hasap",
+          "Phruektinai Lueatnakrop"
+        ],
+        "institutions": [
+          "Bangkok Hospital",
+          "University of Phayao",
+          "King Mongkut's University of Technology Thonburi",
+          "Institut polytechnique de Grenoble",
+          "Centre National de la Recherche Scientifique",
+          "Shenzhen University",
+          "Université Grenoble Alpes",
+          "Asian Institute of Technology"
+        ],
+        "journal": "Tunnelling and Underground Space Technology",
+        "abstract": "Tunnel stability in tectonically disturbed rock masses remains particularly challenging near rock–soil interfaces, where abrupt stiffness contrasts and heterogeneous geological structures can trigger collapse mechanisms that conventional rock mass classification systems do not adequately capture. This study identifies and quantifies a geometry-controlled instability mechanism governing tunnels excavated near rock–soil interfaces under low-to-medium overburden conditions. The analysis combines 26 roof-collapse incidents recorded in three railway tunnels and one adit in Northern Thailand with geological mapping, RMR–GSI characterization, construction records, convergence monitoring, and two-dimensional finite element analyses. Results from the Phayao Tunnel demonstrate that the occurrence of collapse is governed not only by rock mass quality but also by the effective thickness of competent material available above the excavation. A normalized interface-depth parameter V/H is introduced to quantify this confinement condition. Field observations and numerical simulations show that when V/H decreases below approximately 2.5, the compressive arch above the tunnel crown becomes progressively truncated, leading to reduced confinement, increased deformation, and increased collapse susceptibility. A collapse-risk framework integrating rock mass quality, effective confinement, and interface geometry is proposed. Although additional validation is required in other geological environments, the proposed approach provides a mechanics-based framework for identifying interface-controlled instability and supporting adaptive excavation and reinforcement strategies.",
+        "citation_count": 0,
+        "method": "Numerical Simulation"
+      }
+    ],
+    "Rock Mechanics and Rock Engineering": [
+      {
+        "id": "https://openalex.org/W7213449572",
+        "doi": "10.1007/s00603-026-05855-8",
+        "title": "Laboratory Injection-Induced Slip on Critically Stressed Granite Faults: Roles of Injection Rate and Temperature",
+        "published": "2026-09-17",
+        "url": "https://doi.org/10.1007/s00603-026-05855-8",
+        "authors": [
+          "Dongdong Ma",
+          "Liyuan Yu",
+          "Hai Pu",
+          "Yu Wu",
+          "Zhiqiang Yin",
+          "Chuanming Li",
+          "Kai Zhang",
+          "Ming Li",
+          "Tao Zhang"
+        ],
+        "institutions": [
+          "China University of Mining and Technology",
+          "Anhui University of Science and Technology"
+        ],
+        "journal": "Rock Mechanics and Rock Engineering",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7213494617",
+        "doi": "10.1007/s00603-026-05961-7",
+        "title": "Experimental Investigation on the Role of Stress Difference in Rapid Unloading Response and Delayed Strainburst Failure Under True Triaxial Conditions",
+        "published": "2026-09-17",
+        "url": "https://doi.org/10.1007/s00603-026-05961-7",
+        "authors": [
+          "Jieyu Li",
+          "Chunlai Wang",
+          "Dongqiao Liu",
+          "Manchao He",
+          "Chaoyang Zhu",
+          "Yunpeng Guo",
+          "Liang Sun"
+        ],
+        "institutions": [],
+        "journal": "Rock Mechanics and Rock Engineering",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7213495432",
+        "doi": "10.1007/s00603-026-05955-5",
+        "title": "Investigation of Fracture Evolution Mechanisms and Fragmentation Under Different Angles Between Slots in Cylindrically Shaped Charge Blasting Tubes",
+        "published": "2026-09-17",
+        "url": "https://doi.org/10.1007/s00603-026-05955-5",
+        "authors": [
+          "Zhangchao Li",
+          "Shuai Xu",
+          "Fidelis T. Suorineni",
+          "Ruiqiang Wang",
+          "Runran Li",
+          "Guojun Zhu",
+          "Hang Zhang"
+        ],
+        "institutions": [],
+        "journal": "Rock Mechanics and Rock Engineering",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7213499581",
+        "doi": "10.1007/s00603-026-05903-3",
+        "title": "Damage Characteristics and Fracture Mechanism of Rock Under High-Energy Electric Detonation in Underwater Conditions",
+        "published": "2026-09-17",
+        "url": "https://doi.org/10.1007/s00603-026-05903-3",
+        "authors": [
+          "Zijian Li",
+          "Baisheng Nie",
+          "Xirong He",
+          "Zhehao Zhang",
+          "Song Bao",
+          "Xianfeng Liu",
+          "Peng Liu",
+          "Zexiang Sun",
+          "Zhongbei Li",
+          "Dongping Zhou"
+        ],
+        "institutions": [],
+        "journal": "Rock Mechanics and Rock Engineering",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7213500740",
+        "doi": "10.1007/s00603-026-05947-5",
+        "title": "Three-Dimensional Evaluation for Tunnel Blasting Muck Piles Using UAV Photogrammetry: Morphology, Fragmentation, and Spatial Distribution",
+        "published": "2026-09-17",
+        "url": "https://doi.org/10.1007/s00603-026-05947-5",
+        "authors": [
+          "Yanyong Zhang",
+          "Xuemin Zhang",
+          "Xianshun Zhou",
+          "Yuzhou HAN",
+          "Yuyang You",
+          "Jinyang Fu",
+          "Yang Yu"
+        ],
+        "institutions": [],
+        "journal": "Rock Mechanics and Rock Engineering",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7213500888",
+        "doi": "10.1007/s00603-026-05949-3",
+        "title": "Physics-Consistent Monotonic Machine Learning for RMR Prediction from Q-System Parameters Under Duplicate-Aware Validation",
+        "published": "2026-09-17",
+        "url": "https://doi.org/10.1007/s00603-026-05949-3",
+        "authors": [
+          "Yulin Zhang",
+          "Chi Li",
+          "Jiehao Gu",
+          "Manoj Khandelwal",
+          "T. Zvarivadza",
+          "Abiodun Ismail Lawal",
+          "Moshood Onifade",
+          "H. B. Motra",
+          "Haihui Xin",
+          "Jian Zhou"
+        ],
+        "institutions": [],
+        "journal": "Rock Mechanics and Rock Engineering",
+        "abstract": "Abstract The Q-system and rock mass rating (RMR) are widely used for rock mass classification in tunnels and underground excavations. Reliable prediction of RMR from Q-system parameters can support cross-checking between different classification systems. However, empirical Q–RMR correlations may not fully describe nonlinear effects among individual Q-system parameters. Meanwhile, flexible machine learning models may produce optimistic accuracy and engineering-inconsistent responses when repeated-input states are shared between training and testing data. To address these issues, this study develops a physics-consistent and duplicate-aware machine learning framework for continuous RMR prediction from six Q-system parameters, namely RQD, Jn, Jr, Ja, Jw, and SRF. The framework integrates monotonic gradient boosting, duplicate-aware grouped validation, boundary-sensitive diagnosis around the Poor–Fair transition threshold, and interpretable analysis using SHAP and accumulated local effects. A published field-derived dataset with 356 observations was used for model development. The response distribution was strongly imbalanced: 345 observations (96.9%) were within the Fair range, whereas only 11 observations (3.1%) had RMR ≤ 40. The observed RMR range was 36.00–59.43, and no Very Poor, Good, or Very Good rock mass conditions were represented. The data audit showed a strong repeated-input structure, with only 184 unique six-parameter combinations. Under conventional random splitting, boosting models showed high apparent accuracy, but their performance decreased under duplicate-aware grouped validation. This indicates that repeated Q-system states can lead to optimistic performance estimates if they are not considered during validation. Under duplicate-aware validation, CatBoost achieved the best overall numerical accuracy, while Monotonic XGBoost provided a better balance between prediction performance and engineering consistency. The selected monotonic model eliminated all observed monotonic violations and reduced the boundary-crossing error rate from 53.85% to 38.46% compared with the best unconstrained model. External validation on an independent high-geostress tunnel dataset further showed acceptable transferability, with an R 2 of 0.8650. SHAP and ALE analyses identified Ja and SRF as the dominant contributors and confirmed that the learned response directions were consistent with rock engineering knowledge. The results demonstrate that validation reliability and engineering consistency are as important as predictive accuracy in machine learning-based rock mass classification. The proposed framework provides a transparent and physically meaningful tool for supporting RMR estimation from Q-system data, especially within the investigated Fair-dominated range and near the Poor–Fair transition boundary. Accordingly, the proposed model should not be interpreted as an all-class RMR predictor. Its validated scope is limited mainly to continuous RMR estimation within the investigated Fair-dominated range and exploratory diagnosis near the Poor–Fair transition.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      },
+      {
+        "id": "https://openalex.org/W7213500985",
+        "doi": "10.1007/s00603-026-05957-3",
+        "title": "Acoustic Emission and 3D Fracture Morphology Evolution of Granite with Non-Parallel Prefabricated Fissures Under Uniaxial Cyclic Compression",
+        "published": "2026-09-17",
+        "url": "https://doi.org/10.1007/s00603-026-05957-3",
+        "authors": [
+          "You Zhou",
+          "Chuan He",
+          "Guowen Xu",
+          "Xiaomin Wang",
+          "Mingming Sun"
+        ],
+        "institutions": [],
+        "journal": "Rock Mechanics and Rock Engineering",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7213502957",
+        "doi": "10.1007/s00603-026-05972-4",
+        "title": "Peridynamic Modeling of Rock Cutting Using 3D-Scanned Geometries of Worn Disc Cutters",
+        "published": "2026-09-17",
+        "url": "https://doi.org/10.1007/s00603-026-05972-4",
+        "authors": [
+          "Di Yan",
+          "Linchong Huang",
+          "Wei Sun",
+          "Zhicheng Liu",
+          "Hui Wang",
+          "Chao Zhang",
+          "Guodong Wu"
+        ],
+        "institutions": [],
+        "journal": "Rock Mechanics and Rock Engineering",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Numerical Simulation"
+      },
+      {
+        "id": "https://openalex.org/W7213505961",
+        "doi": "10.1007/s00603-026-05932-y",
+        "title": "A Micromechanics-Driven Model for Normal Deformation of Rough Rock Joints",
+        "published": "2026-09-17",
+        "url": "https://doi.org/10.1007/s00603-026-05932-y",
+        "authors": [
+          "Yingchun Li",
+          "Yue Cui",
+          "Xiyuan Zhang",
+          "Liangchao Zou"
+        ],
+        "institutions": [],
+        "journal": "Rock Mechanics and Rock Engineering",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7213507401",
+        "doi": "10.1007/s00603-026-05924-y",
+        "title": "A Two-Stage Arrival-Time Picking Framework for Acoustic Emission Signals in Rock Failure and Validation for Source Spatial Localization",
+        "published": "2026-09-17",
+        "url": "https://doi.org/10.1007/s00603-026-05924-y",
+        "authors": [
+          "Xiang Yu",
+          "Jianping Zuo",
+          "Bo Lei"
+        ],
+        "institutions": [],
+        "journal": "Rock Mechanics and Rock Engineering",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      }
+    ]
+  }
+}
