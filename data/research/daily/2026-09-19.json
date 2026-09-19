@@ -1,0 +1,635 @@
+{
+  "date": "2026-09-19",
+  "journals": {
+    "Automation in Construction": [
+      {
+        "id": "https://openalex.org/W7213535259",
+        "doi": "10.1016/j.autcon.2026.107262",
+        "title": "Vision-encoder-integrated lifting tracker for cost-effective crane operations in modular construction",
+        "published": "2026-09-18",
+        "url": "https://doi.org/10.1016/j.autcon.2026.107262",
+        "authors": [
+          "Aimin Zhu",
+          "Zhiqian Zhang",
+          "Qiqi Zhang",
+          "Jiayi Xu",
+          "Kai Wang",
+          "Wei Pan"
+        ],
+        "institutions": [
+          "University of Hong Kong"
+        ],
+        "journal": "Automation in Construction",
+        "abstract": "Cost-effective tracking of modules during lifting remains challenging in modular construction (MC), where existing solutions rely on densely deployed, costly sensors such as Light Detection and Ranging (LiDAR). This paper presents a vision-encoder-integrated lifting tracker (VE-LIFT) that reuses two low-cost on-site assets: a monocular camera and the crane's factory-installed encoders. The camera estimates a cylindrical bounding volume (CBV) enveloping the module through a three-stage pipeline: a You Only Look Once (YOLO)v8-Pose model detects the module, lifting frame, and keypoints; Segment Anything Model (SAM) 3 refines keypoints via box and text prompts; and a hierarchical Perspective-n-Point solver derives the CBV dimensions. Encoders update the CBV position via Modbus-over-Ethernet. On a real-life MC project, VE-LIFT achieved 98.65%/98.93% mAP@0.5:0.95 for box/pose, over 22% RMSE reduction by SAM 3, and sub-0.5 m tracking during module lifting, suggesting LiDAR-comparable accuracy at lower cost. VE-LIFT delivers AI-based high-accuracy and cost-effective lifting tracking without additional dedicated sensors.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7213542977",
+        "doi": "10.1016/j.autcon.2026.107248",
+        "title": "Exploiting structural repetition for synthetic training data generation in LiDAR point cloud segmentation",
+        "published": "2026-09-18",
+        "url": "https://doi.org/10.1016/j.autcon.2026.107248",
+        "authors": [
+          "Michael Brunklaus",
+          "Alexander Reiterer"
+        ],
+        "institutions": [
+          "University of Freiburg",
+          "Fraunhofer Institute for Physical Measurement Techniques"
+        ],
+        "journal": "Automation in Construction",
+        "abstract": "Maintaining aging tunnel infrastructure requires inspection supported by digital tools such as Building Information Models (BIMs). Scan-to-BIM methods based on deep learning automate BIM creation from Light Detection and Ranging (LiDAR) point clouds. However, supervised training requires large datasets that are costly to acquire. This paper presents an automatic synthetic data generation pipeline for subway tunnels. Tunnel segment meshes are assembled along stochastic 3D splines to generate 66.1 km of tunnel meshes, scanned by a LiDAR simulator to yield annotated point clouds. Data realism is assessed, and training strategies are benchmarked using three deep learning architectures evaluated on real-world tunnel scans. In certain cases, synthetic-only training outperforms training on small real datasets. Mixing synthetic and real data outperforms synthetic-only training, achieving 86.2% mIoU on real scans. The results demonstrate that synthetic data generation can reduce dataset creation costs, addressing a key barrier to the adoption of deep learning in construction. • A pipeline generates 66.1 km of annotated synthetic subway tunnel point clouds. • Synthetic data realism is assessed via segmentation with three deep learning architectures. • Synthetic-only training yields meaningful segmentation results despite domain gap. • Mixing in a small amount of real data achieves up to 86.2% mIoU on real scans. • Models generalize to unseen tunnel geometries.",
+        "citation_count": 0,
+        "method": "Machine Learning"
+      }
+    ],
+    "Mechanical Systems and Signal Processing": [
+      {
+        "id": "https://openalex.org/W7213533295",
+        "doi": "10.1016/j.ymssp.2026.114971",
+        "title": "Real-time spectral signal processing for robust thickness monitoring during wafer thinning",
+        "published": "2026-09-18",
+        "url": "https://doi.org/10.1016/j.ymssp.2026.114971",
+        "authors": [
+          "Zizheng Wang",
+          "Sun Xinlei",
+          "Hao Liu",
+          "Zhaoran Liu",
+          "TongTao Li",
+          "Haotian Dong",
+          "Chengyuan Yao",
+          "Chunguang Hu"
+        ],
+        "institutions": [
+          "Tianjin University"
+        ],
+        "journal": "Mechanical Systems and Signal Processing",
+        "abstract": "Wafer thinning, as a key step in 3D integration using through-silicon via (TSV), highly relies on precise in-situ thickness monitoring to control accurate endpoint and avoid overgrinding or undergrinding. For ultra-thin wafers, conventional contact-based techniques become increasingly limited due to insufficient accuracy and surface damage. Spectral interferometry has been employed for in-situ thickness measurement. However, its application during wafer grinding is challenged by mechanical vibration, cooling flow, silicon debris, and variations in surface conditions, which may lead to incorrect endpoint detection, increasing the risk of wafer scrap. In this study, a compact water-guided optical probe is developed to maintain a stable optical path and reduce contamination from slurry and debris. Meanwhile, a Fourier transform thickness extraction algorithm is combined with a Z-score quality-factor criterion and a dynamic thickness tracking strategy to identify invalid measurements and suppress outliers during continuous thinning. This approach minimizes misjudgments while maintaining a high valid data rate during real-time acquisition. The proposed method was validated over a wide thickness range and achieved accurate endpoint control down to 3 μm. Static comparison with the F50 showed absolute deviations below 0.5 μm within the designed range of 3–400 μm, while valid data rates remained above 80 % across all thinning tasks. Reliable monitoring was further verified for ultra-thin wafers below 10 μm, demonstrating the robustness of the proposed method under practical grinding conditions.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7213534396",
+        "doi": "10.1016/j.ymssp.2026.114991",
+        "title": "Progressive Cross-Model distillation with heterogeneous synergistic classifier for Few-Shot bearing fault diagnosis",
+        "published": "2026-09-18",
+        "url": "https://doi.org/10.1016/j.ymssp.2026.114991",
+        "authors": [
+          "Teng Wang",
+          "Yang Wang",
+          "Yangjian Ji",
+          "Xiaojian Liu",
+          "Wei Zeng",
+          "Shuyou Zhang"
+        ],
+        "institutions": [
+          "CNC Technology (Czechia)",
+          "Zhejiang University"
+        ],
+        "journal": "Mechanical Systems and Signal Processing",
+        "abstract": "In industrial scenarios, current signals are easier to collect than vibration signals, with more flexible sensor deployment. To address the challenges of source-free constraints, weak fault features, and limited fault samples in current signals for bearing fault diagnosis, and to achieve flexible fault diagnosis under complex working conditions, this paper proposes a progressive cross-model distillation method with heterogeneous synergistic classifier (PCMD-HSC) for few-shot bearing fault diagnosis. In this approach, a vibration-trained source model serves as a knowledge provider, guiding the target model to progressively align the response patterns of current features. Different from the knowledge transfer of conventional distillation methods, this approach transfers the inductive biases of the vibration modality to the target model in the form of response patterns, realizing cross-model response patterns learning and significantly enhancing the diagnostic performance of the target model on the current modality. The proposed heterogeneous synergistic classifier integrates the advantages of prior knowledge and metric learning, and performs synergistic decision-making via an inverse-uncertainty balancing fusion mechanism. It effectively addresses the problem of performance degradation of single classifier under few-shot conditions and improves the generalization ability and noise robustness of the model. Extensive experiments conducted on two bearing datasets covering multimodal data fully demonstrate that the proposed method achieves superior diagnostic accuracy and generalization in cross-condition scenarios.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7213540445",
+        "doi": "10.1016/j.ymssp.2026.114962",
+        "title": "Online algebraic identification–based trial-weight-free modal balancing of asymmetric rotor–bearing systems",
+        "published": "2026-09-18",
+        "url": "https://doi.org/10.1016/j.ymssp.2026.114962",
+        "authors": [
+          "Luis Alberto Baltazar-Tadeo",
+          "J. Colí­n",
+          "Arturo Abúndez‐Pliego",
+          "Saulo Jesús Landa-Damas",
+          "Martin Rodríguez-Vázquez",
+          "Julio Vergara-Vázquez",
+          "Jorge Yusef Colín-Castillo"
+        ],
+        "institutions": [
+          "Instituto Politécnico Nacional",
+          "Centro Nacional de Investigación y Desarrollo Tecnológico",
+          "Tecnológico Nacional de México"
+        ],
+        "journal": "Mechanical Systems and Signal Processing",
+        "abstract": "Asymmetric rotor–bearing systems exhibit parametric excitation and complex vibration behavior due to unequal stiffness along their principal axes, which significantly complicates conventional balancing procedures. Most existing methodologies require trial weights and multiple rotor runs to achieve acceptable vibration levels. A modal balancing method for asymmetric rotors that eliminates the need for test masses is proposed and experimentally validated in this work. The approach is based on an online algebraic identification model that estimates modal unbalance directly from vibration measurements acquired at a single point and at constant rotational speed. A Finite Element model of a multiple-degree-of-freedom asymmetric rotor–bearing system was developed and transformed into a pseudo-modal representation to allow mode-by-mode unbalance identification. The proposed algebraic identifier operates independently of initial conditions and requires only a short time window of the fundamental (1×) vibration component as input. The identified modal unbalance is then used to compute a modal mass arrangement using classical modal balancing principles. The methodology was validated using an experimental test rig comprising an asymmetric shaft with three inertial disks and two supports. Modal unbalance was accurately identified near the first and second critical speeds with errors below 10%, using only 5 s of vibration data. A single balancing run achieved vibration amplitude reductions exceeding 80% in the first mode and between 50% and 80% in the second mode across the operating range of 0–6000 rpm. For comparison, a classical influence-coefficient-based balancing procedure combined with modal balancing required seven experimental runs, including trial-weight runs, to balance the two modes and produced comparable vibration-reduction levels, although with greater variability among measurement locations. These results demonstrate that the proposed method can achieve comparable balancing performance with substantially lower experimental effort, while eliminating trial weights and reducing the number of rotor runs required.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      },
+      {
+        "id": "https://openalex.org/W7213557149",
+        "doi": "10.1016/j.ymssp.2026.114954",
+        "title": "A self-powered and self-sensing multi-joint wearable energy harvester with lightweight edge-deployable CNN for real-time lower-limb kinematics and motion mode recognition",
+        "published": "2026-09-18",
+        "url": "https://doi.org/10.1016/j.ymssp.2026.114954",
+        "authors": [
+          "Weiqi Lin",
+          "Moyue Cong",
+          "Wei Dong",
+          "Wenda Wang",
+          "Yongzhuo Gao",
+          "Dongmei Wu",
+          "Hui Dong"
+        ],
+        "institutions": [
+          "Harbin Institute of Technology"
+        ],
+        "journal": "Mechanical Systems and Signal Processing",
+        "abstract": "With the global aging population, continuous monitoring of daily activities is increasingly important for rehabilitation and health assessment. However, conventional wearable devices are plagued by insufficient energy self-sufficiency, limiting their practical application in long-term activity monitoring. In this work, we propose a self-powered and self-sensing multi-joint wearable energy harvester capable of simultaneously harvesting negative mechanical work from both the hip and knee joints during human locomotion. The harvested biomechanical energy is converted into electrical power (0.39 W per device) to support embedded computing and wireless communication modules, enabling intermittent energy-autonomous operation. Meanwhile, the generated electrical signals are directly utilized for motion sensing without additional sensors. To achieve real-time motion analysis on resource-constrained embedded platforms, a lightweight convolutional neural network optimized via multi-objective optimization is developed for edge deployment. The proposed framework simultaneously estimates hip and knee angular velocities and recognizes seven motion modes. Experiments involving five participants demonstrated accurate lower-limb kinematics estimation with a mean absolute error of 0.05 ± 0.01, root mean square error of 0.09 ± 0.02, and correlation coefficient of 0.96 ± 0.01, while achieving a motion recognition accuracy of 98.7%. This work establishes a new paradigm integrating biomechanical energy harvesting, self-sensing, and embedded artificial intelligence for sustainable wearable rehabilitation and daily activity monitoring.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      }
+    ],
+    "Measurement": [
+      {
+        "id": "https://openalex.org/W7213404777",
+        "doi": "10.1016/j.measurement.2026.123111",
+        "title": "A hierarchical methodology for transducer-to-real reconstruction in wind tunnel testing",
+        "published": "2026-09-16",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123111",
+        "authors": [
+          "Carlos Carbajosa",
+          "Sergio Marín-Coca",
+          "Alejandro Martínez-Cava",
+          "Carolina Hernández-Badillo",
+          "Omar Gómez-Ortega"
+        ],
+        "institutions": [],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7213417511",
+        "doi": "10.1016/j.measurement.2026.123204",
+        "title": "Fault diagnosis of wafer dicing blades based on bidirectional cross-attention in time-frequency domain",
+        "published": "2026-09-16",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123204",
+        "authors": [
+          "Jun Shi",
+          "Chi Zhang",
+          "Jian Lan",
+          "Renzhi Zhang",
+          "Wanyong Liang",
+          "Weifeng Cao"
+        ],
+        "institutions": [],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7213420090",
+        "doi": "10.1016/j.measurement.2026.123218",
+        "title": "On-board adaptive defect detection for wind turbine blade via UAV",
+        "published": "2026-09-16",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123218",
+        "authors": [
+          "Yunze He",
+          "Kejian Xu",
+          "Baoyuan Deng",
+          "Xiaobing Li",
+          "Yuchen Wu",
+          "Ruizhen Yang",
+          "Zhaowen Chen",
+          "Hong Zhang",
+          "Sheng Fan",
+          "Yaonan Wang"
+        ],
+        "institutions": [
+          "Hunan University",
+          "Centre for Artificial Intelligence and Robotics",
+          "Fujian Normal University"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7213440315",
+        "doi": "10.1016/j.measurement.2026.123225",
+        "title": "Development of a pulsed eddy current-based monitoring system for tension force estimation in bridge cable anchorages",
+        "published": "2026-09-16",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123225",
+        "authors": [
+          "Jun Lee",
+          "Ohjun Kwon"
+        ],
+        "institutions": [
+          "Samsung (South Korea)",
+          "Korea Railroad Research Institute"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7213409943",
+        "doi": "10.1016/j.measurement.2026.123209",
+        "title": "A localization method for automatic spinning yarn piecing robots based on image-point cloud fusion",
+        "published": "2026-09-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123209",
+        "authors": [
+          "Zhipeng Zhu",
+          "Qi Chen",
+          "Lei Miao",
+          "Chunde Li",
+          "Zijing Zhang"
+        ],
+        "institutions": [
+          "Donghua University",
+          "Guizhou Electromechanical Research and Design Institute"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7213412461",
+        "doi": "10.1016/j.measurement.2026.123213",
+        "title": "Hand-eye calibration of unconstrained calibration target method based on point cloud registration",
+        "published": "2026-09-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123213",
+        "authors": [
+          "Limei Song",
+          "Zongyang Zhang",
+          "Haozhen Huang",
+          "Yihe Gao"
+        ],
+        "institutions": [],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7213417994",
+        "doi": "10.1016/j.measurement.2026.123098",
+        "title": "Multiple local maximum synchrosqueezing transform: A high-resolution time-frequency analysis method for accurate multicomponent signal measurement",
+        "published": "2026-09-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123098",
+        "authors": [
+          "Shuixin Li",
+          "Jiecheng Chen",
+          "Qingtang Jiang",
+          "Gang Yu"
+        ],
+        "institutions": [],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7213419413",
+        "doi": "10.1016/j.measurement.2026.123227",
+        "title": "Dark-field differential confocal microscopy for three-dimensional detection of subsurface defects",
+        "published": "2026-09-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123227",
+        "authors": [
+          "卓玉华",
+          "Mingxiang Chen",
+          "Chuanlong Wang",
+          "Chao Song",
+          "Wei Shi",
+          "Jingtao Dong"
+        ],
+        "institutions": [
+          "Hefei University of Technology",
+          "Jiangsu Institute of Metrology"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7213419546",
+        "doi": "10.1016/j.measurement.2026.123208",
+        "title": "Accurate detection of cyber attacks using optimized continual spatio temporal graph convolutional network in internet of medical things for security and patient data protection",
+        "published": "2026-09-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123208",
+        "authors": [
+          "G. Ravikumar",
+          "S. Giriprasad",
+          "S. Gokul"
+        ],
+        "institutions": [
+          "SRM Institute of Science and Technology",
+          "Orthopaedic Research Group",
+          "KPR Institute of Engineering and Technology"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7213423705",
+        "doi": "10.1016/j.measurement.2026.123216",
+        "title": "A fusion-based estimation method for road adhesion coefficients",
+        "published": "2026-09-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123216",
+        "authors": [
+          "Hong Liang",
+          "Zhihao Chen",
+          "Yinghu Shao"
+        ],
+        "institutions": [],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      }
+    ],
+    "Engineering Structures": [
+      {
+        "id": "https://openalex.org/W7213535706",
+        "doi": "10.1016/j.engstruct.2026.123801",
+        "title": "Hybrid error correction model to enhance long-term wind field forecasting performance of coastal bridges by the WRF model",
+        "published": "2026-09-18",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.123801",
+        "authors": [
+          "Chen Fang",
+          "Yunxiang Ren",
+          "Yi Yang",
+          "Yongle Li"
+        ],
+        "institutions": [
+          "Southwest Jiaotong University"
+        ],
+        "journal": "Engineering Structures",
+        "abstract": "Wind is a dominant load for coastal bridges, yet long-term wind field data are often lacking, making accurate design wind speed evaluation challenging. To efficiently and accurately predict long-term wind fields for bridges, a hybrid error correction model is proposed by integrating machine learning (ML) methods with the inverse distance weighting (IDW) method. First, an error model is established between the measured meteorological data and the parameter-optimized weather research and forecasting (WRF) data. Furthermore, the WRF-based data as model inputs with corresponding error data serving as target outputs are integrated through various ML algorithms. An error correction model for the selected bridge is developed by integrating the optimal ML approach with the IDW method. Finally, the validity of the proposed methodology is successfully verified using short-term field measurements. A 10-year bridge wind field is generated through the proposed hybrid error correction model. Results demonstrated that a set of common WRF physical parameterization schemes was recommended for long-term wind field simulation of coastal bridges. Compared with the raw WRF output, the novel hybrid model achieved improvements surpassing 30% in terms of root mean square error. Unlike general meteorological sites, coastal bridges far above the sea surface featured sharp vertical wind gradients. The proposed framework explicitly accounted for this by incorporating site-specific observations and WRF output into the ML–IDW correction layer.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      },
+      {
+        "id": "https://openalex.org/W7213548545",
+        "doi": "10.1016/j.engstruct.2026.123662",
+        "title": "Torsional behavior of laminated bamboo tubes: Experiments, numerical calibration, and surrogate modeling",
+        "published": "2026-09-18",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.123662",
+        "authors": [
+          "Hanlin Wei",
+          "Arnaldo Casalotti",
+          "Stefano Gabriele",
+          "Tommaso Albanesi",
+          "Yan Xiao",
+          "Cristoforo Demartino"
+        ],
+        "institutions": [
+          "Zhejiang A & F University",
+          "Zhejiang University of Technology",
+          "Zhejiang University",
+          "Roma Tre University"
+        ],
+        "journal": "Engineering Structures",
+        "abstract": "This study investigates the monotonic torsional response of laminated bamboo tubes and develops a surrogate model of their behavior. Fifteen specimens representing five geometric configurations were tested in pure torsion using epoxy end blocks designed to limit slip and premature end damage. Three-dimensional digital image correlation (3D-DIC) was used to determine specimen rotation and nominal outer-surface shear strain with reduced sensitivity to machine compliance. The specimens exhibited an initially approximately linear response followed by nonlinear hardening up to peak torque and brittle longitudinal splitting. Across the 15 tests, the mean ultimate shear stress, ultimate shear strain, and elastic shear modulus G 12 were 15.41 MPa, 2.33%, and 1116 MPa, respectively. A shell finite-element model implemented in OpenSees, combining an equivalent isotropic J 2 model with a predefined longitudinal interface, was calibrated against the measured torque–rotation curves. The calibrated model was then used to simulate 1000 geometries sampled within a constrained design space. These responses were represented by a surrogate model defined up to the failure rotation, with closed-form expressions derived for the torsional stiffness, yield torque, hardening parameters, and failure rotation. The resulting surrogate model provides a compact representation of the finite-element-generated monotonic response and supports rapid parametric studies, beam-type finite-element analyses, and comparative design-space exploration.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      },
+      {
+        "id": "https://openalex.org/W7213553166",
+        "doi": "10.1016/j.engstruct.2026.123758",
+        "title": "An alternate method for the combined bending and torsion design of purlins restrained by screw-down systems",
+        "published": "2026-09-18",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.123758",
+        "authors": [
+          "S. Ravikanth Reddy",
+          "S. Arul Jayachandran"
+        ],
+        "institutions": [
+          "Indian Institute of Technology Madras"
+        ],
+        "journal": "Engineering Structures",
+        "abstract": "Cold-formed steel channel and Z-section purlins are widely used as secondary framing members in pre-engineered steel buildings. Under gravity and wind uplift conditions, the load transfer at screw-down locations induces a combination of bending and torsion in the purlins. Due to the inherently low lateral and torsional stiffness of thin-walled sections, accurate prediction of their deformation and strength becomes challenging. However, under gravity loading, the restrained flanges are subjected to compression, where instability is relatively less critical. In case of uplift loading, the unrestrained flanges are subjected to compression, making them more susceptible to instability. EN 1993-1-3 (2006) simplify the torsion effect through equivalent lateral flexure ‘( k h )’ and AISI S100 (2024) provided combined bending-torsion interaction and empirical R-factor approaches. However, these methods do not explicitly incorporate torsional effects in the design equations, often leading to overly conservative estimates of flexural capacity. To address this limitation, the present study proposes a direct bending–torsion interaction equation for purlins based on the concept of bimoment. The bimoment, primarily induced under wind uplift, is explicitly incorporated into the proposed formulation. The study first presents an analytical investigation of bimoment distribution and associated warping stresses, including the influence of sheeting without reducing the structural stability. Subsequently, an analytical model is developed to evaluate stress reduction factors. Based on these developments, a rational and efficient design methodology is proposed. The predicted flexural capacity is validated against the provisions of EN 1993-1-3 (2006) and further verified using an experimental database available in the literature. The results demonstrate that the proposed bimoment-based approach provides more accurate predictions of purlin strength.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      }
+    ],
+    "Ultrasonics": [
+      {
+        "id": "https://openalex.org/W7213577194",
+        "doi": "10.1016/j.ultras.2026.108316",
+        "title": "Development and characterization of a reproducible, low-cost in vitro ultrasound stimulation (LIVUS) method",
+        "published": "2026-09-01",
+        "url": "https://doi.org/10.1016/j.ultras.2026.108316",
+        "authors": [
+          "By Sergio A. Pineda-Castillo",
+          "Adam Tuma",
+          "Dilshan Rajan",
+          "Joellyn S. Speredelozzi",
+          "Dzifa Kwaku",
+          "Hubert H. Lim",
+          "Patrick W. Alford"
+        ],
+        "institutions": [],
+        "journal": "Ultrasonics",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      }
+    ],
+    "Tunnelling and Underground Space Technology": [
+      {
+        "id": "https://openalex.org/W7213547016",
+        "doi": "10.1016/j.tust.2026.108126",
+        "title": "Mix proportion optimization of shield muck-based synchronous grouting materials via multiple substitution and multi-criteria decision-making",
+        "published": "2026-09-18",
+        "url": "https://doi.org/10.1016/j.tust.2026.108126",
+        "authors": [
+          "Jian Zhang",
+          "Cheng Zhu",
+          "Tugen Feng",
+          "Peng Xia",
+          "Yazhao Hu"
+        ],
+        "institutions": [],
+        "journal": "Tunnelling and Underground Space Technology",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      }
+    ],
+    "Rock Mechanics and Rock Engineering": [
+      {
+        "id": "https://openalex.org/W7213510988",
+        "doi": "10.1007/s00603-026-05965-3",
+        "title": "Experimental and Numerical Investigation on the Mechanical Behavior of Extremely Soft Coal-Like Material",
+        "published": "2026-09-17",
+        "url": "https://doi.org/10.1007/s00603-026-05965-3",
+        "authors": [
+          "Renliang Shan",
+          "Haotian Wu",
+          "Peng Sun",
+          "Gangjie Huang",
+          "Haobo Bai",
+          "Yongzhen Li",
+          "Yao Bai",
+          "Tianyu Han"
+        ],
+        "institutions": [
+          "China University of Mining and Technology"
+        ],
+        "journal": "Rock Mechanics and Rock Engineering",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      },
+      {
+        "id": "https://openalex.org/W7213512544",
+        "doi": "10.1007/s00603-026-05967-1",
+        "title": "Active Control of Strain Rockburst via Blasting Pre-damage: Experimental Study on Energy Dissipation and Failure Mechanisms",
+        "published": "2026-09-17",
+        "url": "https://doi.org/10.1007/s00603-026-05967-1",
+        "authors": [
+          "Dongqiao Liu",
+          "Ziqian Zhang",
+          "Senyu Zhang",
+          "Mengyao Cui",
+          "Yunpeng Guo",
+          "Qingfeng Sun"
+        ],
+        "institutions": [
+          "China University of Mining and Technology",
+          "Zhangjiakou Academy of Agricultural Sciences"
+        ],
+        "journal": "Rock Mechanics and Rock Engineering",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7213514567",
+        "doi": "10.1007/s00603-026-05959-1",
+        "title": "Toward Practical Rock Mass Classification and Conversion: An Interpretable Data-Driven Framework for Mapping Q-System Parameters to RMR",
+        "published": "2026-09-17",
+        "url": "https://doi.org/10.1007/s00603-026-05959-1",
+        "authors": [
+          "Shuai Huang",
+          "Jian Zhou",
+          "Manoj Khandelwal",
+          "T. Zvarivadza",
+          "Mbalenhle Mpanza",
+          "Abiodun Ismail Lawal",
+          "Moshood Onifade",
+          "Xuan-Nam Bui"
+        ],
+        "institutions": [
+          "Central South University",
+          "Ton Duc Thang University",
+          "Federation University",
+          "Luleå University of Technology",
+          "University of Johannesburg",
+          "Federal University of Technology"
+        ],
+        "journal": "Rock Mechanics and Rock Engineering",
+        "abstract": "Abstract Rock mass classification is fundamental to underground engineering design, and accurate conversion between the Q-system and rock mass rating (RMR) is important where the two systems are used together. This study assembles a database of 448 paired Q-system–RMR records from field measurements in Zimbabwe and published tunnel case histories. Statistical reference models are first used to reassess classical conversion formulas. The recalibrated linear relation RMR = 6.70ln( Q ) + 46.31 outperforms the two most widely used traditional formulas, while the spline model reveals marked nonlinearity at low and high Q levels, indicating that a global linear relation is insufficient for reliable conversion. To improve predictive performance, multiple regression models are systematically compared, and the extreme gradient boosting model optimized by the opposition-based gravitational-search algorithm (OGSA–XGBoost) is selected, which achieves coefficients of determination ( R 2 ) of 0.9506 and 0.9382 on the validation and test sets, together with leading hit rates under several tolerance thresholds and residuals dominated by random scatter rather than systematic bias. Interpretation analysis indicates that rock quality designation (RQD) and joint roughness ( Jr ) contribute positively to predicted RMR, whereas joint alteration ( Ja ) and the stress reduction factor (SRF) exert negative effects. Under high stress or weak structure conditions, the adverse effects of Ja and SRF can partially offset the benefits of high RQD and favorable joint roughness. Overall, the results clarify the applicability of classical formulas under the present database and provide an interpretable framework for Q-system to RMR conversion under engineering conditions represented by this database.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      },
+      {
+        "id": "https://openalex.org/W7213522180",
+        "doi": "10.1007/s00603-026-05800-9",
+        "title": "Stress Wave Response and In Situ Wave Absorption Performance of Rubber‒Polypropylene Fiber Anchoring Mortar for Deep-Buried Tunnels",
+        "published": "2026-09-17",
+        "url": "https://doi.org/10.1007/s00603-026-05800-9",
+        "authors": [
+          "Xinglong Li",
+          "Xia-Ting Feng",
+          "Yang Cheng-xiang",
+          "Ben-Guo He",
+          "Xifan Li",
+          "Song Chen",
+          "Yong-Run Xiong"
+        ],
+        "institutions": [
+          "Northeastern University"
+        ],
+        "journal": "Rock Mechanics and Rock Engineering",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7213523066",
+        "doi": "10.1007/s00603-026-05869-2",
+        "title": "Quantitative Characterization of Hydraulic Parameters from Two-Dimensional Rough Fracture Geometry: Analytical Solution, Validation, and Application",
+        "published": "2026-09-17",
+        "url": "https://doi.org/10.1007/s00603-026-05869-2",
+        "authors": [
+          "Qiang Zhang",
+          "Tao Li",
+          "Zhongwei Chen",
+          "Guilei Han"
+        ],
+        "institutions": [
+          "China University of Mining and Technology",
+          "The University of Queensland",
+          "Shijiazhuang University"
+        ],
+        "journal": "Rock Mechanics and Rock Engineering",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Analytical / Theoretical"
+      },
+      {
+        "id": "https://openalex.org/W7213529885",
+        "doi": "10.1007/s00603-026-05918-w",
+        "title": "Sensitivity Analysis of Multi-hydraulic Fracture Propagation Behaviors in Longmaxi Formation Shale Under Deep In Situ Stress State",
+        "published": "2026-09-17",
+        "url": "https://doi.org/10.1007/s00603-026-05918-w",
+        "authors": [
+          "Mingyu Yao",
+          "Hai Yang",
+          "Yongyi Wang",
+          "Xinyi Qian",
+          "Zhou Wu",
+          "Chun’an Tang"
+        ],
+        "institutions": [
+          "Dalian University of Technology",
+          "China National Petroleum Corporation (China)"
+        ],
+        "journal": "Rock Mechanics and Rock Engineering",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7213531326",
+        "doi": "10.1007/s00603-026-05941-x",
+        "title": "Competitive Propagation Mechanism for Multiple Hydraulic Fractures in Layered Shale Formations",
+        "published": "2026-09-17",
+        "url": "https://doi.org/10.1007/s00603-026-05941-x",
+        "authors": [
+          "Liuke Huang",
+          "Xingchuan Liao",
+          "Egor Dontsov",
+          "Peng Tan",
+          "Haifeng Fu",
+          "Yuesong Bai",
+          "Can Wang"
+        ],
+        "institutions": [
+          "Southwest Petroleum University",
+          "State Key Laboratory of Oil and Gas Reservoir Geology and Exploitation",
+          "China National Petroleum Corporation (China)",
+          "Research Institute of Petroleum Exploration and Development",
+          "Taiyuan University of Technology",
+          "Zhejiang Water Conservancy and Hydropower Survey and Design Institute"
+        ],
+        "journal": "Rock Mechanics and Rock Engineering",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      }
+    ]
+  }
+}
