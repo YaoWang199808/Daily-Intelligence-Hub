@@ -1,0 +1,333 @@
+{
+  "date": "2026-09-21",
+  "journals": {
+    "Automation in Construction": [
+      {
+        "id": "https://openalex.org/W7213763970",
+        "doi": "10.1016/j.autcon.2026.107259",
+        "title": "Vision-based assembly target pose estimation and adaptation for robotic assembly in Modular Integrated Construction",
+        "published": "2026-09-20",
+        "url": "https://doi.org/10.1016/j.autcon.2026.107259",
+        "authors": [
+          "Yuanyang Qi",
+          "Jie Hong",
+          "Tingtian Li",
+          "Chen Qian",
+          "Xiao Li",
+          "Geoffrey Qiping Shen"
+        ],
+        "institutions": [
+          "Hong Kong Polytechnic University"
+        ],
+        "journal": "Automation in Construction",
+        "abstract": "Modular Integrated Construction (MiC) accelerates building processes, yet the positioning and alignment of MiC modules on-site remain hazardous and labor-intensive. This paper formulates the robotic perception task for automated MiC module assembly as the pose estimation of assembly targets, which are categorized as either convex or concave structures. A coarse-to-fine pose estimation (C2FPE) method is proposed, where targets are detected and segmented from RGB images for coarse localization, followed by fine-grained pose estimation using RGB-D data. To address the domain gap between laboratory and construction-site environments, a training-free, multi-modal pose adaptation (T2MPA) method is introduced, enabling a pre-trained detection model to be transferred to real-world construction scenarios without manual annotation. Experimental results show that C2FPE achieves Average Distance of model points (ADD) scores of 84.25% and 98.53% on convex and concave targets, respectively, outperforming state-of-the-art methods. T2MPA achieves AP@0.5 scores of 74.19% and 96.00% for convex and concave targets, exceeding existing domain adaptation methods.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      }
+    ],
+    "Mechanical Systems and Signal Processing": [
+      {
+        "id": "https://openalex.org/W7213745280",
+        "doi": "10.1016/j.ymssp.2026.114965",
+        "title": "Rolling-bearing lubrication state identification using order-domain cumulative spectral centroid curves and identity-preserving adaptive modulation",
+        "published": "2026-09-20",
+        "url": "https://doi.org/10.1016/j.ymssp.2026.114965",
+        "authors": [
+          "Yongjia Peng",
+          "Kun Feng",
+          "Yukun Qin",
+          "Deqian Shao",
+          "Jinji Gao"
+        ],
+        "institutions": [],
+        "journal": "Mechanical Systems and Signal Processing",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      }
+    ],
+    "Measurement": [
+      {
+        "id": "https://openalex.org/W7213659299",
+        "doi": "10.1016/j.measurement.2026.123251",
+        "title": "A proficiency testing framework for RF-EMF measurements of mobile communication base-station-like sources in uncontrolled environments",
+        "published": "2026-09-19",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123251",
+        "authors": [
+          "Chuanzi Deng",
+          "Huijing Xiang",
+          "Qiulin Wu",
+          "Tong Wu 武彤"
+        ],
+        "institutions": [
+          "National Institute of Metrology",
+          "Shenzhen Institute of Information Technology",
+          "Shenzhen Institute of Innovation Design (China)"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7164332195",
+        "doi": "10.1016/j.measurement.2026.123246",
+        "title": "Remote monitoring of in-situ corrosion of biodegradable magnesium alloy to prevent peri-implant gas accumulation (PIGA) and its premature failure",
+        "published": "2026-09-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123246",
+        "authors": [
+          "Vasily Bautin",
+          "Ruslan A. Rytov"
+        ],
+        "institutions": [
+          "National University of Science and Technology",
+          "Institute of Terrestrial Magnetism Ionosphere and Radio Wave Propagation"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7213537401",
+        "doi": "10.1016/j.measurement.2026.123186",
+        "title": "Breast carcinoma subtypes classification using bi-static microwave imaging and fractional fourier transform based signal analysis with EfficientNetV2-L classifier",
+        "published": "2026-09-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123186",
+        "authors": [
+          "Manisha Ghosh",
+          "Banani Basu",
+          "Arnab Nandi"
+        ],
+        "institutions": [
+          "National Institute Of Technology Silchar"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7213538352",
+        "doi": "10.1016/j.measurement.2026.123235",
+        "title": "Permanent magnetic tracking for fast medical navigation based on simplified magnetic dipole model",
+        "published": "2026-09-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123235",
+        "authors": [
+          "Yanding Qin",
+          "Mingyu Wang",
+          "Zhuocong Cai",
+          "Yuan Zhang",
+          "Ge Fang",
+          "Hongpeng Wang",
+          "Jianda Han"
+        ],
+        "institutions": [
+          "Nankai University",
+          "City University of Hong Kong, Shenzhen Research Institute"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7213542182",
+        "doi": "10.1016/j.measurement.2026.123238",
+        "title": "REKFNet: A robust extended Kalman filter network for localization and tracking of unmanned surface vessels",
+        "published": "2026-09-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123238",
+        "authors": [
+          "Lei Yan",
+          "Wei Zeng",
+          "熊磊丽",
+          "Zhixin Xia",
+          "Yi Liu",
+          "Weiwei Jiang"
+        ],
+        "institutions": [],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7213542262",
+        "doi": "10.1016/j.measurement.2026.123247",
+        "title": "CAFlow: A hybrid attention directed method for measuring SO2 emissions from ships",
+        "published": "2026-09-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123247",
+        "authors": [
+          "Weiwei He",
+          "Junbo Yang",
+          "Yikang Zhang",
+          "Rui Wang",
+          "Haochen Yuan",
+          "Wei Zhou",
+          "Jinhao Zheng",
+          "Siyu Lin",
+          "Kuijun Wu"
+        ],
+        "institutions": [
+          "Yantai University"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7213544792",
+        "doi": "10.1016/j.measurement.2026.123244",
+        "title": "Robust inertial navigation via deep learning-aided perception and uncertainty-driven fusion",
+        "published": "2026-09-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123244",
+        "authors": [
+          "Ziming Wang",
+          "Kaiqiang Feng",
+          "Jie Li",
+          "Tao Zheng",
+          "Shuangchao Ge",
+          "Junlong Li"
+        ],
+        "institutions": [],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      },
+      {
+        "id": "https://openalex.org/W7213545862",
+        "doi": "10.1016/j.measurement.2026.123233",
+        "title": "Matrix-derived interferences in Py-GC/MS screening of polymer signatures in common cell-biology reagents",
+        "published": "2026-09-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123233",
+        "authors": [
+          "Magdalena Podbielska",
+          "Paulina Stec",
+          "Maciej Wnuk"
+        ],
+        "institutions": [
+          "University of Rzeszów"
+        ],
+        "journal": "Measurement",
+        "abstract": "Microplastic contamination originating from laboratory consumables represents a potentially important source of analytical bias in biological research. In this study, we used pyrolysis gas chromatography-mass spectrometry (Py-GC/MS) to evaluate polymer-associated analytical signals generated during the analysis of commonly used molecular biology reagents exposed to polypropylene (PP) laboratory consumables. The occurrence and magnitude of these signals proved strongly matrix dependent. No target polymer-associated signals meeting the applied reporting criteria were observed in ethanol, methanol, DMSO, DPBS, formaldehyde buffer, or cell culture medium. In contrast, complex biological buffers generated substantial responses corresponding to commonly used Py-GC/MS markers for PVC, PC, and PP. Signals associated with PVC markers were particularly prominent and strongly dependent on the selected monitored ion. In RIPA buffer, apparent PVC-equivalent concentrations reached 45.8 ± 1.7 µg/mg ( m / z 91) and 250.3 ± 31.6 µg/mg ( m / z 128), while in PCR buffer the corresponding values were 1.6 ± 0.3 µg/mg and 177.1 ± 24.5 µg/mg. Lower apparent PC-equivalent responses were also observed, reaching up to 4.7 ± 1.9 µg/mg. Importantly, full-scan analysis showed that complex reagent matrices themselves can generate pyrolysis products contributing to ions and retention-time regions typically used for polymer determination. Thus, a single marker signal cannot by itself confirm polymeric origin, and direct quantitative interpretation may lead to false-positive assignments or substantial overestimation. This study highlights matrix-derived analytical interference as a critical limitation of Py-GC/MS analysis of complex biological reagents, underscoring the need for matrix-specific validation, sufficiently specific polymer fingerprints, and rigorous contamination control before quantitative polymer interpretation.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      },
+      {
+        "id": "https://openalex.org/W7213548480",
+        "doi": "10.1016/j.measurement.2026.123239",
+        "title": "A GNSS/INS integrated navigation system based on the BWO-BiGRU during GNSS outages",
+        "published": "2026-09-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123239",
+        "authors": [
+          "Wei Sun",
+          "Xinyu Qin",
+          "Wei Ding",
+          "Jingang Zhao"
+        ],
+        "institutions": [
+          "Liaoning Technical University"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7213550123",
+        "doi": "10.1016/j.measurement.2026.123249",
+        "title": "Ultrasonic-based computed tomography (USCT) of ancient timber structures considering the compensation of chord angle wave velocity using LTI-SIRT algorithm",
+        "published": "2026-09-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123249",
+        "authors": [
+          "Dongdong Chen",
+          "Xuewei Ling",
+          "Bingwen Yan",
+          "Ruochen Ye",
+          "Veeranna Yempally",
+          "Yasutaka Narazaki",
+          "Zeyi Liu",
+          "Hongbing Chen",
+          "Vittoria Borghese"
+        ],
+        "institutions": [],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      }
+    ],
+    "Engineering Structures": [
+      {
+        "id": "https://openalex.org/W7213753522",
+        "doi": "10.1016/j.engstruct.2026.123689",
+        "title": "Study on the vortex-induced Helmholtz resonance with a cylindrical roof opening via high-order dynamic mode decomposition",
+        "published": "2026-09-21",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.123689",
+        "authors": [
+          "Yuhang Ge",
+          "Ying Sun",
+          "Zhenggang Cao",
+          "Qiming Zhu"
+        ],
+        "institutions": [],
+        "journal": "Engineering Structures",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      }
+    ],
+    "Ultrasonics": [
+      {
+        "id": "https://openalex.org/W7213793332",
+        "doi": "10.1016/j.ultras.2026.108312",
+        "title": "Propagation of Stoneley wave along wavy interfaces between two half-spaces",
+        "published": "2026-09-01",
+        "url": "https://doi.org/10.1016/j.ultras.2026.108312",
+        "authors": [
+          "Zeyu Liu",
+          "Jing Qian",
+          "Bing Li"
+        ],
+        "institutions": [
+          "Xi'an Jiaotong University"
+        ],
+        "journal": "Ultrasonics",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      }
+    ],
+    "Tunnelling and Underground Space Technology": [
+      {
+        "id": "https://openalex.org/W7213778696",
+        "doi": "10.1016/j.tust.2026.108129",
+        "title": "Investigating tunnel seepage erosion and induced structural mechanical response using CFD-DEM-FEM method",
+        "published": "2026-09-20",
+        "url": "https://doi.org/10.1016/j.tust.2026.108129",
+        "authors": [
+          "Chuang Zhou",
+          "Zhen‐Yu Yin",
+          "Jian-gu Qian",
+          "Zi‐Bo Du",
+          "Wei-Qi Gong"
+        ],
+        "institutions": [
+          "Centre National de la Recherche Scientifique",
+          "Centre de Recherches Pétrographiques et Géochimiques",
+          "Université de Lorraine",
+          "Hong Kong Polytechnic University",
+          "Tongji University",
+          "Zhengzhou University"
+        ],
+        "journal": "Tunnelling and Underground Space Technology",
+        "abstract": "Seepage erosion, induced by groundwater infiltrating surrounding soils through cracks between tunnel segments, poses a significant threat to the long-term stability of underground tunnels. However, the evolution of erosion and its influence on tunnel mechanical behavior remain insufficiently understood. This study presents a macro–micro numerical investigation of tunnel erosion using a coupled CFD‑DEM-FEM (computational fluid dynamics-discrete element method- finite element method) framework. The CFD‑DEM model is used to capture soil particle migration, seepage flow, and microscopic force-chain evolution, while the resulting particle-structure interaction forces are transferred to an FEM model to evaluate the mechanical response of the tunnel lining. Parametric analyses are conducted to examine the effects of crack width, crack position, tunnel burial depth, and groundwater level on soil mass loss, surface displacement, particle migration trajectories, and micro-scale force chains. The results show that three distinct erosion modes can be identified according to crack width. Variations in crack position significantly modify the spatial extent of the erosion zone, while increased burial depth and groundwater level intensify soil loss. Structural analysis further indicates that when the crack location shifts from the tunnel crown toward the invert, the ability of the surrounding soil to transfer overburden pressure gradually decreases, leading to higher tensile stresses and a greater potential for structural damage. Overall, the study provides a qualitative understanding of the coupled evolution of seepage erosion and tunnel mechanical response, offering insights into the mechanisms of tunnel deterioration in sandy soils and potential strategies for mitigating erosion‑induced tunnel failures.",
+        "citation_count": 0,
+        "method": "Numerical Simulation"
+      }
+    ],
+    "Rock Mechanics and Rock Engineering": []
+  }
+}
