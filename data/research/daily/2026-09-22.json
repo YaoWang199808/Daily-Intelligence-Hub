@@ -1,0 +1,603 @@
+{
+  "date": "2026-09-22",
+  "journals": {
+    "Automation in Construction": [
+      {
+        "id": "https://openalex.org/W7213865580",
+        "doi": "10.1016/j.autcon.2026.107261",
+        "title": "Digital twins for building operation and maintenance: A scoping review (2019–2025)",
+        "published": "2026-09-21",
+        "url": "https://doi.org/10.1016/j.autcon.2026.107261",
+        "authors": [
+          "Reynaud Stéphane",
+          "Ludovic Journaux",
+          "Ana Roxin"
+        ],
+        "institutions": [],
+        "journal": "Automation in Construction",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Review / Survey"
+      },
+      {
+        "id": "https://openalex.org/W7213878700",
+        "doi": "10.1016/j.autcon.2026.107278",
+        "title": "Adaptive task allocation and scheduling for human–robot collaborative construction under dynamic uncertainty",
+        "published": "2026-09-21",
+        "url": "https://doi.org/10.1016/j.autcon.2026.107278",
+        "authors": [
+          "Hongxu Wang",
+          "Mingzhu Wang"
+        ],
+        "institutions": [
+          "City University of Hong Kong"
+        ],
+        "journal": "Automation in Construction",
+        "abstract": "Human–robot collaborative (HRC) construction requires task allocation and scheduling that can accommodate changing site conditions while balancing duration and human fatigue. This paper examines how task representation, task–agent alignment, and rescheduling can jointly balance these objectives under dynamic uncertainty. A framework integrating directed acyclic graph generation from work breakdown structure, non-additive alignment, bi-objective optimization, and event-driven local repair is developed and evaluated using an interior finishing case with static baselines and repeated disruption experiments. Static optimization yielded distinct Pareto endpoints with a minimum makespan of 52.43 h and a minimum fatigue index of 0.89, while dynamic repair achieved the lowest mean fatigue index among the baselines (0.903) with a makespan of 58.04 h. These results help construction planners compare scheduling efficiency with human fatigue and adapt schedule quickly during disruptions. They motivate multi-trade field validation using worker-specific biomechanical measurements, site disruption records, and richer uncertainty and safety models.",
+        "citation_count": 0,
+        "method": "Experimental"
+      }
+    ],
+    "Mechanical Systems and Signal Processing": [
+      {
+        "id": "https://openalex.org/W7213944393",
+        "doi": "10.1016/j.ymssp.2026.114985",
+        "title": "Power Bond graph-embedded causal flow-aware graph neural network for fault localization of electro-hydraulic systems",
+        "published": "2026-09-21",
+        "url": "https://doi.org/10.1016/j.ymssp.2026.114985",
+        "authors": [
+          "Hewei Gao",
+          "Xin Huo",
+          "Jiao Meng",
+          "Changchun He"
+        ],
+        "institutions": [],
+        "journal": "Mechanical Systems and Signal Processing",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Machine Learning"
+      },
+      {
+        "id": "https://openalex.org/W7213947216",
+        "doi": "10.1016/j.ymssp.2026.114987",
+        "title": "Multistage health state estimation and uncertainty quantification for bearing remaining useful life via graph-guided representation learning",
+        "published": "2026-09-21",
+        "url": "https://doi.org/10.1016/j.ymssp.2026.114987",
+        "authors": [
+          "Gyeonghyeok Kang",
+          "Myungsung Lee",
+          "Jongsoo Lee"
+        ],
+        "institutions": [],
+        "journal": "Mechanical Systems and Signal Processing",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      }
+    ],
+    "Measurement": [
+      {
+        "id": "https://openalex.org/W7213552872",
+        "doi": "10.1016/j.measurement.2026.123206",
+        "title": "Envelope-free Vernier effect via peak position recognition in cascaded fiber Bragg grating sensors for high-sensitivity sensing",
+        "published": "2026-09-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123206",
+        "authors": [
+          "Haili Ma",
+          "Yulun Zhang",
+          "Cong Shi",
+          "Wenxi Yang",
+          "Liqiang Zhang",
+          "Zhen Tian",
+          "Minghong Wang",
+          "Meng Zhang",
+          "Ping Lu",
+          "Yicun Yao"
+        ],
+        "institutions": [
+          "Northumbria University",
+          "Liaocheng University",
+          "Wuhan National Laboratory for Optoelectronics",
+          "Huazhong University of Science and Technology"
+        ],
+        "journal": "Measurement",
+        "abstract": "Despite their widespread use and excellent performance, Fiber Bragg Grating (FBG) sensors face a fundamental limitation: the optical Vernier effect, an effective sensitivity-enhancing technique, cannot be directly applied due to FBG’s single-resonance-peak feature. This paper proposes a novel envelope-free peak position recognition method, combined with cascaded FBGs to achieve over 86-fold sensitivity enhancement, verified by temperature sensing experiments. Notably, the limit of detection of the sensor is reduced by 39.33 % compared with single bare FBG (without Vernier effect), outperforming the traditional optical Vernier method. Without the need for an additional physical reference arm sensor, this method features simple implementation, controllable cost and flexible performance tuning. Building on our prior virtual Vernier framework, this work first extends the envelope-free Vernier strategy to cascaded FBGs, breaking the inherent barrier of FBG sensing and offering a low-cost flexible scheme for high-precision fiber measurement.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7213560694",
+        "doi": "10.1016/j.measurement.2026.123133",
+        "title": "Chirality-aware initialization for reliable digital image correlation under large rotation and heterogeneous deformation",
+        "published": "2026-09-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123133",
+        "authors": [
+          "Na Liu",
+          "Wankun Shan",
+          "Jingyi Zhou",
+          "Tenghe Li",
+          "Jing Ji",
+          "Xuefeng Li"
+        ],
+        "institutions": [
+          "Tongji University",
+          "Xidian University"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7213562275",
+        "doi": "10.1016/j.measurement.2026.123130",
+        "title": "A low-cost MEMS sensor fusion instrument for swing kinematics measurement and ball impact localisation in cricket batting",
+        "published": "2026-09-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123130",
+        "authors": [
+          "Muhammad Muzammil Qureshi",
+          "Moazzam Mansoor",
+          "Ahmed Aftab",
+          "Hamza Nazir",
+          "Naqash Ahmad",
+          "Hafiz Hamza"
+        ],
+        "institutions": [],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7213590996",
+        "doi": "10.1016/j.measurement.2026.123242",
+        "title": "Engineering-oriented automated crack inspection and maximum-width quantification using MSCrack",
+        "published": "2026-09-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123242",
+        "authors": [
+          "Yangyang Tai",
+          "Gao Ma",
+          "Hyeon‐Jong Hwang",
+          "Yun Zhou",
+          "Zengxi Wu",
+          "Xiaojing Tan"
+        ],
+        "institutions": [
+          "Hunan University",
+          "Seoul National University",
+          "Beike Biotechnology (China)"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7213601241",
+        "doi": "10.1016/j.measurement.2026.123184",
+        "title": "LMFGL-Net: A lightweight Multi-Focus network with Global-Local focus interaction for In-Situ depth estimation in laser micromachining",
+        "published": "2026-09-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123184",
+        "authors": [
+          "Chuangrui Zheng",
+          "Shijin Zhang",
+          "Ziwei Ren",
+          "Xianlei Guo",
+          "Hangyu Zhang",
+          "Chen Ming"
+        ],
+        "institutions": [
+          "Northwestern Polytechnical University",
+          "Yangtze River Delta Physics Research Center (China)"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7213601692",
+        "doi": "10.1016/j.measurement.2026.123178",
+        "title": "Physics-informed spatio-temporal hybrid learning for full-field residual stress reconstruction in laser",
+        "published": "2026-09-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123178",
+        "authors": [
+          "Jiayang Jiang",
+          "Xiaowei Jiang",
+          "Jiachuan Yu",
+          "Shoucheng Wang",
+          "Peng Ji",
+          "Hengao Wei",
+          "Xueguang Hu"
+        ],
+        "institutions": [
+          "Jiangsu University of Science and Technology",
+          "Shenyang Institute of Automation"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7213602703",
+        "doi": "10.1016/j.measurement.2026.123248",
+        "title": "An online dual-channel TIR refractometer for turbid liquids with internal-reference temperature compensation",
+        "published": "2026-09-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123248",
+        "authors": [
+          "Xiaojun Zhang",
+          "Keyu Chen",
+          "陈志伟 CHEN Zhiwei",
+          "Hong Lin",
+          "Yufeng Ma",
+          "Langlang Ding",
+          "Yang Miao"
+        ],
+        "institutions": [],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7213615519",
+        "doi": "10.1016/j.measurement.2026.123211",
+        "title": "EMC-aware validation of a distributed measurement system for intelligent air-handling units in data centers",
+        "published": "2026-09-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123211",
+        "authors": [
+          "Lucía López",
+          "Marcos Delgado",
+          "Robert Novak",
+          "Julio Ramiro Bargueño",
+          "David de la Iglesia",
+          "María Del Prado Diaz De Mera Sánchez",
+          "Mª Cristina Rodríguez-Sánchez"
+        ],
+        "institutions": [
+          "Universidad Rey Juan Carlos",
+          "Fundación Renal Española"
+        ],
+        "journal": "Measurement",
+        "abstract": "This study proposes and applies an EMC-aware validation methodology for a distributed measurement system deployed in an intelligent air-handling unit for data centers (CyberHandler-3). The scientific contribution is a measurement-validation framework that separates the metrological evaluation of the analog acquisition path from the temporal, communication, and data-handling performance of the distributed system. The system integrates 0–10 V and RS485 interfaces, distributed DeepOPTA acquisition nodes, Wi-Fi/MQTT communication, local edge buffering, time-series storage, and visualization. The methodology formalizes the measurement chain and separately evaluates the analog acquisition path, stage-specific communication and visualization latencies, and the electromagnetic environment under representative operating conditions. Calibration tests showed a deviations above 8 V. The measured mean latencies were 50 ms for MQTT transmission, 75 ms for Modbus RTU transactions, and 120 ms for Grafana refresh. The proposed framework provides a structured basis for validating distributed industrial measurement systems without combining measurands and performance indicators of different physical nature into a single figure of merit.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7213617900",
+        "doi": "10.1016/j.measurement.2026.123259",
+        "title": "Measurement of splitting failure and surface roughness evolution in coal subjected to long-term immersion",
+        "published": "2026-09-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123259",
+        "authors": [
+          "Penghua Han",
+          "Xiaobin Li",
+          "Jinwen Bai",
+          "Cun Zhang"
+        ],
+        "institutions": [
+          "Taiyuan University of Science and Technology",
+          "Taiyuan University of Technology",
+          "China University of Mining and Technology"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7213623296",
+        "doi": "10.1016/j.measurement.2026.123189",
+        "title": "A multi-angle Cartesian scanning strategy for large field-of-view Magnetic Particle Imaging",
+        "published": "2026-09-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123189",
+        "authors": [
+          "Pengyu Huang",
+          "Guangxing Zhou",
+          "Chang Wang",
+          "Jing Yang",
+          "Ruiyi Wang",
+          "Yu An",
+          "Zhenchao Tang",
+          "Jie Tian"
+        ],
+        "institutions": [
+          "Beihang University",
+          "Ministry of Industry and Information Technology",
+          "Shandong Institute of Automation"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      }
+    ],
+    "Engineering Structures": [
+      {
+        "id": "https://openalex.org/W7213875945",
+        "doi": "10.1016/j.engstruct.2026.123805",
+        "title": "Configuration tuning of rocking structural systems through an integrated stiffness–damping redistribution strategy",
+        "published": "2026-09-21",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.123805",
+        "authors": [
+          "Afshin Naserpour",
+          "Renyang Xu",
+          "Wenjie Ge"
+        ],
+        "institutions": [
+          "Yangzhou University"
+        ],
+        "journal": "Engineering Structures",
+        "abstract": "This study proposes a novel Demountable Rocking Segmental (DRS) system to effectively tune the configuration and seismic response of mid- to high-rise buildings through an integrated redistribution of stiffness and damping. Unlike conventional base-rocking wall systems, which are often constrained by concentrated energy dissipation at the base and pronounced higher-mode effects, the proposed system combines wall segmentation with strategically distributed floor-level dampers to simultaneously control inter-story drift and floor acceleration while enabling structural demountability. Wall segmentation is employed to reduce and redistribute lateral stiffness, thereby mitigating floor accelerations and inertial forces. In parallel, floor-level dampers are introduced to distribute energy dissipation along the building height, effectively suppressing excessive lateral drifts. A simplified analytical framework is first developed to describe the force–displacement behavior of the system and support preliminary design. Subsequently, nonlinear numerical models are established and validated against experimental results. A comprehensive parametric study is conducted to investigate the influence of key design variables, including the number of segments, stiffness ratio, and damper location. The results indicate that configurations with four to five segments, a stiffness ratio between 0.2 and 1, and dampers placed in the upper 25% of the building height provide an effective balance between drift and acceleration reduction. To further tune the system configuration, a multi-objective optimization framework based on the NSGA-II algorithm is employed, considering drift, acceleration, and damping demand simultaneously. Pareto-optimal configurations are identified, and both optimal and economic design points are determined. Nonlinear time-history analyses demonstrate that the configuration-tuned DRS system significantly reduces the mean peak seismic demands across the ensemble of ground motions compared to conventional base-rocking wall systems, achieving mean reductions of up to 16% in inter-story drift, 29% in floor acceleration, and 33% in story shear. These results confirm that the proposed system offers a balanced and efficient solution for mitigating critical seismic demands in tall buildings.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      },
+      {
+        "id": "https://openalex.org/W7213908312",
+        "doi": "10.1016/j.engstruct.2026.123802",
+        "title": "Tension-shear integrated connections to coordinate seismic performance and constructability in modular steel buildings",
+        "published": "2026-09-21",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.123802",
+        "authors": [
+          "Jinkun Wang",
+          "Junxian Zhao",
+          "Zhenming Chen",
+          "Gaoming Zhu",
+          "Zhiqiu He"
+        ],
+        "institutions": [],
+        "journal": "Engineering Structures",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7213910016",
+        "doi": "10.1016/j.engstruct.2026.123786",
+        "title": "Rate-dependent energy absorption and design optimization of STG-filled functionally graded TPMS metastructures",
+        "published": "2026-09-21",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.123786",
+        "authors": [
+          "Xinmei Xiang",
+          "Zhiyi Qiu",
+          "Changjie Luo",
+          "Jun Zhou",
+          "Jiale Huang",
+          "NGOC SAN HA"
+        ],
+        "institutions": [],
+        "journal": "Engineering Structures",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7213916943",
+        "doi": "10.1016/j.engstruct.2026.123728",
+        "title": "Diamond-shaped lattice steel structural elements realized with Wire-Arc Additive Manufacturing: Fabrication, testing and strength calibration",
+        "published": "2026-09-21",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.123728",
+        "authors": [
+          "Vittoria Laghi",
+          "Elisabetta Savino",
+          "Fabio Esposito",
+          "Giada Gasparini",
+          "Tomaso Trombetti"
+        ],
+        "institutions": [
+          "University of Bologna"
+        ],
+        "journal": "Engineering Structures",
+        "abstract": "Lattice steel elements produced by Wire-Arc Additive Manufacturing (WAAM) are emerging as promising candidates for lightweight, architected structural members, yet their structural-scale behaviour remains largely unexplored. This paper investigates the structural response of WAAM-produced diamond-shaped lattice steel elements (D-Poles) under axial compression, providing the first comprehensive experimental dataset for this new class of components. D-Poles are formed by repetition of diamond-shaped units (D-Chips) along the height and around a polygonal cross-section, resulting in continuous lattice members without discrete mechanical connections. A fabrication campaign was carried out using a robotic WAAM setup with Cold Metal Transfer, producing three-, four- and six-faced D-Poles in three different heights (0.30 m, 0.60 m and 0.90 m). The specimens were characterized by industrial computed tomography to quantify porosity and thickness distribution, followed by monotonic compression tests on short and tall D-Poles. The global response is found to be governed by flexural behaviour of the D-Chips rather than by global buckling. An analytical model is adopted to interpret yielding and ultimate capacities and to develop a Eurocode-consistent calibration of characteristic and design strength values.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      },
+      {
+        "id": "https://openalex.org/W7213924525",
+        "doi": "10.1016/j.engstruct.2026.123803",
+        "title": "Test study and numerical simulation on shear performance of bolted connections of magnesium alloy plates",
+        "published": "2026-09-21",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.123803",
+        "authors": [
+          "Junxia Liu",
+          "Kai Xiao",
+          "Jiale Li",
+          "Zhongxing Wang",
+          "Mingliang Liu",
+          "Cun Hui",
+          "Ran Hai"
+        ],
+        "institutions": [],
+        "journal": "Engineering Structures",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Numerical Simulation"
+      },
+      {
+        "id": "https://openalex.org/W7213929012",
+        "doi": "10.1016/j.engstruct.2026.123778",
+        "title": "A unified model for estimation of the friction coefficient of sliding isolators by means of small-scale tests",
+        "published": "2026-09-21",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.123778",
+        "authors": [
+          "Esengül Çavdar",
+          "Eleonora Bruschi",
+          "Gökhan Özdemir",
+          "Virginio Quaglini",
+          "Uğurcan Özçamur"
+        ],
+        "institutions": [],
+        "journal": "Engineering Structures",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7213933653",
+        "doi": "10.1016/j.engstruct.2026.123764",
+        "title": "Enhancing seismic resilience of piloti frames through AFRP strengthening: An integrated experimental and analytical study",
+        "published": "2026-09-21",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.123764",
+        "authors": [
+          "Tran-Hung Cuong",
+          "Gayoon Lee",
+          "Jiyoung Lee",
+          "Sungwoo Woo",
+          "Do Hyung Lee",
+          "Khoa Vo Anh Pham"
+        ],
+        "institutions": [
+          "Ho Chi Minh City University of Transport",
+          "Sejong University"
+        ],
+        "journal": "Engineering Structures",
+        "abstract": "Reinforcing existing structures with aramid fiber-reinforced polymer (AFRP) sheets is a practical strengthening solution owing to their high tensile strength, low self-weight, and ease of installation. This technique is particularly suitable for Piloti-type buildings widely used in South Korea. The experimental program consisted of three ground-story Piloti reinforced concrete (RC) frame specimens, including one unretrofitted reference specimen and two AFRP-retrofitted specimens. The main test variables were the AFRP strengthening condition and the column configuration. Experimental results showed that the AFRP-retrofitted specimen with the same rectangular column configuration exhibited an 18.97% increase in positive peak lateral load and an average ductility enhancement of approximately 2.85 times compared with the unretrofitted specimen. Under cyclic loading, the retrofitted specimens showed improved seismic resistance and more stable structural behavior. Damage observations indicated that AFRP sheets delayed crack widening, local deterioration, and severe damage progression. In addition, nonlinear ZeusNL analysis showed good agreement with the experimental results, confirming its reliability in predicting the cyclic response of AFRP-strengthened frame specimens.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      },
+      {
+        "id": "https://openalex.org/W7213939710",
+        "doi": "10.1016/j.engstruct.2026.123773",
+        "title": "Shear strength prediction of steel-concrete composite beams based on critical shear crack theory: From the perspective of slab behavior",
+        "published": "2026-09-21",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.123773",
+        "authors": [
+          "Hao Xue",
+          "Yicong Xue",
+          "Yunlong Yu",
+          "Xiantie Wang"
+        ],
+        "institutions": [],
+        "journal": "Engineering Structures",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Analytical / Theoretical"
+      },
+      {
+        "id": "https://openalex.org/W7213943239",
+        "doi": "10.1016/j.engstruct.2026.123797",
+        "title": "Low-temperature effects on the seismic performance of lead rubber bearings and isolated bridges: Experimental study and numerical simulation",
+        "published": "2026-09-21",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.123797",
+        "authors": [
+          "Yanxin Wang",
+          "Zhiguo Sun",
+          "Xiaoyu Chen",
+          "Jinjie Men",
+          "Dongsheng Wang"
+        ],
+        "institutions": [],
+        "journal": "Engineering Structures",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      },
+      {
+        "id": "https://openalex.org/W7213944909",
+        "doi": "10.1016/j.engstruct.2026.123807",
+        "title": "Experimental investigations on the seismic resilience upgrade of a damaged reinforced concrete frame retrofitted with self-centering damping braces",
+        "published": "2026-09-21",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.123807",
+        "authors": [
+          "Can Liu",
+          "Canxing Qiu",
+          "Xiuli Du",
+          "Hang Liu",
+          "Yuande Lei",
+          "Chaoqi Wei"
+        ],
+        "institutions": [],
+        "journal": "Engineering Structures",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      }
+    ],
+    "Ultrasonics": [
+      {
+        "id": "https://openalex.org/W7213866129",
+        "doi": "10.1016/j.ultras.2026.108314",
+        "title": "Amplitude attenuation study and prediction model for large-load ultrasonic vibration systems: revealing the multi-factor coupling attenuation mechanism and stabilization strategies",
+        "published": "2026-09-01",
+        "url": "https://doi.org/10.1016/j.ultras.2026.108314",
+        "authors": [
+          "Ruhang Xu",
+          "Baokun Dong",
+          "Shuai Wang",
+          "Tianyi Sui",
+          "Ying Wei",
+          "Hetian Hou",
+          "Zhilin Hui",
+          "Keyuan Tian"
+        ],
+        "institutions": [],
+        "journal": "Ultrasonics",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7213889551",
+        "doi": "10.1016/j.ultras.2026.108318",
+        "title": "An intelligent laser ultrasonic imaging and classification method for cracks in thermal barrier coating substrates using a physics-constrained dual-channel 1D-CNN",
+        "published": "2026-09-01",
+        "url": "https://doi.org/10.1016/j.ultras.2026.108318",
+        "authors": [
+          "Chao Lu",
+          "Chao Lu",
+          "Wenze Shi",
+          "Jian Fu",
+          "Min Sheng",
+          "Lifei Dong"
+        ],
+        "institutions": [],
+        "journal": "Ultrasonics",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Machine Learning"
+      }
+    ],
+    "Tunnelling and Underground Space Technology": [
+      {
+        "id": "https://openalex.org/W7213878771",
+        "doi": "10.1016/j.tust.2026.108143",
+        "title": "Interpretable early-stage advance rate prediction for slurry shield tunnelling using TabPFN-SHAP",
+        "published": "2026-09-21",
+        "url": "https://doi.org/10.1016/j.tust.2026.108143",
+        "authors": [
+          "Chenlong Yue",
+          "Jian Zhang",
+          "Tugen Feng",
+          "Bin Zheng"
+        ],
+        "institutions": [
+          "Hohai University",
+          "Jiangxi University of Science and Technology"
+        ],
+        "journal": "Tunnelling and Underground Space Technology",
+        "abstract": "Accurate prediction of advance rate (AR) during early-stage shield tunnelling remains challenging because monitoring data are limited while operational parameters must adapt to changing geological conditions. This study develops an interpretable TabPFN–SHAP framework for AR prediction and construction decision support under limited-data conditions. Using monitoring data from Rings 1–273 of the Jiangyin–Jingjiang Yangtze River Tunnel, 12 representative geological and operational variables were selected from 36 candidates through TabPFN-based forward feature selection. On the independent test set, TabPFN achieved an MAE of 0.609, MAPE of 2.03 %, RMSE of 0.906, and R 2 of 0.930, demonstrating high-accuracy AR prediction during the early excavation stage. SHAP and generalized additive models further identified dominant predictive factors, nonlinear parameter–response relationships, statistical transition ranges, and interactions among geological and operational variables. These project-specific relationships were translated into coordinated parameter-adjustment recommendations, enabling the framework to link accurate early-stage prediction with interpretable engineering decision support. The proposed framework therefore provides a practical basis for improving the safety and efficiency of early-stage shield excavation. Future work will focus on multi-project and prospective field validation under diverse geological and construction conditions.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7213885118",
+        "doi": "10.1016/j.tust.2026.108134",
+        "title": "Probabilistic large-deformation modelling of tunnel face collapse using random material point method (RMPM) incorporating cross-correlated random fields",
+        "published": "2026-09-21",
+        "url": "https://doi.org/10.1016/j.tust.2026.108134",
+        "authors": [
+          "T B Zhang",
+          "Jian Ji",
+          "Núria M. Pinyol"
+        ],
+        "institutions": [],
+        "journal": "Tunnelling and Underground Space Technology",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Numerical Simulation"
+      }
+    ],
+    "Rock Mechanics and Rock Engineering": []
+  }
+}
