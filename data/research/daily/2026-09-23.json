@@ -1,0 +1,910 @@
+{
+  "date": "2026-09-23",
+  "journals": {
+    "Automation in Construction": [
+      {
+        "id": "https://openalex.org/W7213982660",
+        "doi": "10.1016/j.autcon.2026.107287",
+        "title": "Automating metal waste recovery in the construction lifecycle: vision-based deployment-oriented decision framework",
+        "published": "2026-09-01",
+        "url": "https://doi.org/10.1016/j.autcon.2026.107287",
+        "authors": [
+          "Diyana Ranasinghe",
+          "Diani Sirimewan",
+          "Vineet Prasad",
+          "Mehrdad Arashpour"
+        ],
+        "institutions": [
+          "Monash University",
+          "Queensland University of Technology"
+        ],
+        "journal": "Automation in Construction",
+        "abstract": "Construction waste (CW) spans the entire construction lifecycle, yet CW automation lags behind circular construction objectives. Metals are the highest-value CW fraction, whereas offsite facilities can downgrade alloys into mixed bales through coarse ferrous/nonferrous separation and error-prone manual sorting. This paper develops a deployment-oriented decision framework mapping vision-based detector capabilities to distinct offsite sorting stages. To establish an empirical basis, WasteMetal-6 is introduced, a dataset of 2304 images and 35,787 object instances across six alloy classes under in-the-wild conditions. Eight detectors are evaluated under a hypothesis-driven framework: four state-of-the-art models, and four earlier-generation counterparts used for cross-architecture ablation. CNN-based models define the low-latency frontier while transformer-based models lead in material recovery. Four stage-specific decision criteria are derived, supporting real-time throughput exceeding 50 frames per second for primary screening. The resulting framework provides an evidence-based pathway for alloy-level metal recovery, supporting circular resource flows across the construction lifecycle.",
+        "citation_count": 0,
+        "method": "Machine Learning"
+      },
+      {
+        "id": "https://openalex.org/W7214000192",
+        "doi": "10.1016/j.autcon.2026.107283",
+        "title": "Framework for automated generation of trailer arrival request times in precast concrete projects",
+        "published": "2026-09-01",
+        "url": "https://doi.org/10.1016/j.autcon.2026.107283",
+        "authors": [
+          "Eunbeen Jeong",
+          "Junyoung Jang",
+          "Seulbi Lee",
+          "Choongwan Koo",
+          "Tae Wan Kim"
+        ],
+        "institutions": [
+          "Korea Institute of Civil Engineering and Building Technology",
+          "Incheon National University"
+        ],
+        "journal": "Automation in Construction",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7214028475",
+        "doi": "10.1016/j.autcon.2026.107269",
+        "title": "Hardware–software co-designed vision system for ROV-based underwater bridge-pier inspection",
+        "published": "2026-09-01",
+        "url": "https://doi.org/10.1016/j.autcon.2026.107269",
+        "authors": [
+          "Biwen Zhang",
+          "Jingjun Jiang",
+          "Xiujing Gao",
+          "Su Zeng",
+          "Fanchao Lin",
+          "Hongwu Huang"
+        ],
+        "institutions": [
+          "Hunan University",
+          "Fujian Special Equipment Inspection Institute",
+          "Fujian University of Technology"
+        ],
+        "journal": "Automation in Construction",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7214046929",
+        "doi": "10.1016/j.autcon.2026.107275",
+        "title": "Intelligent layout generation of opening beams in steel frame structures using generative adversarial networks",
+        "published": "2026-09-01",
+        "url": "https://doi.org/10.1016/j.autcon.2026.107275",
+        "authors": [
+          "Buyu Jia",
+          "Zhaofan Liang",
+          "Yujun Lin",
+          "Xiaolin Yu"
+        ],
+        "institutions": [],
+        "journal": "Automation in Construction",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      }
+    ],
+    "Mechanical Systems and Signal Processing": [
+      {
+        "id": "https://openalex.org/W7213980096",
+        "doi": "10.1016/j.ymssp.2026.114990",
+        "title": "Tail-dependence-based up-crossing analysis for extreme value prediction",
+        "published": "2026-09-22",
+        "url": "https://doi.org/10.1016/j.ymssp.2026.114990",
+        "authors": [
+          "Xu Hong",
+          "Wei Jiang",
+          "Fan Kong",
+          "Junhua Fang"
+        ],
+        "institutions": [
+          "Hefei University of Technology"
+        ],
+        "journal": "Mechanical Systems and Signal Processing",
+        "abstract": "Extreme value prediction based on up-crossing analysis is widely used for reliability assessment of engineering structures. However, existing approaches for non-Gaussian processes often rely on Gaussian dependence assumptions through memoryless translation models, which may be inadequate when the upper-tail dependence between consecutive observations differs from that of a Gaussian copula. This study develops a tail-dependence-based up-crossing framework for extreme value prediction of non-Gaussian dependent random sequences. The Ledford–Tawn representation is incorporated to characterize the joint upper-tail behavior of consecutive observations, leading to an explicit formulation of the up-crossing rate in terms of the marginal distribution and tail dependence parameters. A sensitivity analysis is further conducted to quantify how variations in tail dependence parameters affect return-level estimates. Numerical examples and measured wind speed records demonstrate that the proposed method accurately reproduces up-crossing rates and extreme-value exceedance probabilities, while revealing the potential bias caused by inappropriate Gaussian dependence assumptions.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      },
+      {
+        "id": "https://openalex.org/W7213982417",
+        "doi": "10.1016/j.ymssp.2026.114982",
+        "title": "Laser beams target-based monocular vision measurement system self-calibration and localization method for boom-type roadheader in large-scale underground complex scene",
+        "published": "2026-09-22",
+        "url": "https://doi.org/10.1016/j.ymssp.2026.114982",
+        "authors": [
+          "Wenjuan Yang",
+          "Xuhui Zhang",
+          "Zhiteng Ren",
+          "Guangming Zhang",
+          "Jie Jiang",
+          "Le Zhu",
+          "Yang Ji"
+        ],
+        "institutions": [
+          "Xi'an University of Science and Technology",
+          "Xi'an University of Technology",
+          "Liverpool John Moores University"
+        ],
+        "journal": "Mechanical Systems and Signal Processing",
+        "abstract": "The monocular vision measurement system is an effective approach to obtain accuracy and reliable pose estimation for underground tunneling, especially with a specially designed laser beams targets for the far-distance and large-scale scene localization in the tunneling face. However, the conventional manual off-line calibration with a total station is complex and difficulty resulting unsuitable for the automatic underground excavation. This article presents a novel online self-calibration method for the monocular vision measurement system based on the double laser beams targets, in which one is as the benchmark target, the other is as the movable target. The double 3D targets-based monocular vision geometric constraint model is established to connect the 3D targets spatial distribution and the laser beams image points and lines features, considering explicitly the 2D-3D correspondences between laser beams image and object coordinates of the double 3D targets. On this basis, we perform the extrinsic parameters self-calibration to reconstruct the laser beams spatial vector of the movable target from its multi-view image sequences. With no need to gain explicit knowledge of object space coordinates, the movable target multi-station online self-calibration can be performed with known initial benchmark target as well as the multi-view image sequences. The experimental results demonstrated the proposed self-calibration approach to be effective and the accuracy of the fuselage pose estimation has increased by 67.7%, meeting the far-distance localization requirements for underground excavations in coal mine.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7213984583",
+        "doi": "10.1016/j.ymssp.2026.114983",
+        "title": "Lightweight pavement-adaptive TimesNet for road preview information correction in preview model predictive control of active suspensions",
+        "published": "2026-09-22",
+        "url": "https://doi.org/10.1016/j.ymssp.2026.114983",
+        "authors": [
+          "Xianxu Bai",
+          "Ke Zhao",
+          "Zi Wang",
+          "Anding Zhu",
+          "Jie Li"
+        ],
+        "institutions": [
+          "Hefei University of Technology"
+        ],
+        "journal": "Mechanical Systems and Signal Processing",
+        "abstract": "Accurate road-preview information is essential for active suspension systems to achieve effective and high-performance control. However, in real-world driving scenarios, sensor noise and environmental disturbances can cause severe perceptual errors, degrading controller performance. To address this issue, this paper proposes a pavement-adaptive TimesNet, termed P-TimesNet, for road-preview correction in preview model predictive control of active suspensions. The proposed network reconstructs road preview information by fusing biased preview inputs with vehicle dynamic responses. The reconstructed preview sequence is then incorporated into the prediction and optimization process of the model predictive control (MPC) controller, forming an integrated P-TimesNet-MPC framework for active suspension control under perceptual errors. Two typical perceptual error scenarios are constructed to validate the effectiveness of the proposed method: when the road grade perceived by the visual preview is lower than the actual grade, the root mean square values of vehicle body acceleration, suspension dynamic deflection, tire dynamic load, and actuator force are reduced by 4.30 %, 6.36 %, 2.36 % and 2.48 % compared with MPC without information correction; when the perceived road grade is higher than the actual grade, the corresponding reductions are 45.86 %, 62.50 %, 27.55 % and 65.35 %. These results demonstrate that the proposed P-TimesNet-MPC framework effectively improves active suspension performance under road-preview perceptual errors. In addition, experimental results on a quarter-car active suspension platform further verify the effectiveness of the proposed P-TimesNet-MPC under two typical perceptual error scenarios.",
+        "citation_count": 0,
+        "method": "Review / Survey"
+      },
+      {
+        "id": "https://openalex.org/W7213985569",
+        "doi": "10.1016/j.ymssp.2026.114977",
+        "title": "Effective vibration length identification and cable tension estimation of stay cables based on UAV video: Integrating multi-order mode-shape consistency constraints and SSD-CEEMDAN drift separation",
+        "published": "2026-09-22",
+        "url": "https://doi.org/10.1016/j.ymssp.2026.114977",
+        "authors": [
+          "Yahui Qi",
+          "Pengzhen Lin",
+          "Yinglong Liu",
+          "Guojun Yang",
+          "Bo Yu"
+        ],
+        "institutions": [
+          "Lanzhou Jiaotong University",
+          "Lanzhou University of Technology"
+        ],
+        "journal": "Mechanical Systems and Signal Processing",
+        "abstract": "Cable tension is a key indicator for safety assessment and maintenance decision-making of cable-supported bridges. Effective vibration length identification is essential for improving the accuracy of vibration-based cable tension estimation; however, existing methods rely on multi-point accelerometer measurements, resulting in high deployment costs and low field efficiency. To address this issue, this study proposes a UAV-photography-based framework for effective vibration length identification and high-accuracy cable tension estimation, establishing a complete procedure consisting of video acquisition, cable segmentation, vibration extraction, UAV drift suppression, multi-order mode-shape-consistency-constrained fitting, effective vibration length identification, and cable tension calculation and validation. First, a semantic segmentation model is used to extract the cable and marker regions, and the marker centroids are then tracked to generate multi-point displacement time histories. Subsequently, a spectral-morphology-driven adaptive drift separation method, namely SSD–CEEMDAN, is adopted to suppress UAV drift interference while enhancing the distinguishability of dominant spectral peaks. Under the condition that only amplitude information is available, a joint least-squares model constrained by multi-order mode-shape consistency is constructed to identify the effective vibration length of the cable. Field tests on four cables of an actual bridge show that the relative errors of cable tension calculation using the identified effective vibration length are 1.69%, 1.07%, 3.70%, and 2.85%, respectively. Compared with the results obtained using the geometric cable length, the errors were reduced by 7.36, 6.79, 9.18, and 5.88 percentage points, respectively. The results verify the necessity of effective vibration length identification and the engineering feasibility of UAV-based non-contact measurement, providing a new approach for rapid, efficient, and high-accuracy monitoring of bridge cable tension.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7214018752",
+        "doi": "10.1016/j.ymssp.2026.114976",
+        "title": "Strong–weak modal coupling in finite structures with antinode-concentrated resonators",
+        "published": "2026-09-22",
+        "url": "https://doi.org/10.1016/j.ymssp.2026.114976",
+        "authors": [
+          "Jongsuh Lee",
+          "Wonjae Choi"
+        ],
+        "institutions": [
+          "Dong-A University",
+          "Korea Research Institute of Standards and Science",
+          "Korea University of Science and Technology"
+        ],
+        "journal": "Mechanical Systems and Signal Processing",
+        "abstract": "Dynamic vibration absorbers (DVAs) and locally resonant metamaterials share a common physical foundation: subwavelength resonators coupled to a host structure. The two paradigms, however, have developed along parallel lines. DVA design on continuum hosts traditionally proceeds mode by mode, relying on modal truncation and iterative tuning. Metamaterial design rests on Bloch analysis of infinite periodic arrays, whose assumptions do not transfer to bounded structures with a finite number of resonators. As a result, neither paradigm captures the host–resonator interaction in such finite systems within a single governing relation. In this work, a unified modal-domain framework is proposed for bounded continuum hosts equipped with a finite number of antinode-concentrated resonators. The host and attachment coordinates are condensed into an Attachment Condensed Characteristic Equation (ACCE), whose global determinant retains the coupling between the target-mode direction and its residual complement. Reduced strong and residual equations identify modal origin and become independent characteristic equations only under explicitly stated invariance conditions. Within this framework, a strong–weak mode-coupling mechanism is identified. Target-mode splitting bounds a broad finite-structure response-reduction interval, while S − 1 resonator-origin modes may remain as clustered peaks inside it. The analysis also distinguishes shifted non-target host modes from exact dark and weakly coupled modes. One-dimensional finite-element calculations, three-dimensional simulations, and beam experiments reproduce the principal spectral trends. A reciprocal force–moment extension further demonstrates a feasible mechanism for the experimentally observed downward shift of the clustered-mode center, without treating its effective eccentricity as an independently identified physical parameter.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      },
+      {
+        "id": "https://openalex.org/W7213971774",
+        "doi": "10.1016/j.ymssp.2026.114992",
+        "title": "Surface roughness prediction and process parameter optimization based on grinding force signals in end face grinding of quartz glass",
+        "published": "2026-09-01",
+        "url": "https://doi.org/10.1016/j.ymssp.2026.114992",
+        "authors": [
+          "Zixuan Wang",
+          "Wu Gan",
+          "Shian Wang",
+          "Tianbiao Yu",
+          "Ji Zhao",
+          "Xueyan Hou"
+        ],
+        "institutions": [
+          "Northeastern University",
+          "Liaoning University"
+        ],
+        "journal": "Mechanical Systems and Signal Processing",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7214011144",
+        "doi": "10.1016/j.ymssp.2026.114994",
+        "title": "Global optimization with structural reliability analysis methods",
+        "published": "2026-09-01",
+        "url": "https://doi.org/10.1016/j.ymssp.2026.114994",
+        "authors": [
+          "Zeming Chang",
+          "Luyi Li",
+          "Yushan Liu"
+        ],
+        "institutions": [
+          "Northwestern Polytechnical University",
+          "Aviation Industry Corporation of China (China)"
+        ],
+        "journal": "Mechanical Systems and Signal Processing",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7214033309",
+        "doi": "10.1016/j.ymssp.2026.114993",
+        "title": "Calibration-light multi-point displacement measurement for railway bridge monitoring via a differential-form projection model",
+        "published": "2026-09-01",
+        "url": "https://doi.org/10.1016/j.ymssp.2026.114993",
+        "authors": [
+          "Munemasa TOKUNAGA"
+        ],
+        "institutions": [
+          "Railway Technical Research Institute"
+        ],
+        "journal": "Mechanical Systems and Signal Processing",
+        "abstract": "This study proposes a calibration-light framework for practical multi-point displacement monitoring of railway bridges using a single high-resolution video camera (and, when needed, two synchronized cameras for 3D reconstruction) with a wide-angle lens. The method enables synchronous displacement estimation during train passage without requiring full on-site calibration of external parameters. A differential-form projection model was developed to relate pixel movement to physical displacement increments in a bridge-fixed coordinate system, incorporating perspective-effect compensation via the pixel-to-displacement mapping (Eq. (15)), radial lens distortion correction, and camera-to-target distance estimation. Laboratory experiments demonstrated that the proposed method achieved accurate displacement estimation even under wide-angle imaging. Field applications to four railway bridges demonstrated the method’s practical applicability: Bridge A showed accurate vertical displacement consistent with velocimeter data; Bridge B revealed resonance and vibration modes across three spans; Bridge C demonstrated long-distance measurement (over 100 m) with span-specific modal characteristics; and Bridge D achieved 3D displacement estimation using two synchronized cameras consistent with laser Doppler velocimeter results at the same location. These results highlight the method’s practical applicability for bridge monitoring under diverse structural and environmental conditions.",
+        "citation_count": 0,
+        "method": "Experimental"
+      }
+    ],
+    "Measurement": [
+      {
+        "id": "https://openalex.org/W7213638044",
+        "doi": "10.1016/j.measurement.2026.123250",
+        "title": "A validated single-sensor measurement methodology for natural frequency identification of honeycomb sandwich panels using cardioid microphone",
+        "published": "2026-09-19",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123250",
+        "authors": [
+          "Akın Oktav"
+        ],
+        "institutions": [
+          "Alanya University"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7213643483",
+        "doi": "10.1016/j.measurement.2026.123253",
+        "title": "Lightweight positioning method for UAV swarms in GNSS-denied scenarios",
+        "published": "2026-09-19",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123253",
+        "authors": [
+          "Zhenyu Li",
+          "Maochun Tian",
+          "Renxin Ji",
+          "Shengzeng Li",
+          "Sile Ma",
+          "Hongliang Ding",
+          "Pei Duan",
+          "Xiangyuan Jiang"
+        ],
+        "institutions": [
+          "Shandong University of Science and Technology",
+          "State Grid Corporation of China (China)"
+        ],
+        "journal": "Measurement",
+        "abstract": "Cooperative operations of unmanned aerial vehicle (UAV) swarms face severe performance degradation under global-navigation-satellite-system-denied conditions—primarily owing to the failure of obtaining accurate relative positioning estimates. To address this issue, this paper proposes a lightweight and robust positioning scheme that tightly fuses ultra-wideband (UWB) ranging measurements with visual-inertial odometry (VIO) estimates. Leveraging a tightly coupled sliding-window optimization framework, the scheme jointly processes multi-temporal UWB inter-agent range observations and VIO-derived displacement increments, supported by actively planned and motion-differentiated trajectories among swarm members. Additionally, the paper introduces a computationally efficient three-stage analytical solution framework: (i) multidimensional- scaling-based coordinate computation and normalization; (ii) geometric ambiguity elimination; and (iii) closed-form heading angle estimation. This framework addresses the issues of high computational burden and sensitivity to initial guesses inherent in conventional iterative nonlinear optimization methods. Simulations and physical system experiments demonstrated that, compared with conventional nonlinear optimization approaches, the proposed method reduces computational-resource consumption in moderate-scale UAV swarm positioning tasks while eliminating the requirement for prior knowledge of agents’ initial positions. These advantages substantially extend the application scope of UAV swarms.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      },
+      {
+        "id": "https://openalex.org/W7213626321",
+        "doi": "10.1016/j.measurement.2026.123256",
+        "title": "Reference-based near-field measurement of fundamental and harmonic responses for battery and electronic object detection",
+        "published": "2026-09-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123256",
+        "authors": [
+          "Hee-Jong Gil",
+          "Tae-Jin Ji",
+          "Seong‐Ho Son"
+        ],
+        "institutions": [
+          "Soonchunhyang University"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7213644206",
+        "doi": "10.1016/j.measurement.2026.123255",
+        "title": "Experimental and numerical evaluation of vibration attenuation in a composite–supported track with elastic under–supported pads",
+        "published": "2026-09-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123255",
+        "authors": [
+          "Ziyong Cao",
+          "Zhenxing He",
+          "Nengneng Bao",
+          "Jianfeng Yun",
+          "Penghao Li"
+        ],
+        "institutions": [
+          "Lanzhou Jiaotong University"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      },
+      {
+        "id": "https://openalex.org/W7213645673",
+        "doi": "10.1016/j.measurement.2026.123243",
+        "title": "A dynamic RMS model of acoustic emission for rolling bearings considering local morphological evolution defect",
+        "published": "2026-09-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123243",
+        "authors": [
+          "Wenyan Zhao",
+          "Hongyuan Qi",
+          "Defu Han",
+          "Dongming Hou",
+          "Jinyang Yan",
+          "Yong Mu"
+        ],
+        "institutions": [],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7213660893",
+        "doi": "10.1016/j.measurement.2026.123254",
+        "title": "Time comparison technology in space based on NICER observations of X-ray millisecond pulsars",
+        "published": "2026-09-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123254",
+        "authors": [
+          "Z. M. Wang",
+          "仝明磊",
+          "Mengna Han",
+          "Xiaohang Dai",
+          "Hongxu Zhu"
+        ],
+        "institutions": [
+          "Chinese Academy of Sciences",
+          "National Time Service Center",
+          "University of Chinese Academy of Sciences"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7213675489",
+        "doi": "10.1016/j.measurement.2026.123258",
+        "title": "SNICKAN: a spatial-context-aware Kolmogorov-Arnold network for gas-bearing lithology identification",
+        "published": "2026-09-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123258",
+        "authors": [
+          "Leting Wang",
+          "Shaoqun Dong",
+          "Ruixiang Bi",
+          "Jiawen Deng",
+          "Chengru Jia",
+          "Tao Wang",
+          "Weiping Feng",
+          "Junkun Quan",
+          "Yinjian Qiao",
+          "Haoxin Bi"
+        ],
+        "institutions": [],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7213758503",
+        "doi": "10.1016/j.measurement.2026.123192",
+        "title": "A phase-delay laser array thermography system enhanced by EFF-MD for defect detection in carbon fiber/bismaleimide composites",
+        "published": "2026-09-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123192",
+        "authors": [
+          "Fei Wang",
+          "Rongcheng Li",
+          "Zhihao Li",
+          "Hai Zhang",
+          "Lixia Xu",
+          "Zhitao Luo",
+          "Стефано Сфарра",
+          "V. S. Ghali",
+          "Ravibabu Mulaveesala",
+          "Andreas Mandelis"
+        ],
+        "institutions": [
+          "Harbin Institute of Technology",
+          "Beijing Satellite Navigation Center",
+          "Nanjing Agricultural University",
+          "University of L'Aquila",
+          "Koneru Lakshmaiah Education Foundation",
+          "Indian Institute of Technology Delhi"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7213765677",
+        "doi": "10.1016/j.measurement.2026.123174",
+        "title": "Tracing and compensating critical errors affecting wafer total thickness variation in ultra-precision grinding machines",
+        "published": "2026-09-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123174",
+        "authors": [
+          "Ruyue Wang",
+          "Chao niu",
+          "Yichuan Li",
+          "Jianbo Zhao",
+          "Xing Yan",
+          "Zhigang Dong",
+          "Xianglong Zhu",
+          "Renke Kang",
+          "Yindi Cai"
+        ],
+        "institutions": [
+          "Dalian University of Technology"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7213871102",
+        "doi": "10.1016/j.measurement.2026.123266",
+        "title": "A lightweight pavement distress detection framework for automated pavement inspection",
+        "published": "2026-09-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123266",
+        "authors": [
+          "Y.K. Zhang",
+          "Beilin Han",
+          "Chao Zou",
+          "Wei Ding",
+          "Zhiwei Liu",
+          "Hongyang Deng",
+          "Jie Wu"
+        ],
+        "institutions": [
+          "Wuhan Polytechnic University",
+          "Guangdong University of Technology",
+          "China Communications Construction Company (China)"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      }
+    ],
+    "Engineering Structures": [
+      {
+        "id": "https://openalex.org/W7214061646",
+        "doi": "10.1016/j.engstruct.2026.123780",
+        "title": "Experimental and theoretical study on shear performance of T-shaped and bulb flat shear connectors in composite structures",
+        "published": "2026-09-23",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.123780",
+        "authors": [
+          "Chipui Chao",
+          "Ran Ding",
+          "Hong‐Ming Lu",
+          "Xin Nie",
+          "Jiansheng Fan"
+        ],
+        "institutions": [],
+        "journal": "Engineering Structures",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      },
+      {
+        "id": "https://openalex.org/W7213965989",
+        "doi": "10.1016/j.engstruct.2026.123810",
+        "title": "Rapid identification based data-driven topology design independent from high-information entropy initial dataset",
+        "published": "2026-09-22",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.123810",
+        "authors": [
+          "Jun Yang",
+          "Ziliang Wang",
+          "Shintaro Yamasaki"
+        ],
+        "institutions": [
+          "Waseda University"
+        ],
+        "journal": "Engineering Structures",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7213972594",
+        "doi": "10.1016/j.engstruct.2026.123794",
+        "title": "Experimental investigation and strength evaluation of steel-plate composite wall-to-wall L- and T-joints with different novel shear reinforcement",
+        "published": "2026-09-22",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.123794",
+        "authors": [
+          "Jingchun Zhang",
+          "Quanquan Guo",
+          "Yongwang Lei",
+          "Yue Yu"
+        ],
+        "institutions": [
+          "Beihang University",
+          "China National Nuclear Corporation",
+          "China General Nuclear Power Corporation (China)",
+          "PowerChina (China)"
+        ],
+        "journal": "Engineering Structures",
+        "abstract": "The steel-plate composite wall-to-wall joint configuration specified in current design codes is particularly susceptible to shear failure. Existing experimental studies have reached contradictory conclusions regarding whether shear reinforcement can enhance joint strength. The influence of shear reinforcement on joint behavior has not yet been fully understood and quantified. The reinforcement types need to be developed to better align with the concept of industrialized prefabricated construction. This paper makes a contribution toward addressing these gaps. First, based on the authors’ previous theoretical findings, three novel and practical shear reinforcement configurations were proposed according to three distinct mechanisms, including cross, annular and UHPC reinforcement. On this basis, considering different shear reinforcement ratios and joint external constraints ( L -joint and T-joint), a hysteretic test matrix consisting of 9 specimens was established. The test results indicate that the proposed shear reinforcement can improve joint performance, with the extent of improvement governed by the reinforcement configuration, the reinforcement ratio, the joint external constraints, and the strength ratio between the unreinforced joint and the wall. Finally, to quantify the test results, the analytical strength model previously proposed by the authors for L -joints with rebar cage shear reinforcement was extended to both L- and T-joints with all available types of shear reinforcement, yielding a standard deviation of the predicted strength ratio that is 68% lower than that of AISC N690.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      },
+      {
+        "id": "https://openalex.org/W7213976048",
+        "doi": "10.1016/j.engstruct.2026.123792",
+        "title": "A hybrid excitation method for the response spectrum analysis of multi-support structures subjected to nonuniform seismic ground motions: A Concise yet rigorous formula",
+        "published": "2026-09-22",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.123792",
+        "authors": [
+          "Guohuan Liu",
+          "Zhichao Chen"
+        ],
+        "institutions": [
+          "Tianjin University"
+        ],
+        "journal": "Engineering Structures",
+        "abstract": "This study develops a novel hybrid excitation multi-support response spectrum (HEMSRS) method that fundamentally reformulates multi-support response spectrum (MSRS) method for structures with non-classical damping under non-uniform ground motions. This method achieves three key innovations: (1) Preserves the non-classical damping effects exactly and achieves accuracy identical to the conventional complex multi-support response spectrum (CMSRS) method; (2) Integrates the excitation terms via the inherent deterministic velocity-acceleration coupling in the proposed hybrid excitation concept while retaining full physical accuracy, thereby significantly enhancing computational efficiency; (3) Achieves a highly concise MSRS calculation formula, where the required numbers of modal participation factors, root mean squares, and correlation coefficients are only 0 (already integrated into the new transfer function), 2, and 3, respectively. Compared with the independent excitation multi-support response spectrum (IEMSRS) method, the numbers of required parameters are reduced by 1, 3, and 3, respectively. These reductions are even more pronounced when compared with the CMSRS method, reaching 6, 3, and 12, respectively. A hierarchical set of numerical validations demonstrates not only the proposed method’s accuracy and reliability, but also its high computational efficiency. Results show the method provides speedups of 4.07-fold and 1.94-fold compared with the CMSRS and IEMSRS methods, respectively. The concise yet rigorous HEMSRS method proposed herein offers a more practical solution and may facilitate broader MSRS analysis applications.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      },
+      {
+        "id": "https://openalex.org/W7213981708",
+        "doi": "10.1016/j.engstruct.2026.123809",
+        "title": "Effect of bond performance on flexural crack width of SCBSB concrete beam",
+        "published": "2026-09-22",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.123809",
+        "authors": [
+          "Xiaoping Zhong",
+          "Jingao Chai",
+          "Renjie Wu",
+          "Boyang Liu",
+          "Xuhan Wang",
+          "Jin Xia",
+          "Jun Zhang",
+          "Wenjie Ge"
+        ],
+        "institutions": [
+          "Yangzhou University",
+          "Hong Kong Polytechnic University",
+          "Zhejiang University",
+          "Ningbo University of Technology"
+        ],
+        "journal": "Engineering Structures",
+        "abstract": "Stainless steel-clad bimetallic steel bars (SCBSB) are an attractive choice for durable reinforced concrete (RC) structures in aggressive environments, where controlling crack width is critical to preventing chloride ingress and exploiting the cladding’s corrosion resistance. However, at the beam component level, the bond behavior of SCBSB differs from that of conventional and solid stainless steel reinforcement, and how this distinct bond performance influences crack development and serviceability remains poorly understood. To clarify the bond-dependent cracking mechanisms, eleven beams with varied reinforcement types, concrete strengths, and reinforcement ratios were tested under four-point bending, and their failure modes, load capacity, strain distribution, and crack evolution were systematically examined. The results show that both the yield and ultimate loads increase with higher reinforcement ratios and concrete strength grades. This distributed crack pattern, attributed to the distinct bond characteristics of the clad reinforcement, produces narrower cracks that restrict chloride ingress and better preserve the protective function of the stainless steel cladding. A bond–slip constitutive model calibrated from pull‑out tests was incorporated into a nonlinear finite element model, which accurately predicted the load–deflection response, crack width evolution, and failure modes. Parametric analysis confirmed that bond stiffness strongly governs crack width under high service loads, and the validated model provides a reliable tool for optimizing crack-control design of RC beams with SCBSB.",
+        "citation_count": 0,
+        "method": "Numerical Simulation"
+      },
+      {
+        "id": "https://openalex.org/W7213988185",
+        "doi": "10.1016/j.engstruct.2026.123814",
+        "title": "Bayesian reliability updating of existing structures after an intense dynamic event",
+        "published": "2026-09-22",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.123814",
+        "authors": [
+          "Jorge L. Alamilla",
+          "Esteban Flores"
+        ],
+        "institutions": [
+          "Instituto Politécnico Nacional"
+        ],
+        "journal": "Engineering Structures",
+        "abstract": "Structural reliability assessments have primarily focused on new structures. However, many existing structures may not meet current design codes, have been in service for decades, and have shown satisfactory performance after intense dynamic events, yet their reliability based on observed performance has received little attention. This study presents several key contributions: (1) it proposes three probabilistic approaches for reliability assessment of existing nonlinear structures, depending on the type and amount of information available. The first approach provides an approximate reliability estimate based solely on satisfactory performance after an intense dynamic event when available structural information is very limited. The second approach applies Bayesian updating to the probability distributions of mechanical properties by incorporating design data and field measurements; structural reliability is then assessed using these updated distributions. The third approach, representing the main contribution, performs direct Bayesian updating of the structural reliability model for existing nonlinear structures by incorporating actual observed performance after real dynamic events, addressing a critical gap in the literature. (2) It establishes a direct link between real observed performance and the intensity of dynamic loading within a theoretical safety margin framework. (3) It classifies the sources of uncertainty, enabling tailored mathematical analysis for each scenario. The proposed formulations are illustrated using two reinforced concrete buildings subjected to seismic disturbances. Collectively, these approaches provide a unified and rational framework for evaluating the reliability of existing structures subjected to real dynamic events, reducing implicit epistemic uncertainty and supporting more informed, probabilistic decision-making, thereby providing increased belief in structural reliability estimates.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      },
+      {
+        "id": "https://openalex.org/W7214009251",
+        "doi": "10.1016/j.engstruct.2026.123774",
+        "title": "An efficient Bayesian method for identifying large structural systems in eigen-space using reduced-order sub-structures",
+        "published": "2026-09-22",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.123774",
+        "authors": [
+          "Yanlong Peng",
+          "Z Liu",
+          "Jia‐Hua Yang",
+          "Zhi Huang",
+          "Heung‐Fai Lam"
+        ],
+        "institutions": [
+          "Hunan University of Science and Technology",
+          "Hunan University",
+          "Guangxi University",
+          "City University of Hong Kong"
+        ],
+        "journal": "Engineering Structures",
+        "abstract": "Identifying accurate models of large structural systems conditional on experimental data is critical for understanding structural behaviors and predicting future structural conditions for life-cycle management of structures. Experimental modal parameters are usually used as data for structural identification due to the lack of excitations, so the eigenvalue problem needs to be repeatedly solved in the identification process. This is very time consuming for full-scale structures with large models. The computational time will even escalate to a level that prohibits practical applications if uncertainties are to be calculated. Considering the above problems, an efficient Bayesian method is developed. It has the following contributions. First, the eigenvalue problem equation is embedded in the posterior probability density function (PDF) of uncertain parameters so that experimental modes can be directly used without spending extra time solving for many calculated modes for mode matching. Second, the parameterization based on sub-structures is used to introduce a linear relationship between structural and modal parameters. A reduced-order sub-structure method is proposed to keep only a few modes for un-measured locations while keeping all the modes for measured locations for each sub-structure. This considerably reduces the dimension of structural system matrices. Third, a new sampling method combined with an enhanced iterative algorithm is developed to explore the parameter space for constructing the posterior PDF and quantifying uncertainties. Iteration is done for each parameter sample to locate a local most probable value (MPV) of uncertain parameters. Leveraging on the proposed linear relationship and the reduced sub-structures, the analytical formula of the optimum of each parameter conditional on others is obtained to facilitate efficient iteration. The posterior PDF is then constructed by a weighted sum of Gaussian PDFs centered at the possible local MPVs using Laplace’s method of asymptotic approximation. The proposed method is verified numerically and experimentally with two shear buildings and a full-scale building, respectively.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      },
+      {
+        "id": "https://openalex.org/W7214010173",
+        "doi": "10.1016/j.engstruct.2026.123771",
+        "title": "Seismic performance enhancement mechanism of MSDRC system with supplemental damping device",
+        "published": "2026-09-22",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.123771",
+        "authors": [
+          "Chunxue Dai",
+          "Wei Wang",
+          "Shuling Hu"
+        ],
+        "institutions": [
+          "Tongji University",
+          "Huaqiao University",
+          "Shanghai Institute of Disaster Prevention and Relief",
+          "Southeast University"
+        ],
+        "journal": "Engineering Structures",
+        "abstract": "The multiple self-centering dual rocking core (MSDRC) system was proposed to mitigate the higher mode effects in the self-centering dual rocking core (SDRC) system, which was confirmed via the theoretical and nonlinear simulation analysis. However, the theoretical and simulation analysis results of the MSDRC system showed that abrupt displacement variations develop along the height of the MSDRC system under earthquakes, primarily occurring at the additional rocking sections. This paper aims to develop a simplified distributed parameter model to explore the seismic performance enhancement mechanism of the MSDRC system with supplemental damping device. The additional dampers are installed at rocking sections to suppress the abrupt displacement variations, especially under strong earthquakes. This paper focuses on the elastic dynamic response; the supplemental device is idealized as an equivalent rotational restraint rather than an explicit damping term. Parameter analysis was conducted to explore the influences of the design parameters on the performance of the MSDRC system with equivalent rotational restraint. The parameters include the comparative stiffness of the rocking core versus that of the gravity frame, and the comparative stiffness of the SFSDs versus that of the supplemental dampers installed at the rocking section. The dynamic evaluation covers the modal contribution factors, the displacement distribution, and the shear and moment distributions in the rocking cores and the steel frame. The analysis results indicate that the influence of the equivalent rotational restraint at rocking sections is not uniformly beneficial for all response quantities. While increasing R r can alleviate displacement discontinuity and reduce selected higher modal responses in the rocking cores, it may simultaneously amplify certain modal participation factors or higher modal contributions in other responses. The developed analytical model explicitly reveals these non-monotonic and parameter-dependent effects, which cannot be directly inferred from previous studies. Moreover, the derived characteristic equation and closed-form modal response solutions provide a direct tool for rapid preliminary evaluation of the effect of R r , without relying exclusively on complex nonlinear time-history analyses.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      },
+      {
+        "id": "https://openalex.org/W7214045839",
+        "doi": "10.1016/j.engstruct.2026.123791",
+        "title": "Similitude for dynamic response of blast-loaded steel frames",
+        "published": "2026-09-22",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.123791",
+        "authors": [
+          "Lixing Li",
+          "Pu Song",
+          "Chuan Xiao",
+          "Huaiwei Huang",
+          "Xiaohu Yao"
+        ],
+        "institutions": [],
+        "journal": "Engineering Structures",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7213948818",
+        "doi": "10.1016/j.engstruct.2026.123793",
+        "title": "Experimental and numerical study on the shear performance of demountable BH (bolts and headless studs) connectors embedded in UHPC",
+        "published": "2026-09-21",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.123793",
+        "authors": [
+          "Haoting Jiang",
+          "Zhongya Zhang",
+          "Haolin Liu",
+          "Hongping Ye",
+          "Ziwei Liu",
+          "Jianting Zhou",
+          "Yang Zou"
+        ],
+        "institutions": [],
+        "journal": "Engineering Structures",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      }
+    ],
+    "Ultrasonics": [],
+    "Tunnelling and Underground Space Technology": [
+      {
+        "id": "https://openalex.org/W7213979747",
+        "doi": "10.1016/j.tust.2026.108145",
+        "title": "Automated multiscale damage assessment of power cable tunnel using ConvNeXt V2 and Panoptic FPN with super-resolution enhancement",
+        "published": "2026-09-22",
+        "url": "https://doi.org/10.1016/j.tust.2026.108145",
+        "authors": [
+          "Jeongmin Lee",
+          "Byunghyun Kim",
+          "Sanghyeon Cho",
+          "Nakhyun Chun",
+          "Soojin Cho"
+        ],
+        "institutions": [
+          "University of Seoul",
+          "The University of Texas at Austin",
+          "Electric Power Research Institute",
+          "Korea Electric Power Corporation (South Korea)"
+        ],
+        "journal": "Tunnelling and Underground Space Technology",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7214010787",
+        "doi": "10.1016/j.tust.2026.108131",
+        "title": "Modelling delayed smoke ventilation induced by jet fans for performance-based design of tunnel fire safety",
+        "published": "2026-09-22",
+        "url": "https://doi.org/10.1016/j.tust.2026.108131",
+        "authors": [
+          "Jiangdong Li",
+          "Kai Zhu",
+          "Ke Wu",
+          "Xinyan Huang",
+          "Lilin Wang",
+          "Tianhang Zhang"
+        ],
+        "institutions": [],
+        "journal": "Tunnelling and Underground Space Technology",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Numerical Simulation"
+      },
+      {
+        "id": "https://openalex.org/W7214026155",
+        "doi": "10.1016/j.tust.2026.108119",
+        "title": "Three-dimensional dynamic coupling mechanisms of shield tunnels in upper-soft–lower-hard strata under dispersive Rayleigh–Love wave excitation: A closed-form analytical framework",
+        "published": "2026-09-22",
+        "url": "https://doi.org/10.1016/j.tust.2026.108119",
+        "authors": [
+          "Bin Li",
+          "Jiguo Liu",
+          "Yu Miao",
+          "Xiaohua Ke"
+        ],
+        "institutions": [
+          "Huazhong University of Science and Technology",
+          "CCCC Highway Consultants (China)"
+        ],
+        "journal": "Tunnelling and Underground Space Technology",
+        "abstract": "Shallow-buried shield tunnels in upper-soft–lower-hard strata may experience pronounced three-dimensional (3D) soil–tunnel interaction when dispersive Rayleigh and Love surface-wave components contribute substantially to the near-surface seismic wave field. Existing analytical models have yet to provide a unified closed-form framework capable of simultaneously capturing the coupled longitudinal, transverse, vertical, and torsional responses of such tunnels under combined surface-wave excitation. In this study, combined Rayleigh and Love excitation denotes the superposition of prescribed Rayleigh- and Love-wave inputs transmitted through the soil–tunnel interaction model, rather than direct wave–wave interaction in the ground. To address this limitation within a clearly defined scope, a Green’s-function-based closed-form formulation is developed by extending a validated two-dimensional Timoshenko beam on a viscoelastic Pasternak foundation into a 3D equivalent-continuum tunnel–foundation model. The segmental shield tunnel is represented as an equivalent continuous Timoshenko beam, with axial, bending, shear, and torsional stiffnesses interpreted as effective global stiffnesses that may incorporate joint- and bolt-induced stiffness reduction. Based on Hamilton’s principle and the response displacement method, six coupled governing equations are established, and 48 three-dimensional Green’s functions are derived to link eight equivalent Rayleigh/Love load components with six generalized tunnel responses. Controlled comparisons with finite-element simulations and reduced analytical solutions show good agreement within the adopted assumptions, boundary conditions, and parameter range. The formulation evaluates global demand quantities, including triaxial tension–compression, spatial bending, shear deformation, and torsion. Representative results reveal frequency-dependent structural/modal interaction, with global torsion exhibiting the strongest frequency sensitivity and reaching 18.1 times the quasi-static response at the first forced-response amplification peak. Under the examined input cases, the Love-wave component contributes appreciably to torsional amplification and axial–torsional transfer. The proposed formulation provides a physically interpretable analytical tool for mechanism investigation and preliminary seismic demand assessment of shallow-buried shield tunnels within the stated linear viscoelastic, equivalent-continuum, axial-propagation.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      },
+      {
+        "id": "https://openalex.org/W7213967214",
+        "doi": "10.1016/j.tust.2026.108135",
+        "title": "Automatic detection of water leakage defects in tunnel linings from GPR images using a MIL-based dual-path dynamic feature fusion approach",
+        "published": "2026-09-01",
+        "url": "https://doi.org/10.1016/j.tust.2026.108135",
+        "authors": [
+          "Yiwei Xu",
+          "Xi Wu",
+          "Xianlei Xu"
+        ],
+        "institutions": [
+          "China University of Mining and Technology",
+          "Beijing Normal University"
+        ],
+        "journal": "Tunnelling and Underground Space Technology",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7214007897",
+        "doi": "10.1016/j.tust.2026.108141",
+        "title": "A state-of-the-art review: structural performance of prefabricated underground facilities under blast and fire loads",
+        "published": "2026-09-01",
+        "url": "https://doi.org/10.1016/j.tust.2026.108141",
+        "authors": [
+          "Ruishan Cheng",
+          "Wensu Chen",
+          "Hong Hao"
+        ],
+        "institutions": [],
+        "journal": "Tunnelling and Underground Space Technology",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Review / Survey"
+      },
+      {
+        "id": "https://openalex.org/W7214017433",
+        "doi": "10.1016/j.tust.2026.108137",
+        "title": "Numerical study on the ventilation performance of emergency ventilation strategies for platform fire at a subway transfer station",
+        "published": "2026-09-01",
+        "url": "https://doi.org/10.1016/j.tust.2026.108137",
+        "authors": [
+          "Na Meng",
+          "Xiangming Hu"
+        ],
+        "institutions": [],
+        "journal": "Tunnelling and Underground Space Technology",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Numerical Simulation"
+      },
+      {
+        "id": "https://openalex.org/W7214026979",
+        "doi": "10.1016/j.tust.2026.108136",
+        "title": "Effect of altitude on the propagation of overpressure and temperature at explosion shock wave fronts in long straight tunnels",
+        "published": "2026-09-01",
+        "url": "https://doi.org/10.1016/j.tust.2026.108136",
+        "authors": [
+          "Hongyu luo",
+          "Yupeng Hu",
+          "Xiaowei Feng",
+          "Minghai Li"
+        ],
+        "institutions": [
+          "China Academy of Engineering Physics"
+        ],
+        "journal": "Tunnelling and Underground Space Technology",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7214030209",
+        "doi": "10.1016/j.tust.2026.108140",
+        "title": "Image-based Bayesian learning of geological knowledge and TBM operational data for prediction of rock mass classifications multi-step ahead of tunnel face",
+        "published": "2026-09-01",
+        "url": "https://doi.org/10.1016/j.tust.2026.108140",
+        "authors": [
+          "Chenhao Zhang",
+          "Yu Wang",
+          "Xu Li"
+        ],
+        "institutions": [
+          "City University of Hong Kong",
+          "Hong Kong University of Science and Technology",
+          "Beijing Jiaotong University"
+        ],
+        "journal": "Tunnelling and Underground Space Technology",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7214056248",
+        "doi": "10.1016/j.tust.2026.108142",
+        "title": "Decoupled quantification of heat release rate and longitudinal ventilation velocity in tunnel fires based on machine vision",
+        "published": "2026-09-01",
+        "url": "https://doi.org/10.1016/j.tust.2026.108142",
+        "authors": [
+          "Jiahao Hu",
+          "Cheng Gong",
+          "Zhi Tang",
+          "Wenjie Gao",
+          "Zheng Fang"
+        ],
+        "institutions": [],
+        "journal": "Tunnelling and Underground Space Technology",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      }
+    ],
+    "Rock Mechanics and Rock Engineering": [
+      {
+        "id": "https://openalex.org/W7213978828",
+        "doi": "10.1007/s00603-026-05719-1",
+        "title": "Experimental Study on Spatiotemporal Propagation of Stress Waves and Failure Characteristics of Rock in Double-Hole Blasting Under in-Situ Stress",
+        "published": "2026-09-22",
+        "url": "https://doi.org/10.1007/s00603-026-05719-1",
+        "authors": [
+          "Xiulong Wang",
+          "Jianyu Peng",
+          "Baodeng Liu",
+          "Chuanyi Liu",
+          "Fengpeng Zhang"
+        ],
+        "institutions": [
+          "Northeastern University"
+        ],
+        "journal": "Rock Mechanics and Rock Engineering",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      }
+    ]
+  }
+}
