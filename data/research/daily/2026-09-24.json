@@ -1,0 +1,544 @@
+{
+  "date": "2026-09-24",
+  "journals": {
+    "Automation in Construction": [
+      {
+        "id": "https://openalex.org/W7128957782",
+        "doi": "10.1016/j.autcon.2026.107254",
+        "title": "Multi-paradigm simulation approach for building permit process optimisation",
+        "published": "2026-09-23",
+        "url": "https://doi.org/10.1016/j.autcon.2026.107254",
+        "authors": [
+          "Hossein Motahar",
+          "Judith Fauth",
+          "Jürgen Melzner"
+        ],
+        "institutions": [],
+        "journal": "Automation in Construction",
+        "abstract": "All model files (baseline and optimized), together with the corresponding Genetic Algorithm scripts and their associated input and output datasets, are provided to ensure transparency and reproducibility of the reported results.",
+        "citation_count": 0,
+        "method": "Numerical Simulation"
+      }
+    ],
+    "Mechanical Systems and Signal Processing": [
+      {
+        "id": "https://openalex.org/W7214066077",
+        "doi": "10.1016/j.ymssp.2026.115001",
+        "title": "TimeXer-based main bearing temperature prediction and Bayesian fault early warning for offshore wind turbines via transfer learning",
+        "published": "2026-09-23",
+        "url": "https://doi.org/10.1016/j.ymssp.2026.115001",
+        "authors": [
+          "Weibing Weng",
+          "Zuling Yang",
+          "Anping Wan",
+          "Khalil AL-Bukhaiti",
+          "Yuntao Zhang",
+          "Renshen Tan",
+          "熊志辉 Xiong Zhihui"
+        ],
+        "institutions": [],
+        "journal": "Mechanical Systems and Signal Processing",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Machine Learning"
+      },
+      {
+        "id": "https://openalex.org/W7214075820",
+        "doi": "10.1016/j.ymssp.2026.115005",
+        "title": "Ultrasonic imaging modalities enabled by laser diffuse ultrasonic phased arrays",
+        "published": "2026-09-23",
+        "url": "https://doi.org/10.1016/j.ymssp.2026.115005",
+        "authors": [
+          "Jun Li",
+          "Paul D. Wilcox",
+          "Jie Zhang"
+        ],
+        "institutions": [],
+        "journal": "Mechanical Systems and Signal Processing",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7214091509",
+        "doi": "10.1016/j.ymssp.2026.114975",
+        "title": "Physics-constrained neural parameter calibration of a Bouc-Wen hysteresis model for bolted joint assemblies",
+        "published": "2026-09-23",
+        "url": "https://doi.org/10.1016/j.ymssp.2026.114975",
+        "authors": [
+          "Estevão Fuzaro de Almeida",
+          "Samuel da Silva"
+        ],
+        "institutions": [],
+        "journal": "Mechanical Systems and Signal Processing",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      }
+    ],
+    "Measurement": [
+      {
+        "id": "https://openalex.org/W7213933017",
+        "doi": "10.1016/j.measurement.2026.123269",
+        "title": "Research on defect detection of CFRP based on local defect resonance and laser Doppler vibrometry",
+        "published": "2026-09-22",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123269",
+        "authors": [
+          "Jianhua Shang",
+          "Jiahan Liu",
+          "Qixin Li",
+          "Fei Yao",
+          "Jiatong Sun",
+          "Yang Liu",
+          "Xiaojin Cheng"
+        ],
+        "institutions": [],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7214012079",
+        "doi": "10.1016/j.measurement.2026.123175",
+        "title": "Robust free-living arterial stiffness trend tracking from 25-Hz wearable photoplethysmography under motion artifacts and missingness",
+        "published": "2026-09-22",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123175",
+        "authors": [
+          "Myung-Kyu Yi",
+          "J.K. Kim",
+          "Jongshill Lee",
+          "Jeyeon Lee",
+          "In Young Kim"
+        ],
+        "institutions": [
+          "Anyang University"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7214037024",
+        "doi": "10.1016/j.measurement.2026.123286",
+        "title": "Cross-modal schlieren-like image reconstruction of supersonic inlet flows from wall-pressure signals using a pressure-guided StyleGAN framework",
+        "published": "2026-09-22",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123286",
+        "authors": [
+          "Yujie Wang",
+          "Yong-Ping Zhao"
+        ],
+        "institutions": [
+          "Nanjing University of Aeronautics and Astronautics"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7214056860",
+        "doi": "10.1016/j.measurement.2026.123212",
+        "title": "EIT image reconstruction based on particle filter and Gaussian derivative deblurring",
+        "published": "2026-09-22",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123212",
+        "authors": [
+          "Guoxing Huang",
+          "Xiaoming Fan",
+          "Qi Zhou",
+          "Jingwen Wang",
+          "Weidang Lu",
+          "Yu Zhang"
+        ],
+        "institutions": [
+          "Zhejiang University of Technology",
+          "Zhejiang University"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7213879228",
+        "doi": "10.1016/j.measurement.2026.123015",
+        "title": "Integrated multimodal structural health monitoring and feature fusion for fatigue damage assessment in open-hole woven composites",
+        "published": "2026-09-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123015",
+        "authors": [
+          "Nikhil Holsamudrkar",
+          "Lukesh Parida",
+          "Mritunjay Maharudrayya Hiremath",
+          "Akshay Prakash Kalgutkar",
+          "Mayank Kamal",
+          "Sauvik Banerjee",
+          "Asim Tewari"
+        ],
+        "institutions": [
+          "Aalto University, Finland"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7213923614",
+        "doi": "10.1016/j.measurement.2026.123261",
+        "title": "Geomagnetic vector matching navigation based on multi-feature fusion",
+        "published": "2026-09-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123261",
+        "authors": [
+          "Xu Liu",
+          "Dixiang Chen",
+          "Bo Huang",
+          "Qingfa Du",
+          "Zhongyan Liu",
+          "Yujie Xiang",
+          "Qi Zhang",
+          "Yueguo Hu",
+          "Mengchun Pan",
+          "Jiafei Hu"
+        ],
+        "institutions": [
+          "National University of Defense Technology"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7213971650",
+        "doi": "10.1016/j.measurement.2026.123264",
+        "title": "Design of high-sensitivity SiPM and crosstalk probability modeling in standard 180 nm BCD process",
+        "published": "2026-09-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123264",
+        "authors": [
+          "Dajing Bian",
+          "Baoyu Ni",
+          "Yuanhao Bi",
+          "Jiayuan Wang",
+          "Yue Xu"
+        ],
+        "institutions": [
+          "Nanjing University of Posts and Telecommunications"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      },
+      {
+        "id": "https://openalex.org/W7213982791",
+        "doi": "10.1016/j.measurement.2026.123221",
+        "title": "Mechanisms and strategies for regulating the vertical natural frequency of HTS maglev systems",
+        "published": "2026-09-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123221",
+        "authors": [
+          "Xiaoning Liu",
+          "Li Wang",
+          "Zigang Deng",
+          "Zhihao Ke",
+          "Canchang Liu",
+          "Haitao Li",
+          "Xiangyu Tian",
+          "Yuqiong Wang"
+        ],
+        "institutions": [
+          "Shandong University of Technology",
+          "Southwest Jiaotong University"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7214002858",
+        "doi": "10.1016/j.measurement.2026.123222",
+        "title": "Fusion measurement of a distributed measurement system and a terminal vision system",
+        "published": "2026-09-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123222",
+        "authors": [
+          "Fei Liu",
+          "Mingjun Wang",
+          "Haiyan Cheng",
+          "Qing Liu",
+          "Kun Jia",
+          "Xiao Pan"
+        ],
+        "institutions": [
+          "Xidian University",
+          "Shaanxi University of Science and Technology"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7214004999",
+        "doi": "10.1016/j.measurement.2026.123277",
+        "title": "A binaural localization method for multiple sound sources based on dynamic time-delay feature separation",
+        "published": "2026-09-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123277",
+        "authors": [
+          "Shiyang Wang",
+          "Xiaoqin Liu",
+          "Xing Fang Wu",
+          "Yashan Li",
+          "Jianlong Li",
+          "Ping Lu"
+        ],
+        "institutions": [
+          "Kunming University of Science and Technology",
+          "Dali University"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      }
+    ],
+    "Engineering Structures": [
+      {
+        "id": "https://openalex.org/W7214078894",
+        "doi": "10.1016/j.engstruct.2026.123806",
+        "title": "A geometry-aware sub-voxel homogenization method for complex implicit metamaterials",
+        "published": "2026-09-23",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.123806",
+        "authors": [
+          "Zhongkai Ji",
+          "Dawei Li",
+          "Yong Zhao",
+          "Zhiying Zhou",
+          "Wenhe Liao",
+          "Yi Min Xie"
+        ],
+        "institutions": [],
+        "journal": "Engineering Structures",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7214081089",
+        "doi": "10.1016/j.engstruct.2026.123796",
+        "title": "Reliability analysis with parallel active-learning surrogate modeling: Application to girder bridge overturning under extreme vehicle loads",
+        "published": "2026-09-23",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.123796",
+        "authors": [
+          "Chaolin Song",
+          "Zuqian Jiang",
+          "Jiaji Wang",
+          "Chi Zhang",
+          "Rucheng Xiao"
+        ],
+        "institutions": [],
+        "journal": "Engineering Structures",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Numerical Simulation"
+      },
+      {
+        "id": "https://openalex.org/W7214089338",
+        "doi": "10.1016/j.engstruct.2026.123836",
+        "title": "Flexural capacity of ECC beams based on ductility: The strain method and experimental validation",
+        "published": "2026-09-23",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.123836",
+        "authors": [
+          "Yan Zhang",
+          "Wei-Jie Xu",
+          "Xingsi Xie"
+        ],
+        "institutions": [],
+        "journal": "Engineering Structures",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7213971291",
+        "doi": "10.1016/j.engstruct.2026.123812",
+        "title": "High fidelity acoustic distributed fiber optic approach for prestressed concrete cylinder pipe prestressing wire break detection",
+        "published": "2026-09-22",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.123812",
+        "authors": [
+          "Yousif Alsendi",
+          "Christopher Eamon",
+          "Mike Hooper",
+          "John Norton"
+        ],
+        "institutions": [
+          "Wayne State University"
+        ],
+        "journal": "Engineering Structures",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7213977289",
+        "doi": "10.1016/j.engstruct.2026.123828",
+        "title": "In-service vibration performance of an engineered bamboo floor system: Dynamic properties and serviceability assessment",
+        "published": "2026-09-22",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.123828",
+        "authors": [
+          "Yifan Zhang",
+          "Yurong Shen",
+          "Sigong Zhang",
+          "Changqing Miao"
+        ],
+        "institutions": [
+          "Newcastle University",
+          "Nanjing Forestry University",
+          "Guilin University of Electronic Technology",
+          "Southeast University"
+        ],
+        "journal": "Engineering Structures",
+        "abstract": "Engineered bamboo is emerging as a sustainable alternative to timber in multi-storey construction, yet its in-service vibration performance remains uncharacterised. This paper presents the first comprehensive experimental investigation into the dynamic properties and vibration serviceability of an engineered bamboo floor system in a full-scale, occupied building. Four modal test configurations and a series of controlled walking tests were conducted under in-service conditions. Five vibration modes were identified in the frequency range of 16–29 Hz, with a fundamental frequency of approximately 16 Hz. The floor exhibited damping ratios of 5.1–5.3% for the fundamental mode and 2–4% for the higher-order modes, notably higher than the 1–2.5% typically reported for bare mass timber floors. A comparison of test configurations showed that an optimised measurement grid avoiding potential nodal regions along beam lines, combined with multiple accelerometers, provided the most complete and reliable modal identification. Vibration serviceability was assessed against ISO 10137 and AIJES-V0001–2018. At normal step frequencies, response factors remained around 4 and the AIJ rating was hardly annoyed, satisfying the requirements for general office environments. The findings are specific to the tested floor configuration; further field measurements across a range of engineered bamboo floor systems are needed to establish bamboo-specific design recommendations.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7213950074",
+        "doi": "10.1016/j.engstruct.2026.123757",
+        "title": "Reliability-based capacity assessment of corrosion-affected reinforced concrete structures considering strain incompatibility and climate impacts",
+        "published": "2026-09-21",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.123757",
+        "authors": [
+          "Saurav Kumar Nidhi",
+          "Siddharth Vijay Patel",
+          "Nikhil P. Zade",
+          "Mohammad Najeeb Shariff"
+        ],
+        "institutions": [
+          "Indian Institute of Technology Bombay"
+        ],
+        "journal": "Engineering Structures",
+        "abstract": "Corrosion of steel reinforcement is a primary deterioration mechanism in RC structures, which compromises structural capacity by inducing cross-sectional area loss, bond degradation, and strain incompatibility. However, a time-dependent reliability-based framework integrating environmental exposure, corrosion kinetics, bond deterioration, and sectional resistance remains limited. This study proposes an integrated probabilistic framework combining hygro-thermal with corrosion-kinetics to evaluate the flexural and shear capacities of corrosion-affected RC beams. Time-dependent corrosion propagation is predicted using climate-change models which includes temperature and relative humidity as main variables. Sectional capacity is evaluated using compatibility and incompatibility based flexural formulations and a strain based shear model. The proposed methodology is validated against experimental results reported in the literature. Subsequently, the probabilistic resistance degradation and corresponding failure risk of selected bridge girders are evaluated under a fixed load demand, considering the environmental conditions of four coastal cities across different continents. The uncertainties in material and deterioration parameters are incorporated through Monte Carlo simulation to quantify the time-dependent reduction in structural resistance and the associated failure probability. The city-wise increasing order of failure is observed to be consistent with increasing severity of exposure, favourable for corrosion kinetics. Results show that neglecting strain incompatibility leads to significant overestimation of flexural capacity. For all the selected cities and environmental exposure, ignoring strain incompatibility predicts a premature shear failure. The proposed study presents a mechanics-based, reliability framework for assessment and maintenance of corrosion-affected RC structures.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      },
+      {
+        "id": "https://openalex.org/W7213953812",
+        "doi": "10.1016/j.engstruct.2026.123798",
+        "title": "Damage assessment of prototype RC frame structure with masonry-infilled walls under external explosion: Tests and numerical simulations",
+        "published": "2026-09-21",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.123798",
+        "authors": [
+          "Junrun Li",
+          "Hao Wu",
+          "Yonggang Lu"
+        ],
+        "institutions": [
+          "Tongji University",
+          "China Academy of Engineering Physics"
+        ],
+        "journal": "Engineering Structures",
+        "abstract": "External explosive terrorist attacks have a higher occurrence probability and wider impact scope. To investigate the damage of buildings under external explosions, a two-story prototype reinforced concrete (RC) frame structure with masonry-infilled walls is constructed. Two external explosion tests (11.6 kg TNT) are carried out to analyze the blast loadings propagated into the structural interior and the dynamic behavior of the RC structure. The validity of the numerical simulation method is verified by comparing the overpressure-time histories and failure modes obtained from two tests. Furthermore, based on the explosion threat scenarios specified by the Federal Emergency Management Agency (FEMA), a numerical simulation study on the structural damage for seven explosion threats is conducted. The results show that the slab B1 shows a through hole with a diameter of 300 mm in test 1, and the wall QW12 shows a trapezoidal punching hole with a minimum horizontal length of 1100 mm, a maximum horizontal length of 2700 mm, and a vertical height of 1300 mm. However, the damage to RC columns and beams is negligible. Masonry-infilled walls can block the propagation of shock waves and significantly reduce the shock wave pressure propagated into the structural interior. It is recommended that the attenuation coefficient be taken as 0.9 for contact explosions and 0.95 for near-field explosions. For the seven typical explosion threats, the main RC frame remains relatively intact due to the significant reduction of shock wave pressure. The ejection of wall debris driven by the explosion becomes a secondary damage factor that expands the damage scope. The impact effect of wall debris is one of the primary reasons for damage to internal structural components.",
+        "citation_count": 0,
+        "method": "Numerical Simulation"
+      },
+      {
+        "id": "https://openalex.org/W7213956003",
+        "doi": "10.1016/j.engstruct.2026.123787",
+        "title": "Compensation effect of the self-prestressing iron-based shape memory alloy on prestress loss: Characterization via the cracking load of slab members",
+        "published": "2026-09-21",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.123787",
+        "authors": [
+          "Zhiqiang Dong",
+          "Cui Zou",
+          "Longlong Hu",
+          "Chushi Cui",
+          "Ziqing Liu",
+          "Hong Zhu"
+        ],
+        "institutions": [
+          "Southeast University",
+          "Shandong Jianzhu University"
+        ],
+        "journal": "Engineering Structures",
+        "abstract": "Prestress loss is one of the major factors affecting the anti-cracking performance and serviceability of prestressed concrete (PC) members. To this end, this study proposes an active prestress loss compensation technique utilizing the self-prestress generated by iron-based shape memory alloy (Fe-SMA) bars. To evaluate the effectiveness of the proposed technique, six concrete thin-slab specimens were fabricated and tested under four-point bending after resistive-heating activation of the Fe-SMA bars. The experimental parameters included the number of Fe-SMA bars and the level of prestress loss. The results indicate that the incorporation of activated Fe-SMA bars significantly increased the cracking load, yield load, and ultimate load while optimizing crack distribution and post-cracking behavior of the specimens. For specimens subjected to simulated prestress loss, the recovery stress provided by the activated Fe-SMA bars remained effective after a 310-day storage period, and both the cracking load and the load corresponding to a crack width of 1.0 mm were restored to levels comparable to, or even exceeding, those of the reference specimens without prestress loss. Based on the experimental results, the effective prestress of Fe-SMA bars was estimated from the experimentally observed cracking behavior, and the calculated values showed good agreement with the experimental results. The proposed technique provides a feasible approach for compensating prestress loss and enhancing the crack resistance of prestressed concrete members.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7213967230",
+        "doi": "10.1016/j.engstruct.2026.123811",
+        "title": "Modal Super-Resolution CNN and Fourier Neural Operator for High-Resolution Beam Damage Identification from Sparse Modal Measurements",
+        "published": "2026-09-01",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.123811",
+        "authors": [
+          "Jinghao Fei",
+          "Chul‐Woo Kim",
+          "D.B. Chen",
+          "Hongkang Pan",
+          "Rongxiu Chen",
+          "Jiaji Wang"
+        ],
+        "institutions": [
+          "Kyoto University",
+          "University of Hong Kong"
+        ],
+        "journal": "Engineering Structures",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      },
+      {
+        "id": "https://openalex.org/W7213979424",
+        "doi": "10.1016/j.engstruct.2026.123816",
+        "title": "Numerical Investigation and In-plane Cyclic Performance Assessment of Flexurally Dominated Reinforced Masonry Shear Walls: Comparative Analysis of Fully and Partially Grouted Walls with Rectangular and Boundary Elements.",
+        "published": "2026-09-01",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.123816",
+        "authors": [
+          "AbdelRahman AbdAllah",
+          "Belal AbdelRahman",
+          "Khaled Galal",
+          "Najib Bouaanani",
+          "Pierre Léger"
+        ],
+        "institutions": [
+          "Ain Shams University",
+          "Concordia University",
+          "University of Saskatchewan",
+          "Polytechnique Montréal"
+        ],
+        "journal": "Engineering Structures",
+        "abstract": "Reinforced masonry shear walls (RMSWs) play a crucial role in providing the lateral stability and capacity in reinforced (RM) buildings. RMSWs are categorized based on their grouting, namely, fully grouted (FG), partially grouted (PG), and ungrouted. FG-RMSWs offer superior strength, stiffness, and energy dissipation, making them suitable for high-seismic hazard regions, while PG-RMSWs provide a balance between structural performance and cost, being lighter and more economical. Literature lacks studies comparing the lateral behavior of PG-RMSWs and their counter parts of FG-RMSWs sharing the same capacity and design parameters, as well as CSA S304-14 limits the usage of PG-RMSWs in low rise RM buildings. Therefore, this study presents a numerical analysis of the in-plane lateral response of 42 full-scale flexurally dominated RMSWs under constant axial load and in-plane cyclic loading. The studied walls included 24 RMSWs with boundary elements (RMSW+BEs) and 18 rectangular RMSWs (REC RMSWs). Each group was designed with three sets of walls, varying in grouting (FG vs PG) and reinforcement type—bond beam reinforcement (BBR) or bed joint reinforcement (BJR). Design variables included wall aspect ratios (3.0, 5.0, 7.0, and 9.0) and axial compressive stress levels (4.0% and 6.0%). Numerical modeling using the Applied Element Method (AEM) in ELS software showed good agreement with experimental data for similar configurations, validating the accuracy of the models. The study aims to evaluate the cyclic behavior of PG- and FG-RMSWs, assess the effects of BBR and BJR, and determine the seismic response modification factors ( R d , R o ) in accordance with the Canadian Standards for Design of Masonry Structures (CSA S304). Additionally, fragility curves were developed following FEMA P58-1 guidelines to assess the probability of exceeding various damage states, with results validated through the Lilliefors test. The numerical results reveal that PG-RMSWs exhibited comparable ductility and drift capacities to FG-RMSWs, though with slightly reduced overstrength factors, achieving up to 41% material savings for rectangular walls. The fragility functions demonstrated the suitability of both FG-RMSWs and PG-RMSWs for performance-based seismic design. This study underscores the potential of PG-RMSWs as a ductile and cost-effective solution for mid- to high-rise RM buildings, when adopting performance-based design standards.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      }
+    ],
+    "Ultrasonics": [],
+    "Tunnelling and Underground Space Technology": [
+      {
+        "id": "https://openalex.org/W7214115131",
+        "doi": "10.1016/j.tust.2026.108138",
+        "title": "Numerical investigation of segment uplift induced by fresh grout in shield tunneling: an immersed boundary-based fluid–structure interaction model",
+        "published": "2026-09-23",
+        "url": "https://doi.org/10.1016/j.tust.2026.108138",
+        "authors": [
+          "Xiaolong Li",
+          "Xiaofeng Liu",
+          "Pengchao Li",
+          "Ming Guo",
+          "Bei Zhang",
+          "Yanhui Zhong"
+        ],
+        "institutions": [
+          "Kunming Metallurgy College",
+          "Zhengzhou University"
+        ],
+        "journal": "Tunnelling and Underground Space Technology",
+        "abstract": "During shield tunnel construction, the initial buoyancy generated by synchronous grouting frequently induces segment uplift, which may lead to defects such as misalignment and cracking. These defects compromise construction quality and threaten the long-term structural safety of the tunnel. Conventional numerical models typically simulate grout consolidation using an equivalent layer method, but they cannot accurately capture the dynamic spatial distribution of the grout or the fluid–structure interaction (FSI) between the grout and the segments. To overcome this limitation, this study develops an FSI model for segment uplift based on the direct-forcing immersed boundary method (IBM). The model represents the segment–grout interface via IBM, discretizes the governing equations with a collocated-grid finite volume method, and solves the flow field using the PISO algorithm. A time-dependent viscosity function is introduced to simulate the progressive consolidation and hardening of the grout. The model is validated against field measurements from two shield tunnels of different diameters: Hangzhou Metro Line 7 (6.2 m) and Jinan Rail Transit Line 9 (6.4 m). For the Hangzhou case, the average relative error across five monitored rings is 8.58 %. For the Jinan case, the proposed IBM-FVM model is quantitatively compared with the widely used equivalent layer method, yielding relative errors of 2.71 % and 8.06 % against the measured values, which are significantly lower than the 8.53 % and 13.55 % produced by the equivalent layer method. The simulation results reveal distinct spatiotemporal characteristics of grout flow during uplift: it evolves from an initial layered pattern to a uniform directional flow during rapid uplift, and eventually reaches a steady state. The influence of shield attitude is further examined by varying the pitch angle, revealing a clear linear relationship between the final uplift displacement and the inclination angle; a downward inclination can effectively offset part of the uplift. An orthogonal experimental design combined with parametric simulations is employed to investigate key grout properties. Through targeted case comparisons, the interrelationships among apparent density, initial setting time, and initial viscosity are decoupled. The results demonstrate that the dominant rheological factor governing early uplift resistance is the initial viscosity, rather than the reduced buoyancy caused by grout density. Among the parameters, the water–binder ratio exerts the strongest influence. These findings provide a theoretical basis for optimizing synchronous grouting practices and controlling segment uplift in engineering applications.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      }
+    ],
+    "Rock Mechanics and Rock Engineering": []
+  }
+}
