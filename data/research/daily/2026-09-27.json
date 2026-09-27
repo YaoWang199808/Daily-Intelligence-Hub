@@ -1,0 +1,558 @@
+{
+  "date": "2026-09-27",
+  "journals": {
+    "Automation in Construction": [
+      {
+        "id": "https://openalex.org/W7214423717",
+        "doi": "10.1016/j.autcon.2026.107273",
+        "title": "Database-driven IFC framework for digital twins of existing structures",
+        "published": "2026-09-26",
+        "url": "https://doi.org/10.1016/j.autcon.2026.107273",
+        "authors": [
+          "Jiangpeng Shu",
+          "Yuhang Luo",
+          "Jiawang Song",
+          "Congguang Zhang",
+          "Jianhua Zhang",
+          "Nanfei Jia",
+          "Wei Ji"
+        ],
+        "institutions": [],
+        "journal": "Automation in Construction",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7214452774",
+        "doi": "10.1016/j.autcon.2026.107286",
+        "title": "Vector-level panoptic symbol spotting for CAD drawing understanding",
+        "published": "2026-09-26",
+        "url": "https://doi.org/10.1016/j.autcon.2026.107286",
+        "authors": [
+          "Zhengjie Liu",
+          "Jianing Zhang",
+          "Zhaoqi Huang",
+          "Yujie Lu",
+          "Ruifeng Luo",
+          "赵先仲"
+        ],
+        "institutions": [],
+        "journal": "Automation in Construction",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7214505104",
+        "doi": "10.1016/j.autcon.2026.107288",
+        "title": "Toward intelligent safety assurance in construction human-robot collaboration",
+        "published": "2026-09-26",
+        "url": "https://doi.org/10.1016/j.autcon.2026.107288",
+        "authors": [
+          "Mingzhu Wang",
+          "Shijing Xu"
+        ],
+        "institutions": [
+          "City University of Hong Kong"
+        ],
+        "journal": "Automation in Construction",
+        "abstract": "Construction human-robot collaboration (HRC) introduces physical, ergonomic, and cognitive risks that conventional isolated-based safeguards cannot adequately manage in dynamic, unstructured worksites and requires more adaptive forms of safety assurance. Although diverse robotics-related approaches have been developed, how they function as interconnected, active safety-assurance mechanisms for construction HRC remains insufficiently synthesised. This paper systematically reviews 215 studies published from 2011 to 2025 through PRISMA-guided screening, bibliometric analysis and thematic synthesis. Five connected technological directions are identified: robot design optimisation, context-aware perception, human-centric understanding and forecasting, autonomous robotic adaptation, and safety management. The synthesis shows a transition from passive risk avoidance toward perception-driven, prediction, and adaptive safety assurance, but 54% of studies remain limited to controlled laboratory validation, and few integrate uncertainty across sensing, prediction, control and supervision. Accordingly, a closed-loop framework is proposed to guide the integration and construction-realistic validation of verifiable, uncertainty-aware HRC safety systems.",
+        "citation_count": 0,
+        "method": "Review / Survey"
+      }
+    ],
+    "Mechanical Systems and Signal Processing": [
+      {
+        "id": "https://openalex.org/W7214445481",
+        "doi": "10.1016/j.ymssp.2026.115012",
+        "title": "A novel low-complexity amplitude estimation ESPRIT algorithm for blade feature parameter identification based on BTT signals",
+        "published": "2026-09-26",
+        "url": "https://doi.org/10.1016/j.ymssp.2026.115012",
+        "authors": [
+          "Kun Shan",
+          "Hui Li",
+          "Hongwei Cao",
+          "Wei Fan",
+          "HE Changbo"
+        ],
+        "institutions": [],
+        "journal": "Mechanical Systems and Signal Processing",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7212149139",
+        "doi": "10.5281/zenodo.22693537",
+        "title": "Modelling and Characterisation of the Unzipping Dynamics of Dielectric Fluid Actuators",
+        "published": "2026-09-14",
+        "url": "https://doi.org/10.5281/zenodo.22693537",
+        "authors": [
+          "Marco Riva",
+          "Rajat Chaudhary",
+          "Sandra Dirè",
+          "Luca Fambri",
+          "Marco Fontana",
+          "Giacomo Moretti"
+        ],
+        "institutions": [
+          "University of Trento",
+          "Scuola Superiore Sant'Anna"
+        ],
+        "journal": "Mechanical Systems and Signal Processing",
+        "abstract": "Scientific article published (open access) on the journal Mechanical Systems and Signal Processing. The present upload contains the editorial version of the paper. This project has received funding from the European Union under the European Research Council grant agreement No 101163668 (flEAP)",
+        "citation_count": 0,
+        "method": "Numerical Simulation"
+      }
+    ],
+    "Measurement": [
+      {
+        "id": "https://openalex.org/W7214279902",
+        "doi": "10.1016/j.measurement.2026.123115",
+        "title": "Directional vibration degradation indicators for rolling bearing fault severity assessment using run-to-failure vibration data",
+        "published": "2026-09-25",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123115",
+        "authors": [
+          "Yasin Uslugil",
+          "Haşmet Çağrı Sezgen"
+        ],
+        "institutions": [
+          "KTO Karatay University"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7214107824",
+        "doi": "10.1016/j.measurement.2026.123252",
+        "title": "A windowed auxiliary vector-based dual-branch method for ambiguity-suppressed BOC signal acquisition",
+        "published": "2026-09-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123252",
+        "authors": [
+          "Qian Zhao",
+          "Wenlong Xia",
+          "Linyu Huang",
+          "Qinggong Guo"
+        ],
+        "institutions": [
+          "Sichuan University"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7214109417",
+        "doi": "10.1016/j.measurement.2026.123297",
+        "title": "Sensitivity-natural frequency correlation modeling and structural parameter-domain identification for a piezoelectric pressure sensor for blast-wave measurement",
+        "published": "2026-09-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123297",
+        "authors": [
+          "Wenjing Zhao",
+          "Peng Peng",
+          "Yongjian Zhang",
+          "Yunfeng He",
+          "Xin Chen",
+          "Tao Lin",
+          "Renhan Xu",
+          "Dahai Li",
+          "Changán Di"
+        ],
+        "institutions": [
+          "Nanjing University of Science and Technology",
+          "Nanjing Institute of Technology",
+          "System Equipment (China)",
+          "Nanjing Institute of Railway Technology"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      },
+      {
+        "id": "https://openalex.org/W7214118532",
+        "doi": "10.1016/j.measurement.2026.123099",
+        "title": "MediEdge: A low-cost edge-based cyber–physical IoT platform for real-time remote patient monitoring with comparative validation",
+        "published": "2026-09-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123099",
+        "authors": [
+          "Ajoy Shil",
+          "Akib Jayed Islam",
+          "Akib Jayed Islam"
+        ],
+        "institutions": [
+          "United International University"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7214161722",
+        "doi": "10.1016/j.measurement.2026.123305",
+        "title": "Experimental characterisation and measurement-based modelling of nonlinear hydraulic interactions in lightweight disc brake systems",
+        "published": "2026-09-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123305",
+        "authors": [
+          "Zhang Chengjie",
+          "Fanbin Kong",
+          "Jian Yu",
+          "Feng Yu"
+        ],
+        "institutions": [
+          "Qingdao University of Science and Technology",
+          "Qingdao Academy of Intelligent Industries"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      },
+      {
+        "id": "https://openalex.org/W7214174760",
+        "doi": "10.1016/j.measurement.2026.123291",
+        "title": "Smartphone-based vibration signal measurement and analysis: capabilities, limitations, and applications",
+        "published": "2026-09-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123291",
+        "authors": [
+          "Fasikaw Kibrete",
+          "Shravan Kumar Yadav",
+          "Boaz Berhanu Tulu",
+          "Temesgen Tadesse Feisa",
+          "Kirubeil Awoke Ferede",
+          "Bewketu Gizachew Mekonnen",
+          "Tayachew Nega",
+          "Yihun Tefera Sintie"
+        ],
+        "institutions": [
+          "University of Gondar",
+          "SR University",
+          "University of Florida",
+          "Dilla University"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7214178499",
+        "doi": "10.1016/j.measurement.2026.123320",
+        "title": "Aerosol-jet-printed in-situ integrated temperature sensor for cutting heat monitoring towards smart turning tools",
+        "published": "2026-09-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123320",
+        "authors": [
+          "Yunhang Liu",
+          "Hao Yi",
+          "Menglin Liu",
+          "Huajun Cao"
+        ],
+        "institutions": [
+          "Chongqing University",
+          "Huazhong University of Science and Technology"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7214181028",
+        "doi": "10.1016/j.measurement.2026.123313",
+        "title": "Improving five-axis machine tool accuracy (PIGEs) through physics-informed machine learning models",
+        "published": "2026-09-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123313",
+        "authors": [
+          "Seth Osei",
+          "Wei Wang",
+          "Jiaying Wang",
+          "Jiahao Yu",
+          "Deborah Nkhata",
+          "Qicheng Ding",
+          "Francis Kumi"
+        ],
+        "institutions": [
+          "University of Electronic Science and Technology of China",
+          "Chengdu University of Technology",
+          "University of Cape Coast"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      },
+      {
+        "id": "https://openalex.org/W7214200814",
+        "doi": "10.1016/j.measurement.2026.123103",
+        "title": "Research on anisotropic flexible magnetic sensing arrays based on magnetic anisotropic conductive network reconstruction",
+        "published": "2026-09-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123103",
+        "authors": [
+          "Meng Li",
+          "Xinqi Gong",
+          "Yu Cao",
+          "Junran Chen",
+          "Deping Liu",
+          "Bin Liu",
+          "Guosheng Xia",
+          "Jian Ren"
+        ],
+        "institutions": [
+          "Shenyang University of Technology",
+          "China General Nuclear Power Corporation (China)",
+          "Nuclear Power Institute of China"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7214220490",
+        "doi": "10.1016/j.measurement.2026.123236",
+        "title": "Structure-aware adaptive densification for rebar-cage tubular network reconstruction and geometric measurement",
+        "published": "2026-09-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123236",
+        "authors": [
+          "Yanchao Dong",
+          "Yunxuan Liu",
+          "Wen Sun",
+          "Chao Zeng",
+          "Bin He",
+          "Jia Guo"
+        ],
+        "institutions": [
+          "Tongji University",
+          "Shanghai Tunnel Engineering (China)"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      }
+    ],
+    "Engineering Structures": [
+      {
+        "id": "https://openalex.org/W7214453291",
+        "doi": "10.1016/j.engstruct.2026.123852",
+        "title": "Mechanics-heteroscedastic probabilistic model for shear strength of prestressed concrete beams with shear reinforcements",
+        "published": "2026-09-26",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.123852",
+        "authors": [
+          "Yujin Zhou",
+          "Bing Li",
+          "Zecheng Yu"
+        ],
+        "institutions": [],
+        "journal": "Engineering Structures",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7214463183",
+        "doi": "10.1016/j.engstruct.2026.123847",
+        "title": "Seismic derailment-induced train–wall impact on high-speed railway bridges: A two-stage numerical and data-driven assessment framework",
+        "published": "2026-09-26",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.123847",
+        "authors": [
+          "Jun Chen",
+          "Biao Wei",
+          "Chenxi ZHAO",
+          "Minghui Wang"
+        ],
+        "institutions": [
+          "Central South University"
+        ],
+        "journal": "Engineering Structures",
+        "abstract": "Earthquake-induced derailment can lead to train impacts against bridge protective walls, but the collision state is rarely derived from the preceding derailment motion. This study links a train–track–bridge seismic model to a train–reinforced concrete wall impact model to assess the resulting spatial intrusion. The framework transfers pre-contact attitude, velocity, and position and measures the maximum leading-car upper-body volume fraction beyond the wall plane within 1.0 s. For the investigated CRH2 train, China Railway Track System type III (CRTS III) slab track, and six-span bridge, 182 of 225 seismic cases enter the right-wall terminal class. A balanced database of 400 impact simulations supports comparison of six surrogate models and evaluation of prediction uncertainty. Gaussian process regression achieves a root mean square error of 0.0384 and a coefficient of determination of 0.927 on 80 independent holdout cases. Its 95% conformal prediction interval provides 97.5% empirical marginal coverage. Motion variables account for 93.6% of normalized positive permutation importance, while increasing stirrup diameter reduces the predicted exceedance ratio by about 0.069 at a fixed high-demand state. These results show that collision demand depends strongly on the inherited motion state, with wall reinforcement providing additional restraint. The framework supports preliminary comparison of protective-wall options and prioritization of detailed analyses; applications to other railway systems require independent validation and calibration.",
+        "citation_count": 0,
+        "method": "Numerical Simulation"
+      },
+      {
+        "id": "https://openalex.org/W7214487255",
+        "doi": "10.1016/j.engstruct.2026.123851",
+        "title": "Cyclic behavior and flexural-shear deformation mechanism of sea-sand concrete shear walls reinforced with steel-GFRP composite bars",
+        "published": "2026-09-26",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.123851",
+        "authors": [
+          "Minsheng Guan",
+          "Jiayu Wu",
+          "Meng Sha",
+          "Wenting Liu",
+          "Jiajun Gu",
+          "Xiaohong Liu"
+        ],
+        "institutions": [
+          "Shenzhen University",
+          "Shenzhen Stock Exchange",
+          "Shenzhen Third People’s Hospital"
+        ],
+        "journal": "Engineering Structures",
+        "abstract": "Sea-sand concrete is attractive for coastal and marine engineering, but chloride salts in sea sand may induce corrosion of conventional steel bars, compromising the durability and safety of shear wall structures. Although FRP bars provide excellent corrosion resistance, their limited ductility and energy dissipation capacity restrict their seismic application. To address this issue, steel-GFRP composite bars (SGFCBs) were used as longitudinal bars in sea-sand concrete shear walls. Four SGFCB-reinforced sea-sand concrete shear wall (SFSW) specimens and one conventional steel-reinforced concrete shear wall (SSW) specimen were tested under quasi-static cyclic loading. The investigated parameters were axial compression ratio, steel–fiber ratio, and GFRP stirrup ratio in the boundary confinement region. Compared with SSW, the SFSW specimens exhibited similar flexural-shear failure, slightly lower lateral load-carrying capacity, and larger ultimate drift ratios. Cyclic response analysis showed that the SFSW specimens had higher ductility and more stable stiffness and strength degradation, but slightly lower energy dissipation capacity. Lateral deformation decomposition showed that flexural deformation contributed 72–84% of the ultimate lateral displacement when the reference shape factor 0.8 was adopted and remained dominant in the sensitivity analysis, which indicates that SGFCB bars did not change the flexure-dominated deformation mechanism. Parameter analysis showed that increasing the steel-fiber ratio improved overall cyclic performance, increasing the axial compression ratio enhanced load-carrying capacity but reduced deformation capacity, and increasing the GFRP stirrup ratio in the boundary confinement region mainly improved deformation capacity. Overall, the proposed SFSW system exhibited satisfactory cyclic behavior, providing experimental evidence for durable and ductile shear wall structures in coastal and marine environments.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7214491860",
+        "doi": "10.1016/j.engstruct.2026.123840",
+        "title": "A time-domain semi-analytical framework for constructing input energy spectra from design spectra and its application to the Chinese seismic code",
+        "published": "2026-09-26",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.123840",
+        "authors": [
+          "Zhenyu Li",
+          "Xiaowei Cheng",
+          "T.Y. Yang",
+          "Hailin Sun",
+          "Yi Li"
+        ],
+        "institutions": [
+          "Beijing University of Technology",
+          "University of British Columbia",
+          "China Architecture Design & Research Group (China)"
+        ],
+        "journal": "Engineering Structures",
+        "abstract": "Constructing design spectra that accurately quantify seismic input energy is a fundamental task in energy-based seismic design. Existing time-domain empirical methods often rely on extensive or region-specific seismic data regressions, deep learning-based approaches lack physical interpretability, and frequency-domain theoretical methods face challenges in explicitly incorporating the cumulative effects of strong-motion duration ( t D ). To address these limitations, this study proposes a code-compatible, time-domain semi-analytical framework that derives elastic and plastic input energy equivalent velocity spectra ( V EI,E -spectra and V EI,P -spectra) directly from the design acceleration response spectra ( S a ) and t D. This study originally formulates harmonic time-domain steady-state solutions that decompose input energy into peak-response and time-accumulative components. Serving as the foundation, these solutions are extended to seismic scenarios via an inter-spectral mapping coefficient, C E ( t D , T g , ζ ), which links S a to input energy. Introducing a medium-to-long period attenuation index γ 1 ( t D , T g , ζ ) and categorizing t D into three types enable the proposed method to successfully establish V EI,E -spectra explicitly tailored for the Chinese Code for Seismic Design of Buildings. The V EI,E -spectra are further converted into V EI,P -spectra via regression-based conversion equations. Ground motion effects are already captured, which is why this conversion is governed solely by structural parameters—specifically the strength reduction factor ( R ), post-yield stiffness ratio ( λ ), and damping ratio ( ζ )—ultimately establishing V EI,P -spectra compatible with the Chinese code. Finally, the practicality and accuracy of the proposed V EI,E -spectra and V EI,P -spectra for the Chinese code are validated through four sets of case studies. This methodology provides a practical tool for rapidly estimating structural input energy directly from seismic codes.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      }
+    ],
+    "Ultrasonics": [
+      {
+        "id": "https://openalex.org/W7214487003",
+        "doi": "10.1016/j.ultras.2026.108320",
+        "title": "Topological acoustics and geometric phase sensing for non-destructive localization and characterization of defects",
+        "published": "2026-09-01",
+        "url": "https://doi.org/10.1016/j.ultras.2026.108320",
+        "authors": [
+          "I‐Ting Ho",
+          "I-Tzu Huang",
+          "Daniel Chertkov",
+          "Guangdong Zhang",
+          "Keith Runge",
+          "Krishna Muralidharan",
+          "Tribikram Kundu",
+          "Pierre Alix Deymier"
+        ],
+        "institutions": [],
+        "journal": "Ultrasonics",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7214494393",
+        "doi": "10.1016/j.ultras.2026.108319",
+        "title": "Elastic parameter reconstruction in transversely isotropic plates based on laser-ultrasonic lamb wave dispersion and S1 Zero-Group-Velocity (ZGV) mode",
+        "published": "2026-09-01",
+        "url": "https://doi.org/10.1016/j.ultras.2026.108319",
+        "authors": [
+          "Chao Zeng",
+          "Weiwei Kan",
+          "Haotian Jia",
+          "Yong Zhou",
+          "Zhonghua Shen"
+        ],
+        "institutions": [],
+        "journal": "Ultrasonics",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      }
+    ],
+    "Tunnelling and Underground Space Technology": [
+      {
+        "id": "https://openalex.org/W7214437663",
+        "doi": "10.1016/j.tust.2026.108158",
+        "title": "Structural response of shield tunnels induced by seepage erosion: an experimental study",
+        "published": "2026-09-26",
+        "url": "https://doi.org/10.1016/j.tust.2026.108158",
+        "authors": [
+          "Si-Rui Chen",
+          "Dongmei Zhang",
+          "Huihao Chen",
+          "Zhao-Geng Chen",
+          "Xiao-Chuang Xie",
+          "Xue-Liang Zhang"
+        ],
+        "institutions": [],
+        "journal": "Tunnelling and Underground Space Technology",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7214444100",
+        "doi": "10.1016/j.tust.2026.108160",
+        "title": "From microseismic monitoring to targeted reinforcement: a data-driven simulation approach for deep tunnel stability",
+        "published": "2026-09-26",
+        "url": "https://doi.org/10.1016/j.tust.2026.108160",
+        "authors": [
+          "Tongyan Fan",
+          "Qinghe Zhang",
+          "Wenxuan Dong",
+          "Xiaorui Wang",
+          "Changrui Duan",
+          "Jingguo Li"
+        ],
+        "institutions": [
+          "Anhui University of Science and Technology",
+          "Huainan Mining Industry Group (China)",
+          "China Railway Construction Corporation (China)",
+          "China Railway Group (China)"
+        ],
+        "journal": "Tunnelling and Underground Space Technology",
+        "abstract": "Deep hard-rock tunnels are highly susceptible to localized rock mass damage under the coupling effects of high in-situ stress and blasting disturbances during construction. The complex spatio-temporal evolution of such damage makes real-time identification and mitigation challenging. Taking a specific deep-seated hard-rock tunnel as the engineering background, this study develops a method for characterizing energy-induced damage and analyzing dynamic support under localized damage conditions, primarily utilizing three-dimensional numerical simulations integrated with microseismic monitoring and acoustic testing data. By establishing a quantitative relationship between energy dissipation and the degradation of rock mass mechanical parameters, a dynamic update of the damage evolution process within the numerical model is achieved. Simultaneously, acoustic testing is employed to characterize the damage zoning and spatial distribution, providing a benchmark for the numerical results. Furthermore, the spatial distribution of damage, energy response patterns, and their sensitivity to variations in support parameters are analyzed. The results indicate that: (1) Rock mass damage exhibits pronounced asymmetry, with high-damage zones concentrated at the right shoulder, which plays a dominant role in energy accumulation and crack propagation. The overall damage primarily develops within a range of 5 ∼ 16 m from the tunnel wall. (2) The damage field derived from microseismic analysis agrees well with the acoustic testing results, revealing a highly damaged excavation zone extending approximately 1.2 m; (3) A rapid increase in cumulative energy and apparent volume, accompanied by a decrease in the energy index, can serve as effective precursors of accelerated damage evolution; and (4) The combined support scheme outperforms single-parameter reinforcement measures, reducing the peak damage variable from 1.0 to 0.45 and significantly shrinking the extent of the damage-affected zone.",
+        "citation_count": 0,
+        "method": "Numerical Simulation"
+      },
+      {
+        "id": "https://openalex.org/W7214465388",
+        "doi": "10.1016/j.tust.2026.108122",
+        "title": "Rockburst evolution modeling with fracture-ejection behavior by a quasi-state-based peridynamics with cluster motion algorithm and energy-based criterion",
+        "published": "2026-09-26",
+        "url": "https://doi.org/10.1016/j.tust.2026.108122",
+        "authors": [
+          "Feng Tian",
+          "Zaobao Liu",
+          "Yubo Wang",
+          "전석원"
+        ],
+        "institutions": [
+          "Seoul National University",
+          "Northeastern University"
+        ],
+        "journal": "Tunnelling and Underground Space Technology",
+        "abstract": "Rockburst is a dynamic hazard with sudden occurrence and rapid energy release involving fracture localization and violent ejection of fragmented rock blocks during tunneling under high-stress environments. However, numerical simulations of rockbursts still lack a cluster-scale description of post-detachment rock block dynamics and an objective criterion for identifying whether the simulated motion constitutes a rockburst event. To address these gaps, a unified numerical framework integrating quasi-state-based peridynamics (QSBPD) with a motion-collision-fragment algorithm is developed for rockburst numerical modeling. This algorithm allows the post-failure rock block response, including separation, translation, rotation, collision, and secondary fragmentation, to be tracked in a unified manner, rather than being treated implicitly or omitted. Furthermore, an energy-based dual-index criterion is introduced to reduce ambiguity in event identification by distinguishing strain energy-driven ejection from gravity-dominated rock block motion and quantifying the strain-to-kinetic energy conversion. The proposed framework is evaluated using the Jinping 11·28 rockburst case. The simulation result reproduces the four-stage evolution, localized V-shaped failure zone, cluster ejection and interaction, and fragmentation observed in the documented event. The cluster velocities exhibit a clear size dependence, with smaller clusters moving faster than larger ones. Energy analysis identifies a pronounced conversion during the burst episode, with a global strain-to-kinetic energy conversion ratio of 44%. This energy signature provides a quantitative basis for identifying the simulated event as a rockburst and supports the applicability of the proposed energy-based criterion. The proposed framework provides a physically interpretable tool for process-consistent rockburst simulation and quantitative energy assessment.",
+        "citation_count": 0,
+        "method": "Numerical Simulation"
+      },
+      {
+        "id": "https://openalex.org/W7214475027",
+        "doi": "10.1016/j.tust.2026.108165",
+        "title": "A correction model for tunnel lining strength inspection based on the rebound method and wall-climbing robot",
+        "published": "2026-09-26",
+        "url": "https://doi.org/10.1016/j.tust.2026.108165",
+        "authors": [
+          "Qing Jin",
+          "Xilong Sun",
+          "Quan Xu",
+          "Zhihui Liu",
+          "Shanshuai Niu",
+          "Zizheng Sun"
+        ],
+        "institutions": [],
+        "journal": "Tunnelling and Underground Space Technology",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      }
+    ],
+    "Rock Mechanics and Rock Engineering": []
+  }
+}
