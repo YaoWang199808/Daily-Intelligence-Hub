@@ -1,0 +1,801 @@
+{
+  "date": "2026-10-01",
+  "journals": {
+    "Automation in Construction": [],
+    "Mechanical Systems and Signal Processing": [
+      {
+        "id": "https://openalex.org/W7214975249",
+        "doi": "10.1016/j.ymssp.2026.114999",
+        "title": "Autoencoder-based dimensionality reduction with multi-layer perceptron surrogates for global sensitivity analysis of high-dimensional nonlinear responses",
+        "published": "2026-10-01",
+        "url": "https://doi.org/10.1016/j.ymssp.2026.114999",
+        "authors": [
+          "Yanlin Zhao",
+          "Qi Yun",
+          "Jianhong Yang",
+          "Scott Cogan",
+          "Michael Beer"
+        ],
+        "institutions": [],
+        "journal": "Mechanical Systems and Signal Processing",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7214895880",
+        "doi": "10.1016/j.ymssp.2026.115018",
+        "title": "Electromagnetic vibration energy harvester with displacement amplification mechanism",
+        "published": "2026-09-30",
+        "url": "https://doi.org/10.1016/j.ymssp.2026.115018",
+        "authors": [
+          "Tianchen Yuan",
+          "Xinyao Wang",
+          "Xing-Feng Shen",
+          "Chunming Chen",
+          "Jian Yang",
+          "Li‐Qun Chen"
+        ],
+        "institutions": [],
+        "journal": "Mechanical Systems and Signal Processing",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7214897401",
+        "doi": "10.1016/j.ymssp.2026.115016",
+        "title": "Enhanced broadband 2-DOF rotational energy harvester incorporating centrifugally stiffened and softened beams",
+        "published": "2026-09-30",
+        "url": "https://doi.org/10.1016/j.ymssp.2026.115016",
+        "authors": [
+          "Yunshun Zhang",
+          "Yunrong Wang",
+          "Yuyang Qian",
+          "Ran Chen",
+          "Buyun Zhang"
+        ],
+        "institutions": [
+          "Jiangsu University"
+        ],
+        "journal": "Mechanical Systems and Signal Processing",
+        "abstract": "This study proposes a two-degree-of-freedom (2-DOF) rotational bistable piezoelectric energy harvester that integrates a centrifugally stiffened beam with a centrifugally softened beam. An electromechanically coupled nonlinear dynamic model is established based on the extended Hamilton’s principle, and the dynamic responses and electrical output characteristics are investigated through numerical and experimental studies. The results show that the complementary centrifugal tuning characteristics of the two beams produce two dominant response regions and a corresponding dual-peak broadband electrical response over the investigated rotational-frequency range up to 125 rad/s. Compared with a typical one-degree-of-freedom (1-DOF) rotational bistable harvester, the proposed 2-DOF design expands the frequency-swept displacement-response bandwidth by 112.5%. Experimental results further verify the predicted evolution of motion states and the dual-peak voltage output. Using an average-power threshold of 1 μW, the experimentally validated effective power band extends continuously from approximately 40 to 125 rad/s. In addition, a self-powered TPMS demonstration confirms that the harvested rotational energy can be rectified and regulated to drive a commercial wireless sensor. The proposed design offers a practical strategy for broadening the operational bandwidth of rotational piezoelectric energy harvesters for tire-mounted self-powered sensing applications.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      },
+      {
+        "id": "https://openalex.org/W7214941881",
+        "doi": "10.1016/j.ymssp.2026.115024",
+        "title": "A novel inverse super element method for structural shape and stress sensing",
+        "published": "2026-09-30",
+        "url": "https://doi.org/10.1016/j.ymssp.2026.115024",
+        "authors": [
+          "J.Z. Zhan",
+          "K. Hong",
+          "Y.H. Guo",
+          "X.D. Li",
+          "D.X. Zhu",
+          "R.L. Zhang",
+          "P.L. Song",
+          "G. Liu"
+        ],
+        "institutions": [
+          "Dalian University of Technology",
+          "China Ship Scientific Research Center"
+        ],
+        "journal": "Mechanical Systems and Signal Processing",
+        "abstract": "The inverse finite element method (iFEM) has been widely adopted in shape sensing, as it enables full-field reconstruction of structural displacements and stresses by minimizing a weighted least–squares functional of the discrepancy between theoretical and measured strains. However, when the measured strain data are sparse, the equivalent equilibrium equations derived from iFEM become severely ill–conditioned, which tends to underestimate the reconstruction results. To overcome this limitation, this paper presents a novel inverse super–element method (iSEM). Unlike iFEM, where the error functional is formulated at the element level, iSEM constructs the strain error functional directly over the entire structural domain. Through static condensation of degrees of freedom, the equivalent equilibrium equations are reduced to a set of user–selected Primary degrees of freedoms. Together with an energy–based regularization (EBR) strategy grounded in the principle of minimum energy, the proposed method markedly alleviates the ill–posedness of the equilibrium equations. Notably, iSEM does not rely on any concept of master and slave elements; so strain measurements can be taken with greater flexibility in sensor placement. The performance of iSEM is validated through both finite–element simulations and physical model experiments. The results indicate that under sparse uniaxial strain measurements, iSEM reconstructs the structural displacement and strain fields with high fidelity, achieving significantly lower relative errors than iFEM while exhibiting reduced sensitivity to the EBR coefficient. Overall, iSEM provides a novel theoretical framework for high–accuracy shape and stress sensing in scenarios involving sparse strain measurements.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      },
+      {
+        "id": "https://openalex.org/W7214998913",
+        "doi": "10.1016/j.ymssp.2026.114988",
+        "title": "A novel Order-domain rotating machinery anomaly detection towards non-stationary operating conditions",
+        "published": "2026-09-30",
+        "url": "https://doi.org/10.1016/j.ymssp.2026.114988",
+        "authors": [
+          "Naiyue Zhou",
+          "Jianzhou Wang"
+        ],
+        "institutions": [
+          "Macau University of Science and Technology"
+        ],
+        "journal": "Mechanical Systems and Signal Processing",
+        "abstract": "Rotating machinery in real industrial systems operates under non-stationary conditions with continuous speed fluctuations, while fault data are extremely scarce due to the high cost and risk of data acquisition. This study proposes a novel Order-domain Graph Residual Autoencoder for anomaly detection under variable-speed conditions with zero fault samples. The method first performs feature extraction based on local time–frequency domain order mapping through the short-time Fourier transform, decoupling fault features from rotational speed. An order-domain graph structure is then constructed by balancing global temporal information aggregation with local speed-invariant characteristics, enabling the model to autonomously learn optimal inter-window feature aggregation patterns. Finally, the graph residual autoencoder with an adaptive gating mechanism learns low-dimensional manifold representations of normal states through dynamic residual connection adjustment and adaptive noise injection, achieving fault detection under both known and unknown speed conditions. Experimental validation is performed on a public dataset and an evolving simulator dataset characterized by fluctuating operating conditions. Superior performance compared to other commonly used anomaly detection methods is achieved without any fault information, along with satisfactory interpretability. The proposed framework provides a promising solution for intelligent health monitoring of rotating machinery in complex variable-speed industrial scenarios.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7214998918",
+        "doi": "10.1016/j.ymssp.2026.115004",
+        "title": "Steering feedback torque prediction using a driving-condition clustering-enhanced sequence-to-sequence network",
+        "published": "2026-09-30",
+        "url": "https://doi.org/10.1016/j.ymssp.2026.115004",
+        "authors": [
+          "Jinjie Wang",
+          "Jianjun Xu",
+          "Xiaodong Wu",
+          "Wenguang Yao",
+          "Kanghyun Nam",
+          "Pengju Yao"
+        ],
+        "institutions": [
+          "Shanghai Jiao Tong University",
+          "Daegu Gyeongbuk Institute of Science and Technology"
+        ],
+        "journal": "Mechanical Systems and Signal Processing",
+        "abstract": "Accurate prediction of Steering Feedback Torque (SFT) is a key challenge in steer-by-wire (SbW) development, as it directly determines the realism and controllability of the steering experience. Traditional physics-based models rely on complex calibration and struggle to capture the nonlinear, time-varying dynamics inherent in real-world vehicle signals. To address this, a clustering-enhanced SFT prediction framework that integrates driving state clustering with a sequence-to-sequence (S2S) network is proposed. A multi-channel signal dataset, comprising steering, inertial, and wheel-speed measurements, is acquired from on-road experiments on an instrumented test vehicle across diverse driving scenarios. Driving features extracted from these signals are first clustered via unsupervised learning, and the resulting cluster membership probabilities are embedded as supplementary features into the multivariate time series input. This enhances the model’s generalization across driving conditions and improves interpretability by linking model behavior to identifiable driving patterns. An S2S network is then trained to capture the temporal dependencies specific to the steering system. Hardware-in-the-loop experiments with driver-in-the-loop operation confirm that the proposed method outperforms conventional static regression models and non-clustered baselines in both common and extreme driving scenarios.",
+        "citation_count": 0,
+        "method": "Experimental"
+      }
+    ],
+    "Measurement": [
+      {
+        "id": "https://openalex.org/W7214559916",
+        "doi": "10.1016/j.measurement.2026.123338",
+        "title": "A fractional adaptive fusion dual-branch network for fault diagnosis of transformers",
+        "published": "2026-09-27",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123338",
+        "authors": [
+          "Xin Zhang",
+          "Chenghe Gao",
+          "Xiaolin Yu"
+        ],
+        "institutions": [],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      },
+      {
+        "id": "https://openalex.org/W7214577529",
+        "doi": "10.1016/j.measurement.2026.123177",
+        "title": "Riemannian optimization for multi-robot cooperative pose estimation under topology asymmetry",
+        "published": "2026-09-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123177",
+        "authors": [
+          "Zeliang Zhang",
+          "Zebo Zhou",
+          "Rui Shao",
+          "Bei Chen"
+        ],
+        "institutions": [
+          "University of Electronic Science and Technology of China"
+        ],
+        "journal": "Measurement",
+        "abstract": "Collaborative pose estimation for multiple mobile platforms faces significant challenges in achieving robust and accurate optimization under asymmetric communication-measurement topologies. This paper proposes a unified Riemannian optimization framework to address the heterogeneous data fusion problem between attitude on the special orthogonal group S O ⁡ ( 3 ) and position in Euclidean space ℝ 3 . By formulating the collaborative pose estimation as a pose graph optimization problem on the Riemannian manifold, we construct a cost function based on Riemannian metrics for attitude and Euclidean metrics for position. Furthermore, a topology model integrating both communication and measurement links is designed to handle asymmetric scenarios. Centralized and Distributed Riemannian Pose Optimization models (C-RPO and D-RPO) are developed. The derivatives for each type of error term in the cost function are derived, and the optimal solution is obtained via gradient descent on the manifold. Simulation results demonstrate that the proposed method not only enables effective collaborative pose estimation in 3D space but also maintains flexibility and accuracy under dynamic topology changes. Specifically, in symmetric topologies, C-RPO achieves a higher pose estimation accuracy (approximately 0.84 dB for attitude, 1.31 dB for position) than D-RPO, whereas D-RPO exhibits superior adaptability in cases of partial measurement loss.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      },
+      {
+        "id": "https://openalex.org/W7214602496",
+        "doi": "10.1016/j.measurement.2026.123351",
+        "title": "Experimental investigation and statistical optimization of air-assisted cavitation suppression in convergent-divergent nozzles",
+        "published": "2026-09-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123351",
+        "authors": [
+          "Praveen S. Duth",
+          "Rishu Gupta",
+          "Pankaj Kumar",
+          "Santosh Kumar Singh"
+        ],
+        "institutions": [],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7214604666",
+        "doi": "10.1016/j.measurement.2026.123330",
+        "title": "Limit of detection and quantification of Junctionless Mid-Gap cavity FinFET for the screening of breast cancer cell (MCF-7) under microwave radiation",
+        "published": "2026-09-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123330",
+        "authors": [
+          "Ronak Singh",
+          "Yogesh Pratap",
+          "Mridula Gupta"
+        ],
+        "institutions": [
+          "University of Delhi"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7214617998",
+        "doi": "10.1016/j.measurement.2026.123340",
+        "title": "RGM: a Robust Grid Matching algorithm based on asymmetric exponential logarithmic loss for UWB localization",
+        "published": "2026-09-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123340",
+        "authors": [
+          "Teng Wang",
+          "Guoliang Chen",
+          "Jingxue Bi",
+          "Kegen Yu",
+          "Jiaqi Dong",
+          "Lili Yang",
+          "Wenke Lu"
+        ],
+        "institutions": [
+          "China University of Mining and Technology",
+          "University of Jinan",
+          "Ministry of Agriculture and Rural Affairs",
+          "China Agricultural University",
+          "Shandong Jianzhu University"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7214624309",
+        "doi": "10.1016/j.measurement.2026.123348",
+        "title": "A measurement method for large antenna surface shape via fisheye camera and full-field laser rangefinder for on-orbit applications",
+        "published": "2026-09-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123348",
+        "authors": [
+          "Zirun Wang",
+          "Peng Jiao Sun",
+          "BiXi Yan",
+          "Jun Wang",
+          "Mingli Dong",
+          "Wei Zhuang",
+          "Kuai Yu",
+          "Lianqing Zhu"
+        ],
+        "institutions": [
+          "Beijing Information Science & Technology University",
+          "China Academy of Space Technology",
+          "Changchun University of Science and Technology"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7214670584",
+        "doi": "10.1016/j.measurement.2026.123296",
+        "title": "Full-field feature-based clustering framework for 3D displacement measurement of large structures",
+        "published": "2026-09-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123296",
+        "authors": [
+          "Sneha Prasad",
+          "Babu Jangam",
+          "David Kumar"
+        ],
+        "institutions": [
+          "Indian Institute of Technology Madras"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7214674174",
+        "doi": "10.1016/j.measurement.2026.123344",
+        "title": "Multi-sensor data fusion for predicting seeding depth and press-wheel compaction force in corn no-till planters",
+        "published": "2026-09-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123344",
+        "authors": [
+          "Mingwei Li",
+          "Changling Wang",
+          "Caiyun Guo",
+          "Hongqian Lv",
+          "Xiaomeng Xia",
+          "Wenjun Wang",
+          "Long Zhou",
+          "Yulong CHEN"
+        ],
+        "institutions": [
+          "Shandong University of Technology"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7214674714",
+        "doi": "10.1016/j.measurement.2026.123349",
+        "title": "In-situ simultaneous monitoring of stress and fatigue cracks in steel spiral cases based on the magnetoelastic effect",
+        "published": "2026-09-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123349",
+        "authors": [
+          "Bing Xie",
+          "Jikai Zhang",
+          "Qiling Zhang",
+          "Liangwen Wang",
+          "Yiru Xiao",
+          "Bo Ma",
+          "Yihua Kang",
+          "Bo Feng"
+        ],
+        "institutions": [],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7214678350",
+        "doi": "10.1016/j.measurement.2026.123265",
+        "title": "A MEMS one-dimensional vector hydrophone based on AlN thin films and acoustic pressure-gradient sensing",
+        "published": "2026-09-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123265",
+        "authors": [
+          "Zhengyu Bai",
+          "Yujia Chai",
+          "Guojun Zhang",
+          "Chenbin Ma",
+          "Yuhua Yang",
+          "Renxin Wang",
+          "Zhang Wendong",
+          "Licheng Jia"
+        ],
+        "institutions": [
+          "North University of China"
+        ],
+        "journal": "Measurement",
+        "abstract": "This work proposes a one-dimensional microelectromechanical systems (MEMS) vector hydrophone based on the acoustic pressure gradient sensing principle. By introducing a backside acoustic transmission slot and employing silicone oil filling, the excessive mechanical constraint associated with fully solid encapsulation is reduced, allowing the aluminum nitride thin film to directly transduce minute deformation caused by the pressure gradient into electrical signals. Modal and strain analyses, together with coupled acoustic-solid mechanics-electrostatic multiphysics simulations, are performed using COMSOL Multiphysics to evaluate the underwater acoustic response. The vector hydrophone is fabricated using MEMS technology and packaged in an acoustically transparent structure consisting of a polyurethane acoustic window and silicone oil, resulting in a compact size of ϕ 3.7 × 3.8 cm . Laboratory experiments demonstrate a standard ”8”-shaped directivity over 50-1000 Hz, with a sensitivity of -165.4 dB re 1 V/ μ Pa at 1 kHz, null depths of -24.8 dB at 50 Hz, -25.4 dB at 200 Hz, -32.9 dB at 500 Hz and -33.6 dB at 1000 Hz, and an equivalent self-noise level of 53.6 dB re 1 μ Pa / Hz at 1 kHz. After the 5 MPa hydrostatic pressure test, the fabricated vector hydrophone still maintained good operational stability, and the sensitivity variation remained within ± 1 dB. The results demonstrate that the proposed sensor exhibits excellent performance and provides a compact solution for high-sensitivity underwater acoustic vector sensing systems.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      }
+    ],
+    "Engineering Structures": [
+      {
+        "id": "https://openalex.org/W7214903867",
+        "doi": "10.1016/j.engstruct.2026.123874",
+        "title": "Mechanical performance of 4D-printed honeycombs with various Poisson’s ratios under quasi-static and low-velocity compression",
+        "published": "2026-10-01",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.123874",
+        "authors": [
+          "Sheng Huo",
+          "Ali Zolfagharian",
+          "Fukun Xia",
+          "Shanqing Xu",
+          "Zhanyuan Gao",
+          "Dong Ruan"
+        ],
+        "institutions": [],
+        "journal": "Engineering Structures",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7130321417",
+        "doi": "10.1016/j.engstruct.2026.123830",
+        "title": "Bearing capacity of spiral-reinforced concrete at the free edge: Experimental and numerical evidence for an additive bearing strength approach",
+        "published": "2026-09-30",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.123830",
+        "authors": [
+          "Petr Havlásek",
+          "Jones Joju",
+          "Pavel Reiterman",
+          "Yu‐Chen Ou"
+        ],
+        "institutions": [],
+        "journal": "Engineering Structures",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      },
+      {
+        "id": "https://openalex.org/W7214900069",
+        "doi": "10.1016/j.engstruct.2026.123862",
+        "title": "Axial compressive behavior and design method of corrugated double-steel-plate composite shear walls under long-term loading",
+        "published": "2026-09-30",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.123862",
+        "authors": [
+          "Qiuhong Zhao",
+          "Hu Jiang",
+          "Jinliang Bian",
+          "Zhihua Chen"
+        ],
+        "institutions": [
+          "Tianjin University",
+          "Tianjin Chengjian University"
+        ],
+        "journal": "Engineering Structures",
+        "abstract": "The design of corrugated double-steel-plate composite shear walls (CDSCWs) is mainly based on their short-term behavior, while their long-term performance remains understood, posing potential safety risks. This study investigates the axial compressive behavior of CDSCWs under long-term loading. A refined finite element model incorporating creep effects (ACI 209, EC2 models) is developed, and a parametric study is conducted considering loading duration, creep load level, aspect ratio, wall thickness, concrete confinement coefficient, and steel plate type. Results reveal that creep-induced stress redistribution transforms the failure mode from localized stress concentration to a more distributed global failure involving multiple load-carrying mechanisms. Long-term loading reduces peak load (up to 23.91%) and axial initial stiffness (up to 42.99%), while significantly enhancing ductility (up to 111.78%). The creep load level, wall thickness, and aspect ratio are identified as the primary parameters governing the peak load, initial stiffness, and ductility, respectively, under long-term loading. A modified calculation formula for predicting the axial compressive capacity of CDSCWs under long-term loading is proposed, based on CECS provisions.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      },
+      {
+        "id": "https://openalex.org/W7214902431",
+        "doi": "10.1016/j.engstruct.2026.123833",
+        "title": "Evaluation of wind directionality factors on moments and displacements of a low-rise building",
+        "published": "2026-09-30",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.123833",
+        "authors": [
+          "Manoj Adhikari",
+          "Chris W. Letchford"
+        ],
+        "institutions": [],
+        "journal": "Engineering Structures",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7214919865",
+        "doi": "10.1016/j.engstruct.2026.123880",
+        "title": "Progressive collapse behaviour of end-plate beam-to-column connections with austenitic stainless steel bolts",
+        "published": "2026-09-30",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.123880",
+        "authors": [
+          "Yuchen Song",
+          "Ping Zhang",
+          "Michael C.H. Yam",
+          "Leroy Gardner"
+        ],
+        "institutions": [],
+        "journal": "Engineering Structures",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7214966591",
+        "doi": "10.1016/j.engstruct.2026.123859",
+        "title": "Simultaneous seismic mitigation and harvesting performance of an electromagnetic energy-harvesting nonlinear energy sink",
+        "published": "2026-09-30",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.123859",
+        "authors": [
+          "Xinghua Li",
+          "Jundong Fu",
+          "P. Perlikowski",
+          "Zheng Lu"
+        ],
+        "institutions": [],
+        "journal": "Engineering Structures",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7214971820",
+        "doi": "10.1016/j.engstruct.2026.123864",
+        "title": "GCDO-Net: Differential operator graph network for gradient computation on unstructured meshes",
+        "published": "2026-09-30",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.123864",
+        "authors": [
+          "Tianyang Sun",
+          "Jinzhao Li",
+          "Yu Wang",
+          "Xuan Kong"
+        ],
+        "institutions": [],
+        "journal": "Engineering Structures",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7214973769",
+        "doi": "10.1016/j.engstruct.2026.123863",
+        "title": "Wind-induced response of tall mass timber buildings using an efficient fluid–structure interaction framework",
+        "published": "2026-09-30",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.123863",
+        "authors": [
+          "Chi Zhang",
+          "Yuxin Pan",
+          "Jianhui Zhou",
+          "Xiaoyue Zhang"
+        ],
+        "institutions": [],
+        "journal": "Engineering Structures",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7214984388",
+        "doi": "10.1016/j.engstruct.2026.123860",
+        "title": "Experimental study and dual-friction restoring force modeling of a symmetric negative stiffness device for rocking structures",
+        "published": "2026-09-30",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.123860",
+        "authors": [
+          "Songhang He",
+          "Defeng Xu",
+          "Fei‐Fei Sun",
+          "Jiahong Zhao"
+        ],
+        "institutions": [
+          "Tongji University"
+        ],
+        "journal": "Engineering Structures",
+        "abstract": "This study proposes a symmetric negative stiffness rocking structure (SNRS) to enhance the seismic performance of rocking structures. The SNRS employs a symmetric layout to accommodate bidirectional rocking and achieve a controlled negative-to-positive stiffness transition. Quasi-static variable-amplitude reversed cyclic tests were conducted to evaluate its hysteretic and stiffness-switching behavior. A dual-friction restoring force model of the negative stiffness device (NSD) was developed from the load-transfer path and kinematic compatibility, incorporating disc-spring and journal friction. Experimental results show that the SNRS achieves the designed negative-to-positive stiffness transition, with a mean relative error below 10% between the measured and theoretical equivalent stiffnesses. The proposed dual-friction restoring force model captures the main hysteretic response, with R ² exceeding 0.90 at all tested loading amplitudes. Nonlinear time-history analyses further show that the SNRS reduces seismic demands across hazard levels, lowering base shear and floor acceleration by approximately 15% compared with a conventional energy-dissipating rocking system. Compared with the dual-friction model, the conventional elastic model overestimates the response by up to 17.6% in rocking rotation and 9.1% in inter-story drift. These findings support the design, evaluation, and modeling of negative stiffness mechanisms in rocking structures.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      },
+      {
+        "id": "https://openalex.org/W7214988058",
+        "doi": "10.1016/j.engstruct.2026.123776",
+        "title": "Aqua-thermally treated high-strength rubberized concrete railway sleepers reinforced with recycled tire steel fibers: Mechanical performance assessment and structural viability for modern railway systems",
+        "published": "2026-09-30",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.123776",
+        "authors": [
+          "B. G. V. Sanjaya",
+          "Srikanth Venkatesan",
+          "J. M. R. S. Appuhamy",
+          "Filippo Giustozzi",
+          "Wasala M.K.R.T.W. Bandara",
+          "Rebecca J. Gravina"
+        ],
+        "institutions": [
+          "University of Ruhuna",
+          "RMIT University",
+          "The University of Queensland"
+        ],
+        "journal": "Engineering Structures",
+        "abstract": "Railway sleepers are subjected to quasi-static, dynamic, and impact loading, which can accelerate cracking and premature deterioration due to the inherent brittleness and low energy absorption capacity of conventional concrete. This study proposes a high-performance rubberized concrete composite incorporating aqua-thermally treated rubber aggregates and recycled tire steel fibers to enhance the structural resilience of prestressed concrete railway sleepers. Material-level investigations revealed that high-strength concrete incorporating 10% treated rubber aggregates and 0.5% recycled tire steel fibers fully restores the compressive strength to the level of control concrete, eliminating the inherent strength losses typically associated with rubberized concrete. Furthermore, the modified composite exhibited approximately 11% and 18% higher tensile and flexural strengths, respectively, together with a 7.3-fold increase in impact resistance compared with the control concrete. Microstructural analyses using scanning electron microscopy, micro-CT, and nanoindentation confirmed improved stress-transfer mechanisms and a 2.62-fold increase in plastic energy-dissipation capacity. The proposed material was subsequently implemented in full-scale railway sleepers and evaluated under static and impact loading conditions. Modified sleepers exceeded the designed first-crack load by more than 25% at both the rail-seat and midspan regions, while exhibiting nearly 4.8-fold greater impact energy-dissipation capacity than conventional sleepers. Enhanced resistance to crack initiation and propagation was also observed under service-representative loading conditions. Additionally, RTSF-RuC sleepers sustained more than 99% of the field-based induced wheel-rail interaction repeated impact loading without forming cracks. These findings identify the proposed dual-recycled composite as a sustainable alternative for modern rail infrastructure, with significantly improved load-bearing performance, toughness, and crack resistance.",
+        "citation_count": 0,
+        "method": "Other"
+      }
+    ],
+    "Ultrasonics": [],
+    "Tunnelling and Underground Space Technology": [
+      {
+        "id": "https://openalex.org/W7214985723",
+        "doi": "10.1016/j.tust.2026.108166",
+        "title": "Full-lifecycle TBM construction in deep steeply inclined water-conveyance shafts: A case study of the Luoning pumped-storage hydropower project",
+        "published": "2026-09-30",
+        "url": "https://doi.org/10.1016/j.tust.2026.108166",
+        "authors": [
+          "Hong-wei Yu",
+          "Zi-kai Dong",
+          "Xu Li",
+          "Le-chen Wang",
+          "Ming Ye",
+          "Yunpei Zhang"
+        ],
+        "institutions": [
+          "Beijing Jiaotong University",
+          "China Institute of Water Resources and Hydropower Research"
+        ],
+        "journal": "Tunnelling and Underground Space Technology",
+        "abstract": "Large-diameter, long-distance, steeply inclined water-conveyance shafts impose coupled challenges in continuous layout, confined-space launching, anti-backsliding control, gravity-based mucking, and terminal recovery. This paper presents a full-lifecycle TBM construction case from the Luoning pumped-storage hydropower project, where a 7.23 m diameter TBM excavated two upward-driven shafts with inclinations of 36.24° and 38.74°. To maintain construction continuity, the conventional two-stage layout was replaced by a single-stage continuous scheme. A curved foundation and stepping launch system with four synchronous hydraulic cylinders enabled staged assembly and controlled alignment adjustment in limited underground space. During excavation and stepping, two X-shaped gripper assemblies and two independent anti-backsliding systems (ABSs) formed a redundant restraint system with sequential load transfer. Gravity-driven muck transport was coupled with six-state image recognition, probability-level multi-model fusion, and 2 s closed-loop water regulation. Terminal recovery adopted staged dismantling, with independent restraint established before ABS were released, followed by TBM transfer and reuse. Based on project-specific reference quantities, eliminating two intermediate caverns was estimated to avoid approximately 24,000 m 3 of additional cavern excavation and approximately 12 months of associated cavern construction. No overall backward sliding was observed during recorded operation. The fusion model achieved a weighted F1 score of 0.92, while cumulative flushing-water consumption decreased from 6.25 to 5.37 m 3 during a 700 s field comparison. After transfer and reconditioning, the same TBM excavated 859.68 m of the No. 2 shaft over 132 calendar days, corresponding to 6.51 m/d. The case provides project-specific field evidence for coordinating the principal stages of steep upward TBM shaft construction.",
+        "citation_count": 0,
+        "method": "Other"
+      }
+    ],
+    "Rock Mechanics and Rock Engineering": [
+      {
+        "id": "https://openalex.org/W7214885142",
+        "doi": "10.1007/s00603-026-05942-w",
+        "title": "Long-Term Stability of Salt Caverns for Hydrogen Storage Considering Deliquescence–Creep Coupling Behavior",
+        "published": "2026-09-30",
+        "url": "https://doi.org/10.1007/s00603-026-05942-w",
+        "authors": [
+          "Qingzhe Cui",
+          "Fei Wu",
+          "Jianfeng Liu",
+          "Jie Chen",
+          "Cunbao Li",
+          "Renbo Gao",
+          "Shuo Gao",
+          "Chunfeng Ye",
+          "Feng Lu",
+          "Tao Ren"
+        ],
+        "institutions": [
+          "Chongqing University",
+          "State Key Laboratory of Coal Mine Disaster Dynamics and Control",
+          "Sichuan University",
+          "State Key Laboratory of Hydraulics and Mountain River Engineering",
+          "Shenzhen University",
+          "China University of Mining and Technology",
+          "China Railway Group (China)"
+        ],
+        "journal": "Rock Mechanics and Rock Engineering",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7214889507",
+        "doi": "10.1007/s00603-026-05964-4",
+        "title": "Geomechanical Evaluation and Disaster Risk Assessment of Fault Cemented Broken Rock Strata: A Comprehensive Analysis Using Unascertained Measurement and Information Entropy",
+        "published": "2026-09-30",
+        "url": "https://doi.org/10.1007/s00603-026-05964-4",
+        "authors": [
+          "Jiajun Wang",
+          "Xibing Li",
+          "Jiangzhan Chen",
+          "Linqi Huang"
+        ],
+        "institutions": [
+          "Central South University"
+        ],
+        "journal": "Rock Mechanics and Rock Engineering",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7214904379",
+        "doi": "10.1007/s00603-026-05979-x",
+        "title": "A Long-Term Fracture Conductivity Model for Shale Considering Rock Creep and Proppant Crushing",
+        "published": "2026-09-30",
+        "url": "https://doi.org/10.1007/s00603-026-05979-x",
+        "authors": [
+          "Jinzhou Zhao",
+          "Jianchao Zheng",
+          "Lan Ren",
+          "Ran Lin",
+          "Zheyu Hu",
+          "Zhihao Yu",
+          "Jianfa Wu",
+          "Dengji Tang"
+        ],
+        "institutions": [
+          "Southwest Petroleum University",
+          "State Key Laboratory of Oil and Gas Reservoir Geology and Exploitation",
+          "Gas Technology Institute",
+          "PetroChina Southwest Oil and Gas Field Company (China)"
+        ],
+        "journal": "Rock Mechanics and Rock Engineering",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7214908045",
+        "doi": "10.1007/s00603-026-05963-5",
+        "title": "A Quantitative Criterion for Describing Roadway Coal Burst Evolution in Deep High-Gas Coal Seams: From Initial Softening to Final Instability",
+        "published": "2026-09-30",
+        "url": "https://doi.org/10.1007/s00603-026-05963-5",
+        "authors": [
+          "Yanyu Hao",
+          "Yishan Pan",
+          "Lianpeng Dai",
+          "徐连满",
+          "Lei Cui",
+          "Yuanhao Leng"
+        ],
+        "institutions": [
+          "Northeastern University",
+          "Liaoning University"
+        ],
+        "journal": "Rock Mechanics and Rock Engineering",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7214916014",
+        "doi": "10.1007/s00603-026-06004-x",
+        "title": "Dynamic Identification of Layered Interfaces and Defect Zones for Tunnel-Ahead Geological Prediction Using Percussion–Rotary MWD Data and an MOE-Transformer Model",
+        "published": "2026-09-30",
+        "url": "https://doi.org/10.1007/s00603-026-06004-x",
+        "authors": [
+          "Zhongzhi Xie",
+          "Zhaoyang Han",
+          "Guangze Dan",
+          "Guohua Zhang",
+          "Feng Xiong",
+          "Dongjie Hua"
+        ],
+        "institutions": [
+          "China University of Geosciences"
+        ],
+        "journal": "Rock Mechanics and Rock Engineering",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Machine Learning"
+      },
+      {
+        "id": "https://openalex.org/W7214927199",
+        "doi": "10.1007/s00603-026-05978-y",
+        "title": "Deep Learning-Based Cross-scale Modeling of Mechanical Heterogeneity in Weibull Random-Field Materials",
+        "published": "2026-09-30",
+        "url": "https://doi.org/10.1007/s00603-026-05978-y",
+        "authors": [
+          "丁毅",
+          "Hui Li",
+          "Shanyong Wang"
+        ],
+        "institutions": [
+          "University of Newcastle Australia"
+        ],
+        "journal": "Rock Mechanics and Rock Engineering",
+        "abstract": "Abstract Cross-scale mechanical characterization of heterogeneous rock-like materials remains an important challenge because their macroscopic responses are strongly affected by multiscale heterogeneity and non-uniform mechanical-property distributions. Directly resolving microscale heterogeneity in laboratory- or engineering-scale simulations is computationally expensive and inefficient. To address this issue, this study develops a deep learning-assisted multiscale framework based on Weibull random-field modeling for efficient cross-scale mechanical prediction under two-dimensional tensile loading. A Weibull random-field algorithm is first used to generate microscale heterogeneous samples, which are then converted into finite element models. The phase-field cohesive zone model (PF-CZM) is used to calculate tensile-strength responses and generate high-fidelity labels for supervised learning. An Attentive Gated Convolution Network (AGC-Net) is trained at the microscale to establish an implicit mapping between heterogeneous-field images and tensile strength. For larger-scale prediction, the framework adopts a decomposition–aggregation strategy: the laboratory-scale domain is partitioned into microscale units, AGC-Net rapidly predicts the local tensile strength of each unit, and these predicted values are integrated into the larger-scale numerical model. AGC-Net achieves an R2 of 0.789, an RMSE of 0.0344, and a MAPE of 1.46%, outperforming the tested CNN- and Transformer-based baselines. Additional RVE representativeness, transfer-learning, error-propagation, fracture-statistics, and computational-efficiency analyses support the consistency and efficiency of the framework. These results demonstrate that the proposed framework can efficiently propagate microscale strength variability into larger-scale fracture simulations, offering a practical surrogate-assisted strategy for cross-scale mechanical prediction.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      },
+      {
+        "id": "https://openalex.org/W7214927530",
+        "doi": "10.1007/s00603-026-05980-4",
+        "title": "Visualization of Fracture Mechanisms in Transparent Rock-Like Materials with Complex Fissures",
+        "published": "2026-09-30",
+        "url": "https://doi.org/10.1007/s00603-026-05980-4",
+        "authors": [
+          "祁格平",
+          "Hang Zhou",
+          "Zhuhong Wang",
+          "刘汉龙"
+        ],
+        "institutions": [
+          "Chongqing University"
+        ],
+        "journal": "Rock Mechanics and Rock Engineering",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7214933531",
+        "doi": "10.1007/s00603-026-05950-w",
+        "title": "Accurate and Integrated Detection of Interwoven Discontinuity Traces and Planes in Rock Masses via a Multimodal Prior-Guided Automated Method",
+        "published": "2026-09-30",
+        "url": "https://doi.org/10.1007/s00603-026-05950-w",
+        "authors": [
+          "Hao Huang",
+          "Qingfa Chen"
+        ],
+        "institutions": [
+          "Guangxi University"
+        ],
+        "journal": "Rock Mechanics and Rock Engineering",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7214939140",
+        "doi": "10.1007/s00603-026-05984-0",
+        "title": "Research into the Dynamic Mechanical Behavior and Damage Constitutive Model of Granite Porphyry Subjected to Cyclic Thermal Loading (Heating–Cooling)",
+        "published": "2026-09-30",
+        "url": "https://doi.org/10.1007/s00603-026-05984-0",
+        "authors": [
+          "Jinwu Zhan",
+          "Yijie Chen",
+          "Gang Wang",
+          "Xinmin YU",
+          "Yalai Zhou",
+          "Weijie Fang"
+        ],
+        "institutions": [
+          "Fujian University of Technology",
+          "Fujian Electric Power Survey & Design Institute",
+          "Economic Research Institute"
+        ],
+        "journal": "Rock Mechanics and Rock Engineering",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7214939927",
+        "doi": "10.1007/s00603-026-06010-z",
+        "title": "Mixed-Mode I/II Fracture Behavior of Layered Sandstone with Pre-existing Flaw: Based on the Thermo-mechanical Coupled DEM Model",
+        "published": "2026-09-30",
+        "url": "https://doi.org/10.1007/s00603-026-06010-z",
+        "authors": [
+          "Tengfei Guo",
+          "Xuejie Wang",
+          "Wei Kuang",
+          "Yichao Rui",
+          "He Liu",
+          "Jiadong Qiu"
+        ],
+        "institutions": [
+          "University of South China",
+          "Chongqing University"
+        ],
+        "journal": "Rock Mechanics and Rock Engineering",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      }
+    ]
+  }
+}
