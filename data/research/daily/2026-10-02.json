@@ -1,0 +1,708 @@
+{
+  "date": "2026-10-02",
+  "journals": {
+    "Automation in Construction": [
+      {
+        "id": "https://openalex.org/W7215088866",
+        "doi": "10.1016/j.autcon.2026.107267",
+        "title": "From natural language to interoperable BIM: Extensible framework for compliance-aware generative design",
+        "published": "2026-10-01",
+        "url": "https://doi.org/10.1016/j.autcon.2026.107267",
+        "authors": [
+          "Bo Pang",
+          "Jiansong Zhang",
+          "Jingyi Lai",
+          "Bernard Nartey"
+        ],
+        "institutions": [
+          "Purdue University West Lafayette"
+        ],
+        "journal": "Automation in Construction",
+        "abstract": "In design tasks, ensuring that architectural layouts comply with regulations is essential for design quality, usability, and legitimation. However, current workflows usually treat design and compliance checking as separate stages, resulting in lengthy and potentially repetitive checking and revision cycles. To address that, this paper presents an extensible framework to integrate design knowledge from both provisions and natural-language design intents and generate compliance-aware layouts. The framework:(1) represents design knowledge as ontology-grounded constraints, (2) applies the constraints in topology generation, and (3) subsequently compiles generated layouts into interoperable Building Information Modeling (BIM) instance models. The framework is demonstrated through a case study. The generated layouts are validated across different BIM environments. Compliance rate, intent alignment, and time efficiency are evaluated against manual workflows. Extensibility tests further show that the proposed framework can accommodate additional provisions, more detailed intents, and new semantic concepts. The results indicate that the proposed framework provides a solution for efficient compliance-aware generative design.",
+        "citation_count": 0,
+        "method": "Numerical Simulation"
+      }
+    ],
+    "Mechanical Systems and Signal Processing": [
+      {
+        "id": "https://openalex.org/W7215052086",
+        "doi": "10.1016/j.ymssp.2026.114996",
+        "title": "A boundary-coupled unified frictional hysteresis model for metal rubber under quasi-static and dynamic loading",
+        "published": "2026-10-02",
+        "url": "https://doi.org/10.1016/j.ymssp.2026.114996",
+        "authors": [
+          "Yuedan Li",
+          "Chunhui Zhou",
+          "Zihao Huang",
+          "Fan Lu",
+          "Dongdong Lin",
+          "Zhiying Ren"
+        ],
+        "institutions": [],
+        "journal": "Mechanical Systems and Signal Processing",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7215057638",
+        "doi": "10.1016/j.ymssp.2026.114997",
+        "title": "Triggering high-energy orbits in rotational nonlinear energy harvesters via time-varying external excitation and internal parameter modulation",
+        "published": "2026-10-02",
+        "url": "https://doi.org/10.1016/j.ymssp.2026.114997",
+        "authors": [
+          "Shitong Fang",
+          "Jiabao Zou",
+          "Kui Wu",
+          "Liuchao Jin",
+          "Mingjing Cai",
+          "Xukun Su",
+          "Xin Li",
+          "Zhihui Lai",
+          "Bao Zhao",
+          "Wei‐Hsin Liao"
+        ],
+        "institutions": [],
+        "journal": "Mechanical Systems and Signal Processing",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      }
+    ],
+    "Measurement": [
+      {
+        "id": "https://openalex.org/W7215036077",
+        "doi": "10.1016/j.measurement.2026.123329",
+        "title": "Design and performance of a low temperature-sensitive RuO2-based composite thick-film strain sensor on stainless steel for structural health monitoring",
+        "published": "2026-10-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123329",
+        "authors": [
+          "Lianjuan Miao",
+          "Bo Chen",
+          "Ming Wen",
+          "Chao Yang",
+          "Xinchun Guan"
+        ],
+        "institutions": [],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7215047591",
+        "doi": "10.1016/j.measurement.2026.123321",
+        "title": "A physically consistent learnable filter method for variable-speed few-shot diagnosis",
+        "published": "2026-10-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123321",
+        "authors": [
+          "Jin Li",
+          "Guocan Lu",
+          "Sijie Liu",
+          "Nan Zhou",
+          "Yue Wang",
+          "Chengxiang Tang",
+          "Y.-T. Wu"
+        ],
+        "institutions": [
+          "Northwestern Polytechnical University"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7215057019",
+        "doi": "10.1016/j.measurement.2026.123335",
+        "title": "A pattern-independent and ISI-robust jitter measurement method without explicit clock recovery for serial links",
+        "published": "2026-10-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123335",
+        "authors": [
+          "Zanyu Shang",
+          "Xiaolong Chen",
+          "Xing Quan",
+          "Haoyu Yu",
+          "Shuoyan Zhang",
+          "Huiting Huan"
+        ],
+        "institutions": [
+          "Xidian University"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7215122976",
+        "doi": "10.1016/j.measurement.2026.123384",
+        "title": "AW-CKGI guided GWO-VMD and PA-MOMEDA for adaptive feature extraction of gearbox coupled faults",
+        "published": "2026-10-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123384",
+        "authors": [
+          "Rui Ma",
+          "Shuai Zhang",
+          "Qiang Chen",
+          "Libo Qu"
+        ],
+        "institutions": [
+          "Northeast Petroleum University"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7214889353",
+        "doi": "10.1016/j.measurement.2026.123370",
+        "title": "Si-MEMS microphone enhanced photoacoustic methane detection based on a T-type off-beam resonator",
+        "published": "2026-09-30",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123370",
+        "authors": [
+          "Yongkang Gong",
+          "Fupeng Wang",
+          "Yinghang Jiao",
+          "Shuo Pang",
+          "Zhonghao Mao",
+          "Jiangqi Chu",
+          "Renzheng Jiang",
+          "Diansheng Cao",
+          "Qian Li",
+          "Qingsheng Xue"
+        ],
+        "institutions": [
+          "Ocean University of China"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7214679188",
+        "doi": "10.1016/j.measurement.2026.123198",
+        "title": "Systematic error reduction of UAV-based antenna radiation pattern measurement by flight distance optimization",
+        "published": "2026-09-28",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123198",
+        "authors": [
+          "Michal Dzuriš",
+          "Jakub Krchnák",
+          "René Harťanský",
+          "Ján Halgoš"
+        ],
+        "institutions": [
+          "Slovak University of Technology in Bratislava"
+        ],
+        "journal": "Measurement",
+        "abstract": "This article presents a method to reduce measurement deviations caused by ground-reflected electromagnetic (EM) wave interference in airborne large antenna system (AS) radiation pattern measurements using an unmanned aerial vehicle (UAV). Ground reflections interfere with direct EM waves as a function of distance and azimuth, introducing errors up to 10 dB compared to ideal free-space patterns, as demonstrated by an AS digital twin in hybrid simulation using simplified LiDAR terrain data. To determine the optimal measurement distance, a semi-automated radiation pattern search framework was developed and tested, successfully reducing simulated pattern deviations to approximately ± 1 dB. The framework was subsequently validated using UAV in-situ propagation flight measurement data, covering a full 0° to 360° azimuth range. Selecting data at the optimal distance reduced in-situ measurement deviations from approximately ± 3 dB to ± 1 dB relative to a constructed far-field pattern approximation. These results experimentally demonstrate the search framework real-world applicability and show significant improvements to UAV-based radiation pattern measurement methodology.",
+        "citation_count": 1,
+        "method": "Hybrid"
+      },
+      {
+        "id": "https://openalex.org/W7214705125",
+        "doi": "10.1016/j.measurement.2026.123358",
+        "title": "A hybrid learning–optimization approach for fusing inertial and RSSI measurements in indoor positioning",
+        "published": "2026-09-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123358",
+        "authors": [
+          "Yiruo Lin",
+          "Kegen Yu",
+          "Yuhong She",
+          "Minghong Hu"
+        ],
+        "institutions": [
+          "China University of Mining and Technology"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7214722970",
+        "doi": "10.1016/j.measurement.2026.123353",
+        "title": "3-dimensional inversion imaging method for fine geological prospecting of unexcavated underground deep space based on multiple survey lines and 3D-UNet network",
+        "published": "2026-09-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123353",
+        "authors": [
+          "Shaoyi Xu",
+          "Chengtao Wang",
+          "Xinyi Xie",
+          "Fangfang Xing"
+        ],
+        "institutions": [
+          "China University of Mining and Technology",
+          "Xi'an University of Science and Technology",
+          "Xuzhou University of Technology",
+          "Shaanxi University of Science and Technology"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Review / Survey"
+      },
+      {
+        "id": "https://openalex.org/W7214724756",
+        "doi": "10.1016/j.measurement.2026.123363",
+        "title": "Theoretical design of a second harmonic mode biosensor based on layered metastructures for blood tissue detection and temperature sensing",
+        "published": "2026-09-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123363",
+        "authors": [
+          "Chuan-Qi Wu",
+          "Xiang Li",
+          "Haifeng Zhang"
+        ],
+        "institutions": [
+          "Nanjing University of Posts and Telecommunications",
+          "State Key Laboratory of Millimeter Waves",
+          "Southeast University"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      },
+      {
+        "id": "https://openalex.org/W7214751066",
+        "doi": "10.1016/j.measurement.2026.123359",
+        "title": "An in-situ optical-computational soft sensor for high-resolution estuarine pCO2 estimation using dual-path absorption spectroscopy and interpretable model diagnostics",
+        "published": "2026-09-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123359",
+        "authors": [
+          "Bingqian Zhu",
+          "Ming Zhu",
+          "Yifan Song",
+          "Wenquan Liu",
+          "Junjie Wang",
+          "Jikun Yao",
+          "Enyuan Zhao",
+          "Yanbiao Li",
+          "Xianbiao Lin",
+          "Hongming Yao"
+        ],
+        "institutions": [
+          "Chinese Academy of Sciences",
+          "Shenzhen Institutes of Advanced Technology",
+          "Shenzhen University",
+          "University of Chinese Academy of Sciences",
+          "Computer Network Information Center",
+          "Ocean University of China"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      }
+    ],
+    "Engineering Structures": [
+      {
+        "id": "https://openalex.org/W7215091788",
+        "doi": "10.1016/j.engstruct.2026.123856",
+        "title": "An identification and classification framework for bridge cracks using transposed convolution-CBAM-Segformer with transfer learning",
+        "published": "2026-10-02",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.123856",
+        "authors": [
+          "Yang Ding",
+          "Xiao-Wei Ye",
+          "Hong Zhang",
+          "Ping-He Ni"
+        ],
+        "institutions": [],
+        "journal": "Engineering Structures",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Machine Learning"
+      },
+      {
+        "id": "https://openalex.org/W7215044843",
+        "doi": "10.1016/j.engstruct.2026.123832",
+        "title": "A novel dynamic analytical method for seismic response of rocking steel piers",
+        "published": "2026-10-01",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.123832",
+        "authors": [
+          "Hanqing Zhuge",
+          "Zhenlei Jia",
+          "Qiang Han",
+          "Rui Du"
+        ],
+        "institutions": [
+          "Zhejiang University of Science and Technology",
+          "Beijing University of Technology",
+          "Zhejiang University of Technology",
+          "Merchants Chongqing Communications Research and Design Institute"
+        ],
+        "journal": "Engineering Structures",
+        "abstract": "The prestressed self-centering rocking steel pier equipped with external energy-dissipating devices exhibits superior seismic and economic performance. This study develops a predictive model for the height of the compression zone at the pier bottom, based on the existing static analytical framework of the rocking steel piers subjected to horizontal cyclic loading. Additionally, by integrating the dynamics Lagrange’s equation and Kelvin-Voigt impact model, this paper proposes a novel dynamic analytical method for the rocking steel pier structural system. This approach accounts for the elastic bending deformation before rocking, the collision energy dissipation within the compression zone and plastic deformation at the pier bottom under horizontal ground motions. Comparisons with the results from dynamic refined finite-element models reveal that the proposed dynamic analytical model can yields highly accurate peak displacement response, relative to the traditional rigid body model and the VHCZ model. Further, the analytical method can accurately capture the maximum displacement responses of the rocking steel pier in the shaking table test. The proposed model provides a concise and accurate analytical solution of seismic response and deeply understands the dynamic characteristics of the rocking steel pier.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      },
+      {
+        "id": "https://openalex.org/W7215047488",
+        "doi": "10.1016/j.engstruct.2026.123868",
+        "title": "The minimal thickness of masonry pavilion vaults",
+        "published": "2026-10-01",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.123868",
+        "authors": [
+          "Mátyás Herczeg",
+          "Katalin Bagi"
+        ],
+        "institutions": [],
+        "journal": "Engineering Structures",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7215069029",
+        "doi": "10.1016/j.engstruct.2026.123848",
+        "title": "Topology optimization for modular construction with multi-material, periodic, and demoldable units",
+        "published": "2026-10-01",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.123848",
+        "authors": [
+          "Wei Tong",
+          "Zicheng Zhuang",
+          "Yiwei Weng",
+          "Jun Wu"
+        ],
+        "institutions": [
+          "Hong Kong Polytechnic University",
+          "Hohai University",
+          "Delft University of Technology"
+        ],
+        "journal": "Engineering Structures",
+        "abstract": "Modular construction offers an efficient and economical fabrication route by assembling complex structures from repeatable, prefabricated units. Formwork-based casting facilitates the mass production of geometrically identical modules, while material selection allows these units to be tailored through different material properties. This paper presents a manufacturing-oriented topology optimization (TO) framework for explicit finite-size modular structures. To reconcile design flexibility with manufacturing realities, the framework integrates explicit finite-size module mapping, casting-based demolding, and module-wise material interpolation in a unified model. This enables modules with different material properties to be distributed across the design domain while ensuring compatibility with assembly and casting processes. The method yields optimized structural geometries and material layouts that satisfy manufacturing requirements. The effectiveness of this approach is validated through several 2D and 3D numerical examples. A fabrication demonstration is provided to show the physical demoldability of an optimized module. Additional generalization studies further examine the effects of finite-stiffness interfaces, module reorientation, and adaptive demolding families. This study offers a practical strategy for manufacturing-oriented structural design in the construction industry.",
+        "citation_count": 0,
+        "method": "Numerical Simulation"
+      },
+      {
+        "id": "https://openalex.org/W7215075168",
+        "doi": "10.1016/j.engstruct.2026.123831",
+        "title": "A numerical study of multi-story light-frame timber modular towers with rubber based inter-modular connections using substructure method",
+        "published": "2026-10-01",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.123831",
+        "authors": [
+          "Rajan Maharjan",
+          "Johan Vessby",
+          "Le Kuai",
+          "Sigurdur Ormarsson"
+        ],
+        "institutions": [],
+        "journal": "Engineering Structures",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Numerical Simulation"
+      },
+      {
+        "id": "https://openalex.org/W7215086507",
+        "doi": "10.1016/j.engstruct.2026.123857",
+        "title": "Seismic performance and post-earthquake functional recovery of a modular steel plate shear wall with replaceable shear links",
+        "published": "2026-10-01",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.123857",
+        "authors": [
+          "Youtao Zhu",
+          "zhanzhong yin",
+          "Dongbo Xu",
+          "Weikang Mao",
+          "Dazhe Feng",
+          "Zongbin Wang",
+          "Jianping Guo"
+        ],
+        "institutions": [],
+        "journal": "Engineering Structures",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7215100276",
+        "doi": "10.1016/j.engstruct.2026.123876",
+        "title": "Multistage performance design for enhancing progressive collapse resistance of earthquake-resilient steel frame joints",
+        "published": "2026-10-01",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.123876",
+        "authors": [
+          "Jianpeng Wei",
+          "Junchao Zhang",
+          "Huiyun Qiao",
+          "Donghua Wang"
+        ],
+        "institutions": [
+          "Anhui Jianzhu University",
+          "Fujian University of Technology"
+        ],
+        "journal": "Engineering Structures",
+        "abstract": "The anti-collapse performance of earthquake-resilient steel frame joints has received limited attention, and this study presents the first investigation of this topic. Collapse resistance tests were conducted on three specimens: a welded joint as a reference, a typical earthquake-resilient joint, and an innovative joint with multistage performance design. For the typical joint, the damper fractured, followed by subsequent failure of the web connection; prior to fracture, the load-bearing capacity increased linearly to the peak load during the large deformation stage. By contrast, the innovative joint exhibited a significantly higher peak load and deformation, with the weakened region remaining intact. These results demonstrate the feasibility of the multistage performance design. The finite element analysis was then validated against the test results and employed to investigate the anti-collapse mechanisms. The energy dissipation contribution of the catenary mechanism increased from 35% to 52% owing to the multistage performance design. Based on the validated model, a new earthquake-resilient joint was proposed to improve the multistage performance. The anti-collapse performance and seismic resistance were simultaneously enhanced. A critical joint rotation of 6%–10% is recommended. This study not only extends the current understanding of collapse resistance in earthquake-resilient structures but also contributes to enhancing their multi-hazard resilience. The proposed method provides a valuable reference for future designs.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      },
+      {
+        "id": "https://openalex.org/W7215110504",
+        "doi": "10.1016/j.engstruct.2026.123834",
+        "title": "Mechanical behavior of a 9-story timber building with clt rocking wall-columns in structural core base on seismic response analysis",
+        "published": "2026-10-01",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.123834",
+        "authors": [
+          "Akira Masuda",
+          "Kazuhiro Matsuda"
+        ],
+        "institutions": [],
+        "journal": "Engineering Structures",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7214999602",
+        "doi": "10.1016/j.engstruct.2026.123766",
+        "title": "Bayesian model uncertainty analysis of fluid viscous dampers and its influence on retrofitted reinforced-concrete frame fragility",
+        "published": "2026-09-30",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.123766",
+        "authors": [
+          "Da Shi",
+          "Cristoforo Demartino",
+          "Giuseppe Carlo Marano",
+          "Xuguang Wang",
+          "Said Elias",
+          "Michael Beer"
+        ],
+        "institutions": [
+          "Shenzhen University",
+          "Roma Tre University",
+          "Politecnico di Torino",
+          "University of Hong Kong",
+          "Leibniz University Hannover",
+          "Széchenyi István University",
+          "Tongji University",
+          "University of Liverpool"
+        ],
+        "journal": "Engineering Structures",
+        "abstract": "Fluid viscous dampers are widely used to mitigate the seismic response of civil structures, but constitutive-model choice, parameter uncertainty, and residual modelling error may affect structural fragility estimates. This study develops a Bayesian workflow for calibrating and comparing multiple damper constitutive laws and for examining the influence of selected damper-parameter uncertainty on frame-level fragility. Nine representative damper models, ranging from algebraic velocity laws to differential hysteretic formulations, are calibrated using cyclic test data from mass-produced 300 kN dampers. The comparison considers predictive agreement, residual statistics, parameter identifiability, posterior uncertainty, physical interpretability, parsimony, and feasibility in nonlinear time-history analysis. A Bouc–Wen-type LAW6 model is retained as the representative propagation model for a three-storey reinforced-concrete frame retrofitted with fluid viscous dampers and subjected to 150 selected ground-motion records. The fragility study distinguishes record-to-record variability from epistemic sources related to damper calibration, likelihood assumptions, model-form uncertainty, and structural modelling. The frame-level uncertainty bands are interpreted as LAW6 joint-posterior parameter-uncertainty results. Complete LAW6 parameter vectors are sampled directly from the full-data TMCMC posterior and propagated through the 150-record nonlinear time–history workflow, thereby preserving posterior dependence among the constitutive parameters. Across 100 complete vectors, the 95% ranges of the median-intensity shift relative to the posterior-mean reference remain within −0.37% to ＋0.36% when all 150 records are used. A conservative 84-record diagnostic screen changes the absolute PSDM and fragility parameters, but the corresponding shifts remain within −0.44% to ＋0.40%. Relaxing the upper support of 𝛽 from 200 to 400 m −1 likewise leaves the all-record shifts within −0.42% to ＋0.38%. Under the adopted calibration, LAW6 parameter uncertainty therefore has a smaller influence than record-to-record variability on the drift-based fragility estimates; the absolute fragility parameters remain conditional on the PSDM-processing choice. These results do not represent model-form uncertainty propagation across all nine candidate laws.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      }
+    ],
+    "Ultrasonics": [],
+    "Tunnelling and Underground Space Technology": [
+      {
+        "id": "https://openalex.org/W7215029159",
+        "doi": "10.1016/j.tust.2026.108161",
+        "title": "Cracking in fibre reinforced concrete jacketed-pipes for long-distance tunnels in rock",
+        "published": "2026-10-01",
+        "url": "https://doi.org/10.1016/j.tust.2026.108161",
+        "authors": [
+          "Zhiyun Deng",
+          "Xinrong Liu",
+          "Albert de la Fuente",
+          "Xueming Zhang",
+          "Zuowei Hao",
+          "Peng Ding",
+          "Cheng Hua Shi"
+        ],
+        "institutions": [
+          "Beijing Jiaotong University",
+          "Tsinghua Sichuan Energy Internet Research Institute",
+          "Tsinghua University",
+          "Chongqing University"
+        ],
+        "journal": "Tunnelling and Underground Space Technology",
+        "abstract": "This study investigates the cracking mechanism of reinforced concrete pipes during long-distance pipe jacking in rock strata and evaluates the potential of fibre reinforced concrete pipes (FRCPs) as a crack-mitigation measure. Field crack surveys were conducted in three non-pressure tunnels of the Guanjingkou Water Conservancy Project, and three-dimensional finite-element models were established to reproduce typical pipe-rock interaction modes. The field investigation showed that longitudinal cracks were dominant, accounting for approximately 87.1%–89.7% of the detected cracks. Numerical results indicated that pipe cracking was governed by the coupled effect of pipe deflection angle ( χ ) and jacking force (JF), and the upward deflection mode represented the most unfavorable condition. Compared with ordinary reinforced concrete pipes, basalt-polypropylene fibre reinforced concrete (B/PPFRC) pipe showed increases of more than 20% in the JF corresponding to initial cracking P cr and 0.3 mm crack width P 0.3 under the simulated conditions. In addition, four prototype FRCPs with different fibre configurations, including one B/PPFRC pipe, were installed in No. 7 non-pressure tunnel (NPT), and no visible cracking was observed during the monitoring period. These field observations provide preliminary qualitative evidence supporting the practical feasibility of FRCPs under the investigated construction conditions and are qualitatively consistent with the numerical prediction that fibre reinforcement can improve crack resistance. Nevertheless, because only one prototype adopted the B/PPFRC mixture considered in the numerical analysis, larger-scale field applications are still required to validate its long-term crack-control performance.",
+        "citation_count": 0,
+        "method": "Review / Survey"
+      },
+      {
+        "id": "https://openalex.org/W7215054085",
+        "doi": "10.1016/j.tust.2026.108175",
+        "title": "Ultimate flexural capacity calculation and limit state transition analysis of segmental longitudinal joints considering detailed configurations",
+        "published": "2026-10-01",
+        "url": "https://doi.org/10.1016/j.tust.2026.108175",
+        "authors": [
+          "Rui Gong",
+          "Hongze Zhu",
+          "Kai Su"
+        ],
+        "institutions": [],
+        "journal": "Tunnelling and Underground Space Technology",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7215062620",
+        "doi": "10.1016/j.tust.2026.108171",
+        "title": "Experimental study on the fire spread caused by a large fire in tunnels under natural ventilation",
+        "published": "2026-10-01",
+        "url": "https://doi.org/10.1016/j.tust.2026.108171",
+        "authors": [
+          "Qinghua Guo",
+          "Zhiguo Yan",
+          "Xingli Li",
+          "Yuxin Zhang",
+          "Yao Zhang"
+        ],
+        "institutions": [],
+        "journal": "Tunnelling and Underground Space Technology",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7215108242",
+        "doi": "10.1016/j.tust.2026.108159",
+        "title": "Automated optimization of underground cavern excavation sequences via deep reinforcement learning with graph-based physical response prediction",
+        "published": "2026-10-01",
+        "url": "https://doi.org/10.1016/j.tust.2026.108159",
+        "authors": [
+          "Zebin Song",
+          "Quan Jiang",
+          "Jian Liu",
+          "Quan Fan",
+          "Fengqiang Gong",
+          "Jun Zhao"
+        ],
+        "institutions": [],
+        "journal": "Tunnelling and Underground Space Technology",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7215126909",
+        "doi": "10.1016/j.tust.2026.108173",
+        "title": "Forecasting adjacent-construction-induced radial displacement of MRT shield tunnels using dynamic deep learning",
+        "published": "2026-10-01",
+        "url": "https://doi.org/10.1016/j.tust.2026.108173",
+        "authors": [
+          "Min-Yuan Cheng",
+          "Akhmad F.K. Khitam",
+          "Quoc-Tuan Vu",
+          "Shih-Yuan Liao"
+        ],
+        "institutions": [],
+        "journal": "Tunnelling and Underground Space Technology",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Machine Learning"
+      }
+    ],
+    "Rock Mechanics and Rock Engineering": [
+      {
+        "id": "https://openalex.org/W7214956577",
+        "doi": "10.1007/s00603-026-06012-x",
+        "title": "Reservoir Identification Method During Drilling Based on Drillability and Total Gas",
+        "published": "2026-09-30",
+        "url": "https://doi.org/10.1007/s00603-026-06012-x",
+        "authors": [
+          "Junru Li",
+          "Ligang Zhang",
+          "Chenxu Jiang",
+          "Fukun He"
+        ],
+        "institutions": [
+          "Northeast Petroleum University"
+        ],
+        "journal": "Rock Mechanics and Rock Engineering",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7214958005",
+        "doi": "10.1007/s00603-026-06000-1",
+        "title": "Closed-Loop Risk Warning and Quantitative Grading for Shale Gas Hydraulic Fracturing: An Integrated Real-Time Analytics and Deep Learning Framework",
+        "published": "2026-09-30",
+        "url": "https://doi.org/10.1007/s00603-026-06000-1",
+        "authors": [
+          "Hanzhuo Cui",
+          "Zhaoyi Liu",
+          "Lingling Han",
+          "Guifu Duan",
+          "Lidong Hou",
+          "Weijun Shen",
+          "Kun Xie",
+          "Yu Suo",
+          "KunLong Li"
+        ],
+        "institutions": [
+          "Northeast Petroleum University",
+          "Research Institute of Petroleum Exploration and Development",
+          "Chinese Academy of Sciences",
+          "University of Chinese Academy of Sciences",
+          "University of Toronto"
+        ],
+        "journal": "Rock Mechanics and Rock Engineering",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Machine Learning"
+      },
+      {
+        "id": "https://openalex.org/W7214966878",
+        "doi": "10.1007/s00603-026-05997-9",
+        "title": "A Preliminary Study on the Repeated Particle Impact Method for Excavating Extremely Hard Rock",
+        "published": "2026-09-30",
+        "url": "https://doi.org/10.1007/s00603-026-05997-9",
+        "authors": [
+          "Minghe Ju",
+          "Xin Peng",
+          "Liyuan Yu",
+          "Tao Zhang",
+          "Lihua Hu",
+          "Qinbing Meng",
+          "Zejun Tao"
+        ],
+        "institutions": [
+          "China University of Mining and Technology"
+        ],
+        "journal": "Rock Mechanics and Rock Engineering",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7214975830",
+        "doi": "10.1007/s00603-026-05956-4",
+        "title": "Temperature Effect Study for Grouting in Karst Conduit via a Novel Physical Simulation Approach",
+        "published": "2026-09-30",
+        "url": "https://doi.org/10.1007/s00603-026-05956-4",
+        "authors": [
+          "Dongdong Pan",
+          "Zhiyang Wang",
+          "Zehua Bu",
+          "Zhenhao Xu",
+          "Xiansong Wei"
+        ],
+        "institutions": [
+          "Shandong University"
+        ],
+        "journal": "Rock Mechanics and Rock Engineering",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Numerical Simulation"
+      },
+      {
+        "id": "https://openalex.org/W7214998887",
+        "doi": "10.1007/s00603-026-06008-7",
+        "title": "Experimental and Theoretical Investigations on the Pore Water Freezing and the Critical Degree of Saturation for the Unsaturated Sandstone Based on the In Situ Nuclear Magnetic Resonance",
+        "published": "2026-09-30",
+        "url": "https://doi.org/10.1007/s00603-026-06008-7",
+        "authors": [
+          "Shuailong Lian",
+          "Jingjing Huang",
+          "Yanlin Zhao",
+          "Wen Wan",
+          "Weijun Wang",
+          "Qiuhong WU",
+          "Zhang Lianyang"
+        ],
+        "institutions": [
+          "Hunan University of Science and Technology",
+          "University of Arizona"
+        ],
+        "journal": "Rock Mechanics and Rock Engineering",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      }
+    ]
+  }
+}
