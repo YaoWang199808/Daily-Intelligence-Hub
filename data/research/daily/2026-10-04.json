@@ -1,0 +1,551 @@
+{
+  "date": "2026-10-04",
+  "journals": {
+    "Automation in Construction": [],
+    "Mechanical Systems and Signal Processing": [
+      {
+        "id": "https://openalex.org/W4415088080",
+        "doi": "10.1016/j.ymssp.2026.114995",
+        "title": "Bayesian model updating via streamlined Bayesian active learning cubature",
+        "published": "2026-10-04",
+        "url": "https://doi.org/10.1016/j.ymssp.2026.114995",
+        "authors": [
+          "Pei‐Pei Li",
+          "Chao Dang",
+          "Cristóbal H. Acevedo",
+          "Marcos A. Valdebenito",
+          "Matthias G.R. Faes"
+        ],
+        "institutions": [],
+        "journal": "Mechanical Systems and Signal Processing",
+        "abstract": "This paper proposes a novel Bayesian active learning method for Bayesian model updating, which is termed as \"Streamlined Bayesian Active Learning Cubature\" (SBALC). The core idea is to approximate the log-likelihood function using Gaussian process (GP) regression in a streamlined Bayesian active learning way. Rather than generating many samples from the posterior GP, we only use its mean and variance function to form the model evidence estimator, stopping criterion, and learning function. Specifically, the estimation of model evidence is first treated as a Bayesian cubature problem, with a GP prior assigned over the log-likelihood function. Second, a plug-in estimator for model evidence is proposed based on the posterior mean function of the GP. Third, an upper bound on the expected absolute error between the posterior model evidence and its plug-in estimator is derived. Building on this result, a novel stopping criterion and learning function are proposed using only the posterior mean and standard deviation functions of the GP. Finally, we can obtain the model evidence based on the posterior mean function of the log-likelihood function in conjunction with Monte Carlo simulation, as well as the samples for the posterior distribution of model parameters as a by-product. Four numerical examples are presented to demonstrate the accuracy and efficiency of the proposed method compared to several existing approaches. The results show that the method can significantly reduce the number of model evaluations and the computational time without compromising accuracy.",
+        "citation_count": 1,
+        "method": "Numerical Simulation"
+      },
+      {
+        "id": "https://openalex.org/W7218901061",
+        "doi": "10.1016/j.ymssp.2026.115029",
+        "title": "Flexural-wave shielding in plates through scattering by a curved resonator arrangement",
+        "published": "2026-10-04",
+        "url": "https://doi.org/10.1016/j.ymssp.2026.115029",
+        "authors": [
+          "Rishab Das",
+          "Raj Kumar Pal",
+          "Mohammad I. Albakri",
+          "S. El-Borgi"
+        ],
+        "institutions": [],
+        "journal": "Mechanical Systems and Signal Processing",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7218993518",
+        "doi": "10.1016/j.ymssp.2026.115032",
+        "title": "Experimentally validated reduced-order modeling of gear-rotor-bearing systems with three-dimensional shaft compliance and gyroscopic mapping",
+        "published": "2026-10-04",
+        "url": "https://doi.org/10.1016/j.ymssp.2026.115032",
+        "authors": [
+          "Bo Hu",
+          "Yuanhao Zhang",
+          "Yuping Wu",
+          "Xingming Chen",
+          "Jie Su",
+          "Zeliang Xiao"
+        ],
+        "institutions": [],
+        "journal": "Mechanical Systems and Signal Processing",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      }
+    ],
+    "Measurement": [
+      {
+        "id": "https://openalex.org/W7218366126",
+        "doi": "10.1016/j.measurement.2026.123354",
+        "title": "Pattern-insensitive gait-based identity recognition using radar micro-doppler signatures and active learning",
+        "published": "2026-10-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123354",
+        "authors": [
+          "Zhengkang Zhou",
+          "Ping Zhang",
+          "Yi Yang",
+          "Beichen Li",
+          "Yue Lang",
+          "Di Miao"
+        ],
+        "institutions": [
+          "Tianjin University",
+          "Hebei University of Technology",
+          "Tianjin University of Technology and Education"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7218623386",
+        "doi": "10.1016/j.measurement.2026.123377",
+        "title": "Automatic inventory of orchards and tree species classification using UAV-LiDAR point clouds",
+        "published": "2026-10-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123377",
+        "authors": [
+          "E. Hadaś",
+          "Michael Kölle",
+          "Norbert Haala"
+        ],
+        "institutions": [],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7218901723",
+        "doi": "10.1016/j.measurement.2026.123395",
+        "title": "Multimodal data-driven gas emission anomaly monitoring and coal and gas outburst early warning based on the Yam-LTNet",
+        "published": "2026-10-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123395",
+        "authors": [
+          "Shiqi Wang",
+          "Junwei Shi"
+        ],
+        "institutions": [
+          "Shenzhen University",
+          "Shandong Institute of Business and Technology"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7218914233",
+        "doi": "10.1016/j.measurement.2026.123274",
+        "title": "Physics-constrained Bayesian transformer for temperature soft sensing with uncertainty quantification in nuclear waste incinerators",
+        "published": "2026-10-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123274",
+        "authors": [
+          "Bo Zhang",
+          "Chuanwang Zhang",
+          "Jingjing Huang",
+          "Ziqi Li",
+          "Jing Ma"
+        ],
+        "institutions": [
+          "China National Nuclear Corporation",
+          "Xi'an Jiaotong University"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      },
+      {
+        "id": "https://openalex.org/W7218979658",
+        "doi": "10.1016/j.measurement.2026.123362",
+        "title": "Dopant-free Fabry-Pérot interferometer temperature sensors based on coreless optical fiber for high-temperature applications",
+        "published": "2026-10-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123362",
+        "authors": [
+          "Simon Pevec",
+          "Matej Njegovec",
+          "Vedran Budinski",
+          "René Eisermann",
+          "Stephan Krenek",
+          "J. Bojkovski",
+          "Vincencij Žužek",
+          "Denis Đonlagić"
+        ],
+        "institutions": [
+          "University of Maribor",
+          "Physikalisch-Technische Bundesanstalt",
+          "University of Ljubljana",
+          "Slovenian Institute of Quality and Metrology"
+        ],
+        "journal": "Measurement",
+        "abstract": "This study investigates high-temperature Fabry-Pérot interferometric (FPI) sensors fabricated from undoped coreless silica fibers (CLF). Both dopant diffusion and the coefficients of thermal expansion-mismatch-induced stresses are removed effectively by eliminating dopants. The sensors were prepared using two mirror formation techniques – HfO 2 magnetron sputtering and femtosecond laser micromachining − and were characterized thoroughly in long-term stability tests at two independent laboratories (Laboratory of Metrology and Quality and PTB) up to 700 °C. The results show lower drift rates than those of conventional doped SMF-based FPI of conventional doped SMF-based sensors under comparable short-to-medium isothermal tests. However, a small residual drift persisted above 600 °C, due to the intrinsic viscoelastic relaxation of amorphous SiO 2 . High-temperature annealing at 1000 °C did not improve performance consistently. The findings highlight both the advantages and the fundamental material limitations of pure-silica-based optical fiber sensors for high-temperature applications.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      },
+      {
+        "id": "https://openalex.org/W7219088665",
+        "doi": "10.1016/j.measurement.2026.123391",
+        "title": "A dual-layer high-temperature superconducting maglev vibration isolator: modeling, parametric analysis and validation",
+        "published": "2026-10-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123391",
+        "authors": [
+          "Jun Zheng",
+          "Jiafeng Wu",
+          "Wuyang Lei",
+          "Qurong Li"
+        ],
+        "institutions": [
+          "Southwest Jiaotong University"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      },
+      {
+        "id": "https://openalex.org/W7214964589",
+        "doi": "10.1016/j.measurement.2026.123271",
+        "title": "Analytical and experimental study of null related beampattern measures and signal quantization effects for linear differential microphone arrays",
+        "published": "2026-09-30",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123271",
+        "authors": [
+          "Shweta Pal",
+          "Arun Kumar",
+          "Monika Agrawal"
+        ],
+        "institutions": [
+          "Indian Institute of Technology Delhi"
+        ],
+        "journal": "Measurement",
+        "abstract": "A differential microphone array(DMA) approximates the spatial derivative of acoustic pressure field using closely spaced microphones, producing sharp nulls at the cost of relatively broad mainlobe-peak in the beampattern. The effectiveness of interference rejection is primarily governed by the null characteristics. While conventional metrics in DMAs, such as directivity index and white-noise gain capture overall spatial selectivity and noise robustness, they do not explicitly quantify how deep a null is in the interference direction or its angular extent. Although null-related measures such as notch depth and width are established in array processing, their systematic characterization in context of DMAs remains underdeveloped. This paper addresses this gap by providing a comprehensive characterization of Null depth(ND) and Null width(NW), defined relative to the beampattern maxima. A study of signal quantization effects due to data acquisition for different DMA orders and beampatterns is presented. An analytical expression for quantized beamformed output and ND for any general N th-order DMA is formulated. Simulation results showing variation of ND with quantization bit depth and NW as a function of depth are also presented, and inferences are drawn. The frequency-dependent behavior of ND and NW is also examined, revealing deeper nulls and progressively narrower NW at higher frequencies. A quantitative framework is presented for assessing how instrumentation limitations, specifically finite digital acquisition and precise realization of array geometry, affect the achievable null characteristics of practical DMA systems. Experiment-based measurements in a fully anechoic room support the simulations. We demonstrate a measured beampattern with a deep null of -75.1dB, compared to earlier reported -30dB null for a first-order cardioid pattern. We also discuss experimental considerations and guidelines required to achieve sharp nulls, which are critical for acoustic applications, such as interfering talker suppression in hearing aids and cochlear implants, rotor-noise suppression in quadcopters, and drone-based acoustic sensing.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      },
+      {
+        "id": "https://openalex.org/W7214972955",
+        "doi": "10.1016/j.measurement.2026.123373",
+        "title": "Dynamically selected trajectories/INS factor graph navigation method under elliptical constraints",
+        "published": "2026-09-30",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123373",
+        "authors": [
+          "Qiqi Zhu",
+          "Jinwen Wang",
+          "Jiachao Wu"
+        ],
+        "institutions": [
+          "Nanjing University of Science and Technology"
+        ],
+        "journal": "Measurement",
+        "abstract": "To address the rapid error accumulation and positioning accuracy degradation of pure inertial navigation for low-cost high-spin projectiles in global navigation satellite system (GNSS)-denied environments, this paper proposes a dynamically selected trajectories/INS factor graph navigation method under elliptical constraints. First, we construct an elliptical geometric constraint around the ideal trajectory, which gradually expands with flight time, and generate multiple candidate trajectories along the elliptical boundary. Then, we obtain the corresponding IMU data of each candidate trajectory through inverse inertial navigation calculation and match them with the measured IMU data. Based on the matching results, we dynamically select the candidate trajectories that satisfy the threshold requirement and form a candidate trajectory set, which provides candidate trajectory position-velocity constraints for subsequent state estimation. Finally, we incorporate the IMU preintegration factors and candidate trajectory position-velocity factors into the factor graph to jointly optimize the state variables. Simulation and experimental results show that the proposed method effectively improves the autonomous navigation and positioning accuracy of high-spin projectiles in GNSS-denied environments. Compared with traditional methods, the proposed method achieves an 18.77% reduction in the mean position error.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      },
+      {
+        "id": "https://openalex.org/W7214752587",
+        "doi": "10.1016/j.measurement.2026.123352",
+        "title": "GIST-GAN: ground penetrating radar image processing algorithm for intelligent detection of underground cavities",
+        "published": "2026-09-29",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123352",
+        "authors": [
+          "Zhong Zhou",
+          "Shunuo Wang",
+          "Xiaopeng Zhang",
+          "Shirong Zhou"
+        ],
+        "institutions": [
+          "Central South University"
+        ],
+        "journal": "Measurement",
+        "abstract": "Intelligent detection of underground cavities along shield tunnel routes is a critical safeguard for subway tunnel safety. However, the quantity of images collected on-site often fails to meet the training requirements of object detection models. To address the shortage of high-quality GPR images for model training, this paper employs the GIST-GAN model to perform style transfer on images simulated using the finite-time-domain difference method. Building on the original CycleGAN model, we increased the number of convolutional layers in both the generator and discriminator. We also improved the activation functions in the generator’s convolutional blocks—which were originally based on ResNet—and added CBAM self-attention. Finally, we introduced the LPIPS cyclic loss function to improve upon the original cyclic loss. GIST-GAN is compared with other models, and its effectiveness is validated through ablation experiments. The results show that the FID and KID scores of the images generated by the proposed GIST-GAN outperform those of the original model and other comparison models. Furthermore, applying style-transferred images to YOLOv12 model training validates GIST-GAN’s significant enhancement of object detection model training performance.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7214781779",
+        "doi": "10.1016/j.measurement.2026.123257",
+        "title": "Identifiability-aware inverse dynamics for indirect measurement of aggregate and conditional electromagnet gains in maglev trains",
+        "published": "2026-09-29",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123257",
+        "authors": [
+          "Rong Wang",
+          "Jun Wang",
+          "Liang Wu",
+          "Feng Shu",
+          "Shenglan Chen"
+        ],
+        "institutions": [
+          "Fuzhou University",
+          "Southeast University",
+          "Hainan University",
+          "Nanjing University of Science and Technology",
+          "Central South University",
+          "China Railway Corporation",
+          "CRRC (China)"
+        ],
+        "journal": "Measurement",
+        "abstract": "Equivalent electromagnet gain is an indirect measurand in an electromagnetic-suspension maglev train because routine instrumentation provides current, one common gap, and carbody acceleration rather than channel force. This paper proposes Identifiability-Aware Physics-Constrained Inverse Dynamics (IA-PCID) to separate aggregate gain measurement from assumption-dependent channel indications using four engineering-project records. The force-calibration table contains 99,999 ordered samples from one record rather than independent experiments, and five-contiguous-block cross-validation gives an RMSE of 1.347 kN. Under a declared common-gain model, the common gain is structurally identifiable. The instantaneous 16-channel problem has rank one and nullity 15, whereas temporal stacking under a local-constancy assumption yields numerically full-rank sensitivity matrices with event-dependent conditioning. Unit-centred ridge achieves a relative force-balance RMSE of 2.62%, while bounded least squares and two-stage Sparse–TV reproduce the same conditional indication set. These results quantify a measurement-information boundary: aggregate gain is directly estimable from the calibrated aggregate measurement equation, whereas channel-level outputs remain conditional on common-gap substitution, local constancy, excitation, and regularization.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      }
+    ],
+    "Engineering Structures": [
+      {
+        "id": "https://openalex.org/W7218493812",
+        "doi": "10.1016/j.engstruct.2026.123858",
+        "title": "Real-time hybrid simulation of full-scale tuned mass-damper-inerter for vibration mitigation of floating offshore wind turbines under combined wind and wave loads",
+        "published": "2026-10-04",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.123858",
+        "authors": [
+          "Yongbo Peng",
+          "Tong Chang",
+          "Chengyu Yang",
+          "Zili Zhang",
+          "Jianbing Chen"
+        ],
+        "institutions": [],
+        "journal": "Engineering Structures",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Numerical Simulation"
+      },
+      {
+        "id": "https://openalex.org/W7218729530",
+        "doi": "10.1016/j.engstruct.2026.123865",
+        "title": "Major-axis flexural buckling behavior of welded ultra-high-strength steel I-section members",
+        "published": "2026-10-04",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.123865",
+        "authors": [
+          "Fei Yin",
+          "Lu Yang",
+          "Mingyu Lu",
+          "Lei Zhu",
+          "Jie Wang"
+        ],
+        "institutions": [],
+        "journal": "Engineering Structures",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7218807293",
+        "doi": "10.1016/j.engstruct.2026.123888",
+        "title": "Instability mechanism and failure mode identification of axially loaded CFST columns under lateral impact: A modified 2-DOF approach",
+        "published": "2026-10-04",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.123888",
+        "authors": [
+          "Nan Xu",
+          "Yanhui Liu",
+          "Yang Yang",
+          "Xiaosong Ai",
+          "Jun Xiong",
+          "Bing Li"
+        ],
+        "institutions": [],
+        "journal": "Engineering Structures",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7219018670",
+        "doi": "10.1016/j.engstruct.2026.123869",
+        "title": "Orthotropic plate buckling method for the design of stainless steel structures manufactured by wire-arc directed energy deposition",
+        "published": "2026-10-04",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.123869",
+        "authors": [
+          "Jie Wang",
+          "Wenxuan Hong",
+          "Guo Jian"
+        ],
+        "institutions": [],
+        "journal": "Engineering Structures",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7219130358",
+        "doi": "10.1016/j.engstruct.2026.123885",
+        "title": "Time-delay effects on the sensitivity and robustness of semi-active TLCD control under far and near field earthquakes",
+        "published": "2026-10-04",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.123885",
+        "authors": [
+          "Muhammet Burhan Navdar",
+          "Erkan Çelebi",
+          "Tahsin Engın",
+          "Muaz Kemerli",
+          "Sefer Arda Serbes",
+          "Muhammed Necmeddin Sami İnanir"
+        ],
+        "institutions": [],
+        "journal": "Engineering Structures",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7218592997",
+        "doi": "10.1016/j.engstruct.2026.123837",
+        "title": "An automated scan-to-FE model workflow for steel box girder exterior surfaces based on in-situ point clouds",
+        "published": "2026-10-03",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.123837",
+        "authors": [
+          "Jing-Fan Li",
+          "Min Wang",
+          "Yu-Fei Liu"
+        ],
+        "institutions": [
+          "Tsinghua University"
+        ],
+        "journal": "Engineering Structures",
+        "abstract": "High-fidelity finite element (FE) models are crucial for bridge analysis, where detailed geometric information acquired by 3D laser scanning is key to ensuring model accuracy. However, direct generation of FE models from as-built point cloud data remains challenging due to computational inefficiency and data incompleteness. To address this, this paper presents a structured Scan-to-FE Model framework that reconstructs steel box-girder exterior topology from preprocessed point clouds and automatically instantiates a solver-ready FE model via command scripting. The methodology is implemented on the scanning data from a large-span bridge, covering multiple girder segments. Geometric fidelity is quantified using cloud-to-mesh distance statistics, confirming that the reconstructed mesh preserves measured surface features. Computational feasibility and the fidelity robustness of the generated FE model was validated through simulation under representative static load cases and parametric sensitivity analysis.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      },
+      {
+        "id": "https://openalex.org/W7218761289",
+        "doi": "10.1016/j.engstruct.2026.123872",
+        "title": "Long-term hygro-viscoelastic creep and stress redistribution in a flax-fiber-reinforced polymer bridge: Field monitoring and numerical investigation",
+        "published": "2026-10-03",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.123872",
+        "authors": [
+          "Bowen Xu",
+          "Yushan ZHANG",
+          "Rijk Blok",
+          "Patrick Teuffel"
+        ],
+        "institutions": [
+          "Eindhoven University of Technology"
+        ],
+        "journal": "Engineering Structures",
+        "abstract": "The long-term structural performance of bio-based composite bridges under varying environmental conditions remains insufficiently understood, particularly the influence of humidity-dependent creep on stress evolution and serviceability at the structural scale. This study investigates the hygro-viscoelastic creep behavior of a full-scale flax fiber-reinforced polymer (FFRP) pedestrian bridge through a combined experimental and numerical approach. A three-dimensional orthotropic viscoelastic model based on a generalized Kelvin–Voigt formulation is developed and implemented in Abaqus via user-defined material subroutine (UMAT) to capture humidity-dependent anisotropic creep behavior. Model parameters are calibrated using humidity-controlled creep tests on FFRP laminates and validated against long-term in situ monitoring data, showing good agreement. Parametric simulations over a 10-year service period show that environmental humidity significantly accelerates creep deformation, with a pronounced nonlinear increase above approximately 75% relative humidity. While global deflection and laminate strain increase monotonically with humidity, internal stress exhibits a non-monotonic trend. Ply-level analysis shows that different fiber orientations respond differently to humidity-dependent stiffness degradation, leading to stress redistribution within the laminate. This behavior is quantified using a load redistribution indicator, highlighting a soft redundancy mechanism associated with time-dependent stiffness contrasts among plies. The results demonstrate that long-term structural performance cannot be assessed based on deformation alone, as humidity-induced stress redistribution plays a critical role. These findings provide insights for serviceability assessment and durability-oriented design of bio-based composite bridge structures.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      },
+      {
+        "id": "https://openalex.org/W7218883231",
+        "doi": "10.1016/j.engstruct.2026.123896",
+        "title": "Full bridge aeroelastic testing and three-dimensional nonlinear flutter behavior of a 2180 m truss suspension bridge",
+        "published": "2026-10-03",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.123896",
+        "authors": [
+          "Jiankun Li",
+          "Q.S. Li",
+          "Cunming Ma",
+          "Bo Wu"
+        ],
+        "institutions": [
+          "City University of Hong Kong",
+          "Southwest Jiaotong University"
+        ],
+        "journal": "Engineering Structures",
+        "abstract": "The development of super-long-span suspension bridges has entered a critical stage in which aerodynamic stability is increasingly governed by low structural stiffness, low damping and complex aeroelastic coupling. This study presents a full bridge aeroelastic model test of a double-deck truss suspension bridge with a main span of 2180 m. A modeling method combining carbon fiber truss-girder segment fabrication with distributed stiffness simulation using U-shaped springs is proposed to reproduce the multimodal and damping characteristics of the prototype bridge while preserving the aerodynamic shape of the truss girder. Wind tunnel tests were conducted to investigate three-dimensional (3D) nonlinear flutter under different angles of attack (AoAs) and yaw angles. The results show that torsional flutter dominates the bridge responses at all tested AoAs: hard flutter occurs at 0°, self-limiting soft flutter occurs at ±3°, and pronounced hysteresis with a subcritical Hopf bifurcation appears at −3°. Yawed inflow increases the critical flutter wind speed, broadens the range of bounded oscillations before divergence, and produces beating responses, while the final instability remains divergent. A generalized displacement-based method for three degrees of freedom (3DOF) coupled trajectory characterization, full modal decomposition and reconstruction is further proposed. The results characterize the 3D multimodal response and identify the principal modal response components of the main girder, providing experimental evidence and theoretical support for nonlinear flutter analysis and the wind resistant design of ultra-long-span suspension bridges.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      },
+      {
+        "id": "https://openalex.org/W7218898125",
+        "doi": "10.1016/j.engstruct.2026.123875",
+        "title": "On the postbuckling and vibration of functionally graded porous microbeams with a variable material length scale parameter and rough surface",
+        "published": "2026-10-03",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.123875",
+        "authors": [
+          "Jingnong Jiang",
+          "Jia-Jia Mao"
+        ],
+        "institutions": [
+          "Southwest University",
+          "Tianjin University",
+          "Beijing University of Technology"
+        ],
+        "journal": "Engineering Structures",
+        "abstract": "This study examines the postbuckling and vibration behaviors of functionally graded porous (FGP) microbeams with a spatially varying material length scale parameter (MLSP) and rough surface. A new model is developed to account for the coupled effects of both the variable MLSP and surface roughness. The material properties and MLSP of FGP microbeams are modeled as spatially varying functions governed by the material gradient parameter. Based on Euler beam theory, modified couple stress theory (MCST), and von-Kármán geometric nonlinearity, the governing equations and boundary conditions are derived using Hamilton’s principle. Closed-form solutions are then obtained for the postbuckling configuration and associated vibration characteristics of clamped–clamped FGP microbeams. Finally, the influences of surface roughness, MLSP, gradient index, porosity volume fraction, and beam thickness on the buckling and vibration behaviors are investigated. The results demonstrate that increasing the average roughness generally reduces the first two critical buckling loads, whereas increasing the average slope increases the first critical load but decreases the second one. The average slope can also distort the conventional postbuckling configuration. Moreover, the spatial variation of the MLSP has a pronounced influence on the size-dependent buckling and vibration responses, highlighting the necessity of incorporating both the variable MLSP and surface roughness for accurately predicting the mechanical behavior of FGP microbeams.",
+        "citation_count": 0,
+        "method": "Analytical / Theoretical"
+      },
+      {
+        "id": "https://openalex.org/W7219049078",
+        "doi": "10.1016/j.engstruct.2026.123886",
+        "title": "Dynamic structural operational safety assessment and decision support for concrete arch dams via multi-source monitoring data fusion and interval-valued intuitionistic fuzzy reasoning",
+        "published": "2026-10-03",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.123886",
+        "authors": [
+          "Bowen Wei",
+          "Chenrui Liu",
+          "Yating Hu",
+          "Chenfei Shao",
+          "Yanxin Xu",
+          "Dongyang Yuan",
+          "Sen Zheng"
+        ],
+        "institutions": [
+          "Nanchang University",
+          "Hohai University",
+          "China Institute of Water Resources and Hydropower Research",
+          "Nanjing Hydraulic Research Institute",
+          "Ministry of Water Resources of the People's Republic of China"
+        ],
+        "journal": "Engineering Structures",
+        "abstract": "Structural operational safety assessment of high concrete arch dams remains challenging because the importance of monitoring indicators varies with operating conditions, while the evaluation process is affected by multiple sources of uncertainty. To address these issues, this study develops a dynamic data-driven evaluation framework for structural operational safety assessment. Initially, a hierarchical indicator system and a refined grading scheme are established using multi-source structural response sequences. An adaptive weighting mechanism is then developed by coupling the cross-correlation function with Apriori-based association rule mining, enabling indicator weights to be dynamically updated according to the correlation and association characteristics between reservoir water-level variations and structural responses. Furthermore, Interval-Valued Intuitionistic Fuzzy Sets (IVIFSs) are introduced to explicitly represent membership, non-membership and hesitation information, allowing randomness, fuzziness, and expert cognitive uncertainty to be jointly characterized within a unified reasoning framework. The proposed method is validated using monitoring data from the Jinping-I arch dam. Comparative results demonstrate that it provides more stable and discriminative safety-state assessment than conventional static-weight and fuzzy evaluation approaches, while retaining greater adaptability to time-varying structural behavior. The framework further transforms heterogeneous monitoring information into interpretable safety states and spatially explicit diagnostic information, providing a practical basis for real-time safety assessment, targeted inspection and intelligent operation and maintenance of high arch dams.",
+        "citation_count": 0,
+        "method": "Other"
+      }
+    ],
+    "Ultrasonics": [],
+    "Tunnelling and Underground Space Technology": [
+      {
+        "id": "https://openalex.org/W7218459314",
+        "doi": "10.1016/j.tust.2026.108169",
+        "title": "Research on grouting reinforcement and seismic response of a grid-type tunnel anchorage in soft rock conditions",
+        "published": "2026-10-03",
+        "url": "https://doi.org/10.1016/j.tust.2026.108169",
+        "authors": [
+          "Guojun Yang",
+          "Zhiwei Hou",
+          "Yongfeng Du",
+          "Ke Xu",
+          "Pengbo Sun"
+        ],
+        "institutions": [
+          "Lanzhou University of Technology"
+        ],
+        "journal": "Tunnelling and Underground Space Technology",
+        "abstract": "Under soft rock conditions, conventional tunnel-type anchorage (TTA) relies strongly on the clamping action of the surrounding rock, which may limit their load-transfer efficiency and seismic performance under unfavorable geological conditions. To improve the interaction between the anchorage body and surrounding rock, a grid-type tunnel anchorage (GTA) was proposed by introducing regularly distributed grid holes on the surface of the anchorage body to enhance mechanical interlocking and load diffusion. A theoretical model based on a surrounding rock–grouting reinforcement layer–anchorage body three-medium system was first established to investigate seismic-wave propagation and energy transmission characteristics. Subsequently, a three-dimensional dynamic numerical model was developed using FLAC3D to evaluate the effects of grouting reinforcement thickness, grouting configuration, grouting reinforcement level, and the thickness of the underlying soft rock layer on construction-induced settlement, displacement response, stress response, and energy transmission. The results indicate that construction-induced settlement is governed primarily by grouting reinforcement rather than anchorage configuration, whereas the advantages of the GTA become more pronounced under seismic loading. Compared with the conventional TTA, the GTA exhibits a lower displacement response, a more uniform stress distribution, and reduced sensitivity to variations in geological conditions. Within the investigated range, a grouting reinforcement thickness of 2–3 m provides effective deformation control, whereas further increasing the grouting reinforcement extent yields limited additional benefits. Full-ring grouting produces a more uniform stress distribution, and even the lowest grouting reinforcement level considered in this study can effectively improve the stability of soft rock. The energy analysis further demonstrates that the combination of the GTA and continuous grouting reinforcement reduces seismic energy transmission into the anchorage system. These findings provide insights into seismic design and reinforcement strategies for tunnel-type anchorages under soft rock conditions.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      },
+      {
+        "id": "https://openalex.org/W7218772638",
+        "doi": "10.1016/j.tust.2026.108179",
+        "title": "A physics-guided deep learning method for construction-induced settlement prediction during pipe-roof underpassing of an operating high-speed railway",
+        "published": "2026-10-03",
+        "url": "https://doi.org/10.1016/j.tust.2026.108179",
+        "authors": [
+          "Hongfei Gao",
+          "Chaojun Jia",
+          "Haiwei Shang",
+          "Liang Wang",
+          "Mingfeng Lei",
+          "Xiaohui Jia",
+          "Peng Hu"
+        ],
+        "institutions": [
+          "Central South University"
+        ],
+        "journal": "Tunnelling and Underground Space Technology",
+        "abstract": "Under ultra-shallow-buried, water-rich soft ground conditions, deformation control is highly sensitive when the pipe-roof method is used to underpass an operating high-speed railway. Excavation disturbance may induce coupled settlement of the tunnel crown, ground surface, and existing track, directly threatening the operational safety of the high-speed railway. To address the limited availability of field monitoring data, the significant spatiotemporal coupling of settlement responses, and the discrepancy between numerical simulations and actual engineering conditions, a physics-guided deep learning method for construction-induced settlement prediction, termed PG-STGAT, is proposed. In this method, crown, ground, and rail monitoring points are represented as graph nodes, and the graph structure is constructed based on spatial proximity and deformation-transfer mechanisms. A temporal convolutional network and a graph attention network are adopted to extract the temporal evolution and spatial correlation features of settlement, while data fitting, temporal continuity, spatial coordination, and deformation-transfer consistency constraints are introduced into the loss function. Nine sets of FLAC3D simulation data under multiple working conditions are used for pretraining, followed by fine-tuning with field monitoring data to achieve transfer from simulation data to real engineering data. The engineering case results show that PG-STGAT achieves RMSE, MAE, MSE, WMAPE, and R 2 values of 0.1048 mm, 0.0614 mm, 0.0110 mm 2 , 7.97%, and 0.9869 on the test set, respectively. Ablation analysis verifies the effectiveness of physics guidance, graph attention, and temporal feature extraction. With only 5% of the field monitoring data used for fine-tuning, the R 2 remains 0.9129, and the model maintains good predictive performance under 20% noise. Model interpretability analysis further reveals the information-transfer relationships among crown, ground, and rail settlement and verifies the physical consistency of the prediction results. The proposed data-physics fusion approach provides a potentially effective tool for accurate prediction of construction-induced settlement during pipe-roof underpassing of an operating high-speed railway.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      },
+      {
+        "id": "https://openalex.org/W7219108965",
+        "doi": "10.1016/j.tust.2026.108108",
+        "title": "Deformation parameters for the Bi-Elliptical Displacement-Controlled Method and related tunnel deformation modes",
+        "published": "2026-10-03",
+        "url": "https://doi.org/10.1016/j.tust.2026.108108",
+        "authors": [
+          "Wenhui Yang",
+          "Daniela Boldini"
+        ],
+        "institutions": [
+          "Sapienza University of Rome"
+        ],
+        "journal": "Tunnelling and Underground Space Technology",
+        "abstract": "This study investigates the deformation characteristics of shield tunnel cross-sections using a step-by-step three-dimensional finite element method and proposes recommended parameters for the Bi-Elliptical Displacement-Controlled Method (Bi-Elliptical DCM). The advanced Hardening Soil model with small-strain stiffness was adopted to simulate soil behaviour, and model reliability was validated using the Gaussian settlement trough expression and Kirsch solution. More than 700 numerical cases were analysed considering different soil conditions, tunnel diameters, buried depths, and tunnel volume losses. The results show that tunnel deformation is primarily controlled by soil characteristics, followed by tunnel diameter and buried depth. In coarse-grained soils, tunnel cross-sections exhibit pronounced bi-elliptical deformation, especially for large and deep tunnels, whereas fine-grained soils generally show circular contraction patterns. Based on the numerical results, reference charts for the Bi-Elliptical DCM parameters n 1 , n 2 and β are proposed to enable rapid prediction of tunnelling-induced deformation. The findings improve understanding of shield tunnel deformation mechanisms and provide practical guidance for applying the Bi-Elliptical DCM in engineering projects.",
+        "citation_count": 0,
+        "method": "Numerical Simulation"
+      }
+    ],
+    "Rock Mechanics and Rock Engineering": []
+  }
+}
