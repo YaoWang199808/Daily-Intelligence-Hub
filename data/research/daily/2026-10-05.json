@@ -1,0 +1,262 @@
+{
+  "date": "2026-10-05",
+  "journals": {
+    "Automation in Construction": [],
+    "Mechanical Systems and Signal Processing": [],
+    "Measurement": [
+      {
+        "id": "https://openalex.org/W7219608701",
+        "doi": "10.1016/j.measurement.2026.123374",
+        "title": "Microwave resonator-based non-invasive blood glucose sensing: performance, practical challenges, and clinical translation",
+        "published": "2026-10-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123374",
+        "authors": [
+          "Md. Taufik Omar Shuvo",
+          "Md Rejvi Kaysir",
+          "Md. Sohanur Rahaman"
+        ],
+        "institutions": [],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7219654984",
+        "doi": "10.1016/j.measurement.2026.123343",
+        "title": "Competitive fitness ranking and reward-punitive learning-based multi-population reconfiguration for belief rule base mutual learning",
+        "published": "2026-10-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123343",
+        "authors": [
+          "Zihao Li",
+          "Jiangtao Deng",
+          "Gaofeng He",
+          "Leilei Chang",
+          "Zhiyong Hao"
+        ],
+        "institutions": [
+          "Hangzhou Dianzi University"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7214803115",
+        "doi": "10.1016/j.measurement.2026.123357",
+        "title": "3D-Defect identification method for bent pipe based on multimodal characteristics of ultrasonic guided wave",
+        "published": "2026-09-29",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123357",
+        "authors": [
+          "Denglong Ma",
+          "Yuxiang Zhou",
+          "Yuan Liu",
+          "Jianmin Gao",
+          "Yunxiang Tian"
+        ],
+        "institutions": [
+          "Xi'an Jiaotong University",
+          "Shaanxi Coal Chemical Industry Technology Research Institute"
+        ],
+        "journal": "Measurement",
+        "abstract": "The ultrasonic guided wave (UGW) method is widely used to detect corrosion defects in straight pipes, but its application to bent pipes remains limited. This study presents a 3D defect identification method for bent pipes based on multimodal UGW features, covering axial localization, circumferential localization, and radial penetration-risk assessment. Guided-wave propagation was first examined by numerical simulations and experiments. Results show that UGW energy is relatively uniform far from the bend and concentrates on the outside near the bending region. The radial depth of a defect has a stronger effect on echo amplitude than its circumferential length. A multimodal identification framework was then developed. Combining Gabor atomic matching pursuit with the Hilbert envelope method, axial positions were located with maximum errors of 1.84 % for straight pipes and 3.01 % for bent pipes. Circumferential position can be evaluated from the radar map of the reflection coefficient: for defects symmetric about the elbow geometry or located in straight-pipe sections, the symmetry axis of the radar map coincides with that of the defect cross-section. Finally, the peak amplitude ratio of the L(0,1) and L(0,2) modes is used to assess radial penetration risk, completing the three-dimensional characterization of bent-pipe defects. The proposed method shows potential for monitoring corrosion and crack damage in bent pipes.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      },
+      {
+        "id": "https://openalex.org/W7214774122",
+        "doi": "10.1016/j.measurement.2026.123306",
+        "title": "Self-referenced uncertainty-aware drift compensation for SERF atomic spin gyroscopes using physics-informed fusion",
+        "published": "2026-09-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123306",
+        "authors": [
+          "Zi Meng Zhu",
+          "Xusheng Lei",
+          "Jiaxin Liu"
+        ],
+        "institutions": [
+          "Beihang University"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7214795414",
+        "doi": "10.1016/j.measurement.2026.123345",
+        "title": "Classification and severity grading of potential damage to steel strands using metal magnetic memory technology",
+        "published": "2026-09-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123345",
+        "authors": [
+          "Shurong Ren",
+          "Sanqing Su",
+          "Wei Wang",
+          "麻胜兰",
+          "Shuya Yu"
+        ],
+        "institutions": [
+          "Xi'an University of Architecture and Technology"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7214799315",
+        "doi": "10.1016/j.measurement.2026.123355",
+        "title": "Natural gas leakage: An inverse quantification method based on distributed polling sampling monitoring",
+        "published": "2026-09-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123355",
+        "authors": [
+          "Hao Hu",
+          "Qi Zhang",
+          "Xiaomei Huang",
+          "Meng-Xiao Sun",
+          "Xiao-Bin Yang",
+          "Shan Lyu",
+          "Shu-Hao Zhang"
+        ],
+        "institutions": [
+          "Chongqing University",
+          "Guangzhou Automobile Group (China)"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7214802468",
+        "doi": "10.1016/j.measurement.2026.123361",
+        "title": "Effective sampling-rate characterization of digital MEMS vibration sensing systems and implications for calibration",
+        "published": "2026-09-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123361",
+        "authors": [
+          "Andrea Prato",
+          "Alessio Facello",
+          "Giulio D’Emilia",
+          "Luciano Chiominto",
+          "Emanuela Natale",
+          "Alessandro Schiavi"
+        ],
+        "institutions": [
+          "Istituto Nazionale di Ricerca Metrologica",
+          "University of L'Aquila"
+        ],
+        "journal": "Measurement",
+        "abstract": "The calibration of digital MEMS sensing systems for vibration measurements (here intended as a single measuring chain, including the digital accelerometer sensor and the supporting microcontroller) presents unique challenges, particularly due to the variability in effective sampling rate introduced by the internal clocks of MEMS. This variability, in terms of mean sampling rate different from the nominal one and its standard deviation or short-term variability (hereinafter denoted in terms of jitter ), introduces systematic effects in frequency and amplitude determination, respectively, that are usually neglected during standard calibration procedures. The aim of this work is to provide simple, practical methods for estimating the effective sampling rate and its intrinsic short-term variability in MEMS sensing systems using time- or frequency-domain analysis, offering a balance between accuracy and usability. An analytical expression is also derived to evaluate the impact of jitter on sensitivity determination. These methods are experimentally applied to 25 nominally identical digital MEMS accelerometer systems, characterizing both their mean sampling rates and the jitter. Results show that the actual sampling rates differ notably from the nominal value up to 5.2 % while exhibiting negligible short-term variability, under the investigated conditions. These findings provide a foundation for improving calibration protocols of digital MEMS sensors in dynamic applications.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      },
+      {
+        "id": "https://openalex.org/W7214887042",
+        "doi": "10.1016/j.measurement.2026.123272",
+        "title": "Reconstruction of regional sound speed fields from sparse asynchronous measurements via model-observation residual fusion",
+        "published": "2026-09-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123272",
+        "authors": [
+          "Qi Zhang",
+          "Hongmei Zhang",
+          "夏宪文",
+          "Xi Zhao",
+          "赵建虎"
+        ],
+        "institutions": [
+          "Wuhan University of Technology",
+          "Wuhan University",
+          "Shanghai Harbour Engineering Design & Research Institute",
+          "China University of Geosciences",
+          "Institute of Geodesy and Geophysics"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7214920903",
+        "doi": "10.1016/j.measurement.2026.123365",
+        "title": "A novel semi-analytical algorithm for estimating particulate organic matter in freshwater lakes using Sentinel-3 OLCI images",
+        "published": "2026-09-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123365",
+        "authors": [
+          "Fangfang Chen",
+          "Runqi Ma",
+          "Jiafeng Xu",
+          "Heng Lyu",
+          "Yunmei Li",
+          "Chenyang Wei",
+          "Wenyu Liu",
+          "Yuxin Zhu",
+          "Guotao Fan",
+          "Fangxi Zhang"
+        ],
+        "institutions": [
+          "Nanjing Normal University",
+          "Tongling University"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      },
+      {
+        "id": "https://openalex.org/W7214922959",
+        "doi": "10.1016/j.measurement.2026.123378",
+        "title": "Task-aware masked autoencoding for robust mine microseismic signal recognition under blasting disturbance",
+        "published": "2026-09-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123378",
+        "authors": [
+          "Xin Xie",
+          "Dong Chen",
+          "Weichen Sun",
+          "Enyuan Wang",
+          "Jingye Li",
+          "Haishan Jia",
+          "杨恒泽 Yang Hengze",
+          "Shenglei Zhao",
+          "Weiao Liu"
+        ],
+        "institutions": [
+          "China University of Mining and Technology",
+          "Inner Mongolia University of Science and Technology",
+          "Shaanxi Yulin Energy Group"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      }
+    ],
+    "Engineering Structures": [
+      {
+        "id": "https://openalex.org/W7219583239",
+        "doi": "10.1016/j.engstruct.2026.123878",
+        "title": "Experimental and numerical study on hysteretic performance of aluminum alloy weak-axis beam-to-column joint connected by ring-groove rivets",
+        "published": "2026-10-05",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.123878",
+        "authors": [
+          "Mingze Wu",
+          "Yuanqing Wang",
+          "Ying Zhang",
+          "Huan Lu",
+          "Beibei Li",
+          "Zongyi Wang",
+          "Shuai Mo",
+          "Yecheng Dai"
+        ],
+        "institutions": [],
+        "journal": "Engineering Structures",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      }
+    ],
+    "Ultrasonics": [],
+    "Tunnelling and Underground Space Technology": [],
+    "Rock Mechanics and Rock Engineering": []
+  }
+}
