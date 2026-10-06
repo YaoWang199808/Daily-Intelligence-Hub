@@ -1,0 +1,462 @@
+{
+  "date": "2026-10-06",
+  "journals": {
+    "Automation in Construction": [
+      {
+        "id": "https://openalex.org/W7220381747",
+        "doi": "10.1016/j.autcon.2026.107300",
+        "title": "Review of material–process–structure synergy and engineering applications of spray-based 3D concrete printing",
+        "published": "2026-10-05",
+        "url": "https://doi.org/10.1016/j.autcon.2026.107300",
+        "authors": [
+          "Qi Yang",
+          "Guang Yang",
+          "Zhongcheng Ma",
+          "Jie Xu",
+          "Giuseppe Lacidogna"
+        ],
+        "institutions": [],
+        "journal": "Automation in Construction",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Review / Survey"
+      },
+      {
+        "id": "https://openalex.org/W7220416548",
+        "doi": "10.1016/j.autcon.2026.107296",
+        "title": "Artificial intelligence for two-dimensional AEC drawing analysis: Systematic and critical review",
+        "published": "2026-10-05",
+        "url": "https://doi.org/10.1016/j.autcon.2026.107296",
+        "authors": [
+          "Ifeoluwa Awotunde",
+          "Yongwei Shan"
+        ],
+        "institutions": [
+          "Oklahoma State University"
+        ],
+        "journal": "Automation in Construction",
+        "abstract": "Interpretation of two-dimensional architecture, engineering, and construction (AEC) drawings remains labor-intensive, while research is fragmented across methods, datasets, and domains. This paper combines systematic review, bibliometric analysis, and critical synthesis of 105 publications from 2015 to February 5, 2026. Task analysis yielded 162 assignments from 97 studies, with low-level perception accounting for 69.8%, compared with 18.5% for intermediate and 11.7% for high-level tasks. Convolutional neural networks remained dominant, while transformer-based and hybrid methods increased after 2023. Within the literature, building information modeling had the most established evidence base, whereas navigation and accessibility remained emerging. Custom datasets were used in 59 studies, while cross-dataset generalization remained limited. Evaluation was relatively standardized for segmentation and detection but inconsistent for higher-level tasks. A conceptual framework links methods, tasks, outputs, domains, relative readiness, and outcomes. Future research should prioritize shared datasets, AEC-specific evaluation indicators, efficient models, and interoperable workflows validated on real project data.",
+        "citation_count": 0,
+        "method": "Review / Survey"
+      },
+      {
+        "id": "https://openalex.org/W7220450299",
+        "doi": "10.1016/j.autcon.2026.107285",
+        "title": "Composite-kernel Gaussian process regression for coating quality prediction in robotic natural-stone paint spraying",
+        "published": "2026-10-05",
+        "url": "https://doi.org/10.1016/j.autcon.2026.107285",
+        "authors": [
+          "Haoyu Shi",
+          "Juan Lu",
+          "Qinghua Liao",
+          "Junyan Ma",
+          "Xiaoping Liao"
+        ],
+        "institutions": [],
+        "journal": "Automation in Construction",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      }
+    ],
+    "Mechanical Systems and Signal Processing": [
+      {
+        "id": "https://openalex.org/W7220358998",
+        "doi": "10.1016/j.ymssp.2026.115027",
+        "title": "Novel power-sine arch nonlinear energy sink: design, dynamic modeling and torsional vibration suppression performance",
+        "published": "2026-10-05",
+        "url": "https://doi.org/10.1016/j.ymssp.2026.115027",
+        "authors": [
+          "Kun Yue",
+          "Liming Wang",
+          "Zhihao Dong",
+          "Fukang Shen",
+          "Wenbin Huang",
+          "Huifang Xiao",
+          "Qiang Zeng"
+        ],
+        "institutions": [],
+        "journal": "Mechanical Systems and Signal Processing",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Numerical Simulation"
+      },
+      {
+        "id": "https://openalex.org/W7220461102",
+        "doi": "10.1016/j.ymssp.2026.115017",
+        "title": "Adaptive event-triggered soft actor-critic control for MR suspension subject to actuator smoothness constraints",
+        "published": "2026-10-05",
+        "url": "https://doi.org/10.1016/j.ymssp.2026.115017",
+        "authors": [
+          "Hui Pang",
+          "Yong Lu",
+          "Yufan Liu",
+          "Menghua Zhang",
+          "Tenglong Huang",
+          "Yan Zhang",
+          "Zhen Zhang",
+          "侯一哲"
+        ],
+        "institutions": [
+          "Xi'an University of Technology",
+          "Northwest A&F University"
+        ],
+        "journal": "Mechanical Systems and Signal Processing",
+        "abstract": "Magnetorheological (MR) suspension control faces high computational and communication burdens, large actuator force fluctuations, and reduced damper service life. This study proposes an adaptive event-triggered soft actor-critic (AET-SAC) control strategy subject to actuator smoothness constraints. First, a quarter-vehicle MR suspension dynamic model incorporating first-order actuator dynamics and hard constraints on the control-force change rate is established. Next, a dual smoothness constraint mechanism is incorporated into the SAC framework. A multi-objective reward function is designed to balance vibration suppression performance, actuator energy consumption, and damper service life. Then, an adaptive event-triggered mechanism based on the relative error of body acceleration is incorporated into the policy inference process, with the triggering threshold adjusted according to the vibration intensity to reduce unnecessary control updates. Lyapunov theory is used to establish uniform ultimate boundedness of the closed-loop system and the absence of the Zeno phenomenon. Finally, comprehensive simulations are conducted under bump and random road conditions, together with hardware-in-the-loop experiments on an STM32H753 embedded platform. The results show that, compared with the passive suspension, the proposed AET-SAC strategy reduces the RMS value of body acceleration by more than 60% and unnecessary control updates by approximately 58%. In addition, the proposed strategy provides smoother control-force output and lower actuator energy consumption than the AET-TD3, AET-DDPG, and conventional LQR controllers.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      },
+      {
+        "id": "https://openalex.org/W7220462314",
+        "doi": "10.1016/j.ymssp.2026.115013",
+        "title": "An integrated autoencoder-based framework for unsupervised domain adaptation in structural health monitoring of bridges",
+        "published": "2026-10-05",
+        "url": "https://doi.org/10.1016/j.ymssp.2026.115013",
+        "authors": [
+          "Wellington de Lima Nogueira",
+          "Elói Figueiredo",
+          "Samuel da Silva"
+        ],
+        "institutions": [],
+        "journal": "Mechanical Systems and Signal Processing",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      }
+    ],
+    "Measurement": [
+      {
+        "id": "https://openalex.org/W7220362552",
+        "doi": "10.1016/j.measurement.2026.123408",
+        "title": "Calibration-free uniaxial stress measurement using two orthogonal pairs of obliquely propagating SV waves",
+        "published": "2026-10-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123408",
+        "authors": [
+          "Zhengyang Qu",
+          "Shujuan Wang",
+          "Runjie Yang",
+          "Zhichao Li"
+        ],
+        "institutions": [
+          "Harbin Institute of Technology"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7220391787",
+        "doi": "10.1016/j.measurement.2026.123402",
+        "title": "Detection for petroleum hydrocarbon pollution in groundwater based on hyperspectral imaging",
+        "published": "2026-10-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123402",
+        "authors": [
+          "Qing Chang",
+          "Yezhou Fan",
+          "Qian Wu",
+          "Wenxin Hou",
+          "Yunchuan Yang",
+          "Dongxue Bi",
+          "Jun Liu",
+          "Tao Yu",
+          "Rui Zuo",
+          "Kunlei Zhang"
+        ],
+        "institutions": [
+          "Beijing Normal University",
+          "Beijing Normal University, Zhuhai",
+          "China National Petroleum Corporation (China)",
+          "Beihang University",
+          "Guangzhou Automobile Group (China)"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7220407318",
+        "doi": "10.1016/j.measurement.2026.123405",
+        "title": "Spatially partitioned identification of geological features on open-pit slopes via morphological cross-image reconstruction and quantitative feature analysis: rock veins as a case study",
+        "published": "2026-10-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123405",
+        "authors": [
+          "Xie Hao-bin",
+          "Zhang Yong",
+          "Niu Wen-jing",
+          "Feng Guang-liang",
+          "SU Guo-shao",
+          "Qiu Zhenhua"
+        ],
+        "institutions": [],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7220409517",
+        "doi": "10.1016/j.measurement.2026.123267",
+        "title": "Enhancing free-form surface inspection through fusion of contact probe and 3D scanner data with optimal non-rigid transformations",
+        "published": "2026-10-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123267",
+        "authors": [
+          "Mathieu Latulippe",
+          "J.R.R. Mayer",
+          "Farbod Khameneifar"
+        ],
+        "institutions": [
+          "Polytechnique Montréal"
+        ],
+        "journal": "Measurement",
+        "abstract": "Multi-sensor data fusion can improve the dimensional inspection of complex free-form parts by combining sparse, accurate coordinate measuring machine (CMM) data with dense optical 3D scans. However, existing fusion approaches often rely on fitted geometric models or surface approximations for the dense data set, and may smooth out the fine local details captured by the scanner during error correction. This paper presents a data fusion algorithm that directly corrects the 3D scan mesh, without geometric re-modeling, while preserving small surface features. The method uses a specifically tuned Non-Rigid Iterative Closest Point (NR-ICP) algorithm to compute non-rigid affine transformations from a sparse set of CMM points and apply them to the scan mesh in order to reduce its systematic error. A dedicated parameter selection strategy is introduced to decouple global error correction from local surface modification, so that systematic scan deviations can be corrected without erasing fine geometric details. The proposed approach therefore retains the density and detail of optical scanning while improving accuracy using a limited number of CMM measurements. Experimental validation was carried out on two representative test cases: a smooth free-form surface and a surface with localized damage. Compared with an independent validation dataset, the corrected meshes showed root-mean-square error reductions of 93% and 87%, respectively. The method thus provides an accurate and detail-preserving fusion framework for dense inspection, with reduced inspection time relative to CMM-only measurement.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      },
+      {
+        "id": "https://openalex.org/W7220411234",
+        "doi": "10.1016/j.measurement.2026.123425",
+        "title": "Quadcopter-borne cavity ring-down spectroscopy for simultaneous methane and carbon dioxide monitoring",
+        "published": "2026-10-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123425",
+        "authors": [
+          "Jinyi Li",
+          "Kexin Chen",
+          "Bing Guo",
+          "Zhichao Wu",
+          "Guoyuan Qi",
+          "Xiaotao Yang"
+        ],
+        "institutions": [],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7220414076",
+        "doi": "10.1016/j.measurement.2026.123414",
+        "title": "A variable-weight integration method for multipath ultrasonic flowmeters based on flow-layer deflection in elbow-shaped pump-station conduits",
+        "published": "2026-10-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123414",
+        "authors": [
+          "Mengting Chen",
+          "Dixi Han",
+          "Qiang Zhong",
+          "Fujun Wang",
+          "Zhifeng Yao",
+          "YuXin Du"
+        ],
+        "institutions": [],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7220416449",
+        "doi": "10.1016/j.measurement.2026.123415",
+        "title": "Gas temperature measurements in gradient fields via temporally modulated laser-induced breakdown thermometry",
+        "published": "2026-10-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123415",
+        "authors": [
+          "Shu Chai",
+          "Ziqing Zhao",
+          "Hefei Ji",
+          "Yuanfu Lou",
+          "Bin Su",
+          "Wendong Wu"
+        ],
+        "institutions": [],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7220444610",
+        "doi": "10.1016/j.measurement.2026.123407",
+        "title": "Real-time inverse identification of pantograph-catenary contact force using multi-sensor fusion and an adaptive sliding window",
+        "published": "2026-10-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123407",
+        "authors": [
+          "Haifei Wei",
+          "Yao Cheng",
+          "Xingshuai Zhi",
+          "Mudi Li",
+          "Hongming Chen",
+          "Hangyan Jiang",
+          "Weihua Zhang",
+          "Ning Zhou"
+        ],
+        "institutions": [],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7220451336",
+        "doi": "10.1016/j.measurement.2026.123423",
+        "title": "Spatiotemporal physics-informed network based soft sensor for detecting crystal size and concentration distribution of COBC with application to L-glutamic acid crystallization",
+        "published": "2026-10-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123423",
+        "authors": [
+          "Yan Cui",
+          "Tao Liu",
+          "Mingyan Zhao",
+          "Lek Wantha",
+          "Zhixing Cao",
+          "Junghui Chen"
+        ],
+        "institutions": [],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7220451434",
+        "doi": "10.1016/j.measurement.2026.123323",
+        "title": "Thermally isolated microwave-resonant sensor for molten aluminum level measurement",
+        "published": "2026-10-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123323",
+        "authors": [
+          "Yan Tang",
+          "Yizheng Chen",
+          "Zewei Wu",
+          "Biyao Shi",
+          "Qi Zhang",
+          "Yang Du"
+        ],
+        "institutions": [
+          "China Electric Power Research Institute",
+          "Shanghai University",
+          "Institute for Advanced Study"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      }
+    ],
+    "Engineering Structures": [
+      {
+        "id": "https://openalex.org/W7220365207",
+        "doi": "10.1016/j.engstruct.2026.123879",
+        "title": "Stability behaviour and design approach of slender concrete-filled double-skin corrugated steel tubes under axial compression",
+        "published": "2026-10-05",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.123879",
+        "authors": [
+          "Bo Lu",
+          "Hua Yang",
+          "Yong Guang Fang",
+          "Wang Yuyin",
+          "Guokai Zhang"
+        ],
+        "institutions": [
+          "Harbin Institute of Technology",
+          "Nanjing University of Science and Technology"
+        ],
+        "journal": "Engineering Structures",
+        "abstract": "Concrete-filled double-skin corrugated steel tube (CFDCST) members have been proven to exhibit superior mechanical performance, durability, and construction efficiency. In practice, hollow-section CFDCSTs are often designed as slender components in piers, towers, and high-rise buildings; however, their stability behaviour has not been clarified. Therefore, this study aims to reveal the working mechanisms of slender CFDCSTs under axial compression and propose design methods. This study first experimentally investigated eight large-scale slender CFDCST specimens under axial compression, including four variables: nominal slenderness ratio from 27 to 42, hollow ratio from 0.3 to 0.7, outer CST thickness from 1.2 mm to 1.6 mm, and longitudinal rebar ratio from 1.06% to 2.70%. Subsequently, solid finite element models were established, and stress analysis was performed to quantify the working mechanisms. Results indicated that the outer CST can provide effective confinement, with the nominal hoop stress generally ranging from 0.4 to 0.8 times the yield strength in the compressive side and 0.25–0.7 times the yield strength in the tensile side, while the inner CST mainly provides internal support. On this basis, a fiber-based finite element method was developed, and a systematic parametric analysis was then performed to investigate the stability bearing capacity. Finally, a calculation method for the axial compressive stability coefficient was proposed with satisfactory prediction accuracy.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      },
+      {
+        "id": "https://openalex.org/W7220373919",
+        "doi": "10.1016/j.engstruct.2026.123845",
+        "title": "Seismic performance study on the damage migration mechanism of precast grid shear walls: Influence of connection structure and steel reinforcement layout",
+        "published": "2026-10-05",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.123845",
+        "authors": [
+          "Chenghua Zhang",
+          "Quan Bai",
+          "Guopeng Jing",
+          "Tang Liyun",
+          "Zhigang Gao",
+          "Qing Qin",
+          "Hua Zhang",
+          "Guanghong Xiong",
+          "Jie Yu"
+        ],
+        "institutions": [],
+        "journal": "Engineering Structures",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7220391622",
+        "doi": "10.1016/j.engstruct.2026.123905",
+        "title": "Residual self-tapping screw withdrawal resistance in steel-to-wood connections under cyclic moisture content load",
+        "published": "2026-10-05",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.123905",
+        "authors": [
+          "Jintao Zhang",
+          "Lina Zhou",
+          "Chun Ni"
+        ],
+        "institutions": [
+          "University of Victoria",
+          "FPInnovations"
+        ],
+        "journal": "Engineering Structures",
+        "abstract": "This paper investigates the residual withdrawal resistance of fully-threaded (FT) and partially-threaded (PT) self-tapping screws (STSs) in steel-to-wood (S2W) connections subjected to cyclic moisture content (MC) load through both finite element (FE) modelling and an analytical ordinary differential equation (ODE) model. In the FE modelling, both installation-induced and MC loads were considered, with three MC cycles: 12%−16%−12%, 12%−21%−12%, and 12%−30%−12%. In contrast, the analytical ODE model considered only the effect of the MC load. Results reveal that the installation-induced loads can be neglected when quantifying the reduction in STS withdrawal resistance caused by wetting. While MC cycle with low MC increase, e.g., 12%−16%−12%, has negligible influence on the STS withdrawal resistance, MC cycles with moderate to large MC increases (e.g., 12%−21%−12%, and 12%−30%−12%) would significantly reduce the withdrawal resistance of STSs, especially for PT STSs (across all considered lengths from 80 mm to 400 mm) and FT STSs with short screw lengths (specifically, 80 and 120 mm). Moreover, the analytical ODE model proposed in this study can reasonably estimate the STS withdrawal resistance and therefore serve as an alternative to FE modelling.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      },
+      {
+        "id": "https://openalex.org/W7220426636",
+        "doi": "10.1016/j.engstruct.2026.123884",
+        "title": "Enhanced quantitative damage detection for composite laminates based on compressed features of Lamb waves",
+        "published": "2026-10-05",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.123884",
+        "authors": [
+          "Xiaofeng Liu",
+          "Daiping Wei",
+          "Fuyuan Liang",
+          "Lin Bo"
+        ],
+        "institutions": [
+          "Chongqing University",
+          "State Key Laboratory of Mechanical Transmission"
+        ],
+        "journal": "Engineering Structures",
+        "abstract": "To achieve a comprehensive and high-fidelity evaluation encompassing the initiation, localization, morphology, and geometric dimension of damage in composite laminates, an advanced quantitative damage detection framework is proposed by seamlessly integrating a multi-domain feature compression model with an enhanced spatial imaging algorithm. A task-specific channel attention network, optimized via a squeeze-and-excitation mechanism, is developed to compress multi-domain Lamb-wave features into a compact, damage-sensitive representation. On this basis, an Enhanced Damage Index (EDI) with inherently robust immunity to environmental perturbations is established to facilitate holistic structural health monitoring. Utilizing the path-specific EDI values derived from a distributed sensor array, an EDI spatial probability fusion imaging algorithm is executed to precisely isolate the most probable center of the defect zone along with its associated wave-scattering trajectories. To suppress artifacts arising from spurious edge reflections, an adaptive density-based spatial clustering algorithm is introduced to effectively filter true boundary-scattering coordinates from statistical outliers. The macroscopic topology of the internal degradation is subsequently reconstructed by shape-matching the convex hull of the isolated scattering cluster using dynamic time warping against preset geometric templates. Ultimately, the definitive damage center and quantitative boundary scale are calibrated via the maximum inscribed regular shape tightly bounded by the convex envelope. Extensive validation conducted on both numerical finite-element models and physical experimental platforms yields remarkable agreement between the predicted profiles and actual damage states. The results robustly confirm the applicability, exceptional localization precision, and quantitative reliability of the proposed framework for multi-parameter defect characterization in anisotropic composite structures.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      }
+    ],
+    "Ultrasonics": [
+      {
+        "id": "https://openalex.org/W7220419065",
+        "doi": "10.1016/j.ultras.2026.108326",
+        "title": "Ultrasonic interference analysis and elimination for LED-based photoacoustic imaging systems",
+        "published": "2026-10-05",
+        "url": "https://doi.org/10.1016/j.ultras.2026.108326",
+        "authors": [
+          "Enxiang Shen",
+          "Qian Wang",
+          "Yuxin Wang",
+          "Zhendong Yao",
+          "Xiao Yin",
+          "Kanglian Zhao",
+          "Jie Yuan"
+        ],
+        "institutions": [
+          "Nanjing University",
+          "Jiangsu University",
+          "Yixing People's Hospital"
+        ],
+        "journal": "Ultrasonics",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      }
+    ],
+    "Tunnelling and Underground Space Technology": [],
+    "Rock Mechanics and Rock Engineering": []
+  }
+}
