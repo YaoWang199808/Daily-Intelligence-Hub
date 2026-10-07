@@ -1,0 +1,650 @@
+{
+  "date": "2026-10-07",
+  "journals": {
+    "Automation in Construction": [
+      {
+        "id": "https://openalex.org/W7220651330",
+        "doi": "10.1016/j.autcon.2026.107263",
+        "title": "Attention-enhanced deep learning for on-site time-series construction equipment motion recognition",
+        "published": "2026-10-06",
+        "url": "https://doi.org/10.1016/j.autcon.2026.107263",
+        "authors": [
+          "Ankang Ji",
+          "Hongqin Fan",
+          "Xiaolong Xue",
+          "Hui Yan",
+          "Xianyu Tan"
+        ],
+        "institutions": [
+          "South China University of Technology",
+          "Hong Kong Polytechnic University",
+          "Guangzhou University"
+        ],
+        "journal": "Automation in Construction",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Machine Learning"
+      },
+      {
+        "id": "https://openalex.org/W7220664149",
+        "doi": "10.1016/j.autcon.2026.107297",
+        "title": "Generative LLM for adaptive taxonomy-informed multi-label classification in construction safety",
+        "published": "2026-10-06",
+        "url": "https://doi.org/10.1016/j.autcon.2026.107297",
+        "authors": [
+          "Qing Shuang",
+          "Lujie Qi",
+          "Huaiyuan Zhai"
+        ],
+        "institutions": [
+          "Beijing Jiaotong University"
+        ],
+        "journal": "Automation in Construction",
+        "abstract": "Accurate hierarchical multi-label classification of construction accident narratives is vital, yet traditional methods struggle with the Occupational Injury and Illness Classification System (OIICS), which contains over 2000 labels across four attributes with four-level hierarchies and is subject to taxonomic updates. This paper proposes the Adaptive Generative Construction Classification (AGCC), a taxonomy-informed generative framework that reformulates coding as structured sequence-to-sequence generation. Each attribute is predicted at a variable depth using leaf codes, while taxonomy-informed serialization and semantic-aware label verbalization promote hierarchical consistency. AGCC incorporates Low-Rank Adaptation for parameter-efficient fine-tuning. On OIICS 3.0, AGCC achieves 74.36% Weighted-F1 (Flat) and 84.66% Weighted-F1 (Hierarchical), outperforming full fine-tuning of FLAN-T5-Large by 4.41 and 2.74 percentage points, respectively. Macro-F1 improves by 5.78 and 5.53 percentage points, respectively, while 3.2% of parameters are trainable. AGCC transfers across backbones and demonstrates robustness to taxonomy shifts, offering an accurate and scalable solution for construction safety coding under evolving taxonomies.",
+        "citation_count": 0,
+        "method": "Analytical / Theoretical"
+      },
+      {
+        "id": "https://openalex.org/W7220673303",
+        "doi": "10.1016/j.autcon.2026.107298",
+        "title": "Wall-climbing robot with two-stage acoustic perception for noise-robust hollow tile inspection",
+        "published": "2026-10-06",
+        "url": "https://doi.org/10.1016/j.autcon.2026.107298",
+        "authors": [
+          "Zhenqin Huang",
+          "Shuyi He",
+          "Jiahui Liu",
+          "Yi You",
+          "Kang Gao"
+        ],
+        "institutions": [],
+        "journal": "Automation in Construction",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7220742796",
+        "doi": "10.1016/j.autcon.2026.107290",
+        "title": "Semi-automated code compliance checking based on semantic reasoning",
+        "published": "2026-10-06",
+        "url": "https://doi.org/10.1016/j.autcon.2026.107290",
+        "authors": [
+          "Ignacio Huitzil",
+          "Lucía Pitarch",
+          "Marco Schorlemmer",
+          "Nardine Osman",
+          "Josep Coll",
+          "Fernando Bobillo"
+        ],
+        "institutions": [
+          "Consejo Superior de Investigaciones Científicas",
+          "Universidad de Zaragoza",
+          "Artificial Intelligence Research Institute",
+          "Instituto de Investigación en Ingeniería de Aragón"
+        ],
+        "journal": "Automation in Construction",
+        "abstract": "Automatising the process of verifying whether the design of a building conforms to a certain regulation is an important task to save time and money. This paper presents SmartNorms4BIM , a building regulatory compliance-checking system that facilitates the automatic evaluation of Building Information Modelling (BIM) models. The system’s architecture follows Eastman’s four stages: translation of norms into a machine-readable format, BIM model preparation, execution of the verification process, and report generation. Our proposal uses Semantic Web technologies (OWL 2 ontologies and semantic reasoners) to represent the knowledge and detect violations of the norms automatically, Large Language Models (LLMs) to interpret and transform building norms into OWL 2 ontologies, fuzzy logic to manage vagueness in the norms, and specific algorithms to reason with geometric knowledge. A Java desktop prototype was developed to determine whether a BIM model complies with a given set of norms. To validate our approach, two real-world use cases were studied.",
+        "citation_count": 0,
+        "method": "Numerical Simulation"
+      }
+    ],
+    "Mechanical Systems and Signal Processing": [
+      {
+        "id": "https://openalex.org/W7220711663",
+        "doi": "10.1016/j.ymssp.2026.115054",
+        "title": "Semi-analytical study on low-frequency bandgap of lightweight corrugated-core sandwich meta-plate using spectral element method",
+        "published": "2026-10-06",
+        "url": "https://doi.org/10.1016/j.ymssp.2026.115054",
+        "authors": [
+          "Dingkang Chen",
+          "Xunyu Li",
+          "Xiaobin Li",
+          "Li Cheng",
+          "Kian Meng Lim",
+          "Yinggang Li"
+        ],
+        "institutions": [
+          "Wuhan University of Technology",
+          "Naval University of Engineering",
+          "Hong Kong Polytechnic University",
+          "National University of Singapore"
+        ],
+        "journal": "Mechanical Systems and Signal Processing",
+        "abstract": "In this paper, the elastic wave propagation and low-frequency bandgap characteristics of a lightweight high-strength corrugated-core sandwich meta -plate (CSMP) with local resonators under simply supported boundary conditions is studied. Based on the spectral element method, a non-equivalent high-precision theoretical wave dynamic model of CSMP is established to calculate the band structure and transmission characteristics of the structure. The low-frequency bandgap generation mechanism is revealed and the comprehensive performance of the proposed CSMP is compared with that of the typical sandwich metastructures. Numerical calculation and experimental tests are conducted to verify the proposed theoretical model. Results show that the proposed CSMP with only 1.77% mass ratio local resonators can exhibit a low-frequency bandgap, demonstrating significant flexural waves attenuation and excellent vibration isolation performance. The starting and cutoff frequencies of the low-frequency band gap are mainly attributed to the vibration coupling of the local resonator with the connecting plate and corrugated-core sandwich plate respectively. The prediction results of the theoretical model are consistent with those of numerical simulation and experimental test, which verifies the correctness of the proposed theoretical model. The flexural wave bandgap can be effectively adjusted by reasonably changing the design parameters of the CSMP.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      }
+    ],
+    "Measurement": [
+      {
+        "id": "https://openalex.org/W7220465089",
+        "doi": "10.1016/j.measurement.2026.123421",
+        "title": "Real-time rock identification in drilling process based on sound signals and machine learning",
+        "published": "2026-10-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123421",
+        "authors": [
+          "Wucheng Sun",
+          "Hui Li",
+          "Weijie Ding",
+          "Hui Gao",
+          "Longchen Duan",
+          "Yang Yang",
+          "Fang Xiaohong",
+          "Songcheng Tan"
+        ],
+        "institutions": [
+          "China University of Geosciences",
+          "Huazhong University of Science and Technology"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      },
+      {
+        "id": "https://openalex.org/W7220470331",
+        "doi": "10.1016/j.measurement.2026.123420",
+        "title": "Experimental study on the diffusion characteristics of a grouting-flow in a cross-fracture in bedrock via 3D printing",
+        "published": "2026-10-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123420",
+        "authors": [
+          "Kailong Huang",
+          "Yajian Shao",
+          "Lingbo Zhou",
+          "Hongdong Yu",
+          "Yinhua Wan",
+          "Guowei Ma"
+        ],
+        "institutions": [
+          "Chinese Academy of Sciences",
+          "Jiangxi University of Science and Technology",
+          "Hebei University of Technology"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7220471714",
+        "doi": "10.1016/j.measurement.2026.123417",
+        "title": "A method for high-precision hole positioning and measurement in flexible track drilling systems",
+        "published": "2026-10-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123417",
+        "authors": [
+          "Rui Song",
+          "Chen Liu",
+          "Gongping Liu",
+          "Feng Yang",
+          "Jialin Liu",
+          "Yuanrui Liang",
+          "Qiang Fang"
+        ],
+        "institutions": [
+          "State Key Laboratory Fluid Power and Mechatronic Systems",
+          "Zhejiang University",
+          "Craft Group (China)"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7220651120",
+        "doi": "10.1016/j.measurement.2026.123434",
+        "title": "Ppbv-level dual-gas detection of methane and acetylene based on an enhanced multi-pass t-type differential photoacoustic cell",
+        "published": "2026-10-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123434",
+        "authors": [
+          "Hongda Chen",
+          "Yongze Sun",
+          "杨红飞"
+        ],
+        "institutions": [],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7220655656",
+        "doi": "10.1016/j.measurement.2026.123412",
+        "title": "Precision-enhanced TDLAS trace gas sensor with a neural network denoising algorithm and an inversion model",
+        "published": "2026-10-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123412",
+        "authors": [
+          "S. Chen",
+          "Jia Feng",
+          "Hongfu Fang",
+          "Yuting Ban",
+          "Zhiheng Gao",
+          "Bowen Wang",
+          "Yue Pan",
+          "Hongzhong Cao",
+          "Rende Ma",
+          "Mingsheng Niu"
+        ],
+        "institutions": [],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      },
+      {
+        "id": "https://openalex.org/W7220662293",
+        "doi": "10.1016/j.measurement.2026.123448",
+        "title": "Assessing the impact of dynamic tropospheric stochastic constraints on airborne GNSS positioning and ZTD estimation",
+        "published": "2026-10-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123448",
+        "authors": [
+          "Zhenyi Zhang",
+          "楼益栋",
+          "Wei Zhang",
+          "Yongzhong Ouyang",
+          "Yaozong Zhou",
+          "Jingna Bai",
+          "Benedikt Soja"
+        ],
+        "institutions": [],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7220670247",
+        "doi": "10.1016/j.measurement.2026.123319",
+        "title": "Encoder-free continuous reconstruction of signed wheel–rail forces using a calibration constrained phase-dependent bridge model",
+        "published": "2026-10-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123319",
+        "authors": [
+          "Dadi Li",
+          "Li Huang",
+          "Qunsheng Wang",
+          "Lai Wei",
+          "河泰雄",
+          "Huanyun Dai"
+        ],
+        "institutions": [],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7220672548",
+        "doi": "10.1016/j.measurement.2026.123439",
+        "title": "A video micro-vibration signal correction method based on a hybrid CNN–LSTM–FFT deep learning architecture",
+        "published": "2026-10-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123439",
+        "authors": [
+          "Yan Zhang",
+          "Songhui Li",
+          "Yangxian Zhang",
+          "Siying Qu",
+          "Youzhi Liu",
+          "Yanbing Zhao",
+          "Xunnan Liu"
+        ],
+        "institutions": [],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      },
+      {
+        "id": "https://openalex.org/W7220685245",
+        "doi": "10.1016/j.measurement.2026.123440",
+        "title": "Three-dimensional defect morphology reconstruction based on spatial magnetic flux leakage field measurements",
+        "published": "2026-10-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123440",
+        "authors": [
+          "Zhiguo Wen",
+          "Hongjie Zhang",
+          "侯妍妍",
+          "Wei Shi"
+        ],
+        "institutions": [],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7220689157",
+        "doi": "10.1016/j.measurement.2026.123418",
+        "title": "Dynamic safety evaluation and vibration mitigation for speed-up operation of a rehabilitated high-speed railway",
+        "published": "2026-10-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123418",
+        "authors": [
+          "Yanbo Bai",
+          "Binqiang Li",
+          "Cheng Wu",
+          "Zhenxing He",
+          "Shuai Qu",
+          "Jun Luo",
+          "Yafei Zhang",
+          "Jianfeng Yun",
+          "Xu Zhang",
+          "Penghao Li"
+        ],
+        "institutions": [],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      }
+    ],
+    "Engineering Structures": [
+      {
+        "id": "https://openalex.org/W7220657682",
+        "doi": "10.1016/j.engstruct.2026.123908",
+        "title": "On the role of spiral reinforcement and auxiliary stiffeners during the handling of RC pile cages",
+        "published": "2026-10-06",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.123908",
+        "authors": [
+          "Luisa María Gil‐Martín",
+          "Enrique Hernández‐Montes"
+        ],
+        "institutions": [],
+        "journal": "Engineering Structures",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7220676622",
+        "doi": "10.1016/j.engstruct.2026.123867",
+        "title": "Vibration control of floating offshore wind turbines using optimally designed negative stiffness absorbers",
+        "published": "2026-10-06",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.123867",
+        "authors": [
+          "Konstantinos A. Kapasakalis",
+          "A.E. Kampitsis"
+        ],
+        "institutions": [
+          "Aristotle University of Thessaloniki"
+        ],
+        "journal": "Engineering Structures",
+        "abstract": "Vibration mitigation of the IEA 15-MW Floating Offshore Wind Turbine (FOWT) on the UMaine VolturnUS-S semi-submersible platform is investigated using Vibration Control Systems (VCS), substantially attenuating the coupled tower-platform pitch response and reducing structural loads. A novel application of negative stiffness (NS) KDamper-based absorbers to FOWT is proposed, comprising the KDamper and its extensions, benchmarked against the Tuned Mass Damper. A reduced-order finite element model of the coupled tower-platform system accounts for platform pitch kinematics and second-order geometric effects, validated against OpenFAST through free-decay simulations and under wind-wave loading. The KDamper VCS are formulated via a unified NS network parameterisation, dimensioned through component sizing, and optimised via constrained Harmony Search to determine absorber parameters. VCS performance is assessed, under open-loop loads extracted from fully-coupled OpenFAST simulations, across three combined wind-wave load cases of increasing severity. The EKD and EKDI achieve reductions of up to 42% in tower-top displacement and 37% in platform pitch energy-integral metrics, relative to the baseline, requiring one-tenth the TMD added mass through NS inertia amplification.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      },
+      {
+        "id": "https://openalex.org/W7220687741",
+        "doi": "10.1016/j.engstruct.2026.123882",
+        "title": "Performance of interlocking structures enhanced with meta-blocks against impact loads",
+        "published": "2026-10-06",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.123882",
+        "authors": [
+          "Nicolás Contreras",
+          "Xihong Zhang",
+          "Hong Shun Hao",
+          "Francisco Hernández"
+        ],
+        "institutions": [
+          "Curtin University",
+          "Guangzhou University",
+          "Universidad de Los Andes, Chile"
+        ],
+        "journal": "Engineering Structures",
+        "abstract": "Mortarless interlocking brick assemblies have shown to reduce construction costs compared with conventional masonry. Studies have incorporated locally resonant elements (LREs) into interlocking bricks to improve their hazard resistance. This configuration is referred to as a meta-block that uses the pounding between bricks and local resonance of LREs for mitigating dynamic energy propagation, resulting in a strong attenuation of peak responses under impact loading. This study examines the dynamic performance of masonry structures constructed with mortarless interlocking bricks and meta-blocks under low-speed vehicle impact and high-speed windborne debris impact. It assesses the performance of structures enhanced with meta-blocks by comparing them with a conventional interlocking brick structure. First, a full-scale protective barrier was experimentally tested using a pendulum impact testing system. The test results revealed a global rocking mechanism characterised by inter-brick gap openings and in-plane detachment of the impacted column, leading to localised damage and toe crushing. The application of meta-blocks resulted in no measurable improvement under low-speed pendulum impacts, as the frequency of most of the input energy fell below the LRE band gap. Then, the response of a masonry wall subjected to windborne debris impact was numerically simulated. Results demonstrated that the wall met the design requirement of no penetration. The high-frequency input energy from windborne debris impact fell in the LRE band gap and activated local vibrations of heavy cores. Hence, the wall enhanced with meta-blocks showed a reduced maximum deflection by 22% and reduced damage by 61%. The study extends previous small-scale tests on meta-block by evaluating their performance in full-scale masonry structures subjected to low- and high-velocity impacts, contributing to the understanding of the performance of structures constructed with metamaterials.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      },
+      {
+        "id": "https://openalex.org/W7220695933",
+        "doi": "10.1016/j.engstruct.2026.123887",
+        "title": "Improved ultrasonic tomographic imaging for reinforced concrete piles based on source-point ray tracing",
+        "published": "2026-10-06",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.123887",
+        "authors": [
+          "SHURUI ZHANG",
+          "Juntao Wu",
+          "Weikai Zhao",
+          "Wenhua Chen",
+          "Ke Wang"
+        ],
+        "institutions": [],
+        "journal": "Engineering Structures",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7220704293",
+        "doi": "10.1016/j.engstruct.2026.123910",
+        "title": "Bi-directional shake table tests of a modular steel building with orthogonal buckling restrained braced frames",
+        "published": "2026-10-06",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.123910",
+        "authors": [
+          "Emily Williamson",
+          "Michael Morano",
+          "Chris P. Pantelides",
+          "Tara Hutchinson",
+          "Brandt W. Saxey"
+        ],
+        "institutions": [],
+        "journal": "Engineering Structures",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7220706181",
+        "doi": "10.1016/j.engstruct.2026.123906",
+        "title": "One-to-population full-field acceleration response reconstruction via substructure-based subgraph learning across homogeneous and heterogeneous structures",
+        "published": "2026-10-06",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.123906",
+        "authors": [
+          "Keyu Lai",
+          "Xiaoyou Wang",
+          "Hong Guan",
+          "Yong Xia"
+        ],
+        "institutions": [],
+        "journal": "Engineering Structures",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7220713672",
+        "doi": "10.1016/j.engstruct.2026.123841",
+        "title": "Vibration analysis of composite sandwich spherical-cylindrical joined shells with interface compatibility and layerwise kinematics",
+        "published": "2026-10-06",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.123841",
+        "authors": [
+          "Xinyang Zhao",
+          "Shuo Wang",
+          "Zhangtao Chen",
+          "Pengfei Hu",
+          "Zhan Zhang",
+          "Zhiyuan Mei"
+        ],
+        "institutions": [],
+        "journal": "Engineering Structures",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7220714646",
+        "doi": "10.1016/j.engstruct.2026.123926",
+        "title": "Experimental investigation of the aerodynamic performance of a wind turbine under tornado-like vortex conditions",
+        "published": "2026-10-06",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.123926",
+        "authors": [
+          "Jiahao Wen",
+          "Changyong Liu",
+          "Lei Zhou",
+          "Xuzhan Xiao",
+          "Mingxuan Wang",
+          "Yong Xia",
+          "Xuhui He",
+          "Hongfu Zhang"
+        ],
+        "institutions": [],
+        "journal": "Engineering Structures",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7220720962",
+        "doi": "10.1016/j.engstruct.2026.123881",
+        "title": "A unified spectrum decrement framework with an autoregressive extension for bridge damping identification from free-decay responses",
+        "published": "2026-10-06",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.123881",
+        "authors": [
+          "Jiren Zhang",
+          "Zhouquan Feng",
+          "Shuangfa Shi",
+          "Qing Wen",
+          "Wang Yafei",
+          "Xugang Hua",
+          "Zhengqing Chen"
+        ],
+        "institutions": [],
+        "journal": "Engineering Structures",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      }
+    ],
+    "Ultrasonics": [],
+    "Tunnelling and Underground Space Technology": [
+      {
+        "id": "https://openalex.org/W7220654195",
+        "doi": "10.1016/j.tust.2026.108199",
+        "title": "Field and numerical investigation of multi-hole delay regulation for blast vibration and rock damage control",
+        "published": "2026-10-06",
+        "url": "https://doi.org/10.1016/j.tust.2026.108199",
+        "authors": [
+          "Wang Zhaowei",
+          "Huang Linqi",
+          "Zeng Zhihua",
+          "Li Xibing"
+        ],
+        "institutions": [
+          "Central South University"
+        ],
+        "journal": "Tunnelling and Underground Space Technology",
+        "abstract": "Reasonable delay-time determination in millisecond blasting is essential for controlling blast-induced vibration and improving blasting performance. However, numerical delay times cannot always be directly applied to field production blasting because of the discrepancy between simulated and measured waveforms. In this study, a field waveform-driven delay-time determination method was developed by combining single-hole field blasting tests, waveform superposition, LS-DYNA simulation, and production blasting feedback. Representative source waveforms were obtained from open-pit bench blasting tests, and a corresponding numerical model was established to analyze delay-dependent PPV response, energy distribution, and source-region rock damage. By comparing the effective waveform durations of simulated and measured single-hole signals, a site-specific simulation–field delay-time mapping ratio of 1:5.65 was obtained. Based on waveform superposition and numerical analysis, a favorable delay range of 6–12 ms was identified for multi-hole blasting under the investigated source-region conditions. Considering the production blasting practice at the mine, eight-hole field blasting tests with delay times of 0, 10, and 20 ms were further conducted to preliminarily investigate the influence of delay-time setting on PPV control and fragmentation performance. The results showed that the 10 ms delay reduced the PPV at the underground protected roadway and achieved better fragmentation control under the tested production conditions. This study provides a practical reference for delay-time design, vibration control, and blasting performance optimization in open-pit bench blasting, and offers a basis for further studies on the influence of surface blasting on underground protected structures.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      },
+      {
+        "id": "https://openalex.org/W7220670753",
+        "doi": "10.1016/j.tust.2026.108187",
+        "title": "Seismic performance and fragility for a shallow-buried subway station under horizontal and three-dimensional isolation",
+        "published": "2026-10-06",
+        "url": "https://doi.org/10.1016/j.tust.2026.108187",
+        "authors": [
+          "Heyan Wang",
+          "Zhongming Xiong",
+          "Xuan Chen",
+          "Chen Zhi",
+          "Yuhang Qin"
+        ],
+        "institutions": [],
+        "journal": "Tunnelling and Underground Space Technology",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7220697497",
+        "doi": "10.1016/j.tust.2026.108164",
+        "title": "A hybird computational framework for long-term nonlinear consolidation for tunnels in soft soil with depth-dependent initial stress",
+        "published": "2026-10-06",
+        "url": "https://doi.org/10.1016/j.tust.2026.108164",
+        "authors": [
+          "Senlin Xie",
+          "Dingbao SONG",
+          "Hefu Pu",
+          "Ming Min",
+          "Xiangsheng Chen",
+          "Junjie Zheng"
+        ],
+        "institutions": [],
+        "journal": "Tunnelling and Underground Space Technology",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7220710990",
+        "doi": "10.1016/j.tust.2026.108197",
+        "title": "Tensile fatigue behavior and fracture surface morphology of concrete linings for CAES rock caverns",
+        "published": "2026-10-06",
+        "url": "https://doi.org/10.1016/j.tust.2026.108197",
+        "authors": [
+          "Guohua Zhang",
+          "Shuiling Du",
+          "Guohua Zhang",
+          "Dongjie Hua",
+          "Fubin Tu",
+          "Zongwu Chen"
+        ],
+        "institutions": [],
+        "journal": "Tunnelling and Underground Space Technology",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      }
+    ],
+    "Rock Mechanics and Rock Engineering": [
+      {
+        "id": "https://openalex.org/W7220697348",
+        "doi": "10.1007/s00603-026-05969-z",
+        "title": "Crack Propagation Mechanism of Jointed Limestone Under Compressive–Shear Loading: Experimental and Numerical Investigation with an Improved Cohesive Zone Model",
+        "published": "2026-10-06",
+        "url": "https://doi.org/10.1007/s00603-026-05969-z",
+        "authors": [
+          "Youneng Liu",
+          "Jixiang Zhang",
+          "Guoshao Su",
+          "Peng‐Zhi Pan",
+          "Yufeng Sun"
+        ],
+        "institutions": [
+          "Guangxi University",
+          "Chinese Academy of Sciences",
+          "Institute of Rock and Soil Mechanics",
+          "State Key Laboratory of Geomechanics and Geotechnical Engineering",
+          "Chang'an University"
+        ],
+        "journal": "Rock Mechanics and Rock Engineering",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      },
+      {
+        "id": "https://openalex.org/W7220733658",
+        "doi": "10.1007/s00603-026-06013-w",
+        "title": "Influence of Illumination on the Recognition of Rock Mass Discontinuities and Construction of an Anti-interference Model",
+        "published": "2026-10-06",
+        "url": "https://doi.org/10.1007/s00603-026-06013-w",
+        "authors": [
+          "Guanglu Xu",
+          "Wen Zhang",
+          "Tengyue Li",
+          "Danyang Wu",
+          "Zihan Zhao",
+          "Qi Sun",
+          "Han Yin"
+        ],
+        "institutions": [
+          "Jilin University"
+        ],
+        "journal": "Rock Mechanics and Rock Engineering",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      }
+    ]
+  }
+}
