@@ -1,0 +1,489 @@
+{
+  "date": "2026-10-12",
+  "journals": {
+    "Automation in Construction": [],
+    "Mechanical Systems and Signal Processing": [
+      {
+        "id": "https://openalex.org/W7221432683",
+        "doi": "10.1016/j.ymssp.2026.115058",
+        "title": "Data-driven control for orbit transition of piezoelectric energy harvesters under stochastic excitation",
+        "published": "2026-10-11",
+        "url": "https://doi.org/10.1016/j.ymssp.2026.115058",
+        "authors": [
+          "Jiani Xu",
+          "Hang Zhang",
+          "Xianbin Liu",
+          "Yang Li"
+        ],
+        "institutions": [
+          "Nanjing University of Science and Technology",
+          "Nanjing University of Aeronautics and Astronautics"
+        ],
+        "journal": "Mechanical Systems and Signal Processing",
+        "abstract": "To address the tendency of bistable piezoelectric energy harvesting systems to remain trapped in low-energy intrawell oscillations and the difficulty of sustaining high-energy interwell motion under stochastic disturbances, this study proposes a data-driven event-triggered jump–drift hybrid control method. The proposed method takes the neighborhood of a high-energy reference orbit as the control target and constructs a complete electromechanical state representation using displacement, velocity, and piezoelectric voltage. A signed orbit error is further defined through local radial projection to characterize both the magnitude and direction of the state deviation, thereby enabling direction-selective event triggering and control release. During the active control phase, a locally corrective control input is generated using an offline-identified one-step prediction model. Once the high-energy state is established, the controller switches to the drift mode and intervenes again only when a pronounced degradation of the system state is detected. Numerical results demonstrate that the proposed method can drive the system from a low-energy state toward the high-energy orbit while achieving a favorable trade-off among orbit-transition speed, maintenance of high-energy motion, and control effort. The method also retains a certain degree of adaptability under stochastic disturbances and mismatches in load resistance and mechanical damping. Further analyses of the sampling period and control delay indicate that the proposed method exhibits reasonable tolerance to nonidealities associated with digital implementation.",
+        "citation_count": 0,
+        "method": "Numerical Simulation"
+      },
+      {
+        "id": "https://openalex.org/W7221454848",
+        "doi": "10.1016/j.ymssp.2026.115053",
+        "title": "SIMBIE: efficient multipoint spectral stacking algorithm for impact-echo defect imaging in concrete structures",
+        "published": "2026-10-11",
+        "url": "https://doi.org/10.1016/j.ymssp.2026.115053",
+        "authors": [
+          "Fei Yao",
+          "Ping Xu",
+          "Sicheng Chen",
+          "Cailian Li",
+          "Wenjie Zhu",
+          "赵海涛"
+        ],
+        "institutions": [],
+        "journal": "Mechanical Systems and Signal Processing",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7221474030",
+        "doi": "10.1016/j.ymssp.2026.115059",
+        "title": "Energy-based dynamic damping identification in vibrating cables governed by hysteretic material behavior",
+        "published": "2026-10-11",
+        "url": "https://doi.org/10.1016/j.ymssp.2026.115059",
+        "authors": [
+          "Louis Le Gué",
+          "Guillaume Helbert",
+          "Hugo Le Meitour",
+          "Guilhem Bles",
+          "Victor Popineau",
+          "Nahiène Hamila"
+        ],
+        "institutions": [],
+        "journal": "Mechanical Systems and Signal Processing",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      }
+    ],
+    "Measurement": [
+      {
+        "id": "https://openalex.org/W7221154099",
+        "doi": "10.1016/j.measurement.2026.123478",
+        "title": "Measurement of predefined surface defect visibility using TLS intensity visualisation",
+        "published": "2026-10-09",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123478",
+        "authors": [
+          "Aleksandra Mazurek",
+          "Maria Elżbieta Kowalska",
+          "Artur Piekarczuk",
+          "Janina Zaczek-Peplińska"
+        ],
+        "institutions": [
+          "Instytut Techniki Budowlanej",
+          "Warsaw University of Technology"
+        ],
+        "journal": "Measurement",
+        "abstract": "Reliable detection of surface defects is essential for assessing the condition of engineering structures. Although terrestrial laser scanning (TLS) is increasingly used as a non-contact inspection technique, the diagnostic potential of TLS intensity data remains insufficiently exploited because recorded intensity depends on acquisition conditions, scanner characteristics and data visualisation. This study proposes a structured methodology for the qualitative assessment of predefined surface defect visibility in TLS intensity visualisations. The analysis included two TLS scanners, three acquisition distances (5, 10 and 15 m), sixteen intensity visualisation scales and twenty-eight predefined Regions of Interest (ROIs). A reference observer evaluated each ROI using a binary positive/not-positive identification criterion under controlled observation conditions. The Positive ROI Identification Rate (PIR) was used as the primary descriptive measure, while statistical inference was performed using a generalised linear mixed-effects model (GLMM) accounting for repeated evaluations of the same physical defects. Several continuous colour scales achieved the highest average PIR values (approximately 70–76%). The variability between measurement configurations was substantially greater than between the best-performing visualisation scales. The GLMM demonstrated significant effects of visualisation scale and the scanner × acquisition distance interaction, whereas ROI class was not statistically significant. The results indicate that positive ROI identification depends primarily on acquisition conditions, scanner characteristics, and visualisation, whereas ROI class did not significantly influence the results. The proposed methodology provides a statistically evaluated framework for comparing predefined surface defect visibility in TLS intensity data under controlled observation conditions.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7221165064",
+        "doi": "10.1016/j.measurement.2026.123477",
+        "title": "Knowledge extraction non-sparse compressive sensing laser Doppler vibrometry method based on multi-resolution time-frequency feature fusion",
+        "published": "2026-10-09",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123477",
+        "authors": [
+          "Anqi Li",
+          "Shizhen Qiu",
+          "Faye Zhang",
+          "Yu’an Bao",
+          "Hao Zheng",
+          "Xiaolin Liu",
+          "Mingshun Jiang"
+        ],
+        "institutions": [
+          "Shandong University"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7221131075",
+        "doi": "10.1016/j.measurement.2026.123475",
+        "title": "Precise freeform surface form measurement based on centering deviation calibration and compensation",
+        "published": "2026-10-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123475",
+        "authors": [
+          "Ronghui Ying",
+          "Mengquan Zhu",
+          "Yuhan Liu",
+          "Lirong Qiu",
+          "Weiqian Zhao",
+          "Yun Wang"
+        ],
+        "institutions": [
+          "Beijing Institute of Technology"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7221146717",
+        "doi": "10.1016/j.measurement.2026.123403",
+        "title": "Self-luminous digital image correlation with adaptive exposure control for measurement in low-light environments",
+        "published": "2026-10-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123403",
+        "authors": [
+          "Junxiang Peng",
+          "Ao Liu",
+          "Zhiwen Lan",
+          "Peng Shi",
+          "Jiajun Yao",
+          "Pei Zheng"
+        ],
+        "institutions": [
+          "Nanchang University",
+          "University of Shanghai for Science and Technology",
+          "Commercial Aircraft Corporation of China (China)"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7221169617",
+        "doi": "10.1016/j.measurement.2026.123508",
+        "title": "Enhanced dual-color magnetic particle imaging via complex-valued decomposition",
+        "published": "2026-10-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123508",
+        "authors": [
+          "Ximin Cheng",
+          "Shijie Sun",
+          "Jian Wei",
+          "李鑫钢",
+          "Zhaohui Wang",
+          "Lijun Xu",
+          "Jing Zhong"
+        ],
+        "institutions": [
+          "Beihang University",
+          "Capital Medical University",
+          "Beijing Friendship Hospital",
+          "Chinese Academy of Medical Sciences & Peking Union Medical College"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7221190454",
+        "doi": "10.1016/j.measurement.2026.123506",
+        "title": "Hybrid rotor position and speed estimation for full-speed-range sensorless IPMSM drives enabled by signal processing",
+        "published": "2026-10-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123506",
+        "authors": [
+          "Yuncan Zhang",
+          "Chunfu Li",
+          "Fei Meng"
+        ],
+        "institutions": [
+          "Inner Mongolia University",
+          "University of Shanghai for Science and Technology"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7221318303",
+        "doi": "10.1016/j.measurement.2026.123406",
+        "title": "Scenario-aware PV power forecasting via causal feature selection, hybrid MRSVD-VMD decomposition and ISSA-Informer",
+        "published": "2026-10-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123406",
+        "authors": [
+          "yu qin",
+          "Ye Xu",
+          "Xinpeng Wang",
+          "Tao Wang",
+          "Wei Li"
+        ],
+        "institutions": [
+          "North China Electric Power University"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7221323063",
+        "doi": "10.1016/j.measurement.2026.123372",
+        "title": "Self-validated three-resonator SAW sensor on single chip toward interference-robust wireless temperature measurement",
+        "published": "2026-10-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123372",
+        "authors": [
+          "Chen Fu",
+          "Zhouhang Li",
+          "Zhenyu Wu",
+          "Yujie Zhou",
+          "YaBing KE",
+          "Ran Tao",
+          "Jingting Luo"
+        ],
+        "institutions": [
+          "Shenzhen University"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7221323088",
+        "doi": "10.1016/j.measurement.2026.123505",
+        "title": "Data-driven health assessment and performance degradation modeling of high-voltage insulators under environmental pollution",
+        "published": "2026-10-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123505",
+        "authors": [
+          "Ali Aranizadeh",
+          "Behrooz Vahidi",
+          "Amir Khorsandi"
+        ],
+        "institutions": [
+          "Amirkabir University of Technology"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      },
+      {
+        "id": "https://openalex.org/W7221323912",
+        "doi": "10.1016/j.measurement.2026.123398",
+        "title": "Development and validation of a Two-Factor acoustic method for nondestructive soil compactness measurement",
+        "published": "2026-10-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123398",
+        "authors": [
+          "Yingyi Chen",
+          "Qian Wang",
+          "Yong Ye",
+          "Peiyi Lin",
+          "Jiaquan Lin",
+          "Denghui Li",
+          "Jun Li",
+          "Huazhong Lu",
+          "Guangwen Huang"
+        ],
+        "institutions": [
+          "South China Agricultural University",
+          "Guangdong Academy of Agricultural Sciences"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      }
+    ],
+    "Engineering Structures": [],
+    "Ultrasonics": [],
+    "Tunnelling and Underground Space Technology": [],
+    "Rock Mechanics and Rock Engineering": [
+      {
+        "id": "https://openalex.org/W7221434717",
+        "doi": "10.1007/s00603-026-06042-5",
+        "title": "Creep Damage Model of Rock Based On Bedding Interface Effect-Interlayer Slip Paste Effect",
+        "published": "2026-10-12",
+        "url": "https://doi.org/10.1007/s00603-026-06042-5",
+        "authors": [
+          "Wenbo Liu",
+          "Shuguang Zhang",
+          "Shutian Zhao",
+          "Hongliang Tu",
+          "Yingjie Xia",
+          "Dipeng Zhu",
+          "Wenwu Ou"
+        ],
+        "institutions": [],
+        "journal": "Rock Mechanics and Rock Engineering",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7221439113",
+        "doi": "10.1007/s00603-026-06015-8",
+        "title": "The Macro-Meso-mechanism of Splitting Failure of Diorite Under Water Action: The Dominant Role of Clay Minerals",
+        "published": "2026-10-12",
+        "url": "https://doi.org/10.1007/s00603-026-06015-8",
+        "authors": [
+          "Tong Lu",
+          "Aibin Jin",
+          "YiQing Zhao",
+          "Jiayao Yan",
+          "Shuaijun Chen",
+          "Yaning Dong"
+        ],
+        "institutions": [],
+        "journal": "Rock Mechanics and Rock Engineering",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7221439940",
+        "doi": "10.1007/s00603-026-06045-2",
+        "title": "Experimental Investigation on Damage Evolution of Rock Joints Combining Electrical Resistivity and 3D Morphology Analysis",
+        "published": "2026-10-12",
+        "url": "https://doi.org/10.1007/s00603-026-06045-2",
+        "authors": [
+          "Bohua Hu",
+          "Wenchen Fan",
+          "Ke Zhang",
+          "Qibin Lin",
+          "Dongya Han",
+          "Zilong Zhou"
+        ],
+        "institutions": [],
+        "journal": "Rock Mechanics and Rock Engineering",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7221443213",
+        "doi": "10.1007/s00603-026-05986-y",
+        "title": "Numerical Simulation Method of Multi-fracture Propagation Considering Mixed-Mode Fracture Criterion",
+        "published": "2026-10-12",
+        "url": "https://doi.org/10.1007/s00603-026-05986-y",
+        "authors": [
+          "Jiapeng Han",
+          "Zhiming Chen",
+          "Zekai Tang"
+        ],
+        "institutions": [],
+        "journal": "Rock Mechanics and Rock Engineering",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Numerical Simulation"
+      },
+      {
+        "id": "https://openalex.org/W7221445185",
+        "doi": "10.1007/s00603-026-05933-x",
+        "title": "Extrinsic Cohesive Zone Model (ECZM): Implementation, Verification, and Comparison",
+        "published": "2026-10-12",
+        "url": "https://doi.org/10.1007/s00603-026-05933-x",
+        "authors": [
+          "Weibing Cai",
+          "Mingyang Wu",
+          "Wei Wang",
+          "Yong Li"
+        ],
+        "institutions": [],
+        "journal": "Rock Mechanics and Rock Engineering",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7221449089",
+        "doi": "10.1007/s00603-026-06029-2",
+        "title": "Complementarity of Empirical, Analytical and Numerical Techniques for Assessing the Stability of a Natural Cave System in the Coastal Cliffs of Las Grutas (Río Negro, Argentina)",
+        "published": "2026-10-12",
+        "url": "https://doi.org/10.1007/s00603-026-06029-2",
+        "authors": [
+          "Carlos Paredes",
+          "Santiago Gómez",
+          "Alberto Tomás Caselli",
+          "Luis Iglesias"
+        ],
+        "institutions": [],
+        "journal": "Rock Mechanics and Rock Engineering",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      },
+      {
+        "id": "https://openalex.org/W7221449496",
+        "doi": "10.1007/s00603-026-06002-z",
+        "title": "Coupling Effects of Surface Roughness and Volumetric Stability on the Bonding Performance of the Shotcrete–Rock Interface",
+        "published": "2026-10-12",
+        "url": "https://doi.org/10.1007/s00603-026-06002-z",
+        "authors": [
+          "Wan Li",
+          "Yang Song",
+          "Ang Li",
+          "Jianhua Zhou"
+        ],
+        "institutions": [],
+        "journal": "Rock Mechanics and Rock Engineering",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7221451228",
+        "doi": "10.1007/s00603-026-06037-2",
+        "title": "Experimental Study on the Dynamic Response of Deep Rocks Under Seepage Pressure",
+        "published": "2026-10-12",
+        "url": "https://doi.org/10.1007/s00603-026-06037-2",
+        "authors": [
+          "Zheng Wang",
+          "Tenglong Yue",
+          "Geli Zhao",
+          "Bangbiao Wu",
+          "Peng Dong"
+        ],
+        "institutions": [],
+        "journal": "Rock Mechanics and Rock Engineering",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7221456408",
+        "doi": "10.1007/s00603-026-06040-7",
+        "title": "Thermal–Hydraulic–Mechanical Coupled Simulation of Fracture Initiation and Propagation in Deep Coal Seams During Supercritical CO2 Geological Storage Based on the Phase Field Method",
+        "published": "2026-10-12",
+        "url": "https://doi.org/10.1007/s00603-026-06040-7",
+        "authors": [
+          "Huaying Lin",
+          "Guohua Zhang",
+          "Yue Yao",
+          "Dongjie Hua"
+        ],
+        "institutions": [],
+        "journal": "Rock Mechanics and Rock Engineering",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Numerical Simulation"
+      },
+      {
+        "id": "https://openalex.org/W7221463276",
+        "doi": "10.1007/s00603-026-06060-3",
+        "title": "Predictive Stability Assessment of Ship Lock Rock Slopes: A Multi-level Early Warning Approach with Service-Life Integration",
+        "published": "2026-10-12",
+        "url": "https://doi.org/10.1007/s00603-026-06060-3",
+        "authors": [
+          "Jinmeng Yang",
+          "ZhenZhong Shen",
+          "Lei Gan",
+          "HongWei Zhang",
+          "YiQing Sun"
+        ],
+        "institutions": [],
+        "journal": "Rock Mechanics and Rock Engineering",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      }
+    ]
+  }
+}
