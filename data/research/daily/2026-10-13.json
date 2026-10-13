@@ -1,0 +1,530 @@
+{
+  "date": "2026-10-13",
+  "journals": {
+    "Automation in Construction": [],
+    "Mechanical Systems and Signal Processing": [
+      {
+        "id": "https://openalex.org/W7221569027",
+        "doi": "10.1016/j.ymssp.2026.115082",
+        "title": "Impact damage localization in woven CFRP laminates using laser-ultrasonic wavefields and a masked spatiotemporal reconstruction network",
+        "published": "2026-10-13",
+        "url": "https://doi.org/10.1016/j.ymssp.2026.115082",
+        "authors": [
+          "Yanpeng Xu",
+          "Jiyu Liu",
+          "Zifeng Lan",
+          "Jinshan Wen",
+          "Mingxi Deng",
+          "Weibin Li"
+        ],
+        "institutions": [],
+        "journal": "Mechanical Systems and Signal Processing",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7221524883",
+        "doi": "10.1016/j.ymssp.2026.115065",
+        "title": "Honeycomb metamaterial panel with core grid of wire-masses resonators for tuneable vibration and sound radiation bandgap",
+        "published": "2026-10-12",
+        "url": "https://doi.org/10.1016/j.ymssp.2026.115065",
+        "authors": [
+          "Paolo Gardonio",
+          "Filippo Codutti",
+          "Lisa Ortis",
+          "Emiliano Rustighi",
+          "Ciro Malacarne",
+          "Matteo Perini"
+        ],
+        "institutions": [],
+        "journal": "Mechanical Systems and Signal Processing",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7221559362",
+        "doi": "10.1016/j.ymssp.2026.115075",
+        "title": "Local spectral submanifold modeling of fundamental and higher-order periodic responses in flexible bevel gear dynamical systems",
+        "published": "2026-10-12",
+        "url": "https://doi.org/10.1016/j.ymssp.2026.115075",
+        "authors": [
+          "Wenzhe Zhang",
+          "Feng Yin",
+          "Zhaoyang Tian",
+          "Shifeng Rong",
+          "Xiaohang Ye",
+          "Jinyuan Tang",
+          "Qiang Wang",
+          "Han Ding"
+        ],
+        "institutions": [
+          "Central South University",
+          "Aero Engine Corporation of China (China)"
+        ],
+        "journal": "Mechanical Systems and Signal Processing",
+        "abstract": "Driven by time-varying mesh parameters and backlash nonlinearity, gear systems exhibit multi-periodic responses. However, the high dimensionality of full-order models impedes efficient local-branch tracking and dynamical-structure identification. A local spectral submanifold (SSM) framework is therefore proposed for flexible gear systems. Initially, the flexibility of shaft and gear is characterized using Timoshenko beam theory and component mode synthesis (CMS). A flexible bevel gear model is formulated by coupling these substructures with bearing elements and nonlinear mesh elements incorporating time-varying mesh stiffness, transmission error, and backlash. Through nonlinear frequency sweeps, bifurcation analysis, and Poincaré sections, 1 T, 2 T, and 3 T periodic branches and local modeling intervals are identified, where T denotes the meshing period. Subsequently, a unified non-autonomous state-space interface is constructed between the dynamic model and local SSM. Local trial spaces and closure models are then established for 1 T responses with one recurring Poincaré point, 2 T responses with two alternating points, and 3 T responses with a three-point cycle. Results indicate that all models satisfy periodic closure conditions and yield locally stable periodic solutions, with forward and backward sweeps exhibiting excellent agreement. The 2 T and 3 T models preserve their alternating and cyclic state sequences. Finally, the approach is validated via rolling inspection, modal and gearbox vibration tests. The study reveals that as periodic order increases, local SSM modeling shifts from single-section parameterization to multi-phase coordination, providing a methodological foundation for low-dimensional characterization and stable tracking of multi-periodic branches in flexible gear dynamics.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      }
+    ],
+    "Measurement": [
+      {
+        "id": "https://openalex.org/W7221358890",
+        "doi": "10.1016/j.measurement.2026.123360",
+        "title": "Gabor kernel - Convolutional neural network based on Bayesian optimization algorithm in gait phase recognition of lower limb exoskeleton",
+        "published": "2026-10-10",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123360",
+        "authors": [
+          "Sheng Wang",
+          "Chen Chun-jie",
+          "Chen Hui",
+          "Wu Xin-yu"
+        ],
+        "institutions": [
+          "Xi'an University of Architecture and Technology",
+          "Chinese Academy of Sciences",
+          "Shenzhen Institutes of Advanced Technology"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      },
+      {
+        "id": "https://openalex.org/W7221338296",
+        "doi": "10.1016/j.measurement.2026.123444",
+        "title": "Automated shock-wave localization using background-oriented schlieren displacement maps for supersonic target sensing",
+        "published": "2026-10-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123444",
+        "authors": [
+          "Xinzhi Ma",
+          "H.P. Mei",
+          "叶舒然 Ye Shuran",
+          "Shiwei Liu",
+          "Xifu Yue",
+          "Peihe Wang",
+          "Yinbo Huang"
+        ],
+        "institutions": [
+          "University of Science and Technology of China",
+          "Chinese Academy of Sciences",
+          "Anhui Institute of Optics and Fine Mechanics",
+          "Key Laboratory of Atmospheric Optics, Chinese Academy of Sciences"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7221338387",
+        "doi": "10.1016/j.measurement.2026.123459",
+        "title": "SE-PLNN: A sample entropy and parallel liquid neural network framework for Remaining Useful Life prediction of mechanical systems under multi-fault degradation",
+        "published": "2026-10-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123459",
+        "authors": [
+          "Aihua Liu",
+          "Chunyang Qu",
+          "Chenyang Lai",
+          "Hanhua Zhu",
+          "Bin Wang"
+        ],
+        "institutions": [
+          "Wuhan University of Technology",
+          "Politecnico di Milano"
+        ],
+        "journal": "Measurement",
+        "abstract": "Remaining Useful Life (RUL) prediction is a key task in Prognostics and Health Management (PHM). Although deep learning (DL) models have shown strong performance, most existing approaches directly feed features into the network and often overlook the intrinsic fault-related information embedded in degradation signals. To address this limitation, this study proposes SE-PLNN, an RUL prediction framework that integrates Sample Entropy (SE) with a Parallel Liquid Neural Network (PLNN). SE is used to decompose multi-fault degradation into several subtasks, each corresponding to a distinct signal complexity pattern associated with different fault modes, while PLNNs are adopted to extract task-specific nonlinear features and mitigate inter-mode interference. Experiments on the C-MAPSS dataset show that SE-PLNN achieves notable improvements of 15.08% in RMSE and 18.06% in Score over state-of-the-art methods. Further evaluations on the XJTU-SY bearing dataset demonstrate that SE effectively characterizes real-world fault complexity, confirming the generality of the proposed framework across heterogeneous systems.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      },
+      {
+        "id": "https://openalex.org/W7221343012",
+        "doi": "10.1016/j.measurement.2026.123436",
+        "title": "A novel experimental platform for new types of optical measurements in the deep cryogenic regime",
+        "published": "2026-10-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123436",
+        "authors": [
+          "Kamil Leon Sołtys",
+          "Michał Słowiński",
+          "Marcin Makowski",
+          "Bogdan Bednarski",
+          "Kamil Stankiewicz",
+          "Paweł Olejarczyk",
+          "Szymon Wójtewicz",
+          "Daniel Lisak",
+          "Mariusz Piwiński",
+          "Piotr Wcisło"
+        ],
+        "institutions": [],
+        "journal": "Measurement",
+        "abstract": "We demonstrate a novel platform for cryogenic measurements, recently launched in our laboratory, that is characterized by high stability and high uniformity of temperature, as well as a low level of mechanical noise and vibrations. It allowed us to extend, for the first time, the optical-cavity- enhanced spectroscopy technologies from room temperatures down to a deep cryogenic regime (to below 5 K). The unique feature of the system is a large high-vacuum cryogenic volume of nearly 9 litres and long axial dimension of 78 cm, which makes it well suited for operating optical-cavity-based spectrometers. In order to meet the strict requirements necessary to operate optical resonators, the system is equipped with multiple stages of heavy copper blocks and flexible thermal connectors that altogether not only serve as an excellent low-pass filter for temperature fluctuations (mainly originating from cryocooler operation cycle), but also well isolate the cavity from external noise and cryocooler vibrations. The system design ensures nearly perfect temperature uniformity across the experimental cryogenic chamber that is critical for ultra-accurate spectroscopic measurements at deep cryogenic conditions. Recently, we demonstrated [Nature Physics 22, 637 (2026)] that this system opens a way to new types of measurements that were not possible before, such as an accurate test of the quantum electrodynamics for molecules, realization of the primary SI standards for temperature, concentration, and pressure in the deep cryogenic regime, measurement of the H2 phase diagram, and determination of the ortho-para spin isomer conversion rate.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7221343272",
+        "doi": "10.1016/j.measurement.2026.123426",
+        "title": "A rotary laser angle measurement system based on adaptive discrete-time sliding mode control and an optical frequency comb",
+        "published": "2026-10-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123426",
+        "authors": [
+          "Zhe Liu",
+          "Boyuan Wang",
+          "Xin Li",
+          "Zhou Sha",
+          "Ziyue Zhao",
+          "Bin Xue"
+        ],
+        "institutions": [
+          "Tianjin University",
+          "Beijing Zhenxing Metrology & Measurement Institute",
+          "Tongji University"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7221344646",
+        "doi": "10.1016/j.measurement.2026.123534",
+        "title": "A multimodal measurement and data fusion framework for estimating power transformer insulation condition using heterogeneous sensor systems",
+        "published": "2026-10-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123534",
+        "authors": [
+          "T. Sudhakar",
+          "Selligoundanur Subramaniyam Sivaraju"
+        ],
+        "institutions": [],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      },
+      {
+        "id": "https://openalex.org/W7221346441",
+        "doi": "10.1016/j.measurement.2026.123404",
+        "title": "A novel method for shape quantification of nanoscale deformations for operando characterization in battery electrodes",
+        "published": "2026-10-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123404",
+        "authors": [
+          "Eldhose Babu Maramkandam",
+          "James, Susan P., advisor"
+        ],
+        "institutions": [],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7221350293",
+        "doi": "10.1016/j.measurement.2026.123437",
+        "title": "A first-order dominant response ratio for repeatable non-contact measurement of tile debonding under swept-frequency acoustic excitation",
+        "published": "2026-10-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123437",
+        "authors": [
+          "Aofei Ye",
+          "Gang Wen",
+          "Youguang Zhao",
+          "Dan-Ping Xu",
+          "Chi Wang"
+        ],
+        "institutions": [
+          "Shanghai University",
+          "Tongji University"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7221350955",
+        "doi": "10.1016/j.measurement.2026.123419",
+        "title": "Highly sensitive microbubble biosensors for label-free detection of miR-223-3p",
+        "published": "2026-10-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123419",
+        "authors": [
+          "Peiyao An",
+          "Jinchao Wang",
+          "Jingwen Zhang",
+          "Miao Yu",
+          "Mengxiao Li",
+          "Shaoshuai Han",
+          "Jun Ren",
+          "Yue Li",
+          "Xin Yang",
+          "Haiyan Wang"
+        ],
+        "institutions": [
+          "Dalian University of Technology",
+          "Dalian Medical University",
+          "Cardiff University"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7221352528",
+        "doi": "10.1016/j.measurement.2026.123422",
+        "title": "Numerical and experimental characterization of the reconstructed heat flux using slug calorimeters",
+        "published": "2026-10-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123422",
+        "authors": [
+          "Massimo Franco",
+          "Sreevishnu Oruganti",
+          "Gregory Elliott",
+          "Francesco M. Panerai"
+        ],
+        "institutions": [
+          "University of Illinois Urbana-Champaign",
+          "Goodwin College"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      }
+    ],
+    "Engineering Structures": [
+      {
+        "id": "https://openalex.org/W7221513931",
+        "doi": "10.1016/j.engstruct.2026.123965",
+        "title": "Surrogate model-based flutter reliability analysis of long-span cable-stayed bridges",
+        "published": "2026-10-13",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.123965",
+        "authors": [
+          "Jin Cheng",
+          "Qi Zhang",
+          "Kedi Sun"
+        ],
+        "institutions": [],
+        "journal": "Engineering Structures",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7221561901",
+        "doi": "10.1016/j.engstruct.2026.123962",
+        "title": "The passive infrared thermography of top-crown debonding in Concrete-Filled Steel Tubular arch bridge under seasonal solar loading and diurnal temperature variation: Multi-factorial analysis on optimal detection time windows",
+        "published": "2026-10-13",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.123962",
+        "authors": [
+          "Chongsheng Cheng",
+          "Wang Lilin",
+          "Jianting Zhou",
+          "Hong Zhang",
+          "Shuangshuang Jin"
+        ],
+        "institutions": [],
+        "journal": "Engineering Structures",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7221506870",
+        "doi": "10.1016/j.engstruct.2026.123939",
+        "title": "Shaking table tests of subway station-bridge complex structure to evaluate nonlinear seismic response under strong earthquakes",
+        "published": "2026-10-12",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.123939",
+        "authors": [
+          "Jiao Chiyu",
+          "Zhiyong Yang",
+          "Xu Chen",
+          "Han Jianbang",
+          "Cheng Mianzhou",
+          "Rong Fang"
+        ],
+        "institutions": [
+          "Beijing University of Civil Engineering and Architecture",
+          "Tongji University",
+          "China Energy Engineering Corporation (China)"
+        ],
+        "journal": "Engineering Structures",
+        "abstract": "To investigate the nonlinear seismic performance of subway station-bridge complex structures during strong earthquakes, shake table tests were conducted on specimens consisting of a two-story three span subway station and a three-span variable cross-section steel box girder bridge. Two scaled specimens were designed and tested with a geometric similarity ratio of 1/40, representing integral and separated configuration between station and bridge. The results show that damage mainly occurs on the bridge piers in both the integral and separated system, and the underground subway stations generally remain elastic throughout the whole test. Due to the existence of gravel cushion, the separated system undergoes slighter damage, since it behaves more like a rigid body and its sliding on the cushion dissipates part of the seismic energy. Overall, the separated system is shown with superior seismic performance over its integral counterpart, and more adaptable to the complex requirements in strong earthquake environments. This study is believed providing substantial reference and support for the seismic design of the novel subway station-bridge complex systems.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7221510852",
+        "doi": "10.1016/j.engstruct.2026.123949",
+        "title": "Digital design, 3D printing and prefabricated modular assembly of large-scale concrete structures",
+        "published": "2026-10-12",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.123949",
+        "authors": [
+          "Zhen nan Wu",
+          "Hailong Wang",
+          "Xiqiang Lin",
+          "Xiaoyan Sun"
+        ],
+        "institutions": [],
+        "journal": "Engineering Structures",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7221549751",
+        "doi": "10.1016/j.engstruct.2026.123960",
+        "title": "Lightweight, interpretable acoustic emission diagnostics for multi-mode damage in bonded CFRP joints using consensus-guided machine learning",
+        "published": "2026-10-12",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.123960",
+        "authors": [
+          "Yingshi Hu",
+          "Qian Li",
+          "Weiwei Li",
+          "Zongyang Liu",
+          "Dingcheng Ji",
+          "Baoning Chang",
+          "Marcus H. N. Yio",
+          "Jing Lin"
+        ],
+        "institutions": [
+          "NingboTech University",
+          "Beihang University",
+          "Imperial College London"
+        ],
+        "journal": "Engineering Structures",
+        "abstract": "Adhesively bonded carbon fibre-reinforced polymer (CFRP) joints exhibit complex, multimode damage involving concurrent matrix cracking, debonding, delamination and fibre breakage, which challenges acoustic-emission (AE)-based diagnosis under industrial hit-triggered acquisition. This study is framed as a focused methodological investigation on a single-lap bonded CFRP joint system, rather than as a claim of universal damage-frequency thresholds. The proposed workflow uses an offline consensus procedure to derive structure-specific operational passbands from standard AE descriptors, then uses these fixed passbands to build compact band-energy and entropy features for interpretable, online-oriented classification. AE waveforms from three nominally identical tensile tests are first represented by 18 conventional descriptors. Multiple clustering families and random seeds are combined through a co-association matrix to obtain a robust four-cluster macro-partition. High-confidence samples within each macro-cluster are then used to define four operational passbands from central peak-frequency quantiles. These passbands are frozen and used to construct an extended 26-dimensional representation that augments the baseline descriptors with band-energy shares and entropy measures. A second consensus step in the extended feature space provides 15 operational AE reference states that describe single-dominant and spectrally mixed acquisition windows. These states are used to train an XGBoost surrogate evaluated on a fully held-out experiment. The extended representation improves test accuracy from 0.68 to 0.91 and increases macro-F1 and macro-AUROC to about 0.88 and 0.90, respectively. SHAP analysis indicates that the classifier relies primarily on peak frequency, passband energy and entropy descriptors. The results demonstrate a trade-off between offline robustness and online simplicity: the numerical passbands are system-dependent and require commissioning for new structures, whereas the deployed decision path remains lightweight after calibration.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      }
+    ],
+    "Ultrasonics": [],
+    "Tunnelling and Underground Space Technology": [
+      {
+        "id": "https://openalex.org/W7221512435",
+        "doi": "10.1016/j.tust.2026.108234",
+        "title": "Satellite based multi-scale remote sensing system for infrastructure stability monitoring around an urban metro",
+        "published": "2026-10-12",
+        "url": "https://doi.org/10.1016/j.tust.2026.108234",
+        "authors": [
+          "Sunil Cha",
+          "Taeyong Park",
+          "Lang Fu",
+          "Hyungjoon Seo"
+        ],
+        "institutions": [],
+        "journal": "Tunnelling and Underground Space Technology",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7221523725",
+        "doi": "10.1016/j.tust.2026.108226",
+        "title": "Discussion on “Theoretical analyses of surrounding rock stress of a non-circular tunnel considering the horizontal inclination of initial principal stress field” by Zhang et al. (2026)",
+        "published": "2026-10-12",
+        "url": "https://doi.org/10.1016/j.tust.2026.108226",
+        "authors": [
+          "Muhammad Zaka Emad"
+        ],
+        "institutions": [],
+        "journal": "Tunnelling and Underground Space Technology",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Analytical / Theoretical"
+      },
+      {
+        "id": "https://openalex.org/W7221547546",
+        "doi": "10.1016/j.tust.2026.108214",
+        "title": "Distributed fiber optic strain sensing for performance assessment of a large-diameter JPCCP",
+        "published": "2026-10-12",
+        "url": "https://doi.org/10.1016/j.tust.2026.108214",
+        "authors": [
+          "Xun Yuan",
+          "Peiyuan Lin",
+          "Tong Liu",
+          "Yang Chen",
+          "Baosong Ma"
+        ],
+        "institutions": [
+          "Southern Marine Science and Engineering Guangdong Laboratory (Guangzhou)"
+        ],
+        "journal": "Tunnelling and Underground Space Technology",
+        "abstract": "Distributed fiber optic sensing (DFOS) enables continuous strain monitoring over long-distance underground pipelines, yet a systematic interpretation framework that transforms high-density raw strain measurements into actionable lifecycle performance indicators remains lacking for large-diameter jacking prestressed concrete cylinder pipeline (JPCCP). This study presents a DFOS-based performance assessment framework and applies it to a 52-m section of a deeply buried, 4.8-m diameter JPCCP flood-diversion pipeline. Four longitudinal distributed strain-sensing fibers were installed at the crown, invert, and two springlines using 1-m fixed-point anchoring clamps. A dual-baseline strain increment strategy with Hampel filtering was employed to separate construction-related and operational responses. These strain increments were decomposed into axial and bending components, classified into four dominant response modes by non-dimensional dominance coefficients, and further evaluated using neutral-axis offset indices and joint-influenced equivalent rotation characteristic values. Three key findings emerge: (1) the monitored pipeline exhibits a clear three-stage temporal evolution: construction disturbance release, early operational stabilization, and localized non-uniform response accumulation; (2) three bending-sensitive zones are identified at 11–27 m, 33–37 m, and 45–52 m, with most joint-influenced equivalent rotation values below 0.015°; (3) six key joint-influenced units are identified and classified using monitoring-based priority, among which J1 (persistent high response, max 0.116°) and J10 (delayed activation, max 0.063°) are identified as critical response locations warranting the highest maintenance priority. The proposed framework converts distributed strain-sensing data into interpretable strain-response indicators for performance assessment and maintenance prioritization, offering a practical paradigm for service performance assessment of large-scale underground pipelines.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7221572475",
+        "doi": "10.1016/j.tust.2026.108225",
+        "title": "Identification method for soft-hard interfaces at shield tunnel face in upper-soft and lower-hard composite strata",
+        "published": "2026-10-12",
+        "url": "https://doi.org/10.1016/j.tust.2026.108225",
+        "authors": [
+          "Zhongdong Fang",
+          "Weimin Yang",
+          "Jing Wang",
+          "Song Zhanping",
+          "Shangqu Sun",
+          "Xingzhi Ba"
+        ],
+        "institutions": [
+          "Xi'an University of Architecture and Technology",
+          "Shandong University",
+          "Shandong University of Science and Technology"
+        ],
+        "journal": "Tunnelling and Underground Space Technology",
+        "abstract": "Shield tunneling technology has been widely applied in urban underground engineering. Nevertheless, when shield machines pass through upper-soft and lower-hard composite strata, insufficient geological information regarding the tunnel face frequently results in unreasonable tunneling parameter settings, severe cutter wear, and poor attitude control stability. To solve the above engineering problems, this paper systematically explores the vibration response characteristics of shield machines in such composite strata, and further proposes an innovative identification method for soft-hard strata interfaces. Impact load laboratory tests on disc cutters were carried out under static and rotating cutterhead working conditions to clarify the inherent vibration response laws of cutters. On this basis, field monitoring was implemented based on the Jinan Metro engineering project. The time-domain and time–frequency domain evolution laws of shield vibration signals were comprehensively analyzed under different hard-rock fractions of the tunnel face. The research results indicate that with the increase of hard-rock fraction on the tunnel face, vibration signals collected from multiple disc cutters produce superposition effects and form obvious characteristic signal clusters. Accordingly, this study deduces the time difference calculation formula for adjacent disc cutters penetrating hard-rock strata, and establishes the quantitative correlation between such time difference and hard-rock fraction. Meanwhile, a soft-hard strata interface identification method is proposed based on the peak time difference of vibration signals. Practical engineering applications verify that the proposed method can realize real-time accurate characterization of tunnel face strata distribution. This research can provide important technical references for the optimization of shield tunneling parameters, as well as improve the construction safety and efficiency of shield tunneling in complex composite strata.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      }
+    ],
+    "Rock Mechanics and Rock Engineering": [
+      {
+        "id": "https://openalex.org/W7221465198",
+        "doi": "10.1007/s00603-026-06034-5",
+        "title": "Strain Rate and Size Effects on Energy Evolution and Acoustic Emission Characteristics of Coral Reef Limestone Under Uniaxial Compression",
+        "published": "2026-10-12",
+        "url": "https://doi.org/10.1007/s00603-026-06034-5",
+        "authors": [
+          "Jicheng Liu",
+          "Linjian Ma",
+          "Lu Feng",
+          "Jiawen Wu",
+          "Jianan Wu",
+          "Yiming Shao"
+        ],
+        "institutions": [
+          "PLA Army Engineering University"
+        ],
+        "journal": "Rock Mechanics and Rock Engineering",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7221480949",
+        "doi": "10.1007/s00603-026-06035-4",
+        "title": "Coupled Effects of Lithology and Cavity Geometry on Brittle Failure and Rockburst-Like Instability in Hard Rocks",
+        "published": "2026-10-12",
+        "url": "https://doi.org/10.1007/s00603-026-06035-4",
+        "authors": [
+          "Yuan Zhang",
+          "Kong Dezhong",
+          "Xu Mengtang",
+          "Guiyi Wu",
+          "Zhanbo Cheng"
+        ],
+        "institutions": [
+          "Guizhou University",
+          "Guizhou Institute of Technology",
+          "Nanjing University"
+        ],
+        "journal": "Rock Mechanics and Rock Engineering",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      }
+    ]
+  }
+}
