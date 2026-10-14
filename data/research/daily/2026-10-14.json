@@ -1,0 +1,247 @@
+{
+  "date": "2026-10-14",
+  "journals": {
+    "Automation in Construction": [],
+    "Mechanical Systems and Signal Processing": [],
+    "Measurement": [
+      {
+        "id": "https://openalex.org/W7221441150",
+        "doi": "10.1016/j.measurement.2026.123543",
+        "title": "DotMetrics: a lightweight detection-segmentation framework for automated quantitative analysis of ultrafine nanoparticles in transmission electron microscopy images",
+        "published": "2026-10-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123543",
+        "authors": [
+          "Dingyuan Zhang",
+          "Yaoyao Tang",
+          "Chaohui Ma",
+          "Xiaopeng Hu",
+          "Ruichen Liu",
+          "Yibing Lu",
+          "Tongtong Wang",
+          "Xiangyu Chen",
+          "Longhao Wang",
+          "Han Li"
+        ],
+        "institutions": [
+          "Beijing Institute of Fashion Technology",
+          "China University of Petroleum, Beijing"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7221444810",
+        "doi": "10.1016/j.measurement.2026.123544",
+        "title": "Rotor-stator rubbing temperature prediction in titanium alloy rotor-stator systems using a BiGRU-attention-based Seq2Seq model",
+        "published": "2026-10-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123544",
+        "authors": [
+          "Xinliang Yang",
+          "Xinliang Yang",
+          "Hongwei Xu",
+          "Qingan Li",
+          "Cheng Zhang",
+          "Yongfang Zhang",
+          "Zijie Dong",
+          "Xiaolong Han"
+        ],
+        "institutions": [
+          "Xi'an University of Technology"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7221447460",
+        "doi": "10.1016/j.measurement.2026.123468",
+        "title": "Quantitative dual-modality measurement of bearing cage whirling-skidding instability: In-situ triboelectric sensing cross-validated by high-speed photography",
+        "published": "2026-10-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123468",
+        "authors": [
+          "Shuai Gao",
+          "Ruoke Qin",
+          "Song Wang",
+          "Ningning Zhou",
+          "Liming Wang",
+          "Wenbin Huang",
+          "Huayan Pu",
+          "Qinkai Han",
+          "Jun Luo"
+        ],
+        "institutions": [
+          "Chongqing University",
+          "State Key Laboratory of Mechanical Transmission",
+          "Beijing Institute of Control Engineering",
+          "State Key Laboratory of Tribology",
+          "Tsinghua University"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7221449072",
+        "doi": "10.1016/j.measurement.2026.123541",
+        "title": "Mass measurement of an optically levitated nanoparticle via ratio fitting",
+        "published": "2026-10-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123541",
+        "authors": [
+          "Haoming Zhang",
+          "Chen Su",
+          "Shaomin Hu",
+          "Jie Yuan",
+          "Wei Xiong",
+          "Dongzhe Han",
+          "Haining Feng",
+          "Xinlin Chen",
+          "Tengfang Kuang",
+          "Yang Zhang"
+        ],
+        "institutions": [
+          "National University of Defense Technology"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7221476827",
+        "doi": "10.1016/j.measurement.2026.123542",
+        "title": "Dynamic response monitoring of a tall building during Super Typhoon Gaemi using wireless sensing and computer vision techniques",
+        "published": "2026-10-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123542",
+        "authors": [
+          "Xiaoliang Ma",
+          "Lunhai Zhi",
+          "Kang Zhou",
+          "Fan Kong",
+          "段明纲",
+          "Feng Hu"
+        ],
+        "institutions": [
+          "Hefei University of Technology",
+          "Guangzhou University",
+          "Huangshan University"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7221480893",
+        "doi": "10.1016/j.measurement.2026.123369",
+        "title": "Evaluating pre-impact fall detection: A User-independent assessment of deep learning models on the KFall dataset",
+        "published": "2026-10-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123369",
+        "authors": [
+          "Vincent Hernandez",
+          "Saikat Chakraborty",
+          "Gentiane Venture"
+        ],
+        "institutions": [
+          "The University of Tokyo",
+          "Birla Institute of Technology, Mesra"
+        ],
+        "journal": "Measurement",
+        "abstract": "Falls pose a significant risk to older adults, making early detection crucial for injury prevention. This study evaluates deep learning architectures, including convolutional neural networks (CNNs), Transformers, and hybrid models, for pre-impact fall detection using quantitative human motion measurements acquired from a wearable inertial measurement unit (IMU) in the KFall dataset. A comprehensive measurement framework incorporating a standardized signal conditioning pipeline, strict user-independent cross-validation, data leakage prevention measures, and extensive hyperparameter optimization was implemented to ensure reliable and reproducible comparisons across architectures. All evaluated architectures achieved strong performance for both fall detection and activities of daily living (ADL) classification, reaching up to 91.1% F1-score for fall instances, 99.66% ADL accuracy, and an average lead time of 636 (42) milliseconds (ms), exceeding previously reported requirements for protective interventions such as wearable airbags. Participant-level analyses revealed variability across individuals while maintaining lead times sufficient for practical pre-impact intervention. Statistical analyses further showed that the CNNLSTM architecture achieved significantly lower F1-scores and lead times than the other evaluated models, whereas no significant differences were observed between CNN and Transformer-based architectures. These findings suggest that multiple deep learning architectures can achieve comparable performance for pre-impact fall detection when properly optimized and evaluated under a consistent user-independent protocol. External evaluation on an independent ADL dataset of older adults further demonstrated good generalization while maintaining a low false alarm rate during normal daily activities. This study establishes a reproducible benchmark for future research and supports the development of practical fall prevention systems for older adults.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      },
+      {
+        "id": "https://openalex.org/W7221505108",
+        "doi": "10.1016/j.measurement.2026.123356",
+        "title": "FSARNet: A network for SAR ship detection based on channel weighted fusion and flexible rotating frame regression",
+        "published": "2026-10-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123356",
+        "authors": [
+          "Ming Zhou",
+          "Xinpeng Yang",
+          "Sixiang Gao",
+          "Lianmeng Jiao"
+        ],
+        "institutions": [],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7221512061",
+        "doi": "10.1016/j.measurement.2026.123547",
+        "title": "Physics-aware diffusion GAN model for macroscopic solidification structure prediction of continuous casting billets",
+        "published": "2026-10-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123547",
+        "authors": [
+          "Hongji Meng",
+          "Yincheng Yan",
+          "Guiying Meng",
+          "Qing He",
+          "Jian Yang"
+        ],
+        "institutions": [
+          "Shenyang Aerospace University",
+          "Northeastern University"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7221522189",
+        "doi": "10.1016/j.measurement.2026.123558",
+        "title": "Multi-sensor measurement and suppression of gear-friction-induced vibration in flexible-link manipulators",
+        "published": "2026-10-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123558",
+        "authors": [
+          "Haozhe Wang",
+          "Xiaopeng Li",
+          "Xing Fan",
+          "Lai Wei",
+          "Zixu Zhao"
+        ],
+        "institutions": [],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7221523713",
+        "doi": "10.1016/j.measurement.2026.123339",
+        "title": "Hybrid planar sensor array and adaptive model—data fusion for 5-DOF magnetic localization",
+        "published": "2026-10-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123339",
+        "authors": [
+          "Yibo Wang",
+          "Chao Zuo",
+          "Zixiang Liu",
+          "Fang Jin",
+          "Junlei Song",
+          "Kaifeng Dong"
+        ],
+        "institutions": [
+          "Ministry of Education of the People's Republic of China",
+          "China University of Geosciences",
+          "Shandong Institute of Automation",
+          "Wuhan Ship Development & Design Institute"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      }
+    ],
+    "Engineering Structures": [],
+    "Ultrasonics": [],
+    "Tunnelling and Underground Space Technology": [],
+    "Rock Mechanics and Rock Engineering": []
+  }
+}
