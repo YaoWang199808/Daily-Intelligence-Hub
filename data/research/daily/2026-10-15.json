@@ -1,0 +1,1163 @@
+{
+  "date": "2026-10-15",
+  "journals": {
+    "Automation in Construction": [
+      {
+        "id": "https://openalex.org/W7221799732",
+        "doi": "10.1016/j.autcon.2026.107311",
+        "title": "Life cycle assessment of a material-efficient 3D-printed concrete bridge: Comparative sustainability evaluation",
+        "published": "2026-10-14",
+        "url": "https://doi.org/10.1016/j.autcon.2026.107311",
+        "authors": [
+          "K. Chiranjeevi Reddy",
+          "Shreya Mahajan",
+          "Likith Koneru",
+          "Kolluru V. L. Subramaniam"
+        ],
+        "institutions": [
+          "Indian Institute of Technology Hyderabad"
+        ],
+        "journal": "Automation in Construction",
+        "abstract": "Sustainable construction requires reducing both material consumption and environmental impacts. This paper presents a comprehensive cradle-to-gate life cycle assessment (LCA) of a structurally optimized 3D-printed concrete bridge incorporating a material-efficient compression-based form. The bridge is compared with a conventional reinforced-concrete slab designed to have an equivalent flexural capacity and meet code-prescribed deflection limits. The optimized 3DCP bridge reduces concrete consumption by 55% while maintaining comparable structural capacity. Using the structure as the functional unit, the LCA was conducted in accordance with ISO 14040 for stages A1–A5. Although the high cement content of printable concrete increases impacts per unit volume, the material-efficient geometry enabled by 3DCP can offset this higher binder content at the structural level, resulting in lower impacts across several categories. Scenario-based analyses further demonstrate that reducing clinker content can lower the global warming potential below that of the conventional bridge, highlighting the importance of mix optimization.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7221613312",
+        "doi": "10.1016/j.autcon.2026.107312",
+        "title": "Explainable AI-integrated multi-objective optimisation for circular material routing in modular construction",
+        "published": "2026-10-13",
+        "url": "https://doi.org/10.1016/j.autcon.2026.107312",
+        "authors": [
+          "Thilina Ganganath Weerakoon",
+          "Zenonas Turskis",
+          "Jūratė Šliogerienė"
+        ],
+        "institutions": [
+          "Vilnius Gediminas Technical University"
+        ],
+        "journal": "Automation in Construction",
+        "abstract": "The rising digitisation of the construction sector has increased the demand for automated, data-driven decision-making in BIM-enabled operations. However, material routing decisions in modular construction are still primarily manual or based on opaque optimisation models, which limits their integration with construction automation systems. To solve this, the Explainable AI-Integrated Multi-Objective Optimisation (XAIOM) framework is presented, which allows for automated material routing straight from BIM-derived data. The system combines machine learning (ML), SHAP and LIME explainability, non-dominated sorting genetic algorithm II (NSGA-II) optimisation, and Monte Carlo uncertainty analysis into a single pipeline. Explainability is built into the optimisation process to aid the development of Pareto-optimal solutions based on feature contributions. Validation of a modular residential construction in Finland shows clear trade-offs between CO₂ reduction and economic value under uncertainty. The findings confirm that the framework enables transparent, reliable, and scalable automated decision-making, advancing AI-driven construction automation by linking BIM-based digital models with intelligent optimisation workflows.",
+        "citation_count": 0,
+        "method": "Machine Learning"
+      },
+      {
+        "id": "https://openalex.org/W7221625714",
+        "doi": "10.1016/j.autcon.2026.107305",
+        "title": "Review of AI agents in engineering design workflows",
+        "published": "2026-10-13",
+        "url": "https://doi.org/10.1016/j.autcon.2026.107305",
+        "authors": [
+          "Zoie McCreery",
+          "M.Z. Naser"
+        ],
+        "institutions": [
+          "Clemson University"
+        ],
+        "journal": "Automation in Construction",
+        "abstract": "Technology related to artificial intelligence (AI), especially agentic systems, has attracted significant interest and rapid advancement in recent years. With this growth comes an increasing potential for integrating agents into engineering design workflows. This paper examines the current state of AI agent technology from an engineering design perspective. Descriptive bibliometric analysis characterizes recent research trends, showing rapid growth in engineering-related research despite comparatively limited publication volume. A consistent boundary for agentic behavior is established to distinguish task-specific AI and near-agentic workflow automation from systems demonstrating more direct agentic participation. Recent single- and multi-agent workflows demonstrate meaningful capabilities, although their implementation in engineering design remains limited. Contributing technical, ethical, and human-centered challenges are discussed alongside their implications for broader adoption. The technology's broader impacts on engineering are then considered, with an emphasis on the potential for agents to assume more critical roles in design workflows as these barriers are addressed.",
+        "citation_count": 0,
+        "method": "Review / Survey"
+      },
+      {
+        "id": "https://openalex.org/W7221653737",
+        "doi": "10.1016/j.autcon.2026.107294",
+        "title": "Automated facade solar retrofits using feed-forward 3D reconstruction and generative image editing",
+        "published": "2026-10-13",
+        "url": "https://doi.org/10.1016/j.autcon.2026.107294",
+        "authors": [
+          "Ayça Duran",
+          "Christoph Waibel",
+          "Bernd Bickel",
+          "Iro Armeni",
+          "Arno Schlueter"
+        ],
+        "institutions": [
+          "ETH Zurich",
+          "Flemish Institute for Technological Research",
+          "Stanford University"
+        ],
+        "journal": "Automation in Construction",
+        "abstract": "Building-integrated photovoltaics (BIPV) enable solar energy generation from facades, yet facade retrofit assessment remains largely manual and time-consuming. This paper introduces a pipeline for automated analysis and visualization of BIPV retrofit designs. Unlike prior studies relying on building footprints, 3D models, or camera parameters, the proposed method automatically estimates facade aspect ratios and dimensions from images using feed-forward 3D reconstruction and vision-language models. The pipeline edits facade images using pretrained generative models to visualize BIPV retrofits considering system size and provides preliminary energy-yield estimates. On two datasets covering facades from 10 cities, the best-performing configurations achieved normalized mean absolute errors of 9% and 15% in aspect ratio estimation and an average floor-count prediction error of 0.5 floors. The pipeline enables scalable evaluation of early-stage facade solar retrofit designs, supporting decision-making in retrofit planning by reducing reliance on manual surveying and modeling. The pipeline implementation and dataset are available to support future work.",
+        "citation_count": 0,
+        "method": "Review / Survey"
+      },
+      {
+        "id": "https://openalex.org/W7221712915",
+        "doi": "10.1016/j.autcon.2026.107282",
+        "title": "In situ impact printing with an autonomous legged excavator: System development, integration, and full-scale demonstration",
+        "published": "2026-10-13",
+        "url": "https://doi.org/10.1016/j.autcon.2026.107282",
+        "authors": [
+          "Kunaljit Chadha",
+          "Filippo Spinelli",
+          "Lauren Vasey",
+          "Grzegorz Malczyk",
+          "Ananya Kango",
+          "Pok Yin Victor Leung",
+          "Marco Hutter",
+          "Matthias Köhler"
+        ],
+        "institutions": [
+          "ETH Zurich"
+        ],
+        "journal": "Automation in Construction",
+        "abstract": "This paper presents an additive manufacturing process, Impact Printing, developed for autonomous on-site construction using in situ resources such as excavated earthen material. The process is enabled by a custom three-subsystem tool that portions and deposits dense, pre-mixed material parts at high velocity, enabling the fabrication of unreinforced architectural structures. To investigate the feasibility of in situ construction, the custom tool is integrated on a mobile autonomous legged excavator. A trajectory-following controller with iterative closest point-based state estimation is implemented to enable accurate motion, while a fabrication-aware software architecture and computational design workflow provides kinematic checking and export of fabrication parameters. The system is validated through the construction of a three-meter-tall wall demonstrator built over multiple days from multiple base positions in a semi-structured outdoor environment. Construction data is post-processed to assess system accuracy, efficiency, and influential parameters, and directions for future development are discussed.",
+        "citation_count": 0,
+        "method": "Other"
+      }
+    ],
+    "Mechanical Systems and Signal Processing": [
+      {
+        "id": "https://openalex.org/W7167398208",
+        "doi": "10.1016/j.ymssp.2026.115023",
+        "title": "Control-Based Continuation for self-oscillating systems: Application to flow induced vibrations",
+        "published": "2026-10-14",
+        "url": "https://doi.org/10.1016/j.ymssp.2026.115023",
+        "authors": [
+          "Romain Caron",
+          "Etienne Gourc",
+          "Bruno Cochelin",
+          "Fabrice Silva",
+          "Christophe Vergez"
+        ],
+        "institutions": [],
+        "journal": "Mechanical Systems and Signal Processing",
+        "abstract": "An enhanced version of Control-Based Continuation (CBC) is proposed to carry out experimental continuation on self-sustained systems, whose working frequency is not known a priori. Our approach combines three main stages: an online frequency tracking algorithm using an embedded phase-locked loop, an online noninvasive CBC stabilization loop using adaptive filters, and a derivative free arc continuation algorithm. As a proof of concept, it is implemented to study an elementary aero-vibro-acoustical model of buzzing lips that exhibits self-sustained oscillations with a wide range of fundamental frequency. The model relies on interactions between an acoustical resonator (the air column) and an oscillating valve (the lips) through a nonlinear flow. The Control-Based Continuation is implemented without taking advantage of the modelling equations, mimicking a real experiment. This results in a pseudo-experimental bifurcation diagram, showing strong accordance with virtual open-loop testing and numerical continuation, which proves robustness of our method.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      },
+      {
+        "id": "https://openalex.org/W7221750255",
+        "doi": "10.1016/j.ymssp.2026.115072",
+        "title": "Adaptive backstepping-based swing suppression control for tower crane with obstacle avoidance",
+        "published": "2026-10-14",
+        "url": "https://doi.org/10.1016/j.ymssp.2026.115072",
+        "authors": [
+          "Zheng Sun",
+          "Kai Wang",
+          "Ling Yang",
+          "Hongjie Zhu",
+          "Xin Ma"
+        ],
+        "institutions": [],
+        "journal": "Mechanical Systems and Signal Processing",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7221759154",
+        "doi": "10.1016/j.ymssp.2026.115039",
+        "title": "Influence of localized failures on the vibration characteristics of gear-rotor-bearing system considering gear lead crown relief",
+        "published": "2026-10-14",
+        "url": "https://doi.org/10.1016/j.ymssp.2026.115039",
+        "authors": [
+          "Xiangming Zhang",
+          "Lei Fu",
+          "Zhehao Fu",
+          "Songda Zhang",
+          "Jiawei Xiang"
+        ],
+        "institutions": [
+          "Zhejiang University of Technology",
+          "Wenzhou University"
+        ],
+        "journal": "Mechanical Systems and Signal Processing",
+        "abstract": "The Gear-Rotor-Bearing (GRB) system plays a critical role in the transmission chains of high-end equipment systems. However, existing research on failure mechanisms tends to neglect the intrinsic coupling effects of key components, leading to inaccuracies in failure modeling and dynamic response prediction. To address these limitations, this paper proposes a novel Analytical-Finite Element Method (AFEM)-based approach for calculating the Time-Varying Meshing Stiffness (TVMS) of gear pair with spalling faults and lead crown relief. Meanwhile, a 32-Degree-of-Freedom (DOF) closed-loop iterative dynamic model is proposed, incorporating nonlinear factors such as time-varying backlash and rotor misalignment. This aims to capture the bidirectional coupling mechanism between localized bearing failures and gear surface load distribution. The study reveals the internal load transfer and contact stress variation law within the GRB system under localized failure, providing a theoretical foundation for analyzing failure mechanisms and vibration control in complex transmission systems.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      },
+      {
+        "id": "https://openalex.org/W7221772912",
+        "doi": "10.1016/j.ymssp.2026.115035",
+        "title": "Cost-sensitive active learning for rotating machinery fault diagnosis under data imbalance",
+        "published": "2026-10-14",
+        "url": "https://doi.org/10.1016/j.ymssp.2026.115035",
+        "authors": [
+          "Ying Chen",
+          "Lubing Wang",
+          "Xufeng Zhao"
+        ],
+        "institutions": [
+          "Nanjing University of Aeronautics and Astronautics",
+          "Zhengzhou University"
+        ],
+        "journal": "Mechanical Systems and Signal Processing",
+        "abstract": "Data-driven fault diagnosis has become an important approach for ensuring the reliability and safety of rotating machinery. However, practical deployment is often hindered by severe data imbalance and label scarcity. Active learning (AL) mitigates label scarcity by selecting the most informative samples for annotation to improve model performance. Nevertheless, conventional AL strategies typically optimize for overall accuracy and treat all misclassifications equally. Consequently, they fail to account for the asymmetric operational costs of diagnostic errors, particularly the greater losses caused by missed detections and severity underestimation. To bridge this gap, this paper proposes a cost-sensitive active learning (CS-AL) framework tailored for highly imbalanced fault distributions. In this framework, raw vibration signals are first transformed into two-dimensional time–frequency representations via continuous wavelet transform (CWT). A Bayesian convolutional neural network, integrated with a convolutional block attention module, is developed to extract fault-sensitive features, while epistemic uncertainty is quantified through Monte Carlo (MC) dropout. To explicitly penalize high-risk errors during sample selection, an asymmetric diagnostic cost matrix is constructed to formulate a cost-sensitive acquisition score based on the expected pairwise misclassification cost. To optimize annotation efficiency, a diversity-aware clustering mechanism selects representative prototypes from this high-risk candidate pool. Experimental validations on the CWRU bearing and MCC5-THU gearbox datasets demonstrate that the CS-AL framework achieves enhanced diagnostic performance and significantly reduces high-cost misclassification risks compared to representative AL baselines. The results confirm the effectiveness of CS-AL in accurately allocating limited labeling resources to rare, safety-critical faults while minimizing total operational risk under imbalanced conditions.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      },
+      {
+        "id": "https://openalex.org/W7221782695",
+        "doi": "10.1016/j.ymssp.2026.115079",
+        "title": "Modeling of AMR magnetic encoder signals for instantaneous angular speed and vibration separation",
+        "published": "2026-10-14",
+        "url": "https://doi.org/10.1016/j.ymssp.2026.115079",
+        "authors": [
+          "Zhengde Chu",
+          "François Guillet",
+          "Maolin Luo",
+          "Yu Guo",
+          "Baoping Cai",
+          "Hugo André"
+        ],
+        "institutions": [
+          "Université Jean Monnet",
+          "Chongqing University of Posts and Telecommunications",
+          "Kunming University of Science and Technology",
+          "China University of Petroleum, East China"
+        ],
+        "journal": "Mechanical Systems and Signal Processing",
+        "abstract": "Magnetic encoder signals are susceptible to distortions caused by small transverse vibrations and dynamic misalignments, particularly in off-shaft configurations. A novel anisotropic magnetoresistive (AMR) encoder coupling model is established, capturing both torsional and transverse displacements to reveal how dynamic vibrations affect signal formation. Based on this model, a dual-sensor reconstruction method is developed to estimate instantaneous angular speed (IAS) and transverse vibration. Simulation and experimental validation under varying encoder resolutions and multi-source vibration conditions confirm the method’s robustness and high accuracy, achieving high correlation coefficients and low normalized root mean square error (NRMSE). The approach enables accurate IAS measurement with fewer sensors and facilitates its integration into practical condition monitoring systems.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      },
+      {
+        "id": "https://openalex.org/W7221824146",
+        "doi": "10.1016/j.ymssp.2026.115055",
+        "title": "Hybrid testing of wind turbine components using Kane’s method",
+        "published": "2026-10-14",
+        "url": "https://doi.org/10.1016/j.ymssp.2026.115055",
+        "authors": [
+          "Frederik Nordtorp",
+          "Elif Ecem Baş",
+          "Cláudio Gomes",
+          "Per Jensen",
+          "Jan Jørgensen",
+          "Giuseppe Abbiati"
+        ],
+        "institutions": [
+          "Aarhus University",
+          "FORCE Technology (Denmark)"
+        ],
+        "journal": "Mechanical Systems and Signal Processing",
+        "abstract": "Hybrid testing combines numerical simulations with physical experiments to evaluate large mechanical systems, such as wind turbines, that are impractical to test at full scale. While hybrid testing has been widely applied in structural dynamics, its extension to complex multibody dynamic systems remains challenging due to nonlinear kinematics and strongly coupled degrees of freedom. Although Kane’s method underpins widely used wind turbine simulation tools, hybrid testing frameworks that directly integrate Kane-based multibody formulations and interface force coupling remain largely unexplored. Here, a stepwise hybrid testing framework is presented in which the equations of motion are formulated using Kane’s method, enabling a systematic treatment of multibody dynamics within hybrid testing. Interface forces are identified from free-body diagrams and incorporated into the equations of motion through the principle of virtual power, allowing consistent coupling between numerical and physical substructures. The framework is demonstrated in a pseudo-dynamic hybrid test of a 13-degree-of-freedom simplified wind turbine rotor system, where a pitch bearing is tested as a physical substructure under force-controlled bi-axial bending and displacement-controlled pitch rotation. A virtual hybrid test validates the formulation and coordination algorithm, while the physical hybrid test demonstrates stable mixed-mode coupling under experimental feedback. The results show that the framework can couple a Kane-based multibody model with a physical wind turbine component and capture its influence on the system-level rotor response.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      },
+      {
+        "id": "https://openalex.org/W7221827787",
+        "doi": "10.1016/j.ymssp.2026.115052",
+        "title": "Adaptive and uncertainty-aware surrogate modeling for reliability analysis of nonlinear dynamic systems",
+        "published": "2026-10-14",
+        "url": "https://doi.org/10.1016/j.ymssp.2026.115052",
+        "authors": [
+          "Zhi-wei Wang",
+          "Abdoul Aziz Sandotin Coulibaly",
+          "Michael D. Todd",
+          "Joel P. Conte",
+          "Zhen Yu Hu"
+        ],
+        "institutions": [
+          "University of Michigan",
+          "University of Michigan–Dearborn",
+          "University of California San Diego"
+        ],
+        "journal": "Mechanical Systems and Signal Processing",
+        "abstract": "Reliability analysis of nonlinear inelastic dynamic systems under uncertainty remains a critical challenge, owing to the path-dependent, high-dimensional nature of the problem. To this end, this paper proposes an adaptive and uncertainty-aware surrogate modeling framework comprising three synergistic components. The first component is the aLSTM–SNGP surrogate model, an uncertainty-aware surrogate for nonlinear dynamic systems that integrates an attention-enhanced LSTM (aLSTM) encoder with a Spectral-normalized Neural Gaussian Process (SNGP) predictor, jointly optimized through end-to-end co-training. The aLSTM encoder processes excitation sequences and system parameters together, capturing temporal dependencies while implicitly reducing dimensionality; the SNGP predictor provides scalable uncertainty-aware prediction through random Fourier feature approximation. The second component develops two surrogate-based failure probability estimation methods: Method I (aLSTM-SNGP-MCS) based on direct Monte Carlo simulation, and Method II (aLSTM-SNGP-IS) based on importance sampling with an adaptively constructed proposal density that concentrates sampling effort in failure-prone regions. The third component is an adaptive exploration–exploitation refinement strategy that iteratively refines the surrogate model by combining active learning with an alternating training scheme of full training and local fine-tuning. The framework is validated under stochastic seismic excitations through two examples: a numerical example based on a six-story nonlinear inelastic shear building model with Bouc-Wen hysteresis, and a practical engineering example based on a nine-story SAC steel frame represented by a nonlinear finite element model. Results demonstrate that both methods yield accurate failure probability estimates while significantly reducing the number of evaluations to the simulation model relative to crude Monte Carlo simulation, with Method II outperforming Method I.",
+        "citation_count": 0,
+        "method": "Numerical Simulation"
+      },
+      {
+        "id": "https://openalex.org/W7221681521",
+        "doi": "10.1016/j.ymssp.2026.115080",
+        "title": "Vibration signal AM-FM models and spectral characteristics for rotate vector reducer fault diagnosis: an insight into multiple modulations and fault feature analysis",
+        "published": "2026-10-13",
+        "url": "https://doi.org/10.1016/j.ymssp.2026.115080",
+        "authors": [
+          "Zhipeng Feng",
+          "Zi'an Li",
+          "Rongzhou Lin",
+          "Tongxin Gao",
+          "Ying Zhang"
+        ],
+        "institutions": [
+          "University of Science and Technology Beijing",
+          "China North Industries Group Corporation (China)"
+        ],
+        "journal": "Mechanical Systems and Signal Processing",
+        "abstract": "Rotate vector (RV) reducers need to undertake cyclic heavy load, and therefore are prone to faults. However, they feature highly intricate kinematics, due to their complex structure, simultaneous multiple point contacts and coupled spin–revolution of cycloidal and planetary gear stages. This leads to high vibration complexity, and poses a great challenge to vibration based fault diagnosis. To address the above issue, we derive the fault characteristic frequency equations for the main components in both cycloidal and planetary gear stages, including the sun, planets, cycloids and pinwheel. Considering the multiple modulation effects on meshing vibration (including the amplitude modulation and frequency modulation effects due to localized fault, and the extra amplitude modulation effects caused by time-varying measurement angle and vibration transfer path), we establish analytical vibration signal models for the localized fault case of each main component. These analytical signal models provide an insight into the multiple modulation nature of vibrations, and justify the presence of gear rotating and fault characteristic frequencies in vibrations from kinetics perspective. In order to extract fault symptoms from multiple modulation signals, we further derive the explicit equations of Fourier and envelope spectra, thus revealing the fault vibration characteristics explicitly. Such explicit spectral signatures provide a guidance for vibration based fault diagnosis. The above theoretical derivations are validated experimentally. The localized fault of both cycloidal and planetary gear stages is successfully diagnosed.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      },
+      {
+        "id": "https://openalex.org/W7221690661",
+        "doi": "10.1016/j.ymssp.2026.115074",
+        "title": "A multimodal fusion network guided by environmental semantics for reconstructing missing bridge strain trends",
+        "published": "2026-10-13",
+        "url": "https://doi.org/10.1016/j.ymssp.2026.115074",
+        "authors": [
+          "Jiaqi Liu",
+          "Weijie Li",
+          "Xuefeng Zhao",
+          "Stefano Mariani"
+        ],
+        "institutions": [
+          "Dalian University of Technology",
+          "Politecnico di Milano"
+        ],
+        "journal": "Mechanical Systems and Signal Processing",
+        "abstract": "Long term bridge strain trends describe the gradual evolution of structural responses under environmental actions and operational loads, providing important information for structural health monitoring and condition assessment. However, communication interruptions, sensor abnormalities, and unstable data transmission can lead to missing strain data, which affects the completeness of monitoring records and the reliability of subsequent analysis. This study proposes an environmental semantics-guided multimodal fusion network for reconstructing missing bridge strain trends. The network mainly consists of an environmental semantic modulation module and a temporal reconstruction module. The environmental semantic modulation module encodes environmental textual descriptions into semantic representations and introduces environmental contextual information through feature-wise semantic modulation. The temporal reconstruction module uses a one-dimensional convolutional neural network (1D CNN) to extract local trend variation features and a modified Transformer encoder to model long-range temporal dependencies, enabling environment-aware strain trend reconstruction. Based on strain data obtained from a real bridge field monitoring experiment, this study constructs several typical missing scenarios and validates the proposed method through comparison with multiple baseline methods. The results show that the proposed model can effectively recover the original strain trends under different missing conditions and outperforms the compared methods in terms of reconstruction accuracy and robustness. Ablation experiments further demonstrate the effectiveness of the environmental semantic modulation and temporal reconstruction modules.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      }
+    ],
+    "Measurement": [
+      {
+        "id": "https://openalex.org/W7221535760",
+        "doi": "10.1016/j.measurement.2026.123553",
+        "title": "3D particle size measurement from line-laser depth data using asymmetric reconstruction loss",
+        "published": "2026-10-12",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123553",
+        "authors": [
+          "Jiawang Lu",
+          "Yajing Wang",
+          "Donghao Wang",
+          "Mingzhen Lu",
+          "Haishen Jiang",
+          "Miao Pan",
+          "Chenlong Duan",
+          "Huang Long"
+        ],
+        "institutions": [
+          "China University of Mining and Technology",
+          "Xi'an University of Science and Technology"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7221552466",
+        "doi": "10.1016/j.measurement.2026.123546",
+        "title": "Evolution characteristics of mesoscopic pore structure in asphalt mixtures with different aggregates under dynamic water action",
+        "published": "2026-10-12",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123546",
+        "authors": [
+          "Z. J. Wang",
+          "Wenfeng Zhou",
+          "Xia Yang",
+          "Hengwei Huang",
+          "Xuewei Li",
+          "Junfu Jiang",
+          "Jian Fu"
+        ],
+        "institutions": [
+          "Panzhihua University"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W4414682238",
+        "doi": "10.1016/j.measurement.2026.123364",
+        "title": "Automating traffic monitoring with SHM sensor networks via vision-supervised deep learning",
+        "published": "2026-10-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123364",
+        "authors": [
+          "Hanshuo Wu",
+          "Xudong Jian",
+          "Christos Lataniotis",
+          "Cyprien Hoelzl",
+          "Eleni Chatzi",
+          "Yves Reuland"
+        ],
+        "institutions": [
+          "ETH Zurich",
+          "Institute of Structural Engineering",
+          "Singapore-ETH Centre"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      },
+      {
+        "id": "https://openalex.org/W7147506238",
+        "doi": "10.1016/j.measurement.2026.123452",
+        "title": "Hybrid deep learning with temporal data augmentation for accurate remaining useful life prediction of lithium-ion batteries",
+        "published": "2026-10-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123452",
+        "authors": [
+          "Yun Tian",
+          "Guili Wang",
+          "Jian Bi",
+          "Kaixin Han",
+          "Chenglu Wu",
+          "Zhiyi Lu",
+          "Chenhao Li",
+          "Liangwang Sun",
+          "Minyu Zhou",
+          "Chenchen Xu"
+        ],
+        "institutions": [],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      },
+      {
+        "id": "https://openalex.org/W7221529561",
+        "doi": "10.1016/j.measurement.2026.123535",
+        "title": "Virtual-source total focusing method with Chirp-coded excitation and adaptive weighting beamforming for highly attenuative materials",
+        "published": "2026-10-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123535",
+        "authors": [
+          "Jue Wang",
+          "Ping Wang",
+          "Ping Wang",
+          "Lin Tong",
+          "Peng Wang",
+          "Peng Wang",
+          "Peng Wang",
+          "Sirui Chen"
+        ],
+        "institutions": [
+          "Chongqing University"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7221540683",
+        "doi": "10.1016/j.measurement.2026.123563",
+        "title": "TDOA localization based on risk detection and threshold rollback",
+        "published": "2026-10-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123563",
+        "authors": [
+          "Hui Shi",
+          "Zhenkai Zhang"
+        ],
+        "institutions": [
+          "Jiangsu University of Science and Technology"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7221551230",
+        "doi": "10.1016/j.measurement.2026.123545",
+        "title": "Error range and applicability boundaries of COLMAP-based point cloud scale conversion for architectural heritage measurement",
+        "published": "2026-10-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123545",
+        "authors": [
+          "Luo Wang",
+          "Yating Duan",
+          "Jungang Jiang",
+          "Jiaying Huang",
+          "Qianru Yang",
+          "Yin Zhang"
+        ],
+        "institutions": [
+          "Southwest Minzu University"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7221553248",
+        "doi": "10.1016/j.measurement.2026.123551",
+        "title": "Cross-modal perception enhancement and 3D reconstruction of tunnel panoramic images using training-free instruction optimization",
+        "published": "2026-10-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123551",
+        "authors": [
+          "Kangping Zhu",
+          "Yang Zhang",
+          "Ka-Veng Yuen"
+        ],
+        "institutions": [
+          "Shandong University",
+          "University of Macau"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7221559830",
+        "doi": "10.1016/j.measurement.2026.123451",
+        "title": "DAFNet: Classification of fruit tree diseases via attention-driven dual-stream feature fusion",
+        "published": "2026-10-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123451",
+        "authors": [
+          "Yi-Xiang Wang",
+          "Na Song",
+          "Yuanqi Wang",
+          "Jiaxin Wang",
+          "Lei Wang"
+        ],
+        "institutions": [
+          "Hainan University",
+          "Putian University"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7221567279",
+        "doi": "10.1016/j.measurement.2026.123550",
+        "title": "A GNSS-based frequency observable framework for geopotential differences estimation with external frequency standard",
+        "published": "2026-10-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123550",
+        "authors": [
+          "Lihong Li",
+          "Pengfei Zhang",
+          "Hok Sum Fok",
+          "Fang Zhang",
+          "Wenbin Shen"
+        ],
+        "institutions": [
+          "China University of Geosciences",
+          "Wuhan University",
+          "Institute of Geodesy and Geophysics",
+          "Wuhan University of Science and Technology",
+          "State Key Laboratory of Information Engineering in Surveying Mapping and Remote Sensing"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      }
+    ],
+    "Engineering Structures": [
+      {
+        "id": "https://openalex.org/W7221749074",
+        "doi": "10.1016/j.engstruct.2026.123967",
+        "title": "Enhanced 3D reconstruction of tall buildings from UAV photogrammetry using GCP clustering and multi-scale evaluation",
+        "published": "2026-10-14",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.123967",
+        "authors": [
+          "Jiazeng Shan",
+          "Chang Liu",
+          "Yudong Wang",
+          "Cheng Ning Loong",
+          "Nianjun Chen"
+        ],
+        "institutions": [],
+        "journal": "Engineering Structures",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7221763477",
+        "doi": "10.1016/j.engstruct.2026.123917",
+        "title": "Experimental and numerical investigations on methods for improving impact performance of precast segmental bridge piers",
+        "published": "2026-10-14",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.123917",
+        "authors": [
+          "Yifei Hao",
+          "Pengcheng Li",
+          "Hong Shun Hao",
+          "Delei Zou",
+          "Yu Liu",
+          "Shuyou Xue"
+        ],
+        "institutions": [
+          "Curtin University",
+          "Guangzhou University",
+          "Hebei University of Technology",
+          "Dalian Minzu University",
+          "Zhejiang Water Conservancy and Hydropower Survey and Design Institute"
+        ],
+        "journal": "Engineering Structures",
+        "abstract": "Precast segmental bridge piers (PSBPs) are increasingly used in accelerated bridge construction. However, segmental joints and bottom segments are more vulnerable to severe damage under impact loads. This study experimentally and numerically investigates three retrofitting methods to improve the impact performance of PSBPs, i.e., wrapping carbon fiber reinforced polymer (CFRP) sheets around segment joints, using steel tubes to connect the bottom two segments, and adopting a cast-in-place bottom segment. The effectiveness of these methods was first verified through missile impact tests. Results indicated that wrapping CFRP sheets around joints effectively reduced concrete spalling damage within the impacted zone but led to more severe bottom shear damage due to improved integrity and joint restraint. In contrast, the use of continuous steel tubes extending through the joint to connect the two bottom segments and the cast-in-place longer bottom segment could enhance the impact performance of PSBPs by effectively activating their energy-dissipation mechanism. Numerical models of the four types of PSBPs subjected to missile impacts were then established and validated against test results using the explicit dynamic analysis software LS-DYNA. An analysis of the PSBPs subjected to off-center missile impacts was then performed. Results confirmed the effectiveness of using steel tubes to join the two bottom segments and the cast-in-place of a longer bottom segment to improve the performance of PSBPs subjected to off-center impacts, while wrapping CFRP sheets around joints weakened the impact performance of PSBPs in off-center impact scenarios. These findings provide experimental and numerical evidence to support the selection of suitable retrofitting strategies to improve the impact performance of PSBPs in complex collision scenarios.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      },
+      {
+        "id": "https://openalex.org/W7221776982",
+        "doi": "10.1016/j.engstruct.2026.123877",
+        "title": "A nonlinear axial-flexural (P-M₁-M₂) interaction formula for cold-formed steel members: Development via trigonometric polynomial interpolation",
+        "published": "2026-10-14",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.123877",
+        "authors": [
+          "Tianyang Deng",
+          "Zehui Xiang",
+          "Zhiting Liu",
+          "Lingfeng Yin",
+          "Zhanjie Li"
+        ],
+        "institutions": [],
+        "journal": "Engineering Structures",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Analytical / Theoretical"
+      },
+      {
+        "id": "https://openalex.org/W7221785778",
+        "doi": "10.1016/j.engstruct.2026.123972",
+        "title": "Seismic performance of local prestressed concrete joint with interior anchorage in the core region",
+        "published": "2026-10-14",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.123972",
+        "authors": [
+          "Qing Xu",
+          "Dong Chen",
+          "Xiaoda Xu",
+          "Bin Zeng",
+          "Qingfeng Xu"
+        ],
+        "institutions": [
+          "Shanghai Research Institute of Building Sciences (China)",
+          "Central Research Institute of Building and Construction (China)"
+        ],
+        "journal": "Engineering Structures",
+        "abstract": "Local prestressing technology is widely used in large public and industrial buildings due to its flexible spatial arrangement and significant improvement of structural serviceability. However, owing to limited experimental research, the effects of asymmetry and anchorage characteristics in the core zone on the seismic performance of joints and the mechanical behavior of the core region remain unclear. This study conducted quasi-static tests on five local prestressed concrete (LPC) joints and one reference RC joint, supplemented by finite element parameter extension analysis. The influences of prestressing degree, beam depth ratio, joint stirrup ratio, and axial compression ratio on the seismic performance of the joints were investigated. The results indicate that LPC joints exhibit satisfactory ductility and energy dissipation capacity within prestressing degrees, beam depth ratios, and axial compression ratios of 0.8, 1.5, and 0.4, respectively. Based on the analysis of the mechanical mechanism of core concrete under the influence of anchorages, a modified softened strut-and-tie model suitable for asymmetrical internally anchored joints was developed. The model predictions show good agreement with experimental results and collected data, with errors within ±12.1%. Parameter analysis based on this method reveals the influence patterns of various parameters on the seismic bearing capacity of LPC joints.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      },
+      {
+        "id": "https://openalex.org/W7221800744",
+        "doi": "10.1016/j.engstruct.2026.123935",
+        "title": "Vision-guided Gaussian Splatting for robust sparse-view bridge reconstruction toward digital twins",
+        "published": "2026-10-14",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.123935",
+        "authors": [
+          "Wei Ma",
+          "Qiang Tu",
+          "Liang Ge",
+          "Chongsheng Cheng",
+          "Jianping Pan",
+          "Lianjie Zhou",
+          "Xu Liu"
+        ],
+        "institutions": [],
+        "journal": "Engineering Structures",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7221803597",
+        "doi": "10.1016/j.engstruct.2026.123961",
+        "title": "Experimental–inverse investigation of frictional heating and interfacial heat partition in friction pendulum bearings",
+        "published": "2026-10-14",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.123961",
+        "authors": [
+          "Jiaxi Li",
+          "Kui Yang",
+          "Zeyu Zhu",
+          "Ping Tan"
+        ],
+        "institutions": [
+          "Guangzhou University",
+          "Fuyang Normal University"
+        ],
+        "journal": "Engineering Structures",
+        "abstract": "Frictional heating significantly influences the performance of friction pendulum bearings (FPBs), yet the mechanisms of heat generation and interfacial partition remain inadequately quantified. This study investigates frictional heating in FPBs using flat-plate sliding experiments under varied velocities, contact pressures, and surface roughness levels. Direct steel surface temperature measurements, enabled by a thin-film thermocouple technique, are integrated with a data-enabled, physics-based inverse framework to predict the transient surface temperature of the UHPF friction pad without assuming a priori fixed heat partition ratio. To our knowledge, this constitutes the first experimentally validated reconstruction of the pad interfacial temperature and transient heat-partition ratio for FPB-relevant contacts. The results indicate that frictional heating is dominated by deformational heat generation within the friction pad, leading to an initial heat partition into the steel plate that is negligible at sliding onset. As sliding proceeds, the heat partition ratio gradually increases toward a steady state, with the transition process primarily governed by interfacial thermal resistance rather than bulk conduction effects. Key thermal parameters are identified along with their credible ranges and evolution trends. The proposed approach offers a physically consistent foundation for refined frictional heating models and improved thermo-mechanical assessment of FPB systems and design-oriented simulation.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      },
+      {
+        "id": "https://openalex.org/W7221819704",
+        "doi": "10.1016/j.engstruct.2026.123916",
+        "title": "Time-variant error-adaptive interval inversion for resilience improvement based on nonlinear redundancy of steel-concrete composite girder bridges",
+        "published": "2026-10-14",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.123916",
+        "authors": [
+          "Xiaoming Wang",
+          "Zhenying Zhang",
+          "You Dong",
+          "Liang Liu",
+          "Yongjian Liu",
+          "Wenjie Yang",
+          "Jianling Zhao",
+          "Yizhe Shi",
+          "Zeliang Gao"
+        ],
+        "institutions": [
+          "Chang'an University",
+          "Hong Kong Polytechnic University",
+          "China Railway Design Corporation (China)"
+        ],
+        "journal": "Engineering Structures",
+        "abstract": "The system nonlinear redundancy of the multi-girder Steel-Concrete Composite Girder (S-CCG) bridge provides the necessary internal buffering mechanism against asymmetric extreme loads. In the process of developing a bridge resilience improvement strategy, error-adaptive capacity from system nonlinear redundancy against inevitable deviations holds the key to ensuring optimal comprehensive performance including reliability, redundancy, cost, and constructability. However, as a measure of such capacity, the “error-adaptive interval” in the identification of ductility degradation and transverse stiffness is not accounted for. This paper proposes a time-variant Error-Adaptive Interval Inversion (E-AII) framework to exploit the error-adaptive capacity, in which the inversion is formulated as a reliability-constrained, multi-objective interval optimization problem with the aid of the machine-learning method and the Fiber Macro-Element Numerical Simulation Method (FM-ENSM). The proposed method is validated using a real S-CCG bridge. Numerical validation shows that the FE-ENSM accelerates one single nonlinear analysis from 1568 s to 2 s while maintaining simulation accuracy. Furthermore, the deployed surrogate learning strategy for worst-case reliability index predictions achieves a coefficient of determination of R 2 of 0.99103 and a maximum relative error of 2.52%. These indicate that the proposed method is able to significantly mitigate the computational burden while sustaining high predictive precision. The multiple comprehensive performances of the resilience improvement process can be greatly optimized with the guidance of the maximized error-adaptive interval of the ductility factor and transverse stiffness. This method can be extended to the E-AII of other scenarios of bridge resilience improvement.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      },
+      {
+        "id": "https://openalex.org/W7221588002",
+        "doi": "10.1016/j.engstruct.2026.123909",
+        "title": "Constrained Performance-Based Optimization of T-NES: A Stochastic Polynomial Chaos Expansion approach with Far-Field and Near-Field considerations",
+        "published": "2026-10-13",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.123909",
+        "authors": [
+          "Leandro Fleck Fadel Miguel",
+          "Felipe Costa Macedo",
+          "Andre Teofilo Beck"
+        ],
+        "institutions": [
+          "Universidade de São Paulo"
+        ],
+        "journal": "Engineering Structures",
+        "abstract": "This paper proposes a reliability-constrained Performance-Based Design Optimization (PBDO) framework for Track Nonlinear Energy Sinks (T-NESs) that integrates Stochastic Polynomial Chaos Expansion (SPCE)-based fragility modeling, dual-hazard seismic representation, and life-cycle cost optimization within a unified probabilistic framework. Existing probabilistic optimization approaches for T-NES devices typically rely on lognormal fragility assumptions combined with first-passage formulations, requiring quasi-stationary excitation models that are unsuitable for representing pulse-like Near-Field (NF) earthquakes. The proposed methodology introduces three main contributions. First, SPCE is embedded directly within the optimization loop to construct fragility functions from peak Engineering Demand Parameters (EDPs), eliminating predefined distributional assumptions while reducing the computational cost of fragility construction by approximately a factor of eight compared with conventional Monte Carlo-based procedures. Second, the peak-response formulation eliminates the quasi-stationary excitation requirement inherent to first-passage approaches, enabling consistent treatment of both Far-Field (FF) and NF ground motions within the same optimization framework. Third, the design problem is formulated as a dual-hazard reliability-constrained optimization, in which expected life-cycle cost is minimized under FF seismic demand while a probabilistic stroke constraint is enforced under NF excitation to ensure device operability during pulse-like events. The framework is demonstrated on a mid-rise steel frame located in Concepción, Chile. Results indicate that unconstrained economic optimization marginally violates the target stroke reliability under NF excitation. Enforcing the constraint increases optimal device damping by approximately 35% while raising expected life-cycle cost by only 1.6%, quantifying the limited economic trade-off required to guarantee robustness. Validation against recorded FF and NF ground motions confirms interstory drift reductions of up to 68% under FF events while maintaining stroke demands within the prescribed admissible limits under the most demanding NF pulses. The proposed framework provides a computationally efficient methodology for reliability-constrained optimization of nonlinear seismic absorbers while explicitly accounting for the fundamentally different roles of FF and NF ground motions in structural performance and device reliability.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      },
+      {
+        "id": "https://openalex.org/W7221608263",
+        "doi": "10.1016/j.engstruct.2026.123932",
+        "title": "Inerter-enhanced locally resonant metamaterial for seismic-induced vibration control",
+        "published": "2026-10-13",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.123932",
+        "authors": [
+          "Wen Zhou",
+          "Ruisheng Ma",
+          "Kaiming Bi",
+          "Thong M. Pham",
+          "Wensu Chen",
+          "Hong Shun Hao"
+        ],
+        "institutions": [
+          "Curtin University",
+          "State Key Laboratory of Building Safety and Built Environment",
+          "Hong Kong Polytechnic University",
+          "University of South Australia",
+          "Guangzhou University"
+        ],
+        "journal": "Engineering Structures",
+        "abstract": "Locally resonant metamaterials (LRMs) have attracted significant attention in recent years for seismic-induced vibration control due to their unique ability to generate frequency bandgaps that inhibit the propagation of elastic waves. However, achieving a bandgap in the low-frequency range remains a persistent challenge. Although the authors’ previous studies have shown that negative stiffness mechanisms can effectively lower bandgap frequencies, the practical application of static negative stiffness springs is often hindered by fabrication complexities and inherent system instability. This study investigates an Inerter-enhanced Locally Resonant Metamaterial (I-LRM) tailored to achieve stable, low-frequency vibration suppression. Unlike most previous approaches that primarily utilize the inertial amplification effect, the proposed I-LRM leverages the inerter’s frequency-dependent negative stiffness mechanism to ensure both high performance and structural stability. Analytical models for both infinite and finite structures are derived to characterize the dispersion relations and transmission spectra. A comprehensive energy flow analysis is conducted to demonstrate the energy distribution of a finite-cell system. Numerical investigations are then conducted to evaluate its dynamic performance. The results demonstrate that the I-LRM can effectively generate a low-frequency bandgap, although with a narrower bandwidth than the conventional LRM. Despite this trade-off, the proposed configuration significantly enhances engineering feasibility by avoiding the need for very low connecting stiffness and/or excessive additional mass, providing a physically realizable approach for low-frequency vibration control.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      },
+      {
+        "id": "https://openalex.org/W7221622041",
+        "doi": "10.1016/j.engstruct.2026.123938",
+        "title": "Seismic behavior of CFRP-steel hybrid prestressing prefabricated bridge piers with thermoplastic GFRP bar reinforced concrete segments",
+        "published": "2026-10-13",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.123938",
+        "authors": [
+          "Xiaogang Liu",
+          "Haoze Li",
+          "Guangpeng Xiao",
+          "Hao Wang"
+        ],
+        "institutions": [
+          "University of Science and Technology Beijing"
+        ],
+        "journal": "Engineering Structures",
+        "abstract": "This paper aims to investigate the effects of a hybrid prestressing system composed of CFRP bars and steel bars on the seismic resilience of a prefabricated bridge pier with GFRP-reinforced concrete segments in detail. Combining the experimental results, a series of parametric numerical analyses was conducted to further investigate the effects of various factors on the hysteresis behavior of prefabricated segmental piers. The analysis results indicated that 1) for the prestressing steel bars, the increasing reinforcement ratio had a more significant influence on enhancing the stiffness and ultimate bearing capacities of piers compared to the increase of prestressing degree; 2) for the prestressing CFRP bars, the increasing reinforcement ratio and prestressing degree were positive for enhancing the stiffness and ultimate bearing capacities of piers, but a critical value for the prestressing degree should be set to avoid the sudden failure of piers in a strong earthquake due to the fracture of CFRP bars; 3) the limited total axial compression ratio (less than 0.3) and the higher-grade concrete were beneficial to ensure the seismic resistance of novel segmental piers; 4) the application of bonded prestressing steel bars could significantly affect the reloading and unloading curves' stiffness, increasing the energy dissipation capacity but reducing the self-centering capacity of piers. Furthermore, the four force stages of prefabricated segmental piers under horizontal force on the pier top were analyzed based on the above results, and the bearing capacity and rotational angle calculation formulas of the bottom segment at different stages were established, respectively. Thereby, a design method of piers considering the seismic requirements was proposed.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      }
+    ],
+    "Ultrasonics": [
+      {
+        "id": "https://openalex.org/W7221663099",
+        "doi": "10.1016/j.ultras.2026.108335",
+        "title": "Design of a novel PZT-ceramic-based piezocomposite for broadband array ultrasonic transducer with enhanced electromechanical coupling",
+        "published": "2026-10-13",
+        "url": "https://doi.org/10.1016/j.ultras.2026.108335",
+        "authors": [
+          "Jinpeng Ma",
+          "Linjing Liu",
+          "Yuan Sun",
+          "Yulin Yang",
+          "Xudong Qi",
+          "Bin Yang",
+          "Rui Zhang"
+        ],
+        "institutions": [
+          "Harbin Institute of Technology",
+          "Harbin Normal University"
+        ],
+        "journal": "Ultrasonics",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7221603073",
+        "doi": "10.1016/j.ultras.2026.108330",
+        "title": "Entropy weighted TOPSIS optimized interferometric synthetic aperture focusing technique (InSAFT) for laser-ultrasonic defect imaging",
+        "published": "2026-10-01",
+        "url": "https://doi.org/10.1016/j.ultras.2026.108330",
+        "authors": [
+          "Kai-Ning Ying",
+          "Chenyin Ni",
+          "Lu-Nan Dai",
+          "Er-Jun Kan",
+          "Zhong-Hua Shen"
+        ],
+        "institutions": [
+          "Nanjing University of Science and Technology"
+        ],
+        "journal": "Ultrasonics",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7221728705",
+        "doi": "10.1016/j.ultras.2026.108334",
+        "title": "Investigation of the microstructure and mechanical resistance of Ti2AlN/TC4 composites prepared by ultrasonic vibration-assisted laser powder directed energy deposition (LP-DED)",
+        "published": "2026-10-01",
+        "url": "https://doi.org/10.1016/j.ultras.2026.108334",
+        "authors": [
+          "Bingya Li",
+          "Ping Zou",
+          "Anqi Wang",
+          "Kornel F. Ehmann",
+          "Yaotian Cheng"
+        ],
+        "institutions": [
+          "Northeastern University",
+          "Northwestern University"
+        ],
+        "journal": "Ultrasonics",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      }
+    ],
+    "Tunnelling and Underground Space Technology": [
+      {
+        "id": "https://openalex.org/W7221801955",
+        "doi": "10.1016/j.tust.2026.108215",
+        "title": "Governance transitions in underground infrastructure: Coordinating resilience enhancement of ageing metro systems",
+        "published": "2026-10-14",
+        "url": "https://doi.org/10.1016/j.tust.2026.108215",
+        "authors": [
+          "Bin-Lin Gan",
+          "Dong-Mei Zhang",
+          "Qiao-Jun Guo",
+          "Bin Ye",
+          "Stergios-Aristoteles Mitoulis"
+        ],
+        "institutions": [],
+        "journal": "Tunnelling and Underground Space Technology",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7221833311",
+        "doi": "10.1016/j.tust.2026.108224",
+        "title": "Failure mechanism and stability control of roadways in weakly cemented soft rock strata supported by a closed structure consisting of mesh-reinforced shotcrete and inverted arch",
+        "published": "2026-10-14",
+        "url": "https://doi.org/10.1016/j.tust.2026.108224",
+        "authors": [
+          "Jiuqun Zou",
+          "Chaojiang Yan",
+          "Heng Wang",
+          "Jianyong Pang",
+          "Ding Liu"
+        ],
+        "institutions": [
+          "Anhui University of Science and Technology",
+          "China University of Mining and Technology",
+          "Huainan Mining Industry Group (China)"
+        ],
+        "journal": "Tunnelling and Underground Space Technology",
+        "abstract": "Weakly cemented soft rock (WCSR) in western China is characterized by strong water sensitivity and pronounced creep behavior, which can result in severe large deformation and floor heave in roadways. Conventional open bolt–mesh–shotcrete support is unable to provide coordinated load bearing around the entire roadway section. Therefore, a closed full section composite support system comprising mesh–reinforced shotcrete and inverted arch is proposed. Laboratory tests showed that the WCSR experienced nearly complete disintegration after 120 min of water immersion, and accelerated creep failure occurred when the applied stress reached 80 − 90 % of its peak strength. The Nishihara model was fitted to describe the creep behavior, while an exponential cohesion degradation damage model was established to characterize strength degradation associated with plastic strain. Non-uniform stress similarity model tests identified a critical stress threshold corresponding to 78 % of the rock uniaxial compressive strength. Beyond this threshold, the magnitude order of lining bearing pressure changes drastically, indicating a transition in the full-section load-transfer mechanism. The arch springings constituted the main stress-concentration zones. The inverted arch transformed part of the floor bending stress into axial compression and effectively suppressed floor heave; its peak bending moment was only 40.4 % of that at the arch springings. Numerical simulations based on the cohesion-degradation model reproduced the asymmetric cracking and failure characteristics observed in the model tests, supporting the feasibility of the model under the investigated conditions. Field monitoring indicated that roadway deformation stabilized after 56 days, and the monitored deformation was 73.8 % lower than that observed under the conventional support scheme. These results clarify the failure evolution and load-transfer transition of WCSR roadways and reveal the synergistic control mechanism of the closed inverted arch support system, providing a theoretical basis and practical guidance for supporting analogous soft rock roadways.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      },
+      {
+        "id": "https://openalex.org/W7221605187",
+        "doi": "10.1016/j.tust.2026.108220",
+        "title": "A coupled DDA-MPM method for the collapse-water inrush chain disaster modeling in underwater tunnels",
+        "published": "2026-10-13",
+        "url": "https://doi.org/10.1016/j.tust.2026.108220",
+        "authors": [
+          "Hongyun Fan",
+          "Liping Li",
+          "Liu H",
+          "Xin Gao"
+        ],
+        "institutions": [
+          "Nanyang Technological University",
+          "Shandong University"
+        ],
+        "journal": "Tunnelling and Underground Space Technology",
+        "abstract": "Tunnels constructed beneath reservoirs face a high risk of water inrush and surrounding rock collapse during construction. Clarifying the disaster mechanism is crucial for safe tunnel construction. However, traditional single numerical methods often struggle to accurately simulate the complex fluid-rock interaction processes involved in such disasters, and the simulation results fail to provide effective guidance. This paper develops a fluid–structure interaction numerical method based on the coupling of the discontinuous deformation analysis (DDA) and the material point method (MPM) to systematically investigate the chain mechanism of surrounding rock collapse and water inrush disasters in underwater tunnels. Firstly, an MPM for simulating weakly compressible Newtonian fluids was established, and the contact forces between the fluid and blocks were calculated using the penalty spring method to achieve bidirectional coupling between DDA and MPM. Subsequently, the coupled method was systematically validated through typical tests such as block collapse, dam break, and wave generation. The proposed DDA-MPM method captures not only block motion and fluid evolution but also their mutual interactions, achieving a level of accuracy that single numerical methods cannot reach. Finally, taking the water inrush accident in the Shijingshan Tunnel as the engineering background, the coupled method was applied to analyze the tunnel construction-induced surrounding rock collapse and water inrush. This revealed the spatiotemporal evolution mechanisms of rock mass instability and collapse, the formation of water inrush channels, and the migration of water within the tunnel network. The research indicates that tunnel excavation unloading leads to the overall instability and collapse of the rock mass in the weathered zone, forming a connecting channel between the reservoir and the tunnel, which subsequently triggers water inrush and its diffusion to adjacent tunnels. This study confirms that the proposed method effectively simulates fluid–structure interaction disaster problems, thereby laying a theoretical groundwork for the early detection, prevention, and control of analogous engineering disasters.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      },
+      {
+        "id": "https://openalex.org/W7221638922",
+        "doi": "10.1016/j.tust.2026.108221",
+        "title": "Signal decomposition enhanced multi-step prediction model of tunnel boring machine based on attention mechanism",
+        "published": "2026-10-13",
+        "url": "https://doi.org/10.1016/j.tust.2026.108221",
+        "authors": [
+          "Yongxin Wu",
+          "Teng Zhang",
+          "Houle Zhang"
+        ],
+        "institutions": [
+          "Hohai University"
+        ],
+        "journal": "Tunnelling and Underground Space Technology",
+        "abstract": "To improve short-horizon prediction of critical tunnel boring machine operational parameters, this study develops DRFormer, a multi-step forecasting framework that integrates target-dependent signal decomposition with a hybrid deep-learning architecture. The raw multivariate time-series signals are decomposed into multi-scale components to separate high-frequency fluctuations from low-frequency trends, thereby improving feature representation and reducing the influence of measurement noise and nonstationarity. Following decomposition, a one-dimensional residual network extracts local continuity and multi-scale short-range features, while temporal pattern attention adaptively emphasizes informative periodic, trend-related, and transient patterns. A ProbSparse self-attention encoder–decoder subsequently captures longer-range temporal dependencies with fewer redundant attention operations. In addition, an importance-guided variable selection strategy identifies target-relevant auxiliary parameters from the training data to represent cross-parameter coupling and strengthen model robustness. Evaluations using real-world shield-tunneling data demonstrate that DRFormer provides accurate and stable multi-step forecasts for five key operational parameters, with mean absolute percentage errors generally below 2% and coefficients of determination consistently above 0.99. Comparative and ablation analyses show that the proposed modules make complementary contributions and that DRFormer achieves broad improvements over established forecasting approaches in prediction accuracy, stability, and interpretability. These results highlight its potential for intelligent control, operational optimization, and proactive decision-making in shield tunneling engineering.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7221662776",
+        "doi": "10.1016/j.tust.2026.108235",
+        "title": "A collaborative multi-agent architecture with physics-consistency validation for robust microseismic signal classification",
+        "published": "2026-10-13",
+        "url": "https://doi.org/10.1016/j.tust.2026.108235",
+        "authors": [
+          "Peilin Zhu",
+          "Feng Dai",
+          "Yi Liu",
+          "Mingdong Wei",
+          "Zelin Yan"
+        ],
+        "institutions": [
+          "Sichuan University",
+          "State Key Laboratory of Hydraulics and Mountain River Engineering"
+        ],
+        "journal": "Tunnelling and Underground Space Technology",
+        "abstract": "Reliable classification of microseismic (MS) records is essential for geohazard early warning in deep underground construction. Corrupted or missing local observations can distort shared multi-sensor representations, and waveform similarity alone is often insufficient to separate engineering disturbances from MS events. This study proposes Physics-Informed Multi-Agent Reinforcement Learning (PI-MARL), a sensor-bound framework for classifying MS events, blasting signals, and interference signals. Each sensor channel is processed by an independent agent comprising a lightweight multi-scale 1D-CNN and a dueling deep Q-network. Agents exchange latent representations through hierarchical spatio-temporal attention organized by front and back sensor groups. A separate physics-consistency module validates preliminary MS proposals using inter-group arrival-time and characteristic-band spectral conditions when both groups yield valid observations; in single-group operation, only the spectral condition is applied. Inter-group energy distribution serves solely as supplementary propagation evidence and does not by itself determine acceptance. Training combines the task reward with a fixed penalty for physics-violating proposals and attention-weighted credit assignment. Over ten runs on a held-out test subset from an active deep-tunnel project, PI-MARL attained a mean (± standard deviation) macro F1-score of 97.48 ± 0.29%, macro recall of 97.23 ± 0.38%, and false alarm rate (FAR) of 0.81 ± 0.28%. FAR increased to 10.0% in the lowest evaluated signal-to-noise ratio interval, [10, 15) dB. With four of the eight sensors unavailable, FAR was approximately 2.5% when failures were randomly distributed and both groups retained valid observations, and 6.8% under complete front-group failure, where the framework ran in single-group mode. Relative to the evaluated baselines, degradation was more gradual as noise and sensor loss increased, indicating that the coordinated architecture remains effective under the engineering conditions examined here.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      },
+      {
+        "id": "https://openalex.org/W7221703638",
+        "doi": "10.1016/j.tust.2026.108229",
+        "title": "Field-validated wireless vertical graphene sensors for autonomous crack and leakage monitoring in metro tunnels",
+        "published": "2026-10-13",
+        "url": "https://doi.org/10.1016/j.tust.2026.108229",
+        "authors": [
+          "Shu Yuan",
+          "Chengyu Hong"
+        ],
+        "institutions": [
+          "UNSW Sydney",
+          "Shenzhen University"
+        ],
+        "journal": "Tunnelling and Underground Space Technology",
+        "abstract": "Simultaneous and autonomous monitoring of crack evolution and water leakage in operational tunnels remains challenging, particularly under non-intrusive installation constraints. This study presents a physics-guided vertical graphene (VG) sensing framework for the continuous and quantitative monitoring of both deterioration processes. A VG strain sensor was developed and characterised using a physically interpretable three-stage resistance–strain constitutive model governed by microcrack evolution within an island–bridge conductive network. The same VG-based transduction principle was extended to leakage monitoring through the incorporation of a superabsorbent polymer (SAP) layer, which converts water ingress into deformation-induced resistance changes. Laboratory tests demonstrated stable sensing responses under monotonic, cyclic, and sustained loading conditions, with bounded hysteresis and limited baseline drift. The sensing components were integrated with a low-power Sub-GHz wireless platform for continuous, cable-free data acquisition in confined tunnel environments. A three-month field deployment in an operational metro tunnel demonstrated the field applicability of the framework by capturing quasi-static crack evolution, including an opening of approximately 0.53 mm, and quantifying low-rate leakage at approximately 1 mL/day. By converting resistance measurements into physically interpretable engineering quantities, including crack-opening displacement and leakage volume, the proposed framework provides continuous condition information for quantitative tunnel assessment and may support future condition-informed maintenance planning. These results demonstrate the feasibility of non-intrusive wireless VG sensing for operational tunnel monitoring, although longer-term, multi-site validation is required to assess durability and broader applicability.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7221705633",
+        "doi": "10.1016/j.tust.2026.108236",
+        "title": "Mechanical response of transition segments during the docking construction of the shield tunnel: A case study of Jiangyin-Jingjiang Yangtze River Tunnel",
+        "published": "2026-10-13",
+        "url": "https://doi.org/10.1016/j.tust.2026.108236",
+        "authors": [
+          "Lei Yu",
+          "Yi-Sheng Wang",
+          "Zhen‐Dong Cui",
+          "Zhanhu Yao"
+        ],
+        "institutions": [
+          "China University of Mining and Technology",
+          "Shanghai Tunnel Engineering (China)",
+          "CCCC Highway Consultants (China)"
+        ],
+        "journal": "Tunnelling and Underground Space Technology",
+        "abstract": "This paper presents a case study of the mechanical response of the transition segments during the docking construction of the Jiangyin-Jingjiang Yangtze River Tunnel in China. The construction method of docking in the highly permeable sand layer was adopted, which is the first case in the world. During the docking construction, complex loading conditions such as grouting, freezing, filling, dismantling, and pouring can easily lead to significant deformation of the segments in the transition section. However, the mechanical response of the transition segments during the docking construction is still unclear. In this paper, field tests and numerical simulations were utilized to examine the evolution and distribution of convergence deformation during the docking construction of the Jiangyin-Jingjiang Yangtze River Tunnel, and to investigate the mechanical responses of transition segments and reinforced steel plates in this process. The results showed that the circumferential and longitudinal stress fluctuations of the segments near the butt docking section were large during the docking construction, while those of the segments far from the butt docking section were small. The relative displacement trends of the vault of each segment along the tunnel axis were consistent, with values ranging from 8.3 mm to 13.0 mm, indicating overall stability of the tunnel. A good agreement was achieved between the numerical simulation results and the field test data, which demonstrates that the numerical model can effectively reproduce the mechanical responses during the docking construction of the Jiangyin-Jingjiang Yangtze River Tunnel. The horizontal convergence deformation of the segments was significantly greater than the vertical convergence deformation, with the former being 2.5–5.0 times greater than the latter. The convergence deformation of the segments before reinforcement was 1.5–2.0 times greater than that after reinforcement, with a maximum reduction of 40.5 % in single-point deformation. The maximum principal tensile stress of the reinforced segment decreased by approximately 63.4 %, and the reinforced steel plate effectively mobilized its tensile capacity within the disturbed core region. This case study can serve as a practical reference for similar tunnel construction projects.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      },
+      {
+        "id": "https://openalex.org/W7221712648",
+        "doi": "10.1016/j.tust.2026.108231",
+        "title": "Calculation and control of axis deviation for active articulated shield by considering shield-strata interaction",
+        "published": "2026-10-13",
+        "url": "https://doi.org/10.1016/j.tust.2026.108231",
+        "authors": [
+          "Lifu Xie",
+          "GUAN Zhenchang",
+          "Shihan Xu",
+          "Luyao REN",
+          "Qi Feng",
+          "Fengjin Chen"
+        ],
+        "institutions": [
+          "Fuzhou University",
+          "Xiamen Institute of Building Research Group",
+          "Education Department of Fujian Province"
+        ],
+        "journal": "Tunnelling and Underground Space Technology",
+        "abstract": "How to accurately reveal attitude variation patterns and thereby achieve efficient control has always been a research focus in both academia and industry. The active articulation effect cannot be accurately characterized in existing mechanics-based studies, and relevant deviation calculation and control methods require further improvement. Therefore, a shield-strata interaction model considering active articulation is proposed and solved using a time- or mileage-incremental process. A theoretical calculation method for axis deviation is then developed via spatial coordinate transformation, and a basic deviation control strategy is further established by designing the optimal correction curve and determining the resultant moment of propulsion forces at each control mileage. The proposed model and methods are validated through a case study in the BinZhong interval of Fuzhou Binhai Express. The effects of active articulation and strata conditions on shield head falling, shield-shell earth pressure, and the actual correction trajectory are carefully discussed, and corresponding deviation control strategies for different strata are established. Some conclusions can be drawn as follows: Attitude angles and axis deviations can be accurately determined by the proposed interaction model and incremental process, and the effect of active articulation is particularly important. Increasing the active articulation angle can effectively alleviate shield head falling. The articulation angle is approximately linear with shield-strata interaction when subgrade coefficients are less than 5 MPa/m, which gradually becomes nonlinear as subgrade coefficients increase. In composite strata, the displacement increment induced by attitude adjustment may cause the actual correction trajectory to deviate from the optimal curve. Increasing the articulation angle can mitigate this deviation, and it is more obvious under larger positive deflections. The collaborative control method by active articulation and resultant moment of propulsion forces can satisfy the optimal correction curve while reducing the resultant moment of propulsion forces, thus achieving efficient control for composite strata. This research can provide mechanical insights into the prediction and timely control of axis deviation during shield tunneling, and lay a foundation for subsequent physics-data-driven modeling.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      }
+    ],
+    "Rock Mechanics and Rock Engineering": [
+      {
+        "id": "https://openalex.org/W7221753187",
+        "doi": "10.1007/s00603-026-05836-x",
+        "title": "Physics-Constrained Transfer Learning Uncovers Mineralogical Controls on Shale Caprock Integrity During CO2 Storage",
+        "published": "2026-10-14",
+        "url": "https://doi.org/10.1007/s00603-026-05836-x",
+        "authors": [
+          "Xiaolong Peng",
+          "Chen Zhuoheng",
+          "Fanhua Zeng",
+          "Wanju Yuan",
+          "Hyojong Lee",
+          "Chunqing Jiang"
+        ],
+        "institutions": [],
+        "journal": "Rock Mechanics and Rock Engineering",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Machine Learning"
+      },
+      {
+        "id": "https://openalex.org/W7221828347",
+        "doi": "10.1007/s00603-026-06023-8",
+        "title": "A Geological-Entropy-Based Method to Describe the Percolation Disorder of Two-Phase Flow Through Rough Fractures",
+        "published": "2026-10-14",
+        "url": "https://doi.org/10.1007/s00603-026-06023-8",
+        "authors": [
+          "Xin Zhi Zhou",
+          "Jianlong Sheng",
+          "Zuyang Ye",
+          "Zonghuan Peng",
+          "Qiyun Wang",
+          "Hongyi Yan",
+          "Zhaoxia Hu",
+          "Chonghong He"
+        ],
+        "institutions": [
+          "Hunan Institute of Technology",
+          "Wuhan University of Science and Technology",
+          "Hengyang Normal University",
+          "Hengyang Academy of Agricultural Sciences",
+          "University of South China"
+        ],
+        "journal": "Rock Mechanics and Rock Engineering",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7221590168",
+        "doi": "10.1007/s00603-026-06051-4",
+        "title": "Macro–Mesoscopic Rate Effects and Constitutive Modeling of Rock Salt Under Fatigue–Creep Coupling for CAES",
+        "published": "2026-10-13",
+        "url": "https://doi.org/10.1007/s00603-026-06051-4",
+        "authors": [
+          "Mengxiang Wang",
+          "Jiangteng Li",
+          "Shanyong Wang",
+          "史战明",
+          "Hang Lin",
+          "Kaihui Li",
+          "Dongya Han"
+        ],
+        "institutions": [
+          "Central South University",
+          "University of Newcastle Australia",
+          "Guizhou University"
+        ],
+        "journal": "Rock Mechanics and Rock Engineering",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Numerical Simulation"
+      },
+      {
+        "id": "https://openalex.org/W7221619381",
+        "doi": "10.1007/s00603-026-06026-5",
+        "title": "Triaxial Testing to Determine the Shear Strength and the Shear and Normal Stiffness of Rock Joints",
+        "published": "2026-10-13",
+        "url": "https://doi.org/10.1007/s00603-026-06026-5",
+        "authors": [
+          "Charlie C. Li",
+          "Ping Zhang",
+          "Are Håvard Høien"
+        ],
+        "institutions": [
+          "Norwegian University of Science and Technology",
+          "Luleå University of Technology",
+          "Norwegian Public Roads Administration"
+        ],
+        "journal": "Rock Mechanics and Rock Engineering",
+        "abstract": "The mechanical properties of rock joints, including shear strength, shear stiffness, and normal stiffness, are usually determined through direct shear tests. Essentially, these properties can also be evaluated using triaxial tests performed on core specimens. One advantage of triaxial testing is that specimen deformations can be measured more readily and accurately, thereby simplifying the data acquisition process. In this study, a series of triaxial tests were performed on core rock specimens containing natural joints to evaluate the potential of triaxial testing as an alternative method for determining rock joint mechanical properties. The work included theoretical development for measuring normal and shear displacements, execution of triaxial tests, calculation of normal and shear stiffness, and analysis of the resulting data. Normal stiffness was obtained from hydrostatic triaxial tests, while the feasibility of estimating it from differential triaxial tests was also investigated. Shear stiffness and shear strength were determined from differential triaxial tests conducted under multiple confining stress levels. The results show that both normal and shear stiffness can be measured reliably using triaxial testing. The measured shear strengths align closely with Patton’s bilinear failure envelope. Furthermore, the rock joint friction criterion and Patton’s envelope were examined in light of the test results. These two criteria were united by deriving a relationship between the roughness angle in the friction criterion and the cohesion and residual friction angle in Patton’s bilinear failure envelope.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      },
+      {
+        "id": "https://openalex.org/W7221643438",
+        "doi": "10.1007/s00603-026-06049-y",
+        "title": "Concentration-Dependent Hydro-Salt–mechanical Deterioration Mechanism of Semi-cemented Conglomerate Under Cyclic Sulfate Crystallization",
+        "published": "2026-10-13",
+        "url": "https://doi.org/10.1007/s00603-026-06049-y",
+        "authors": [
+          "Huihui Zhang",
+          "Jiaming Li",
+          "Shoujun Huang",
+          "Bin Li",
+          "Yanwu Wang",
+          "Qinglin Guo",
+          "Shuguang Zhang"
+        ],
+        "institutions": [
+          "Palace Museum",
+          "Guilin University of Technology",
+          "Dunhuang Research Academy"
+        ],
+        "journal": "Rock Mechanics and Rock Engineering",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7221648276",
+        "doi": "10.1007/s00603-026-06038-1",
+        "title": "Joint Roughness-Prestress Coupling Controls Stress-Wave Transmission in a Blocky Rock Mass: One-Dimensional Impact Experiments",
+        "published": "2026-10-13",
+        "url": "https://doi.org/10.1007/s00603-026-06038-1",
+        "authors": [
+          "Jiaji Chen",
+          "Shuxin Deng",
+          "Yonglai Zheng",
+          "Jian Yang",
+          "Chao Wei",
+          "Xin Lan",
+          "Zhuorui Wu",
+          "Mingyang Wang"
+        ],
+        "institutions": [
+          "Tongji University",
+          "Nanjing University of Science and Technology",
+          "PLA Army Engineering University"
+        ],
+        "journal": "Rock Mechanics and Rock Engineering",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7221684203",
+        "doi": "10.1007/s00603-026-05981-3",
+        "title": "Fatigue Mechanisms of Porous Rocks Subjected to Cyclic Pore Pressures: Insights from Hydro-Mechanical Phase-Field Simulations",
+        "published": "2026-10-13",
+        "url": "https://doi.org/10.1007/s00603-026-05981-3",
+        "authors": [
+          "Sijia Liu",
+          "Yunteng Wang"
+        ],
+        "institutions": [
+          "BOKU University"
+        ],
+        "journal": "Rock Mechanics and Rock Engineering",
+        "abstract": "Abstract In this work, we formulate a hydro-mechanical phase-field model to investigate the fatigue failure behavior of porous rocks under cyclic pore-pressure loading. Our phase-field model integrates pore-pressure diffusion, fatigue-induced degradation of failure resistance, and breakage constitutive laws into a unified framework for capturing deformation, damage evolution, and failure progression in saturated porous rocks. The distinctive features of our model include (i) a hydro-mechanical coupling formulation that captures the interaction between fluid diffusion and solid deformation; (ii) a fatigue degradation mechanism that describes the progressive reduction of failure resistance under repeated pore-pressure disturbances; and (iii) a breakage constitutive relationship that allows the transition from diffuse compression-dominated damage to mixed-mode compression-shear strain localization. We first present several numerical benchmarks, including hydro-mechanical fracture, cyclic fatigue, and triaxial compression tests, for validation. Then, the underlying fatigue mechanisms of porous rocks are investigated through a series of numerical examples subjected to cyclic pore-pressure loading. This work not only helps improve our understanding of the fatigue mechanisms of porous rocks, but also provides a useful numerical tool for predicting hydraulic fatigue degradation in rock engineering.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      }
+    ]
+  }
+}
