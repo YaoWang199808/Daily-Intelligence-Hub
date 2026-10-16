@@ -1,0 +1,686 @@
+{
+  "date": "2026-10-16",
+  "journals": {
+    "Automation in Construction": [
+      {
+        "id": "https://openalex.org/W7221851784",
+        "doi": "10.1016/j.autcon.2026.107303",
+        "title": "Context-aware semantic normalization in heterogeneous BIM data",
+        "published": "2026-10-15",
+        "url": "https://doi.org/10.1016/j.autcon.2026.107303",
+        "authors": [
+          "Marlena Anna Cerny",
+          "Johannes Schneider"
+        ],
+        "institutions": [],
+        "journal": "Automation in Construction",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7221924191",
+        "doi": "10.1016/j.autcon.2026.107304",
+        "title": "Edge intelligence for automated off-grid structural triage in day-zero earthquake response",
+        "published": "2026-10-15",
+        "url": "https://doi.org/10.1016/j.autcon.2026.107304",
+        "authors": [
+          "Salih Çil",
+          "Abdullah Can Zülfikar"
+        ],
+        "institutions": [
+          "Gebze Technical University",
+          "Istanbul Technical University"
+        ],
+        "journal": "Automation in Construction",
+        "abstract": "Post-earthquake structural damage assessment traditionally relies on manual visual inspections, creating critical bottlenecks during disaster response. To automate this process, this paper introduces ChilloRa, an end-to-end edge-to-GIS framework for rapid Day-Zero structural triage. Unlike conventional data-logging sensors, ChilloRa implements a physics-informed Finite State Machine (FSM) directly at the edge, autonomously converting raw kinematic measurements into machine-driven structural damage states. To address communication bottlenecks, the framework integrates a burst-resilient dual-receiver LoRa gateway that mitigates collision-induced channel congestion. Under a simulated 2000-node network stress test scenario, the proposed cyber-physical architecture achieved a near-lossless 99.84% Packet Delivery Ratio while maintaining automated telemetry aggregation. The resulting decentralized data stream is automatically processed through a custom ArcGIS toolbox to generate prioritized building-level risk maps. By transforming manual scouting into a zero-touch, data-driven spatial intelligence pipeline, ChilloRa provides a scalable framework for post-earthquake infrastructure management and supports rapid Urban Search and Rescue (USAR) prioritization.",
+        "citation_count": 0,
+        "method": "Experimental"
+      }
+    ],
+    "Mechanical Systems and Signal Processing": [
+      {
+        "id": "https://openalex.org/W7221878148",
+        "doi": "10.1016/j.ymssp.2026.115086",
+        "title": "A fully-enclosed torsional galloping electromagnetic wind energy harvester",
+        "published": "2026-10-15",
+        "url": "https://doi.org/10.1016/j.ymssp.2026.115086",
+        "authors": [
+          "Zonghao Chen",
+          "Guanmin He",
+          "Shen Li",
+          "Zhonghao Tian",
+          "Yizhou Ye",
+          "Shu Wan",
+          "Xuefeng He"
+        ],
+        "institutions": [
+          "Chongqing University"
+        ],
+        "journal": "Mechanical Systems and Signal Processing",
+        "abstract": "Most galloping wind energy harvesters (WEHs) are based on transverse galloping, whereas very few utilize torsional galloping. Adopting a fully-enclosed structure to protect components vulnerable to harsh external environmental conditions can improve the stability and reliability of WEHs. The existing fully-enclosed WEHs need two spring-mass systems, and the frequency mismatch between them reduces the stability of electrical output. This paper proposes a fully-enclosed torsional galloping electromagnetic wind energy harvester (TGEWEH) with the torsion movement caused by the aerodynamic torque on bluff body. It only has one spring-mass system and does not involve frequency matching, thus potentially improving the stability. Based on the quasi-steady assumption, a mathematical model of TGEWEH is presented. Experiments show that sealing the bluff body shell’s opening with a flexible film has an acceptable impact on the cut-in wind speed and electrical outputs. The simulated voltages agree well with the experiments, indicating that the proposed model meets the requirement of TGEWEH design. The harvester with the bluff body side ratio of 1.5 achieves the maximum output power of 4.41 mW and power density of 36 μW/cm 3 at 15 m/s, which are higher than existing torsional galloping WEHs and semi- or fully-enclosed WEHs. It can stably drive a wireless sensor node in the wind speed range from 4.14 to 15 m/s. For the improved stability of fully-enclosed WEHs with one spring-mass system, and the high power density and wide wind speed range of torsional galloping WEHs, more relevant research is worth conducting in the future.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      },
+      {
+        "id": "https://openalex.org/W7222005447",
+        "doi": "10.1016/j.ymssp.2026.115077",
+        "title": "Gudermannian-based Active Impulsive Noise Control Algorithm: Design and performance analysis",
+        "published": "2026-10-15",
+        "url": "https://doi.org/10.1016/j.ymssp.2026.115077",
+        "authors": [
+          "Yongcong Yuan",
+          "Yi Yu",
+          "Hongsen He",
+          "Ke Li",
+          "Rodrigo C. de Lamare"
+        ],
+        "institutions": [
+          "Southwest University of Science and Technology"
+        ],
+        "journal": "Mechanical Systems and Signal Processing",
+        "abstract": "In active noise control (ANC) systems, the conventional filtered-x least mean square (FxLMS) algorithm suffers from performance degradation in impulsive-noise environments. To address this problem, a robust filtered-x least Gudermannian (FxLGD) algorithm is proposed by incorporating a Gudermannian-based nonlinear saturation transformation that compresses the residual noise into the FxLMS framework. Based on the Gaussian-mixture model to characterize the impulsive noise, we analyze the mean-square transient evolution of the FxLGD algorithm and obtain a closed-form to predict its steady-state behavior. To further improve performance in both convergence speed and residual error, a variable-parameter FxLGD algorithm is developed by taking advantage of the logarithmic mapping with respect to the residual error. Simulation results under various impulsive-noise scenarios have verified the proposed theoretical analysis as well as that the proposed algorithms achieve faster convergence, lower residual error, and better robustness than the compared algorithms. In addition, the experiment on a real single-channel pipeline ANC system further confirms their effectiveness.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      },
+      {
+        "id": "https://openalex.org/W7222027226",
+        "doi": "10.1016/j.ymssp.2026.115063",
+        "title": "Physics-informed identification of dynamic propeller excitations via EM-based Kalman filtering",
+        "published": "2026-10-15",
+        "url": "https://doi.org/10.1016/j.ymssp.2026.115063",
+        "authors": [
+          "Ye Wei",
+          "Yuyang Jiang",
+          "Weicai Peng",
+          "Xinxing Ma",
+          "Zhenguo Zhang"
+        ],
+        "institutions": [
+          "Shanghai Jiao Tong University",
+          "State Key Laboratory of Mechanical System and Vibration",
+          "Wuhan Ship Development & Design Institute"
+        ],
+        "journal": "Mechanical Systems and Signal Processing",
+        "abstract": "Accurate identification of propeller-induced hydrodynamic loads is crucial for vibration control and structural reliability in propeller propulsion systems. However, direct measurement of propeller excitation is infeasible due to the harsh operating environment and inherent structural constraints, which necessitates indirect identification approaches such as Kalman filtering. While these methods enable online estimation external inputs, the conventional random-walk assumption fails to represent the colored nature of hydrodynamic excitations, leading to spectrum mismatch and potential instability. To address this limitation, this study proposes an adaptive identification framework that integrates a scaled spherical simplex filter (S3F) with a physics-informed latent force model. The latent model combines an Ornstein–Uhlenbeck (OU) process with a single-degree-of-freedom (SDOF) system to simultaneously capture the broadband attenuation and hump-resonance features of propeller loads. Furthermore, to mitigate the difficulty of filter parameter tuning, an adaptive expectation–maximization (EM) strategy is incorporated to update noise covariances directly from structural response measurements, thereby enhancing robustness against uncertain prior settings. Numerical simulations and experimental validations confirm that, compared with the random-walk assumption, the proposed method significantly suppresses low-frequency drift, improves estimation accuracy, and maintains stability under varying noise conditions. These results highlight the method’s potential as a reliable strategy for indirect hydrodynamic load identification in propeller propulsion systems.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      },
+      {
+        "id": "https://openalex.org/W7222233070",
+        "doi": "10.1016/j.ymssp.2026.115085",
+        "title": "A multiband magnetic quasi-zero-stiffness vibration isolator-energy harvester",
+        "published": "2026-10-15",
+        "url": "https://doi.org/10.1016/j.ymssp.2026.115085",
+        "authors": [
+          "Wenqiang Zhang",
+          "Moyue Cong",
+          "Wei Dong",
+          "Jianfeng Li"
+        ],
+        "institutions": [
+          "Beijing University of Technology",
+          "Harbin Institute of Technology",
+          "State Key Laboratory of Robotics and Systems"
+        ],
+        "journal": "Mechanical Systems and Signal Processing",
+        "abstract": "Most reported vibration-isolation energy-harvesting devices remain constrained by narrow harvesting bandwidths and poor alignment between the energy-harvesting and vibration-isolation regions. To address this issue, this paper proposes a multiband magnetic quasi-zero-stiffness vibration isolator-energy harvester (MB-MQZSI-EH), which enables multiband energy harvesting and dual-functional performance in the middle-frequency band. Quasi-zero stiffness is realized through repulsive magnetic interaction, while multiband harvesting is achieved through the coordinated responses of isolation and absorber PZT cantilevers. An electromechanically coupled model is established using Lagrange’s method and solved by the harmonic balance method. The influences of structural, damping, and electrical parameters are analyzed, and a prototype is fabricated for experimental validation. The results show that the MB-MQZSI-EH achieved three distinct energy-harvesting bands while maintaining effective vibration isolation in the middle-frequency band. The maximum output power reached 1.12 mW, and the low-frequency output power was improved by 26.7% compared with the MQZSI-EH. The isolation onset frequency was reduced to 7.27 Hz, which was 48.2% lower than that of the linear isolator. The harvested energy was also sufficient to power a low-power temperature-humidity sensor. The proposed design offers a compact route for integrating low-frequency vibration suppression with multiband energy conversion.",
+        "citation_count": 0,
+        "method": "Experimental"
+      }
+    ],
+    "Measurement": [
+      {
+        "id": "https://openalex.org/W7221774346",
+        "doi": "10.1016/j.measurement.2026.123336",
+        "title": "Protocol-aware active ultrasonic pulse-echo measurement of fragmentation in model kidney stones: A paired-baseline framework with cross-cohort reproducibility",
+        "published": "2026-10-14",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123336",
+        "authors": [
+          "Kai Liu",
+          "Yucheng Zhou",
+          "Yuebing Wang",
+          "Peng Zhao",
+          "Jiacun Shao",
+          "Shihao Wen"
+        ],
+        "institutions": [
+          "China Jiliang University"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7221596464",
+        "doi": "10.1016/j.measurement.2026.123464",
+        "title": "STQ-LSTM: Quality assessment for heart rate measured in practical driving via near-infrared imaging",
+        "published": "2026-10-13",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123464",
+        "authors": [
+          "Yan Wen",
+          "Xuenan Liu",
+          "Xuezhi Yang",
+          "Zhanfeng Zhou",
+          "Kunwu Ma"
+        ],
+        "institutions": [
+          "Hefei University of Technology"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7221648585",
+        "doi": "10.1016/j.measurement.2026.123565",
+        "title": "Research on broken wire localization in PCCP using piezoelectric ultrasonic wave method",
+        "published": "2026-10-13",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123565",
+        "authors": [
+          "Lianpeng Shi",
+          "Jun Lu",
+          "Ji Lin"
+        ],
+        "institutions": [
+          "Hohai University",
+          "Nanjing Hydraulic Research Institute"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7221722622",
+        "doi": "10.1016/j.measurement.2026.123560",
+        "title": "Scalable interferometric displacement sensing based on external-cavity-laser-mediated phase transduction",
+        "published": "2026-10-13",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123560",
+        "authors": [
+          "Wontae Choe",
+          "Sang Min Park",
+          "Hansol Jang",
+          "Soon‐Woo Cho",
+          "Mooseok Jang",
+          "Chang‐Seok Kim",
+          "Jeesu Kim",
+          "Hwidon Lee"
+        ],
+        "institutions": [
+          "Pusan National University",
+          "Agency for Defense Development",
+          "Korea Advanced Institute of Science and Technology",
+          "Duke University"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7221567589",
+        "doi": "10.1016/j.measurement.2026.123467",
+        "title": "Physics-encoded solver for joint identification of cable tension and bending stiffness under thermal effects",
+        "published": "2026-10-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123467",
+        "authors": [
+          "Yaobing Zhao",
+          "Yaping Liu",
+          "Yongling Chen",
+          "Lincong Chen"
+        ],
+        "institutions": [
+          "Huaqiao University",
+          "Jimei University"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7221604573",
+        "doi": "10.1016/j.measurement.2026.123559",
+        "title": "A displacement-based method for measuring acoustic radiation force exerted by 100-MHz ultrasound on Mie-regime objects",
+        "published": "2026-10-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123559",
+        "authors": [
+          "Jinzhe Wu",
+          "Yixiao Xia",
+          "Peng Yu",
+          "Xin Wang",
+          "Huiyao Shi",
+          "Chanmin Su",
+          "Chunlong Fei",
+          "Lianqing Liu"
+        ],
+        "institutions": [
+          "Shenyang Institute of Automation",
+          "Chinese Academy of Sciences",
+          "University of Chinese Academy of Sciences",
+          "Xidian University"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7221613271",
+        "doi": "10.1016/j.measurement.2026.123342",
+        "title": "An output-side adaptive phase-lead compensation scheme for tracking differentiators",
+        "published": "2026-10-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123342",
+        "authors": [
+          "Chuanjian Li",
+          "Hehong Zhang",
+          "Shanshan Wu",
+          "Chunyang Zhang"
+        ],
+        "institutions": [
+          "Fuzhou University"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7221617818",
+        "doi": "10.1016/j.measurement.2026.123564",
+        "title": "Physics-informed disentangled network for unknown fault detection of industrial equipment under variable operating conditions",
+        "published": "2026-10-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123564",
+        "authors": [
+          "Xiaoxuan Fan",
+          "Lixiang Duan",
+          "Na ZHANG",
+          "Mingyu Shen"
+        ],
+        "institutions": [
+          "China University of Petroleum, Beijing",
+          "Ministry of Emergency Management of the People's Republic of China",
+          "General Administration of Quality Supervision, Inspection and Quarantine",
+          "Ningbo Product Quality Supervision and Inspection Institute"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7221631795",
+        "doi": "10.1016/j.measurement.2026.123572",
+        "title": "Mode-interference composite fiber sensor with high-sensitivity temperature compensation for extreme high-temperature strain monitoring up to 1000 °C",
+        "published": "2026-10-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123572",
+        "authors": [
+          "Caixia Yang",
+          "Yi Liu",
+          "Shengjun Wen",
+          "Jun Yu",
+          "QiaoLi Zhao"
+        ],
+        "institutions": [
+          "Zhongyuan University of Technology",
+          "Wuhan University of Technology"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7221648208",
+        "doi": "10.1016/j.measurement.2026.123397",
+        "title": "A novel method for systematic error reduction in phase measurement systems based on timer modules",
+        "published": "2026-10-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123397",
+        "authors": [
+          "Sanja Mandić",
+          "Đorđe Novaković",
+          "Dragan Pejić",
+          "Marjan Urekar",
+          "Platon Sovilj",
+          "Tatjana Grbić"
+        ],
+        "institutions": [
+          "University of Novi Sad"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      }
+    ],
+    "Engineering Structures": [
+      {
+        "id": "https://openalex.org/W7221982889",
+        "doi": "10.1016/j.engstruct.2026.123963",
+        "title": "Interlocking modular assembly for scalable composite metamaterials with intrinsic self-sensing capability",
+        "published": "2026-10-15",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.123963",
+        "authors": [
+          "Lianchao Guo",
+          "Xiang Xu",
+          "Jiale Chen",
+          "Xin Wang",
+          "Guangding Wang",
+          "Qiansheng Tang",
+          "Zhe Liu",
+          "Yong Zhang",
+          "Zhen Li",
+          "Pengfei Wang"
+        ],
+        "institutions": [
+          "Anhui Agricultural University",
+          "University of Shanghai for Science and Technology",
+          "Huaqiao University"
+        ],
+        "journal": "Engineering Structures",
+        "abstract": "Integrating load-bearing capacity, energy absorption, and real-time damage monitoring into a single composite system remains difficult. Embedded sensors can compromise mechanical integrity, complicate manufacturing, and limit the scale of high-performance composite structures. Here, we present an interlocking modular composite termed the assemblable modular mechanical metamaterial (AMMM). The design requires no external sensors and can be assembled beyond the build-volume limits of monolithic additive manufacturing. The AMMM was fabricated from graphene-nanoplatelet-reinforced polylactic acid by fused deposition modeling. Identical cells were joined without adhesives to form planar arrays larger than the printer build volume. Under quasi-static in-plane compression, the specimens underwent progressive layer-by-layer plastic collapse. The tested 1 × 1–4 × 4 arrays had plateau stresses of approximately 0.57–1.04 MPa. An energy-balance model based on the plastic-hinge rotation predicted the plateau stresses of the tested configurations with relative errors of approximately 10% or less. Deformation of the interlocking cells caused measurable resistance changes in the graphene-reinforced composite. The resistance response followed the main deformation and damage stages, with gauge factors of 15.6–25.4. Combining modular assembly with intrinsic piezoresistivity provides a route to smart protective composites for aerospace, automotive, and civil engineering applications.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      },
+      {
+        "id": "https://openalex.org/W7222039787",
+        "doi": "10.1016/j.engstruct.2026.123902",
+        "title": "Performance-based assessment of envelope and structural systems of high-rise buildings subjected to collapse-level extreme winds",
+        "published": "2026-10-15",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.123902",
+        "authors": [
+          "jieling Jiang",
+          "Seymour M.J. Spence"
+        ],
+        "institutions": [
+          "University of Michigan"
+        ],
+        "journal": "Engineering Structures",
+        "abstract": "Performance-based wind engineering (PBWE) increasingly requires integrated assessment of building envelope damage and main wind force-resisting system (MWFRS) behavior under extreme winds. Prior envelope–structure PBWE studies have modeled progressive envelope damage driven by inter-story drift and net wind pressure, but have generally relied on linear elastic or simplified post-elastic structural models. As a result, the state of the envelope system as the MWFRS develops severe nonlinear damage and approaches collapse remains insufficiently understood. This paper extends prior envelope–structure PBWE work by coupling an existing progressive envelope damage model with a collapse-capable nonlinear modeling framework for the MWFRS. The resulting framework is applied to a 45-story reinforced concrete archetype building subjected to collapse-level wind events, with structural and load uncertainties propagated using generalized stratified sampling. The study examines how damage to the envelope system, specifically a glazed curtain wall system, evolves as the MWFRS degrades, how much of this system remains attached at or near collapse, and whether large envelope losses challenge the one-way coupling assumption commonly adopted in envelope–structure assessment. Results show that pressure-induced damage controls envelope reliability, while structural nonlinear response and drift-induced damage can accelerate pressure-induced blowout as collapse is approached. Extensive envelope loss is observed in collapse-level simulations, indicating that feedback from envelope damage to structural wind loading may become important near collapse. The results clarify the coupled evolution of envelope damage and MWFRS collapse while highlighting key modeling assumptions that govern envelope–structure PBWE assessment.",
+        "citation_count": 0,
+        "method": "Numerical Simulation"
+      },
+      {
+        "id": "https://openalex.org/W7222276448",
+        "doi": "10.1016/j.engstruct.2026.123971",
+        "title": "Influence of carrier pipe ovality and wall-thickness eccentricity on liner wrinkling in mechanically lined pipes under monotonic bending",
+        "published": "2026-10-15",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.123971",
+        "authors": [
+          "Jing Fang",
+          "Marcelo Caire",
+          "Murilo Augusto Vaz"
+        ],
+        "institutions": [],
+        "journal": "Engineering Structures",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7221622524",
+        "doi": "10.1016/j.engstruct.2026.123940",
+        "title": "Hysteretic energy-based seismic loss assessment for reinforced concrete buildings considering the impact of ground motion duration",
+        "published": "2026-10-13",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.123940",
+        "authors": [
+          "Zhou Zhou",
+          "Xiaohui Yu",
+          "Paolo Gardoni",
+          "Linlin Xie"
+        ],
+        "institutions": [
+          "Beijing University of Civil Engineering and Architecture",
+          "Guilin University of Technology",
+          "University of Illinois Urbana-Champaign",
+          "University of Illinois System"
+        ],
+        "journal": "Engineering Structures",
+        "abstract": "Ground motion duration significantly influences the cumulative seismic damage of reinforced concrete (RC) buildings, yet current design codes and assessment methodologies generally do not adequately account for this effect. This paper develops a hysteretic energy-based seismic loss assessment method within the Performance-Based Earthquake Engineering (PBEE) framework to incorporate the influence of ground motion duration. Hysteretic energy is employed as the engineering demand parameter (EDP) to quantify cumulative damage. A Bayesian probabilistic approach is used to develop capacity models that convert conventional deformation-based limit states into equivalent energy-based thresholds. The framework is applied to two representative RC frame buildings designed for different seismic design levels. A total of 140 pairs of spectrally equivalent short- and long-duration ground motions are selected as seismic input motions. Results show that long-duration ground motions substantially increase seismic demands and shift the dominant damage states from repairable conditions toward demolition or collapse. Compared with short-duration ground motions, long-duration ground motions increase seismic losses by 20%–36%, regardless of whether site-specific seismic hazards are considered. When site-specific seismic hazards are incorporated, the expected annual loss (EAL) exhibits more complex trends. Under identical seismic hazard conditions, higher seismic design levels reduce the EAL by 17%–30%. However, when each building is evaluated under its site-specific seismic hazard, a building designed to a higher seismic level but located in a high-hazard region may exhibit a greater EAL than a building designed to a lower seismic level but located in a low-hazard region. These findings highlight the importance of incorporating ground motion duration into seismic performance assessment and demonstrate that seismic hazard remains a dominant factor affecting annual loss estimation, with implications for risk-informed design, earthquake insurance, and regional seismic loss modeling.",
+        "citation_count": 0,
+        "method": "Numerical Simulation"
+      },
+      {
+        "id": "https://openalex.org/W7221629839",
+        "doi": "10.1016/j.engstruct.2026.123950",
+        "title": "CrossBlend physics-informed LSTM for nonlinear structural response prediction within a cyber-physical framework",
+        "published": "2026-10-13",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.123950",
+        "authors": [
+          "Baiping Dong",
+          "Ahsan Shahbaz",
+          "Peiyuan Yang",
+          "Theodoros L. Karavasilis"
+        ],
+        "institutions": [
+          "Tongji University",
+          "University of Patras"
+        ],
+        "journal": "Engineering Structures",
+        "abstract": "This study develops and evaluates physics-informed deep learning models for predicting nonlinear seismic structural responses within a cyber-physical framework. Four variants of Physics-Informed Long Short-Term Memory (PhyLSTM) models are proposed: baseline windowed and full-sequence PhyLSTM models and their CrossBlend counterparts. The CrossBlend mechanism implements a learnable dual-path displacement blending mechanism within the PhyLSTM framework, in which a sequence-level and floor-wise gating parameter adaptively combines direct displacement prediction with a velocity-integrated displacement pathway, while embedding dynamic equilibrium equation residuals as physics-based constraints to enhance long-sequence stability and mitigate cumulative displacement prediction drift. The models are trained and validated using finite element (FE) simulation data from three structural configurations with varying levels of nonlinearity, and evaluated against experimental datasets through two single-stage strategies, namely baseline cyber-domain training and weighted training, and three two-stage strategies, namely fine-tuning, partial-freeze tuning, and teacher-student training. The CrossBlend-PhyLSTM models outperform the baseline PhyLSTM models in displacement prediction accuracy, achieving mean correlation coefficients of 0.96–0.98 compared to 0.85–0.88 for the baseline models under the most nonlinear structural configuration. A controlled ablation analysis further confirms that the proposed CrossBlend models provides the strongest overall displacement prediction performance compared with the direct-only, integrated-only, and fixed-blending alternatives. Two-stage fine-tuning emerges as the most effective cross-domain adaptation approach, substantially improving prediction accuracy across all structural configurations compared with baseline cyber-domain training. These results establish the CrossBlend-PhyLSTM models as reliable structure-specific surrogate predictors for real-time structural response evaluation and digital twin applications.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      },
+      {
+        "id": "https://openalex.org/W7221639779",
+        "doi": "10.1016/j.engstruct.2026.123922",
+        "title": "Experimental study on the seismic behavior of T-shaped high-strength double skin composite wall with steel truss",
+        "published": "2026-10-13",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.123922",
+        "authors": [
+          "Xiaopeng Shi",
+          "Ying Qin",
+          "Tong Guo",
+          "Ganping Shu",
+          "Wang Zhang",
+          "熊清清"
+        ],
+        "institutions": [
+          "Ministry of Education",
+          "Shijiazhuang Tiedao University"
+        ],
+        "journal": "Engineering Structures",
+        "abstract": "In this paper, the seismic behavior of T-shaped high-strength double skin composite walls (DSCWs) with steel truss was investigated. Five T-shaped specimens fabricated with Q460 steel and C60 concrete were tested under combined axial and cyclic lateral loading, and the effects of the axial compression ratio and aspect ratio were taken as the main design parameters. The experimental results showed that all specimens exhibited a flexural failure, but with different failure mechanisms under positive and negative loading. The flange-free boundary component was identified as critical to the seismic response, because either crushing of the infill concrete or fracture of the steel in this region led to the loss of load-carrying capacity. A clear shear lag effect was also observed in the flange. The use of high-strength materials enabled the specimens to achieve high load-carrying capacity, stable strength and stiffness, and good energy dissipation capacity. Overall, increasing the axial compression ratio enhanced the peak load and initial stiffness of the specimens but reduced the displacement ductility, whereas increasing the aspect ratio decreased the peak load while improving ductility. Direct application of the flexural-capacity methods in JGJ/T 380–2015 and ANSI/AISC 360–22 resulted in clear loading-direction-dependent deviations. In addition, a simplified formula for evaluating the flexural capacity of T-shaped DSCWs was proposed by accounting for the strength enhancement of confined concrete and the effect of steel fracture.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      },
+      {
+        "id": "https://openalex.org/W7221642379",
+        "doi": "10.1016/j.engstruct.2026.123952",
+        "title": "Mechanical behaviour of a ground deformation-resistant ductile iron pipeline joint under sequential pre-bending and axial pull-out",
+        "published": "2026-10-13",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.123952",
+        "authors": [
+          "Qinglai Zhang",
+          "Shih-Hung Chiu",
+          "Tianchen Xu",
+          "Kenichi Soga",
+          "Shakhzod Takhirov",
+          "Jeff Mason",
+          "David Katzev",
+          "Zili Li"
+        ],
+        "institutions": [
+          "University College Cork",
+          "Zhejiang University",
+          "University of California, Berkeley"
+        ],
+        "journal": "Engineering Structures",
+        "abstract": "Earthquake-induced permanent ground deformation (PGD) can impose axial pull-out and deflection demands on the joints of segmented water pipelines, yet restrained pipeline joints have mainly been evaluated through independent axial-tension and bending tests. This study investigates how prior deflection modifies the subsequent pull-out behavior of a restrained bell–spigot joint in an 8-in. (203-mm) ductile iron pipeline. Two full-scale tests were conducted with different locking-segment orientations at joint to investigate the response under pre-bending and axial tension. Distributed fiber optic sensing (DFOS) provided continuous longitudinal and circumferential strain fields along the pipeline, and a three-dimensional finite element model with explicit locking segment contact was evaluated against the measured global responses and spatial strain distributions. The results show that pre-bending created a non-uniform contact state and modified the subsequent pull-out response. The specimen with a locking segment at the crown reached a peak pull-out resistance of 171 kips (760 kN), 18% higher than the 145 kips (645 kN) of the alternative orientation. During pulling, the strain fields revealed a transition from global bending to axial localization near the joint. In both specimens, cracks initiated at the slot-segment transition but followed orientation dependent crack paths. A parametric study over 0–10° of pre-bending identified a transition at approximately 3–4° from retention-dominated to contact-dominated behavior. At the most adverse angle, the pull-out capacity decreased to approximately 70% of the pure tension value. These findings demonstrate that the axial force-displacement response of a restrained joint is dependent on its prior deflection and loading path. The results provide an experimental and mechanistic basis for developing deflection-dependent joint relationships for future soil-pipeline interaction models at system level.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      },
+      {
+        "id": "https://openalex.org/W7221719687",
+        "doi": "10.1016/j.engstruct.2026.123948",
+        "title": "3D-printed stainless steel circular tubes: Residual stress measurements and proposed models",
+        "published": "2026-10-13",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.123948",
+        "authors": [
+          "Song Su",
+          "Feng Zhou",
+          "Yu Chen",
+          "Yancheng Cai"
+        ],
+        "institutions": [
+          "Tongji University",
+          "Zhengzhou University",
+          "Hong Kong Metropolitan University"
+        ],
+        "journal": "Engineering Structures",
+        "abstract": "This paper presents an experimental investigation on the residual stresses in 3D-printed, namely wire arc additively manufactured (WAAM), stainless steel circular hollow sections (CHSs) utilizing the hole-drilling method. The WAAM CHS specimens were manufactured by feedstock wire ER308L with a diameter of 1.2 mm. The details of fabrication procedure for the specimens are first outlined, after which four specimens were designed and printed for residual stress measurements. Strain-gauge rosettes were used for the measurements of strains in three directions. The general patterns of the residual stress distributions across the section and along the length, as well as the influence of deposition strategies and heat treatment, were obtained and analyzed. Generally, it was found that the longitudinal membrane residual stress distributions across the sections exhibited a trapezoidal wave pattern consisting of alternating uniform tensile and compressive stress regions separated by narrow transition zones. The experimental results were compared with the predictions by using the existing residual stress models for conventionally fabricated CHS steel and stainless steel tubes, including those with seamless normal-strength steel, welded normal-strength steel, welded high-strength steel and welded stainless steel. The results of comparison showed that the residual stress distributions in WAAM stainless steel CHSs differed significantly from the predictions of the existing models. Finally, new residual stress distribution models, comprising a unified pattern with two alternative magnitudes for non-heat-treated and heat-treated WAAM stainless steel CHSs, were proposed and evaluated, which showed more accurate and consistent predictions than the existing models.",
+        "citation_count": 0,
+        "method": "Experimental"
+      }
+    ],
+    "Ultrasonics": [],
+    "Tunnelling and Underground Space Technology": [
+      {
+        "id": "https://openalex.org/W7221935536",
+        "doi": "10.1016/j.tust.2026.108230",
+        "title": "IIGF-Net: An interpretability-driven intensity-geometry fusion framework for shield tunnel leakage segmentation in 3D point clouds",
+        "published": "2026-10-15",
+        "url": "https://doi.org/10.1016/j.tust.2026.108230",
+        "authors": [
+          "Wenxun Lei",
+          "Yichen Shen",
+          "王金国",
+          "Zhi Dou",
+          "Yanming Chen",
+          "Yufu Zang",
+          "Dong Chen"
+        ],
+        "institutions": [
+          "Hohai University",
+          "Nanjing Forestry University",
+          "Nanjing University of Information Science and Technology"
+        ],
+        "journal": "Tunnelling and Underground Space Technology",
+        "abstract": "Automated leakage detection from MLS-acquired 3D point clouds is essential for the preventive maintenance of shield tunnels. However, existing deep learning methods must reconcile the use of physically grounded handcrafted descriptors with the opaque representations learned by high-capacity networks. Without a principled means to verify whether handcrafted descriptors are effectively utilized by the trained network, descriptor design remains heuristic and the integration of domain knowledge with deep learning remains unverified. This study proposes an interpretability-driven intensity-geometry fusion network (IIGF-Net) for binary leakage segmentation in static point clouds. The framework combines nine multiscale geometric descriptors, a Fused Intensity Descriptor (FID), a two-level descriptor verification procedure, and Graph Boundary-Aware Loss (GBALoss). The verification procedure uses Gradient × Input attribution and exhaustive channel-zeroing screening across all 512 combinations of the nine geometric descriptors, followed by retraining of selected configurations to calibrate the effects of feature removal. GBALoss uses k −nearest-neighbor label relationships to emphasize leakage-background boundary points during optimization. Using an adopted DeepGCN backbone without external pretraining, IIGF-Net achieved an IoU_leakage of 87.32 ± 0.34% and an mIoU of 93.39 ± 0.17% over five runs on the validation set. IoU_leakage remained above 81% on three independent test sets. Under the tested retraining configuration, a six-descriptor subset achieved an IoU_leakage of 86.90%, compared with 87.32% for the full descriptor configuration. GBALoss increased the boundary F1-score from 72.22% to 78.47%. These results support descriptor verification as a practical basis for feature selection and indicate that the proposed components improve leakage segmentation within the evaluated tunnel datasets.",
+        "citation_count": 0,
+        "method": "Machine Learning"
+      },
+      {
+        "id": "https://openalex.org/W7222073983",
+        "doi": "10.1016/j.tust.2026.108232",
+        "title": "Knowledge-driven preliminary cost estimation of temporary shoring systems for linear construction",
+        "published": "2026-10-15",
+        "url": "https://doi.org/10.1016/j.tust.2026.108232",
+        "authors": [
+          "Namho Cho",
+          "Eu Wang Kim",
+          "Byungkyu Moon",
+          "Taehooie Kim"
+        ],
+        "institutions": [
+          "University of Iowa",
+          "Maricopa Medical Center",
+          "Texas Department of Transportation"
+        ],
+        "journal": "Tunnelling and Underground Space Technology",
+        "abstract": "Cost estimation for temporary shoring systems in urban deep excavation projects is challenging during the planning and early design stages because of geometric uncertainty, changing construction conditions, and repeated design revisions. Research on temporary shoring systems remains limited because of their high variability and project-specific characteristics. This study proposes a knowledge-driven cost estimation framework for temporary shoring systems in linear construction projects such as roads. The framework formalizes expert design knowledge in a reusable knowledge-driven database through parametric modeling, structural analysis, and itemized quantity takeoff procedures. Based on South Korean design codes and standards, 739 cases were generated by varying excavation geometry, geotechnical conditions, and decking requirements for traffic maintenance. MLR and GBR models were developed and subjected to internal validation using 10-fold cross-validation. Both models achieved high internal validation performance (R 2 > 0.95), and GBR more closely approximated the relationships encoded in the combined dataset. This internal result does not establish superior real-world prediction or a specific advantage for non-decking cases. Preliminary external validation was then conducted using 13 sections from two construction projects that applied the same temporary shoring method. The external validation results were mixed: MLR produced lower prediction errors for the available decking sections, whereas the non-decking sample was too small for a meaningful model comparison. Accordingly, the external validation did not establish the consistent superiority of either model. The principal contribution is demonstrating that expert design logic can be formalized in a reusable knowledge-driven database for early-stage cost estimation. The workflow can be adapted to other regional design standards and construction practices.",
+        "citation_count": 0,
+        "method": "Numerical Simulation"
+      }
+    ],
+    "Rock Mechanics and Rock Engineering": [
+      {
+        "id": "https://openalex.org/W7221899831",
+        "doi": "10.1007/s00603-026-06044-3",
+        "title": "Linear Energy Storage Law and Brittleness Evaluation of Shear Deformation on Rock Structure Planes",
+        "published": "2026-10-15",
+        "url": "https://doi.org/10.1007/s00603-026-06044-3",
+        "authors": [
+          "Sheng Li",
+          "Jianan Yang",
+          "Pengxian Fan",
+          "Ziming Xiong",
+          "Qiliang Yang",
+          "Mingyang Wang"
+        ],
+        "institutions": [
+          "PLA Army Engineering University"
+        ],
+        "journal": "Rock Mechanics and Rock Engineering",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7221912312",
+        "doi": "10.1007/s00603-026-06052-3",
+        "title": "Tangential Loading Rate Effect on Rockburst Characteristic Under Real Stress Adjustment Process in Tunnel Excavation",
+        "published": "2026-10-15",
+        "url": "https://doi.org/10.1007/s00603-026-06052-3",
+        "authors": [
+          "Jiaqi Guo",
+          "Feiyue Sun",
+          "BenGuo He",
+          "Junqi Fan",
+          "Xuefeng Si"
+        ],
+        "institutions": [
+          "Henan Polytechnic University",
+          "Northeastern University",
+          "National Defence Academy",
+          "University of South China"
+        ],
+        "journal": "Rock Mechanics and Rock Engineering",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7221936390",
+        "doi": "10.1007/s00603-026-05919-9",
+        "title": "Experimental and Numerical Investigation on Thermo-mechanical Behavior of Oil Shale at Ultra-High-Temperature and Triaxial Stress Conditions",
+        "published": "2026-10-15",
+        "url": "https://doi.org/10.1007/s00603-026-05919-9",
+        "authors": [
+          "Wei Cheng",
+          "Jiandong Liu",
+          "Juan Jin",
+          "Geng Li",
+          "ShangHong Liu",
+          "Heng Song",
+          "Shijun Chen",
+          "ChengSi Lyu",
+          "He Liu",
+          "Hao Yu"
+        ],
+        "institutions": [
+          "Research Institute of Petroleum Exploration and Development",
+          "China National Petroleum Corporation (China)",
+          "Karamay Central Hospital of Xinjiang",
+          "Xinjiang Institute of Engineering",
+          "University of Science and Technology of China"
+        ],
+        "journal": "Rock Mechanics and Rock Engineering",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      },
+      {
+        "id": "https://openalex.org/W7222070987",
+        "doi": "10.1007/s00603-026-06043-4",
+        "title": "New Charts for Assessing the Compressive Strength of Rock Materials Using the Leeb Hardness Test",
+        "published": "2026-10-15",
+        "url": "https://doi.org/10.1007/s00603-026-06043-4",
+        "authors": [
+          "Adil Binal",
+          "Özgür Erol"
+        ],
+        "institutions": [
+          "Hacettepe University"
+        ],
+        "journal": "Rock Mechanics and Rock Engineering",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      }
+    ]
+  }
+}
