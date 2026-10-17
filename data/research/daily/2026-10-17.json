@@ -1,0 +1,555 @@
+{
+  "date": "2026-10-17",
+  "journals": {
+    "Automation in Construction": [
+      {
+        "id": "https://openalex.org/W7222468300",
+        "doi": "10.1016/j.autcon.2026.107292",
+        "title": "Robotics for on-site construction: Structured scoping review",
+        "published": "2026-10-16",
+        "url": "https://doi.org/10.1016/j.autcon.2026.107292",
+        "authors": [
+          "Michela Rossi",
+          "Cristián Calvo Barentin",
+          "Dionysios A. Bournas"
+        ],
+        "institutions": [],
+        "journal": "Automation in Construction",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Review / Survey"
+      },
+      {
+        "id": "https://openalex.org/W7222538899",
+        "doi": "10.1016/j.autcon.2026.107308",
+        "title": "Leveraging automated inspection technologies: Economic implementability evaluation via a partially observable Markov decision process",
+        "published": "2026-10-16",
+        "url": "https://doi.org/10.1016/j.autcon.2026.107308",
+        "authors": [
+          "Daijiro MIZUTANI",
+          "Yuto Nakazato",
+          "Nana Sato",
+          "Yu Otake"
+        ],
+        "institutions": [],
+        "journal": "Automation in Construction",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      }
+    ],
+    "Mechanical Systems and Signal Processing": [
+      {
+        "id": "https://openalex.org/W7222408537",
+        "doi": "10.1016/j.ymssp.2026.115040",
+        "title": "Comparative study of sound transmission loss enhancement in double-leaf walls using inertial amplifier and resonator",
+        "published": "2026-10-16",
+        "url": "https://doi.org/10.1016/j.ymssp.2026.115040",
+        "authors": [
+          "Shrijit Banerjee",
+          "Kamal Krishna Bera",
+          "Arnab Banerjee"
+        ],
+        "institutions": [
+          "Indian Institute of Technology Delhi",
+          "National Institute of Technology Tiruchirappalli"
+        ],
+        "journal": "Mechanical Systems and Signal Processing",
+        "abstract": "This paper investigates the sound transmission loss (STL) characteristics of double-leaf walls incorporating different mechanical impedance elements within the cavity, including a spring, a spring–mass–spring (SMS) resonator, and an inertial amplifier (IA). This study presents a novel investigation of cavity-integrated spring–mass–spring resonators and inertial amplifiers for enhancing the sound transmission loss of double-leaf walls, together with their systematic optimization under an equal-mass constraint. A theoretical model is developed and validated through impedance tube experiments performed on baseline single-leaf and double-leaf walls, together with modified double-leaf configurations containing a spring, a SMS and an IA resonator in the air gap. A genetic algorithm-based optimization is further carried out to identify the optimal resonator parameters for the different configurations while maintaining a constant total mass of the wall and inserted mechanism. The results show that all mechanical insertions significantly enhance the STL relative to the baseline double-leaf wall. The optimized spring, SMS resonator, and IA configurations provide net STL improvements of 30%, 37.4%, and 40.3%, respectively. Although the IA yields the highest improvement, its advantage over the SMS resonator is found to be marginal, while both configurations exhibit superior sound insulation to the spring configuration. A parametric investigation reveals that increasing spring stiffness improves STL in the cavity-controlled region, whereas increasing the SMS auxiliary mass enhances low-frequency performance but introduces a pronounced resonance peak. For the IA configuration, increasing the inclination angle between the rod and spring reduces STL, while increasing spring stiffness produces the opposite effect. The increase in auxiliary mass improves STL in the mid-frequency range, but this benefit diminishes in the pre-coincidence region due to the dominance of plate impedance. The study highlights the effectiveness of embedded mechanical impedance elements for enhancing acoustic insulation and provides guidance for the optimal design of lightweight double-leaf wall systems.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      },
+      {
+        "id": "https://openalex.org/W7222674291",
+        "doi": "10.1016/j.ymssp.2026.115089",
+        "title": "Mechanism of skidding-induced IAS fault characteristic order shifts in tapered roller bearings considering electromechanical coupling",
+        "published": "2026-10-16",
+        "url": "https://doi.org/10.1016/j.ymssp.2026.115089",
+        "authors": [
+          "Jie Liang",
+          "Yuqing Liu",
+          "Yifan Li",
+          "Ruixing Gu",
+          "Ming Xie",
+          "Zaigang Chen"
+        ],
+        "institutions": [],
+        "journal": "Mechanical Systems and Signal Processing",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      }
+    ],
+    "Measurement": [
+      {
+        "id": "https://openalex.org/W7221688400",
+        "doi": "10.1016/j.measurement.2026.123469",
+        "title": "Ratio-consistency integration for stable warp–weft density measurement",
+        "published": "2026-10-13",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123469",
+        "authors": [
+          "Balaji Subhash Jadhav",
+          "Nitin Laxmanrao Gavankar"
+        ],
+        "institutions": [
+          "Shivaji University",
+          "D.Y. Patil University"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7221721776",
+        "doi": "10.1016/j.measurement.2026.123557",
+        "title": "Dual-constraint high-precision calibration of the rotation axis for cylindrical rotary measurement systems based on fringe projection profilometry",
+        "published": "2026-10-13",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123557",
+        "authors": [
+          "Yan Shi-xiong",
+          "Xueyang Gong",
+          "Cheng-hui Sun",
+          "Jiwen Cui"
+        ],
+        "institutions": [
+          "Harbin Institute of Technology",
+          "Heilongjiang Institute of Technology",
+          "Ministry of Industry and Information Technology"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7221668878",
+        "doi": "10.1016/j.measurement.2026.123567",
+        "title": "Quantifying the effect of freeze–thaw conditions on GPR responses of asphalt pavement voids: An improved frozen-soil FDTD model validated by cold-chamber experiments",
+        "published": "2026-10-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123567",
+        "authors": [
+          "Haoyuan Cheng",
+          "Bei Zhang",
+          "Yanhui ZHONG"
+        ],
+        "institutions": [
+          "Zhengzhou University of Light Industry",
+          "Zhengzhou University",
+          "Henan Province Water Conservancy Survey and Design Research"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7221682985",
+        "doi": "10.1016/j.measurement.2026.123562",
+        "title": "Effective blood cell classification using adaptive dense bi-directional gated recurrent unit model with image feature extraction",
+        "published": "2026-10-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123562",
+        "authors": [
+          "K. Renu",
+          "M. Padmavathi",
+          "R. Raman",
+          "M. Swetha",
+          "Swathi Mugada"
+        ],
+        "institutions": [
+          "GITAM University",
+          "Chaitanya Bharathi Institute of Technology",
+          "Jawaharlal Nehru Technological University, Kakinada"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7221757077",
+        "doi": "10.1016/j.measurement.2026.123571",
+        "title": "Temperature-aware decoupling of MWD responses for rock mechanical-property prediction in high-altitude cold mining areas",
+        "published": "2026-10-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123571",
+        "authors": [
+          "Fei Gao",
+          "Hui Chen",
+          "Xiujun Wu",
+          "Zhai Huijie",
+          "Yuanxiang Mu"
+        ],
+        "institutions": [
+          "Xinjiang University"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7221769699",
+        "doi": "10.1016/j.measurement.2026.123561",
+        "title": "Online compensation of robot position error considering the delay effect of closed-loop control system",
+        "published": "2026-10-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123561",
+        "authors": [
+          "Nuodi Huang",
+          "Hanqian Wu",
+          "Xu Zhang",
+          "Limin Zhu"
+        ],
+        "institutions": [
+          "Shanghai Jiao Tong University",
+          "Shanghai University"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7221770116",
+        "doi": "10.1016/j.measurement.2026.123416",
+        "title": "A three-dimensional vibration displacement measurement method for bridges based on monocular vision",
+        "published": "2026-10-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123416",
+        "authors": [
+          "Jiayi Xu",
+          "Sen Wang",
+          "Shenao Fei",
+          "Aiping Shen",
+          "Juan Lv"
+        ],
+        "institutions": [
+          "Kunming University of Science and Technology"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7221782008",
+        "doi": "10.1016/j.measurement.2026.123576",
+        "title": "Square root information filter using a realistic stochastic model for GNSS real-time kinematic positioning",
+        "published": "2026-10-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123576",
+        "authors": [
+          "Yihao Jiang",
+          "Jun Tao",
+          "Qile Zhao",
+          "Gaojian Zhang",
+          "Hengda Wei"
+        ],
+        "institutions": [
+          "Wuhan University"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7221798509",
+        "doi": "10.1016/j.measurement.2026.123368",
+        "title": "Element-specific MIR and MIR–XRD data fusion reveals molecular–mineral controls on trace elements in atmospheric deposition",
+        "published": "2026-10-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123368",
+        "authors": [
+          "Zhongyao Chen",
+          "Tengjie Cui",
+          "Yinxian Song",
+          "Godwin Adefikayo Ayoko"
+        ],
+        "institutions": [
+          "Kunming University of Science and Technology",
+          "Queensland University of Technology"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7221819094",
+        "doi": "10.1016/j.measurement.2026.123574",
+        "title": "Refined multipath-error-aided stochastic model optimization for GNSS/INS tightly coupled integration in complex urban environments",
+        "published": "2026-10-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123574",
+        "authors": [
+          "Yi Li",
+          "Li Wang",
+          "Bao Shu",
+          "Tingkang Wen",
+          "賴世培",
+          "Qin Zhang"
+        ],
+        "institutions": [
+          "Chang'an University"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      }
+    ],
+    "Engineering Structures": [
+      {
+        "id": "https://openalex.org/W7222744885",
+        "doi": "10.1016/j.engstruct.2026.123957",
+        "title": "Hybrid framework with regularized model updating and deep learning for structural damage identification",
+        "published": "2026-10-16",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.123957",
+        "authors": [
+          "Yongzhi Lei",
+          "Jun Li",
+          "Hong Hao"
+        ],
+        "institutions": [
+          "Curtin University",
+          "Yili Normal University",
+          "RMIT University",
+          "Guangzhou University"
+        ],
+        "journal": "Engineering Structures",
+        "abstract": "For several decades, much attention has been paid to the field of structural health monitoring (SHM) and damage identification, and numerous methods have been proposed to contribute to its development. Traditional finite element model (FEM) updating-based methods with regularization have the advantages of a clear deduction process and specific physical meaning, but also suffer from the challenges of instability in solution and complication and uncertainty in regularization parameter selection. The powerful fitting ability of deep learning (DL)-based methods effectively advances the capability of damage identification methods. However, these methods are usually criticized as black box models without the physical interpretability. There is no specific guide for network design, which brings obstacles to a wide range of applications. In this study, a physically interpretable hybrid framework for damage identification with a high accuracy is proposed by coupling regularized FEM updating with DL method. In the proposed framework, the regularized FEM updating provides physically meaningful quantities, including damage increments, residual information, and regularization-related terms, which are used to guide the network architecture by domain-mapping analysis. Meanwhile, the DL model learns the updating operation from the dataset, reducing the dependence on manually selected regularization parameters and improving the stability of noise-interference damage identification. Numerical and experimental studies are adopted to validate the proposed approach. Moth-flame optimization, the FEM updating with Tikhonov regularization method and the representative DL methods are also applied to conduct a comparative study to demonstrate the superiority of the proposed hybrid framework. The results show that the proposed framework can achieve accurate and reliable damage identification results under noise effect.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      }
+    ],
+    "Ultrasonics": [
+      {
+        "id": "https://openalex.org/W7222659504",
+        "doi": "10.1016/j.ultras.2026.108327",
+        "title": "Rayleigh wave second harmonic generation and mixing for probing depth-varying acoustic nonlinearity in thermally damaged steel",
+        "published": "2026-10-01",
+        "url": "https://doi.org/10.1016/j.ultras.2026.108327",
+        "authors": [
+          "Massina Fengal",
+          "Pierric Mora",
+          "Parisa Shokouhi",
+          "C. Herbin",
+          "Odile Abraham"
+        ],
+        "institutions": [],
+        "journal": "Ultrasonics",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7222688215",
+        "doi": "10.1016/j.ultras.2026.108333",
+        "title": "A 2-DOF miniature piezoelectric robot with a combined ring-beam structure for precision inspection",
+        "published": "2026-10-01",
+        "url": "https://doi.org/10.1016/j.ultras.2026.108333",
+        "authors": [
+          "Binbin Zhu",
+          "Yimu Guo",
+          "Chenhui Fan",
+          "Yufei Peng",
+          "Chaofeng Li",
+          "Zhengbao Yang",
+          "Yan Qing Wang"
+        ],
+        "institutions": [],
+        "journal": "Ultrasonics",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7222703910",
+        "doi": "10.1016/j.ultras.2026.108336",
+        "title": "Characterization and modulation of directly and delayed ultrasound-activated cells under single-pulse exposure",
+        "published": "2026-10-01",
+        "url": "https://doi.org/10.1016/j.ultras.2026.108336",
+        "authors": [
+          "Yuhang Ma",
+          "Jianpeng Wei",
+          "Alfred C.H. Yu",
+          "Peng Qin"
+        ],
+        "institutions": [
+          "Shanghai Jiao Tong University",
+          "University of Waterloo",
+          "Research Institute for Aging"
+        ],
+        "journal": "Ultrasonics",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      }
+    ],
+    "Tunnelling and Underground Space Technology": [
+      {
+        "id": "https://openalex.org/W7222531674",
+        "doi": "10.1016/j.tust.2026.108130",
+        "title": "Stochastic longitudinal model of buried pipelines considering soil spatial variability and void geometric uncertainty",
+        "published": "2026-10-16",
+        "url": "https://doi.org/10.1016/j.tust.2026.108130",
+        "authors": [
+          "Yuan Tu",
+          "Chengjun Guan",
+          "Juntao WU",
+          "Minjie Wen"
+        ],
+        "institutions": [
+          "Zhejiang Sci-Tech University",
+          "Zhejiang University"
+        ],
+        "journal": "Tunnelling and Underground Space Technology",
+        "abstract": "Buried pipelines are subjected to complex geological environments and thermo-mechanical loads, which threaten their longitudinal stability. This research study establishes a stochastic analytical model for longitudinal pipe–soil interaction under multi-source uncertainties. To capture soil heterogeneity, one-dimensional random field theory is used to characterise the spatial variability of the soil elastic modulus. Concurrently, specific probability distributions are introduced to define the geometric uncertainty of local soil voids. The framework rigorously incorporates thermal loads, internal operating pressures, and localised pipe–soil detachment. Monte Carlo simulation is then employed to evaluate the probabilistic displacement and stress responses. The proposed model is validated by degenerating the stochastic framework into deterministic scenarios and comparing the results against classical thermo-mechanical Winkler solutions. Further parametric analyses reveal a nonlinear coupling between material randomness and geometric uncertainty. First, void geometry dictates the overall response magnitude. As a void extends, the pipeline exhibits an inverse pattern: peak displacement increases greatly owing to support loss, whereas peak stress decreases owing to stress relaxation. Second, the coefficient of variation of the soil acts as the primary driver of extreme risks. High soil spatial variability minimally affects the mean response but significantly broadens the distribution range and elevates the 95th percentile. Finally, a dominance shift mechanism determines the variable that exerts greater influence on the structural response. For short voids, the structural response is highly sensitive to soil spatial variability. However, as void length increases, geometric uncertainty completely eclipses material randomness. These insights identify critical hazard combinations, providing a robust theoretical basis for the risk assessment and preventive maintenance of pipelines.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      },
+      {
+        "id": "https://openalex.org/W7222545795",
+        "doi": "10.1016/j.tust.2026.108233",
+        "title": "Deterioration mechanisms and safety performance evolution of tunnel linings under coupled high-temperature groundwater and sulfate attack",
+        "published": "2026-10-16",
+        "url": "https://doi.org/10.1016/j.tust.2026.108233",
+        "authors": [
+          "Yi Lu",
+          "Yunpeng Hu",
+          "Mingnian Wang",
+          "Ziquan Chen",
+          "Junfu Lu",
+          "Mingming Zheng"
+        ],
+        "institutions": [],
+        "journal": "Tunnelling and Underground Space Technology",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7222738558",
+        "doi": "10.1016/j.tust.2026.108205",
+        "title": "Seismic resilience assessment of water distribution systems considering improved fragility relations and CIPP rehabilitation",
+        "published": "2026-10-16",
+        "url": "https://doi.org/10.1016/j.tust.2026.108205",
+        "authors": [
+          "Seyed Mahmoudreza Yadollahi",
+          "Kalyan Ram Piratla",
+          "Kapil Chalil Madathil"
+        ],
+        "institutions": [
+          "Clemson University"
+        ],
+        "journal": "Tunnelling and Underground Space Technology",
+        "abstract": "Water distribution systems (WDSs) in seismic regions are highly vulnerable to earthquake-induced ground deformation, yet network-scale assessments often rely on generic fragility curves that overlook variability in pipe diameter, soil conditions, and rehabilitation strategies. Despite its widespread use, the effectiveness of cured-in-place pipe (CIPP) lining as a network-level seismic mitigation strategy remains understudied. This study evaluates the seismic resilience of WDSs primarily composed of cast iron (CI) pipelines and explores the effectiveness of CIPP rehabilitation as a resilience improvement strategy. Diameter- and soil-specific fragility relations for CI pipelines, with and without CIPP lining, are used to demonstrate the proposed resilience evaluation and improvement schemes, considering two benchmark WDSs under 10,000 randomly generated earthquake scenarios. Specifically, this study aims to (1) assess network-level seismic resilience using diameter- and soil-specific fragility relations, (2) quantify the resilience improvement achieved through budget-constrained CIPP rehabilitation, and (3) distinguish between scenario-specific rehabilitation priorities and systemwide pipeline importance identified across earthquake scenarios. Seismic resilience is quantified using the Topologic Resilience Metric (TRM), which integrates pipeline failure probabilities, network connectivity, and nodal demand. A one-at-a-time (OAT) sensitivity analysis evaluates the effects of hazard and system parameters on resilience. Budget-constrained optimization using a genetic algorithm (GA) is employed to identify CIPP rehabilitation strategies. In addition, the systemwide importance of individual pipelines is quantified based on their mean relative resilience improvement across the simulated earthquake scenarios. The discussion section interprets results in terms of network characteristics, rehabilitation prioritization, and resilience-based pipeline management. Results show that resilience varies across networks, and hazard-related parameters primarily govern resilience variability. Moreover, across six independent GA runs, optimized CIPP rehabilitation increases mean resilience under the selected governing seismic scenario from 61.9 % to 69.2 % in D-Town (7.3 percentage points; 11.8 % relative) and from 53.1 % to 57.6 % in Exnet (4.5 percentage points; 8.5 % relative). These findings highlight how trenchless rehabilitation can be integrated into seismic resilience-based planning for aging water distribution systems.",
+        "citation_count": 0,
+        "method": "Other"
+      }
+    ],
+    "Rock Mechanics and Rock Engineering": [
+      {
+        "id": "https://openalex.org/W7222426031",
+        "doi": "10.1007/s00603-026-06061-2",
+        "title": "Failure Mode and Creep Characteristics of Soft–Hard Interlayered Rocks with Different Dip Angles and Layer-Thickness Ratios",
+        "published": "2026-10-16",
+        "url": "https://doi.org/10.1007/s00603-026-06061-2",
+        "authors": [
+          "Jinduo Li",
+          "Yang Tianhong",
+          "Tao Xu",
+          "Yong Zhao",
+          "DU Shigui",
+          "Penghai Zhang",
+          "Wenxue Deng",
+          "Tao Wang"
+        ],
+        "institutions": [
+          "Northeastern University",
+          "Ningbo University"
+        ],
+        "journal": "Rock Mechanics and Rock Engineering",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7222527169",
+        "doi": "10.1007/s00603-026-06070-1",
+        "title": "Effect of Roof Lithology on Deformation Coordination and Pre-peak Instability Evolution of Coal–Rock Combinations Under Uniaxial Compression",
+        "published": "2026-10-16",
+        "url": "https://doi.org/10.1007/s00603-026-06070-1",
+        "authors": [
+          "Fei Wu",
+          "Yongrui Li",
+          "Chunfeng Ye",
+          "Fengyuan Li",
+          "Qingzhe Cui",
+          "Qican Ran",
+          "Cunbao Li"
+        ],
+        "institutions": [
+          "Chongqing University",
+          "State Key Laboratory of Coal Mine Disaster Dynamics and Control",
+          "Shenzhen University"
+        ],
+        "journal": "Rock Mechanics and Rock Engineering",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7222632585",
+        "doi": "10.1007/s00603-026-06053-2",
+        "title": "Infrared Brightness Temperature Evolution Modulated by Pressure-Stimulated Rock Potential in Diorite Partly Loaded to Fracturing",
+        "published": "2026-10-16",
+        "url": "https://doi.org/10.1007/s00603-026-06053-2",
+        "authors": [
+          "Licheng Sun",
+          "Lixin Wu",
+          "Youyou Xu",
+          "Guangrui Dong",
+          "Tao Zheng",
+          "Wenfei Mao"
+        ],
+        "institutions": [
+          "Central South University",
+          "China Earthquake Administration"
+        ],
+        "journal": "Rock Mechanics and Rock Engineering",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7222648716",
+        "doi": "10.1007/s00603-026-05974-2",
+        "title": "A Novel Wellbore Nitrogen Leakage Testing Model for Salt Cavern Compressed Air Energy Storage: A Case Study",
+        "published": "2026-10-16",
+        "url": "https://doi.org/10.1007/s00603-026-05974-2",
+        "authors": [
+          "Dong Chen",
+          "Hongling Ma",
+          "Xuan Wang",
+          "Wentao Li",
+          "Wei Liang",
+          "Liupeng Fu",
+          "Jun Liu",
+          "Ronghui Xu",
+          "Xiaomeng Sun"
+        ],
+        "institutions": [
+          "Chinese Academy of Sciences",
+          "Institute of Rock and Soil Mechanics",
+          "University of Chinese Academy of Sciences",
+          "State Key Laboratory of Geomechanics and Geotechnical Engineering",
+          "Chongqing University",
+          "State Key Laboratory of Coal Mine Disaster Dynamics and Control",
+          "Xi'an University of Science and Technology",
+          "Shaanxi University of Science and Technology"
+        ],
+        "journal": "Rock Mechanics and Rock Engineering",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      }
+    ]
+  }
+}
