@@ -1,0 +1,545 @@
+{
+  "date": "2026-10-18",
+  "journals": {
+    "Automation in Construction": [
+      {
+        "id": "https://openalex.org/W7222793389",
+        "doi": "10.1016/j.autcon.2026.107306",
+        "title": "Engineering-aware semantic mapping of constrained urban streets for 3D swept path analysis in modular integrated construction logistics",
+        "published": "2026-10-17",
+        "url": "https://doi.org/10.1016/j.autcon.2026.107306",
+        "authors": [
+          "Feng Wang",
+          "Zhenjie Zheng",
+          "Wei Shao",
+          "Xiaojie Qin",
+          "Wei Pan"
+        ],
+        "institutions": [],
+        "journal": "Automation in Construction",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7222802667",
+        "doi": "10.1016/j.autcon.2026.107316",
+        "title": "Computer vision framework for UAV-based defect inspection of existing buildings with cement-mortar facades and BIM integration",
+        "published": "2026-10-17",
+        "url": "https://doi.org/10.1016/j.autcon.2026.107316",
+        "authors": [
+          "Zeyu Li",
+          "Qian Wang",
+          "Hong Huang",
+          "Xiang Nie",
+          "Yehao Wang"
+        ],
+        "institutions": [
+          "Southeast University"
+        ],
+        "journal": "Automation in Construction",
+        "abstract": "Defect recognition of existing buildings with cement-mortar facades remains challenging due to diverse defect types, inefficient and risky manual inspection, and missing BIM models. This paper presents an automated framework that combines UAV imagery and computer vision techniques for defect recognition and BIM integration. The framework employs RTK-guided UAV flight for image acquisition, OneFormer3D with DBSCAN for envelope segmentation, YOLOv9 for window detection, Mask2Former with SAHI for defect segmentation, and Revit/Dynamo for automated BIM generation. Validation on a 16-story building achieved 96.97% mAP@50 for envelope segmentation, 92.4% mAP@0.5 for window detection, and 65.12% AP50 for defect segmentation, with defects mapped to a queryable BIM model. This framework reduces manual labor and high-altitude risk, providing a digital O&M foundation for existing buildings without BIM. Future work should improve small-crack accuracy, extend the method to other facade materials, and automate flight path planning.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7222835190",
+        "doi": "10.1016/j.autcon.2026.107307",
+        "title": "Efficient damage identification in hollow slab girder bridges using a hybrid graph-attention network and differentiable inversion",
+        "published": "2026-10-17",
+        "url": "https://doi.org/10.1016/j.autcon.2026.107307",
+        "authors": [
+          "Wenping Li",
+          "Jinglin Xiao",
+          "Chen Wang",
+          "Yufei Liu",
+          "Jiansheng Fan"
+        ],
+        "institutions": [],
+        "journal": "Automation in Construction",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      }
+    ],
+    "Mechanical Systems and Signal Processing": [
+      {
+        "id": "https://openalex.org/W7222824161",
+        "doi": "10.1016/j.ymssp.2026.115076",
+        "title": "A multi-domain degradation signal feature extraction and adaptive feature fusion regression method for state of health prediction in lithium-ion batteries",
+        "published": "2026-10-17",
+        "url": "https://doi.org/10.1016/j.ymssp.2026.115076",
+        "authors": [
+          "Wenlong Liu",
+          "Ying Gao",
+          "Shunshun Qin",
+          "Wei Sun",
+          "Qi Zhu",
+          "Yuxuan Zhang",
+          "Taige Chen"
+        ],
+        "institutions": [],
+        "journal": "Mechanical Systems and Signal Processing",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7222850313",
+        "doi": "10.1016/j.ymssp.2026.115097",
+        "title": "Improving low-wind-speed aero-elastic responses by peanut-shaped auxetic structure for galloping energy harvesting",
+        "published": "2026-10-17",
+        "url": "https://doi.org/10.1016/j.ymssp.2026.115097",
+        "authors": [
+          "Meng Qi",
+          "Haili Gao",
+          "Yihao Li",
+          "Xiaotian Wang",
+          "Zhiliang Leng",
+          "Zhiqiang Fan",
+          "Haitao Li",
+          "Weiyang Qin"
+        ],
+        "institutions": [],
+        "journal": "Mechanical Systems and Signal Processing",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      }
+    ],
+    "Measurement": [
+      {
+        "id": "https://openalex.org/W7221897093",
+        "doi": "10.1016/j.measurement.2026.123155",
+        "title": "A multi-stage pipeline for robust classification on noisy and incomplete data",
+        "published": "2026-10-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123155",
+        "authors": [
+          "Amira Alouani",
+          "Neila Bedioui",
+          "Mongi Besbes"
+        ],
+        "institutions": [
+          "Tunis University",
+          "University of Carthage",
+          "National Engineering School of Tunis",
+          "Institut Supérieur des Technologies de l'Information et de la Communication",
+          "Tunis El Manar University"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7221916265",
+        "doi": "10.1016/j.measurement.2026.123583",
+        "title": "Physics-guided improved Informer with uncertainty-driven dynamic residual thresholding for early fault warning in offshore wind turbines",
+        "published": "2026-10-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123583",
+        "authors": [
+          "Xiaolin Ge",
+          "Jintao Wen",
+          "Yang Fu",
+          "Maoqiao Li",
+          "Yang Liu",
+          "Zixu Ren"
+        ],
+        "institutions": [
+          "Shanghai University of Electric Power"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7221940255",
+        "doi": "10.1016/j.measurement.2026.123411",
+        "title": "Hetero-Vib: An ultra-low-frequency vibroseis approach via heterodyne coherent modulation",
+        "published": "2026-10-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123411",
+        "authors": [
+          "Jiayang Gao",
+          "Yiwen Tian",
+          "Xinning Zhu",
+          "Xuefeng Xing"
+        ],
+        "institutions": [],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7221940439",
+        "doi": "10.1016/j.measurement.2026.123581",
+        "title": "In-situ characterization and suppression of electronic noise in quadrant photodetectors for space-borne gravitational wave detection",
+        "published": "2026-10-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123581",
+        "authors": [
+          "Liuyang Chen",
+          "Zhilin Xu",
+          "Yuanze Jiang",
+          "Yujie Feng",
+          "Yurong Liang",
+          "Qizhen Sun",
+          "Zebing Zhou"
+        ],
+        "institutions": [
+          "Huazhong University of Science and Technology"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7221941390",
+        "doi": "10.1016/j.measurement.2026.123549",
+        "title": "Diagnosing temperature-induced bias and dispersion in ATR-MIR protein measurement using spectral-window PLS models",
+        "published": "2026-10-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123549",
+        "authors": [
+          "Kris Stefanidis",
+          "John Billingsley",
+          "Tobias Low",
+          "Derek Long"
+        ],
+        "institutions": [],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7221954543",
+        "doi": "10.1016/j.measurement.2026.123575",
+        "title": "Data-Driven soft sensing of Two-Dimensional gaze angles from MEMS-Mirror scanning signals",
+        "published": "2026-10-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123575",
+        "authors": [
+          "Xuan Yi",
+          "Yinfeng Xia",
+          "Yifei Li",
+          "Xiaoming Huang",
+          "Tong Wu",
+          "Jiang Lin",
+          "Yuanlin Xia"
+        ],
+        "institutions": [
+          "Sichuan University",
+          "Anyang Eye Hospital",
+          "He Eye Hospital"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7222031815",
+        "doi": "10.1016/j.measurement.2026.123554",
+        "title": "Fused boundary fitting and radial basis function for turbine blade surface reconstruction with a low-cost RGB-D camera",
+        "published": "2026-10-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123554",
+        "authors": [
+          "Jun Li",
+          "Zhaoyang He",
+          "Mingkang Zi",
+          "Ruidong Yu",
+          "Zhiqin Guo",
+          "Pan Ri",
+          "Haipeng Huang",
+          "Yinhui Xie"
+        ],
+        "institutions": [
+          "Chinese Academy of Sciences",
+          "Fujian Institute of Research on the Structure of Matter",
+          "Quanzhou Institute of Equipment Manufacturing Haixi Institute",
+          "Fuzhou University",
+          "University of Chinese Academy of Sciences",
+          "Beijing University of Technology",
+          "Xiamen University of Technology"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7222151578",
+        "doi": "10.1016/j.measurement.2026.123578",
+        "title": "Dual-wavelength quadrature phase demodulation method with DC-filtering compensation and signal amplitude feedback for fiber-optic EFPI hydroacoustic sensing",
+        "published": "2026-10-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123578",
+        "authors": [
+          "Xiaojun Chen",
+          "Da Zhang",
+          "Chenghui Ni",
+          "Bo Ye",
+          "Huiliang Ge",
+          "Shengchun Liu"
+        ],
+        "institutions": [
+          "Harbin Engineering University",
+          "Hangzhou Institute of Applied Acoustics"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7222174169",
+        "doi": "10.1016/j.measurement.2026.123555",
+        "title": "A physics-informed doubly non-stationary spectral Gaussian process for modeling form-error fields on freeform surfaces",
+        "published": "2026-10-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123555",
+        "authors": [
+          "Zhilong Xu",
+          "Yiping Shao",
+          "Jiansha Lu",
+          "Shichang Du",
+          "Yuquan Meng"
+        ],
+        "institutions": [
+          "City University of Hong Kong",
+          "Zhejiang University of Technology",
+          "Shanghai Jiao Tong University"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      },
+      {
+        "id": "https://openalex.org/W7222298019",
+        "doi": "10.1016/j.measurement.2026.123447",
+        "title": "High-resolution fiber-optic end-face reflection sensors for aircraft icing detection",
+        "published": "2026-10-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123447",
+        "authors": [
+          "Xiu He",
+          "Hao Xiong",
+          "Teng Xie",
+          "Xingshi Gu",
+          "Zhanwei Hu",
+          "Chen Hai",
+          "Xian Yi"
+        ],
+        "institutions": [
+          "China Aerodynamics Research and Development Center",
+          "Sun Yat-sen University",
+          "Beihang University"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      }
+    ],
+    "Engineering Structures": [
+      {
+        "id": "https://openalex.org/W7222782746",
+        "doi": "10.1016/j.engstruct.2026.123918",
+        "title": "Deep-learning based inverse design of hierarchical curved beams with prescribed nonlinear responses for multistable honeycomb structures",
+        "published": "2026-10-17",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.123918",
+        "authors": [
+          "Ruixin Wang",
+          "Bin Niu"
+        ],
+        "institutions": [
+          "Dalian University of Technology"
+        ],
+        "journal": "Engineering Structures",
+        "abstract": "Morphing structures are attractive for applications in aerospace, robotics, and biomedical devices because they can switch among multiple geometric configurations. Among them, multistable honeycomb (MSHC) structures are particularly promising for achieving large and reversible shape reconfiguration. However, the nonlinear response of their bistable curved beams remains difficult to tailor, especially under fixed global geometric constraints, which limits the programmable deformation capability of MSHC structures. To address this issue, this study proposes a microstructure-filled hierarchical curved beam that introduces additional internal design freedom through microstructure parameterization, thereby expanding the achievable nonlinear response space. Based on this concept, a two-level deep-learning inverse-design framework is developed. At the microstructure level, a deep convolutional generative adversarial network (DCGAN) and a convolutional neural network (CNN) are combined in a closed-loop strategy to generate microstructures with target homogenized elastic properties. At the structural level, each hierarchical curved beam is represented by a segment-wise sequence of elastic properties, and a multilayer perceptron (MLP) together with a conditional variational autoencoder (CVAE) is used to inversely design curved beams with prescribed nonlinear response curves. The designed property sequences are then mapped back to explicit microstructures and assembled into hierarchical bistable curved beams. The proposed framework enables the inverse design of hierarchical curved beams with tailored nonlinear responses and provides an effective route for programmable multistable honeycomb structures and morphing applications such as airfoils.",
+        "citation_count": 0,
+        "method": "Machine Learning"
+      },
+      {
+        "id": "https://openalex.org/W7222797696",
+        "doi": "10.1016/j.engstruct.2026.123991",
+        "title": "Experimental study on flexural performance of fresh-on-fresh UHPC-NSC composites under combined chloride-sulfate exposure and dry-wet cycles with pouring delay",
+        "published": "2026-10-17",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.123991",
+        "authors": [
+          "Najm Addin Al-Shakhdha",
+          "祝金崧",
+          "Mohammed Al-samawi"
+        ],
+        "institutions": [
+          "Tianjin University"
+        ],
+        "journal": "Engineering Structures",
+        "abstract": "Fresh-on-fresh (FF) concrete casting technique is increasingly used in composite structural elements made from normal strength concrete (NSC) and ultra-high-performance concrete (UHPC) due to its efficient material utilization, and improved composite performance. However, the combined effects of pouring delays and harsh environmental conditions on flexural performance remain insufficiently explored. This study investigates the durability and flexural behavior of FF-cast UHP-NSC composites with pouring delays under severe ionic attacks and drying wetting cycles. Following curing, the specimens were immersed in chloride, sulfate, combined chloride-sulfate solutions, and freshwater for 180 days under drying-wetting cycles. Flexural strength, load-deflection response, stiffness, failure patterns, and energy absorption were evaluated, while deterioration mechanisms were studied using SEM-EDS and XRD. Results demonstrate that pouring delay significantly influences flexural performance, with the 60 min delay achieving the highest flexural strength, whereas the 90 min delay resulted in notable strength degradation. Sulfate exposure produced the most severe deterioration, while combined chloride-sulfate solutions caused complex interactions, where chloride partially mitigated sulfate-induced damage. Ionic exposure generally reduced stiffness, although energy absorption capacity increased for specimens with longer pouring delays. Microstructural analysis revealed that high sulfate promoted gypsum and ettringite formation, causing cracks in NSC and the interfacial zone, whereas chloride promoted Friedel's salt formation and reduced sulfate-related expansion. These findings elucidate the interaction between combined effects of pouring delay and ionic exposure, providing insights into the durability of FF-cast UHPC-NSC composite structures.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7222799169",
+        "doi": "10.1016/j.engstruct.2026.123914",
+        "title": "Efficient eigenpair sensitivity analysis for symmetric damped structural systems with distinct and repeated eigenvalues",
+        "published": "2026-10-17",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.123914",
+        "authors": [
+          "Yawei Xu",
+          "Zhengguang Li",
+          "吴柏生",
+          "S.K. Lai"
+        ],
+        "institutions": [
+          "Jilin University",
+          "Minnan University of Science and Technology",
+          "Hong Kong Polytechnic University"
+        ],
+        "journal": "Engineering Structures",
+        "abstract": "The dynamic behavior of damped structural systems is often analyzed through quadratic eigenvalue problems. Performing sensitivity analysis on the associated eigenpairs is particularly complex in the presence of repeated eigenvalues. This paper is concerned with the development of an effective strategy for computing eigenpair sensitivities in symmetric damped systems, specifically addressing cases involving repeated eigenvalues. First, a method is developed to formulate non-singular coefficient matrices within the original space, allowing for the direct calculation of eigenvector derivatives in cases of distinct and repeated eigenvalues. Second, an iterative approach with the preconditioned conjugate orthogonal conjugate gradient (PCOCG) method is employed to solve the governing equations. The proposed method performs all computations in the original space, eliminating the need for matrix dimensionality expansion or edge addition, thereby reducing the “fill-in” operations typically associated with sparse matrices. Furthermore, this approach requires solely the modal information of interest, avoiding the need to compute particular solutions for eigenvector derivatives. The present method is confirmed through three engineering examples, i.e., a mass-spring-damper system, a square planar truss structure, and a water turbine generator.",
+        "citation_count": 0,
+        "method": "Analytical / Theoretical"
+      },
+      {
+        "id": "https://openalex.org/W7222820496",
+        "doi": "10.1016/j.engstruct.2026.123989",
+        "title": "Towards rapid fatigue assessment of UHPC for wind turbine towers: A sparse-data-driven prediction framework via DeepONet with latent vector adaptation",
+        "published": "2026-10-17",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.123989",
+        "authors": [
+          "Xiaoyu Xin",
+          "Zhen Guo",
+          "Fumin Li",
+          "Ou Geng",
+          "Qiuyan Yan"
+        ],
+        "institutions": [
+          "China University of Mining and Technology"
+        ],
+        "journal": "Engineering Structures",
+        "abstract": "Rapid assessment of high-cycle fatigue degradation in ultra-high-performance concrete (UHPC) is constrained by the long duration of full-lifecycle fatigue testing. This study develops an uncertainty-aware Bayesian transfer learning framework (U-BTL) that combines Deep Operator Networks with specimen-specific latent adaptation to reconstruct long-term stiffness-degradation trajectories from sparse early-cycle observations. During Stage I, operator learning is supported by measured source trajectories, low-weight Weibull-IDW augmentation restricted to the experimentally supported source domain, an exact initial-stiffness boundary K ( 0 ) = 1 , an irreversible-degradation constraint, and a terminal-stiffness surrogate. During Stage II, the pretrained operator is frozen and a specimen-specific latent vector is calibrated probabilistically from a fixed early-cycle observation window. The posterior uncertainty is subsequently propagated to long-term stiffness and threshold-crossing predictions. The evaluation distinguishes interpolation validation from fully held-out out-of-distribution conditions involving an unseen fiber configuration and an unseen stress level. The results demonstrate that Bayesian latent adaptation can reduce specimen-specific prediction bias while providing probabilistic uncertainty bounds for future degradation trajectories. The present validation is restricted to constant-amplitude laboratory UHPC specimens; therefore, the proposed framework is interpreted as a constitutive-level fatigue-prognosis kernel whose future integration into wind-turbine structural monitoring requires additional variable-amplitude, structural-scale, and field validation.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      },
+      {
+        "id": "https://openalex.org/W7222822383",
+        "doi": "10.1016/j.engstruct.2026.123966",
+        "title": "Load distribution patterns and structural effects of IEA 15MW wind turbine under downburst wind field",
+        "published": "2026-10-17",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.123966",
+        "authors": [
+          "Yue Cheng",
+          "Lin Zhao",
+          "Xu Dong",
+          "Shaopeng Li",
+          "Xiaofeng He",
+          "Juan Ao",
+          "Jonas W. Ringsberg"
+        ],
+        "institutions": [
+          "Tongji University",
+          "Guangxi University",
+          "Chongqing University",
+          "China Meteorological Administration",
+          "Beijing Meteorological Bureau",
+          "Wind Power Engineering (Japan)",
+          "Chalmers University of Technology"
+        ],
+        "journal": "Engineering Structures",
+        "abstract": "Downbursts, which are intense, short-duration, highly non-stationary and non-synoptic outflows generated by severe thunderstorms, pose a significant threat to the structural safety of large-scale wind turbines, particularly in regions with abundant wind resources but frequent convective storms. Although numerical approaches have been widely used to assess downburst-induced loads, experimental investigations remain limited due to the challenges of reproducing realistic transient non-synoptic wind fields in controlled environments. In this study, a combined wind tunnel and numerical simulation framework is developed to quantify the aerodynamic load distribution and structural responses of a 15 MW reference wind turbine under downburst conditions. Scaled wind tunnel tests were conducted to reproduce representative downburst wind fields with varying turbulence intensities, enabling high-fidelity measurements of unsteady surface pressures and global aerodynamic forces. The experimental data were incorporated into an aeroelastic-structural coupling framework that links OpenFAST aerodynamic load simulations with detailed FEM analyses to evaluate stress distributions, displacement responses and potential failure modes. By comparing these results with those obtained under synoptic wind conditions, the study reveals the substantially more severe aerodynamic loading and structural instability induced by downbursts. A systematic investigation was conducted on the effects of radial position, wind profile type, turbulence intensity, and operational conditions on blade responses and tower stability, highlighting the importance of incorporating downburst-related wind fields into wind turbine design standards and operational strategies to enhance the structural resilience of turbines in regions susceptible to convective storms, like downbursts, tornadoes, etc.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      },
+      {
+        "id": "https://openalex.org/W7222837928",
+        "doi": "10.1016/j.engstruct.2026.123954",
+        "title": "Flood risk assessment of stone arch bridges based on large language model and Bayesian Network",
+        "published": "2026-10-17",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.123954",
+        "authors": [
+          "Pengze Li",
+          "Shaofei Jiang",
+          "Cheng Xiang",
+          "Qihan Chen",
+          "Jinkang Lian",
+          "Jianlong Yu"
+        ],
+        "institutions": [],
+        "journal": "Engineering Structures",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      }
+    ],
+    "Ultrasonics": [
+      {
+        "id": "https://openalex.org/W7222828415",
+        "doi": "10.1016/j.ultras.2026.108321",
+        "title": "Ultrasonic inspection of welding joints using the topological derivative as damage indicator",
+        "published": "2026-10-01",
+        "url": "https://doi.org/10.1016/j.ultras.2026.108321",
+        "authors": [
+          "C. Placinta",
+          "S. Muñoz",
+          "María-Luisa Rapún"
+        ],
+        "institutions": [
+          "Universidad Politécnica de Madrid"
+        ],
+        "journal": "Ultrasonics",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      }
+    ],
+    "Tunnelling and Underground Space Technology": [
+      {
+        "id": "https://openalex.org/W7222803727",
+        "doi": "10.1016/j.tust.2026.108178",
+        "title": "Serviceability-oriented multimodal data integration for prescriptive road-tunnel maintenance digital twins",
+        "published": "2026-10-17",
+        "url": "https://doi.org/10.1016/j.tust.2026.108178",
+        "authors": [
+          "Mengqi Huang",
+          "Mohammad Matin Rouhani",
+          "Zhihang Li",
+          "Huamei Zhu",
+          "Qianbing Zhang"
+        ],
+        "institutions": [
+          "Swinburne University of Technology",
+          "Monash University",
+          "Durham University"
+        ],
+        "journal": "Tunnelling and Underground Space Technology",
+        "abstract": "Road tunnels are indispensable components of transport networks, providing critical connections while operating continuously under demanding environmental, geological, and hydrogeological conditions. Their large dimensions, confined geometry, and uninterrupted operation make comprehensive inspection challenging. Full-face inspection technologies such as light detection and ranging (LiDAR) can rapidly capture high-resolution surface data; however, the resulting digital models are often descriptive rather than explanatory or instructive. This limitation is critical because seemingly minor defects may indicate latent deterioration and, if untreated, can lead to severe safety and operational consequences. With advances in artificial intelligence, particularly large language models (LLMs) and robotic inspection platforms, tunnel inspection is expected to move beyond defect detection towards knowledge-driven diagnosis and decision support. This paper presents a serviceability-oriented Prescriptive Twin framework for road-tunnel maintenance, that is, a digital twin that represents asset conditions and recommends maintenance actions from inspection evidence and codified engineering knowledge. The framework connects inspection data, prescriptive knowledge, decision-making, and verification through a Web Ontology Language (OWL 2) domain ontology populated by a schema-guided LLM pipeline. The ontology integrates tunnel maintenance standards, road asset data requirements, and an extended Construction Operations Building Information Exchange (COBie) schema, while the pipeline converts narrative standards into expert-validated seven-level Failure Mode and Effects Analysis (FMEA) chains. A multimodal layer maps red–green–blue (RGB), RGBD (RGB with depth), thermal, and ground-penetrating radar (GPR) outputs to causal-chain entry points, such as level 4 indicators and level 5 causes. The framework specifies an identity-resolution rule that binds observations from different modalities, and from successive inspection cycles, to a persistent defect instance, and a governance layer that binds every decision threshold to a dated clause of a specific standard edition, so that a prescription can be reconstructed against the edition under which it was issued. Chain traversal maps onto the inspection report and an inter-cycle change report. Demonstrated on two defects in an operating road tunnel, the framework generates traceable prescriptions and shows how multimodal evidence improves intervention accuracy: at the worked example, thermal and GPR evidence escalated the intervention tier and expanded the repair scope by a factor of 3.2 relative to RGB-only inspection, delivering an industry-deployable pathway for standards-compliant maintenance decision support.",
+        "citation_count": 0,
+        "method": "Machine Learning"
+      },
+      {
+        "id": "https://openalex.org/W7222846996",
+        "doi": "10.1016/j.tust.2026.108238",
+        "title": "A spatiotemporal relative-ring modeling framework for construction-stage ground settlement prediction in shield tunnelling",
+        "published": "2026-10-17",
+        "url": "https://doi.org/10.1016/j.tust.2026.108238",
+        "authors": [
+          "Siyuan Huang",
+          "Xiaochun Zhong",
+          "Qiang Yun",
+          "Shuyi Luo",
+          "秦建设",
+          "Tugen Feng"
+        ],
+        "institutions": [
+          "Hohai University",
+          "Fuzhou University",
+          "China Railway Construction Corporation (China)"
+        ],
+        "journal": "Tunnelling and Underground Space Technology",
+        "abstract": "Construction-stage ground settlement prediction in shield tunnelling remains challenging because settlement monitoring is sparse and irregular, whereas shield operation data are dense and closely linked to the moving construction process. Existing time-based forecasting and direct regression approaches often compress the effects of successive construction stages into a current or terminal response and therefore cannot explicitly represent settlement evolution during shield passage. This study proposes a spatiotemporal relative-ring modeling framework that reorganizes tunnelling data according to the relative position between the shield and each monitored section. The framework predicts stage-wise settlement increments and reconstructs the cumulative settlement response within a section-centered relative-ring window. To accommodate sparse supervision, a bin-aggregated mask-aware multi-task model is developed to jointly learn process-level settlement increments and the window-end cumulative response. The framework is evaluated using field data from Guangzhou Metro Line 18 under subsequent-section and cross-line validation protocols. Results show reconstructed window-end MAEs of 0.84 mm and 0.79 mm, respectively, outperforming conventional local-feature regression and sequence-based baselines. The results indicate that relative-ring organization, bin aggregation, and process-oriented supervision provide an effective and interpretable approach for construction-stage settlement prediction under sparse field monitoring.",
+        "citation_count": 0,
+        "method": "Numerical Simulation"
+      }
+    ],
+    "Rock Mechanics and Rock Engineering": []
+  }
+}
