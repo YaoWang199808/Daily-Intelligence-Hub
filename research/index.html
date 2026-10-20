@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Research Digest 2026-10-19</title>
+  <title>Research Digest 2026-10-20</title>
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -62,7 +62,7 @@
 <body>
   <div class="topbar">
     <h1>Research Digest</h1>
-    <p><strong>Date:</strong> 2026-10-19</p>
+    <p><strong>Date:</strong> 2026-10-20</p>
     <p><a href="../index.html">Home</a></p>
   </div>
 
@@ -73,7 +73,36 @@
   
     <section id="automation-in-construction" class="journal-section">
       <h2>Automation in Construction</h2>
-      <p class="empty">No items in this section.</p>
+      
+    <article class="card">
+      <h4><a href="https://doi.org/10.1016/j.autcon.2026.107310" target="_blank" rel="noopener noreferrer">Causally informed framework for metro track defect diagnosis, degradation prediction, and maintenance prioritization</a></h4>
+      <p><strong>Authors:</strong> Yi Wang, Xiaopei Cai, Xueyang Tang, Yiyang Li, Yue Hou, Shuwei Fang, Boyuan Zhang</p>
+      
+      <p><strong>Published:</strong> 2026-10-19</p>
+      <p><strong>Journal:</strong> Automation in Construction</p>
+      <p><strong>Method:</strong> Other</p>
+      <p><strong>Citations:</strong> 0</p>
+      <div>
+        <strong>Abstract:</strong>
+        <p>Abstract not available.</p>
+      </div>
+    </article>
+    
+
+    <article class="card">
+      <h4><a href="https://doi.org/10.1016/j.autcon.2026.107315" target="_blank" rel="noopener noreferrer">Recovering ontology-normalized layer classes from vector-native PDF drawings via graph-based learning</a></h4>
+      <p><strong>Authors:</strong> Andrea Carrara, Mahito Sugiyama, Stavros Nousias, André Borrmann</p>
+      <p><strong>Institution:</strong> Technical University of Munich, National Institute of Informatics</p>
+      <p><strong>Published:</strong> 2026-10-19</p>
+      <p><strong>Journal:</strong> Automation in Construction</p>
+      <p><strong>Method:</strong> Other</p>
+      <p><strong>Citations:</strong> 0</p>
+      <div>
+        <strong>Abstract:</strong>
+        <p>Vector-native PDFs preserve geometry but often lose authoring-time CAD-layer organization. This paper presents a document-preserving vector-to-graph pipeline that reconstructs drawing elements and predicts ontology-normalized layer classes. Raw and canonicalized source-layer strings construct supervision but are excluded from inputs. The benchmark contains 381 drawings and 12.1 million vector elements under a three-level hierarchy of 307 fine-grained classes, 36 intermediate groups, and 5 coarse domains. Local geometric context lifts fine accuracy from 0.342 to 0.438, whereas geometry plus text reaches 0.344. Extended single-run training reaches 0.612 fine and 0.777 coarse accuracy. In matched three-seed runs, graph models reach 0.462–0.487 fine accuracy versus 0.416 for an equally informed MLP, while source-group holdouts are weaker. The evidence supports assisted recovery of ontology-normalized authoring-layer organization, not unrestricted engineering-object recognition or unattended automation.</p>
+      </div>
+    </article>
+    
     </section>
     
 
@@ -81,46 +110,61 @@
       <h2>Mechanical Systems and Signal Processing</h2>
       
     <article class="card">
-      <h4><a href="https://doi.org/10.1016/j.ymssp.2026.115099" target="_blank" rel="noopener noreferrer">Nonlinear vibrations of a marine propulsion shafting rotor system considering bolt loosening and interface friction coupling</a></h4>
-      <p><strong>Authors:</strong> Xuefei Zhang, Yuefang Wang, Bin Niu</p>
-      <p><strong>Institution:</strong> Dalian University of Technology</p>
-      <p><strong>Published:</strong> 2026-10-18</p>
+      <h4><a href="https://doi.org/10.1016/j.ymssp.2026.115102" target="_blank" rel="noopener noreferrer">Physics-informed DeepONet with modal coordinate encoding for predicting dynamic responses of unseen motor housings</a></h4>
+      <p><strong>Authors:</strong> Dayeon Jeong, Seho Son, YeonJong Kim, Ki‐Yong Oh</p>
+      <p><strong>Institution:</strong> Anyang University, Hyundai Motor Group (South Korea), Hyundai Motors (South Korea)</p>
+      <p><strong>Published:</strong> 2026-10-19</p>
       <p><strong>Journal:</strong> Mechanical Systems and Signal Processing</p>
       <p><strong>Method:</strong> Hybrid</p>
       <p><strong>Citations:</strong> 0</p>
       <div>
         <strong>Abstract:</strong>
-        <p>As a critical component of marine propulsion shafting, bolted joints are prone to loosening under the influence of alternating loads and vibration impacts, leading to reduced connection stiffness and potentially inducing thrust bearing misalignment as well as mechanical-magnetic coupling faults. Moreover, under low-speed and heavy-load conditions, bolt loosening exacerbates interface friction in the stern bearing, severely compromising the safe operation of the power system. In response to the issues, a dynamic modeling method for bolt loosening based on the equivalent crack theory is proposed. This method accurately captures the periodic opening and closing behavior of the connection interface during bolt loosening through the breathing effect of the crack. Furthermore, by comprehensively considering the frictional excitation of the stern bearing and the misalignment effect of the permanent magnet thrust bearing, a coupled shafting rotor dynamic model integrating friction and bolt loosening faults is established. Through numerical simulation and experimental validation, the effects of bolt loosening, thrust bearing misalignment, and stern bearing stiffness on the nonlinear vibration response of the shafting are investigated. The vibration response characteristics and evolution laws of bolt loosening faults are characterized, and the dominant excitation sources governing the vibration response at different fault stages are identified, providing support for bolt loosening state recognition based on vibration characteristics.</p>
+        <p>This study proposes a unified physics-informed machine-learning (PIML) framework for predicting the dynamic responses of traction motor housings under unseen geometric conditions. The framework incorporates three key forms of physical priors into a neural network. First, an observation bias is introduced through modal coordinate encoding, which embeds both geometric characteristics and excitation-dependent modal contributions into the neural network. Second, an inductive bias is incorporated by deploying a separable deep operator network architecture, which effectively learns nonlinear operator mappings and generalizes them to unseen housing geometries. Third, a learning bias is enforced by embedding the governing equations of structural dynamics into the training process to ensure physically consistent predictions. Novel training strategies are also employed to enhance convergence and numerical stability during physics-informed training. Quantitative evaluations and ablation studies demonstrate the effectiveness of the proposed framework, achieving a mean MAPE of 3.32 % across the full test set and outperforming conventional neural networks. A design-optimization application further confirms that the proposed framework improves computational efficiency compared with conventional finite element analysis. Overall, this study establishes a robust framework for accelerating AI-driven design optimization and advancing intelligent structural engineering methodologies.</p>
       </div>
     </article>
     
 
     <article class="card">
-      <h4><a href="https://doi.org/10.1016/j.ymssp.2026.115056" target="_blank" rel="noopener noreferrer">Sound field shaping in thermoacoustic cells via a synergistic hybrid tuning framework: Symmetry breaking, active excitation and impedance tuning</a></h4>
-      <p><strong>Authors:</strong> Fanhao Guo, Jingtao Du, Yan Yu, Yang Liu</p>
-      <p><strong>Institution:</strong> Harbin Engineering University</p>
-      <p><strong>Published:</strong> 2026-10-18</p>
+      <h4><a href="https://doi.org/10.1016/j.ymssp.2026.115100" target="_blank" rel="noopener noreferrer">Accurate in-situ sensing and condition monitoring of bearings using embedded conformal piezoelectric sensors</a></h4>
+      <p><strong>Authors:</strong> Wenkang Li, Qingrui Yang, Yulong Chen, Jingyi Zhu, Lexuan Zhu, Liuyang Zhang, Ruqiang Yan, Xuefeng Chen</p>
+      
+      <p><strong>Published:</strong> 2026-10-19</p>
+      <p><strong>Journal:</strong> Mechanical Systems and Signal Processing</p>
+      <p><strong>Method:</strong> Experimental</p>
+      <p><strong>Citations:</strong> 0</p>
+      <div>
+        <strong>Abstract:</strong>
+        <p>Abstract not available.</p>
+      </div>
+    </article>
+    
+
+    <article class="card">
+      <h4><a href="https://doi.org/10.1016/j.ymssp.2026.115071" target="_blank" rel="noopener noreferrer">Sensitivity-driven model updating for bridge structures using operational modal analysis and enhanced batched Thompson sampling-based Bayesian optimization</a></h4>
+      <p><strong>Authors:</strong> Thu Huynh Van, Duc C. Nguyen, Quang-Viet Vu, Wei Gao, Sawekchai Tangaramvong</p>
+      <p><strong>Institution:</strong> Chulalongkorn University, Trường Đại học Xây dựng Miền Trung, VNU Vietnam Japan University, UNSW Sydney</p>
+      <p><strong>Published:</strong> 2026-10-19</p>
       <p><strong>Journal:</strong> Mechanical Systems and Signal Processing</p>
       <p><strong>Method:</strong> Hybrid</p>
       <p><strong>Citations:</strong> 0</p>
       <div>
         <strong>Abstract:</strong>
-        <p>Sound field shaping, particularly in the contexts of acoustic focusing and cloaking, remains one of the most challenging tasks in modern wave manipulation, necessitating precise control over energy distribution and propagation paths. However, conventional passive methods frequently have fundamental limitations in tunability and dynamic response, resulting in inefficient manipulation under complex boundary conditions. To address these issues, this paper proposes a synergistic hybrid tuning framework for thermoacoustic cells that achieves a sound-pressure-level control range of Δ L p = 189 dB by jointly combining temperature-gradient-driven symmetry breaking, active acoustic excitation, and general impedance boundary tuning. Each mechanism, applied in isolation, is inherently bounded: symmetry breaking cannot inject energy, active excitation cannot reconfigure the modal landscape, and impedance tuning operates within a passive design space. Their coordinated integration, however, yields a control authority that far exceeds the sum of their individual contributions. To realize this framework computationally, a spectral improved-Fourier-Galerkin method is developed for solving the linear thermoacoustic governing equations under full thermo-viscous coupling, enabling efficient free-modal and forced-response analyses with general impedance boundary conditions. A preliminary experimental validation, carried out on a thermoacoustic cell with one rigid and one open termination, confirms the predicted onset frequencies to within 1.6 %. Free-modal analysis reveals that the temperature gradient shifts the first eigenfrequency upward by 18.8 % and induces topological twists in eigenvector trajectories, thereby breaking the spatiotemporal separability of the sound field. In forced response, the boundary auxiliary function autonomously adapts its spectral weights to boundary impedance variations, confirming its capacity for dynamic boundary reconfiguration without reformulating basis functions. A parametric study across the three control degrees of freedom quantitatively demonstrates that only their synergistic coordination reaches the full 189 dB control range; any subset of mechanisms yields substantially narrower dynamic ranges. This control range is a theoretical upper bound obtained under linear conditions. The framework provides a theoretical foundation for high-authority sound field control in thermoacoustic systems, with direct implications for the design of adaptive thermoacoustic actuators and controllable acoustic waveguides.</p>
+        <p>This paper proposes a robust and effective finite element model updating (FEMU) framework for inverse parameter identification of bridge structures by integrating operational modal analysis (OMA) and variance-based global sensitivity analysis (GSA) with an enhanced batched Thompson sampling-based Bayesian optimization (ETS-BO) method. Specifically, a Gaussian process (GP) model is constructed to approximate the nonlinear relationship between uncertain structural parameters and the corresponding modal responses. Leveraging the trained GP model, the variance-based GSA identifies the most influential parameters governing the dynamic behavior of the bridge, thereby significantly reducing the dimensionality of the FEMU problem and improving computational efficiency. Building upon the reduced parameter space, the ETS-BO method is developed by integrating an adaptive trust-region selection strategy with an enhanced batched Thompson sampling (ETS) method to efficiently solve the FEMU problem. The adaptive trust-region selection evaluates the improvement potential at the regional level, guiding the search toward promising regions of the parameter space while avoiding over-exploration of less promising ones. The trust region method is then applied to perform local optimization, whereby each trust region is adaptively expanded or contracted based on its observed improvement history, and local optimization runs exhibiting greater potential for further improvement are selectively continued. Within the selected trust regions, the ETS method is employed to determine the optimal updating parameters by iteratively selecting batches of candidate solutions sampled from the posterior distributions of the corresponding independent GP models. The effectiveness of the proposed ETS-BO is validated through a real-world case study of a bridge structure equipped with wireless accelerometers for vibration monitoring. Ambient vibration responses recorded under normal traffic conditions are analyzed using OMA to identify modal parameters, which subsequently serve as targets for updating the finite element (FE) model developed to represent the structural behavior of the bridge. The results demonstrate that the proposed ETS-BO requires substantially fewer FE evaluations than conventional optimization methods while achieving rapid convergence toward the optimal solution. Furthermore, the updated FE model closely reproduces the experimentally identified modal parameters, including natural frequencies and mode shape correlations, thereby providing a reliable numerical representation of the in-service dynamic behavior of the bridge and demonstrating the potential of the proposed framework to support long-term structural health monitoring of large-scale civil infrastructure systems.</p>
       </div>
     </article>
     
 
     <article class="card">
-      <h4><a href="https://doi.org/10.1016/j.ymssp.2026.115092" target="_blank" rel="noopener noreferrer">A multi-scale progressive fusion method for predicting the remaining useful life of gears guided by a control-equation-compatible a priori cascade</a></h4>
-      <p><strong>Authors:</strong> Yuliang Chen, Jing Wei, Baoping Tang, Haibo Wei, Yan Li, Siyu Chen</p>
-      <p><strong>Institution:</strong> Chongqing University of Technology, Chongqing University, State Key Laboratory of Mechanical Transmission</p>
-      <p><strong>Published:</strong> 2026-10-18</p>
+      <h4><a href="https://doi.org/10.1016/j.ymssp.2026.115093" target="_blank" rel="noopener noreferrer">Energy transfer and modal coupling in coated composite spatial shells under thermal loading</a></h4>
+      <p><strong>Authors:</strong> Jichuan Cao, Hui Li, Guangyu Du, Xinyu Cui, 闫海乐, Bo Yang, Jian Xiong, Kaixiang Li, Zhongwei Guan</p>
+      <p><strong>Institution:</strong> Northeastern University, Aircraft Strength Research Institute (China), Chinese Academy of Sciences, Institute of Metal Research, Harbin Institute of Technology, Technology Innovation Institute</p>
+      <p><strong>Published:</strong> 2026-10-19</p>
       <p><strong>Journal:</strong> Mechanical Systems and Signal Processing</p>
-      <p><strong>Method:</strong> Other</p>
+      <p><strong>Method:</strong> Hybrid</p>
       <p><strong>Citations:</strong> 0</p>
       <div>
         <strong>Abstract:</strong>
-        <p>Gears are core transmission components of high-end equipment in aerospace, rail transit and other key fields. Accurate remaining useful life (RUL) prediction of gears is critical for equipment prognostics and health management (PHM), to ensure operational safety and reduce maintenance costs. Aiming at key limitations of existing data-driven gear RUL prediction methods, including strong data dependency, insufficient physical interpretability, low mapping accuracy and weak cross-condition generalization, this paper proposes a novel progressive multi-level feature fusion RUL prediction framework guided by cascaded control equation compatibility priors. Taking gear vibration time-domain signals as the sole input, the framework sequentially adopts three customized modules: Governing Equations Auto-Encoder (GEAE) to extract physically consistent robust degradation features, Multi-scale Fusion Network (MsNet) to construct health indicators for degradation characterization, and Dual Temporal Constraints Network (DTCNet) to achieve accurate RUL mapping. Systematic validation on two heterogeneous datasets demonstrates that the framework reduces RMSE by up to 40.6% and improves R 2 by 25.0% over end-to-end methods, while significantly enhancing HI monotonicity and trendability. Cross-seed statistical tests confirm its robustness (coefficient of variation ≤ 1.9%). The method consistently outperforms state-of-the-art approaches and exhibits strong cross-scenario generalization.</p>
+        <p>To address the vibration prediction and suppression requirements of fiber-reinforced composite spatial shells with protective coating (PC-FRCSSs) in thermal environments, this study develops an integrated framework combining dynamic modelling, coating preparation, thermal protection testing, and experimental validation. A theoretical model of PC-FRCSSs assembled from cylindrical and toroidal substructures is established by introducing virtual springs, spatial corner coupling, temperature-dependent material properties, and a higher-order shear deformation displacement field. The modal strain energy ratios and a degeneracy-sensitive coupling index are further proposed to quantify energy transfer and modal coupling. Then, the convergence analysis, literature verification, and finite element comparisons demonstrate the accuracy of the proposed model for coated and uncoated spatial shells. The coating preparation process is presented, and the thermal protection performance of the protective coating is evaluated under continuous heating at 473.15 K. Experimental results show that the maximum frequency errors of the uncoated and coated specimens are 3.96 % and 4.03 %, respectively, and the response prediction error remains within 10.91 %. The displacement responses of the coated specimens decrease by 23.5 % and 29.3 % at 299.15 K and 373.15 K, respectively. Finally, parametric results further reveal the effects of laying angle, spatial corner, and thickness-radius ratio on mode degeneracy and high-response regions.</p>
       </div>
     </article>
     
@@ -131,9 +175,24 @@
       <h2>Measurement</h2>
       
     <article class="card">
-      <h4><a href="https://doi.org/10.1016/j.measurement.2026.123466" target="_blank" rel="noopener noreferrer">Noise-robust differential thermal voltammetry features for cross-dataset lithium-ion battery state of health prediction</a></h4>
-      <p><strong>Authors:</strong> Ömer Kağan Bağdat, Tuğba Tetik, Reha Avsar, Mehmet Konar</p>
-      <p><strong>Institution:</strong> Hasan Kalyoncu University, Erciyes University, Istanbul Medeniyet University</p>
+      <h4><a href="https://doi.org/10.1016/j.measurement.2026.123618" target="_blank" rel="noopener noreferrer">Development of a novel In-situ permeability test method and apparatus based on one-dimensional Darcy’s flow conditions</a></h4>
+      <p><strong>Authors:</strong> Weiliang Ma, Longtan Shao, Longfei Hua, Yanpu Sun</p>
+      
+      <p><strong>Published:</strong> 2026-10-18</p>
+      <p><strong>Journal:</strong> Measurement</p>
+      <p><strong>Method:</strong> Experimental</p>
+      <p><strong>Citations:</strong> 0</p>
+      <div>
+        <strong>Abstract:</strong>
+        <p>Abstract not available.</p>
+      </div>
+    </article>
+    
+
+    <article class="card">
+      <h4><a href="https://doi.org/10.1016/j.measurement.2026.123390" target="_blank" rel="noopener noreferrer">Physics-informed video-based measurement for multi-horizon highway visibility estimation in fog conditions</a></h4>
+      <p><strong>Authors:</strong> Jingjing Wu, Yuexia Wang, Zhihuo Xu, Linyi Zhou</p>
+      <p><strong>Institution:</strong> Nantong University, China Meteorological Administration</p>
       <p><strong>Published:</strong> 2026-10-17</p>
       <p><strong>Journal:</strong> Measurement</p>
       <p><strong>Method:</strong> Experimental</p>
@@ -146,9 +205,54 @@
     
 
     <article class="card">
-      <h4><a href="https://doi.org/10.1016/j.measurement.2026.123594" target="_blank" rel="noopener noreferrer">YOLOv11-Fire: an intelligent fire detection model based on visible and infrared fusion images</a></h4>
-      <p><strong>Authors:</strong> Yapeng Wu, Bangkai Shi, Chen Yang, Xiaoqing Zhou, Teng Jiang, Yu Chen, Lihan Zheng</p>
-      <p><strong>Institution:</strong> Zhengzhou University of Aeronautics, Nanyang Institute of Technology, Northwestern Polytechnical University</p>
+      <h4><a href="https://doi.org/10.1016/j.measurement.2026.123607" target="_blank" rel="noopener noreferrer">Error correction in wide-gap rheometry of yield-stress fluids: An ODR piecewise modeling approach and a new understanding of apparent shear-thinning</a></h4>
+      <p><strong>Authors:</strong> Jinlong Yao, Dengpan Qiao, Tianyu Yang, Jun Wang, 程海勇</p>
+      <p><strong>Institution:</strong> Kunming University of Science and Technology</p>
+      <p><strong>Published:</strong> 2026-10-17</p>
+      <p><strong>Journal:</strong> Measurement</p>
+      <p><strong>Method:</strong> Hybrid</p>
+      <p><strong>Citations:</strong> 0</p>
+      <div>
+        <strong>Abstract:</strong>
+        <p>Abstract not available.</p>
+      </div>
+    </article>
+    
+
+    <article class="card">
+      <h4><a href="https://doi.org/10.1016/j.measurement.2026.123605" target="_blank" rel="noopener noreferrer">Quantitative characterization of semi-circumferential localized corrosion and ultimate load-carrying capacity degradation in parallel steel wire bundles via SMFL technique</a></h4>
+      <p><strong>Authors:</strong> Junyi Song, Wei Wang, Sanqing Su, Shuge Wu, Shuya Yu</p>
+      <p><strong>Institution:</strong> Xi'an University of Architecture and Technology</p>
+      <p><strong>Published:</strong> 2026-10-17</p>
+      <p><strong>Journal:</strong> Measurement</p>
+      <p><strong>Method:</strong> Experimental</p>
+      <p><strong>Citations:</strong> 0</p>
+      <div>
+        <strong>Abstract:</strong>
+        <p>Abstract not available.</p>
+      </div>
+    </article>
+    
+
+    <article class="card">
+      <h4><a href="https://doi.org/10.1016/j.measurement.2026.123609" target="_blank" rel="noopener noreferrer">Tunnel lining point cloud extraction algorithm based on ray projection and box-neighborhood acceleration</a></h4>
+      <p><strong>Authors:</strong> xu yuanzhen, Junhong Hou, Shuqi Ma, Yanhui Li, Xiangchen Yao, Jiazheng Chen</p>
+      <p><strong>Institution:</strong> Anhui University of Science and Technology, Southwest Jiaotong University</p>
+      <p><strong>Published:</strong> 2026-10-17</p>
+      <p><strong>Journal:</strong> Measurement</p>
+      <p><strong>Method:</strong> Experimental</p>
+      <p><strong>Citations:</strong> 0</p>
+      <div>
+        <strong>Abstract:</strong>
+        <p>Abstract not available.</p>
+      </div>
+    </article>
+    
+
+    <article class="card">
+      <h4><a href="https://doi.org/10.1016/j.measurement.2026.123586" target="_blank" rel="noopener noreferrer">Timekeeping framework for a GNSS disciplined OCXO with disturbed particle swarm optimization</a></h4>
+      <p><strong>Authors:</strong> Linghe Zhang, Zhongwang Wu, Longwei Xu, Jiangfeng Lai, Wenqian Yu, Liang Yuan</p>
+      <p><strong>Institution:</strong> Space Engineering University</p>
       <p><strong>Published:</strong> 2026-10-16</p>
       <p><strong>Journal:</strong> Measurement</p>
       <p><strong>Method:</strong> Experimental</p>
@@ -161,9 +265,9 @@
     
 
     <article class="card">
-      <h4><a href="https://doi.org/10.1016/j.measurement.2026.123587" target="_blank" rel="noopener noreferrer">An advanced spatiotemporal model for dynamic anomaly detection in wind turbines using multi-sensor data</a></h4>
-      <p><strong>Authors:</strong> Nguyễn Đức Thuận, Thi Hue Nguyen</p>
-      <p><strong>Institution:</strong> Trường Đại học Khoa học và Công nghệ Hà Nội, Hanoi University of Science and Technology</p>
+      <h4><a href="https://doi.org/10.1016/j.measurement.2026.123585" target="_blank" rel="noopener noreferrer">Object markerless 3D reconstruction system based on trinocular multi-line laser local reconstruction and optical tracking global registration</a></h4>
+      <p><strong>Authors:</strong> Lei Deng, Lei Deng, Min Dai, Huiming Huang, Hao Deng, Wei Rao</p>
+      <p><strong>Institution:</strong> Mianyang Normal University, Southwest University of Science and Technology, Mianyang Central Hospital</p>
       <p><strong>Published:</strong> 2026-10-16</p>
       <p><strong>Journal:</strong> Measurement</p>
       <p><strong>Method:</strong> Experimental</p>
@@ -176,23 +280,8 @@
     
 
     <article class="card">
-      <h4><a href="https://doi.org/10.1016/j.measurement.2026.123454" target="_blank" rel="noopener noreferrer">FRDSA-Net framework: A novel dynamic subdomain adaptation network with feature removal and compensation for cross-domain fault diagnosis of deep well bearings</a></h4>
-      <p><strong>Authors:</strong> Qing Li, Gongbo Zhou, Ping Zhou, Guoqing Ma, Lianfeng Han, Xiaodong Yan, Tongguang Yang</p>
-      <p><strong>Institution:</strong> China University of Mining and Technology</p>
-      <p><strong>Published:</strong> 2026-10-01</p>
-      <p><strong>Journal:</strong> Measurement</p>
-      <p><strong>Method:</strong> Experimental</p>
-      <p><strong>Citations:</strong> 0</p>
-      <div>
-        <strong>Abstract:</strong>
-        <p>Abstract not available.</p>
-      </div>
-    </article>
-    
-
-    <article class="card">
-      <h4><a href="https://doi.org/10.1016/j.measurement.2026.123399" target="_blank" rel="noopener noreferrer">Nonparametric inference for delay stochastic dynamical systems and application to adaptive cruise control</a></h4>
-      <p><strong>Authors:</strong> Dingwen Zhang, Jian Zhao, Zhuowei Sun</p>
+      <h4><a href="https://doi.org/10.1016/j.measurement.2026.123601" target="_blank" rel="noopener noreferrer">Few-shot generative data augmentation for bearings fault diagnosis based on dual-domain condition diffusion model</a></h4>
+      <p><strong>Authors:</strong> Menglei Qi, Shuai Xu, Xianning Bi, Yu Wang, Guangtong Ma</p>
       
       <p><strong>Published:</strong> 2026-10-01</p>
       <p><strong>Journal:</strong> Measurement</p>
@@ -206,9 +295,9 @@
     
 
     <article class="card">
-      <h4><a href="https://doi.org/10.1016/j.measurement.2026.123597" target="_blank" rel="noopener noreferrer">Wearable antenna array-based sensor for non-invasive and continuous blood glucose monitoring</a></h4>
-      <p><strong>Authors:</strong> Shasha Yang, Xing Gao, Zexiang Lv, Xiaowen Huang, Jie Chen, Lei Wang, Zhenxiang Yi</p>
-      <p><strong>Institution:</strong> Ministry of Education, Southeast University, Jiangsu Province Hospital, Nanjing Medical University, Lancaster University</p>
+      <h4><a href="https://doi.org/10.1016/j.measurement.2026.123580" target="_blank" rel="noopener noreferrer">A novel order abatement method using Red Panda Optimization based balanced truncation for linear time invariant system</a></h4>
+      <p><strong>Authors:</strong> Praveen Kumar</p>
+      
       <p><strong>Published:</strong> 2026-10-01</p>
       <p><strong>Journal:</strong> Measurement</p>
       <p><strong>Method:</strong> Experimental</p>
@@ -221,54 +310,9 @@
     
 
     <article class="card">
-      <h4><a href="https://doi.org/10.1016/j.measurement.2026.123593" target="_blank" rel="noopener noreferrer">Target-based three-dimensional displacement measurement of rock slopes using optimized stereo vision and improved YOLOv11s</a></h4>
-      <p><strong>Authors:</strong> Wenyuan Xu, Yiran Wu, Xiang Li, Xianhong Ma</p>
-      <p><strong>Institution:</strong> Northeast Forestry University</p>
-      <p><strong>Published:</strong> 2026-10-01</p>
-      <p><strong>Journal:</strong> Measurement</p>
-      <p><strong>Method:</strong> Experimental</p>
-      <p><strong>Citations:</strong> 0</p>
-      <div>
-        <strong>Abstract:</strong>
-        <p>Abstract not available.</p>
-      </div>
-    </article>
-    
-
-    <article class="card">
-      <h4><a href="https://doi.org/10.1016/j.measurement.2026.123598" target="_blank" rel="noopener noreferrer">Electrostatic response characteristics of a hypervelocity free-flying model: an experimental study based on a ballistic range platform</a></h4>
-      <p><strong>Authors:</strong> Manyu Wang, Bing Wang, Zhongzheng He, Liran Li, Pengfei Li</p>
-      <p><strong>Institution:</strong> Beijing Institute of Technology</p>
-      <p><strong>Published:</strong> 2026-10-01</p>
-      <p><strong>Journal:</strong> Measurement</p>
-      <p><strong>Method:</strong> Experimental</p>
-      <p><strong>Citations:</strong> 0</p>
-      <div>
-        <strong>Abstract:</strong>
-        <p>Abstract not available.</p>
-      </div>
-    </article>
-    
-
-    <article class="card">
-      <h4><a href="https://doi.org/10.1016/j.measurement.2026.123599" target="_blank" rel="noopener noreferrer">Advances in embedded and implanted PZT sensors for concrete structural health monitoring using wave propagation techniques</a></h4>
-      <p><strong>Authors:</strong> Ziqian Yang, Qingzhao Kong, Weihang Gao, Hong Hao</p>
-      <p><strong>Institution:</strong> Nanyang Technological University, Tongji University, Guangzhou University</p>
-      <p><strong>Published:</strong> 2026-10-01</p>
-      <p><strong>Journal:</strong> Measurement</p>
-      <p><strong>Method:</strong> Experimental</p>
-      <p><strong>Citations:</strong> 0</p>
-      <div>
-        <strong>Abstract:</strong>
-        <p>Abstract not available.</p>
-      </div>
-    </article>
-    
-
-    <article class="card">
-      <h4><a href="https://doi.org/10.1016/j.measurement.2026.123590" target="_blank" rel="noopener noreferrer">Target-free structural displacement measurement using line segment matching based on edge detection</a></h4>
-      <p><strong>Authors:</strong> Liujun Guo, Yulong Cai, Wenhua Guo, B. Duan, Yufan Shen</p>
-      <p><strong>Institution:</strong> Central South University</p>
+      <h4><a href="https://doi.org/10.1016/j.measurement.2026.123612" target="_blank" rel="noopener noreferrer">A spatially local triangular progressive scanning method for high-speed SICM imaging</a></h4>
+      <p><strong>Authors:</strong> Wenlin Wu, Jian Wang, Qiangqiang ZHENG, 史生, Haiyuan Yan, Jianwei Zhu, Xiaobo Liao, De‐Wen Zhang, Jian Zhuang</p>
+      <p><strong>Institution:</strong> Xi'an Jiaotong University, Nantong University, Affiliated Hospital of Nantong University, Southwest University of Science and Technology</p>
       <p><strong>Published:</strong> 2026-10-01</p>
       <p><strong>Journal:</strong> Measurement</p>
       <p><strong>Method:</strong> Experimental</p>
@@ -284,7 +328,126 @@
 
     <section id="engineering-structures" class="journal-section">
       <h2>Engineering Structures</h2>
-      <p class="empty">No items in this section.</p>
+      
+    <article class="card">
+      <h4><a href="https://doi.org/10.1016/j.engstruct.2026.123980" target="_blank" rel="noopener noreferrer">Experimental and numerical evaluation of school desks with earthquake life-saving function</a></h4>
+      <p><strong>Authors:</strong> Michele Mirra, Fabio Micozzi, Laura Gioiella, Michele Morici, Francesco Allegrezza, Andrea Dall’Asta, Alessandro Zona</p>
+      
+      <p><strong>Published:</strong> 2026-10-19</p>
+      <p><strong>Journal:</strong> Engineering Structures</p>
+      <p><strong>Method:</strong> Hybrid</p>
+      <p><strong>Citations:</strong> 0</p>
+      <div>
+        <strong>Abstract:</strong>
+        <p>Abstract not available.</p>
+      </div>
+    </article>
+    
+
+    <article class="card">
+      <h4><a href="https://doi.org/10.1016/j.engstruct.2026.123958" target="_blank" rel="noopener noreferrer">Transformer-based video motion magnification for vision-driven structural health monitoring: Experimental validation on lab and full-scale structures</a></h4>
+      <p><strong>Authors:</strong> Marco A. Pérez, Ricard Lado-Roigé</p>
+      <p><strong>Institution:</strong> Universitat Ramon Llull</p>
+      <p><strong>Published:</strong> 2026-10-19</p>
+      <p><strong>Journal:</strong> Engineering Structures</p>
+      <p><strong>Method:</strong> Hybrid</p>
+      <p><strong>Citations:</strong> 0</p>
+      <div>
+        <strong>Abstract:</strong>
+        <p>This paper investigates the potential of deep learning-based video motion magnification (VMM) to enhance vision-based structural health monitoring (SHM) under real-world conditions. The proposed approach integrates a Swin Transformer architecture to amplify subtle structural vibrations captured in video recordings, aiming to improve the stability and reliability of non-contact dynamic response measurements. Building upon prior research on learning-based VMM, this paper evaluates whether incorporating attention-based representations can mitigate typical image artifacts and noise amplification seen in traditional approaches and enable the extraction of quantitative vibration-related indicators relevant to SHM. Experimental validation on both laboratory-scale and full-scale structures demonstrates that STB-VMM provides sharper magnified motion and more stable frequency responses than a previous convolutional model, particularly when video quality or spatial resolution is limited. The results suggest that transformer-based magnification represents a promising approach for enhancing vision-based vibration measurements, contributing to the advancement of practical, scalable, and cost-efficient SHM using standard video recordings.</p>
+      </div>
+    </article>
+    
+
+    <article class="card">
+      <h4><a href="https://doi.org/10.1016/j.engstruct.2026.123977" target="_blank" rel="noopener noreferrer">Embedded diffuse ultrasonic sensing for early-age concrete hydration monitoring in real bridge structures</a></h4>
+      <p><strong>Authors:</strong> Ziqian Yang, Qingzhao Kong, Xiuquan Li, Yang Xia</p>
+      
+      <p><strong>Published:</strong> 2026-10-19</p>
+      <p><strong>Journal:</strong> Engineering Structures</p>
+      <p><strong>Method:</strong> Other</p>
+      <p><strong>Citations:</strong> 0</p>
+      <div>
+        <strong>Abstract:</strong>
+        <p>Abstract not available.</p>
+      </div>
+    </article>
+    
+
+    <article class="card">
+      <h4><a href="https://doi.org/10.1016/j.engstruct.2026.123978" target="_blank" rel="noopener noreferrer">Cyclic behaviour of partially prefabricated concrete-encased-and-filled steel tubular columns with rebar-to-steel plate lap splices</a></h4>
+      <p><strong>Authors:</strong> Hong‐Song Hu, HU Hong-song, Konstantinos A. Skalomenos, Hao-Jian Xia</p>
+      
+      <p><strong>Published:</strong> 2026-10-19</p>
+      <p><strong>Journal:</strong> Engineering Structures</p>
+      <p><strong>Method:</strong> Other</p>
+      <p><strong>Citations:</strong> 0</p>
+      <div>
+        <strong>Abstract:</strong>
+        <p>Abstract not available.</p>
+      </div>
+    </article>
+    
+
+    <article class="card">
+      <h4><a href="https://doi.org/10.1016/j.engstruct.2026.123956" target="_blank" rel="noopener noreferrer">Revealing the interfaces contact state of assembled joint based on intelligent interface monitoring</a></h4>
+      <p><strong>Authors:</strong> Jiahuan Huang, Tong Qiu, Xiangsheng Chen, Tianjun Wu, Wei Rao, Kaibin Ye, Wuxiong Chen, Jieling Chen</p>
+      
+      <p><strong>Published:</strong> 2026-10-19</p>
+      <p><strong>Journal:</strong> Engineering Structures</p>
+      <p><strong>Method:</strong> Other</p>
+      <p><strong>Citations:</strong> 0</p>
+      <div>
+        <strong>Abstract:</strong>
+        <p>Abstract not available.</p>
+      </div>
+    </article>
+    
+
+    <article class="card">
+      <h4><a href="https://doi.org/10.1016/j.engstruct.2026.123997" target="_blank" rel="noopener noreferrer">Mechanisms of double-lock-in vortex-induced vibration of the 5:1 rectangular cylinder</a></h4>
+      <p><strong>Authors:</strong> Yage Wu, Huan Li, Xuhui He, Ziyang Zhao, Borong Peng</p>
+      
+      <p><strong>Published:</strong> 2026-10-19</p>
+      <p><strong>Journal:</strong> Engineering Structures</p>
+      <p><strong>Method:</strong> Other</p>
+      <p><strong>Citations:</strong> 0</p>
+      <div>
+        <strong>Abstract:</strong>
+        <p>Abstract not available.</p>
+      </div>
+    </article>
+    
+
+    <article class="card">
+      <h4><a href="https://doi.org/10.1016/j.engstruct.2026.123955" target="_blank" rel="noopener noreferrer">Proposal of a numerical methodology for the measure and optimization of structural damage in the controlled demolition of masonry arch bridges</a></h4>
+      <p><strong>Authors:</strong> Luigi Salvatore Rainone, Giuseppina Uva, Siro Casolo</p>
+      
+      <p><strong>Published:</strong> 2026-10-19</p>
+      <p><strong>Journal:</strong> Engineering Structures</p>
+      <p><strong>Method:</strong> Numerical Simulation</p>
+      <p><strong>Citations:</strong> 0</p>
+      <div>
+        <strong>Abstract:</strong>
+        <p>Abstract not available.</p>
+      </div>
+    </article>
+    
+
+    <article class="card">
+      <h4><a href="https://doi.org/10.1016/j.engstruct.2026.123904" target="_blank" rel="noopener noreferrer">Formulating pinched hysteresis models of wood shear walls using time integrals of restoring force and displacement</a></h4>
+      <p><strong>Authors:</strong> Jin‐Song Pei, Xuanda Shao, Joseph P. Wright, Shiling Pei, Yue Li, Joseph Havlicek, Peng F. Tang, Royce W. Floyd, Aikaterini P. Kyprioti</p>
+      <p><strong>Institution:</strong> Colorado School of Mines, Western Michigan University, Weidlinger Associates (United States), Case Western Reserve University, University of Oklahoma, Meta (United States)</p>
+      <p><strong>Published:</strong> 2026-10-19</p>
+      <p><strong>Journal:</strong> Engineering Structures</p>
+      <p><strong>Method:</strong> Hybrid</p>
+      <p><strong>Citations:</strong> 0</p>
+      <div>
+        <strong>Abstract:</strong>
+        <p>Modeling hysteresis is highly relevant for many nonlinear vibrating systems, calling for physically insightful and computational efficient solutions. In earthquake and wind engineering, wood shear walls are subjected to lateral loads rendering highly hysteretic load–displacement responses featuring pinching, force-intercept, and strength and stiffness degradation. Existing phenomenological models directly work on the evolution of the load and displacement, often leading to complicated models with a large number of empirical parameters. Facilitated with three real-world experimental datasets for wood shear walls from an existing publication, this study showcases an alternative hysteresis modeling approach. The time integrals of load and displacement are utilized instead; modeling pinching is made front and center. This is mem-modeling transferred from electrical engineering, where “mem” is for memory, i.e., hysteresis. Grounded in bond graph theory, formulated under nonlinear state-space representation, and enriched with hybrid dynamical system concepts, the mem-modeling framework is substantiated with critical details such as choices of state variables, formulation and visualization of the governing secant modulus functions, conceptually ready for identification and simulation using real-world restoring force–displacement responses.</p>
+      </div>
+    </article>
+    
     </section>
     
 
@@ -298,12 +461,27 @@
       <h2>Tunnelling and Underground Space Technology</h2>
       
     <article class="card">
-      <h4><a href="https://doi.org/10.1016/j.tust.2026.108222" target="_blank" rel="noopener noreferrer">Life Cycle Assessment of open single-shield Tunnel Boring Machine Tunnelling: An Integrated Parametric Exploration Framework</a></h4>
-      <p><strong>Authors:</strong> Lucille Baucal–Poyac, L. D'Aloia Schwartzentruber, Didier Subrin, Adélaïde Féraille</p>
+      <h4><a href="https://doi.org/10.1016/j.tust.2026.108242" target="_blank" rel="noopener noreferrer">An intelligent tunnel lining crack inspection framework via deep learning segmentation and geometric feature quantification</a></h4>
+      <p><strong>Authors:</strong> Xiaohua Bao, Yanzuo Chen, Yingpeng Li, Liping Huang, Tiantian Song, Xiangsheng Chen, Hongzhi Cui</p>
       
-      <p><strong>Published:</strong> 2026-10-18</p>
+      <p><strong>Published:</strong> 2026-10-20</p>
       <p><strong>Journal:</strong> Tunnelling and Underground Space Technology</p>
-      <p><strong>Method:</strong> Other</p>
+      <p><strong>Method:</strong> Machine Learning</p>
+      <p><strong>Citations:</strong> 0</p>
+      <div>
+        <strong>Abstract:</strong>
+        <p>Abstract not available.</p>
+      </div>
+    </article>
+    
+
+    <article class="card">
+      <h4><a href="https://doi.org/10.1016/j.tust.2026.108246" target="_blank" rel="noopener noreferrer">Full-scale experimental investigation of progressive failure characteristics and failure mechanisms of hybrid fiber-reinforced concrete (HFRC) lining with reduced reinforcement ratio</a></h4>
+      <p><strong>Authors:</strong> Yingpeng Li, Xiaohua Bao, Xuehui Zhang, Rui Wang, Xiangsheng Chen, Hongzhi Cui</p>
+      
+      <p><strong>Published:</strong> 2026-10-19</p>
+      <p><strong>Journal:</strong> Tunnelling and Underground Space Technology</p>
+      <p><strong>Method:</strong> Experimental</p>
       <p><strong>Citations:</strong> 0</p>
       <div>
         <strong>Abstract:</strong>
@@ -323,7 +501,7 @@
   <div class="archive">
     <h2>Previous Updates</h2>
     <ul>
-      <li><a href="./archive/2026-10-18.html">2026-10-18</a></li><li><a href="./archive/2026-10-17.html">2026-10-17</a></li><li><a href="./archive/2026-10-16.html">2026-10-16</a></li><li><a href="./archive/2026-10-15.html">2026-10-15</a></li><li><a href="./archive/2026-10-14.html">2026-10-14</a></li><li><a href="./archive/2026-10-13.html">2026-10-13</a></li><li><a href="./archive/2026-10-12.html">2026-10-12</a></li><li><a href="./archive/2026-10-11.html">2026-10-11</a></li><li><a href="./archive/2026-10-10.html">2026-10-10</a></li><li><a href="./archive/2026-10-09.html">2026-10-09</a></li><li><a href="./archive/2026-10-08.html">2026-10-08</a></li><li><a href="./archive/2026-10-07.html">2026-10-07</a></li><li><a href="./archive/2026-10-06.html">2026-10-06</a></li><li><a href="./archive/2026-10-05.html">2026-10-05</a></li><li><a href="./archive/2026-10-04.html">2026-10-04</a></li><li><a href="./archive/2026-10-03.html">2026-10-03</a></li><li><a href="./archive/2026-10-02.html">2026-10-02</a></li><li><a href="./archive/2026-10-01.html">2026-10-01</a></li><li><a href="./archive/2026-09-30.html">2026-09-30</a></li><li><a href="./archive/2026-09-29.html">2026-09-29</a></li><li><a href="./archive/2026-09-28.html">2026-09-28</a></li><li><a href="./archive/2026-09-27.html">2026-09-27</a></li><li><a href="./archive/2026-09-26.html">2026-09-26</a></li><li><a href="./archive/2026-09-25.html">2026-09-25</a></li><li><a href="./archive/2026-09-24.html">2026-09-24</a></li><li><a href="./archive/2026-09-23.html">2026-09-23</a></li><li><a href="./archive/2026-09-22.html">2026-09-22</a></li><li><a href="./archive/2026-09-21.html">2026-09-21</a></li><li><a href="./archive/2026-09-20.html">2026-09-20</a></li><li><a href="./archive/2026-09-19.html">2026-09-19</a></li>
+      <li><a href="./archive/2026-10-19.html">2026-10-19</a></li><li><a href="./archive/2026-10-18.html">2026-10-18</a></li><li><a href="./archive/2026-10-17.html">2026-10-17</a></li><li><a href="./archive/2026-10-16.html">2026-10-16</a></li><li><a href="./archive/2026-10-15.html">2026-10-15</a></li><li><a href="./archive/2026-10-14.html">2026-10-14</a></li><li><a href="./archive/2026-10-13.html">2026-10-13</a></li><li><a href="./archive/2026-10-12.html">2026-10-12</a></li><li><a href="./archive/2026-10-11.html">2026-10-11</a></li><li><a href="./archive/2026-10-10.html">2026-10-10</a></li><li><a href="./archive/2026-10-09.html">2026-10-09</a></li><li><a href="./archive/2026-10-08.html">2026-10-08</a></li><li><a href="./archive/2026-10-07.html">2026-10-07</a></li><li><a href="./archive/2026-10-06.html">2026-10-06</a></li><li><a href="./archive/2026-10-05.html">2026-10-05</a></li><li><a href="./archive/2026-10-04.html">2026-10-04</a></li><li><a href="./archive/2026-10-03.html">2026-10-03</a></li><li><a href="./archive/2026-10-02.html">2026-10-02</a></li><li><a href="./archive/2026-10-01.html">2026-10-01</a></li><li><a href="./archive/2026-09-30.html">2026-09-30</a></li><li><a href="./archive/2026-09-29.html">2026-09-29</a></li><li><a href="./archive/2026-09-28.html">2026-09-28</a></li><li><a href="./archive/2026-09-27.html">2026-09-27</a></li><li><a href="./archive/2026-09-26.html">2026-09-26</a></li><li><a href="./archive/2026-09-25.html">2026-09-25</a></li><li><a href="./archive/2026-09-24.html">2026-09-24</a></li><li><a href="./archive/2026-09-23.html">2026-09-23</a></li><li><a href="./archive/2026-09-22.html">2026-09-22</a></li><li><a href="./archive/2026-09-21.html">2026-09-21</a></li><li><a href="./archive/2026-09-20.html">2026-09-20</a></li>
     </ul>
   </div>
 </body>
