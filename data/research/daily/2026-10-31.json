@@ -1,0 +1,431 @@
+{
+  "date": "2026-10-31",
+  "journals": {
+    "Automation in Construction": [
+      {
+        "id": "https://openalex.org/W7224764215",
+        "doi": "10.1016/j.autcon.2026.107328",
+        "title": "Continuous horizontal construction of concrete shells by 3D printing",
+        "published": "2026-10-30",
+        "url": "https://doi.org/10.1016/j.autcon.2026.107328",
+        "authors": [
+          "Yujun Niu",
+          "Chaofeng Wang",
+          "Hung-Wen Oliver Chung",
+          "Kenichi Soga"
+        ],
+        "institutions": [],
+        "journal": "Automation in Construction",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7224780754",
+        "doi": "10.1016/j.autcon.2026.107322",
+        "title": "Inverse design of architectural floorplans with gradient-based optimization of binary subdivision graphs",
+        "published": "2026-10-30",
+        "url": "https://doi.org/10.1016/j.autcon.2026.107322",
+        "authors": [
+          "Shaoyi Wang",
+          "Ramon Weber"
+        ],
+        "institutions": [
+          "University of California, Berkeley"
+        ],
+        "journal": "Automation in Construction",
+        "abstract": "Computer-aided floorplan synthesis automates a core task in architecture and construction planning: balancing room programs, connectivity, areas, and boundary constraints. The fuzzy nature of machine-learning models makes it difficult for generative methods to achieve the precision and predictable edits needed in architectural design. Building on a hypergraph representation coupling binary subdivision graphs with access graphs, this paper proposes a gradient-based inverse-design workflow for controllable floorplan synthesis. Its differentiable soft-split formulation converts subdivision parameters into continuous room masks, allowing room areas and compactness to be optimized while preserving a prescribed or retrieved subdivision structure. Compared with non-differentiable optimization, this method is faster and performs favorably on several connectivity metrics. Residential floorplan experiments show improved access satisfaction and area accuracy over existing methods. The effectiveness of the proposed method is demonstrated across several design scenarios, supporting interactive computer-aided design and controllable layout synthesis for early-stage decision making under varied design requirements.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      },
+      {
+        "id": "https://openalex.org/W7224849648",
+        "doi": "10.1016/j.autcon.2026.107337",
+        "title": "Physics-informed LSTM framework for modeling thruster-cable coupled dynamics of dam inspection ROVs",
+        "published": "2026-10-30",
+        "url": "https://doi.org/10.1016/j.autcon.2026.107337",
+        "authors": [
+          "Mingzhe Liu",
+          "Junjie Li"
+        ],
+        "institutions": [
+          "Hohai University",
+          "Suzhou Research Institute"
+        ],
+        "journal": "Automation in Construction",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Numerical Simulation"
+      },
+      {
+        "id": "https://openalex.org/W7224864161",
+        "doi": "10.1016/j.autcon.2026.107341",
+        "title": "Bridge-aware cross-source geometric connectivity recovery and neural rendering from heterogeneous UAV and smartphone imagery",
+        "published": "2026-10-30",
+        "url": "https://doi.org/10.1016/j.autcon.2026.107341",
+        "authors": [
+          "Deshui He",
+          "Yi Wang",
+          "Shiying Li",
+          "Haoyu Wang"
+        ],
+        "institutions": [],
+        "journal": "Automation in Construction",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7224929620",
+        "doi": "10.1016/j.autcon.2026.107336",
+        "title": "Global BIM–SLAM map registration using virtual LiDAR scanning and deep learning",
+        "published": "2026-10-30",
+        "url": "https://doi.org/10.1016/j.autcon.2026.107336",
+        "authors": [
+          "Woojin Shim",
+          "Sunwoong Paik",
+          "김요한",
+          "Hyoungkwan 김형관Kim"
+        ],
+        "institutions": [
+          "Yonsei University"
+        ],
+        "journal": "Automation in Construction",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Machine Learning"
+      }
+    ],
+    "Mechanical Systems and Signal Processing": [
+      {
+        "id": "https://openalex.org/W7224803867",
+        "doi": "10.1016/j.ymssp.2026.115044",
+        "title": "A multimodal fusion intelligent diagnosis framework for incipient faults in proportional directional valves",
+        "published": "2026-10-30",
+        "url": "https://doi.org/10.1016/j.ymssp.2026.115044",
+        "authors": [
+          "Hanfeng Zhang",
+          "Qi Su",
+          "Zhi Qiu",
+          "Zebing Mao",
+          "Jin Zhang",
+          "Bing Xu"
+        ],
+        "institutions": [],
+        "journal": "Mechanical Systems and Signal Processing",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7224807511",
+        "doi": "10.1016/j.ymssp.2026.115136",
+        "title": "Experimental study on correlation between wheel-rail damage evolution and curve squeal noise",
+        "published": "2026-10-30",
+        "url": "https://doi.org/10.1016/j.ymssp.2026.115136",
+        "authors": [
+          "Qinghua Lin",
+          "Han Jian",
+          "Shuyue Zhang",
+          "Zongwen Hu",
+          "Qiang Lin",
+          "Wenjian Wang",
+          "Qiyue Liu",
+          "Zhongrong Zhou",
+          "Haohao Ding"
+        ],
+        "institutions": [
+          "Southwest Jiaotong University"
+        ],
+        "journal": "Mechanical Systems and Signal Processing",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7224847379",
+        "doi": "10.1016/j.ymssp.2026.115112",
+        "title": "From input-output open loop data to closed loop poles",
+        "published": "2026-10-30",
+        "url": "https://doi.org/10.1016/j.ymssp.2026.115112",
+        "authors": [
+          "Dionisio P. Bernal",
+          "Martin Dalgaard Ulriksen"
+        ],
+        "institutions": [],
+        "journal": "Mechanical Systems and Signal Processing",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7224909114",
+        "doi": "10.1016/j.ymssp.2026.115135",
+        "title": "Temperature-conditioned lamb wave healthy baseline reconstruction for damage localization",
+        "published": "2026-10-30",
+        "url": "https://doi.org/10.1016/j.ymssp.2026.115135",
+        "authors": [
+          "Chunbing Zhang",
+          "Xiaofeng Liu",
+          "Daiping Wei",
+          "Fan Yang",
+          "Lin Bo",
+          "Jun Luo"
+        ],
+        "institutions": [],
+        "journal": "Mechanical Systems and Signal Processing",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7224934799",
+        "doi": "10.1016/j.ymssp.2026.115133",
+        "title": "Near real-time skidding rate estimation in rolling bearings using Fiber Bragg Grating sensors",
+        "published": "2026-10-30",
+        "url": "https://doi.org/10.1016/j.ymssp.2026.115133",
+        "authors": [
+          "Mohammad Javad Haghdoust Manjili",
+          "Xin Wang",
+          "Mohammadali Sadaghian",
+          "Xihui Liang"
+        ],
+        "institutions": [],
+        "journal": "Mechanical Systems and Signal Processing",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      }
+    ],
+    "Measurement": [
+      {
+        "id": "https://openalex.org/W7224128143",
+        "doi": "10.1016/j.measurement.2026.123716",
+        "title": "Quality evaluation method for cold-welded and over-welded polyethylene butt fusion joints based on phased array ultrasonic testing",
+        "published": "2026-10-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123716",
+        "authors": [
+          "Yuhang Zheng",
+          "Yi Zhang",
+          "Jianfeng Tang",
+          "Yi Fang",
+          "Daocheng Yu",
+          "Yong Xu"
+        ],
+        "institutions": [
+          "China University of Petroleum, East China"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7224135796",
+        "doi": "10.1016/j.measurement.2026.123717",
+        "title": "A flexible capacitive three-dimensional force tactile sensor with pyramidal microstructured electrodes for accurate force decoupling",
+        "published": "2026-10-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123717",
+        "authors": [
+          "Haitao Zhang",
+          "Jing Wen",
+          "Jie Zheng",
+          "Yao Wu",
+          "Yufeng Wang",
+          "Yungang Wu",
+          "Wenhui Zhu"
+        ],
+        "institutions": [
+          "Central South University"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7224169023",
+        "doi": "10.1016/j.measurement.2026.123693",
+        "title": "Dual-stage CUDA acceleration coupled with data compression for ultra-fast reconstruction of non-uniform path gas absorption spectra",
+        "published": "2026-10-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123693",
+        "authors": [
+          "Puyousen Zhang",
+          "Yiwen Li",
+          "Binbin Pei",
+          "Yao Li",
+          "Yinghong Li"
+        ],
+        "institutions": [
+          "Air Force Engineering University"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7224193900",
+        "doi": "10.1016/j.measurement.2026.123676",
+        "title": "Spatial Manifold-Aware joint registration for trimming allowance measurement of aircraft Thin-Walled panels",
+        "published": "2026-10-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123676",
+        "authors": [
+          "Ruchen Chen",
+          "Jun Yang",
+          "Zhengjie Xue",
+          "Qiang He",
+          "Runfeng Xiao",
+          "Lupeng Ma",
+          "Weiping He"
+        ],
+        "institutions": [
+          "Xi'an Jiaotong University",
+          "Northwestern Polytechnical University"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7224199532",
+        "doi": "10.1016/j.measurement.2026.123706",
+        "title": "Hall-sensor-based measurement of impeller axial displacement in a maglev pump and analysis of its influence by hydraulic force",
+        "published": "2026-10-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123706",
+        "authors": [
+          "Xiaorong Bai",
+          "Liang Hu",
+          "Rui Su",
+          "Yingnan Shen",
+          "Xiaodong Ruan",
+          "Xin Fu"
+        ],
+        "institutions": [
+          "State Key Laboratory Fluid Power and Mechatronic Systems",
+          "Zhejiang University"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7224212983",
+        "doi": "10.1016/j.measurement.2026.123734",
+        "title": "Soil multi-component prediction using near-infrared spectroscopy via KCK2KAN-based knowledge distillation model",
+        "published": "2026-10-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123734",
+        "authors": [
+          "Zhiqi Gao",
+          "Jie Li",
+          "Fengxu Yang",
+          "Xupu Chen",
+          "Jiashuo Zhang",
+          "Qiaoyun Wang"
+        ],
+        "institutions": [
+          "Northeastern University"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7224263612",
+        "doi": "10.1016/j.measurement.2026.123732",
+        "title": "Measurement-based evaluation of startup acceleration profiles in a servo-driven vertical multistage pump",
+        "published": "2026-10-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123732",
+        "authors": [
+          "Dong Li",
+          "Heyong Han",
+          "Gaoqi Sheng",
+          "Yinuo Li",
+          "Liu Chuiyi",
+          "Haoyu He",
+          "Cheng Li"
+        ],
+        "institutions": [
+          "Taiyuan University of Science and Technology"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7224350066",
+        "doi": "10.1016/j.measurement.2026.123661",
+        "title": "CT-CLIP: A multimodal recognition method for apple leaf diseases in complex orchard environments",
+        "published": "2026-10-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123661",
+        "authors": [
+          "Lemin Liu",
+          "胡方超 Hu Fangchao",
+          "Honghua Jiang",
+          "Yaru Chen",
+          "Limin Liu",
+          "Yongliang Qiao"
+        ],
+        "institutions": [
+          "Shangdong Agriculture and Engineering University",
+          "Shandong Agricultural University",
+          "University of Surrey",
+          "Australian Institute of Business",
+          "The University of Adelaide"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7224447442",
+        "doi": "10.1016/j.measurement.2026.123709",
+        "title": "Photoacoustic spectroscopy and applications: A comprehensive review",
+        "published": "2026-10-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123709",
+        "authors": [
+          "Minarul I. Sarkar",
+          "Paramjit Singh",
+          "Jorge Yáñez"
+        ],
+        "institutions": [
+          "University of Concepción"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Review / Survey"
+      },
+      {
+        "id": "https://openalex.org/W7224469184",
+        "doi": "10.1016/j.measurement.2026.123730",
+        "title": "Electrostatic equivalent-peak-potential screening of electric-field stress in a 275-kv insulated cross-arm under lightning-, switching-, and temporary-overvoltage-equivalent conditions",
+        "published": "2026-10-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123730",
+        "authors": [
+          "Matiullah Ahsan",
+          "Azrul Mohd Ariffin",
+          "Md Nor Ramdon Baharom. Baharom",
+          "Ihsan Ullah Khalil"
+        ],
+        "institutions": [
+          "Universiti Tenaga Nasional",
+          "National University of Sciences and Technology"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      }
+    ],
+    "Engineering Structures": [],
+    "Ultrasonics": [],
+    "Tunnelling and Underground Space Technology": [],
+    "Rock Mechanics and Rock Engineering": []
+  }
+}
