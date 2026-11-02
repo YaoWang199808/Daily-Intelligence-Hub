@@ -1,0 +1,382 @@
+{
+  "date": "2026-11-02",
+  "journals": {
+    "Automation in Construction": [],
+    "Mechanical Systems and Signal Processing": [
+      {
+        "id": "https://openalex.org/W7225043777",
+        "doi": "10.1016/j.ymssp.2026.115117",
+        "title": "URDN: Hyperspherical boundary-guided uncertainty-rectified contrastive learning for Railway Point Machine diagnosis under zero-prior label evolution and imperfect sensing",
+        "published": "2026-11-01",
+        "url": "https://doi.org/10.1016/j.ymssp.2026.115117",
+        "authors": [
+          "Xiaoxi Hu",
+          "Yuqi Wu",
+          "Yuhan Huang",
+          "Xueyi Li",
+          "Tianyang Wang",
+          "Fulei Chu"
+        ],
+        "institutions": [
+          "Beijing Jiaotong University",
+          "Tsinghua University",
+          "Chinese Academy of Sciences",
+          "Institute of Information Engineering",
+          "University of Chinese Academy of Sciences",
+          "Northeast Forestry University"
+        ],
+        "journal": "Mechanical Systems and Signal Processing",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7225048952",
+        "doi": "10.1016/j.ymssp.2026.115159",
+        "title": "Digital twin-driven global and local response analyses of a vehicle-bridge coupled system with parameter identification",
+        "published": "2026-11-01",
+        "url": "https://doi.org/10.1016/j.ymssp.2026.115159",
+        "authors": [
+          "Ting-Hao Zhang",
+          "Guo-Qing Zhang",
+          "Di Wu",
+          "XU You-lin"
+        ],
+        "institutions": [],
+        "journal": "Mechanical Systems and Signal Processing",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      }
+    ],
+    "Measurement": [
+      {
+        "id": "https://openalex.org/W7225035477",
+        "doi": "10.1016/j.measurement.2026.123745",
+        "title": "Study of eddy current distribution and surface roughness characterization for as-built additive manufacturing AlSi10Mg",
+        "published": "2026-11-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123745",
+        "authors": [
+          "Pengcheng Ding",
+          "Chengqin Zhu",
+          "Tianyou Zhong",
+          "Zhiwei Zeng"
+        ],
+        "institutions": [],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7225044644",
+        "doi": "10.1016/j.measurement.2026.123474",
+        "title": "A practical TLS-based framework for automated batch verticality assessment of piers with incomplete point cloud data",
+        "published": "2026-11-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123474",
+        "authors": [
+          "Guotao Hu",
+          "Kaiwen Liu",
+          "Yin Zhou",
+          "Hao Bai",
+          "Zongyu Zhang",
+          "Feiyun Yuan",
+          "Donglin Jia"
+        ],
+        "institutions": [
+          "Southwest Jiaotong University",
+          "State Key Laboratory Breeding Base of Mountain Bridge and Tunnel Engineering",
+          "Chongqing Jiaotong University"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7225048505",
+        "doi": "10.1016/j.measurement.2026.123740",
+        "title": "Weighted large field-of-view stereo calibration method using modulation transfer function-based confidence fields",
+        "published": "2026-11-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123740",
+        "authors": [
+          "Xin Wang",
+          "Lei Wang",
+          "Shuangbao Shu",
+          "Junjie Niu",
+          "Penghao Hu",
+          "Mengya Lu"
+        ],
+        "institutions": [],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7225049434",
+        "doi": "10.1016/j.measurement.2026.123721",
+        "title": "Bottom re-detection for accurate bathymetric measurement of multibeam echosounders at high incidence angles based on water column data and self-attention network",
+        "published": "2026-11-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123721",
+        "authors": [
+          "Jun Yan",
+          "Junxia Meng",
+          "赵建虎",
+          "Ming Liang"
+        ],
+        "institutions": [],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7225055107",
+        "doi": "10.1016/j.measurement.2026.123688",
+        "title": "Frequency domain signal reconstruction for dual-channel digital bandwidth interleaving system",
+        "published": "2026-11-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123688",
+        "authors": [
+          "Yusen Wang",
+          "Yi Zhang",
+          "Yanli Wang",
+          "Jiangjiang Wang",
+          "Yijiu Zhao"
+        ],
+        "institutions": [
+          "University of Electronic Science and Technology of China"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7225062983",
+        "doi": "10.1016/j.measurement.2026.123708",
+        "title": "An unsupervised spatial-temporal statistical gated fusion autoencoder for anomaly detection and early warning of marine diesel engines",
+        "published": "2026-11-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123708",
+        "authors": [
+          "Yu Qi",
+          "Jiayue LIU",
+          "Xinyi QIAN",
+          "Shaoqiong YANG",
+          "Qingji Zhou"
+        ],
+        "institutions": [],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7224945960",
+        "doi": "10.1016/j.measurement.2026.123699",
+        "title": "Intelligent fault diagnosis of computed tomography equipment based on improved hippopotamus optimization algorithm and adaptive data augmentation",
+        "published": "2026-10-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123699",
+        "authors": [
+          "Yi Xiao",
+          "Qinming Liu",
+          "Ming Dong",
+          "Tianyu Tang"
+        ],
+        "institutions": [
+          "University of Shanghai for Science and Technology",
+          "Shanghai Jiao Tong University"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7225000296",
+        "doi": "10.1016/j.measurement.2026.123680",
+        "title": "Maximizing noble gas ion yields in secondary ion mass spectrometry through surface engineering",
+        "published": "2026-10-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123680",
+        "authors": [
+          "Paweł Piotr Michałowski"
+        ],
+        "institutions": [
+          "Łukasiewicz Research Network - Institute of Microelectronics and Photonics"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7225000848",
+        "doi": "10.1016/j.measurement.2026.123724",
+        "title": "Efficiency-driven partitioned mass-type tuning method for micro-hemispherical resonators with teeth-like tines",
+        "published": "2026-10-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123724",
+        "authors": [
+          "Haoning Zheng",
+          "林宙韻",
+          "Yalong Wang",
+          "Jingjin Gao",
+          "Xiaoyan Sun",
+          "Youwang Hu",
+          "Duan Jian"
+        ],
+        "institutions": [
+          "Central South University",
+          "Henan University of Urban Construction"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7225005641",
+        "doi": "10.1016/j.measurement.2026.123596",
+        "title": "Research on adaptive measurement path planning for multi-line laser scanner based on CAD model",
+        "published": "2026-10-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123596",
+        "authors": [
+          "Yichen Huang",
+          "Huakun Jia",
+          "Xiangyang Wang",
+          "Yang Lu",
+          "Tao Zhang",
+          "高荣科 Gao Rongke",
+          "Jianjie Zhao",
+          "Jianeng Xiao",
+          "Liandong Yu"
+        ],
+        "institutions": [
+          "China University of Petroleum, East China"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      }
+    ],
+    "Engineering Structures": [],
+    "Ultrasonics": [],
+    "Tunnelling and Underground Space Technology": [
+      {
+        "id": "https://openalex.org/W7225034636",
+        "doi": "10.1016/j.tust.2026.108275",
+        "title": "Next 24 h rockburst probabilistic warning using microseismic monitoring and machine learning",
+        "published": "2026-11-01",
+        "url": "https://doi.org/10.1016/j.tust.2026.108275",
+        "authors": [
+          "Xin Li",
+          "Nuwen Xu",
+          "Hui Zhang",
+          "Yuan Tian",
+          "Xingguo Yang",
+          "Biao Li",
+          "Can Yang"
+        ],
+        "institutions": [],
+        "journal": "Tunnelling and Underground Space Technology",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Machine Learning"
+      },
+      {
+        "id": "https://openalex.org/W7225039767",
+        "doi": "10.1016/j.tust.2026.108120",
+        "title": "Elemental potential of streets: A self-organizing model of the geological conditions of the province of Quebec using investigative and generative AI",
+        "published": "2026-11-01",
+        "url": "https://doi.org/10.1016/j.tust.2026.108120",
+        "authors": [
+          "Michael Robert Doyle"
+        ],
+        "institutions": [
+          "Université Laval"
+        ],
+        "journal": "Tunnelling and Underground Space Technology",
+        "abstract": "Current urban planning treats the subsurface as a passive solid or void, constrained by a “needs to resources” paradigm that marginalizes geological knowledge. Standard mapping methodologies, particularly those using the Analytic Hierarchy Process, rely on manual expert solicitation, which is logistically burdensome and prone to cognitive blind spots. This research proposes a theoretical shift from target-oriented systems to an obstacle-oriented framework. Designating the street segment as the fundamental unit of analysis across the province of Québec, this research presents a prototype that implements a static knowledge-retrieval pipeline where a Large Language Model serves as an informational model for preliminary planning, translating hydrogeological constraints into qualitative assessments. These textual descriptions are then encoded into a continuous partition spectrum using a one-dimensional self-organizing map. The prototype demonstrates high computational robustness in standardizing qualitative data, successfully mapping the geological dichotomy between the stable crystalline basement of the Canadian Shield and the conflict-prone sedimentary basins of the St. Lawrence Lowlands. By converting qualitative data into relational contextual numbers, the model identifies latent synergies without predefined target functions. The article concludes that this pre-specific modeling approach validates the utility of artificial intelligence in mitigating cognitive blind spots, demonstrating how computational models can complement human engineering by repositioning geological insights at the very beginning of the urban design process. By establishing a topos of communication capable of circulating around the inherent opacity of the geological volume, this method offers a scalable instrument for sustainable underground urbanism that treats the earth not as an anecdotal resource, but as an active constituent of the built environment.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      },
+      {
+        "id": "https://openalex.org/W7225043619",
+        "doi": "10.1016/j.tust.2026.108272",
+        "title": "A knowledge-driven collaborative-design model for drill-and-blast tunnel support enhanced by large language model",
+        "published": "2026-11-01",
+        "url": "https://doi.org/10.1016/j.tust.2026.108272",
+        "authors": [
+          "Xinyu Kou",
+          "Xiaojun Li",
+          "Jiaxin Ling",
+          "Chao Chen",
+          "Yi Rui"
+        ],
+        "institutions": [],
+        "journal": "Tunnelling and Underground Space Technology",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7225050048",
+        "doi": "10.1016/j.tust.2026.108279",
+        "title": "Geotextile reinforcement for protecting buried pipelines: Experimental evaluation of reinforcement geometry and pipe response",
+        "published": "2026-11-01",
+        "url": "https://doi.org/10.1016/j.tust.2026.108279",
+        "authors": [
+          "Rifat Enes Bitkin"
+        ],
+        "institutions": [],
+        "journal": "Tunnelling and Underground Space Technology",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      }
+    ],
+    "Rock Mechanics and Rock Engineering": [
+      {
+        "id": "https://openalex.org/W7225045828",
+        "doi": "10.1007/s00603-026-06079-6",
+        "title": "A Comparison of Tensile Testing Techniques and Predictive Correlations",
+        "published": "2026-11-02",
+        "url": "https://doi.org/10.1007/s00603-026-06079-6",
+        "authors": [
+          "Evan J. Lindenbach",
+          "Jack R. Foran",
+          "Kevin P. Schaeffer",
+          "R. G. Bearce"
+        ],
+        "institutions": [],
+        "journal": "Rock Mechanics and Rock Engineering",
+        "abstract": "Abstract The engineering properties of a rock foundation are key parameters in the analysis of dams as they inform an understanding of how a structure will perform under a loading condition of interest. One important, but difficult to accurately evaluate, engineering property is the tensile strength of rock. As the direct tensile strength (DTS) testing of intact rock is non-trivial and expensive, the tensile strength is typically inferred from more common indirect methods, such as the Brazilian tensile strength (BTS) test, akin to the splitting tensile strength test performed on concrete, or using correlations to other mechanical properties, such as the crack initiation (CI) strength, m i parameter from the Generalized Hoek-Brown failure criterion, or the Mode I fracture toughness. This research leverages a robust laboratory testing program utilizing a state-of-the-art digital image correlation (DIC) system to understand how the different platen shapes and the use of a soft cushion affect BTS results, improve the understanding about the relationship between DTS and BTS tests (with a specific focus on optimizing the test arrangement), and explores correlations between other laboratory-measured properties (e.g., CI and m i ) and the DTS. The DTS was difficult to measure directly, but was found to be closely related to the BTS when testing was performed using curved platens, with or without a cushion; this testing arrangement also resulted in a failure mechanism that aligns with the underlying assumptions from Hondros (1959); ISRM (1978); and ASTM (2016). When analyzing the BTS data from different platen arrangements, it is important to use a relationship that incorporates the loading arc angle to ensure data are comparable as the BTS is a function of the loading arc angle in the full stress solution. The use of CI or m i to estimate the DTS was found to be unreliable with the BTS providing the closest approximation",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7225058837",
+        "doi": "10.1007/s00603-026-06046-1",
+        "title": "Study on Fracture Evolution Regularities in Ice Subjected to Water Jet Impingement and Impact Depth Prediction Model",
+        "published": "2026-11-02",
+        "url": "https://doi.org/10.1007/s00603-026-06046-1",
+        "authors": [
+          "Xuanyi Chen",
+          "Binbin Ge",
+          "Zhaolong GE",
+          "Jianming Shangguan",
+          "HongWei Zhang",
+          "Ruihan Ge",
+          "Jinming Cui",
+          "Sen Wen",
+          "Mengting Wang"
+        ],
+        "institutions": [],
+        "journal": "Rock Mechanics and Rock Engineering",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      }
+    ]
+  }
+}
