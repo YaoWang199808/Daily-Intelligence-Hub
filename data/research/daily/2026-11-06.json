@@ -1,0 +1,428 @@
+{
+  "date": "2026-11-06",
+  "journals": {
+    "Automation in Construction": [],
+    "Mechanical Systems and Signal Processing": [
+      {
+        "id": "https://openalex.org/W7163871987",
+        "doi": "10.1016/j.ymssp.2026.115141",
+        "title": "Physics-guided compositional diffusion with confidence-rectified ensemble for generalized zero-shot compound fault diagnosis",
+        "published": "2026-11-05",
+        "url": "https://doi.org/10.1016/j.ymssp.2026.115141",
+        "authors": [
+          "Lie Xu",
+          "Birui Wu"
+        ],
+        "institutions": [
+          "Zhejiang University of Technology",
+          "Ningde Normal University"
+        ],
+        "journal": "Mechanical Systems and Signal Processing",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7164755637",
+        "doi": "10.1016/j.ymssp.2026.115157",
+        "title": "Dual-channel triboelectric in-situ sensors for synchronous roller-cage kinematic monitoring, fault diagnosis and lubrication state prediction in cylindrical roller bearings",
+        "published": "2026-11-05",
+        "url": "https://doi.org/10.1016/j.ymssp.2026.115157",
+        "authors": [
+          "Rui Zhang",
+          "Shuai Gao",
+          "Shuai Li",
+          "Ruoke Qin",
+          "J N Xiao",
+          "Qinkai Han",
+          "Gang Chen",
+          "Huayan Pu",
+          "Jun Luo"
+        ],
+        "institutions": [
+          "Chongqing University",
+          "State Key Laboratory of Mechanical Transmission",
+          "State Key Laboratory of Tribology",
+          "Tsinghua University"
+        ],
+        "journal": "Mechanical Systems and Signal Processing",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7225326401",
+        "doi": "10.1016/j.ymssp.2026.115084",
+        "title": "Interpretable discrepancy learning in dynamical systems using Bayesian SINDy-NARX: The B-SINARX framework",
+        "published": "2026-11-05",
+        "url": "https://doi.org/10.1016/j.ymssp.2026.115084",
+        "authors": [
+          "Eyoel Atnafe",
+          "Rafael de Oliveira Teloli",
+          "Émeline Sadoulet-Reboul",
+          "Scott Cogan"
+        ],
+        "institutions": [
+          "Centre National de la Recherche Scientifique",
+          "Franche-Comté Électronique Mécanique Thermique et Optique - Sciences et Technologies",
+          "Université Marie et Louis Pasteur"
+        ],
+        "journal": "Mechanical Systems and Signal Processing",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      }
+    ],
+    "Measurement": [
+      {
+        "id": "https://openalex.org/W7171193139",
+        "doi": "10.1016/j.measurement.2026.123767",
+        "title": "Load pressure prediction and structural optimization of a deflector jet hydraulic amplifier based on response surface methodology and residual multilayer perceptron framework",
+        "published": "2026-11-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123767",
+        "authors": [
+          "Haozhuang Geng",
+          "Lingxiao Quan",
+          "Zihang Fang",
+          "Mingyuan Wang",
+          "Changhong Guo",
+          "Bin Li"
+        ],
+        "institutions": [
+          "Yanshan University"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7225204278",
+        "doi": "10.1016/j.measurement.2026.123758",
+        "title": "Recent advances in piezoelectric and pyroelectric bio sensors for wearable health monitoring applications: a focused review",
+        "published": "2026-11-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123758",
+        "authors": [
+          "P. Utchimahali Muthu Raja",
+          "G. Kausalya Sasikumar",
+          "K. Abirami",
+          "R.R. Shenthilkumar",
+          "Ramyakrishna Pothu",
+          "Rajender Boddula"
+        ],
+        "institutions": [
+          "KPR Institute of Engineering and Technology",
+          "Sengunthar Engineering College (Autonomous)",
+          "Hunan University",
+          "Sharda University"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Review / Survey"
+      },
+      {
+        "id": "https://openalex.org/W7225227283",
+        "doi": "10.1016/j.measurement.2026.123783",
+        "title": "Reconstructing photodetector figures of merit: A metrological framework for gain–speed consistency, detectivity traceability, and uncertainty reporting",
+        "published": "2026-11-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123783",
+        "authors": [
+          "Ахмеджанов Фархад Рашидович",
+          "Jurabek Abdiev"
+        ],
+        "institutions": [
+          "Academy of Sciences Republic of Uzbekistan",
+          "Institute of Ion Plasma Laser Technologies"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7225238817",
+        "doi": "10.1016/j.measurement.2026.123685",
+        "title": "SegWeldCT: The novel dataset of 3D CT scans with defective welds",
+        "published": "2026-11-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123685",
+        "authors": [
+          "Vojtech Schiller",
+          "Anzhelika Mezina",
+          "Radim Bürget",
+          "Vojtěch Myška",
+          "Petr Ćejka",
+          "Ivana Turková",
+          "Marek Kotrlý"
+        ],
+        "institutions": [
+          "Brno University of Technology",
+          "Policie České republiky - Kriminalistický ústav"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7225239395",
+        "doi": "10.1016/j.measurement.2026.123719",
+        "title": "Contrastive prototype learning with GAF spatio-temporal feature fusion representation for transfer fault diagnosis",
+        "published": "2026-11-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123719",
+        "authors": [
+          "Jie Zhou",
+          "Aisong Qin",
+          "Longqiu Shao",
+          "Qinghua Zhang",
+          "Qin Hu"
+        ],
+        "institutions": [
+          "Guangdong University of Petrochemical Technology"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7225242047",
+        "doi": "10.1016/j.measurement.2026.123729",
+        "title": "Estimation of internal heat source power from infrared thermographic measurements for fault diagnosis of low-voltage electrical equipment",
+        "published": "2026-11-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123729",
+        "authors": [
+          "Jia Chen",
+          "Enchang Cui",
+          "Gao Xiaoting",
+          "Rui Wang",
+          "Jiqing Chen"
+        ],
+        "institutions": [
+          "Liaoning University",
+          "Northeastern University"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7225247231",
+        "doi": "10.1016/j.measurement.2026.123613",
+        "title": "Simultaneous gas and liquid phase flow rate measurement in wet gas using frequency-domain quality factor correction for vortex flowmeters",
+        "published": "2026-11-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123613",
+        "authors": [
+          "Jinxia Li",
+          "Yiyao Zhu",
+          "Yinghao Yu",
+          "Hongjun Sun"
+        ],
+        "institutions": [
+          "Civil Aviation University of China",
+          "Tianjin University"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7225250443",
+        "doi": "10.1016/j.measurement.2026.123772",
+        "title": "Adaptive GPR–EKF for uncertainty-calibrated cutting-force prediction with experimental closed-loop validation",
+        "published": "2026-11-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123772",
+        "authors": [
+          "Wenke Fu",
+          "Wei Yang",
+          "Qinying Li",
+          "Weijun Tian",
+          "Hongqian Xue"
+        ],
+        "institutions": [
+          "Jiangxi University of Technology",
+          "Northwestern Polytechnical University"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7225258396",
+        "doi": "10.1016/j.measurement.2026.123764",
+        "title": "An improved sensorless control strategy with DC-offset suppression state observer and finite phase set-phase locked loop for permanent magnet linear synchronous machine",
+        "published": "2026-11-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123764",
+        "authors": [
+          "Chengwei Luo",
+          "Ying Zou",
+          "Zhimeng Rao",
+          "Ming Li"
+        ],
+        "institutions": [
+          "Hunan University of Science and Technology",
+          "Southern University of Science and Technology"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7225273267",
+        "doi": "10.1016/j.measurement.2026.123765",
+        "title": "A multi-objective optimization framework for accelerated life test design of an electric tractor transmission",
+        "published": "2026-11-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123765",
+        "authors": [
+          "Seung-Min Baek",
+          "Dong-Wook Kim",
+          "Jong-Dae Park",
+          "Hyeon-Ho Jeon",
+          "Deok-Hyun Ko",
+          "Yong–Joo Kim"
+        ],
+        "institutions": [
+          "Chungnam National University",
+          "Kyung Hee Cyber University"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      }
+    ],
+    "Engineering Structures": [
+      {
+        "id": "https://openalex.org/W7154464940",
+        "doi": "10.1016/j.engstruct.2026.124059",
+        "title": "Influence of RC infill walls on progressive collapse kinematics: A hybrid FEM-PE approach for survival space evaluation",
+        "published": "2026-11-05",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.124059",
+        "authors": [
+          "Jia-Ying Lu",
+          "Shih-huai Huang",
+          "Tsung-Chin Hou"
+        ],
+        "institutions": [
+          "National Cheng Kung University"
+        ],
+        "journal": "Engineering Structures",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Numerical Simulation"
+      },
+      {
+        "id": "https://openalex.org/W7225301352",
+        "doi": "10.1016/j.engstruct.2026.124096",
+        "title": "TI-NeRF: Temporal illumination-embedded neural radiance field for autonomous structural appearance reconstruction and surface damage rendering",
+        "published": "2026-11-05",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.124096",
+        "authors": [
+          "Yunlei Fan",
+          "Zhenliang Yang",
+          "Jinlong Xu",
+          "Yang Xu"
+        ],
+        "institutions": [
+          "Harbin Institute of Technology",
+          "Ministry of Industry and Information Technology"
+        ],
+        "journal": "Engineering Structures",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      }
+    ],
+    "Ultrasonics": [
+      {
+        "id": "https://openalex.org/W7225305113",
+        "doi": "10.1016/j.ultras.2026.108358",
+        "title": "HWDC: A SAFE-based helical waveguide dispersion Calculator for guided wave monitoring",
+        "published": "2026-11-01",
+        "url": "https://doi.org/10.1016/j.ultras.2026.108358",
+        "authors": [
+          "Xiushi Cui",
+          "Yuxuan Xie",
+          "Yan Tianhong",
+          "Dongsheng Li",
+          "Jinping Ou"
+        ],
+        "institutions": [],
+        "journal": "Ultrasonics",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7225305367",
+        "doi": "10.1016/j.ultras.2026.108364",
+        "title": "C2-ULM: Data-Efficient ultrasound localization microscopy via coherent prior MAP beamforming for Sparse, compressed receive acquisition",
+        "published": "2026-11-01",
+        "url": "https://doi.org/10.1016/j.ultras.2026.108364",
+        "authors": [
+          "Nizar Guezzi",
+          "Hyojin Seong",
+          "Youngho Seo",
+          "TaeHoon Her",
+          "Jaesok Yu"
+        ],
+        "institutions": [],
+        "journal": "Ultrasonics",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      }
+    ],
+    "Tunnelling and Underground Space Technology": [
+      {
+        "id": "https://openalex.org/W7225298649",
+        "doi": "10.1016/j.tust.2026.108268",
+        "title": "Hierarchical optimization of acoustic emission sensor placement for cross-fault tunnel linings: A physics-constrained and damage-probability-driven approach",
+        "published": "2026-11-05",
+        "url": "https://doi.org/10.1016/j.tust.2026.108268",
+        "authors": [
+          "Shuaida Zhu",
+          "Chenlong Zhang",
+          "Dongming Zhang",
+          "Mingliang Zhou",
+          "Duo Shengjun",
+          "Maria Pina Limongelli",
+          "Hongwei Huang"
+        ],
+        "institutions": [
+          "Tongji University",
+          "Politecnico di Milano",
+          "China Railway First Survey and Design Institute Group Co. Ltd."
+        ],
+        "journal": "Tunnelling and Underground Space Technology",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7225300359",
+        "doi": "10.1016/j.tust.2026.108283",
+        "title": "Probabilistic assessment of segmental shield tunnels under random high-speed train loads using an advanced periodic analysis framework and response reconstruction technique",
+        "published": "2026-11-05",
+        "url": "https://doi.org/10.1016/j.tust.2026.108283",
+        "authors": [
+          "Zheng Li",
+          "Wei-Dong Wang",
+          "Zhi-Wu Yu",
+          "Borong Peng",
+          "Lei Xu"
+        ],
+        "institutions": [],
+        "journal": "Tunnelling and Underground Space Technology",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      }
+    ],
+    "Rock Mechanics and Rock Engineering": []
+  }
+}
