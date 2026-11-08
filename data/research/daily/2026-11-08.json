@@ -1,0 +1,551 @@
+{
+  "date": "2026-11-08",
+  "journals": {
+    "Automation in Construction": [
+      {
+        "id": "https://openalex.org/W7225461231",
+        "doi": "10.1016/j.autcon.2026.107318",
+        "title": "Simulating human-building interactions in adaptive environments: Narrative-based coordination of human and spatial agents",
+        "published": "2026-11-07",
+        "url": "https://doi.org/10.1016/j.autcon.2026.107318",
+        "authors": [
+          "Davide Schaumann"
+        ],
+        "institutions": [
+          "Technion – Israel Institute of Technology"
+        ],
+        "journal": "Automation in Construction",
+        "abstract": "Multi-agent simulation supports occupant behavior analyses in static buildings, but rarely extends to dynamically reconfigurable environments, preventing pre-deployment evaluation of human-building interactions. This paper introduces a narrative-based framework modeling occupants and adaptive architectural systems as agents, positioning buildings as active participants rather than passive containers. A narrative formalism coordinates human and spatial agents, a visual scripting interface enables non-experts to author interaction scenarios, and modular components aim to foster usability and transfer across spatial contexts and interaction types. An exploratory, early-stage evaluation with novice architects in an academic setting modeled eight scenarios spanning multiple spatial scales and four adaptive component types using a shared component library, indicating the framework supports simulations across spatial contexts and adaptation types. Survey responses ( n = 25) suggest participants perceived it as valuable, transferable, and supportive of complex interaction scenarios. An exploratory between-cohort comparison links reduced visual scripting node counts to improved perceived template support.",
+        "citation_count": 0,
+        "method": "Review / Survey"
+      }
+    ],
+    "Mechanical Systems and Signal Processing": [
+      {
+        "id": "https://openalex.org/W4416975780",
+        "doi": "10.1016/j.ymssp.2026.115151",
+        "title": "Probabilistic digital twin for misspecified structural dynamical systems via latent force modeling and Bayesian Neural Networks",
+        "published": "2026-11-07",
+        "url": "https://doi.org/10.1016/j.ymssp.2026.115151",
+        "authors": [
+          "Sahil Kashyap",
+          "Rajdip Nayek"
+        ],
+        "institutions": [],
+        "journal": "Mechanical Systems and Signal Processing",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      },
+      {
+        "id": "https://openalex.org/W4417223325",
+        "doi": "10.1016/j.ymssp.2026.115145",
+        "title": "Estimating diffusive body-wave properties in bounded concrete members using an energy-contribution-based image-source method",
+        "published": "2026-11-07",
+        "url": "https://doi.org/10.1016/j.ymssp.2026.115145",
+        "authors": [
+          "Hao Cheng",
+          "Katrin Löer",
+          "Max A.N. Hendriks",
+          "Yuguang Yang"
+        ],
+        "institutions": [
+          "Delft University of Technology",
+          "Norwegian University of Science and Technology"
+        ],
+        "journal": "Mechanical Systems and Signal Processing",
+        "abstract": "Reliable characterization of diffusive body-wave properties in concrete is essential for damage assessment and diffuse-wave-based imaging. However, existing approaches either neglect boundary reflections, thereby biasing the fitted properties, or rely on full analytical solutions for bounded domains, which greatly increase the complexity of curve fitting. In this study, an energy-contribution-based image-source method is proposed for concrete members with external planar concrete-air boundaries. The method retains only the image sources whose energy contributions are sufficiently large, thereby reducing model complexity while maintaining agreement with the bounded-domain solution. The method is evaluated using four concrete members with multiple pairs of ultrasonic sensors embedded. The experimental comparisons show that neglecting reflected energy underestimates both diffusivity and dissipation, with the strongest influence occurring at low frequencies. The comparisons across the four members show that retaining the dominant reflection terms achieves close agreement with the cuboid-domain benchmark, with only marginal improvement from additional reflections. These comparisons, together with the estimated reflection contributions, suggest approximately 30% as an empirical reference level for reflection screening in similar configurations. For the retained reflection configurations, the mean relative differences of diffusivity and dissipation remain below 2% for all four members when compared with the cuboid-medium reference solution, while the computational cost is much lower than that of the full analytical formulation. Across all members, diffusivity decreases with increasing frequency, and dissipation increases with increasing frequency. These results indicate that the proposed method provides a benchmark-consistent and computationally efficient approach to estimate frequency-dependent diffusive properties in bounded concrete members with approximately planar free concrete-air boundaries in the monitored region.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      },
+      {
+        "id": "https://openalex.org/W7203726623",
+        "doi": "10.1016/j.ymssp.2026.115166",
+        "title": "Uncertainty-aware deep learning framework for rolling bearing fault diagnosis under complex operating conditions",
+        "published": "2026-11-07",
+        "url": "https://doi.org/10.1016/j.ymssp.2026.115166",
+        "authors": [
+          "Xiyu Pan",
+          "Zhou Shao",
+          "Kailin Luo",
+          "Zuozhou Pan",
+          "Fei Jiang",
+          "Fengkai Shang",
+          "Shuang Liu",
+          "Zong Meng",
+          "Wenhao Lu"
+        ],
+        "institutions": [
+          "China Jiliang University",
+          "Dongguan University of Technology",
+          "Shijiazhuang University",
+          "Yanshan University",
+          "University of Alberta"
+        ],
+        "journal": "Mechanical Systems and Signal Processing",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Machine Learning"
+      },
+      {
+        "id": "https://openalex.org/W7225455522",
+        "doi": "10.1016/j.ymssp.2026.115176",
+        "title": "A 3D absolute nodal coordinate formulation for the nonlinear dynamics of cantilevered aspirating pipes partially immersed in fluid",
+        "published": "2026-11-07",
+        "url": "https://doi.org/10.1016/j.ymssp.2026.115176",
+        "authors": [
+          "Hongrui Guo",
+          "Mingyue Liu",
+          "Longfei Xiao"
+        ],
+        "institutions": [
+          "Shanghai Jiao Tong University",
+          "State Key Laboratory of Ocean Engineering"
+        ],
+        "journal": "Mechanical Systems and Signal Processing",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Analytical / Theoretical"
+      },
+      {
+        "id": "https://openalex.org/W7225455671",
+        "doi": "10.1016/j.ymssp.2026.115193",
+        "title": "A modular nonlinear vibration isolator based on compression-torsion coupled chiral structures for low-frequency vibration isolation",
+        "published": "2026-11-07",
+        "url": "https://doi.org/10.1016/j.ymssp.2026.115193",
+        "authors": [
+          "Xiao Mi",
+          "Zhiguang Song"
+        ],
+        "institutions": [],
+        "journal": "Mechanical Systems and Signal Processing",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7225464714",
+        "doi": "10.1016/j.ymssp.2026.115142",
+        "title": "Synthetic-data-trained ISTA unfolding network for aeroengine acoustic mode identification",
+        "published": "2026-11-07",
+        "url": "https://doi.org/10.1016/j.ymssp.2026.115142",
+        "authors": [
+          "Siteng Jia",
+          "Baijie Qiao",
+          "Rui Zhou",
+          "Jun Du",
+          "Bi Wen",
+          "Ming Zhong",
+          "Yanan Wang",
+          "Xuefeng Chen"
+        ],
+        "institutions": [
+          "Xi'an Jiaotong University"
+        ],
+        "journal": "Mechanical Systems and Signal Processing",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      }
+    ],
+    "Measurement": [
+      {
+        "id": "https://openalex.org/W7225344765",
+        "doi": "10.1016/j.measurement.2026.123682",
+        "title": "A review of magnetic sensors for nondestructive testing",
+        "published": "2026-11-05",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123682",
+        "authors": [
+          "Xun Zou",
+          "Yu Li",
+          "Wuliang Yin"
+        ],
+        "institutions": [
+          "University of Manchester"
+        ],
+        "journal": "Measurement",
+        "abstract": "Magnetic sensors are essential components for electromagnetic nondestructive testing (NDT). In practical applications, the diverse operating principles and performance characteristics make magnetic sensor selection challenging. This review analyzes mainstream magnetic sensors used in NDT, including induction coils, Hall effect sensors, magnetoresistive sensors, giant magneto-impedance sensors, magnetoelectric composite sensors, fluxgate magnetometers, superconducting quantum interference devices, optically pumped magnetometers, and nitrogen-vacancy center sensors. Their operating principles, applications in major NDT techniques and performance characteristics are summarized, with magnetic noise discussed in relation to measurement conditions and practical defect detectability. In addition, comparisons are presented in terms of representative magnetic noise, output sensitivity, advantages, and limitations. Based on the comparisons, key considerations for sensor selection and future research directions are also discussed.",
+        "citation_count": 0,
+        "method": "Review / Survey"
+      },
+      {
+        "id": "https://openalex.org/W7168347353",
+        "doi": "10.1016/j.measurement.2026.123831",
+        "title": "Quantitative multi-class crack analysis in cementitious materials using convolutional neural networks",
+        "published": "2026-11-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123831",
+        "authors": [
+          "Richard Dvořák",
+          "Vlastimil Bílek",
+          "Dominik Lisztwan",
+          "Petr Nápravník",
+          "Rostislav Krč",
+          "Barbara Kucharczyková"
+        ],
+        "institutions": [
+          "Brno University of Technology"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      },
+      {
+        "id": "https://openalex.org/W7203914484",
+        "doi": "10.1016/j.measurement.2026.123750",
+        "title": "Persistence-guided GMCC-AUKF for earthquake-induced structural damage identification considering non-Gaussian measurement noise",
+        "published": "2026-11-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123750",
+        "authors": [
+          "Zhiwei Shan",
+          "Chen-Tao Zhang",
+          "Shu-Hui Huang",
+          "Tong Guo"
+        ],
+        "institutions": [
+          "Southeast University",
+          "University of Hong Kong"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7225323966",
+        "doi": "10.1016/j.measurement.2026.123801",
+        "title": "Measurement-quality-oriented acoustic sensing for short-term wind power forecasting at the Dayou wind farm",
+        "published": "2026-11-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123801",
+        "authors": [
+          "Bingchuan Sun",
+          "Soheil Mohtaram",
+          "Kim Tiow Ooi",
+          "Mingxu Su"
+        ],
+        "institutions": [
+          "University of Shanghai for Science and Technology",
+          "Nanyang Technological University"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7225332060",
+        "doi": "10.1016/j.measurement.2026.123802",
+        "title": "Hybrid feature fusion for thermal tomographic image classification: A measurement-oriented comparative analysis of representation and performance",
+        "published": "2026-11-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123802",
+        "authors": [
+          "Chayan Kumar Basak",
+          "Gautam Sarkar",
+          "Palash Kumar Kundu"
+        ],
+        "institutions": [
+          "Jadavpur University"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7225332276",
+        "doi": "10.1016/j.measurement.2026.123715",
+        "title": "A physics-informed neural network-aided factor graph optimization method for SINS/GPS integrated navigation during GPS outages",
+        "published": "2026-11-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123715",
+        "authors": [
+          "Jing Mi",
+          "Qing Wang",
+          "Xiaotao Han",
+          "YouChen Liu"
+        ],
+        "institutions": [
+          "Southeast University"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      },
+      {
+        "id": "https://openalex.org/W7225333571",
+        "doi": "10.1016/j.measurement.2026.123786",
+        "title": "Fiber-optic sensor for sequential measurement of temperature and force via synergistic up/down-conversion luminescence",
+        "published": "2026-11-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123786",
+        "authors": [
+          "Zhiyuan Yin",
+          "Haoyu Yang",
+          "Xiaopeng Li",
+          "Rao Fu",
+          "Xiaobing Chen",
+          "Xin Yan",
+          "Xue Zhou",
+          "Wei Liu"
+        ],
+        "institutions": [
+          "State Key Laboratory of Synthetical Automation for Process Industries",
+          "Northeastern University",
+          "Chinese Academy of Sciences",
+          "Institute of Metal Research",
+          "Shenyang National Laboratory for Materials Science"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7225335413",
+        "doi": "10.1016/j.measurement.2026.123817",
+        "title": "Enhancing stray voltage measurement accuracy via continuous in-orbit compensation for inertial sensors",
+        "published": "2026-11-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123817",
+        "authors": [
+          "Jiayuan Geng",
+          "Junjie Zhou",
+          "Ming Hu",
+          "Hongyi Fu",
+          "Jinfeng Lu",
+          "Chaoli Ouyang",
+          "Yanzheng Bai",
+          "Zebing Zhou"
+        ],
+        "institutions": [
+          "Huazhong University of Science and Technology"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7225338358",
+        "doi": "10.1016/j.measurement.2026.123803",
+        "title": "Mixed use of multi-rate double-differenced VRS and time-differenced GNSS data for high-rate structural displacement monitoring",
+        "published": "2026-11-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123803",
+        "authors": [
+          "Xuanyu Qu",
+          "Jacek Paziewski",
+          "Jiahuan Hu",
+          "Ahmed Mansour",
+          "Mahmoud Adham",
+          "丁晓利"
+        ],
+        "institutions": [
+          "Hong Kong Polytechnic University",
+          "University of Warmia and Mazury in Olsztyn"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7225339892",
+        "doi": "10.1016/j.measurement.2026.123736",
+        "title": "Predictive parameter design for time-division multiplexed hemispherical resonator gyroscopes based on spectral aliasing modeling",
+        "published": "2026-11-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123736",
+        "authors": [
+          "Shilei Zhang",
+          "Xiaobin Xu",
+          "Pengfu Lu",
+          "Ang Li",
+          "Junlin Luo",
+          "Fuyu Gao",
+          "Xiaxiao Wang",
+          "Ningfang Song"
+        ],
+        "institutions": [
+          "Tianmushan Laboratory",
+          "Beihang University"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      }
+    ],
+    "Engineering Structures": [
+      {
+        "id": "https://openalex.org/W7128912960",
+        "doi": "10.1016/j.engstruct.2026.124072",
+        "title": "Experimental investigation into the failure behaviour of square stainless-steel CFDST short columns",
+        "published": "2026-11-07",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.124072",
+        "authors": [
+          "Mostafa Fahmi Hassanein",
+          "Amr E.K. Mohamed",
+          "Yongbo Shao",
+          "Katherine Ann Cashell",
+          "MOHAMED HUSSEIN",
+          "Marijana Hadzima-Nyarko"
+        ],
+        "institutions": [
+          "Xihua University",
+          "Tanta University",
+          "Sohag University",
+          "University College London",
+          "University of Osijek"
+        ],
+        "journal": "Engineering Structures",
+        "abstract": "Abstract not available.",
+        "citation_count": 1,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7225455134",
+        "doi": "10.1016/j.engstruct.2026.124080",
+        "title": "Inverse design framework for topological metamaterials integrating deep learning and reinforcement learning",
+        "published": "2026-11-07",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.124080",
+        "authors": [
+          "Chengcheng Chu",
+          "Zhenkun Guo",
+          "Rongzheng Zou",
+          "Haiping Liu",
+          "Guobiao Hu"
+        ],
+        "institutions": [
+          "Beijing University of Civil Engineering and Architecture",
+          "University of Science and Technology Beijing",
+          "Hong Kong University of Science and Technology",
+          "The Hong Kong University of Science and Technology (Guangzhou)"
+        ],
+        "journal": "Engineering Structures",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Machine Learning"
+      },
+      {
+        "id": "https://openalex.org/W7225455457",
+        "doi": "10.1016/j.engstruct.2026.124020",
+        "title": "Wind-induced vibration control and energy harvesting of traffic signal structures",
+        "published": "2026-11-07",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.124020",
+        "authors": [
+          "Feng Qian",
+          "Ihab Ragai",
+          "Xiaochun Nie",
+          "Yabin Liao",
+          "Shuo Chen"
+        ],
+        "institutions": [],
+        "journal": "Engineering Structures",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7225460287",
+        "doi": "10.1016/j.engstruct.2026.123969",
+        "title": "Performance assessment of fully and partially welded vertical inter-module connections: Experimental results",
+        "published": "2026-11-07",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.123969",
+        "authors": [
+          "Mehmet Baris Batukan",
+          "Zhenfeng Lai",
+          "Oya Mercan",
+          "Yanhui Liu"
+        ],
+        "institutions": [],
+        "journal": "Engineering Structures",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      }
+    ],
+    "Ultrasonics": [
+      {
+        "id": "https://openalex.org/W7154298762",
+        "doi": "10.1016/j.ultras.2026.108366",
+        "title": "A real-time quantitative measurement method for resistance spot welding nugget in stainless steel thin sheets based on ultrasonic in-situ monitoring",
+        "published": "2026-11-01",
+        "url": "https://doi.org/10.1016/j.ultras.2026.108366",
+        "authors": [
+          "Jiaying Zhang",
+          "Weiqi Liu",
+          "Xinyu Zhao",
+          "Zhengguang Li",
+          "Chuandong Xiao",
+          "Pengyu Zhu"
+        ],
+        "institutions": [
+          "Dalian Jiaotong University",
+          "Dalian University of Foreign Languages",
+          "City Institute, Dalian University of Technology"
+        ],
+        "journal": "Ultrasonics",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7225462459",
+        "doi": "10.1016/j.ultras.2026.108359",
+        "title": "Image-processing-based detection of defective ultrasound transducer elements using clinical B-mode images",
+        "published": "2026-11-01",
+        "url": "https://doi.org/10.1016/j.ultras.2026.108359",
+        "authors": [
+          "Dingiswayo A Chikhwaza",
+          "Emily R. Dirr",
+          "Adrianne R. Kaiser-Vry",
+          "Stacie Madson-Whittaker",
+          "Timothy A. Bigelow"
+        ],
+        "institutions": [],
+        "journal": "Ultrasonics",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7225465980",
+        "doi": "10.1016/j.ultras.2026.108357",
+        "title": "Analytical modelling of a generalized Local defect resonance frequencies for arbitrary planar defects with Super-Elliptical boundaries",
+        "published": "2026-11-01",
+        "url": "https://doi.org/10.1016/j.ultras.2026.108357",
+        "authors": [
+          "Manish Sharma",
+          "Peddavenkatappagari Vishal",
+          "Tanmoy Bose"
+        ],
+        "institutions": [],
+        "journal": "Ultrasonics",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      }
+    ],
+    "Tunnelling and Underground Space Technology": [
+      {
+        "id": "https://openalex.org/W7225458913",
+        "doi": "10.1016/j.tust.2026.108282",
+        "title": "Deformation regulation and load-bearing mechanisms of a flexible support system in lined rock caverns for compressed air energy storage",
+        "published": "2026-11-07",
+        "url": "https://doi.org/10.1016/j.tust.2026.108282",
+        "authors": [
+          "Hongyu Huang",
+          "Guowen Xu",
+          "Chuan He",
+          "Qingguo Zhou",
+          "Mingfeng Zhong",
+          "Chen Xu",
+          "Yuankai Zeng"
+        ],
+        "institutions": [],
+        "journal": "Tunnelling and Underground Space Technology",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      }
+    ],
+    "Rock Mechanics and Rock Engineering": []
+  }
+}
