@@ -1,0 +1,533 @@
+{
+  "date": "2026-11-24",
+  "journals": {
+    "Automation in Construction": [
+      {
+        "id": "https://openalex.org/W7238757473",
+        "doi": "10.1016/j.autcon.2026.107380",
+        "title": "Image-guided robotic workflow for automated mortar joint reconstruction in regular and quasi-regular face brick masonry",
+        "published": "2026-11-23",
+        "url": "https://doi.org/10.1016/j.autcon.2026.107380",
+        "authors": [
+          "Andrea Vecchi",
+          "Alessandro Ricciutelli",
+          "Valentino Sangiorgio"
+        ],
+        "institutions": [
+          "University of Chieti-Pescara"
+        ],
+        "journal": "Automation in Construction",
+        "abstract": "Mortar joint reconstruction of exposed brick masonry is still performed manually, with limited repeatability. This paper presents an image-guided robotic workflow that converts a rectified photograph of a regular or quasi-regular face brick wall into an executable, extrusion-synchronized robot program. AI-based segmentation provides the mortar joint network, which graph-based path planning converts into an ordered deposition trajectory. The trajectory is verified through virtual commissioning, assigned a robot configuration by a multi-criteria kinematic framework, and translated into synchronized robot code. Validation covered three levels: joint centre localization on 12 walls, with a 1.44 mm mean error, within half the 8 mm minimum joint width; path generation on 30 walls, with an 86.7% direct pass rate and full recovery after band adjustment; and physical execution on a planar laboratory specimen along 6750 mm of trajectory, with computation under 45 s. The workflow links image-based survey to robotic joint repair.",
+        "citation_count": 0,
+        "method": "Review / Survey"
+      },
+      {
+        "id": "https://openalex.org/W7238825394",
+        "doi": "10.1016/j.autcon.2026.107385",
+        "title": "Hierarchical geometry-constrained scan-to-BIM framework for floor-level reconstruction from indoor point clouds",
+        "published": "2026-11-23",
+        "url": "https://doi.org/10.1016/j.autcon.2026.107385",
+        "authors": [
+          "Hui Zhang",
+          "Gang Li",
+          "Dinghao Yu",
+          "Zhiqian Dong"
+        ],
+        "institutions": [
+          "Dalian University of Technology",
+          "State Key Laboratory of Coastal and Offshore Engineering"
+        ],
+        "journal": "Automation in Construction",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      }
+    ],
+    "Mechanical Systems and Signal Processing": [
+      {
+        "id": "https://openalex.org/W4407567692",
+        "doi": "10.1016/j.ymssp.2026.115238",
+        "title": "Parameter inversion in pressurized pipelines using matched-field processing",
+        "published": "2026-11-23",
+        "url": "https://doi.org/10.1016/j.ymssp.2026.115238",
+        "authors": [
+          "Can Xu",
+          "Muhammad Waqar",
+          "Mohamed Salah Ghidaoui"
+        ],
+        "institutions": [
+          "Hong Kong University of Science and Technology",
+          "Xi'an Jiaotong University",
+          "Hong Kong Metropolitan University"
+        ],
+        "journal": "Mechanical Systems and Signal Processing",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7154213402",
+        "doi": "10.1016/j.ymssp.2026.115184",
+        "title": "Observations of internal slapping and stick–slip behavior in a bolted joint using 4-camera stereo DIC",
+        "published": "2026-11-23",
+        "url": "https://doi.org/10.1016/j.ymssp.2026.115184",
+        "authors": [
+          "Nicholas Pomianek",
+          "Trevor W. Jerome",
+          "Enrique Gutierrez-Wing",
+          "James Gregory McDaniel"
+        ],
+        "institutions": [
+          "Boston University",
+          "Naval Surface Warfare Center",
+          "NSWC Carderock Division"
+        ],
+        "journal": "Mechanical Systems and Signal Processing",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7238730689",
+        "doi": "10.1016/j.ymssp.2026.115259",
+        "title": "Double-feedback closed-loop control of fast-slow composite tool servo system for turning of complex-shaped optics",
+        "published": "2026-11-23",
+        "url": "https://doi.org/10.1016/j.ymssp.2026.115259",
+        "authors": [
+          "ZhangJie Yuan",
+          "Hao Wu",
+          "RuiYing Liu",
+          "YingChen Zheng",
+          "ZhiWei Zhu",
+          "Dingkun Meng",
+          "谭家腾",
+          "Limin Zhu"
+        ],
+        "institutions": [],
+        "journal": "Mechanical Systems and Signal Processing",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7238739784",
+        "doi": "10.1016/j.ymssp.2026.115226",
+        "title": "Nonlinear damping for one-to-one internal resonance: derivation and nonlinear vibration experiments",
+        "published": "2026-11-23",
+        "url": "https://doi.org/10.1016/j.ymssp.2026.115226",
+        "authors": [
+          "Marco Amabili"
+        ],
+        "institutions": [
+          "Westlake University",
+          "McGill University"
+        ],
+        "journal": "Mechanical Systems and Signal Processing",
+        "abstract": "A new nonlinear coupling-damping model for one-to-one internal resonance is derived for the first time and assessed against large-amplitude vibration experiments. The derivation uses the direct tangent stiffnesses of the elastic coupling potential to prescribe the displacement dependence of the damping interaction. The resulting symmetric coupling terms are governed by a single coefficient and make the damping acting on each mode depend on the squared displacement of the other mode and the velocity of the mode. These terms are combined with linear viscous and cubic damping and introduced into a model of a water-filled aluminium circular cylindrical shell based on nonlinear Novozhilov shell theory and potential flow discretized with 14 degrees of freedom. Numerical continuation and direct time integration are used to obtain the nonlinear responses, which are compared with experiments at five different harmonic force levels. Good agreement is obtained for both driven and companion modes over the full excitation range. The coupling coefficient is identified as negative, representing a reduction of intrinsic damping during modal interaction. The proposed model surpasses the limitation of using a linear viscous damping approximation, which requires readjusting the damping coefficients at each excitation level.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      },
+      {
+        "id": "https://openalex.org/W7238756884",
+        "doi": "10.1016/j.ymssp.2026.115203",
+        "title": "Student’s t degrees of freedom as a novel criterion for informative frequency band selection in rotating machinery fault diagnosis in the presence of non-Gaussian background noise",
+        "published": "2026-11-23",
+        "url": "https://doi.org/10.1016/j.ymssp.2026.115203",
+        "authors": [
+          "Justyna Hebda-Sobkowicz",
+          "Radosław Zimroz"
+        ],
+        "institutions": [
+          "Wrocław University of Science and Technology"
+        ],
+        "journal": "Mechanical Systems and Signal Processing",
+        "abstract": "This paper proposes two procedures for informative frequency band (IFB) selection in vibration-based diagnosis of rotating machinery, with primary focus on rolling element bearings operating in the presence of heavy-tailed, non-Gaussian disturbances. The procedures, called nugram and nuhilgram, follow the filterbank-based decomposition scheme of classical kurtogram-type methods: the signal is decomposed into candidate frequency bands, each band is evaluated by a scalar criterion, and the most informative band is selected for envelope-spectrum analysis. The novelty lies in the band-selection criterion. Instead of kurtosis, entropy, an α -stable parameter, etc., the proposed methods use the estimated degrees-of-freedom parameter ν of the Student’s t -location-scale distribution. The two variants differ in signal representation: the nugram estimates ν from the envelope-domain representation. Low fitted values of ν are used as an empirical score for selecting candidate bands; the selected bands are subsequently assessed through their envelope spectra. Performance is assessed on simulated signals with Gaussian and non-Gaussian, impulsive noise, Monte Carlo experiments, and semi-synthetic industrial signals in which a simulated fault signature is superimposed on real crusher vibration data, as well as a record from an industrial gearbox. Results are compared with reference methods that share the same filterbank but represent the main families of band-selection criteria: the kurtogram (moment-based), the infogram and its logarithmic and geometric variants (entropy-based), and the alphagram (heavy-tail-parameter-based, the closest competitor to the proposed criterion). In the tested scenarios, the proposed criterion remained useful when non-cyclic disturbances masked the cyclic component. The nuhilgram provided the most consistent band-localization results among the two variants. Compared with the alphagram, the nuhilgram achieves comparable or superior diagnostic effectiveness at about one eighth of its computation time, in the tested computational setting.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7238787538",
+        "doi": "10.1016/j.ymssp.2026.115277",
+        "title": "Defect detection in aerospace thin-walled stiffened structures using laser-excited ultrasonics with adaptive wavenumber-frequency domain filtering",
+        "published": "2026-11-23",
+        "url": "https://doi.org/10.1016/j.ymssp.2026.115277",
+        "authors": [
+          "Kangwen Huang",
+          "Xiaokai Wang",
+          "Shutong Dai",
+          "Shanyue Guan",
+          "Xinghui Han",
+          "Lin Hua",
+          "Rui Zuo",
+          "Xiaochun Gu",
+          "Zhao Liu",
+          "Shuang Zhao"
+        ],
+        "institutions": [],
+        "journal": "Mechanical Systems and Signal Processing",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7238864460",
+        "doi": "10.1016/j.ymssp.2026.115275",
+        "title": "Structure-decoupled and physically-guided domain generalization network for multi-rotor unbalance localization",
+        "published": "2026-11-23",
+        "url": "https://doi.org/10.1016/j.ymssp.2026.115275",
+        "authors": [
+          "Jiabin Zhang",
+          "Haiming Yi",
+          "Xiangdong Ge",
+          "Qiang Gao",
+          "Mengxi Zhao",
+          "Zeyuan Chang",
+          "Lei Hou"
+        ],
+        "institutions": [
+          "Harbin Institute of Technology",
+          "Aero Engine Corporation of China (China)",
+          "Suzhou Research Institute"
+        ],
+        "journal": "Mechanical Systems and Signal Processing",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      }
+    ],
+    "Measurement": [
+      {
+        "id": "https://openalex.org/W7204562277",
+        "doi": "10.1016/j.measurement.2026.124006",
+        "title": "A continuous-frequency characterization method of the temperature coefficient of phase shift of photoreceiver",
+        "published": "2026-11-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.124006",
+        "authors": [
+          "Zekai Huang",
+          "Bai-Fu Lu",
+          "Yurong Liang"
+        ],
+        "institutions": [
+          "Huazhong University of Science and Technology"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7212321561",
+        "doi": "10.1016/j.measurement.2026.124016",
+        "title": "Roughness-adaptive PSO parameter preconfiguration for grating signal filtering",
+        "published": "2026-11-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.124016",
+        "authors": [
+          "Xunhan Wang",
+          "Tian Li",
+          "Bangdao Chen",
+          "Weitao Jiang",
+          "Guojun Li",
+          "Dong Niu",
+          "Yongsheng Shi",
+          "Lei Yin",
+          "Lanlan Wang",
+          "Hongzhong Liu"
+        ],
+        "institutions": [
+          "Xi'an Jiaotong University"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7238724920",
+        "doi": "10.1016/j.measurement.2026.123928",
+        "title": "State of health estimation and assessment for lithium-ion batteries based on a hybrid time-frequency model",
+        "published": "2026-11-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123928",
+        "authors": [
+          "Qi Wang",
+          "Yuzhen Xu",
+          "Wentao Lyu",
+          "Qing Guo",
+          "Chengqun Wang",
+          "Zhijiang Deng"
+        ],
+        "institutions": [
+          "Zhejiang Sci-Tech University"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7238725857",
+        "doi": "10.1016/j.measurement.2026.124024",
+        "title": "Breast tumor detection using Dual Variational Autoencoder with Generative Adversarial Networks with Brown-bear Optimization Algorithm",
+        "published": "2026-11-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.124024",
+        "authors": [
+          "B. Pushpa",
+          "V. Ramu",
+          "Kuppan Padmanaban",
+          "Amirthasaravanan Arivunambi"
+        ],
+        "institutions": [
+          "SRM Dental College",
+          "Kakatiya University",
+          "Koneru Lakshmaiah Education Foundation",
+          "Pondicherry University"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7238727598",
+        "doi": "10.1016/j.measurement.2026.124005",
+        "title": "Uncertainty evaluation in hardness measurement for materials with limited labeled data using approximate Bayesian neural networks",
+        "published": "2026-11-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.124005",
+        "authors": [
+          "Junnosuke Takai",
+          "Yukimi Tanaka",
+          "Masahiro Yoshioka",
+          "Katsuhiro Shirono"
+        ],
+        "institutions": [
+          "National Institute of Advanced Industrial Science and Technology"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      },
+      {
+        "id": "https://openalex.org/W7238781164",
+        "doi": "10.1016/j.measurement.2026.124021",
+        "title": "Measurement-driven and uncertainty-aware evaluation framework for high performance magnetic shields",
+        "published": "2026-11-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.124021",
+        "authors": [
+          "Yunzhao Li",
+          "Zhiyin Sun",
+          "Xiaoyuan Zhang",
+          "Tao Wan",
+          "Liyi Li"
+        ],
+        "institutions": [
+          "Harbin Institute of Technology"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7238791646",
+        "doi": "10.1016/j.measurement.2026.123986",
+        "title": "Early warning of shield lining deformation risk during construction based on point cloud monitoring and data-driven method",
+        "published": "2026-11-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123986",
+        "authors": [
+          "Yueji He",
+          "JIACHENG ZHANG",
+          "Feng Yang",
+          "Rentai Liu",
+          "柏继文",
+          "Dukun Zhao"
+        ],
+        "institutions": [
+          "Shandong University",
+          "PLA Army Engineering University"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7238803461",
+        "doi": "10.1016/j.measurement.2026.123974",
+        "title": "Adaptive LiDAR–RGB-D measurement fusion SLAM via ellipsoidal set-membership filtering and uncertainty-weighted factor graphs",
+        "published": "2026-11-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123974",
+        "authors": [
+          "Bo Yang",
+          "Kunye Qin",
+          "Jiaqi Jin",
+          "Jiating Song",
+          "Jiayi Wang"
+        ],
+        "institutions": [
+          "Shanxi University"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7238843201",
+        "doi": "10.1016/j.measurement.2026.124009",
+        "title": "A novel GNSS leveling method based on auxiliary points for measuring deflection of the vertical",
+        "published": "2026-11-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.124009",
+        "authors": [
+          "李建章",
+          "Xin Jin",
+          "Weifang Yang",
+          "Xiaoning Su"
+        ],
+        "institutions": [],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7238850836",
+        "doi": "10.1016/j.measurement.2026.123981",
+        "title": "PCB-UniModel: A unified multi-factor inspection framework with defect detection and background segmentation for PCB quality judgment",
+        "published": "2026-11-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123981",
+        "authors": [
+          "Zican Hu",
+          "Jiaxiang Luo",
+          "Juan Du"
+        ],
+        "institutions": [
+          "Key Laboratory of Autonomous Systems and Network Control, Ministry of Education",
+          "South China University of Technology"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      }
+    ],
+    "Engineering Structures": [
+      {
+        "id": "https://openalex.org/W7169683776",
+        "doi": "10.1016/j.engstruct.2026.124146",
+        "title": "Hogging-moment behavior and capacity prediction of steel shell–steel-reinforced concrete (SSRC) composite structures",
+        "published": "2026-11-23",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.124146",
+        "authors": [
+          "Siting Dai",
+          "Yangqing Liu",
+          "Liujie Luan",
+          "Xiaoqing Du",
+          "Yuqing Liu"
+        ],
+        "institutions": [
+          "Shanghai University",
+          "Tongji University"
+        ],
+        "journal": "Engineering Structures",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7238868176",
+        "doi": "10.1016/j.engstruct.2026.124162",
+        "title": "Shaking-table investigation of dynamic seismic behavior and self-centering performance of a hybrid-connected precast pier for railway bridges",
+        "published": "2026-11-23",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.124162",
+        "authors": [
+          "Haomeng Cui",
+          "Changjiang Shao",
+          "Hui Jiang",
+          "Chen Li",
+          "Peng-Xu Jiang",
+          "Jian Hong"
+        ],
+        "institutions": [],
+        "journal": "Engineering Structures",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      }
+    ],
+    "Ultrasonics": [
+      {
+        "id": "https://openalex.org/W7238830306",
+        "doi": "10.1016/j.ultras.2026.108383",
+        "title": "Second-harmonic guided-wave generation in piezoelectric semiconductor shell waveguides with complex dispersion",
+        "published": "2026-11-01",
+        "url": "https://doi.org/10.1016/j.ultras.2026.108383",
+        "authors": [
+          "Tiqing Wang",
+          "Zelin Xu",
+          "Peng Li",
+          "Zhenghua Qian",
+          "Taizo Maruyama",
+          "Feng Zhu",
+          "Iren Kuznetsova"
+        ],
+        "institutions": [],
+        "journal": "Ultrasonics",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      }
+    ],
+    "Tunnelling and Underground Space Technology": [
+      {
+        "id": "https://openalex.org/W7238810593",
+        "doi": "10.1016/j.tust.2026.108315",
+        "title": "Knowledge-guided adaptive tunnel time-series data augmentation method to address time delay and feature degradation",
+        "published": "2026-11-23",
+        "url": "https://doi.org/10.1016/j.tust.2026.108315",
+        "authors": [
+          "Chao Li",
+          "Shuying Wang",
+          "Xiangcou Zheng",
+          "Tongming Qu"
+        ],
+        "institutions": [
+          "Central South University",
+          "Shenzhen University",
+          "Wuhan University"
+        ],
+        "journal": "Tunnelling and Underground Space Technology",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7238897020",
+        "doi": "10.1016/j.tust.2026.108319",
+        "title": "Deterioration mechanism of subsea shield tunnel segments under asymmetric corrosion caused by bilateral erosion: Electro-chemo-hydro-mechanical coupled modeling and experimental validation",
+        "published": "2026-11-23",
+        "url": "https://doi.org/10.1016/j.tust.2026.108319",
+        "authors": [
+          "Ruoyang Tang",
+          "Zhenyu Jin",
+          "Boxue Xu",
+          "Chenlin Wang",
+          "Wenjie Xing",
+          "张敬轩",
+          "Chen Wang",
+          "Chuan He",
+          "Kun Feng"
+        ],
+        "institutions": [
+          "Southwest Jiaotong University",
+          "China Railway Group (China)",
+          "Beijing Urban Construction Design & Development Group (China)"
+        ],
+        "journal": "Tunnelling and Underground Space Technology",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      }
+    ],
+    "Rock Mechanics and Rock Engineering": []
+  }
+}
