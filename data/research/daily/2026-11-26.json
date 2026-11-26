@@ -1,0 +1,812 @@
+{
+  "date": "2026-11-26",
+  "journals": {
+    "Automation in Construction": [
+      {
+        "id": "https://openalex.org/W7239782635",
+        "doi": "10.1016/j.autcon.2026.107389",
+        "title": "Autoregressive action masking with goal-agnostic delta training for zero-shot multi-task autonomous excavation",
+        "published": "2026-11-25",
+        "url": "https://doi.org/10.1016/j.autcon.2026.107389",
+        "authors": [
+          "Mingyu Shin",
+          "Byeongjin Kim",
+          "Baekdong Cha",
+          "Joongheon Kim",
+          "Soyi Jung"
+        ],
+        "institutions": [],
+        "journal": "Automation in Construction",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7239792403",
+        "doi": "10.1016/j.autcon.2026.107391",
+        "title": "Locate-then-measure workflow for automated candidate-site crack-width estimation in concrete bridge decks",
+        "published": "2026-11-25",
+        "url": "https://doi.org/10.1016/j.autcon.2026.107391",
+        "authors": [
+          "Liangwei Ma",
+          "Huating Chen",
+          "Dongsheng Li"
+        ],
+        "institutions": [
+          "Beijing University of Technology",
+          "Chongqing University"
+        ],
+        "journal": "Automation in Construction",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      }
+    ],
+    "Mechanical Systems and Signal Processing": [
+      {
+        "id": "https://openalex.org/W4416002083",
+        "doi": "10.1016/j.ymssp.2026.115280",
+        "title": "An iterative method with Fourier series for multi-channel blind chirp component source separation in structural modal analysis",
+        "published": "2026-11-25",
+        "url": "https://doi.org/10.1016/j.ymssp.2026.115280",
+        "authors": [
+          "Pengfei Jin",
+          "Zhiyu Shi",
+          "Guangxi Sun",
+          "Xujun Peng",
+          "Ge Wang"
+        ],
+        "institutions": [
+          "Nanjing University of Aeronautics and Astronautics",
+          "Harbin Engineering University",
+          "Northeast Electric Power University"
+        ],
+        "journal": "Mechanical Systems and Signal Processing",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7156273064",
+        "doi": "10.1016/j.ymssp.2026.115231",
+        "title": "Floating structures as wave buoys: Wave elevation estimation from dynamic responses of floating structures",
+        "published": "2026-11-25",
+        "url": "https://doi.org/10.1016/j.ymssp.2026.115231",
+        "authors": [
+          "Yujie Gan",
+          "Lingzhen Li",
+          "Qiyang Lin",
+          "Wei Liu",
+          "Quanke Su",
+          "Xiao‐Ling Zhao",
+          "Zhilu Lai"
+        ],
+        "institutions": [
+          "The Hong Kong University of Science and Technology (Guangzhou)",
+          "Hong Kong Polytechnic University",
+          "Nanyang Technological University",
+          "National University of Singapore",
+          "Hong Kong University of Science and Technology"
+        ],
+        "journal": "Mechanical Systems and Signal Processing",
+        "abstract": "Abstract not available.",
+        "citation_count": 1,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7171658309",
+        "doi": "10.1016/j.ymssp.2026.115237",
+        "title": "Robust LPV-ARMA model for rotating machinery fault detection in non-stationary and non-Gaussian environments",
+        "published": "2026-11-25",
+        "url": "https://doi.org/10.1016/j.ymssp.2026.115237",
+        "authors": [
+          "Zihan Li",
+          "M. Hatem",
+          "Spilios D. Fassois",
+          "Yaguo Lei",
+          "Ke Feng",
+          "Yuejian Chen"
+        ],
+        "institutions": [
+          "Shanghai Jiao Tong University",
+          "State Key Laboratory of Mechanical System and Vibration",
+          "University of Manitoba",
+          "University of Patras",
+          "Xi'an Jiaotong University"
+        ],
+        "journal": "Mechanical Systems and Signal Processing",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7204075233",
+        "doi": "10.1016/j.ymssp.2026.115223",
+        "title": "A phenomenological model for the nonlinear vibration behavior of PBF-LB/M structures with unfused particles",
+        "published": "2026-11-25",
+        "url": "https://doi.org/10.1016/j.ymssp.2026.115223",
+        "authors": [
+          "Sebastian Tatzko",
+          "Mirco Jonkeren",
+          "Marcus Oel"
+        ],
+        "institutions": [],
+        "journal": "Mechanical Systems and Signal Processing",
+        "abstract": "Influencing vibrations by unfused powder in additive manufacturing has gained interest due to a high potential for vibration reduction. This form of particle damping can be realized by PBF-LB/M (Powder Bed Fusion - Laser Beam/Metallic) within the manufacturing process. However, there are still open questions related to optimal cavity placement inside a structure as well as to modeling and simulation. The numerous particles of the fine manufacturing powder prohibit discrete element approaches with a resolution corresponding to the particle size. In this work, the effects of particle damping are approximated by means of a nonlinear oscillator with phenomenological modeling of the fundamental nonlinear effects. First of all, six beam test specimens with different cavities are designed and manufactured. The beams are then fixed to a shaker table and exposed to base excitation. From sweep measurements, the main characteristics are investigated and suitable nonlinear force models are derived. The aim is to ensure that the forces are physically meaningful and therefore interpretable. This way, the involved nonlinear mechanisms can be explained from identified parameter values. The beam dynamics are approximated by a linear two DOF system which is reduced to the second mode for each beam. The modal oscillator is expressed in the physical coordinate of the attached sensor for direct comparison of measurements and simulations. Nonlinear vibration response of the model is obtained by applying the Harmonic Balance Method (HBM). In an iterative process, the model parameters are identified for each specimen and the frequency response functions are investigated. The phenomenological approach is able to capture the different characteristics and helps to explain how friction and inertia mechanisms interact in particle dampers. The approach proposed in this work provides a preliminary step toward system identification and may serve as preparation for model development. It further helps to gain insight in the nonlinear effects involved in particle damping and how they depend on cavity size and location. The model is not intended as a design tool with transferable parameters but as an interpretation tool that helps to attribute measured effects to their physical causes in closed powder cavities, which cannot be inspected during operation.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      },
+      {
+        "id": "https://openalex.org/W7239718333",
+        "doi": "10.1016/j.ymssp.2026.115200",
+        "title": "Wireless in-situ tool wear monitoring system based on smart milling tool and cross-conditions prediction method",
+        "published": "2026-11-25",
+        "url": "https://doi.org/10.1016/j.ymssp.2026.115200",
+        "authors": [
+          "Jin Zhang",
+          "Ruihua Deng",
+          "Zhixiang Chen",
+          "孙绍凯",
+          "陶桂宝",
+          "Huajun Cao"
+        ],
+        "institutions": [],
+        "journal": "Mechanical Systems and Signal Processing",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7239762355",
+        "doi": "10.1016/j.ymssp.2026.115303",
+        "title": "Multi-kernel slow feature analysis-enhanced gated residual transformer for open-set fault diagnosis",
+        "published": "2026-11-25",
+        "url": "https://doi.org/10.1016/j.ymssp.2026.115303",
+        "authors": [
+          "Yulong Yu",
+          "Baoping Cai",
+          "Chao Yang",
+          "Zheng Wang",
+          "Yi Jiang"
+        ],
+        "institutions": [],
+        "journal": "Mechanical Systems and Signal Processing",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Machine Learning"
+      },
+      {
+        "id": "https://openalex.org/W7239875311",
+        "doi": "10.1016/j.ymssp.2026.115293",
+        "title": "Vibration characteristics of a helical gear transmission system with progressively enlarged tooth surface spalling fault: simulation and experiment",
+        "published": "2026-11-25",
+        "url": "https://doi.org/10.1016/j.ymssp.2026.115293",
+        "authors": [
+          "Hui Ma",
+          "Caizi Fan",
+          "Jichen Li",
+          "Yuan Luo",
+          "Sainan Zhou",
+          "Yongchao Zhang",
+          "Chao Zhao",
+          "Long Zhang"
+        ],
+        "institutions": [
+          "Northeastern University",
+          "Aviation Industry Corporation of China (China)"
+        ],
+        "journal": "Mechanical Systems and Signal Processing",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      },
+      {
+        "id": "https://openalex.org/W7239888286",
+        "doi": "10.1016/j.ymssp.2026.115266",
+        "title": "Event aware nonstationary degradation signal modeling for lithium-ion battery capacity and remaining useful life prediction",
+        "published": "2026-11-25",
+        "url": "https://doi.org/10.1016/j.ymssp.2026.115266",
+        "authors": [
+          "Jinrui Zhang",
+          "Kehui Zhu",
+          "Yuxuan Shi",
+          "Jiahao Li",
+          "Pengfei Zhang",
+          "Z.-Y. Liu",
+          "Xinming Li",
+          "Yanxue Wang"
+        ],
+        "institutions": [
+          "Beijing University of Civil Engineering and Architecture",
+          "Shanghai University",
+          "Jiangnan University"
+        ],
+        "journal": "Mechanical Systems and Signal Processing",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Numerical Simulation"
+      },
+      {
+        "id": "https://openalex.org/W7239896359",
+        "doi": "10.1016/j.ymssp.2026.115235",
+        "title": "A machine learning-based prognostic framework for brake pad wear prediction and remaining useful life estimation",
+        "published": "2026-11-25",
+        "url": "https://doi.org/10.1016/j.ymssp.2026.115235",
+        "authors": [
+          "V. Renukaradya",
+          "P.K. Kumar"
+        ],
+        "institutions": [
+          "Visvesvaraya Technological University"
+        ],
+        "journal": "Mechanical Systems and Signal Processing",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Machine Learning"
+      },
+      {
+        "id": "https://openalex.org/W7239898386",
+        "doi": "10.1016/j.ymssp.2026.115296",
+        "title": "Synergistic focusing of counter-propagating elastic waves with metasurfaces for amplified piezoelectric energy harvesting",
+        "published": "2026-11-25",
+        "url": "https://doi.org/10.1016/j.ymssp.2026.115296",
+        "authors": [
+          "Jehyeon Song",
+          "Geon Lee",
+          "Seung Il Kim",
+          "Hong Min Seung",
+          "Myung Hwan Bae",
+          "Junsuk Rho"
+        ],
+        "institutions": [],
+        "journal": "Mechanical Systems and Signal Processing",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      }
+    ],
+    "Measurement": [
+      {
+        "id": "https://openalex.org/W7239367395",
+        "doi": "10.1016/j.measurement.2026.123944",
+        "title": "Incipient inter-turn short-circuit fault diagnosis in induction motors: A data-driven approach based on high-frequency signal injection",
+        "published": "2026-11-24",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123944",
+        "authors": [
+          "Baoye Song",
+          "Luyao Dang",
+          "Feng Zhou",
+          "Huakun Bi",
+          "Xu Lin"
+        ],
+        "institutions": [
+          "Shandong University of Science and Technology"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7160922467",
+        "doi": "10.1016/j.measurement.2026.124063",
+        "title": "A high-precision round-platform gear-type adjustable-range displacement sensor",
+        "published": "2026-11-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.124063",
+        "authors": [
+          "Jianxian Cai",
+          "Ziyu Guo",
+          "Shiqing Zhang",
+          "Zhitao Gao",
+          "Qiang Zhang",
+          "Yunhao Wang",
+          "Xiaolei Wang"
+        ],
+        "institutions": [
+          "Institute of Disaster Prevention"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7165404258",
+        "doi": "10.1016/j.measurement.2026.124010",
+        "title": "High-precision 3D measurement of reflective aero-engine blades via reference-assisted structured-light fusion",
+        "published": "2026-11-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.124010",
+        "authors": [
+          "Jinyu Zhao",
+          "Run Huang",
+          "liang liang",
+          "Haoming Song",
+          "Wei Wang",
+          "Xiaohu Xu"
+        ],
+        "institutions": [
+          "Wuhan University",
+          "Midea Group (China)"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7213537417",
+        "doi": "10.1016/j.measurement.2026.124038",
+        "title": "A novel vibration difference-based algorithm for blade asynchronous vibration parameter identification with blade tip timing technique",
+        "published": "2026-11-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.124038",
+        "authors": [
+          "Zhenfang Fan",
+          "Yongtao Shen",
+          "Fei Guo",
+          "Jinying Huang"
+        ],
+        "institutions": [
+          "North University of China"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7239351930",
+        "doi": "10.1016/j.measurement.2026.123952",
+        "title": "CAD-guided large-FOV depth map stitching with inverse transformation fusion",
+        "published": "2026-11-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123952",
+        "authors": [
+          "Ling Cao",
+          "Zidong Lin",
+          "Jiawei Lu",
+          "Tong Hao",
+          "Yong Yang",
+          "冯达权",
+          "Wei Jun Pan"
+        ],
+        "institutions": [
+          "Shenzhen University",
+          "Guangdong Polytechnic Normal University",
+          "Foshan University"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7239354688",
+        "doi": "10.1016/j.measurement.2026.124014",
+        "title": "Research progress and prospect of leak detection for subsea oil and gas pipelines",
+        "published": "2026-11-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.124014",
+        "authors": [
+          "Shaogang Zhang",
+          "Nina Zhang",
+          "Jiahao Liu",
+          "Jinhui Wang",
+          "北华 丛",
+          "Yubao Wang"
+        ],
+        "institutions": [
+          "Shanghai Maritime University",
+          "Tongji University",
+          "Shanghai Institute of Disaster Prevention and Relief",
+          "China Construction Eighth Engineering Division (China)"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7239374351",
+        "doi": "10.1016/j.measurement.2026.123959",
+        "title": "LiDAR-anchored depth supervision and dual-map refinement for Gaussian Splatting SLAM",
+        "published": "2026-11-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123959",
+        "authors": [
+          "Lixiong Lin",
+          "Mingjie Lu",
+          "杨统海",
+          "Yifan Shi",
+          "Zhiping Xu",
+          "Peng Chen",
+          "Jiachun Zheng"
+        ],
+        "institutions": [
+          "Jimei University"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7239393994",
+        "doi": "10.1016/j.measurement.2026.123995",
+        "title": "Rapid and non-destructive assessment of irradiated EVA/POE composites via near-infrared hyperspectral imaging",
+        "published": "2026-11-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123995",
+        "authors": [
+          "Hanfei Lin",
+          "Yibin Liao",
+          "Huiling Huang",
+          "Feibin Wu",
+          "Yueming Hu",
+          "yuhang Guo",
+          "Xin Lü",
+          "Jun Han"
+        ],
+        "institutions": [
+          "Chinese Academy of Sciences",
+          "Fujian Institute of Research on the Structure of Matter",
+          "Fuzhou University",
+          "Fujian Agriculture and Forestry University",
+          "Fujian Normal University"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7239404193",
+        "doi": "10.1016/j.measurement.2026.123930",
+        "title": "Multi-scale bidirectional Mamba and frequency domain fusion for distributed fiber optic intrusion event classification",
+        "published": "2026-11-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.123930",
+        "authors": [
+          "Xing Hu",
+          "Haodong Chen",
+          "Qianqian Duan",
+          "Xuming Huang",
+          "Linhua Jiang",
+          "Dawei Zhang"
+        ],
+        "institutions": [
+          "University of Shanghai for Science and Technology",
+          "Shanghai University of Engineering Science",
+          "University of Wisconsin–Madison",
+          "Xidian University"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      },
+      {
+        "id": "https://openalex.org/W7239411650",
+        "doi": "10.1016/j.measurement.2026.124013",
+        "title": "Straightness detection for linear guideways based on dual-criteria geometric feature extraction of 3D point clouds",
+        "published": "2026-11-01",
+        "url": "https://doi.org/10.1016/j.measurement.2026.124013",
+        "authors": [
+          "Zheng Zhang",
+          "Zijian Zhai",
+          "Dongyi Li",
+          "Xinhao CHEN",
+          "Weibo Zhang",
+          "Wenqiang Ding",
+          "Zenan Wu",
+          "Min Sun",
+          "Guang Zhang",
+          "Jiquan Li"
+        ],
+        "institutions": [
+          "Zhejiang University of Technology",
+          "Zhoushan Institute of Calibration for Quality and Technology Supervision"
+        ],
+        "journal": "Measurement",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Experimental"
+      }
+    ],
+    "Engineering Structures": [
+      {
+        "id": "https://openalex.org/W7239877786",
+        "doi": "10.1016/j.engstruct.2026.124188",
+        "title": "An efficient high-precision surrogate model for calculating the failure probability of gas pipelines",
+        "published": "2026-11-25",
+        "url": "https://doi.org/10.1016/j.engstruct.2026.124188",
+        "authors": [
+          "Li Lai",
+          "Changqing Gong",
+          "Jiapeng Fang",
+          "Aijun Wang",
+          "You Dong"
+        ],
+        "institutions": [
+          "Hong Kong Polytechnic University",
+          "Harbin Institute of Technology",
+          "Alibaba Group (China)"
+        ],
+        "journal": "Engineering Structures",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      }
+    ],
+    "Ultrasonics": [],
+    "Tunnelling and Underground Space Technology": [
+      {
+        "id": "https://openalex.org/W7239846017",
+        "doi": "10.1016/j.tust.2026.108335",
+        "title": "Consistency of optimal intensity measures in seismic fragility analysis of tunnels with various cross-sections in liquefiable soils",
+        "published": "2026-11-25",
+        "url": "https://doi.org/10.1016/j.tust.2026.108335",
+        "authors": [
+          "Zhihui Wang",
+          "Yong Yuan",
+          "Jiangxu Deng",
+          "Roberto O. Cudmani",
+          "Chaozhe Zhang",
+          "Pan Zhou"
+        ],
+        "institutions": [
+          "Technical University of Munich",
+          "Tongji University",
+          "Nanjing University of Science and Technology",
+          "Sichuan University"
+        ],
+        "journal": "Tunnelling and Underground Space Technology",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7239879279",
+        "doi": "10.1016/j.tust.2026.108331",
+        "title": "Real-time decision support for EPB-TBM operation: a case study from Shiraz Metro Line 3",
+        "published": "2026-11-25",
+        "url": "https://doi.org/10.1016/j.tust.2026.108331",
+        "authors": [
+          "Ebrahim Farrokh",
+          "Davood Lotfi"
+        ],
+        "institutions": [
+          "Amirkabir University of Technology"
+        ],
+        "journal": "Tunnelling and Underground Space Technology",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      }
+    ],
+    "Rock Mechanics and Rock Engineering": [
+      {
+        "id": "https://openalex.org/W7239885978",
+        "doi": "10.1007/s00603-026-06148-w",
+        "title": "Roles of Complex Fractured Fault Damage Zone on Injection-Induced Fault Reactivation",
+        "published": "2026-11-25",
+        "url": "https://doi.org/10.1007/s00603-026-06148-w",
+        "authors": [
+          "Xiao Yan",
+          "Haitao Yu",
+          "Fengshou Zhang"
+        ],
+        "institutions": [
+          "Tongji University",
+          "Qinghai University"
+        ],
+        "journal": "Rock Mechanics and Rock Engineering",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7239398664",
+        "doi": "10.1007/s00603-026-06067-w",
+        "title": "Analytical Solution for Seismic Response of a Near-Fault Composite Lining Tunnel with Imperfect Interfaces",
+        "published": "2026-11-24",
+        "url": "https://doi.org/10.1007/s00603-026-06067-w",
+        "authors": [
+          "Xingda Wang",
+          "Xuepeng Zhang",
+          "Yujing Jiang",
+          "Qiang Zhang",
+          "Lei Yang",
+          "Bo Li"
+        ],
+        "institutions": [
+          "Shandong University of Science and Technology",
+          "Sun Yat-sen University",
+          "Nagasaki University",
+          "Shandong University",
+          "Tongji University"
+        ],
+        "journal": "Rock Mechanics and Rock Engineering",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Analytical / Theoretical"
+      },
+      {
+        "id": "https://openalex.org/W7239400514",
+        "doi": "10.1007/s00603-026-06105-7",
+        "title": "Study on Mechanisms and Control Strategies for Water Inrush Disasters in Tabaiyi Small Spacing Tunnel",
+        "published": "2026-11-24",
+        "url": "https://doi.org/10.1007/s00603-026-06105-7",
+        "authors": [
+          "Shusen Huo",
+          "Zhigang Tao",
+          "YuFang. Zhang",
+          "GuoZhuang. Song",
+          "FengNian Wang",
+          "Xiaojie Yang",
+          "ManChao. He"
+        ],
+        "institutions": [
+          "China Academy of Railway Sciences",
+          "State Key Laboratory for Geomechanics and Deep Underground Engineering",
+          "China University of Mining and Technology - Beijing"
+        ],
+        "journal": "Rock Mechanics and Rock Engineering",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7239404852",
+        "doi": "10.1007/s00603-026-06141-3",
+        "title": "Integrated Hydrogeological Assessment of Underground Constructions in Swelling-Prone Keuper Lithologies: Insights from the Markusberg Tunnel (Luxembourg)",
+        "published": "2026-11-24",
+        "url": "https://doi.org/10.1007/s00603-026-06141-3",
+        "authors": [
+          "Jonas Dickmann",
+          "Romain Meyer",
+          "Thomas R. Rüde",
+          "Florian Amann"
+        ],
+        "institutions": [
+          "RWTH Aachen University",
+          "Greenland Government",
+          "Fraunhofer Research Institution for Energy Infrastructures and Geotechnologies IEG"
+        ],
+        "journal": "Rock Mechanics and Rock Engineering",
+        "abstract": "The construction and long-term stability of underground structures in swelling-prone lithologies pose geotechnical challenges, particularly in clay–sulfate Keuper formations. This study presents an integrated, multi-scale hydrogeological assessment of the Markusberg Tunnel (Luxembourg), a twin-tube highway tunnel affected by severe syn- and post-construction deformation and heave in clay–sulfate-rich Keuper lithology. The investigation combines hydrogeological, geological, construction-related, and geomorphological analyses to identify the mechanisms controlling swelling and associated heave. Hydrochemical analyses, drainage discharge monitoring, and mixing calculations reveal the intrusion of multiple groundwater types, including meteoric and highly saline artesian waters, into the tunnel near-field and associated excavation damage zone (EDZ), potentially contributing to ongoing heave through clay swelling, sulfate dissolution, and gypsum precipitation. Structural-geological mapping, LiDAR-based geomorphological analyses, and field surveys identified landslides near the tunnel alignment that may act as preferential infiltration pathways into low-permeability Keuper formations. The results suggest that tunnel excavation may have established a hydraulic short circuit between weathered and unweathered sulfate rocks, promoting sustained expansive reactions, local karstification, and long-term deformation. Persistent swelling points to an open hydrogeological system that enables continuous groundwater circulation and water–rock interaction in the tunnel surroundings. These findings underline the importance of multidisciplinary, multi-scale site investigations to resolve system behavior and develop effective monitoring and mitigation strategies for underground construction in swelling-prone formations.",
+        "citation_count": 0,
+        "method": "Review / Survey"
+      },
+      {
+        "id": "https://openalex.org/W7239406608",
+        "doi": "10.1007/s00603-026-06127-1",
+        "title": "A Novel Framework for Permeability Prediction of 3D Digital Rock Based on Action Recognition Methods",
+        "published": "2026-11-24",
+        "url": "https://doi.org/10.1007/s00603-026-06127-1",
+        "authors": [
+          "Shuo Zhai",
+          "Chengyong Li",
+          "Shaoyang Geng"
+        ],
+        "institutions": [
+          "Chengdu University of Technology",
+          "State Key Laboratory of Oil and Gas Reservoir Geology and Exploitation",
+          "Yangtze University"
+        ],
+        "journal": "Rock Mechanics and Rock Engineering",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7239409543",
+        "doi": "10.1007/s00603-026-06132-4",
+        "title": "A Unified PF-GIMP Framework for Progressive Failure Analysis of Rock Slopes from Fracture to Post-Failure Large Deformation",
+        "published": "2026-11-24",
+        "url": "https://doi.org/10.1007/s00603-026-06132-4",
+        "authors": [
+          "Chi Lv",
+          "Xiao-Ping Zhou"
+        ],
+        "institutions": [
+          "Chongqing University"
+        ],
+        "journal": "Rock Mechanics and Rock Engineering",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7239413068",
+        "doi": "10.1007/s00603-026-06143-1",
+        "title": "Multiphysics Evolution Patterns and Efficiency Enhancement Mechanisms of High-Energy Elliptical Laser Beam-Assisted Cutters Scraping for Rock Breaking",
+        "published": "2026-11-24",
+        "url": "https://doi.org/10.1007/s00603-026-06143-1",
+        "authors": [
+          "Ke Chen",
+          "Zixiang Guo",
+          "Zhiqiang Huang",
+          "康民强 Kang Minqiang",
+          "Chunyan Kong",
+          "Zhu Weibing"
+        ],
+        "institutions": [
+          "Xihua University",
+          "Southwest Petroleum University",
+          "China Academy of Engineering Physics",
+          "Laser Fusion Research Center"
+        ],
+        "journal": "Rock Mechanics and Rock Engineering",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7239414858",
+        "doi": "10.1007/s00603-026-06150-2",
+        "title": "A Spatial Consistency-Optimized SEC-Style Method for Discontinuity Segmentation of Rock Mass Point Clouds",
+        "published": "2026-11-24",
+        "url": "https://doi.org/10.1007/s00603-026-06150-2",
+        "authors": [
+          "Shuqi Ma",
+          "xu yuanzhen",
+          "Liang Yuan",
+          "Biao Leng",
+          "Jiazheng Chen",
+          "Xiangchen Yao",
+          "Zhaoyuan Zhang"
+        ],
+        "institutions": [
+          "Anhui University of Science and Technology",
+          "Southwest Jiaotong University"
+        ],
+        "journal": "Rock Mechanics and Rock Engineering",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7239424925",
+        "doi": "10.1007/s00603-026-06162-y",
+        "title": "Discontinuous Deformation Analysis of Earthquake-Induced Deformation and Anchorage Effects in the Right-Bank Slope at Dagangshan Hydropower Station",
+        "published": "2026-11-24",
+        "url": "https://doi.org/10.1007/s00603-026-06162-y",
+        "authors": [
+          "Guoyang Liu",
+          "Sen Zhang",
+          "Ke Ma",
+          "Zhiliang Gao",
+          "Hu Ke",
+          "Yunpeng Zhao",
+          "Shuonan Wang"
+        ],
+        "institutions": [
+          "Shenyang University of Technology",
+          "Dalian University of Technology",
+          "State Key Laboratory of Coastal and Offshore Engineering"
+        ],
+        "journal": "Rock Mechanics and Rock Engineering",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Other"
+      },
+      {
+        "id": "https://openalex.org/W7239425210",
+        "doi": "10.1007/s00603-026-05870-9",
+        "title": "Influence Mechanism of Primary Fractures on Rock Breakage by Blasting in Deep Rock Masses: Experiments and Simulations",
+        "published": "2026-11-24",
+        "url": "https://doi.org/10.1007/s00603-026-05870-9",
+        "authors": [
+          "Ming Zou",
+          "Zheming Zhu",
+          "Meng Wang",
+          "Li Ren",
+          "Haijun Yu"
+        ],
+        "institutions": [
+          "Sichuan University",
+          "State Key Laboratory of Hydraulics and Mountain River Engineering"
+        ],
+        "journal": "Rock Mechanics and Rock Engineering",
+        "abstract": "Abstract not available.",
+        "citation_count": 0,
+        "method": "Hybrid"
+      }
+    ]
+  }
+}
